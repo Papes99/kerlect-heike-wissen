@@ -1,22 +1,21 @@
-# Prüfauftrag — Gegenprüfung Heike-Wissenspakete
+# Prüfauftrag für Gegenprüfer
 
-Rolle: Gegenprüfer für Wissenspakete von Heike (Kerlect, OP-Standards aus Springer-Sicht).
+Für jedes Paket in `pakete/`, dessen Version in `pruefung/STATUS.json` nicht „geprüft“ ist:
 
-## Ablauf bei jedem Lauf
+1. **Quellen:** Jede Zeile mit `"sicherheit":"belegt"` in der angegebenen Quelle nachlesen (Seite/Abschnitt). Ergebnis: bestätigt / zu weit gefasst / nicht gefunden.
+2. **Fehler:** falsche, veraltete oder gefährliche Aussagen mit Begründung und Quelle.
+3. **Lücken:** was für die Springer-Vorbereitung fehlt (Geräte, Lagerung, Abdeckung, Siebe, Material mit Menge, Naht mit Stärke/Nadel/Schicht).
+4. **Einträge** für Korrekturen/Ergänzungen im Paket-Schema: `label` (≤ 40 Zeichen), `menge`, `einheit`, `spez`, `schicht`, `gilt_fuer`, `optional`, `sicherheit` (belegt/üblich/hausabhängig), `hausabhaengig`, `quelle`, `hinweis`.
 
-1. Finde in `pakete/` alle Pakete (`NNN-*.json` + `.md`), deren Version in `pruefung/STATUS.json` noch nicht als „geprüft“ steht. Gibt es keins: antworte nur „Nichts Neues“.
-2. Für jedes neue Paket:
-   - **a) QUELLEN:** Jede Zeile mit `"sicherheit":"belegt"` in der genannten Quelle nachlesen (Seite/Abschnitt nennen) → bestätigt / zu weit gefasst / nicht gefunden.
-   - **b) FEHLER:** falsche, veraltete, gefährliche Aussagen mit Begründung + Quelle.
-   - **c) LÜCKEN:** was für die Springer-Vorbereitung fehlt (Geräte, Lagerung, Abdeckung, Siebe, Material mit Menge, Naht mit Stärke/Nadel/Schicht), mit seriösen Quellen (AWMF, KRINKO/RKI, WHO, APS, DGSV, Fachgesellschaften, OP-Pflege-Fachliteratur, Hersteller-OP-Technik/IFU, öffentliche Klinik-SOPs). Keine Foren/Shops.
-   - **d) Ergänzungen/Korrekturen** als fertige JSON-Einträge im Paket-Schema (`label` ≤ 40 Zeichen, `menge`, `einheit`, `spez`, `schicht`, `gilt_fuer`, `optional`, `sicherheit`, `hausabhaengig`, `quelle`, `hinweis`).
-3. **REGELN:** Keine Medikamente mit Dosierung, keine Zement-Mischzeiten, keine HF-Wattzahlen, keine Implantatgrößen. Nichts erfinden: ohne Quelle → `quelle` null. Keine Patientendaten.
-4. **AUSGABE** (genau so):
+**Quellen nur seriös:** AWMF, KRINKO/RKI, WHO, APS, DGSV, Fachgesellschaften, OP-Pflege-Fachliteratur, Hersteller-OP-Techniken/IFU, öffentliche Klinik-SOPs, AMBOSS. Keine Foren, keine Shops.
 
-### PRÜFUNG \<Paket-ID\> v\<Version\> – \<Datum\>
+**Verboten:** Medikamente mit Dosierung, Zement-Mischzeiten, HF-Wattzahlen, Implantatgrößen, Patientendaten. Nichts erfinden – ohne Quelle `quelle: null`.
 
+**Ausgabeformat:**
+```
+### PRÜFUNG <paket> v<version> – <Datum>
 Tabelle „belegt“-Prüfung · Fehlerliste · Lückenliste
-
 ```json
 {"paket":"…","version":"…","geprueft_am":"…","korrekturen":[…],"ergaenzungen":[…],"quellen_neu":[…]}
+```
 ```

@@ -1,0 +1,1103 @@
+{
+ "paket": "heike-wissen-000",
+ "typ": "grundwissen",
+ "version": "1.0",
+ "stand": "2026-10-06",
+ "autor": "Claude (KI) – Entwurf, Gegenprüfung (Grok/Astra) + klinisches Review Julian offen",
+ "gilt_fuer_eingriffe": "alle",
+ "situationen": [
+  {
+   "id": "alle",
+   "label": "alle Eingriffe"
+  },
+  {
+   "id": "hf_mono",
+   "label": "monopolare HF-Chirurgie"
+  },
+  {
+   "id": "hf_bi",
+   "label": "bipolare HF-Chirurgie"
+  },
+  {
+   "id": "implantat",
+   "label": "Implantat geplant"
+  },
+  {
+   "id": "zement",
+   "label": "Knochenzement geplant"
+  },
+  {
+   "id": "bildwandler",
+   "label": "Bildwandler/Röntgen geplant"
+  },
+  {
+   "id": "praeparat",
+   "label": "Präparat/Histologie angeordnet"
+  },
+  {
+   "id": "blutsperre",
+   "label": "Blutsperre/-leere geplant"
+  },
+  {
+   "id": "seitenlage",
+   "label": "Seitenlage"
+  },
+  {
+   "id": "steinschnitt",
+   "label": "Steinschnittlage"
+  },
+  {
+   "id": "bauchlage",
+   "label": "Bauchlage"
+  },
+  {
+   "id": "laparoskopie",
+   "label": "Laparoskopie"
+  },
+  {
+   "id": "notfall",
+   "label": "Notfalleingriff"
+  }
+ ],
+ "regeln_fuer_heike": [
+  "Keine Medikamente mit Dosierung, keine Zement-Mischzeiten, keine HF-Einstellungen, keine Implantatgrößen.",
+  "Nichts als Hausstandard ausgeben; Vorschläge sind Vorschläge, gespeichert wird nur Angetipptes/Getipptes.",
+  "Springer-Sicht: bereitstellen, anreichen, ansagen, dokumentieren – keine OP-Technik.",
+  "Patientendaten nie verarbeiten oder speichern; Fotos ohne Personen/Identifikatoren.",
+  "Sicherheitsregeln (Time-out, Zählung, Implantat auf Ansage) nie wegen Tempo weglassen.",
+  "Bei Zähldifferenz, unklarer Seite oder unklarem Implantat: STOPP empfehlen, nie selbst entscheiden.",
+  "Heike ist eine KI und behauptet keine eigene Berufserfahrung."
+ ],
+ "merge_regeln": [
+  "Paket 000 gilt für jeden Eingriff; Eingriffspakete (001 ff.) ergänzen und präzisieren.",
+  "Gleiche Bedeutung in 000 und Eingriffspaket: Eingriffspaket gewinnt, 000-Eintrag ausblenden.",
+  "Situations-IDs (hf_mono, implantat, zement …) werden aus Eingriffspaket/Variante/Nutzerantwort abgeleitet; nur passende 000-Chips zeigen.",
+  "000-Sicherheitspunkte (count, facts) erscheinen in jedem Standard als Vorschlag im passenden Abschnitt und im Abschluss-Check."
+ ],
+ "abschnitte": {
+  "facts": [
+   {
+    "label": "Patientenidentität geprüft",
+    "menge": null,
+    "einheit": null,
+    "spez": "Armband + Rückfrage",
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": false,
+    "quelle": "q_who"
+   },
+   {
+    "label": "Eingriffsort markiert und sichtbar",
+    "menge": null,
+    "einheit": null,
+    "spez": "Markierung nach Lagerung/Abdeckung prüfbar",
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": false,
+    "quelle": "q_kvwl"
+   },
+   {
+    "label": "Sign-in",
+    "menge": null,
+    "einheit": null,
+    "spez": "vor Narkoseeinleitung",
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": false,
+    "quelle": "q_who"
+   },
+   {
+    "label": "Team-Time-out",
+    "menge": null,
+    "einheit": null,
+    "spez": "vor dem Schnitt, hörbar, ganzes Team",
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": false,
+    "quelle": "q_who"
+   },
+   {
+    "label": "Sign-out",
+    "menge": null,
+    "einheit": null,
+    "spez": "vor Verlassen des Saals, inkl. Zählergebnis",
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": false,
+    "quelle": "q_who"
+   },
+   {
+    "label": "Allergien/Unverträglichkeiten erfragt",
+    "menge": null,
+    "einheit": null,
+    "spez": "produktbezogen (z. B. Desinfektion, Latex, Pflaster)",
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null
+   },
+   {
+    "label": "Implantat laut Planung bestätigt",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "implantat"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null
+   }
+  ],
+  "room": [
+   {
+    "label": "OP-Tisch + Zubehör für Lagerung",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null
+   },
+   {
+    "label": "HF-Gerät funktionsgeprüft",
+    "menge": null,
+    "einheit": null,
+    "spez": "Einstellungen nur laut Operateur/IFU",
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null
+   },
+   {
+    "label": "Neutralelektrode",
+    "menge": 1,
+    "einheit": "Stk",
+    "spez": "nur bei monopolar",
+    "gilt_fuer": [
+     "hf_mono"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null
+   },
+   {
+    "label": "Bipolare Pinzette + Kabel",
+    "menge": 1,
+    "einheit": "Stk",
+    "spez": null,
+    "gilt_fuer": [
+     "hf_bi"
+    ],
+    "optional": true,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null
+   },
+   {
+    "label": "Sauger funktionsgeprüft",
+    "menge": 1,
+    "einheit": "Stk",
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null
+   },
+   {
+    "label": "Wärmesystem",
+    "menge": null,
+    "einheit": null,
+    "spez": "z. B. Warmluftdecke",
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null
+   },
+   {
+    "label": "OP-Licht ausgerichtet + Lichtgriffe",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "üblich",
+    "hausabhaengig": false,
+    "quelle": null
+   },
+   {
+    "label": "Bildwandler + Röntgenschürzen",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "bildwandler"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null
+   },
+   {
+    "label": "Dosimeter/Strahlenschutz laut Haus",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "bildwandler"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null
+   },
+   {
+    "label": "Blutsperren-Gerät + Manschette",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "blutsperre"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null
+   },
+   {
+    "label": "Laparoskopie-Turm + CO₂ geprüft",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "laparoskopie"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null
+   },
+   {
+    "label": "Notfallausstattung erreichbar",
+    "menge": null,
+    "einheit": null,
+    "spez": "laut Haus",
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null
+   }
+  ],
+  "position": [
+   {
+    "label": "Druckstellen gepolstert",
+    "menge": null,
+    "einheit": null,
+    "spez": "Fersen, Sakrum, Ellenbogen, Knochenvorsprünge",
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null
+   },
+   {
+    "label": "Arme gesichert, nicht überstreckt",
+    "menge": null,
+    "einheit": null,
+    "spez": "Nervenschutz Plexus/Ulnaris",
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null
+   },
+   {
+    "label": "Neutralelektrode-Ort",
+    "menge": null,
+    "einheit": null,
+    "spez": "gut durchblutete Muskulatur, nicht über Knochen/Narbe/Metall, vollflächig",
+    "gilt_fuer": [
+     "hf_mono"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null
+   },
+   {
+    "label": "Kein Hautkontakt zu Metallteilen",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "hf_mono"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null
+   },
+   {
+    "label": "Seitenstützen/Polster stabil",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "seitenlage"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null
+   },
+   {
+    "label": "Hüftbeugung >90° lange vermeiden",
+    "menge": null,
+    "einheit": null,
+    "spez": "Steinschnitt, vaginale Eingriffe",
+    "gilt_fuer": [
+     "steinschnitt"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": false,
+    "quelle": "q_lag"
+   },
+   {
+    "label": "Gesicht/Augen/Brust geschützt",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "bauchlage"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null
+   },
+   {
+    "label": "Lagerung dokumentiert",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null
+   }
+  ],
+  "draping": [
+   {
+    "label": "Sterile Tische erst kurz vor Beginn",
+    "menge": null,
+    "einheit": null,
+    "spez": "bis Schnitt steril abgedeckt",
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": false,
+    "quelle": "q_krinko"
+   },
+   {
+    "label": "Hautdesinfektion laut Haus",
+    "menge": null,
+    "einheit": null,
+    "spez": "Produkt + Einwirkzeit nach IFU",
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null
+   },
+   {
+    "label": "Abdeckung flüssigkeitsdicht",
+    "menge": null,
+    "einheit": null,
+    "spez": "passend zum Eingriff",
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null
+   },
+   {
+    "label": "Keine nicht imprägnierte Inzisionsfolie",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": true,
+    "sicherheit": "belegt",
+    "hausabhaengig": false,
+    "quelle": "q_krinko"
+   },
+   {
+    "label": "Türbewegungen/Saalverkehr gering",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": false,
+    "quelle": "q_krinko"
+   }
+  ],
+  "count": [
+   {
+    "label": "Zählen vor Beginn",
+    "menge": null,
+    "einheit": null,
+    "spez": "alle eingesetzten Materialien",
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": false,
+    "quelle": "q_aps"
+   },
+   {
+    "label": "Ergänztes Material sofort zählen",
+    "menge": null,
+    "einheit": null,
+    "spez": "Vier-Augen-Prinzip",
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": false,
+    "quelle": "q_aps"
+   },
+   {
+    "label": "Zählen bei Teamwechsel",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": false,
+    "quelle": "q_aps"
+   },
+   {
+    "label": "Zählen vor Wund-/Höhlenverschluss",
+    "menge": null,
+    "einheit": null,
+    "spez": "Zeitpunkte laut Haus-Zählplan",
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": true,
+    "quelle": "q_aps"
+   },
+   {
+    "label": "Abschlusszählung + Entsorgungskontrolle",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": false,
+    "quelle": "q_aps"
+   },
+   {
+    "label": "Kompressen, Tupfer, Bauchtücher",
+    "menge": null,
+    "einheit": null,
+    "spez": "röntgenkontrastgestreift",
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": false,
+    "quelle": "q_aps"
+   },
+   {
+    "label": "Nadeln, Klingen, Clips, Drahtteile",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": false,
+    "quelle": "q_aps"
+   },
+   {
+    "label": "Instrumente + Zusatzinstrumente",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": false,
+    "quelle": "q_aps"
+   },
+   {
+    "label": "Beabsichtigt belassenes Material doku",
+    "menge": null,
+    "einheit": null,
+    "spez": "z. B. Tamponade, Drainage, Implantat",
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": false,
+    "quelle": "q_aps"
+   },
+   {
+    "label": "Differenz: STOPP + sofort melden",
+    "menge": null,
+    "einheit": null,
+    "spez": "weiteres Vorgehen laut Operateur/Haus",
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": true,
+    "quelle": "q_aps"
+   },
+   {
+    "label": "Zählprotokoll dokumentiert",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": false,
+    "quelle": "q_aps"
+   }
+  ],
+  "implants": [
+   {
+    "label": "Implantat erst auf Ansage öffnen",
+    "menge": null,
+    "einheit": null,
+    "spez": "Typ, Seite, Größe laut wiederholen",
+    "gilt_fuer": [
+     "implantat"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null
+   },
+   {
+    "label": "Verpackung/Verfall prüfen",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "implantat"
+    ],
+    "optional": false,
+    "sicherheit": "üblich",
+    "hausabhaengig": false,
+    "quelle": null
+   },
+   {
+    "label": "Implantat-Etiketten in Doku",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "implantat"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null
+   },
+   {
+    "label": "Implantatpass laut Haus",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "implantat"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null
+   },
+   {
+    "label": "Anästhesie vor Zement informieren",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "zement"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": false,
+    "quelle": "q_amboss"
+   },
+   {
+    "label": "Zement nach Hersteller-IFU",
+    "menge": null,
+    "einheit": null,
+    "spez": "keine Mischzeiten in Kerlect",
+    "gilt_fuer": [
+     "zement"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null
+   },
+   {
+    "label": "Medikamente am Tisch nur laut Anordnung",
+    "menge": null,
+    "einheit": null,
+    "spez": "keine Dosierungen in Kerlect",
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null
+   }
+  ],
+  "workflow": [
+   {
+    "label": "Saal vorbereiten vor Einschleusen",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null
+   },
+   {
+    "label": "Material nach Bedarf anreichen + ansagen",
+    "menge": null,
+    "einheit": null,
+    "spez": "steril übergeben, mitzählen",
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": false,
+    "quelle": "q_aps"
+   },
+   {
+    "label": "Instrumente/Material auf Ansage öffnen",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null
+   },
+   {
+    "label": "Blutsperrenzeit ansagen + dokumentieren",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "blutsperre"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null
+   },
+   {
+    "label": "Präparat sofort beschriften",
+    "menge": null,
+    "einheit": null,
+    "spez": "Patient, Lokalisation, Begleitschein",
+    "gilt_fuer": [
+     "praeparat"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null
+   },
+   {
+    "label": "Fixierung laut Pathologie-Vorgabe",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "praeparat"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null
+   },
+   {
+    "label": "Notfall: Zählung nach Haus-Regel",
+    "menge": null,
+    "einheit": null,
+    "spez": "Aussetzen/Nachzählen festgelegt",
+    "gilt_fuer": [
+     "notfall"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": true,
+    "quelle": "q_aps"
+   }
+  ],
+  "dressing": [
+   {
+    "label": "Steriler Wundverband laut Haus",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null
+   },
+   {
+    "label": "Drainagen fixiert + beschriftet",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": true,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null
+   },
+   {
+    "label": "Neutralelektrode ab, Haut kontrolliert",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "hf_mono"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null
+   },
+   {
+    "label": "Lagerungsstellen kontrolliert",
+    "menge": null,
+    "einheit": null,
+    "spez": "Hautbefund dokumentieren",
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null
+   },
+   {
+    "label": "Übergabe Aufwachraum",
+    "menge": null,
+    "einheit": null,
+    "spez": "Eingriff, Drainagen, Besonderheiten, Anordnungen",
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null
+   }
+  ],
+  "pitfalls": [
+   {
+    "label": "Markierung unter Abdeckung verschwunden",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": false,
+    "quelle": "q_kvwl"
+   },
+   {
+    "label": "Zählung bei Teamwechsel vergessen",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": false,
+    "quelle": "q_aps"
+   },
+   {
+    "label": "Implantat auf Verdacht geöffnet",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "implantat"
+    ],
+    "optional": false,
+    "sicherheit": "üblich",
+    "hausabhaengig": false,
+    "quelle": null
+   },
+   {
+    "label": "Präparat unbeschriftet",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "praeparat"
+    ],
+    "optional": false,
+    "sicherheit": "üblich",
+    "hausabhaengig": false,
+    "quelle": null
+   },
+   {
+    "label": "Tische zu früh offen",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": false,
+    "quelle": "q_krinko"
+   },
+   {
+    "label": "Neutralelektrode über Metall/Narbe",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "hf_mono"
+    ],
+    "optional": false,
+    "sicherheit": "üblich",
+    "hausabhaengig": false,
+    "quelle": null
+   },
+   {
+    "label": "Zement ohne Anästhesie-Ansage",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "zement"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": false,
+    "quelle": "q_amboss"
+   }
+  ],
+  "photos": [
+   {
+    "label": "Foto Tischaufbau ohne Patient",
+    "menge": null,
+    "einheit": null,
+    "spez": "keine Personen, keine Identifikatoren",
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": true,
+    "sicherheit": "üblich",
+    "hausabhaengig": false,
+    "quelle": null
+   }
+  ]
+ },
+ "heike_hinweise": [
+  {
+   "text": "Ist die Markierung nach dem Abdecken noch zu sehen?",
+   "quelle": "q_kvwl"
+  },
+  {
+   "text": "Ergänztes Material gleich mitzählen – vier Augen.",
+   "quelle": "q_aps"
+  },
+  {
+   "text": "Teamwechsel? Dann wird gezählt, bevor übergeben wird.",
+   "quelle": "q_aps"
+  },
+  {
+   "text": "Sterile Tische erst kurz vor Beginn öffnen und bis zum Schnitt abdecken.",
+   "quelle": "q_krinko"
+  },
+  {
+   "text": "Zement geplant? Sag der Anästhesie vor dem Einbringen Bescheid.",
+   "quelle": "q_amboss"
+  },
+  {
+   "text": "Implantat erst auf Ansage öffnen – Typ, Seite und Größe laut wiederholen.",
+   "quelle": null
+  }
+ ],
+ "typische_luecken": [
+  "Zählung bei Teamwechsel",
+  "Markierung nach Abdeckung prüfen",
+  "Präparat-Begleitschein",
+  "Implantat-Etiketten",
+  "Neutralelektrode nach OP: Haut kontrollieren",
+  "Lagerungsstellen nach OP kontrollieren"
+ ],
+ "quellen": [
+  {
+   "id": "q_who",
+   "titel": "Implementation Manual WHO Surgical Safety Checklist 2009",
+   "herausgeber": "World Health Organization",
+   "url": "https://www.who.int/docs/default-source/patient-safety/9789241598590-eng.pdf",
+   "abgerufen": "2026-10-06"
+  },
+  {
+   "id": "q_aps",
+   "titel": "Flyer „Jeder Tupfer zählt! Zählkontrolle ist Teamarbeit“",
+   "herausgeber": "Aktionsbündnis Patientensicherheit e. V.",
+   "url": "https://www.aps-ev.de/wp-content/uploads/2024/06/flyer-JTZ.pdf",
+   "abgerufen": "2026-10-06"
+  },
+  {
+   "id": "q_krinko",
+   "titel": "Prävention postoperativer Wundinfektionen, Bundesgesundheitsbl 2018;61:448–473",
+   "herausgeber": "KRINKO am RKI",
+   "url": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Krankenhaushygiene/KRINKO/Empfehlungen-der-KRINKO/Device-assoziierte-postoperative-Infektionen/Downloads/Empf_postopWI.pdf?__blob=publicationFile&v=1",
+   "abgerufen": "2026-10-06"
+  },
+  {
+   "id": "q_kvwl",
+   "titel": "Handlungsempfehlung Vermeidung einer Eingriffsverwechslung, 2. Auflage 2024",
+   "herausgeber": "APS / KVWL",
+   "url": "https://www.kvwl.de/fileadmin/user_upload/pdf/Mitglieder/Qualitaetssicherung/Patientensicherheit/Vermeidung_einer_Eingriffsverwechslung.pdf",
+   "abgerufen": "2026-10-06"
+  },
+  {
+   "id": "q_lag",
+   "titel": "S2k-Leitlinie Verhinderung lagerungsbedingter Schäden in der operativen Gynäkologie (AWMF 015-077)",
+   "herausgeber": "AWMF / DGGG",
+   "url": "https://register.awmf.org/assets/guidelines/015-077l_S2k_Verhinderung_Lagerungssch%C3%A4den_Operationen_Gyn%C3%A4kologie_2021-01.pdf",
+   "abgerufen": "2026-10-06",
+   "hinweis": "gyn-spezifisch; URL aus Lieferung 003 übernehmen"
+  },
+  {
+   "id": "q_amboss",
+   "titel": "Endoprothetik des Hüftgelenks (Zementhinweis)",
+   "herausgeber": "AMBOSS GmbH",
+   "url": "https://www.amboss.com/de/wissen/endoprothetik-des-huftgelenks",
+   "abgerufen": "2026-10-06"
+  }
+ ],
+ "offen": [
+  "Neutralelektrode: Ort/Anlage laut Hersteller-IFU des Hauses – keine Normquelle ausgewertet.",
+  "Wärmemanagement: AWMF-S3 „Vermeidung perioperativer Hypothermie“ (001-018) nicht nachgelesen – deshalb ohne Quelle.",
+  "Strahlenschutz: Strahlenschutzanweisung des Hauses maßgeblich; keine Rechtsquelle ausgewertet.",
+  "Implantatpass/Dokumentationspflichten: rechtliche Grundlage (MPDG/MPBetreibV) nicht ausgewertet.",
+  "Pathologie: keine deutsche Leitlinie gefunden; Haus-SOP verbindlich.",
+  "Lagerungs-Leitlinie nur gynäkologisch (AWMF 015-077) – übertragbare Prinzipien, keine Orthopädie-Quelle."
+ ],
+ "julian_pruefen": [
+  "Allergie-Abfrage-Formulierung",
+  "Zählzeitpunkte laut eurem Zählplan",
+  "Neutralelektrode-Regeln",
+  "Was ihr bei Teamwechsel konkret macht",
+  "Übergabe-Inhalte Aufwachraum"
+ ]
+}

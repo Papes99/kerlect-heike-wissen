@@ -8,13 +8,17 @@
 | --- | --- |
 | `pakete/` | Wissenspakete als `NNN-name.json` + `.md` (Entwürfe) |
 | `pruefung/` | Gegenprüfung: `STATUS.json`, ggf. Berichte |
+| `eingang/` | Neue Dateien (Grok-Prüfungen, Korrekturen) – werden nicht verändert |
+| `aenderungen/` | Änderungsvorschläge von Claude zu Eingangsdateien, `INDEX.md` |
+| `archiv/` | Erste Reihe 001–004, unverändert |
 
-## Aktueller Fokus
+## Aktuelle Reihe
 
-- **004-hueft-tep-chips** — chip-fähige Vorschläge (Geräte, Lagerung, Abdeckung, Siebe, Material mit Mengen, Naht) für Hüft-TEP, Springer-Sicht.
-- 001–003 — frühere Pakete (Instrumente/Grundlagen, Springer-Materialien, Hüft-TEP narrativ).
+- **000-grundwissen** — gilt für jeden Eingriff: Sicherheit, Zählung, Sterilität, Lagerung, HF, Implantate, Präparate, Übergabe; 13 Situations-IDs.
+- **001-hueft-tep** — Hüft-TEP primär, baut auf 000 auf; Chips mit Mengen, Naht, Varianten (Fixation/Zugang).
+- 002 ff. folgen (z. B. Knie-TEP).
 
-Alle Einträge sind **`entwurf`** bis zur fachlichen Freigabe. Mengen sind Vorschläge, oft hausabhängig.
+Ablauf: Grok prüft neue Pakete → Ergebnis als Datei in `eingang/` → Claude legt abends einen Vorschlag in `aenderungen/` an → Pakete ändern sich erst nach Julians Freigabe.
 
 ## Gegenprüfung
 
