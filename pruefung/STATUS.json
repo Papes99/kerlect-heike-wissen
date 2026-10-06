@@ -1,0 +1,31 @@
+{
+  "stand": "2026-10-07",
+  "hinweis": "status offen = noch nicht gegengeprüft; geprüft = Version abgeschlossen",
+  "pakete": {
+    "001-instrumente-grundlagen": {
+      "version": "1.0.0",
+      "status": "offen",
+      "geprueft_am": null,
+      "schema": "eintraege-liste"
+    },
+    "002-springer-vorbereitung": {
+      "version": "1.0.0",
+      "status": "offen",
+      "geprueft_am": null,
+      "schema": "eintraege-liste"
+    },
+    "003-hueft-tep": {
+      "version": "1.0.0",
+      "status": "offen",
+      "geprueft_am": null,
+      "schema": "eintraege-liste"
+    },
+    "004-hueft-tep-chips": {
+      "version": "1.0.0",
+      "status": "offen",
+      "geprueft_am": null,
+      "schema": "chip-abschnitte-13",
+      "prioritaet": "primär"
+    }
+  }
+}
