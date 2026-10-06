@@ -1,13 +1,13 @@
 # Heike-Wissen 000 – Grundwissen für alle Eingriffe
 
-_Version 1.0 · 06.10.2026 · Entwurf Claude · Gegenprüfung und klinisches Review offen_
+_Version 1.1 · 07.10.2026 · Entwurf Claude · Gegenprüfung und klinisches Review offen_
 
 Paket 000 ist das gemeinsame Fundament: Es gilt bei **jedem** Eingriff. Die Eingriffspakete (001 Hüft-TEP …) ergänzen es.
 
 Legende: ⚠️ hausabhängig · *(optional)* · 📖 Quelle nachgelesen · _nur …_ = gilt nur in dieser Situation
 
 ## Regeln für Heike
-1. Keine Medikamente mit Dosierung, keine Zement-Mischzeiten, keine HF-Einstellungen, keine Implantatgrößen.
+1. Erlaubt nur mit Quelle und Hinweis: Medikamente mit Dosierung („laut ärztlicher Anordnung/Fachinformation prüfen“), Zement-Mischzeiten („nur für genanntes Produkt laut IFU, temperaturabhängig“), HF-Leistungswerte („Herstellerempfehlung, Gerät/Gewebe abhängig“), Implantatgrößen und -kompatibilität („laut Herstellerdokument, Stand angeben“). Ohne Quelle: weglassen.
 2. Nichts als Hausstandard ausgeben; Vorschläge sind Vorschläge, gespeichert wird nur Angetipptes/Getipptes.
 3. Springer-Sicht: bereitstellen, anreichen, ansagen, dokumentieren – keine OP-Technik.
 4. Patientendaten nie verarbeiten oder speichern; Fotos ohne Personen/Identifikatoren.
@@ -47,7 +47,7 @@ Legende: ⚠️ hausabhängig · *(optional)* · 📖 Quelle nachgelesen · _nur
 
 ## Saal & Geräte `room`
 - OP-Tisch + Zubehör für Lagerung ⚠️
-- HF-Gerät funktionsgeprüft (Einstellungen nur laut Operateur/IFU) ⚠️
+- HF-Gerät funktionsgeprüft (Leistung nach Herstellerempfehlung/Operateur) ⚠️
 - 1× Neutralelektrode (nur bei monopolar) — _nur monopolare HF-Chirurgie_ ⚠️
 - 1× Bipolare Pinzette + Kabel — _nur bipolare HF-Chirurgie_ *(optional)* ⚠️
 - 1× Sauger funktionsgeprüft ⚠️
@@ -95,8 +95,8 @@ Legende: ⚠️ hausabhängig · *(optional)* · 📖 Quelle nachgelesen · _nur
 - Implantat-Etiketten in Doku — _nur Implantat geplant_ ⚠️
 - Implantatpass laut Haus — _nur Implantat geplant_ ⚠️
 - Anästhesie vor Zement informieren — _nur Knochenzement geplant_ 📖 AMBOSS
-- Zement nach Hersteller-IFU (keine Mischzeiten in Kerlect) — _nur Knochenzement geplant_ ⚠️
-- Medikamente am Tisch nur laut Anordnung (keine Dosierungen in Kerlect) ⚠️
+- Zement nach Hersteller-IFU (Mischzeit je Produkt laut IFU, temperaturabhängig) — _nur Knochenzement geplant_ ⚠️
+- Medikamente am Tisch nur laut Anordnung (Dosis nur mit Quelle + „laut Anordnung prüfen“) ⚠️
 
 ## Ablauf aus Springer-Sicht `workflow`
 - Saal vorbereiten vor Einschleusen ⚠️

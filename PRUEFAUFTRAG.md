@@ -9,7 +9,9 @@ Für jedes Paket in `pakete/`, dessen Version in `pruefung/STATUS.json` nicht �
 
 **Quellen nur seriös:** AWMF, KRINKO/RKI, WHO, APS, DGSV, Fachgesellschaften, OP-Pflege-Fachliteratur, Hersteller-OP-Techniken/IFU, öffentliche Klinik-SOPs, AMBOSS. Keine Foren, keine Shops.
 
-**Verboten:** Medikamente mit Dosierung, Zement-Mischzeiten, HF-Wattzahlen, Implantatgrößen, Patientendaten. Nichts erfinden – ohne Quelle `quelle: null`.
+**Mit Quelle + Hinweis erlaubt (Regel ab 07.10.2026):** Erlaubt nur mit Quelle und Hinweis: Medikamente mit Dosierung („laut ärztlicher Anordnung/Fachinformation prüfen“), Zement-Mischzeiten („nur für genanntes Produkt laut IFU, temperaturabhängig“), HF-Leistungswerte („Herstellerempfehlung, Gerät/Gewebe abhängig“), Implantatgrößen und -kompatibilität („laut Herstellerdokument, Stand angeben“). Ohne Quelle: weglassen.
+
+**Verboten:** Patientendaten. Nichts erfinden – ohne Quelle `quelle: null`. Bei Dosierungen, Mischzeiten, HF-Werten und Implantatgrößen ist eine Quelle Pflicht; bitte besonders streng prüfen (Produkt, Version, Stand).
 
 **Ausgabeformat:**
 ```

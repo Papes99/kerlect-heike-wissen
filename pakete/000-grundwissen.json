@@ -1,8 +1,8 @@
 {
  "paket": "heike-wissen-000",
  "typ": "grundwissen",
- "version": "1.0",
- "stand": "2026-10-06",
+ "version": "1.1",
+ "stand": "2026-10-07",
  "autor": "Claude (KI) – Entwurf, Gegenprüfung (Grok/Astra) + klinisches Review Julian offen",
  "gilt_fuer_eingriffe": "alle",
  "situationen": [
@@ -60,7 +60,7 @@
   }
  ],
  "regeln_fuer_heike": [
-  "Keine Medikamente mit Dosierung, keine Zement-Mischzeiten, keine HF-Einstellungen, keine Implantatgrößen.",
+  "Erlaubt nur mit Quelle und Hinweis: Medikamente mit Dosierung („laut ärztlicher Anordnung/Fachinformation prüfen“), Zement-Mischzeiten („nur für genanntes Produkt laut IFU, temperaturabhängig“), HF-Leistungswerte („Herstellerempfehlung, Gerät/Gewebe abhängig“), Implantatgrößen und -kompatibilität („laut Herstellerdokument, Stand angeben“). Ohne Quelle: weglassen.",
   "Nichts als Hausstandard ausgeben; Vorschläge sind Vorschläge, gespeichert wird nur Angetipptes/Getipptes.",
   "Springer-Sicht: bereitstellen, anreichen, ansagen, dokumentieren – keine OP-Technik.",
   "Patientendaten nie verarbeiten oder speichern; Fotos ohne Personen/Identifikatoren.",
@@ -186,7 +186,7 @@
     "label": "HF-Gerät funktionsgeprüft",
     "menge": null,
     "einheit": null,
-    "spez": "Einstellungen nur laut Operateur/IFU",
+    "spez": "Leistung nach Herstellerempfehlung/Operateur",
     "gilt_fuer": [
      "alle"
     ],
@@ -714,7 +714,7 @@
     "label": "Zement nach Hersteller-IFU",
     "menge": null,
     "einheit": null,
-    "spez": "keine Mischzeiten in Kerlect",
+    "spez": "Mischzeit je Produkt laut IFU, temperaturabhängig",
     "gilt_fuer": [
      "zement"
     ],
@@ -727,7 +727,7 @@
     "label": "Medikamente am Tisch nur laut Anordnung",
     "menge": null,
     "einheit": null,
-    "spez": "keine Dosierungen in Kerlect",
+    "spez": "Dosis nur mit Quelle + „laut Anordnung prüfen“",
     "gilt_fuer": [
      "alle"
     ],
@@ -1099,5 +1099,12 @@
   "Neutralelektrode-Regeln",
   "Was ihr bei Teamwechsel konkret macht",
   "Übergabe-Inhalte Aufwachraum"
+ ],
+ "aenderungsprotokoll": [
+  {
+   "version": "1.1",
+   "datum": "2026-10-07",
+   "was": "Regel geändert (Julian): Dosierungen, Zement-Mischzeiten, HF-Werte und Implantatgrößen mit Quelle und Hinweis erlaubt."
+  }
  ]
 }

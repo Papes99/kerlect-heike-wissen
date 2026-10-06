@@ -25,7 +25,8 @@ Siehe [PRUEFAUFTRAG.md](PRUEFAUFTRAG.md). Status: [pruefung/STATUS.json](pruefun
 
 ## Regeln (Kurz)
 
-- Keine Medikamenten-Dosierungen, keine Zement-Mischzeiten, keine HF-Wattzahlen, keine erfundenen Implantatgrößen.
+- Erlaubt nur mit Quelle und Hinweis: Medikamente mit Dosierung („laut ärztlicher Anordnung/Fachinformation prüfen“), Zement-Mischzeiten („nur für genanntes Produkt laut IFU, temperaturabhängig“), HF-Leistungswerte („Herstellerempfehlung, Gerät/Gewebe abhängig“), Implantatgrößen und -kompatibilität („laut Herstellerdokument, Stand angeben“). Ohne Quelle: weglassen.
+- Nichts erfinden; Hausvorgaben, IFU und ärztliche Anordnung gehen immer vor.
 - Quellen: AWMF, KRINKO/RKI, WHO, APS, DGSV, Fachgesellschaften, OP-Pflege-Fachliteratur, Hersteller-IFU/OP-Technik, öffentliche Klinik-SOPs — keine Foren/Shops.
 - Keine Patientendaten.
 
