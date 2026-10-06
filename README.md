@@ -10,7 +10,6 @@
 | `pruefung/` | Gegenprüfung: `STATUS.json`, ggf. Berichte |
 | `eingang/` | Neue Dateien (Grok-Prüfungen, Korrekturen) – werden nicht verändert |
 | `aenderungen/` | Änderungsvorschläge von Claude zu Eingangsdateien, `INDEX.md` |
-| `archiv/` | Erste Reihe 001–004, unverändert |
 
 ## Aktuelle Reihe
 
