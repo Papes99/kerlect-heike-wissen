@@ -1,6 +1,8 @@
 # Umsetzung: Hüft-TEP – Implantat-Auswahl in der OP
 
-_Anweisung für Astra (Umsetzung in der Heike-App) · Claude, 07.10.2026_
+_Anweisung für Astra (Umsetzung in Kerlect) · Claude, 07.10.2026_
+
+**Astra programmiert, nur in Kerlect. Start erst, wenn Lauf 001-implantate abgeschlossen ist** (`pruefung/STATUS.json` → `pakete.001-implantate.runde = abgeschlossen`), damit Größen/REF/Regeln aus den geprüften Implantat-Dateien kommen.
 
 **Maßgeblich ist der klickbare Prototyp** `app/prototyp/hueft-implantat.html` (Live: https://claude.ai/artifact/TJH8LZJzkYndH88XUUjzpA) mit Screens `app/screens/prototyp-1.png` … `-9.png` und Video `app/screens/prototyp-ablauf.webm`. Die älteren Mockups `hueft-implantat-1…7.png` zeigen nur den Inhalt.
 
