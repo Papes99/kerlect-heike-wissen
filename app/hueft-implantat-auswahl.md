@@ -1,6 +1,8 @@
 # Umsetzung: Hüft-TEP – Implantat-Auswahl in der OP
 
-_Anweisung für Astra (Umsetzung in der Heike-App) · Claude, 07.10.2026 · Mockups: `app/screens/hueft-implantat-1.png` … `-7.png`_
+_Anweisung für Astra (Umsetzung in der Heike-App) · Claude, 07.10.2026_
+
+**Maßgeblich ist der klickbare Prototyp** `app/prototyp/hueft-implantat.html` (Live: https://claude.ai/artifact/TJH8LZJzkYndH88XUUjzpA) mit Screens `app/screens/prototyp-1.png` … `-9.png` und Video `app/screens/prototyp-ablauf.webm`. Die älteren Mockups `hueft-implantat-1…7.png` zeigen nur den Inhalt.
 
 **Ziel:** Unerfahrene OP-Pflegekräfte sehen auf einen Blick, **was bei uns möglich ist**, und klicken sich während der OP **in der echten Reihenfolge** durch die Implantate. Bei jedem Schritt zeigt Heike **nur die passenden Teile desselben Systems** – mit Größe, Offset, REF und Bild. Heike entscheidet nichts: **Der Operateur sagt an, die Pflegekraft gleicht ab.**
 
@@ -32,6 +34,25 @@ _Anweisung für Astra (Umsetzung in der Heike-App) · Claude, 07.10.2026 · Mock
 2. Weiter filtern nur mit Angaben aus der Datei (`attribute`, `regeln`): z. B. `konus`, `fixation`, Inlay-Material (Plasmafit Poly → nur PE), EU-Hinweise (X3 Eccentric 0° nicht CE).
 3. Gibt es für eine Kombination **keine** Angabe: zeigen mit Badge „offen – Operateur fragen“. Nie selbst ableiten.
 4. Gesuchtes/gescanntes Teil aus anderer Datei → Screen 6.
+
+## Bedienung und Animation (physikalisch, „satisfying“)
+Alle Bewegungen laufen über **Federn** (Masse-Feder-Dämpfer, x'' = −k·(x−Ziel) − c·v), nicht über feste Zeitkurven. Werte aus dem Prototyp:
+
+| Element | Verhalten | k / c |
+|---|---|---|
+| **Hüft-Bühne oben** | Jedes gewählte Teil fliegt an seinen Platz und rastet mit leichtem Überschwingen ein: Pfanne von links oben mit Drehung, Inlay fällt hinein, Schaft kommt von unten, Kopf fällt auf den Konus. Beim Einrasten: Ring-Welle + kurze Vibration. Die Hüfte baut sich so mit der OP mit auf. | 150 / 11 |
+| **Kopfgröße** | Bei 28/32/36 mm wächst/schrumpft der Kopf in der Bühne federnd. | 260 / 16 |
+| **Schritte wischen** | Seiten seitlich wischbar mit Schwung; am Rand gummiartiger Widerstand; vorwärts nur, wenn der Schritt erledigt ist. | 210 / 26 |
+| **Größen-Rad** | Wie ein Drehrad: ziehen, loslassen mit Trägheit, rastet auf die nächste Zahl ein; Tick-Vibration pro Zahl; Zahlen kippen 3D weg. | 240 / 24 |
+| **Schalter** (CCD, Material, Ø) | Der helle Knopf gleitet federnd unter die gewählte Option. | 300 / 24 |
+| **Antippen** | Alles Tippbare gibt beim Drücken nach (Skalierung 0,95) und federt beim Loslassen zurück. | 420 / 20 |
+| **Haken** | Kasten „ploppt“ (0,6 → 1 mit Überschwingen), Häkchen zeichnet sich. | 520 / 13 |
+| **Steril anreichen** | **Gedrückt halten** (1,1 s), Balken füllt sich; früh loslassen → federt zurück. Verhindert versehentliches Bestätigen. | 200 / 22 |
+| **Falsches Teil / gesperrter Schritt** | Karte bzw. Knopf schüttelt sich (gedämpfte Schwingung) + Doppel-Vibration. | 900 / 12 |
+
+- Material-Optik als Wiedererkennung: **Titan** grau mit Poren-Struktur, **BIOLOX delta** rosa glänzend, **CoCr** spiegelnd silber, **PE** cremeweiß. Eigene Zeichnungen, keine Herstellerbilder.
+- `prefers-reduced-motion`: alle Federn springen sofort ans Ziel, nichts fliegt.
+- Vibration nur, wo das Gerät es kann; nie als einzige Rückmeldung.
 
 ## Gestaltung für unerfahrene Kolleg:innen
 - Große Tippflächen (≥ 48 px), Größen als Chips, eine Entscheidung pro Screen.

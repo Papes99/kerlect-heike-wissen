@@ -1,0 +1,426 @@
+<title>Heike Implantat-Tablett</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: ein Handy-Bildschirm – oben die Hüfte, die sich beim Auswählen zusammenbaut, darunter ein wischbarer Schritt-Stapel */
+:root{
+  --bg:#e9efed; --card:#fbfdfc; --ink:#0f1f1d; --mut:#5a6d69; --line:#d3dedb;
+  --drape:#17625c; --drape-ink:#ffffff; --drape-soft:#d6ebe7;
+  --ok:#2e7d4f; --ok-soft:#e1f2e7; --warn:#a46200; --warn-soft:#fbefd6; --bad:#b3261e; --bad-soft:#fbe4e1;
+  --bone:#e7dcc6; --bone-line:#c9bb9f; --ti:#9aa4a9; --ti-dark:#6f7b81; --pe:#f3efe2; --cer:#e7a7b5; --cer-dark:#c97d8f; --cocr:#c5ccd1;
+  --shadow:0 1px 0 rgba(15,31,29,.04),0 8px 24px -12px rgba(15,31,29,.28);
+  --f-disp:"Bricolage Grotesque","Figtree",system-ui,sans-serif;
+  --f-body:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0b1413; --card:#13201e; --ink:#e4eeec; --mut:#93a6a2; --line:#24342f;
+  --drape:#3fa79c; --drape-ink:#04110f; --drape-soft:#173a36;
+  --ok:#5cc489; --ok-soft:#14301f; --warn:#e3a43f; --warn-soft:#33260c; --bad:#ff7d72; --bad-soft:#3a1714;
+  --bone:#3a352b; --bone-line:#5a523f; --pe:#e9e4d4;
+  --shadow:0 1px 0 rgba(0,0,0,.3),0 10px 28px -12px rgba(0,0,0,.7); color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0b1413; --card:#13201e; --ink:#e4eeec; --mut:#93a6a2; --line:#24342f;
+  --drape:#3fa79c; --drape-ink:#04110f; --drape-soft:#173a36;
+  --ok:#5cc489; --ok-soft:#14301f; --warn:#e3a43f; --warn-soft:#33260c; --bad:#ff7d72; --bad-soft:#3a1714;
+  --bone:#3a352b; --bone-line:#5a523f; --pe:#e9e4d4;
+  --shadow:0 1px 0 rgba(0,0,0,.3),0 10px 28px -12px rgba(0,0,0,.7); color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box}
+html,body{height:100%}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;padding-inline:0;-webkit-tap-highlight-color:transparent}
+.app{max-width:430px;height:100%;margin:0 auto;display:flex;flex-direction:column;overflow:hidden;position:relative;user-select:none;-webkit-user-select:none}
+header{padding:14px 16px 6px;display:flex;align-items:flex-end;gap:10px}
+header .eyebrow{font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--mut);font-weight:600}
+header h1{font-family:var(--f-disp);font-weight:800;font-size:23px;line-height:1.05;text-wrap:balance}
+header .sp{flex:1}
+.proto{font-size:10.5px;font-weight:700;color:var(--drape);background:var(--drape-soft);border-radius:999px;padding:4px 8px;white-space:nowrap}
+.stage{position:relative;height:200px;margin:0 16px;border-radius:22px;background:radial-gradient(120% 90% at 50% 0%,var(--card) 0%,var(--bg) 100%);border:1px solid var(--line);overflow:hidden;flex-shrink:0}
+.stage svg{position:absolute;inset:0;width:100%;height:100%}
+.stage .tag{position:absolute;left:12px;bottom:10px;font-size:12px;color:var(--mut);font-weight:600}
+.stage .tag b{color:var(--ink)}
+.prog{display:flex;gap:5px;padding:12px 16px 4px}
+.seg{flex:1;height:6px;border-radius:3px;background:var(--line);overflow:hidden}
+.seg i{display:block;height:100%;width:100%;background:var(--drape);transform-origin:left;transform:scaleX(0);border-radius:3px}
+.seglab{display:flex;gap:5px;padding:0 16px;font-size:11px;color:var(--mut);font-weight:600}
+.seglab span{flex:1;text-align:center}
+.seglab span.on{color:var(--drape)}
+.viewport{flex:1;overflow:hidden;position:relative;touch-action:pan-y}
+.track{display:flex;height:100%;will-change:transform}
+.screen{flex:0 0 100%;height:100%;overflow-y:auto;padding:12px 16px 120px;display:flex;flex-direction:column;gap:12px}
+.screen h2{font-family:var(--f-disp);font-weight:800;font-size:20px;text-wrap:balance}
+.lead{color:var(--mut);font-size:14px;line-height:1.4}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:14px;box-shadow:var(--shadow)}
+.press{cursor:pointer;will-change:transform}
+.sys{display:flex;align-items:center;gap:12px}
+.sys .mat{width:46px;height:46px;border-radius:14px;flex-shrink:0}
+.sys .t{font-weight:700;font-size:16px}
+.sys .s{font-size:12.5px;color:var(--mut);margin-top:2px}
+.pills{display:flex;gap:5px;flex-wrap:wrap;margin-top:6px}
+.pill{font-size:11px;font-weight:700;padding:3px 8px;border-radius:999px;background:var(--line);color:var(--mut)}
+.pill.ok{background:var(--ok-soft);color:var(--ok)}.pill.warn{background:var(--warn-soft);color:var(--warn)}.pill.bad{background:var(--bad-soft);color:var(--bad)}
+.heike{display:flex;gap:10px;align-items:flex-start;font-size:13.5px;line-height:1.4;padding:12px 14px;border-radius:16px;background:var(--drape-soft)}
+.heike .av{width:26px;height:26px;border-radius:50%;background:var(--drape);color:var(--drape-ink);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:12px;flex-shrink:0;font-family:var(--f-disp)}
+.part{display:flex;gap:12px;align-items:center}
+.part svg{flex-shrink:0}
+.part .t{font-weight:700;font-size:16px}
+.part .s{font-size:12.5px;color:var(--mut)}
+.ref{font-family:var(--f-mono);font-size:11.5px;color:var(--mut);margin-top:3px}
+.lbl{font-size:11px;letter-spacing:.08em;text-transform:uppercase;font-weight:700;color:var(--mut)}
+/* Wheel */
+.wheelwrap{display:flex;align-items:center;gap:14px}
+.wheel{position:relative;height:176px;width:110px;overflow:hidden;border-radius:16px;background:var(--bg);touch-action:none;cursor:grab;flex-shrink:0}
+.wheel::before{content:"";position:absolute;left:6px;right:6px;top:66px;height:44px;border-radius:12px;background:var(--card);box-shadow:var(--shadow);border:1.5px solid var(--drape)}
+.wheel .col{position:absolute;left:0;right:0;top:0;will-change:transform}
+.wheel .it{height:44px;display:flex;align-items:center;justify-content:center;font-family:var(--f-disp);font-weight:800;font-size:22px;font-variant-numeric:tabular-nums;position:relative}
+.wheel .fade{position:absolute;inset:0;pointer-events:none;background:linear-gradient(var(--bg),transparent 30%,transparent 70%,var(--bg))}
+.wheelinfo{font-size:13px;color:var(--mut);line-height:1.4}
+.wheelinfo b{color:var(--ink);font-size:30px;font-family:var(--f-disp);display:block;font-variant-numeric:tabular-nums;line-height:1.1}
+/* Segmented */
+.segm{display:flex;background:var(--bg);border-radius:14px;padding:4px;position:relative}
+.segm button{flex:1;position:relative;z-index:1;border:0;background:none;font:inherit;font-weight:700;font-size:14px;padding:10px 4px;color:var(--mut);cursor:pointer;border-radius:10px}
+.segm button.on{color:var(--ink)}
+.segm button:disabled{opacity:.45;cursor:not-allowed}
+.segm .knob{position:absolute;top:4px;bottom:4px;left:0;border-radius:10px;background:var(--card);box-shadow:var(--shadow);will-change:transform,width}
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chip{min-width:58px;padding:12px 8px;border-radius:14px;border:1.5px solid var(--line);background:var(--card);font-family:var(--f-disp);font-weight:800;font-size:18px;text-align:center;cursor:pointer;font-variant-numeric:tabular-nums;color:var(--ink)}
+.chip.on{background:var(--drape);border-color:var(--drape);color:var(--drape-ink)}
+.chip small{display:block;font-family:var(--f-body);font-size:10px;font-weight:600;opacity:.75}
+/* Buttons */
+.dock{position:absolute;left:0;right:0;bottom:0;padding:14px 16px calc(16px + env(safe-area-inset-bottom,0px));background:linear-gradient(transparent,var(--bg) 30%);display:flex;gap:10px;z-index:5}
+.btn{flex:1;border:0;font:inherit;font-weight:700;font-size:16px;padding:16px;border-radius:18px;background:var(--drape);color:var(--drape-ink);cursor:pointer;box-shadow:0 10px 24px -10px var(--drape)}
+.btn.ghost{flex:0 0 auto;background:var(--card);color:var(--ink);box-shadow:var(--shadow);border:1px solid var(--line)}
+.btn:disabled{opacity:.4;box-shadow:none;cursor:not-allowed}
+.btn:focus-visible,.chip:focus-visible,.segm button:focus-visible,.press:focus-visible{outline:3px solid var(--warn);outline-offset:2px}
+/* Check */
+.chk{display:flex;gap:12px;align-items:center;padding:12px 0;border-bottom:1px solid var(--line);cursor:pointer;font-size:14.5px;line-height:1.35}
+.chk:last-child{border:0}
+.box{width:28px;height:28px;border-radius:9px;border:2px solid var(--line);flex-shrink:0;display:flex;align-items:center;justify-content:center;will-change:transform}
+.chk.on .box{background:var(--ok);border-color:var(--ok)}
+.box svg path{stroke:var(--card);stroke-width:3.2;fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:20;stroke-dashoffset:20}
+.hold{position:relative;overflow:hidden}
+.hold .fill{position:absolute;inset:0;background:var(--ok);transform-origin:left;transform:scaleX(0)}
+.hold span{position:relative}
+.warnbox{background:var(--warn-soft);border:1px solid color-mix(in srgb,var(--warn) 35%,transparent);border-radius:16px;padding:12px 14px;font-size:13.5px;line-height:1.4}
+.warnbox b{color:var(--warn)}
+.badbox{background:var(--bad-soft);border:1.5px solid var(--bad);border-radius:16px;padding:14px;font-size:14px;line-height:1.4}
+.badbox .h{color:var(--bad);font-weight:800;font-size:17px;font-family:var(--f-disp)}
+.sum{display:flex;gap:12px;align-items:center;padding:10px 0;border-bottom:1px solid var(--line)}
+.sum:last-child{border:0}
+.sum .n{width:26px;height:26px;border-radius:50%;background:var(--ok);color:var(--card);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:13px;flex-shrink:0}
+.sum .t{font-weight:700}
+.toast{position:absolute;left:16px;right:16px;bottom:96px;background:var(--ink);color:var(--bg);border-radius:14px;padding:12px 14px;font-size:13.5px;z-index:9;transform:translateY(140px);will-change:transform}
+.mini{font-size:12px;color:var(--mut)}
+@media (prefers-reduced-motion: reduce){*{scroll-behavior:auto}}
+</style>
+
+<div class="app" id="app">
+  <header>
+    <div>
+      <div class="eyebrow" id="eyebrow">Heike · Hüft-TEP</div>
+      <h1 id="title">Implantat-Tablett</h1>
+    </div>
+    <div class="sp"></div>
+    <span class="proto">Prototyp</span>
+  </header>
+
+  <div class="stage" aria-label="Hüfte, baut sich beim Auswählen zusammen">
+    <svg viewBox="0 0 360 200" role="img" aria-hidden="true">
+      <defs>
+        <radialGradient id="gCer" cx="38%" cy="32%" r="70%"><stop offset="0" stop-color="#fff"/><stop offset=".18" stop-color="var(--cer)"/><stop offset="1" stop-color="var(--cer-dark)"/></radialGradient>
+        <radialGradient id="gCocr" cx="38%" cy="32%" r="70%"><stop offset="0" stop-color="#fff"/><stop offset=".25" stop-color="var(--cocr)"/><stop offset="1" stop-color="#7d878e"/></radialGradient>
+        <linearGradient id="gTi" x1="0" x2="1"><stop offset="0" stop-color="var(--ti-dark)"/><stop offset=".45" stop-color="#d9dfe2"/><stop offset="1" stop-color="var(--ti-dark)"/></linearGradient>
+        <linearGradient id="gPe" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#fffdf6"/><stop offset="1" stop-color="var(--pe)"/></linearGradient>
+        <pattern id="porous" width="5" height="5" patternUnits="userSpaceOnUse"><rect width="5" height="5" fill="var(--ti)"/><circle cx="2.5" cy="2.5" r="1.1" fill="var(--ti-dark)"/></pattern>
+      </defs>
+      <!-- Becken + Femur (Knochen, statisch) -->
+      <path d="M40 18 C110 4 210 6 248 40 C266 58 262 92 244 112 L206 126 C192 98 168 88 150 92 C128 96 116 112 112 126 L70 108 C46 92 30 60 40 18Z" fill="var(--bone)" stroke="var(--bone-line)" stroke-width="1.5"/>
+      <path d="M150 190 L168 140 C174 128 186 124 196 130 L214 142 C222 150 218 162 212 170 L200 200 Z" fill="var(--bone)" stroke="var(--bone-line)" stroke-width="1.5" opacity=".75"/>
+      <text x="58" y="40" font-size="11" fill="var(--mut)" font-family="Figtree,sans-serif" font-weight="600">Becken</text>
+      <text x="300" y="170" font-size="11" fill="var(--mut)" font-family="Figtree,sans-serif" font-weight="600">Femur</text>
+      <!-- leere Plätze -->
+      <path id="slotCup" d="M118 122 A42 42 0 0 1 202 122" fill="none" stroke="var(--drape)" stroke-width="2" stroke-dasharray="4 5" opacity=".7"/>
+      <!-- Teile -->
+      <g id="pCup" opacity="0"><path d="M116 122 A44 44 0 0 1 204 122 L194 122 A34 34 0 0 0 126 122Z" fill="url(#porous)" stroke="var(--ti-dark)" stroke-width="1.2"/></g>
+      <g id="pLiner" opacity="0"><path d="M126 122 A34 34 0 0 1 194 122 L186 122 A26 26 0 0 0 134 122Z" fill="url(#gPe)" stroke="#cfc6ae" stroke-width="1"/></g>
+      <g id="pStem" opacity="0"><path d="M168 150 L184 132 L190 136 L200 150 C206 162 208 178 206 200 L186 200 C186 182 182 168 176 160Z" fill="url(#gTi)" stroke="var(--ti-dark)" stroke-width="1.2"/><rect x="171" y="122" width="10" height="20" rx="3" transform="rotate(-42 176 132)" fill="url(#gTi)" stroke="var(--ti-dark)"/></g>
+      <g id="pHead" opacity="0"><circle id="headC" cx="160" cy="122" r="24" fill="url(#gCer)" stroke="var(--cer-dark)" stroke-width="1"/></g>
+      <circle id="ripple" cx="160" cy="122" r="10" fill="none" stroke="var(--drape)" stroke-width="2" opacity="0"/>
+    </svg>
+    <div class="tag" id="stageTag">Noch nichts gewählt</div>
+  </div>
+
+  <div class="prog" id="prog"><div class="seg"><i></i></div><div class="seg"><i></i></div><div class="seg"><i></i></div><div class="seg"><i></i></div><div class="seg"><i></i></div></div>
+  <div class="seglab" id="seglab"><span>Pfanne</span><span>Inlay</span><span>Schaft</span><span>Kopf</span><span>Check</span></div>
+
+  <div class="viewport" id="vp">
+    <div class="track" id="track">
+      <!-- 0 System -->
+      <section class="screen" data-step="0">
+        <h2>Welches System liegt heute auf?</h2>
+        <p class="lead">Heike zeigt danach nur Teile dieses Systems. Systeme werden nie gemischt.</p>
+        <div class="card press sys" tabindex="0" data-sys="stryker">
+          <div class="mat" style="background:linear-gradient(135deg,var(--ti),var(--cer))"></div>
+          <div><div class="t">Stryker · Accolade II</div><div class="s">Trident II · X3 · V40-Köpfe</div><div class="pills"><span class="pill ok">zementfrei</span><span class="pill">kein Duokopf (EU)</span></div></div>
+        </div>
+        <div class="card press sys" tabindex="0" data-sys="other" data-name="Aesculap Excia">
+          <div class="mat" style="background:linear-gradient(135deg,var(--ti),var(--cocr))"></div>
+          <div><div class="t">Aesculap · Excia T</div><div class="s">Plasmafit · Isodur · Bipolar Cup</div><div class="pills"><span class="pill ok">zementfrei</span><span class="pill ok">zementiert</span><span class="pill warn">Duokopf: Freigabe offen</span></div></div>
+        </div>
+        <div class="card press sys" tabindex="0" data-sys="other" data-name="Smith+Nephew R3">
+          <div class="mat" style="background:linear-gradient(135deg,#4b5257,var(--cer))"></div>
+          <div><div class="t">Smith+Nephew · R3</div><div class="s">SL-PLUS MIA · SPECTRON EF · OXINIUM</div><div class="pills"><span class="pill ok">zementfrei</span><span class="pill ok">zementiert</span><span class="pill warn">Duokopf: Freigabe offen</span></div></div>
+        </div>
+        <div class="card press sys" tabindex="0" data-sys="other" data-name="Enovis twinSys">
+          <div class="mat" style="background:linear-gradient(135deg,var(--pe),var(--ti))"></div>
+          <div><div class="t">Enovis · twinSys</div><div class="s">RM Classic · seleXys PC · ccB</div><div class="pills"><span class="pill ok">zementfrei</span><span class="pill ok">zementiert</span><span class="pill warn">Werte offen</span></div></div>
+        </div>
+      </section>
+
+      <!-- 1 Pfanne -->
+      <section class="screen" data-step="1">
+        <h2>1 · Pfanne</h2>
+        <div class="card part">
+          <svg width="56" height="56" viewBox="0 0 56 56"><path d="M6 34 A22 22 0 0 1 50 34 L42 34 A14 14 0 0 0 14 34Z" fill="url(#porous)" stroke="var(--ti-dark)"/></svg>
+          <div><div class="t">Trident II Tritanium</div><div class="s">zementfrei · Markt EU/Canada</div><div class="ref">REF vom Etikett · Quelle TRITRI-SP-3 S. 2</div></div>
+        </div>
+        <div class="card">
+          <div class="lbl">Größe vom Etikett einstellen</div>
+          <div class="wheelwrap" style="margin-top:10px">
+            <div class="wheel" id="wCup" tabindex="0" aria-label="Pfannengröße in mm"><div class="col"></div><div class="fade"></div></div>
+            <div class="wheelinfo"><b id="cupVal">52 mm</b>Drehen wie am Rad.<br>Größenreihe noch nicht hinterlegt – Zahl vom Etikett.</div>
+          </div>
+        </div>
+        <div class="heike"><div class="av">H</div><div>Erst die <b>Probe</b>. Die definitive Pfanne öffnest du erst, wenn der Operateur die Größe ansagt. Größe laut wiederholen.</div></div>
+      </section>
+
+      <!-- 2 Inlay -->
+      <section class="screen" data-step="2">
+        <h2>2 · Inlay</h2>
+        <div class="card part press" tabindex="0" id="linerCard">
+          <svg width="56" height="56" viewBox="0 0 56 56"><path d="M10 34 A18 18 0 0 1 46 34 L40 34 A12 12 0 0 0 16 34Z" fill="url(#gPe)" stroke="#cfc6ae"/></svg>
+          <div><div class="t">X3 Polyethylen</div><div class="s">hochvernetztes PE · passt zu Trident II</div><div class="ref">Variante vom Etikett · TRITRI-SP-3 S. 4</div></div>
+        </div>
+        <div class="warnbox"><b>Achtung EU:</b> X3 Eccentric 0° ist laut Tabelle 1 nicht CE-gekennzeichnet. Variante auf dem Etikett genau lesen.</div>
+        <div class="heike"><div class="av">H</div><div>Inlay erst einsetzen, wenn die Pfanne sitzt und gespült ist. Tippe das Inlay an, wenn es angereicht ist.</div></div>
+      </section>
+
+      <!-- 3 Schaft -->
+      <section class="screen" data-step="3">
+        <h2>3 · Schaft</h2>
+        <div class="card part">
+          <svg width="56" height="56" viewBox="0 0 56 56"><path d="M18 20 L28 12 L32 15 L38 26 C42 36 42 46 41 54 L31 54 C31 44 29 36 25 31Z" fill="url(#gTi)" stroke="var(--ti-dark)"/></svg>
+          <div><div class="t">Accolade II</div><div class="s">zementfrei · Konus V40</div><div class="ref">Raspel → Probe → definitiv · ACCII-SP-1 S. 5</div></div>
+        </div>
+        <div class="card">
+          <div class="lbl">Schenkelhals-Winkel</div>
+          <div class="segm" id="segCcd" style="margin-top:10px"><div class="knob"></div><button class="on" data-v="132° Standard">132° Standard</button><button data-v="127° High-Offset">127° High-Offset</button></div>
+          <div class="lbl" style="margin-top:14px">Größe vom Etikett</div>
+          <div class="wheelwrap" style="margin-top:10px">
+            <div class="wheel" id="wStem" tabindex="0" aria-label="Schaftgröße"><div class="col"></div><div class="fade"></div></div>
+            <div class="wheelinfo"><b id="stemVal">Gr. 4</b>Größenreihe noch nicht hinterlegt.</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4 Kopf -->
+      <section class="screen" data-step="4">
+        <h2>4 · Kopf</h2>
+        <div class="card">
+          <div class="lbl">Material</div>
+          <div class="segm" id="segMat" style="margin-top:10px"><div class="knob"></div><button class="on" data-v="cer">BIOLOX delta</button><button data-v="cocr" disabled>CoCr (LFIT) · offen</button></div>
+          <div class="lbl" style="margin-top:14px">Durchmesser</div>
+          <div class="segm" id="segD" style="margin-top:10px"><div class="knob"></div><button data-v="28">28 mm</button><button data-v="32">32 mm</button><button class="on" data-v="36">36 mm</button></div>
+          <div class="lbl" style="margin-top:14px">Offset (Halslänge)</div>
+          <div class="chips" id="offs" style="margin-top:10px"></div>
+          <div class="ref" style="margin-top:10px">Quelle ACCII-SP-1 S. 12 · REF vom Etikett</div>
+        </div>
+        <div class="heike"><div class="av">H</div><div>Erst der <b>Probekopf</b>. Max. Kopf-Ø für diese Pfanne ist noch nicht hinterlegt – Operateur fragen.</div></div>
+        <button class="btn ghost" id="wrongBtn" style="padding:12px">Falsches Teil testen: „Isodur CoCr Kopf“</button>
+        <div class="badbox" id="badbox" hidden><div class="h">Nicht in diesem System</div>„Isodur CoCr“ gehört zu <b>Aesculap Excia</b>. Laufende OP: <b>Stryker Accolade II</b>. Gleicher Konus heißt nicht, dass es passt. Teil zurücklegen, Operateur informieren.</div>
+      </section>
+
+      <!-- 5 Check -->
+      <section class="screen" data-step="5">
+        <h2>Vor dem Öffnen</h2>
+        <p class="lead" id="checkLead"></p>
+        <div class="card" style="padding:2px 14px" id="checks">
+          <div class="chk" tabindex="0"><div class="box"><svg width="18" height="18" viewBox="0 0 18 18"><path d="M3.5 9.5l3.5 3.5 7.5-8"/></svg></div><div>Operateur hat Teil, Größe, Offset angesagt – ich habe wiederholt</div></div>
+          <div class="chk" tabindex="0"><div class="box"><svg width="18" height="18" viewBox="0 0 18 18"><path d="M3.5 9.5l3.5 3.5 7.5-8"/></svg></div><div>Probe passte – Operateur bestätigt</div></div>
+          <div class="chk" tabindex="0"><div class="box"><svg width="18" height="18" viewBox="0 0 18 18"><path d="M3.5 9.5l3.5 3.5 7.5-8"/></svg></div><div>Etikett: Hersteller, System, Größe stimmen</div></div>
+          <div class="chk" tabindex="0"><div class="box"><svg width="18" height="18" viewBox="0 0 18 18"><path d="M3.5 9.5l3.5 3.5 7.5-8"/></svg></div><div>Verfallsdatum ok · Verpackung intakt</div></div>
+          <div class="chk" tabindex="0"><div class="box"><svg width="18" height="18" viewBox="0 0 18 18"><path d="M3.5 9.5l3.5 3.5 7.5-8"/></svg></div><div>Zweite Person hat mitgelesen</div></div>
+        </div>
+        <div class="warnbox"><b>Rückruf-Hinweis:</b> BIOLOX delta V40 – Sicherheitsmeldung RA2022-2911584, nur bestimmte Chargen. Bestand mit MPB geprüft?</div>
+      </section>
+
+      <!-- 6 Fertig -->
+      <section class="screen" data-step="6">
+        <h2>Implantiert</h2>
+        <div class="card" style="padding:4px 14px" id="summary"></div>
+        <div class="card"><div class="lbl">Noch zu tun</div><div style="margin-top:6px;line-height:1.7;font-size:14px">☐ Probekomponenten vollständig zurück<br>☐ Etiketten in Doku und Implantatpass<br>☐ Zählkontrolle vor Wundverschluss</div></div>
+        <p class="mini">Prototyp: Werte nur aus implantate/stryker-accolade-ii.json. Keine Patientendaten.</p>
+      </section>
+    </div>
+  </div>
+
+  <div class="dock" id="dock">
+    <button class="btn ghost" id="back" aria-label="Zurück">←</button>
+    <button class="btn hold" id="next"><div class="fill"></div><span id="nextLbl">Weiter</span></button>
+  </div>
+  <div class="toast" id="toast"></div>
+</div>
+
+<script>
+(() => {
+const RM = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const buzz = ms => { try { navigator.vibrate && navigator.vibrate(ms) } catch(e){} };
+
+/* --- Feder-Physik: x'' = -k(x - ziel) - c·v --- */
+class Spring {
+  constructor(v, {k=180, c=18, onUpdate=()=>{}, onRest=null}={}) { this.x=v; this.v=0; this.t=v; this.k=k; this.c=c; this.on=onUpdate; this.rest=onRest; this.run=false; onUpdate(v); }
+  to(t, vel){ this.t=t; if(vel!==undefined) this.v=vel; if(RM){ this.x=t; this.v=0; this.on(t); this.rest&&this.rest(); return this;} if(!this.run){ this.run=true; this.last=performance.now(); requestAnimationFrame(this.step.bind(this)); } return this; }
+  set(x){ this.x=x; this.t=x; this.v=0; this.on(x); }
+  kick(vel){ this.v+=vel; this.to(this.t); }
+  step(now){ let dt=Math.min(0.032,(now-this.last)/1000); this.last=now;
+    for(let i=0;i<4;i++){ const h=dt/4, a=-this.k*(this.x-this.t)-this.c*this.v; this.v+=a*h; this.x+=this.v*h; }
+    this.on(this.x);
+    if(Math.abs(this.v)<0.005 && Math.abs(this.x-this.t)<0.0005){ this.x=this.t; this.v=0; this.on(this.x); this.run=false; this.rest&&this.rest(); return; }
+    requestAnimationFrame(this.step.bind(this)); }
+}
+
+/* Druck-Feedback für alles Antippbare */
+function pressable(el){ const s=new Spring(1,{k:420,c:20,onUpdate:v=>el.style.transform=`scale(${v})`});
+  el.addEventListener('pointerdown',()=>s.to(0.95)); ['pointerup','pointerleave','pointercancel'].forEach(e=>el.addEventListener(e,()=>s.to(1,2.2))); return s; }
+
+/* --- Zustand --- */
+const st = { sys:null, cup:52, liner:false, ccd:'132° Standard', stem:4, d:36, off:0, checks:[false,false,false,false,false] };
+const OFFS = {28:[-4,-2.7,0,4], 32:[-4,0,4], 36:[-5,-2.5,0,2.5,5,7.5]}; // ACCII-SP-1 S. 12
+let ready=false;
+const T=['Implantat-Tablett','Pfanne','Inlay','Schaft','Kopf','Ansage-Check','Fertig'];
+const fmt = n => (n>0?'+':n<0?'−':'')+String(Math.abs(n)).replace('.',',');
+
+/* --- Pager --- */
+const vp=document.getElementById('vp'), track=document.getElementById('track'), N=track.children.length;
+let page=0;
+const pager=new Spring(0,{k:210,c:26,onUpdate:x=>track.style.transform=`translateX(${-x*vp.clientWidth}px)`});
+const segs=[...document.querySelectorAll('.seg i')], segSpr=segs.map(i=>new Spring(0,{k:160,c:16,onUpdate:v=>i.style.transform=`scaleX(${Math.max(0,v)})`}));
+const labs=[...document.querySelectorAll('#seglab span')];
+function go(p, vel){ page=Math.max(0,Math.min(N-1,p)); pager.to(page, vel); ui(); }
+
+/* Wischen mit Schwung */
+let drag=null;
+vp.addEventListener('pointerdown',e=>{ if(e.target.closest('.wheel,.chip,.segm,.chk,.btn,.press')) return; drag={x:e.clientX,y:e.clientY,p:pager.x,t:performance.now(),lx:e.clientX,v:0,on:false}; });
+vp.addEventListener('pointermove',e=>{ if(!drag) return; const dx=e.clientX-drag.x, dy=e.clientY-drag.y;
+  if(!drag.on){ if(Math.abs(dx)>10 && Math.abs(dx)>Math.abs(dy)){ drag.on=true; vp.setPointerCapture(e.pointerId);} else if(Math.abs(dy)>10){ drag=null; return;} else return; }
+  const now=performance.now(); drag.v=(e.clientX-drag.lx)/Math.max(1,now-drag.t); drag.lx=e.clientX; drag.t=now;
+  let p=drag.p-dx/vp.clientWidth; const max=maxPage(); if(p<0) p*=0.35; if(p>max) p=max+(p-max)*0.35; pager.set(p); });
+vp.addEventListener('pointerup',()=>{ if(!drag) return; if(drag.on){ const v=-drag.v*1000/vp.clientWidth; let tgt=Math.round(pager.x+v*0.18); tgt=Math.min(tgt,maxPage()); go(tgt, v); } drag=null; });
+function maxPage(){ return canNext() ? Math.min(page+1,5) : page; }
+
+/* --- Bühne: Teile bauen sich zusammen --- */
+const $=id=>document.getElementById(id);
+const parts={
+  cup:{el:$('pCup'), from:[-120,-60,-35]}, liner:{el:$('pLiner'), from:[0,-130,0]}, stem:{el:$('pStem'), from:[40,160,18]}, head:{el:$('pHead'), from:[-40,-150,-90]}
+};
+for(const k in parts){ const P=parts[k]; P.s=new Spring(0,{k:150,c:11,onUpdate:v=>{ const [dx,dy,r]=P.from, q=1-v; P.el.setAttribute('transform',`translate(${dx*q} ${dy*q}) rotate(${r*q} 160 122)`); P.el.setAttribute('opacity',Math.min(1,Math.max(0,v*2.2))); }}); P.on=false; }
+const ripple=document.getElementById('ripple');
+const rip=new Spring(0,{k:60,c:9,onUpdate:v=>{ ripple.setAttribute('r',10+v*46); ripple.setAttribute('opacity',Math.max(0,0.8*(1-v))); }});
+function place(k,on){ const P=parts[k]; if(P.on===on) return; P.on=on; P.s.to(on?1:0, on?0:0); if(on){ setTimeout(()=>{ rip.set(0); rip.to(1); buzz(12); }, RM?0:260); } }
+const headC=document.getElementById('headC');
+const headR=new Spring(24,{k:260,c:16,onUpdate:v=>headC.setAttribute('r',v)});
+
+/* --- Rad mit Trägheit und Einrasten --- */
+function wheel(el, values, start, onPick){
+  const col=el.querySelector('.col'), H=44; col.innerHTML=values.map(v=>`<div class="it">${v}</div>`).join('');
+  const items=[...col.children]; let idx=values.indexOf(start);
+  const sp=new Spring(-idx*H,{k:240,c:24,onUpdate:y=>{ col.style.transform=`translateY(${y+66}px)`;
+      const cur=-y/H; items.forEach((it,i)=>{ const d=Math.abs(i-cur); it.style.opacity=Math.max(0.15,1-d*0.32); it.style.transform=`scale(${1-Math.min(d,2)*0.12}) rotateX(${(i-cur)*18}deg)`; });
+      const n=Math.round(cur); if(n!==idx && n>=0 && n<values.length){ idx=n; buzz(4); onPick(values[n]); } }});
+  let d=null;
+  el.addEventListener('pointerdown',e=>{ el.setPointerCapture(e.pointerId); d={y:e.clientY,s:sp.x,t:performance.now(),ly:e.clientY,v:0}; el.style.cursor='grabbing'; });
+  el.addEventListener('pointermove',e=>{ if(!d) return; const now=performance.now(); d.v=(e.clientY-d.ly)/Math.max(1,now-d.t)*1000; d.ly=e.clientY; d.t=now;
+    let y=d.s+(e.clientY-d.y); const min=-(values.length-1)*H; if(y>0) y*=0.4; if(y<min) y=min+(y-min)*0.4; sp.set(y); });
+  const end=()=>{ if(!d) return; const proj=sp.x+d.v*0.22; const n=Math.max(0,Math.min(values.length-1,Math.round(-proj/H))); sp.to(-n*H, d.v); d=null; el.style.cursor='grab'; };
+  el.addEventListener('pointerup',end); el.addEventListener('pointercancel',end);
+  el.addEventListener('keydown',e=>{ if(e.key==='ArrowDown'||e.key==='ArrowUp'){ e.preventDefault(); const n=Math.max(0,Math.min(values.length-1,idx+(e.key==='ArrowDown'?1:-1))); sp.to(-n*H); } });
+  onPick(start);
+}
+const mm=[]; for(let i=40;i<=72;i++) mm.push(i);
+wheel(document.getElementById('wCup'), mm, 52, v=>{ st.cup=v; cupVal.textContent=v+' mm'; ui(); });
+const gr=[]; for(let i=0;i<=14;i++) gr.push(i);
+wheel(document.getElementById('wStem'), gr, 4, v=>{ st.stem=v; stemVal.textContent='Gr. '+v; ui(); });
+
+/* --- Segment-Schalter mit federndem Knopf --- */
+function segm(el,onPick){ const knob=el.querySelector('.knob'), bs=[...el.querySelectorAll('button')];
+  const pos=b=>[b.offsetLeft,b.offsetWidth]; let [x0,w0]=pos(el.querySelector('button.on'));
+  const sx=new Spring(x0,{k:300,c:24,onUpdate:x=>knob.style.transform=`translateX(${x}px)`}), sw=new Spring(w0,{k:300,c:24,onUpdate:w=>knob.style.width=w+'px'});
+  bs.forEach(b=>{ pressable(b); b.addEventListener('click',()=>{ if(b.disabled) return; bs.forEach(x=>x.classList.toggle('on',x===b)); const [x,w]=pos(b); sx.to(x); sw.to(w); buzz(8); onPick(b.dataset.v); }); });
+  new ResizeObserver(()=>{ const [x,w]=pos(el.querySelector('button.on')); sx.set(x); sw.set(w); }).observe(el);
+}
+segm(segCcd,v=>{ st.ccd=v; ui(); });
+segm(segMat,()=>{});
+segm(segD,v=>{ st.d=+v; if(!OFFS[st.d].includes(st.off)) st.off=0; headR.to({28:19,32:21.5,36:24}[st.d]); renderOffs(); ui(); });
+
+function renderOffs(){ offs.innerHTML=OFFS[st.d].map(o=>`<button class="chip${o===st.off?' on':''}" data-o="${o}">${fmt(o)}${o===st.off?'<small>gewählt</small>':''}</button>`).join('');
+  offs.querySelectorAll('.chip').forEach(c=>{ const s=pressable(c); c.addEventListener('click',()=>{ st.off=+c.dataset.o; buzz(10); renderOffs(); const n=offs.querySelector('.on'); const s2=new Spring(0.85,{k:500,c:14,onUpdate:v=>n.style.transform=`scale(${v})`}); s2.to(1); ui(); }); }); }
+renderOffs();
+
+/* --- System wählen --- */
+document.querySelectorAll('.sys').forEach(el=>{ pressable(el); el.addEventListener('click',()=>{
+  if(el.dataset.sys==='stryker'){ st.sys='Stryker Accolade II'; buzz(14); go(1); }
+  else { shake(el); toast(`${el.dataset.name}: Der Prototyp zeigt den Ablauf mit Stryker. Werte für dieses System kommen aus Lauf 001-implantate.`); } }); });
+
+/* Inlay antippen */
+pressable(linerCard); linerCard.addEventListener('click',()=>{ st.liner=!st.liner; linerCard.style.borderColor=st.liner?'var(--drape)':''; linerCard.style.background=st.liner?'var(--drape-soft)':''; buzz(12); ui(); });
+
+/* Falsches Teil: Schütteln */
+function shake(el){ const s=new Spring(0,{k:900,c:12,onUpdate:x=>el.style.translate=`${x}px 0`}); s.kick(-900); buzz([20,40,20]); }
+wrongBtn.addEventListener('click',()=>{ badbox.hidden=false; shake(badbox); });
+pressable(wrongBtn);
+
+/* Checkliste mit Pop */
+document.querySelectorAll('.chk').forEach((c,i)=>{ const box=c.querySelector('.box'), path=c.querySelector('path');
+  const s=new Spring(1,{k:520,c:13,onUpdate:v=>box.style.transform=`scale(${v})`});
+  const t=()=>{ st.checks[i]=!st.checks[i]; c.classList.toggle('on',st.checks[i]); path.style.transition=RM?'none':'stroke-dashoffset .28s ease-out'; path.style.strokeDashoffset=st.checks[i]?0:20; s.set(st.checks[i]?0.6:1.1); s.to(1); buzz(st.checks[i]?12:6); ui(); };
+  c.addEventListener('click',t); c.addEventListener('keydown',e=>{ if(e.key===' '||e.key==='Enter'){ e.preventDefault(); t(); } }); });
+
+/* --- Weiter-Knopf (im Check: gedrückt halten) --- */
+const fill=next.querySelector('.fill'); let holdT=null, held=0;
+const holdS=new Spring(0,{k:200,c:22,onUpdate:v=>fill.style.transform=`scaleX(${v})`});
+pressable(next); pressable(back);
+function canNext(){ return [()=>!!st.sys,()=>true,()=>st.liner,()=>true,()=>true,()=>st.checks.every(Boolean),()=>true][page](); }
+let justHeld=false;
+next.addEventListener('pointerdown',()=>{ if(page!==5||!canNext()) return; const t0=performance.now(); const tick=now=>{ held=Math.min(1,(now-t0)/1100); fill.style.transform=`scaleX(${held})`; holdS.x=held; if(held>=1){ holdT=null; justHeld=true; buzz([15,30,40]); holdS.set(0); go(6); return;} holdT=requestAnimationFrame(tick); }; holdT=requestAnimationFrame(tick); });
+['pointerup','pointerleave','pointercancel'].forEach(ev=>next.addEventListener(ev,()=>{ if(holdT){ cancelAnimationFrame(holdT); holdT=null; holdS.to(0,-2);} }));
+next.addEventListener('click',()=>{ if(justHeld){ justHeld=false; return;} if(page===5) return; if(page===6){ reset(); return;} if(!canNext()){ shake(next); return;} go(page+1); });
+back.addEventListener('click',()=>go(page-1));
+
+function reset(){ Object.assign(st,{sys:null,liner:false,checks:[false,false,false,false,false]}); linerCard.style.borderColor=''; linerCard.style.background='';
+  document.querySelectorAll('.chk').forEach(c=>{ c.classList.remove('on'); c.querySelector('path').style.strokeDashoffset=20; }); badbox.hidden=true; go(0); }
+
+/* --- Toast --- */
+const toastEl=document.getElementById('toast');
+const tS=new Spring(140,{k:220,c:20,onUpdate:y=>toastEl.style.transform=`translateY(${y}px)`}); let tT;
+function toast(msg){ toastEl.textContent=msg; tS.to(0); clearTimeout(tT); tT=setTimeout(()=>tS.to(140),3200); }
+
+/* --- UI-Zustand --- */
+function ui(){ if(!ready) return;
+  eyebrow.textContent = st.sys ? `Hüft-TEP · ${st.sys}` : 'Heike · Hüft-TEP';
+  title.textContent = T[page];
+  place('cup', st.sys && page>=1); place('liner', st.liner && page>=2); place('stem', page>=3); place('head', page>=4);
+  const done=[page>1,page>2,page>3,page>4,page>5];
+  segSpr.forEach((s,i)=>s.to(done[i]?1:(page===i+1?0.5:0)));
+  labs.forEach((l,i)=>l.classList.toggle('on',page===i+1||done[i]));
+  const tags=['Noch nichts gewählt',`<b>Pfanne ${st.cup} mm</b> wird eingesetzt`,st.liner?`<b>X3-Inlay</b> sitzt`:'Inlay antippen, wenn angereicht',`<b>Accolade II Gr. ${st.stem}</b> · ${st.ccd}`,`<b>Kopf ${st.d} mm ${fmt(st.off)}</b> auf V40-Konus`,'Alle Haken setzen, dann halten','<b>Fertig</b> – Etiketten kleben'];
+  stageTag.innerHTML=tags[page];
+  checkLead.textContent=`Kopf V40 BIOLOX delta · Ø ${st.d} mm · Offset ${fmt(st.off)}`;
+  back.disabled = page===0;
+  next.disabled = !canNext();
+  nextLbl.textContent = page===0?'System wählen':page===2&&!st.liner?'Inlay antippen':page===4?'Zum Ansage-Check':page===5?(canNext()?'Halten: steril anreichen':`Noch ${st.checks.filter(x=>!x).length} Haken`):page===6?'Neue OP':'Übernehmen →';
+  summary.innerHTML=[[`Trident II Tritanium`,`${st.cup} mm`],[`X3 Inlay`,`Variante vom Etikett`],[`Accolade II`,`Gr. ${st.stem} · ${st.ccd}`],[`V40 BIOLOX delta`,`Ø ${st.d} · ${fmt(st.off)}`]].map((r,i)=>`<div class="sum"><div class="n">${i+1}</div><div><div class="t">${r[0]} · ${r[1]}</div><div class="ref">REF ________ · Etikett geklebt ☐</div></div></div>`).join('');
+}
+addEventListener('resize',()=>pager.set(page));
+ready=true; ui();
+window.__demo = { go, st, ui, place }; // nur für Screenshots
+})();
+</script>
