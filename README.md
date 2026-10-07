@@ -19,7 +19,7 @@
 
 Ablauf (ab 07.10.2026). **Jede Datei bearbeitet nur ihr Ersteller – keiner verändert fremde Dateien.** Dateinamen ohne Versionsnummer.
 1. **Claude** schreibt `pakete/NNN-basis.json` + `.md` (das Paket; Abschnitt „Zur Prüfung in dieser Runde“) und setzt in `pruefung/STATUS.json` `runde: grok`.
-1b. Braucht Claude Implantat-Quellen, legt Claude zusätzlich `pruefung/NNN-perplexity-auftrag.md` an → **Perplexity** schreibt `pruefung/NNN-perplexity.md` (nur Quellenliste offizieller Herstellerdokumente mit Link/Seite, keine Werte).
+1b. Braucht Claude Implantat-Quellen, legt Claude zusätzlich `pakete/NNN-perplexity-auftrag.md` an → **Perplexity** schreibt `pruefung/NNN-perplexity.md` (nur Quellenliste offizieller Herstellerdokumente mit Link/Seite, keine Werte).
 2. **Grok** schreibt `pruefung/NNN-grok.md` (Änderungsvorschläge; liest die Perplexity-Quellen mit).
 3. **Astra** liest alles, ändert nichts, schreibt `pruefung/NNN-astra.md` (Änderungsvorschläge wie Grok; Grok-Punkte, die Astra genauso übernehmen würde, bestätigt sie ausdrücklich, plus eigene).
 4. **Claude** liest alle drei (Basis, Grok, Astra), prüft kritisch mit und schickt Julian im Chat die **Änderungsliste: was Claude übernehmen würde, was nicht und warum** (`runde: julian`).

@@ -309,7 +309,7 @@ Bitte prüfen: Deckt der 000-Eintrag den 001-Eintrag wirklich ab? Wo 001 Hüft-S
 | B2-21 | dressing · Drainageanschluss kontrollieren | Drainagen fixiert + beschriftet |
 | B2-22 | photos · Foto: Instrumentiertisch | Foto Tischaufbau ohne Patient |
 
-### Teil C – Implantat-Quellen (Perplexity-Auftrag: `pruefung/001-perplexity-auftrag.md`)
+### Teil C – Implantat-Quellen (Perplexity-Auftrag: `pakete/001-perplexity-auftrag.md`)
 Offen: EU-Dokumente und Größen/Kompatibilität für Stryker Accolade II / Trident II / UHR, Smith+Nephew POLARSTEM (EU-IFU) / R3 / TANDEM, Mathys twinSys / Pfannen / Bipolarkopf. Werte nur aus dem Original mit Seite; Perplexity liefert nur Fundstellen.
 
 ### Teil D – Hausangaben Julian (Auswahlliste 07.10.2026)
