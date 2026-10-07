@@ -10,3 +10,5 @@
 | 2026-10-07 | eingang/2026-10-07-implantate-UEBERSICHT.md | [001-hueft-tep-vorschlag](2026-10-07-001-hueft-tep-vorschlag.md) (Kopfzeile Nachprüfung) | offen |
 | 2026-10-07 | eingang/2026-10-07-000-grundwissen-v1.1-grok.md | [000-grundwissen-vorschlag](2026-10-07-000-grundwissen-vorschlag.md) | umgesetzt in 000 v1.2; Astra prüft |
 | 2026-10-07 | eingang/2026-10-07-001-hueft-tep-v1.1-astra.md | [001-hueft-tep-vorschlag-2](2026-10-07-001-hueft-tep-vorschlag-2.md) | umgesetzt in 001 v1.2; Duokopf wartet auf Julian; Astra prüft |
+| 2026-10-07 | eingang/2026-10-07-001-hueft-tep-v1.1-grok.md | [001-hueft-tep-vorschlag-3](2026-10-07-001-hueft-tep-vorschlag-3.md) | 001 unverändert (in v1.2 erledigt); 000 v1.3 (S. 462); Astra prüft |
+| 2026-10-07 | eingang/2026-10-07-implantate-vstand-2026-10-07-astra.md | [001-hueft-tep-vorschlag-3](2026-10-07-001-hueft-tep-vorschlag-3.md) | Implantate berichtigt (K5–K7, P1, P2); Astra prüft Umsetzung |

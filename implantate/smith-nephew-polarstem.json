@@ -2,17 +2,18 @@
  "hersteller": "Smith+Nephew",
  "system": "POLARSTEM zementfrei/zementiert + R3",
  "region": "hüfte",
- "verified": true,
- "verified_hinweis": "Werte aus Herstellerdokument mit Seite (gelesen von Grok); Astra-Prüfung vor Integration offen",
+ "verified": false,
+ "verified_hinweis": "Teilprüfung: Werte stammen aus US-IFU (nur USA); EU-Varianten und -Kombinationen offen. Siehe eingang/2026-10-07-implantate-vstand-2026-10-07-astra.md.",
  "stand_extrakt": "2026-10-07",
  "quellen": [
   {
    "id": "q1",
-   "dokument": "POLARSTEM femoral stems Instructions for Use 81098832",
-   "stand": "Rev. 2",
+   "dokument": "POLARSTEM Non-Cemented and Cemented Stem System – Instructions for Use 81098832",
+   "stand": "Rev. 2, 06/2021",
    "url": "https://smith-nephew.stylelabs.cloud/api/public/content/dda3044cb508477195f9fb946f902eef?download=true&v=277c7283",
-   "seiten": "Product-specific Information",
-   "gelesen_von": "eingang/2026-10-07-001-hueft-tep-grok.md (Abschnitt C/D)"
+   "seiten": "S. 1 (nur USA), S. 4 (Device Description), S. 2/5 (Kombinationsgrenzen)",
+   "gelesen_von": "eingang/2026-10-07-001-hueft-tep-grok.md (Abschnitt C/D)",
+   "markt": "USA"
   },
   {
    "id": "q2",
@@ -25,7 +26,7 @@
  "komponenten": [
   {
    "typ": "schaft",
-   "bezeichnung": "POLARSTEM zementfrei",
+   "bezeichnung": "POLARSTEM zementfrei – US-Daten",
    "groesse": null,
    "ref": null,
    "gtin": null,
@@ -33,7 +34,8 @@
     "konus": "12/14",
     "fixation": "zementfrei",
     "material": "Titanlegierung, poröse Titanplasma-/HA-Beschichtung",
-    "ccd_varianten": "Standard 135°; lateral 126°; valgus 145°; teilweise mit Kragen"
+    "ccd_varianten": "Standard 135°; lateral 126°; valgus 145°; Standard und lateral auch mit Kragen",
+    "markt": "USA (US-IFU); EU-Varianten offen"
    },
    "bild": {
     "typ": "keins",
@@ -44,7 +46,7 @@
   },
   {
    "typ": "schaft",
-   "bezeichnung": "POLARSTEM zementiert",
+   "bezeichnung": "POLARSTEM zementiert – US-Daten",
    "groesse": null,
    "ref": null,
    "gtin": null,
@@ -52,7 +54,8 @@
     "konus": "12/14",
     "fixation": "zementiert",
     "material": "Edelstahl",
-    "koepfe_erlaubt": "nur OXINIUM oder BIOLOX delta (laut IFU)"
+    "koepfe_erlaubt": "US-IFU: auf OXINIUM/BIOLOX delta beschränkt; keine pauschale EU-Kombinationsregel – konkreten S+N-Kopf mit aktueller EU-Freigabe prüfen",
+    "markt": "USA (US-IFU); EU offen"
    },
    "bild": {
     "typ": "keins",
@@ -84,14 +87,20 @@
   {
    "wenn": "kopf",
    "pruefe": "kopf.konus == '12/14'",
-   "text": "POLARSTEM: Konus 12/14.",
+   "text": "POLARSTEM: Konus 12/14 (US-IFU).",
    "quelle": "q1"
   },
   {
    "wenn": "kopf+schaft_zementiert",
    "pruefe": "kopf.material in ['OXINIUM','BIOLOX delta']",
-   "text": "Zementierter POLARSTEM: nur OXINIUM- oder BIOLOX-delta-Köpfe.",
+   "text": "US-IFU: zementierter POLARSTEM nur mit OXINIUM- oder BIOLOX-delta-Köpfen; EU-Freigabe offen.",
    "quelle": "q1"
+  },
+  {
+   "wenn": "kopf+schaft",
+   "pruefe": "konkrete_EU_kombinationsfreigabe_vorhanden",
+   "text": "Gleicher Konus oder gleiche Keramikmarke ist KEIN Kombinationsnachweis; herstellerübergreifende Kombinationen nicht ableiten.",
+   "quelle": "q1 (S. 2/5, Combination restrictions; US-Geltungsbereich)"
   }
  ],
  "hinweise": [
@@ -99,6 +108,7 @@
   "Werte von Grok im Herstellerdokument gelesen (07.10.2026); von Claude nicht selbst geöffnet (gesperrt); Astra prüft vor Integration."
  ],
  "offen": [
+  "Aktuelle EU-IFU POLARSTEM (Varianten, Kopf-Kombinationen) nachfordern",
   "POLARSTEM im Haus? (Alternativen z. B. SL-PLUS, ANTHOLOGY)",
   "R3: Schalengrößen, Inlay (XLPE/Keramik), Innen-Ø, max. Kopf-Ø",
   "OXINIUM-Kopf: Ø und Offsets",

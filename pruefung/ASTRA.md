@@ -10,7 +10,7 @@ Prüfe **nur die unten aufgeführten Änderungen** (ALT → NEU), je Abschnitt g
 ---
 
 ## 001-hueft-tep v1.1 → v1.2
-Grundlage: deine Prüfung `eingang/2026-10-07-001-hueft-tep-v1.1-astra.md` (FEHLER) – K2, K5a/b, K8, K9, Q_STRYKER_ACCII, P1, P2 1:1 eingebaut. Bitte nur prüfen, ob richtig umgesetzt. Deine ok-Punkte 1, 3, 4, 6, 7 sind unverändert.
+Grundlage: deine Prüfung `eingang/2026-10-07-001-hueft-tep-v1.1-astra.md` (FEHLER) – K2, K5a/b, K8, K9, Q_STRYKER_ACCII, P1, P2 1:1 eingebaut. Bitte nur prüfen, ob richtig umgesetzt. Deine ok-Punkte 1, 3, 4, 6, 7 sind unverändert. Groks Nachprüfung von v1.1 (`eingang/2026-10-07-001-hueft-tep-v1.1-grok.md`) bestätigt K2/K5/K8/K9/P1/P2; Groks Abweichung „Alkoholansammlungen gilt_fuer alle“ nicht übernommen (deine K5a: hf_mono; allgemeine Regel steht in 000 „Keine Antiseptikum-Pfützen“).
 
 | Nr | Art | Abschnitt · Eintrag | ALT (nur geänderte Felder) | NEU | Quelle |
 |---|---|---|---|---|---|
@@ -28,36 +28,36 @@ Grundlage: deine Prüfung `eingang/2026-10-07-001-hueft-tep-v1.1-astra.md` (FEHL
 
 ---
 
-## 000-grundwissen v1.1 → v1.2
-Grundlage: Grok-Prüfung `eingang/2026-10-07-000-grundwissen-v1.1-grok.md` (Grok Nr. 1–7, 11; Nr. 8–10 bleiben offen). KRINKO-Seiten nach deiner 001-Prüfung (S. 461, Abschnitt 4.1) statt Groks S. 460. Erstmals bei Astra – nur diese Änderungen prüfen.
+## 000-grundwissen v1.1 → v1.3
+Grundlage: Grok-Prüfung `eingang/2026-10-07-000-grundwissen-v1.1-grok.md` (Grok Nr. 1–7, 11; Nr. 8–10 bleiben offen) = v1.2; KRINKO-Seitenklärung aus `eingang/2026-10-07-001-hueft-tep-v1.1-grok.md` (sterile Tische S. 462) = v1.3. Abdeckung/Antiseptikum nach deiner 001-Prüfung (S. 461, Abschnitt 4.1). Erstmals bei Astra – nur diese Änderungen prüfen.
 
 | Nr | Art | Abschnitt · Eintrag | ALT (nur geänderte Felder) | NEU | Quelle |
 |---|---|---|---|---|---|
 | 1 | geändert | facts · **Patientenidentität geprüft** | spez: Armband + Rückfrage; hinweis: None | spez: Patient bestätigt Identität (WHO); Armband + aktive Rückfrage zusätzlich (KVWL/APS); hinweis: Armband steht nicht in der WHO-Checkliste; Armband + Rückfrage laut q_kvwl. | q_who – Implementation Manual WHO Surgical Safety Checklist 2009 |
-| 2 | geändert | draping · **Sterile Tische erst kurz vor Beginn** | hinweis: None | hinweis: KRINKO S. 461 Kat. II; Erläuterung S. 454. | q_krinko – Prävention postoperativer Wundinfektionen, Bundesgesundheitsbl 2018;61:448–473 |
+| 2 | geändert | draping · **Sterile Tische erst kurz vor Beginn** | hinweis: None | hinweis: KRINKO gedruckte S. 462 (PDF-S. 15) Kat. II; Erläuterung S. 454. | q_krinko – Prävention postoperativer Wundinfektionen, Bundesgesundheitsbl 2018;61:448–473 |
 | 3 | geändert | draping · **Abdeckung flüssigkeitsdicht** | spez: passend zum Eingriff; sicherheit: hausabhängig; hausabhaengig: True; quelle: None; hinweis: None | spez: Flüssigkeitsundurchlässig, sobald Durchfeuchten nicht auszuschließen ist (KRINKO Kat. IB).; sicherheit: belegt; hausabhaengig: False; quelle: q_krinko; hinweis: Konkretes Abdeckprodukt nach Hausstandard; die Schutzanforderung bleibt bestehen. | q_krinko – Prävention postoperativer Wundinfektionen, Bundesgesundheitsbl 2018;61:448–473 |
 | 4 | geändert | draping · **Keine nicht imprägnierte Inzisionsfolie** | spez: None | spez: nicht antiseptisch imprägnierte Folien nicht verwenden (Kat. IB) | q_krinko – Prävention postoperativer Wundinfektionen, Bundesgesundheitsbl 2018;61:448–473 |
 | 5 | geändert | count · **Nadeln, Klingen, Clips, Drahtteile** | spez: None | spez: Nadeln, Clips, Drahtteile; Instrumente/Klingen laut Haus-Zählplan | q_aps – Flyer „Jeder Tupfer zählt! Zählkontrolle ist Teamarbeit“ |
 | 6 | geändert | implants · **Anästhesie vor Zement informieren** | spez: None; hinweis: None | spez: Anästhesie über jeden Schritt des Zementiervorgangs informieren; hinweis: AMBOSS: vor Einbringen; q_bcis: jeden Zementierschritt. | q_amboss – Endoprothetik des Hüftgelenks (Zementhinweis) |
 | 7 | neu | pitfalls · **Keine Antiseptikum-Pfützen** | – | spez: Patient darf nicht in angesammeltem Hautantiseptikum liegen.; gilt_fuer: ['alle']; optional: False; sicherheit: belegt; hausabhaengig: False; quelle: q_krinko; hinweis: Einwirkzeit/Abtrocknen laut Antiseptikum-IFU; besonders vor monopolarer HF. | q_krinko – Prävention postoperativer Wundinfektionen, Bundesgesundheitsbl 2018;61:448–473 |
 | 8 | geändert | heike_hinweise | Zement geplant? Sag der Anästhesie vor dem Einbringen Bescheid. | Zement geplant? Anästhesie über jeden Zementierschritt informieren. | keine (hausabhängig) |
-| 9 | geändert | quellen · **q_krinko** | – | S. 460 Kat. IB (keine nicht imprägnierte Inzisionsfolie), S. 460 Kat. II (Türen/Fluktuation), S. 461 Abschnitt 4.1 (Antiseptikum-Ansammlung Kat. II; flüssigkeitsundurchlässige Abdeckung Kat. IB; sterile Tische Kat. II), Erläuterung S. 454. | q_krinko – Prävention postoperativer Wundinfektionen, Bundesgesundheitsbl 2018;61:448–473 |
+| 9 | geändert | quellen · **q_krinko** | – | Gedruckte S. 461 (PDF-S. 14), Abschnitt 4.1: Antiseptikum-Ansammlung Kat. II, flüssigkeitsundurchlässige Abdeckung bei nicht ausschließbarem Durchfeuchten Kat. IB; S. 460: nicht imprägnierte Inzisionsfolie Kat. IB, Türen/Fluktuation Kat. II; S. 462 (PDF-S. 15): sterile Tische bis OP-Beginn abdecken Kat. II; Erläuterung S. 454. | q_krinko – Prävention postoperativer Wundinfektionen, Bundesgesundheitsbl 2018;61:448–473 |
 | 10 | neu | quellen · **q_bcis** | – | Factsheet Implantationssyndrom / BCIS – PDF S. 1, Vorsichtsmaßnahmen Chirurgie Nr. 1: Anästhesie über jeden Schritt des Zementiervorgangs informieren. | q_bcis – Factsheet Implantationssyndrom / BCIS |
 
 ---
 
-## Implantat-Daten (neu): implantate/stryker-accolade-ii + implantate/smith-nephew-polarstem
-Berichtigung von Claudes Websuche-Entwurf (`eingang/2026-10-07-implantate-*-extrakt`, verified:false) mit den Werten, die Grok im Herstellerdokument gelesen hat (`eingang/2026-10-07-001-hueft-tep-grok.md`, Abschnitt C). Claude konnte die Dokumente nicht öffnen.
+## Implantate: Umsetzung deiner Implantat-Prüfung (stryker-accolade-ii, smith-nephew-polarstem)
+Grundlage: `eingang/2026-10-07-implantate-vstand-2026-10-07-astra.md` (FEHLER) – K5, K6, K7, P1, P2 1:1 umgesetzt. Bitte nur die Umsetzung prüfen; deine ok-Punkte 1–4, 8 sind unverändert (nur Seitenergänzung S. 5).
 
-| Nr | Art | Datei · Komponente | ALT (Entwurf) | NEU | Quelle |
+| Nr | Art | Datei · Komponente | ALT | NEU | Quelle |
 |---|---|---|---|---|---|
-| 1 | neu | stryker · Accolade II | Konus V40, zementfrei | + CCD 132° Standard / 127° High-Offset; **EU: nicht für Hemi indiziert** (von Astra in 001-Prüfung bestätigt) | ACCII-SP-1_Rev-4_34423, S. 3, 4, 12 · https://cdn.stryker.com/SYKGCSDOC-2-45343 |
-| 2 | geändert | stryker · V40 BIOLOX delta | 28/32/36, Offset −5 bis +7,5 pauschal | 28: −4/−2,7/0/+4 · 32: −4/0/+4 · 36: −5/−2,5/0/+2,5/+5/+7,5 | ACCII-SP-1 Rev-4, S. 12 |
-| 3 | geändert | stryker · Universal Taper BIOLOX delta | Offset 0 | Offset −2,5/0/+4; nur mit Sleeve 6519-T-XX | ACCII-SP-1 Rev-4, S. 12 |
-| 4 | geändert | stryker · Trident II | Schalen 42–72, Kopf 22–44 (Websuche) | Größen/Inlays/max. Kopf **offen** (keine OP-Technik gelesen) | Produktseite DE |
-| 5 | geändert | stryker · UHR | Außen-Ø „u. a. 52“ | Außen-Ø 36–61, Innenkopf 22/26/28; **keine Freigabe mit Accolade II in EU** | UHR HE01-160 Rev1 (Japan) + ACCII-SP-1 |
-| 6 | neu | smith-nephew · POLARSTEM zementfrei | Ti-6Al-4V, Konus offen | Konus 12/14; Ti mit Titanplasma/HA; CCD 135°/126°/145°, teils Kragen | IFU 81098832 Rev. 2 |
-| 7 | neu | smith-nephew · POLARSTEM zementiert | – | Edelstahl; Konus 12/14; nur OXINIUM- oder BIOLOX-delta-Köpfe | IFU 81098832 Rev. 2 |
-| 8 | neu | smith-nephew · R3 | – | im Haus (Julian); Größen/Inlays offen | Julian 07.10.2026 |
-
-Mathys: keine Datei – kein Herstellerdokument lesbar, bleibt offen.
+| 1 | geändert | beide · verified | true | **false** + „Teilprüfung: Markt-/EU-Anwendbarkeit teilweise offen“ | dein Bericht |
+| 2 | geändert | stryker · Quelle q1 Seiten | 3, 4, 12 | 3/12 EU-Grenze, **5 CCD**, 12 Kopfwerte, 15/17 Hülsen | ACCII-SP-1_Rev-4_34423 |
+| 3 | geändert | stryker · UHR (K5) | Außen-Ø 36–61, Innenkopf 22/26/28 | **nur Japan-Katalogdaten**: 36/38/40→22; 41/42/43→26; 44–56 (1-mm), 58, 61→28; EU-Größen/REF offen; Hemi-Sperre über q1, nicht q3 | HE01-160_Rev1, 03/2022, PDF-S. 2 |
+| 4 | geändert | stryker · Universal-Taper-Kopf | Sleeve 6519-T-XX | Familie 6519-T-XX, **keine bestellfähige REF**; Hülse nach Offset/IFU | ACCII-SP-1 S. 12 |
+| 5 | neu | stryker · Regel (P1) | – | Universal-Taper-Hülse zuerst auf den Schaftkonus, dann Kopf; nicht im Keramikkopf vormontieren | ACCII-SP-1 S. 15 |
+| 6 | geändert | polarstem · Quelle (K6/K7) | IFU 81098832 Rev. 2 | + 06/2021, **Markt USA** (S. 1), S. 4/2/5 | US-IFU |
+| 7 | geändert | polarstem · zementfrei (K6) | „teils Kragen“ | **US-Daten**; Standard und lateral auch mit Kragen; EU-Varianten offen | US-IFU S. 1/4 |
+| 8 | geändert | polarstem · zementiert (K7) | nur OXINIUM/BIOLOX delta | **US-Daten**; keine pauschale EU-Kombinationsregel – konkreten S+N-Kopf mit EU-Freigabe prüfen | US-IFU S. 1/4/5 |
+| 9 | neu | polarstem · Regel (P2) | – | Gleicher Konus/gleiche Keramikmarke ist kein Kombinationsnachweis | US-IFU S. 2/5 |
+| 10 | neu | polarstem · offen | – | Aktuelle EU-IFU POLARSTEM nachfordern | – |

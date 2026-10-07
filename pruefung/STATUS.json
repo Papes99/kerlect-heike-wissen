@@ -3,7 +3,7 @@
  "hinweis": "status offen = noch nicht gegengeprüft; geprueft = Version abgeschlossen. astra_vor_integration: offen/freigegeben/zurück – Astra prüft jede neue Version vor Integration in Heike.",
  "pakete": {
   "000-grundwissen": {
-   "version": "1.2",
+   "version": "1.3",
    "status": "offen",
    "geprueft_am": null,
    "typ": "grundwissen",
@@ -36,11 +36,19 @@
  "implantate": {
   "stryker-accolade-ii": {
    "stand": "2026-10-07",
-   "astra_vor_integration": "offen"
+   "astra_vor_integration": "offen",
+   "astra_letzte_pruefung": {
+    "ergebnis": "FEHLER",
+    "datei": "eingang/2026-10-07-implantate-vstand-2026-10-07-astra.md"
+   }
   },
   "smith-nephew-polarstem": {
    "stand": "2026-10-07",
-   "astra_vor_integration": "offen"
+   "astra_vor_integration": "offen",
+   "astra_letzte_pruefung": {
+    "ergebnis": "FEHLER",
+    "datei": "eingang/2026-10-07-implantate-vstand-2026-10-07-astra.md"
+   }
   }
  }
 }

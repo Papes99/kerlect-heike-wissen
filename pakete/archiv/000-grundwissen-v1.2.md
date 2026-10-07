@@ -1,6 +1,6 @@
 # Heike-Wissen 000 – Grundwissen für alle Eingriffe
 
-_Version 1.3 · 07.10.2026 · nach Grok-Prüfung · Astra-Prüfung vor Integration offen · klinisches Review offen_
+_Version 1.2 · 07.10.2026 · nach Grok-Prüfung · Astra-Prüfung vor Integration offen · klinisches Review offen_
 
 Paket 000 ist das gemeinsame Fundament: Es gilt bei **jedem** Eingriff. Die Eingriffspakete (001 Hüft-TEP …) ergänzen es.
 
@@ -70,7 +70,7 @@ Legende: ⚠️ hausabhängig · *(optional)* · 📖 Quelle nachgelesen · _nur
 - Lagerung dokumentiert ⚠️
 
 ## Desinfektion & Abdeckung `draping`
-- Sterile Tische erst kurz vor Beginn (bis Schnitt steril abgedeckt; S. 462) 📖 KRINKO
+- Sterile Tische erst kurz vor Beginn (bis Schnitt steril abgedeckt; S. 461) 📖 KRINKO
 - Hautdesinfektion laut Haus (Produkt + Einwirkzeit nach IFU) ⚠️
 - Abdeckung flüssigkeitsdicht (flüssigkeitsundurchlässig, sobald Durchfeuchten nicht auszuschließen ist, Kat. IB; Produkt laut Haus) 📖 KRINKO
 - Keine nicht imprägnierte Inzisionsfolie (nicht antiseptisch imprägnierte Folien nicht verwenden, Kat. IB) *(optional)* 📖 KRINKO
@@ -173,9 +173,5 @@ Grundlage: Grok-Prüfung `eingang/2026-10-07-000-grundwissen-v1.1-grok.md`. Alte
 - Anästhesie über jeden Zementierschritt informieren (Chip + Heike-Satz), neue Quelle BCIS
 - Abdeckung: jetzt belegt (KRINKO Kat. IB), flüssigkeitsundurchlässig, sobald Durchfeuchten nicht auszuschließen
 - Neu: Keine Antiseptikum-Pfützen (KRINKO Kat. II)
-- Sterile Tische: Seite 462 (v1.3); Inzisionsfolie: Text klarer; Zählung: Klingen laut Haus-Zählplan
+- Sterile Tische: Seite 461; Inzisionsfolie: Text klarer; Zählung: Klingen laut Haus-Zählplan
 - Wärme, NE-Ort, Strahlenschutz bleiben offen (Grok Nr. 8–10)
-
-## Änderungen v1.3 (07.10.2026)
-Grundlage: KRINKO-Seitenklärung in `eingang/2026-10-07-001-hueft-tep-v1.1-grok.md`. Alte Version: `pakete/archiv/000-grundwissen-v1.2.*`.
-- Sterile Tische: Fundstelle S. 461 → **S. 462** (PDF-S. 15)

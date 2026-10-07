@@ -2,8 +2,8 @@
  "hersteller": "Stryker",
  "system": "Accolade II (zementfrei) + V40-Köpfe + Trident II + UHR",
  "region": "hüfte",
- "verified": true,
- "verified_hinweis": "Werte aus Herstellerdokument mit Seite (gelesen von Grok); Astra-Prüfung vor Integration offen",
+ "verified": false,
+ "verified_hinweis": "Teilprüfung: Einzelbefunde siehe eingang/2026-10-07-implantate-vstand-2026-10-07-astra.md; Markt-/EU-Anwendbarkeit teilweise offen.",
  "stand_extrakt": "2026-10-07",
  "quellen": [
   {
@@ -11,7 +11,7 @@
    "dokument": "Accolade II Femoral Hip System Surgical Protocol ACCII-SP-1",
    "stand": "ACCII-SP-1_Rev-4_34423, © 2022",
    "url": "https://cdn.stryker.com/SYKGCSDOC-2-45343",
-   "seiten": "3, 4, 12 (Dokumentcode S. 25)",
+   "seiten": "3/12 (EU-Grenze), 5 (CCD), 12 (Kopfwerte), 15/17 (Hülsen); Dokumentcode S. 25",
    "gelesen_von": "eingang/2026-10-07-001-hueft-tep-grok.md (Abschnitt C/D)",
    "bestaetigt": "Astra 07.10.2026: S. 3/12 (EU keine Hemi) im Original geprüft"
   },
@@ -26,10 +26,11 @@
   {
    "id": "q3",
    "dokument": "UHR Universal Head Bipolar System (Stryker Japan) HE01-160",
-   "stand": "Rev1",
+   "stand": "HE01-160_Rev1, 03/2022",
    "url": "https://www.stryker.com/content/dam/stryker/ja/ja/portfolios/orthopaedics/joint-replacement/HE01-160_Rev1_UHR_BipolarSystem_s.pdf",
-   "seiten": "Katalogtabelle",
-   "gelesen_von": "eingang/2026-10-07-001-hueft-tep-grok.md (Abschnitt C/D)"
+   "seiten": "PDF-S. 2, Katalogtabelle",
+   "gelesen_von": "eingang/2026-10-07-001-hueft-tep-grok.md (Abschnitt C/D)",
+   "markt": "Japan"
   },
   {
    "id": "q4",
@@ -105,7 +106,7 @@
    "ref": null,
    "gtin": null,
    "attribute": {
-    "konus": "Universal Taper – nur mit Universal Taper Sleeve 6519-T-XX",
+    "konus": "Universal Taper – nur mit Universal Taper Sleeve (Familie 6519-T-XX, keine bestellfähige REF; Hülse nach Offset und aktueller IFU wählen)",
     "material": "BIOLOX delta",
     "durchmesser_mm": [
      28,
@@ -170,14 +171,25 @@
   },
   {
    "typ": "duokopf",
-   "bezeichnung": "UHR Universal Head (bipolar)",
+   "bezeichnung": "UHR Universal Head (bipolar) – nur Japan-Katalogdaten",
    "groesse": null,
    "ref": null,
    "gtin": null,
    "attribute": {
-    "aussen_d_mm": "36–61",
-    "innenkopf_mm": "22 / 26 / 28 je Größe",
-    "freigabe_mit_accolade_ii_eu": "NEIN – Accolade II in EU nicht für Hemi indiziert"
+    "markt": "Japan (HE01-160 Rev1); EU-Ausführung, Größen und REF offen",
+    "aussen_zu_innen_mm": {
+     "36": 22,
+     "38": 22,
+     "40": 22,
+     "41": 26,
+     "42": 26,
+     "43": 26,
+     "44–56 (1-mm-Schritte)": 28,
+     "58": 28,
+     "61": 28
+    },
+    "hinweis": "Keine EU-Verfügbarkeit oder Kopf-Schaft-Kompatibilität daraus ableiten.",
+    "hemi_sperre_accolade_ii_eu": "ja – belegt durch q1 (S. 3/12), nicht durch q3"
    },
    "bild": {
     "typ": "keins",
@@ -205,6 +217,12 @@
    "pruefe": "NICHT (schaft == 'Accolade II' und region == EU)",
    "text": "Kein Duokopf/Hemi auf Accolade II in der EU.",
    "quelle": "q1"
+  },
+  {
+   "wenn": "kopf_universal_taper",
+   "pruefe": "huelse_zuerst_auf_schaftkonus",
+   "text": "Universal-Taper-Hülse zuerst auf den Schaftkonus setzen, danach den Kopf; nicht im Keramikkopf vormontieren. Aktuelle OP-Technik prüfen.",
+   "quelle": "q1 (S. 15, Final reduction, Notes)"
   }
  ],
  "hinweise": [
@@ -216,6 +234,6 @@
   "Auf welchem Schaft wird der Stryker-Duokopf im Haus verwendet? z. B. Accolade TMZF, Exeter (zementiert)",
   "Größenreihe Accolade II, REF/GTIN",
   "Trident II: Außen-Ø je Größe, Inlays (X3/Keramik), Innen-Ø, max. Kopf-Ø",
-  "UHR: EU-Dokument (statt Japan-Broschüre), Adapterhülse, REF"
+  "UHR: EU-Dokument, EU-Größen, Adapterhülse, REF (bisher nur Japan-Katalog)"
  ]
 }
