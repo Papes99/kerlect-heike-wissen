@@ -1,7 +1,7 @@
 {
  "stand": "2026-10-07",
  "regeln": "Jede Datei bearbeitet nur ihr Ersteller. Claude: pakete/NNN-basis.json + .md, implantate/*, pruefung/STATUS.json. Grok: pruefung/NNN-grok.md. Astra: pruefung/NNN-astra.md. Julian: eingang/*. Dateinamen ohne Versionsnummer.",
- "ablauf": "1 Claude schreibt/ändert NNN-basis (Abschnitt „Zur Prüfung in dieser Runde“) und setzt runde=grok → 2 Grok schreibt NNN-grok (Änderungsvorschläge) → 3 Astra liest alles, ändert nichts, schreibt NNN-astra (übernimmt Grok-Punkte, die es genauso übernehmen würde, ausdrücklich + eigene) → 4 Claude baut NNN-astra 1:1 in NNN-basis ein, setzt runde=eingebaut → 5 Grok und Astra löschen jeweils ihre eigene Datei → übrig bleibt NNN-basis.",
+ "ablauf": "1 Claude: NNN-basis („Zur Prüfung in dieser Runde“), runde=grok → 2 Grok: NNN-grok → 3 Astra liest alles, ändert nichts: NNN-astra (bestätigt Grok-Punkte + eigene) → 4 Claude liest alle drei, denkt kritisch mit, schickt Julian die Änderungsliste (übernehmen / nicht übernehmen + Grund), runde=julian → 5 Julian ok/Korrektur → Claude baut ein, runde=eingebaut → 6 Grok und Astra löschen ihre eigene Datei → übrig bleibt NNN-basis.",
  "pakete": {
   "000": {
    "datei": "pakete/000-basis.json",
