@@ -74,7 +74,7 @@
   },
   "001-implantate-dach": {
    "name": "001-implantate-dach (Extra-Lauf)",
-   "runde": "grok",
+   "runde": "astra",
    "typ": "implantate",
    "gehoert_zu": "001",
    "auftrag": "Erst DACH-Ranking belegen (EPRD-Jahresbericht 2025 Tabellen Schäfte/Pfannen/Kombinationen, SIRIS Schweiz, Österreich-Register), dann die häufigsten Systeme je Hersteller als Implantat-Dateien anlegen.",
