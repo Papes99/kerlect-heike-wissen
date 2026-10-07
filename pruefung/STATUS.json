@@ -1,7 +1,7 @@
 {
  "stand": "2026-10-07",
  "regeln": "Jede Datei bearbeitet nur ihr Ersteller. Claude: pakete/NNN-basis.json + .md, pakete/NNN-abschluss.md, implantate/*, pakete/NNN-quellen-auftrag.md, pruefung/STATUS.json, README.md. Grok: pruefung/NNN-grok.md. Astra: pruefung/NNN-astra.md. Julian: eingang/*. Dateinamen ohne Versionsnummer.",
- "ablauf": "Pro Paket EIN Lauf: 1 Claude schreibt NNN-basis („Zur Prüfung“) → 2 Grok prüft EINMAL → 3 Astra prüft EINMAL (liest alles, ändert nichts, bestätigt Grok-Punkte + eigene) → 4 Claude liest alle drei, denkt kritisch mit, Änderungsliste an Julian → 5 Julian ok → Claude baut ein. Grok und Astra arbeiten je einmal pro Lauf, Claude zweimal (Schritt 1 und 4/5). Keine zweite Prüfrunde. Nach dem Einbau: NNN-basis.json + .md werden zu EINER Datei pakete/NNN-abschluss.md (oben lesbar, unten JSON-Block); basis-Dateien entfernt. Neuer Lauf (nach „NNN los“) startet wieder mit NNN-basis aus der Abschlussdatei.",
+ "ablauf": "Pro Paket EIN Lauf: 1 Claude schreibt NNN-basis („Zur Prüfung“) → 2 Grok prüft EINMAL → (3 Astra: pausiert bis nach 020, siehe astra_pause) → 4 Claude liest Basis + Grok, denkt kritisch mit, Änderungsliste an Julian → 5 Julian ok → Claude baut ein. Grok arbeitet einmal pro Lauf, Claude zweimal (Schritt 1 und 4/5). Keine zweite Prüfrunde. Nach dem Einbau: NNN-basis.json + .md werden zu EINER Datei pakete/NNN-abschluss.md (oben lesbar, unten JSON-Block); basis-Dateien entfernt. Neuer Lauf (nach „NNN los“) startet wieder mit NNN-basis aus der Abschlussdatei.",
  "pakete": {
   "000": {
    "datei": "pakete/000-abschluss.md",
@@ -51,10 +51,10 @@
    "eingang": "eingang/001-perplexity-2.md",
    "lauf_start": "2026-10-07T03:55Z",
    "dateien": {
-    "grok": "pruefung/001-implantate-grok.md",
-    "astra": "pruefung/001-implantate-astra.md"
+    "grok": "pruefung/001-implantate-grok.md"
    },
-   "abschluss": "Ergebnis direkt in implantate/*.json + .md (je Datei Änderungsprotokoll); basis-Datei wird danach entfernt – keine eigene Abschlussdatei"
+   "abschluss": "Ergebnis direkt in implantate/*.json + .md (je Datei Änderungsprotokoll); basis-Datei wird danach entfernt – keine eigene Abschlussdatei",
+   "hinweis": "ohne Astra (astra_pause)"
   }
  },
  "eingang_verarbeitet": [
@@ -111,5 +111,6 @@
    "betrifft": "Lauf 001-implantate",
    "hinweis": "in Prüfung"
   }
- ]
+ ],
+ "astra_pause": "Julian 07.10.2026: Astra ist bis Paket 020 aus den Läufen raus. Ablauf bis dahin: Claude Basis → Grok → Claude Änderungsliste → Julian → Einbau. Nach 020 prüft Astra in EINEM Gesamtlauf alles (000–020 + implantate/*) und schreibt pruefung/gesamt-astra.md."
 }
