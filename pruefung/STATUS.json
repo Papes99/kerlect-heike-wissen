@@ -1,6 +1,6 @@
 {
  "stand": "2026-10-07",
- "hinweis": "status offen = noch nicht gegengeprüft; geprueft = Version abgeschlossen.",
+ "hinweis": "status offen = noch nicht gegengeprüft; geprueft = Version abgeschlossen. astra_vor_integration: offen/freigegeben/zurück – Astra prüft jede neue Version vor Integration in Heike.",
  "pakete": {
   "000-grundwissen": {
    "version": "1.1",
@@ -9,11 +9,17 @@
    "typ": "grundwissen"
   },
   "001-hueft-tep": {
-   "version": "1.0",
+   "version": "1.1",
    "status": "offen",
    "geprueft_am": null,
    "typ": "eingriff",
-   "basis": "000-grundwissen"
+   "basis": "000-grundwissen",
+   "astra_vor_integration": "offen",
+   "vorversion": {
+    "version": "1.0",
+    "grok_geprueft_am": "2026-10-07",
+    "datei": "eingang/2026-10-07-001-hueft-tep-grok.md"
+   }
   }
  }
 }

@@ -1,10 +1,10 @@
 {
  "paket": "heike-wissen-001",
  "typ": "eingriff",
- "version": "1.1",
- "stand": "2026-10-07",
+ "version": "1.0",
+ "stand": "2026-10-06",
  "basis": "heike-wissen-000",
- "autor": "Claude auf Grundlage Astras Zusammenführung (Grok + Claude); v1.1 nach Grok-Gegenprüfung 07.10.2026; Astra-Prüfung vor Integration offen; klinisches Review durch Julian offen",
+ "autor": "Claude auf Grundlage Astras Zusammenführung (Grok + Claude); klinisches Review durch Julian offen",
  "eingriff": "Hüft-TEP (primär)",
  "synonyme": [
   "Hüft-TEP",
@@ -464,7 +464,7 @@
     "sicherheit": "belegt",
     "hausabhaengig": false,
     "quelle": "Q_HEBU",
-    "hinweis": "Bei monopolarer Anwendung: geeignete Anlagefläche und vollständigen Hautkontakt gemäß Produkt-IFU prüfen; nach Umlagerung erneut kontrollieren. HEBU GAHF113 ist nur ein Produktbeispiel; maßgeblich ist die IFU der im Haus verwendeten Neutralelektrode."
+    "hinweis": "Bei monopolarer Anwendung: geeignete Anlagefläche und vollständigen Hautkontakt gemäß Produkt-IFU prüfen; nach Umlagerung erneut kontrollieren."
    },
    {
     "label": "Mechanische Prophylaxe laut Plan",
@@ -528,13 +528,13 @@
     "label": "Flüssigkeitsdichte Abdeckung",
     "menge": null,
     "einheit": null,
-    "spez": "Bei erwartetem Durchfeuchten flüssigkeitsundurchlässig (KRINKO Kat. IB)",
+    "spez": null,
     "gilt_fuer": [
      "alle"
     ],
     "optional": false,
     "sicherheit": "belegt",
-    "hausabhaengig": true,
+    "hausabhaengig": false,
     "quelle": "Q_KRINKO",
     "hinweis": "Bei erwartetem Durchfeuchten flüssigkeitsdichte Abdeckung einsetzen."
    },
@@ -1338,7 +1338,7 @@
     "label": "Anästhesie vor Zement informieren",
     "menge": null,
     "einheit": null,
-    "spez": "Anästhesie über jeden Schritt des Zementiervorgangs informieren",
+    "spez": null,
     "gilt_fuer": [
      "zementiert",
      "hybrid"
@@ -1347,7 +1347,7 @@
     "sicherheit": "belegt",
     "hausabhaengig": false,
     "quelle": "Q_BCIS",
-    "hinweis": "Nicht nur einmal vor dem Einbringen: jeden Zementierschritt ansagen; BCIS-Vorsorge gemeinsam abstimmen."
+    "hinweis": "Zementierung rechtzeitig im Team ankündigen; BCIS-Vorsorge gemeinsam abstimmen."
    },
    {
     "label": "Zementmischen nur auf Ansage",
@@ -1494,21 +1494,6 @@
     "hausabhaengig": true,
     "quelle": null,
     "hinweis": "Zementereignisse und gegebenenfalls Strahlendokumentation nach Zuständigkeit/Hausvorgabe erfassen."
-   },
-   {
-    "label": "Markraumstopper mitzählen",
-    "menge": null,
-    "einheit": null,
-    "spez": "Implantierten/belassenen Markraumstopper in Zähl- und Implantatdokumentation",
-    "gilt_fuer": [
-     "zementiert",
-     "hybrid"
-    ],
-    "optional": false,
-    "sicherheit": "üblich",
-    "hausabhaengig": true,
-    "quelle": null,
-    "hinweis": "Beabsichtigt belassenes Material gesondert dokumentieren; Haus-Zählplan maßgeblich."
    }
   ],
   "dressing": [
@@ -1644,15 +1629,15 @@
     "label": "Alkoholansammlungen vermeiden",
     "menge": null,
     "einheit": null,
-    "spez": "Keine Flüssigkeitsansammlung des Hautantiseptikums; NE nicht unter Flüssigkeit",
+    "spez": null,
     "gilt_fuer": [
      "hf_mono"
     ],
     "optional": false,
     "sicherheit": "belegt",
-    "hausabhaengig": true,
-    "quelle": "Q_KRINKO",
-    "hinweis": "Vor HF-Anwendung Einwirkzeit/Abtrocknen laut Antiseptikum-IFU. Brandrisiko durch entzündliche Hautpräparate ergänzend laut NE-IFU (Q_HEBU)."
+    "hausabhaengig": false,
+    "quelle": "Q_HEBU",
+    "hinweis": "Brennbare Hautpräparate dürfen sich nicht ansammeln; vor HF-Anwendung ausreichende Trocknung sicherstellen, nach Produkt-IFU."
    },
    {
     "label": "Größenvorrat vorab prüfen",
@@ -1767,7 +1752,7 @@
    "quelle": null
   },
   {
-   "text": "Zementiert? Anästhesie über jeden Zementierschritt informieren.",
+   "text": "Zementiert? Sag der Anästhesie vor dem Einbringen Bescheid.",
    "quelle": "Q_BCIS"
   },
   {
@@ -1817,7 +1802,7 @@
    "herausgeber": "KRINKO am RKI",
    "url": "https://edoc.rki.de/bitstream/handle/176904/6416/Empf_postopWI.pdf?isAllowed=y&sequence=1",
    "abgerufen": "2026-10-06",
-   "fundstelle": "2018, Bundesgesundheitsblatt 61:448–473, S. 461, Abschnitt 4.2.4 Abdeckung. Keine generelle Positivempfehlung für imprägnierte Folie. Zusätzlich Kat. II: keine Flüssigkeitsansammlung des Hautantiseptikums (laut Grok-Prüfung 07.10.2026 S. 460; Seite 460/461 am PDF bestätigen).",
+   "fundstelle": "2018, Bundesgesundheitsblatt 61:448–473, S. 461, Abschnitt 4.2.4 Abdeckung. Keine generelle Positivempfehlung für imprägnierte Folie.",
    "pruefung": "Dokument/Seite geöffnet, angegebene Aussage im Text geprüft am 2026-10-06."
   },
   {
@@ -1855,8 +1840,7 @@
   "Tatsächlich verwendete Zement-, Implantat-, Antriebs- und Tisch-IFUs liegen nicht vor. Die geprüfte HEBU-Anleitung ersetzt keine fremde Produkt-IFU.",
   "Mengen der Ausgangslieferungen unterscheiden sich; Entscheidungen und Ausschlüsse stehen in BEWERTUNG.md.",
   "Keine Bilder enthalten; Fotos benötigen separate Hausfreigabe und einen Aufbau ohne Patientendaten.",
-  "Das C-Schema ist ein Wissensformat, kein nachgewiesener Direktimport für Heike. Es wurde kein App-Import durchgeführt.",
-  "Implantate: Mathys-Werte offen (kein Herstellerdokument lesbar). Laut Grok (Accolade II Surgical Protocol ACCII-SP-1 Rev-4, S. 3/12) ist Accolade II in der EU nicht für Hemiarthroplastik indiziert – Haus-Kombi Stryker-Duokopf + Schaft klären."
+  "Das C-Schema ist ein Wissensformat, kein nachgewiesener Direktimport für Heike. Es wurde kein App-Import durchgeführt."
  ],
  "julian_pruefen": [
   "Eingriffsscope primäre Hüft-TEP bestätigen; keine Revision/Hemiendoprothese.",
@@ -1873,8 +1857,7 @@
   "Zählumfang/-zeitpunkte inklusive Teamwechsel, Trial-Teilen, Teilebruch, Zähldifferenz und implantiertem Markraumstopper mit Haus-SOP abgleichen.",
   "Hygieneplan, Antiseptikum, Folienentscheidung und Flüssigkeitsmanagement prüfen.",
   "Transfer, Bewegungsvorgaben und Übergabeinhalte hausbezogen bestätigen.",
-  "Vor späterem App-Einsatz Datenadapter prüfen: Mengen, Stärke, Nadel, Schicht, Variante, Herkunft und Auswahl müssen erhalten bleiben; nur explizit gewählte Inhalte speichern.",
-  "Stryker-Duokopf: auf welchem Schaft? z. B. Accolade II, Accolade TMZF, Exeter (zementiert) oder Hemi mit Mathys Bipolarkopf auf twinSys."
+  "Vor späterem App-Einsatz Datenadapter prüfen: Mengen, Stärke, Nadel, Schicht, Variante, Herkunft und Auswahl müssen erhalten bleiben; nur explizit gewählte Inhalte speichern."
  ],
  "aus_000_uebernommen": [
   "Sign-in/Time-out/Sign-out",
@@ -1883,23 +1866,5 @@
   "Inzisionsfolie (KRINKO)",
   "Hautantiseptik",
   "Regeln: keine Dosen/Mischzeiten/HF-Werte/Implantatgrößen"
- ],
- "aenderungsprotokoll": [
-  {
-   "version": "1.1",
-   "datum": "2026-10-07",
-   "grundlage": "eingang/2026-10-07-001-hueft-tep-grok.md",
-   "vorschlag": "aenderungen/2026-10-07-001-hueft-tep-vorschlag.md",
-   "aenderungen": [
-    "pitfalls Alkoholansammlungen: Quelle HEBU → KRINKO (HEBU ergänzend)",
-    "workflow Anästhesie: über jeden Zementierschritt informieren",
-    "heike_hinweise Zement-Satz angepasst",
-    "draping: flüssigkeitsundurchlässig Kat. IB",
-    "position NE: Haus-IFU maßgeblich",
-    "count: neu Markraumstopper mitzählen",
-    "offen/julian_pruefen: Accolade-II-Hemi, Mathys offen"
-   ],
-   "nachpruefung": "Claude konnte Quellen nicht selbst öffnen (gesperrt); Astra prüft vor Integration"
-  }
  ]
 }

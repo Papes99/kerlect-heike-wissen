@@ -17,7 +17,7 @@
 - **001-hueft-tep** — Hüft-TEP primär, baut auf 000 auf; Chips mit Mengen, Naht, Varianten (Fixation/Zugang).
 - 002 ff. folgen (z. B. Knie-TEP).
 
-Ablauf: Grok prüft neue Pakete → Ergebnis als Datei in `eingang/` → Claude legt abends einen Vorschlag in `aenderungen/` an → Pakete ändern sich erst nach Julians Freigabe.
+Ablauf (ab 07.10.2026): Grok prüft offene Pakete → Ergebnis als Datei in `eingang/` → Claude prüft stündlich, legt einen Vorschlag in `aenderungen/` an und baut die „übernehmen“-Punkte **automatisch** als neue Paketversion ein (alte Version in `pakete/archiv/`) → **Astra prüft die neue Version vor der Integration** (`pruefung/STATUS.json`: `astra_vor_integration`) → Grok prüft die neue Version erneut. Punkte „Julian entscheidet“ (z. B. Implantat-Kombinationen) warten auf Julian.
 
 ## Gegenprüfung
 

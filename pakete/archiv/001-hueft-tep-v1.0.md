@@ -1,6 +1,6 @@
 # Heike-Wissen 001 – Hüft-TEP (primär)
 
-_Version 1.1 · 07.10.2026 · baut auf Paket 000 auf · nach Grok-Gegenprüfung · Astra-Prüfung vor Integration offen · klinisches Review durch Julian offen_
+_Version 1.0 · 06.10.2026 · baut auf Paket 000 auf · klinisches Review durch Julian offen_
 
 Allgemeines (Time-out, Zählregeln, Markierung, Inzisionsfolie, Hautantiseptik, Heike-Regeln) steht in **Paket 000** und wird hier nicht wiederholt.
 
@@ -38,14 +38,14 @@ Legende: ⚠️ hausabhängig · *(optional)* · 📖 Quelle nachgelesen · _nur
 - **DAA: kontralaterale Abstützung** — _nur daa_ *(optional)* ⚠️
 - **Druckstellen und Arme schützen** ⚠️
 - **Beinbeweglichkeit vorbereiten** ⚠️
-- **NE-Kontakt kontrollieren** (IFU der Haus-NE maßgeblich, HEBU nur Beispiel) — _nur hf_mono_ 📖 HEBU
+- **NE-Kontakt kontrollieren** — _nur hf_mono_ 📖 HEBU
 - **Mechanische Prophylaxe laut Plan** *(optional)* ⚠️
 
 ## 4. Desinfektion & Abdeckung `draping`
 - **Hüft-/Extremitäten-Abdeckset** ⚠️
 - **Beinschlauch oder Beinsack** ⚠️
 - 1 Stück **Inzisionsfolie nur nach Hausplan** *(optional)* ⚠️
-- **Flüssigkeitsdichte Abdeckung** (bei erwartetem Durchfeuchten flüssigkeitsundurchlässig, Kat. IB) ⚠️ 📖 KRINKO
+- **Flüssigkeitsdichte Abdeckung** 📖 KRINKO
 - **Kabel und Schläuche sichern** ⚠️
 
 ## 5. Siebe & Zusatzinstrumente `trays`
@@ -111,7 +111,7 @@ Legende: ⚠️ hausabhängig · *(optional)* · 📖 Quelle nachgelesen · _nur
 - **Anschlüsse vor Nutzung prüfen** ⚠️
 - **Steriles Zubehör auf Ansage reichen** ⚠️
 - **Zementvorbereitung abstimmen** — _nur zementiert, hybrid_ ⚠️
-- **Anästhesie vor Zement informieren** (über jeden Zementierschritt) — _nur zementiert, hybrid_ 📖 BCIS
+- **Anästhesie vor Zement informieren** — _nur zementiert, hybrid_ 📖 BCIS
 - **Zementmischen nur auf Ansage** — _nur zementiert, hybrid_ ⚠️
 - **Definitivimplantat bestätigt öffnen** ⚠️
 - **Verschlussmaterial abstimmen** ⚠️
@@ -123,7 +123,6 @@ Legende: ⚠️ hausabhängig · *(optional)* · 📖 Quelle nachgelesen · _nur
 - **Implantatstatus gesondert erfassen** ⚠️
 - **Zementüberschuss gesondert prüfen** — _nur zementiert, hybrid_ ⚠️
 - **Implantatetiketten dokumentieren** ⚠️
-- **Markraumstopper mitzählen** — _nur zementiert, hybrid_ ⚠️
 - **Zeit- und Bildgebungsdokumentation** — _nur zementiert, hybrid, bildwandler_ *(optional)* ⚠️
 
 ## 11. Verband & Ausleitung `dressing`
@@ -138,7 +137,7 @@ Legende: ⚠️ hausabhängig · *(optional)* · 📖 Quelle nachgelesen · _nur
 - **Keine unbestätigte Systemmischung** ⚠️
 - **Fixation nicht aus Hybrid erraten** ⚠️
 - **Konkrete Unverträglichkeiten klären** ⚠️
-- **Alkoholansammlungen vermeiden** (keine Pfützen Hautantiseptikum, NE nicht unter Flüssigkeit) — _nur hf_mono_ ⚠️ 📖 KRINKO
+- **Alkoholansammlungen vermeiden** — _nur hf_mono_ 📖 HEBU
 - **Größenvorrat vorab prüfen** ⚠️
 
 ## 13. Fotos `photos`
@@ -152,7 +151,7 @@ Legende: ⚠️ hausabhängig · *(optional)* · 📖 Quelle nachgelesen · _nur
 ## Heike darf sagen
 - „Welcher Zugang und welche Fixation? Davon hängen Lagerung, Siebe und Zementmaterial ab.“ 📖 AMBOSS
 - „Hybrid heißt hier: Schaft zementiert – Markraumstopper und Zementplatz trotzdem vorbereiten.“
-- „Zementiert? Anästhesie über jeden Zementierschritt informieren.“ 📖 BCIS
+- „Zementiert? Sag der Anästhesie vor dem Einbringen Bescheid.“ 📖 BCIS
 - „Implantate erst auf Ansage öffnen – Komponente, Seite und Größe laut wiederholen.“
 - „Probeköpfe und Probepfannen gehören in die Zählung, bevor die Faszie zu ist.“
 - „Größenvorrat und Ersatzakkus vor dem Einschleusen prüfen.“
@@ -175,7 +174,6 @@ Legende: ⚠️ hausabhängig · *(optional)* · 📖 Quelle nachgelesen · _nur
 - **HEBU** – Einmal-Neutralelektroden Gebrauchsanweisung GAHF113. https://www.hebumedical.de/ga/GAHF113.pdf
 
 ## Offen
-- Implantate: Mathys-Werte offen (kein Herstellerdokument lesbar). Laut Grok (Accolade II Surgical Protocol ACCII-SP-1 Rev-4, S. 3/12) ist Accolade II in der EU nicht für Hemiarthroplastik indiziert – Haus-Kombi Stryker-Duokopf + Schaft klären.
 - Status: redaktionell geprüftes Zusammenführungspaket, klinischer Entwurf; keine Freigabe durch Julian erfolgt.
 - Keine Quelle belegt die konkreten Vorratsmengen oder die Nahtartikel dieser Lieferungen als allgemeinen Hüft-TEP-Standard.
 - Alle nicht genannten Nadeln/Artikelnummern bleiben offen; keine Ergänzung aus Vermutung.
@@ -185,7 +183,6 @@ Legende: ⚠️ hausabhängig · *(optional)* · 📖 Quelle nachgelesen · _nur
 - Das C-Schema ist ein Wissensformat, kein nachgewiesener Direktimport für Heike. Es wurde kein App-Import durchgeführt.
 
 ## Julian bitte prüfen
-- [ ] Stryker-Duokopf: auf welchem Schaft? z. B. Accolade II, Accolade TMZF, Exeter (zementiert) oder Hemi mit Mathys Bipolarkopf auf twinSys.
 - [ ] Eingriffsscope primäre Hüft-TEP bestätigen; keine Revision/Hemiendoprothese.
 - [ ] Fixation von Pfanne und Schaft sowie Zugang bestätigen; Hybridbegriff und Reverse-Hybrid-Abgrenzung prüfen.
 - [ ] Lagerung, Stützen, Tisch/Beinhalter und Bewegungsraum je Hauszugang freigeben.
@@ -201,13 +198,3 @@ Legende: ⚠️ hausabhängig · *(optional)* · 📖 Quelle nachgelesen · _nur
 - [ ] Hygieneplan, Antiseptikum, Folienentscheidung und Flüssigkeitsmanagement prüfen.
 - [ ] Transfer, Bewegungsvorgaben und Übergabeinhalte hausbezogen bestätigen.
 - [ ] Vor späterem App-Einsatz Datenadapter prüfen: Mengen, Stärke, Nadel, Schicht, Variante, Herkunft und Auswahl müssen erhalten bleiben; nur explizit gewählte Inhalte speichern.
-
-## Änderungen v1.1 (07.10.2026)
-Grundlage: Grok-Gegenprüfung (`eingang/2026-10-07-001-hueft-tep-grok.md`), Vorschlag `aenderungen/2026-10-07-001-hueft-tep-vorschlag.md`. Alte Version: `pakete/archiv/001-hueft-tep-v1.0.*`.
-- Alkoholansammlungen: Quelle HEBU → KRINKO (HEBU ergänzend)
-- Anästhesie über jeden Zementierschritt informieren (Ablauf + Heike-Satz)
-- Abdeckung: flüssigkeitsundurchlässig bei erwartetem Durchfeuchten (Kat. IB)
-- NE-Kontakt: Haus-IFU maßgeblich
-- Neu: Markraumstopper mitzählen
-- Offen/Julian: Accolade-II-Hemi, Mathys
-- Quellen von Claude nicht selbst geöffnet (gesperrt); **Astra prüft vor Integration**.
