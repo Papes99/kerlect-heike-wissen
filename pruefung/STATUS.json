@@ -110,7 +110,7 @@
   },
   "001-implantate-luecken": {
    "name": "001 vervollständigen – Implantat-Lücken (gehört zu 001, nicht zu 002)",
-   "runde": "grok",
+   "runde": "openai",
    "perplexity_auftrag": "pakete/001-implantate-luecken-perplexity-auftrag.md",
    "ergebnis": "pruefung/001-implantate-luecken-perplexity.md",
    "weiter": "Funde fließen in den nächsten Implantat-Lauf (Grok/Astra lesen am Original)",
