@@ -6,10 +6,22 @@ _Anweisung für Astra (Umsetzung in der Heike-App) · Claude, 07.10.2026_
 
 **Ziel:** Unerfahrene OP-Pflegekräfte sehen auf einen Blick, **was bei uns möglich ist**, und klicken sich während der OP **in der echten Reihenfolge** durch die Implantate. Bei jedem Schritt zeigt Heike **nur die passenden Teile desselben Systems** – mit Größe, Offset, REF und Bild. Heike entscheidet nichts: **Der Operateur sagt an, die Pflegekraft gleicht ab.**
 
-## Ziel-App (Julian, 07.10.2026 – Antwort auf Astra A1)
-- **Base44-App „Kerlect“, App-ID `6aa3f64b0b23cc244ce7686d`** (React, `src/pages/…`; Heike: `HeikeStudio`, `HeikeCatalog`, `Tischaufbau`). Bisher keine Implantat-Seite vorhanden.
-- Neue Seite z. B. `src/pages/Implantate.jsx`, erreichbar aus dem Hüft-TEP-Standard bzw. Tischaufbau. Kopien („Kerlect Copy“, „Kerlect (Copy)“) und „Kerlect Kliniken“ nicht anfassen.
-- Vor Änderungen in Base44 einen Checkpoint setzen; Wissensdaten nicht im Code duplizieren, sondern aus diesem Repo laden (raw.githubusercontent.com/Papes99/kerlect-heike-wissen/main/…) oder als Datenimport mit Stand/Version.
+## Ziel-App und Einbauort (Julian, 07.10.2026)
+**Base44-App „Kerlect“, App-ID `6aa3f64b0b23cc244ce7686d`.** Kopien („Kerlect Copy“, „Kerlect (Copy)“) und „Kerlect Kliniken“ nicht anfassen. Vor Änderungen Checkpoint.
+
+**Keine eigene Seite im Menü – das Implantat-Tablett erscheint in Kerlect bei den OP-Standards mit Implantaten:**
+1. **Standard-Ansicht** `src/pages/OPKatalogClean.jsx` (`?module=…`): Erkennt die App den Eingriff über `app/implantat-eingriffe.json` → `erkennung` (Titel/Eckdaten, z. B. „Hüft-TEP“), zeigt sie
+   - in der Aktionsleiste neben „OP-Modus“ und „Vorbereiten“ einen dritten Knopf **„Implantate“**,
+   - im Abschnitt **„Implantate & Medikamente am Tisch“** (`CleanStandardView.jsx`, Abschnitt-ID `implants`) oben eine Karte „Implantate in OP-Reihenfolge wählen“.
+   Beides öffnet das Tablett als Vollbild-Ebene, genauso wie `OPMode`/`PreparationList` (lazy geladen, `onClose`).
+2. **OP-Modus** `src/components/onboarding/OPMode.jsx`: Beim Abschnitt Implantate bzw. als eigener Schritt „Implantate“ direkt erreichbar – dort wird es in der OP benutzt.
+3. **System-Vorschlag:** Nennt der Abschnitt `implants` des Standards schon einen Hersteller/ein System (z. B. „Accolade“, „Excia“, „R3“, „twinSys“), steht dieses System beim Öffnen oben als Vorschlag – die Pflegekraft bestätigt es. Sonst wählt sie aus `haus_systeme`.
+4. **Andere Standards ohne Implantat-Paket:** kein Knopf, keine Karte.
+5. Generisch bauen (eine Komponente `ImplantTray`), gesteuert über `implantat-eingriffe.json` (Schritte je Variante) – Knie-TEP usw. kommen später nur als Daten dazu.
+
+**Animation und Haptik mit dem, was Kerlect schon hat:** `src/lib/motion.js` (`springs.snappy/smooth/bouncy`, framer-motion) und `src/lib/feel.js` (`haptic`/`feedback`: `tap`, `toggle`, `success`, `complete`, `error`; respektiert die Vibrations-/Ton-Einstellung im Profil). Zuordnung: Teil rastet ein → `bouncy` + `success`; Rad-Tick → `toggle`; Schalter → `snappy`; Seiten → `smooth`; Halten fertig → `complete`; falsches Teil → Schütteln + `error`. `MotionConfig reducedMotion="user"` gilt bereits.
+
+**Daten in Kerlect:** nicht im Code abtippen. Entweder per Backend-Funktion aus diesem Repo laden (`raw.githubusercontent.com/Papes99/kerlect-heike-wissen/main/…`) und mit Stand/Version zwischenspeichern (offline wie `offlineStandards.js`), oder als Base44-Entity importieren – mit Feld `stand` und Quelle. Keine Patientendaten speichern; die Auswahl im Tablett bleibt lokal bzw. am Standard-Lauf, nicht am Patienten.
 
 ## Datenquelle
 - `implantate/*.json` (Schema: `implantate/LIESMICH.md`), Hausauswahl in `pruefung/STATUS.json` → `haus_systeme` **und (Julian, Antwort auf A2) der JSON-Block aus `pakete/001-abschluss.md`** für Heike-Sätze, Zement-Schritt und Hüft-Varianten. Nichts im App-Code fest eintragen.
