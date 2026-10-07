@@ -1,6 +1,6 @@
 # Heike-Wissen 000 – Grundwissen für alle Eingriffe
 
-_Version 1.3 · 07.10.2026 · nach Grok-Prüfung · Astra-Prüfung vor Integration offen · klinisches Review offen_
+_Version 1.4 · 07.10.2026 · nach Grok-Prüfung · Astra-Prüfung vor Integration offen · klinisches Review offen_
 
 Paket 000 ist das gemeinsame Fundament: Es gilt bei **jedem** Eingriff. Die Eingriffspakete (001 Hüft-TEP …) ergänzen es.
 
@@ -70,7 +70,7 @@ Legende: ⚠️ hausabhängig · *(optional)* · 📖 Quelle nachgelesen · _nur
 - Lagerung dokumentiert ⚠️
 
 ## Desinfektion & Abdeckung `draping`
-- Sterile Tische erst kurz vor Beginn (bis Schnitt steril abgedeckt; S. 462) 📖 KRINKO
+- Sterile Tische erst kurz vor Beginn (bis Schnitt steril abgedeckt; S. 462, Erläuterung S. 455) 📖 KRINKO
 - Hautdesinfektion laut Haus (Produkt + Einwirkzeit nach IFU) ⚠️
 - Abdeckung flüssigkeitsdicht (flüssigkeitsundurchlässig, sobald Durchfeuchten nicht auszuschließen ist, Kat. IB; Produkt laut Haus) 📖 KRINKO
 - Keine nicht imprägnierte Inzisionsfolie (nicht antiseptisch imprägnierte Folien nicht verwenden, Kat. IB) *(optional)* 📖 KRINKO
@@ -94,7 +94,7 @@ Legende: ⚠️ hausabhängig · *(optional)* · 📖 Quelle nachgelesen · _nur
 - Verpackung/Verfall prüfen — _nur Implantat geplant_
 - Implantat-Etiketten in Doku — _nur Implantat geplant_ ⚠️
 - Implantatpass laut Haus — _nur Implantat geplant_ ⚠️
-- Anästhesie vor Zement informieren (über jeden Zementierschritt) — _nur Knochenzement geplant_ 📖 AMBOSS · BCIS
+- Anästhesie vor Zement informieren (über jeden Zementierschritt; AMBOSS: vor Einbringen) — _nur Knochenzement geplant_ 📖 BCIS
 - Zement nach Hersteller-IFU (Mischzeit je Produkt laut IFU, temperaturabhängig) — _nur Knochenzement geplant_ ⚠️
 - Medikamente am Tisch nur laut Anordnung (Dosis nur mit Quelle + „laut Anordnung prüfen“) ⚠️
 
@@ -132,7 +132,7 @@ Legende: ⚠️ hausabhängig · *(optional)* · 📖 Quelle nachgelesen · _nur
 - „Ergänztes Material gleich mitzählen – vier Augen.“ 📖 APS
 - „Teamwechsel? Dann wird gezählt, bevor übergeben wird.“ 📖 APS
 - „Sterile Tische erst kurz vor Beginn öffnen und bis zum Schnitt abdecken.“ 📖 KRINKO
-- „Zement geplant? Anästhesie über jeden Zementierschritt informieren.“ 📖 AMBOSS · BCIS
+- „Zement geplant? Anästhesie über jeden Zementierschritt informieren.“ 📖 BCIS
 - „Implantat erst auf Ansage öffnen – Typ, Seite und Größe laut wiederholen.“
 
 ## Abschluss-Check (typische Lücken)
@@ -180,21 +180,8 @@ Grundlage: Grok-Prüfung 2026-10-07-000-grundwissen-v1.1-grok.md (Git-Verlauf). 
 Grundlage: KRINKO-Seitenklärung in 2026-10-07-001-hueft-tep-v1.1-grok.md (Git-Verlauf). Alte Version: Git-Verlauf.
 - Sterile Tische: Fundstelle S. 461 → **S. 462** (PDF-S. 15)
 
-## Zur Prüfung in dieser Runde (07.10.2026)
-Grok und Astra prüfen in dieser Runde nur diese Punkte, alles andere ist unverändert. Claude ersetzt diesen Abschnitt in jeder Runde.
-
-#### 000-grundwissen (v1.1 → v1.3)
-Grundlage: Grok-Prüfung 2026-10-07-000-grundwissen-v1.1-grok.md (Git-Verlauf) (Grok Nr. 1–7, 11; Nr. 8–10 bleiben offen) = v1.2; KRINKO-Seitenklärung aus 2026-10-07-001-hueft-tep-v1.1-grok.md (Git-Verlauf) (sterile Tische S. 462) = v1.3. Abdeckung/Antiseptikum nach deiner 001-Prüfung (S. 461, Abschnitt 4.1). Erstmals bei Astra – nur diese Änderungen prüfen.
-
-| Nr | Art | Abschnitt · Eintrag | ALT (nur geänderte Felder) | NEU | Quelle |
-|---|---|---|---|---|---|
-| 1 | geändert | facts · **Patientenidentität geprüft** | spez: Armband + Rückfrage; hinweis: None | spez: Patient bestätigt Identität (WHO); Armband + aktive Rückfrage zusätzlich (KVWL/APS); hinweis: Armband steht nicht in der WHO-Checkliste; Armband + Rückfrage laut q_kvwl. | q_who – Implementation Manual WHO Surgical Safety Checklist 2009 |
-| 2 | geändert | draping · **Sterile Tische erst kurz vor Beginn** | hinweis: None | hinweis: KRINKO gedruckte S. 462 (PDF-S. 15) Kat. II; Erläuterung S. 454. | q_krinko – Prävention postoperativer Wundinfektionen, Bundesgesundheitsbl 2018;61:448–473 |
-| 3 | geändert | draping · **Abdeckung flüssigkeitsdicht** | spez: passend zum Eingriff; sicherheit: hausabhängig; hausabhaengig: True; quelle: None; hinweis: None | spez: Flüssigkeitsundurchlässig, sobald Durchfeuchten nicht auszuschließen ist (KRINKO Kat. IB).; sicherheit: belegt; hausabhaengig: False; quelle: q_krinko; hinweis: Konkretes Abdeckprodukt nach Hausstandard; die Schutzanforderung bleibt bestehen. | q_krinko – Prävention postoperativer Wundinfektionen, Bundesgesundheitsbl 2018;61:448–473 |
-| 4 | geändert | draping · **Keine nicht imprägnierte Inzisionsfolie** | spez: None | spez: nicht antiseptisch imprägnierte Folien nicht verwenden (Kat. IB) | q_krinko – Prävention postoperativer Wundinfektionen, Bundesgesundheitsbl 2018;61:448–473 |
-| 5 | geändert | count · **Nadeln, Klingen, Clips, Drahtteile** | spez: None | spez: Nadeln, Clips, Drahtteile; Instrumente/Klingen laut Haus-Zählplan | q_aps – Flyer „Jeder Tupfer zählt! Zählkontrolle ist Teamarbeit“ |
-| 6 | geändert | implants · **Anästhesie vor Zement informieren** | spez: None; hinweis: None | spez: Anästhesie über jeden Schritt des Zementiervorgangs informieren; hinweis: AMBOSS: vor Einbringen; q_bcis: jeden Zementierschritt. | q_amboss – Endoprothetik des Hüftgelenks (Zementhinweis) |
-| 7 | neu | pitfalls · **Keine Antiseptikum-Pfützen** | – | spez: Patient darf nicht in angesammeltem Hautantiseptikum liegen.; gilt_fuer: ['alle']; optional: False; sicherheit: belegt; hausabhaengig: False; quelle: q_krinko; hinweis: Einwirkzeit/Abtrocknen laut Antiseptikum-IFU; besonders vor monopolarer HF. | q_krinko – Prävention postoperativer Wundinfektionen, Bundesgesundheitsbl 2018;61:448–473 |
-| 8 | geändert | heike_hinweise | Zement geplant? Sag der Anästhesie vor dem Einbringen Bescheid. | Zement geplant? Anästhesie über jeden Zementierschritt informieren. | keine (hausabhängig) |
-| 9 | geändert | quellen · **q_krinko** | – | Gedruckte S. 461 (PDF-S. 14), Abschnitt 4.1: Antiseptikum-Ansammlung Kat. II, flüssigkeitsundurchlässige Abdeckung bei nicht ausschließbarem Durchfeuchten Kat. IB; S. 460: nicht imprägnierte Inzisionsfolie Kat. IB, Türen/Fluktuation Kat. II; S. 462 (PDF-S. 15): sterile Tische bis OP-Beginn abdecken Kat. II; Erläuterung S. 454. | q_krinko – Prävention postoperativer Wundinfektionen, Bundesgesundheitsbl 2018;61:448–473 |
-| 10 | neu | quellen · **q_bcis** | – | Factsheet Implantationssyndrom / BCIS – PDF S. 1, Vorsichtsmaßnahmen Chirurgie Nr. 1: Anästhesie über jeden Schritt des Zementiervorgangs informieren. | q_bcis – Factsheet Implantationssyndrom / BCIS |
+## Änderungen v1.4 (07.10.2026)
+Grundlage: Lauf 000 (Grok + Astra, Julian ok).
+- Anästhesie vor Zement informieren: Quelle AMBOSS → **BCIS** (AMBOSS-Hinweis bleibt)
+- Heike-Satz „Zement geplant? …“: Quelle AMBOSS → **BCIS**
+- KRINKO-Fundstellen: Inzisionsfolie/Türen **S. 461**, sterile Tische S. 462, Erläuterung **S. 455**

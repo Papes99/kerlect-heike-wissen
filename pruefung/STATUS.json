@@ -6,9 +6,14 @@
   "000": {
    "datei": "pakete/000-basis.json",
    "name": "000-grundwissen",
-   "version": "1.3",
-   "runde": "julian",
-   "typ": "grundwissen"
+   "version": "1.4",
+   "runde": "eingebaut",
+   "typ": "grundwissen",
+   "letzte_runde": {
+    "datum": "2026-10-07",
+    "astra_ergebnis": "ÄNDERN",
+    "julian": "ok (ohne A/B)"
+   }
   },
   "001": {
    "datei": "pakete/001-basis.json",
