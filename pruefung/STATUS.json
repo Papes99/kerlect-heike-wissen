@@ -30,7 +30,7 @@
  "start_befehl": "Ein Paket startet nur, wenn Julian „NNN los“ sagt (z. B. „001 los“).",
  "zuordnung": "000 = allgemeines OP-Wissen (gilt für jeden Eingriff). Eingriffspakete (001 …) enthalten NUR Eingriffsspezifisches. Allgemeines aus Eingriffspaketen: ist es schon in 000 → im Eingriffspaket streichen; fehlt es in 000 → über die Kette (000-basis „Zur Prüfung“ → Grok → Astra → Julian) nach 000 verschieben, dann im Eingriffspaket streichen. Eingriffsspezifisches nie in 000.",
  "vorgemerkt": [
-  "Beim nächsten 000-Durchlauf / „001 los“: Allgemeines aus 001 nach 000 verschieben bzw. in 001 streichen (Kandidatenliste im Chat 07.10.2026)."
+  "In der 001-Runde (nach „001 los“): Allgemeines aus 001 nach 000 übernehmen, Doppelungen in 001 streichen."
  ],
  "runden_regel": "Jede Runde hat eine Nummer (runde_nr). Grok/Astra schreiben in die erste Zeile ihrer Datei „Runde <nr>“. Passt die Nummer in der eigenen Datei nicht zur runde_nr in STATUS, überschreibt der Ersteller seine eigene Datei mit der neuen Runde."
 }
