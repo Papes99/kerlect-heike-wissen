@@ -1,7 +1,7 @@
 {
  "hersteller": "Medacta",
- "system": "Quadra (H/P/C), Amistem (P/C) + Versafitcup CC Trio",
- "version": "1.0",
+ "system": "Quadra (H/C/P), AMIStem (P/C) + Versafitcup CC Trio",
+ "version": "1.1",
  "quellen": [
   {
    "id": "siris",
@@ -32,36 +32,207 @@
    "ref": null,
    "gtin": null,
    "attribute": {
+    "registerbeleg": "EPRD zf-Schaft #13 (n=15.013); Kombi mit Versafitcup CC Trio #10",
     "fixation": "zementfrei",
-    "registerbeleg": "EPRD zf-Schaft #13 (n=15.013); Kombi mit Versafitcup CC Trio #10"
+    "material": "Titan-Niob-Legierung mit Hydroxyapatit-(HA)-Beschichtung (q_quadra_de S. 2; EN S. 2)",
+    "konus": "12/14 (nur laut 99.99.COM rev. 12 S. 1; in der OP-Technik nicht genannt)",
+    "ccd_offset_laengen": "nicht genannt",
+    "hinweis": "Lateralisiert nur 1SN–3SN und 1–7; 00SN und 10 auf Anfrage. Kurzhals-Schäfte (0SN–3SN): Probehälse blau (S. 7). Dokument ist Systembroschüre Quadra-S/-H/-C (Quadra-S nicht übernommen). EN 99.14HSC.12 S. 10 identisch."
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-Symbole laut IFU 75.09.017 rev. 26 S. 1 (Legende mit Piktogrammen): REF, LOT, Use by, STERILE EO bzw. STERILE R, Do not reuse, Do not resterilize, Caution – read the accompanying documents, Consult instructions for use, Do not expose to sunlight, Store in a dry place, Do not use if package is damaged, MR Unsafe, Manufacturer, Double sterile barrier system; CE 0476. Etikett kann Konusgröße und/oder Einschränkungen angeben (IFU DE S. 26); je Implantat ein Aufkleber für den Medacta-Implantatpass (IFU DE S. 26). Packungs-/Etikettabbildung, UDI/Barcode, Verpackungsart: in keinem gelesenen Dokument."
    },
-   "quelle": "es",
-   "sicherheit": "offen"
-  },
-  {
-   "id": "medacta.quadra_p",
-   "typ": "schaft",
-   "bezeichnung": "Quadra-P",
-   "auswahl_dach": true,
-   "groesse": null,
-   "ref": null,
-   "gtin": null,
-   "attribute": {
-    "fixation": "zementfrei",
-    "registerbeleg": "SIRIS 2024 #4 mit Versafitcup (n=1.179)"
-   },
-   "bild": {
-    "typ": "keins",
-    "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
-   },
-   "quelle": "siris",
-   "sicherheit": "offen"
+   "quelle": "q_quadra_de",
+   "sicherheit": "belegt (Original, 2 Prüfer)",
+   "groessen": [
+    {
+     "groesse": "00SN",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.98SN",
+     "seite": "10",
+     "fussnote": "II Auf Anfrage",
+     "hals": "Short Neck"
+    },
+    {
+     "groesse": "0SN",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.20SN",
+     "seite": "10",
+     "hals": "Short Neck"
+    },
+    {
+     "groesse": "1SN",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.21SN",
+     "seite": "10",
+     "hals": "Short Neck"
+    },
+    {
+     "groesse": "1SN",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.31SN",
+     "seite": "10",
+     "hals": "Short Neck"
+    },
+    {
+     "groesse": "2SN",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.22SN",
+     "seite": "10",
+     "hals": "Short Neck"
+    },
+    {
+     "groesse": "2SN",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.32SN",
+     "seite": "10",
+     "hals": "Short Neck"
+    },
+    {
+     "groesse": "3SN",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.23SN",
+     "seite": "10",
+     "hals": "Short Neck"
+    },
+    {
+     "groesse": "3SN",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.33SN",
+     "seite": "10",
+     "hals": "Short Neck"
+    },
+    {
+     "groesse": "0",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.020",
+     "seite": "10",
+     "hals": "regulär"
+    },
+    {
+     "groesse": "1",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.021",
+     "seite": "10",
+     "hals": "regulär"
+    },
+    {
+     "groesse": "1",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.031",
+     "seite": "10",
+     "hals": "regulär"
+    },
+    {
+     "groesse": "2",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.022",
+     "seite": "10",
+     "hals": "regulär"
+    },
+    {
+     "groesse": "2",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.032",
+     "seite": "10",
+     "hals": "regulär"
+    },
+    {
+     "groesse": "3",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.023",
+     "seite": "10",
+     "hals": "regulär"
+    },
+    {
+     "groesse": "3",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.033",
+     "seite": "10",
+     "hals": "regulär"
+    },
+    {
+     "groesse": "4",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.024",
+     "seite": "10",
+     "hals": "regulär"
+    },
+    {
+     "groesse": "4",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.034",
+     "seite": "10",
+     "hals": "regulär"
+    },
+    {
+     "groesse": "5",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.025",
+     "seite": "10",
+     "hals": "regulär"
+    },
+    {
+     "groesse": "5",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.035",
+     "seite": "10",
+     "hals": "regulär"
+    },
+    {
+     "groesse": "6",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.026",
+     "seite": "10",
+     "hals": "regulär"
+    },
+    {
+     "groesse": "6",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.036",
+     "seite": "10",
+     "hals": "regulär"
+    },
+    {
+     "groesse": "7",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.027",
+     "seite": "10",
+     "hals": "regulär"
+    },
+    {
+     "groesse": "7",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.037",
+     "seite": "10",
+     "hals": "regulär"
+    },
+    {
+     "groesse": "8",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.028",
+     "seite": "10",
+     "hals": "regulär"
+    },
+    {
+     "groesse": "9",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.029",
+     "seite": "10",
+     "hals": "regulär"
+    },
+    {
+     "groesse": "10",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.030",
+     "seite": "10",
+     "fussnote": "II Auf Anfrage",
+     "hals": "regulär"
+    }
+   ]
   },
   {
    "id": "medacta.quadra_c",
@@ -72,114 +243,5643 @@
    "ref": null,
    "gtin": null,
    "attribute": {
+    "registerbeleg": "EPRD zementiert #9 (n=3.400); Hybrid mit Versafitcup #7",
     "fixation": "zementiert",
-    "registerbeleg": "EPRD zementiert #9 (n=3.400); Hybrid mit Versafitcup #7"
+    "material": "nichtrostender Stahl mit hoher Stickstoffanreicherung (q_quadra_de S. 2; EN: „high nitrogen stainless steel“)",
+    "konus": "12/14 (nur laut 99.99.COM rev. 12 S. 1)",
+    "hinweis": "Nur Standard 0–7, keine lateralisierte Ausführung, kein Short Neck. Keine Schäfte 9/10 (S. 9). Nicht verwechseln mit QUADRA-P Cemented (eigener Schaft)."
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-Symbole laut IFU 75.09.017 rev. 26 S. 1 (Legende mit Piktogrammen): REF, LOT, Use by, STERILE EO bzw. STERILE R, Do not reuse, Do not resterilize, Caution – read the accompanying documents, Consult instructions for use, Do not expose to sunlight, Store in a dry place, Do not use if package is damaged, MR Unsafe, Manufacturer, Double sterile barrier system; CE 0476. Etikett kann Konusgröße und/oder Einschränkungen angeben (IFU DE S. 26); je Implantat ein Aufkleber für den Medacta-Implantatpass (IFU DE S. 26). Packungs-/Etikettabbildung, UDI/Barcode, Verpackungsart: in keinem gelesenen Dokument."
    },
-   "quelle": "es",
-   "sicherheit": "offen"
+   "quelle": "q_quadra_de",
+   "sicherheit": "belegt (Original, 2 Prüfer)",
+   "groessen": [
+    {
+     "groesse": "0",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.040",
+     "seite": "10",
+     "fussnote": "I Begrenzte Verwendung – EN: „Limited use body mass not exceeding 65 kg“ (DE: „Body-Mass-Index nicht über 65 kg“)"
+    },
+    {
+     "groesse": "1",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.041",
+     "seite": "10"
+    },
+    {
+     "groesse": "2",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.042",
+     "seite": "10"
+    },
+    {
+     "groesse": "3",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.043",
+     "seite": "10"
+    },
+    {
+     "groesse": "4",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.044",
+     "seite": "10"
+    },
+    {
+     "groesse": "5",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.045",
+     "seite": "10"
+    },
+    {
+     "groesse": "6",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.046",
+     "seite": "10"
+    },
+    {
+     "groesse": "7",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.047",
+     "seite": "10"
+    }
+   ]
+  },
+  {
+   "id": "medacta.quadra_p",
+   "typ": "schaft",
+   "bezeichnung": "QUADRA-P",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "registerbeleg": "SIRIS 2024 #4 mit Versafitcup (n=1.179)",
+    "fixation": "zementfrei",
+    "material": "Titan-Niobium-Legierung, proximal Titan-Plasma-Beschichtung (MectaGrip), Hydroxylapatit über gesamte Schaftlänge (q_quadra_p S. 4)",
+    "konus": null,
+    "konus_hinweis": "nicht belegt – OP-Technik nennt nur „Konus“; Quadra-P nicht in 99.99.COM rev. 12",
+    "hinweis": "Reguläre Halslänge und Short Neck, je STD und LAT (S. 4, S. 13). Eigene Familie – nicht mit Quadra-H gleichsetzen."
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-Symbole laut IFU 75.09.017 rev. 26 S. 1 (Legende mit Piktogrammen): REF, LOT, Use by, STERILE EO bzw. STERILE R, Do not reuse, Do not resterilize, Caution – read the accompanying documents, Consult instructions for use, Do not expose to sunlight, Store in a dry place, Do not use if package is damaged, MR Unsafe, Manufacturer, Double sterile barrier system; CE 0476. Etikett kann Konusgröße und/oder Einschränkungen angeben (IFU DE S. 26); je Implantat ein Aufkleber für den Medacta-Implantatpass (IFU DE S. 26). Packungs-/Etikettabbildung, UDI/Barcode, Verpackungsart: in keinem gelesenen Dokument."
+   },
+   "quelle": "q_quadra_p",
+   "sicherheit": "belegt (Original, 2 Prüfer)",
+   "groessen": [
+    {
+     "groesse": "00",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.119",
+     "seite": "13",
+     "fussnote": "II Auf Anfrage",
+     "hals": "regulär"
+    },
+    {
+     "groesse": "0",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.120",
+     "seite": "13",
+     "hals": "regulär"
+    },
+    {
+     "groesse": "0",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.140",
+     "seite": "13",
+     "hals": "regulär"
+    },
+    {
+     "groesse": "1",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.121",
+     "seite": "13",
+     "hals": "regulär"
+    },
+    {
+     "groesse": "1",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.141",
+     "seite": "13",
+     "hals": "regulär"
+    },
+    {
+     "groesse": "2",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.122",
+     "seite": "13",
+     "hals": "regulär"
+    },
+    {
+     "groesse": "2",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.142",
+     "seite": "13",
+     "hals": "regulär"
+    },
+    {
+     "groesse": "3",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.123",
+     "seite": "13",
+     "hals": "regulär"
+    },
+    {
+     "groesse": "3",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.143",
+     "seite": "13",
+     "hals": "regulär"
+    },
+    {
+     "groesse": "4",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.124",
+     "seite": "13",
+     "hals": "regulär"
+    },
+    {
+     "groesse": "4",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.144",
+     "seite": "13",
+     "hals": "regulär"
+    },
+    {
+     "groesse": "5",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.125",
+     "seite": "13",
+     "hals": "regulär"
+    },
+    {
+     "groesse": "5",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.145",
+     "seite": "13",
+     "hals": "regulär"
+    },
+    {
+     "groesse": "6",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.126",
+     "seite": "13",
+     "hals": "regulär"
+    },
+    {
+     "groesse": "6",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.146",
+     "seite": "13",
+     "hals": "regulär"
+    },
+    {
+     "groesse": "7",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.127",
+     "seite": "13",
+     "hals": "regulär"
+    },
+    {
+     "groesse": "7",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.147",
+     "seite": "13",
+     "hals": "regulär"
+    },
+    {
+     "groesse": "8",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.128",
+     "seite": "13",
+     "hals": "regulär"
+    },
+    {
+     "groesse": "8",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.148",
+     "seite": "13",
+     "hals": "regulär"
+    },
+    {
+     "groesse": "9",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.129",
+     "seite": "13",
+     "hals": "regulär"
+    },
+    {
+     "groesse": "9",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.149",
+     "seite": "13",
+     "hals": "regulär"
+    },
+    {
+     "groesse": "10",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.130",
+     "seite": "13",
+     "hals": "regulär"
+    },
+    {
+     "groesse": "10",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.150",
+     "seite": "13",
+     "hals": "regulär"
+    },
+    {
+     "groesse": "00SN",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.249",
+     "seite": "13",
+     "fussnote": "II Auf Anfrage",
+     "hals": "Short Neck"
+    },
+    {
+     "groesse": "0SN",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.250",
+     "seite": "13",
+     "hals": "Short Neck"
+    },
+    {
+     "groesse": "0SN",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.270",
+     "seite": "13",
+     "hals": "Short Neck"
+    },
+    {
+     "groesse": "1SN",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.251",
+     "seite": "13",
+     "hals": "Short Neck"
+    },
+    {
+     "groesse": "1SN",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.271",
+     "seite": "13",
+     "hals": "Short Neck"
+    },
+    {
+     "groesse": "2SN",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.252",
+     "seite": "13",
+     "hals": "Short Neck"
+    },
+    {
+     "groesse": "2SN",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.272",
+     "seite": "13",
+     "hals": "Short Neck"
+    },
+    {
+     "groesse": "3SN",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.253",
+     "seite": "13",
+     "hals": "Short Neck"
+    },
+    {
+     "groesse": "3SN",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.273",
+     "seite": "13",
+     "hals": "Short Neck"
+    },
+    {
+     "groesse": "4SN",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.254",
+     "seite": "13",
+     "hals": "Short Neck"
+    },
+    {
+     "groesse": "4SN",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.274",
+     "seite": "13",
+     "hals": "Short Neck"
+    },
+    {
+     "groesse": "5SN",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.255",
+     "seite": "13",
+     "hals": "Short Neck"
+    },
+    {
+     "groesse": "5SN",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.275",
+     "seite": "13",
+     "hals": "Short Neck"
+    },
+    {
+     "groesse": "6SN",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.256",
+     "seite": "13",
+     "fussnote": "I (Fußnote bezieht sich wörtlich auf den Lieferumfang der Instrumente)",
+     "hals": "Short Neck"
+    },
+    {
+     "groesse": "6SN",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.276",
+     "seite": "13",
+     "fussnote": "I (Fußnote bezieht sich wörtlich auf den Lieferumfang der Instrumente)",
+     "hals": "Short Neck"
+    },
+    {
+     "groesse": "7SN",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.257",
+     "seite": "13",
+     "fussnote": "I (Fußnote bezieht sich wörtlich auf den Lieferumfang der Instrumente)",
+     "hals": "Short Neck"
+    },
+    {
+     "groesse": "7SN",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.277",
+     "seite": "13",
+     "fussnote": "I (Fußnote bezieht sich wörtlich auf den Lieferumfang der Instrumente)",
+     "hals": "Short Neck"
+    },
+    {
+     "groesse": "8SN",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.258",
+     "seite": "13",
+     "fussnote": "I (Fußnote bezieht sich wörtlich auf den Lieferumfang der Instrumente)",
+     "hals": "Short Neck"
+    },
+    {
+     "groesse": "8SN",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.278",
+     "seite": "13",
+     "fussnote": "I (Fußnote bezieht sich wörtlich auf den Lieferumfang der Instrumente)",
+     "hals": "Short Neck"
+    },
+    {
+     "groesse": "9SN",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.259",
+     "seite": "13",
+     "fussnote": "I (Fußnote bezieht sich wörtlich auf den Lieferumfang der Instrumente)",
+     "hals": "Short Neck"
+    },
+    {
+     "groesse": "9SN",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.279",
+     "seite": "13",
+     "fussnote": "I (Fußnote bezieht sich wörtlich auf den Lieferumfang der Instrumente)",
+     "hals": "Short Neck"
+    },
+    {
+     "groesse": "10SN",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.260",
+     "seite": "13",
+     "fussnote": "I (Fußnote bezieht sich wörtlich auf den Lieferumfang der Instrumente)",
+     "hals": "Short Neck"
+    },
+    {
+     "groesse": "10SN",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.280",
+     "seite": "13",
+     "fussnote": "I (Fußnote bezieht sich wörtlich auf den Lieferumfang der Instrumente)",
+     "hals": "Short Neck"
+    }
+   ]
+  },
+  {
+   "id": "medacta.quadra_p_collared",
+   "typ": "schaft",
+   "bezeichnung": "QUADRA-P Collared",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementfrei",
+    "material": "Titan-Niobium-Legierung, proximal Titan-Plasma-Beschichtung (MectaGrip), Hydroxylapatit über gesamte Schaftlänge; mit Kragen (q_quadra_p S. 4)",
+    "konus": null,
+    "konus_hinweis": "nicht belegt (nicht in 99.99.COM rev. 12)",
+    "hinweis": "Nur reguläre Halslänge. „Abstand von 1 mm zwischen dem Kragen und dem medialen Kalkar“ (S. 10)."
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-Symbole laut IFU 75.09.017 rev. 26 S. 1 (Legende mit Piktogrammen): REF, LOT, Use by, STERILE EO bzw. STERILE R, Do not reuse, Do not resterilize, Caution – read the accompanying documents, Consult instructions for use, Do not expose to sunlight, Store in a dry place, Do not use if package is damaged, MR Unsafe, Manufacturer, Double sterile barrier system; CE 0476. Etikett kann Konusgröße und/oder Einschränkungen angeben (IFU DE S. 26); je Implantat ein Aufkleber für den Medacta-Implantatpass (IFU DE S. 26). Packungs-/Etikettabbildung, UDI/Barcode, Verpackungsart: in keinem gelesenen Dokument."
+   },
+   "quelle": "q_quadra_p",
+   "sicherheit": "belegt (Original, 2 Prüfer)",
+   "groessen": [
+    {
+     "groesse": "00",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.159",
+     "seite": "13",
+     "fussnote": "II Auf Anfrage"
+    },
+    {
+     "groesse": "0",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.160",
+     "seite": "13"
+    },
+    {
+     "groesse": "0",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.180",
+     "seite": "13"
+    },
+    {
+     "groesse": "1",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.161",
+     "seite": "13"
+    },
+    {
+     "groesse": "1",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.181",
+     "seite": "13"
+    },
+    {
+     "groesse": "2",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.162",
+     "seite": "13"
+    },
+    {
+     "groesse": "2",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.182",
+     "seite": "13"
+    },
+    {
+     "groesse": "3",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.163",
+     "seite": "13"
+    },
+    {
+     "groesse": "3",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.183",
+     "seite": "13"
+    },
+    {
+     "groesse": "4",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.164",
+     "seite": "13"
+    },
+    {
+     "groesse": "4",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.184",
+     "seite": "13"
+    },
+    {
+     "groesse": "5",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.165",
+     "seite": "13"
+    },
+    {
+     "groesse": "5",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.185",
+     "seite": "13"
+    },
+    {
+     "groesse": "6",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.166",
+     "seite": "13"
+    },
+    {
+     "groesse": "6",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.186",
+     "seite": "13"
+    },
+    {
+     "groesse": "7",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.167",
+     "seite": "13"
+    },
+    {
+     "groesse": "7",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.187",
+     "seite": "13"
+    },
+    {
+     "groesse": "8",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.168",
+     "seite": "13"
+    },
+    {
+     "groesse": "8",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.188",
+     "seite": "13"
+    },
+    {
+     "groesse": "9",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.169",
+     "seite": "13"
+    },
+    {
+     "groesse": "9",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.189",
+     "seite": "13"
+    },
+    {
+     "groesse": "10",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.170",
+     "seite": "13"
+    },
+    {
+     "groesse": "10",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.190",
+     "seite": "13"
+    }
+   ]
+  },
+  {
+   "id": "medacta.quadra_p_cemented",
+   "typ": "schaft",
+   "bezeichnung": "QUADRA-P Cemented",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementiert",
+    "material": "hochglanzpolierter Edelstahl (q_quadra_p S. 4)",
+    "konus": null,
+    "konus_hinweis": "nicht belegt (nicht in 99.99.COM rev. 12)",
+    "hinweis": "Eigener Schaft – NICHT Quadra-C. Größen 0–8 STD/LAT, kein 00, kein 9 (S. 11, S. 13)."
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-Symbole laut IFU 75.09.017 rev. 26 S. 1 (Legende mit Piktogrammen): REF, LOT, Use by, STERILE EO bzw. STERILE R, Do not reuse, Do not resterilize, Caution – read the accompanying documents, Consult instructions for use, Do not expose to sunlight, Store in a dry place, Do not use if package is damaged, MR Unsafe, Manufacturer, Double sterile barrier system; CE 0476. Etikett kann Konusgröße und/oder Einschränkungen angeben (IFU DE S. 26); je Implantat ein Aufkleber für den Medacta-Implantatpass (IFU DE S. 26). Packungs-/Etikettabbildung, UDI/Barcode, Verpackungsart: in keinem gelesenen Dokument."
+   },
+   "quelle": "q_quadra_p",
+   "sicherheit": "belegt (Original, 2 Prüfer)",
+   "groessen": [
+    {
+     "groesse": "0",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.210",
+     "seite": "13"
+    },
+    {
+     "groesse": "0",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.230",
+     "seite": "13"
+    },
+    {
+     "groesse": "1",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.211",
+     "seite": "13"
+    },
+    {
+     "groesse": "1",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.231",
+     "seite": "13"
+    },
+    {
+     "groesse": "2",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.212",
+     "seite": "13"
+    },
+    {
+     "groesse": "2",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.232",
+     "seite": "13"
+    },
+    {
+     "groesse": "3",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.213",
+     "seite": "13"
+    },
+    {
+     "groesse": "3",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.233",
+     "seite": "13"
+    },
+    {
+     "groesse": "4",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.214",
+     "seite": "13"
+    },
+    {
+     "groesse": "4",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.234",
+     "seite": "13"
+    },
+    {
+     "groesse": "5",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.215",
+     "seite": "13"
+    },
+    {
+     "groesse": "5",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.235",
+     "seite": "13"
+    },
+    {
+     "groesse": "6",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.216",
+     "seite": "13"
+    },
+    {
+     "groesse": "6",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.236",
+     "seite": "13"
+    },
+    {
+     "groesse": "7",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.217",
+     "seite": "13"
+    },
+    {
+     "groesse": "7",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.237",
+     "seite": "13"
+    },
+    {
+     "groesse": "8",
+     "ausfuehrung": "Standard",
+     "ref": "01.12.218",
+     "seite": "13"
+    },
+    {
+     "groesse": "8",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.12.238",
+     "seite": "13"
+    }
+   ]
   },
   {
    "id": "medacta.amistem_p",
    "typ": "schaft",
-   "bezeichnung": "Amistem-P",
+   "bezeichnung": "AMIStem-P",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "registerbeleg": "SIRIS 2024 #6 mit Versafitcup (n=1.032)",
+    "fixation": "zementfrei",
+    "material": "Niob-Titan-Legierung, proximal TPS-Beschichtung (Titan-Plasma-Spray), HA-Beschichtung auf dem Schaft (q_amistem_p S. 4)",
+    "konus": null,
+    "konus_hinweis": "nicht belegt – AMIStem-P nicht in 99.99.COM rev. 12 (dort nur AMIStem H / H Collared / H Proximal Coating / C)",
+    "hinweis": "Regular Neck STD 00–9, LAT 0–8; Short Neck STD 00SN–9SN, LAT 0SN–8SN (S. 15). Nicht mit AMIStem-H (EN 2014) gleichsetzen."
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-Symbole laut IFU 75.09.017 rev. 26 S. 1 (Legende mit Piktogrammen): REF, LOT, Use by, STERILE EO bzw. STERILE R, Do not reuse, Do not resterilize, Caution – read the accompanying documents, Consult instructions for use, Do not expose to sunlight, Store in a dry place, Do not use if package is damaged, MR Unsafe, Manufacturer, Double sterile barrier system; CE 0476. Etikett kann Konusgröße und/oder Einschränkungen angeben (IFU DE S. 26); je Implantat ein Aufkleber für den Medacta-Implantatpass (IFU DE S. 26). Packungs-/Etikettabbildung, UDI/Barcode, Verpackungsart: in keinem gelesenen Dokument. Etikettfarbe: AMIStem EN 99.14ASTEM.12 (Juli 2014) S. 8/S. 12: „The color of the adaptor represents a specific broach size relating to the color of the package label of the final stem“ – „Calcar Adaptor – Colour Reference“: 00 Magenta, 0 Dark green, 1 Red, 2 Yellow, 3 Light Brown, 4 Light Green, 5 Dark Blue, 6 Silver, 7 Pink, 8 Light Blue, 9 Orange. Gilt laut Dokument für AMIStem (H/H Collared/C, 2014) – für AMIStem-P nicht belegt."
+   },
+   "quelle": "q_amistem_p",
+   "sicherheit": "belegt (Original, 2 Prüfer)",
+   "groessen": [
+    {
+     "groesse": "00",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.399",
+     "seite": "15",
+     "fussnote": "I Auf Anfrage",
+     "hals": "Regular Neck"
+    },
+    {
+     "groesse": "0",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.400",
+     "seite": "15",
+     "hals": "Regular Neck"
+    },
+    {
+     "groesse": "0",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.18.410",
+     "seite": "15",
+     "hals": "Regular Neck"
+    },
+    {
+     "groesse": "1",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.401",
+     "seite": "15",
+     "hals": "Regular Neck"
+    },
+    {
+     "groesse": "1",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.18.411",
+     "seite": "15",
+     "hals": "Regular Neck"
+    },
+    {
+     "groesse": "2",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.402",
+     "seite": "15",
+     "hals": "Regular Neck"
+    },
+    {
+     "groesse": "2",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.18.412",
+     "seite": "15",
+     "hals": "Regular Neck"
+    },
+    {
+     "groesse": "3",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.403",
+     "seite": "15",
+     "hals": "Regular Neck"
+    },
+    {
+     "groesse": "3",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.18.413",
+     "seite": "15",
+     "hals": "Regular Neck"
+    },
+    {
+     "groesse": "4",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.404",
+     "seite": "15",
+     "hals": "Regular Neck"
+    },
+    {
+     "groesse": "4",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.18.414",
+     "seite": "15",
+     "hals": "Regular Neck"
+    },
+    {
+     "groesse": "5",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.405",
+     "seite": "15",
+     "hals": "Regular Neck"
+    },
+    {
+     "groesse": "5",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.18.415",
+     "seite": "15",
+     "hals": "Regular Neck"
+    },
+    {
+     "groesse": "6",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.406",
+     "seite": "15",
+     "hals": "Regular Neck"
+    },
+    {
+     "groesse": "6",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.18.416",
+     "seite": "15",
+     "hals": "Regular Neck"
+    },
+    {
+     "groesse": "7",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.407",
+     "seite": "15",
+     "hals": "Regular Neck"
+    },
+    {
+     "groesse": "7",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.18.417",
+     "seite": "15",
+     "hals": "Regular Neck"
+    },
+    {
+     "groesse": "8",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.408",
+     "seite": "15",
+     "hals": "Regular Neck"
+    },
+    {
+     "groesse": "8",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.18.418",
+     "seite": "15",
+     "hals": "Regular Neck"
+    },
+    {
+     "groesse": "9",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.409",
+     "seite": "15",
+     "hals": "Regular Neck"
+    },
+    {
+     "groesse": "00SN",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.459",
+     "seite": "15",
+     "fussnote": "II Kombinierbar ausschließlich mit den Köpfen der Größen S, M und L.",
+     "hals": "Short Neck"
+    },
+    {
+     "groesse": "0SN",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.460",
+     "seite": "15",
+     "hals": "Short Neck"
+    },
+    {
+     "groesse": "0SN",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.18.470",
+     "seite": "15",
+     "hals": "Short Neck"
+    },
+    {
+     "groesse": "1SN",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.461",
+     "seite": "15",
+     "hals": "Short Neck"
+    },
+    {
+     "groesse": "1SN",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.18.471",
+     "seite": "15",
+     "hals": "Short Neck"
+    },
+    {
+     "groesse": "2SN",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.462",
+     "seite": "15",
+     "hals": "Short Neck"
+    },
+    {
+     "groesse": "2SN",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.18.472",
+     "seite": "15",
+     "hals": "Short Neck"
+    },
+    {
+     "groesse": "3SN",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.463",
+     "seite": "15",
+     "hals": "Short Neck"
+    },
+    {
+     "groesse": "3SN",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.18.473",
+     "seite": "15",
+     "hals": "Short Neck"
+    },
+    {
+     "groesse": "4SN",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.464",
+     "seite": "15",
+     "hals": "Short Neck"
+    },
+    {
+     "groesse": "4SN",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.18.474",
+     "seite": "15",
+     "hals": "Short Neck"
+    },
+    {
+     "groesse": "5SN",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.465",
+     "seite": "15",
+     "hals": "Short Neck"
+    },
+    {
+     "groesse": "5SN",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.18.475",
+     "seite": "15",
+     "hals": "Short Neck"
+    },
+    {
+     "groesse": "6SN",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.466",
+     "seite": "15",
+     "fussnote": "III Erhältlich nur auf besondere Nachfrage mit Bestätigung.",
+     "hals": "Short Neck"
+    },
+    {
+     "groesse": "6SN",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.18.476",
+     "seite": "15",
+     "fussnote": "III Erhältlich nur auf besondere Nachfrage mit Bestätigung.",
+     "hals": "Short Neck"
+    },
+    {
+     "groesse": "7SN",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.467",
+     "seite": "15",
+     "fussnote": "III Erhältlich nur auf besondere Nachfrage mit Bestätigung.",
+     "hals": "Short Neck"
+    },
+    {
+     "groesse": "7SN",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.18.477",
+     "seite": "15",
+     "fussnote": "III Erhältlich nur auf besondere Nachfrage mit Bestätigung.",
+     "hals": "Short Neck"
+    },
+    {
+     "groesse": "8SN",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.468",
+     "seite": "15",
+     "fussnote": "III Erhältlich nur auf besondere Nachfrage mit Bestätigung.",
+     "hals": "Short Neck"
+    },
+    {
+     "groesse": "8SN",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.18.478",
+     "seite": "15",
+     "fussnote": "III Erhältlich nur auf besondere Nachfrage mit Bestätigung.",
+     "hals": "Short Neck"
+    },
+    {
+     "groesse": "9SN",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.469",
+     "seite": "15",
+     "fussnote": "III Erhältlich nur auf besondere Nachfrage mit Bestätigung.",
+     "hals": "Short Neck"
+    }
+   ]
+  },
+  {
+   "id": "medacta.amistem_p_collared",
+   "typ": "schaft",
+   "bezeichnung": "AMIStem-P Collared",
    "auswahl_dach": true,
    "groesse": null,
    "ref": null,
    "gtin": null,
    "attribute": {
     "fixation": "zementfrei",
-    "registerbeleg": "SIRIS 2024 #6 mit Versafitcup (n=1.032)"
+    "material": "Niob-Titan-Legierung mit Kragen, proximal TPS-Beschichtung, HA-Beschichtung auf dem Schaft (q_amistem_p S. 4)",
+    "konus": null,
+    "konus_hinweis": "nicht belegt (nicht in 99.99.COM rev. 12)",
+    "hinweis": "Nur Regular Neck: STD 00–9, LAT 0–8 (S. 15)."
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-Symbole laut IFU 75.09.017 rev. 26 S. 1 (Legende mit Piktogrammen): REF, LOT, Use by, STERILE EO bzw. STERILE R, Do not reuse, Do not resterilize, Caution – read the accompanying documents, Consult instructions for use, Do not expose to sunlight, Store in a dry place, Do not use if package is damaged, MR Unsafe, Manufacturer, Double sterile barrier system; CE 0476. Etikett kann Konusgröße und/oder Einschränkungen angeben (IFU DE S. 26); je Implantat ein Aufkleber für den Medacta-Implantatpass (IFU DE S. 26). Packungs-/Etikettabbildung, UDI/Barcode, Verpackungsart: in keinem gelesenen Dokument. Etikettfarbe: AMIStem EN 99.14ASTEM.12 (Juli 2014) S. 8/S. 12: „The color of the adaptor represents a specific broach size relating to the color of the package label of the final stem“ – „Calcar Adaptor – Colour Reference“: 00 Magenta, 0 Dark green, 1 Red, 2 Yellow, 3 Light Brown, 4 Light Green, 5 Dark Blue, 6 Silver, 7 Pink, 8 Light Blue, 9 Orange. Für AMIStem-P Collared nicht belegt."
    },
-   "quelle": "siris",
-   "sicherheit": "offen"
+   "quelle": "q_amistem_p",
+   "sicherheit": "belegt (Original, 2 Prüfer)",
+   "groessen": [
+    {
+     "groesse": "00",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.429",
+     "seite": "15",
+     "fussnote": "I Auf Anfrage"
+    },
+    {
+     "groesse": "0",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.430",
+     "seite": "15"
+    },
+    {
+     "groesse": "0",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.18.440",
+     "seite": "15"
+    },
+    {
+     "groesse": "1",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.431",
+     "seite": "15"
+    },
+    {
+     "groesse": "1",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.18.441",
+     "seite": "15"
+    },
+    {
+     "groesse": "2",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.432",
+     "seite": "15"
+    },
+    {
+     "groesse": "2",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.18.442",
+     "seite": "15"
+    },
+    {
+     "groesse": "3",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.433",
+     "seite": "15"
+    },
+    {
+     "groesse": "3",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.18.443",
+     "seite": "15"
+    },
+    {
+     "groesse": "4",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.434",
+     "seite": "15"
+    },
+    {
+     "groesse": "4",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.18.444",
+     "seite": "15"
+    },
+    {
+     "groesse": "5",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.435",
+     "seite": "15"
+    },
+    {
+     "groesse": "5",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.18.445",
+     "seite": "15"
+    },
+    {
+     "groesse": "6",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.436",
+     "seite": "15"
+    },
+    {
+     "groesse": "6",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.18.446",
+     "seite": "15"
+    },
+    {
+     "groesse": "7",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.437",
+     "seite": "15"
+    },
+    {
+     "groesse": "7",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.18.447",
+     "seite": "15"
+    },
+    {
+     "groesse": "8",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.438",
+     "seite": "15"
+    },
+    {
+     "groesse": "8",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.18.448",
+     "seite": "15"
+    },
+    {
+     "groesse": "9",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.439",
+     "seite": "15"
+    }
+   ]
   },
   {
    "id": "medacta.amistem_c",
    "typ": "schaft",
-   "bezeichnung": "Amistem-C",
+   "bezeichnung": "AMIStem-C",
    "auswahl_dach": true,
    "groesse": null,
    "ref": null,
    "gtin": null,
    "attribute": {
+    "registerbeleg": "SIRIS Hybrid 183; Hemi mit Medacta bipolar (221) / endohead (345)",
     "fixation": "zementiert",
-    "registerbeleg": "SIRIS Hybrid 183; Hemi mit Medacta bipolar (221) / endohead (345)"
+    "material": "rostfreier Stahl mit hohem Stickstoffgehalt (q_amistem_p S. 4; EN 2014 S. 2: „high nitrogen stainless steel“)",
+    "konus": "12/14 (nur laut 99.99.COM rev. 12 S. 1 „AMIStem C (12/14)“)",
+    "hinweis": "Maßgeblich DE 99.14ASTEMPS.42 (07/2022) S. 16: Regular Neck STD 00–8, LAT 0–8; Short Neck STD 00SN–8SN, LAT 0SN–8SN. Abweichung zur älteren EN 99.14ASTEM.12 (07/2014) S. 12: dort ohne Größe 00 und ohne Short Neck; Raspel-/Schafttabelle ebenfalls abweichend (siehe Tabellen). Nicht aufgelöst – Lieferbarkeit 00 und SN bei Medacta bestätigen. Größe 9 nicht erhältlich (S. 13)."
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-Symbole laut IFU 75.09.017 rev. 26 S. 1 (Legende mit Piktogrammen): REF, LOT, Use by, STERILE EO bzw. STERILE R, Do not reuse, Do not resterilize, Caution – read the accompanying documents, Consult instructions for use, Do not expose to sunlight, Store in a dry place, Do not use if package is damaged, MR Unsafe, Manufacturer, Double sterile barrier system; CE 0476. Etikett kann Konusgröße und/oder Einschränkungen angeben (IFU DE S. 26); je Implantat ein Aufkleber für den Medacta-Implantatpass (IFU DE S. 26). Packungs-/Etikettabbildung, UDI/Barcode, Verpackungsart: in keinem gelesenen Dokument. Etikettfarbe = Schaftgröße (Stand 2014): AMIStem EN 99.14ASTEM.12 (Juli 2014) S. 8/S. 12: „The color of the adaptor represents a specific broach size relating to the color of the package label of the final stem“ – „Calcar Adaptor – Colour Reference“: 00 Magenta, 0 Dark green, 1 Red, 2 Yellow, 3 Light Brown, 4 Light Green, 5 Dark Blue, 6 Silver, 7 Pink, 8 Light Blue, 9 Orange. Ob für AMIStem-C nach DE-Fassung 2022 noch gültig: nicht belegt."
    },
-   "quelle": "siris",
-   "sicherheit": "offen"
+   "quelle": "q_amistem_p",
+   "sicherheit": "belegt (Original, 2 Prüfer)",
+   "groessen": [
+    {
+     "groesse": "00",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.149",
+     "seite": "16",
+     "fussnote": "II Kombinierbar ausschließlich mit den Köpfen der Größen S, M und L.",
+     "hals": "Regular Neck",
+     "en_2014": "nicht gelistet (Zeile „-“)"
+    },
+    {
+     "groesse": "0",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.150",
+     "seite": "16",
+     "hals": "Regular Neck",
+     "en_2014": "gelistet (S. 12)"
+    },
+    {
+     "groesse": "0",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.18.100",
+     "seite": "16",
+     "hals": "Regular Neck",
+     "en_2014": "gelistet (S. 12)"
+    },
+    {
+     "groesse": "1",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.151",
+     "seite": "16",
+     "hals": "Regular Neck",
+     "en_2014": "gelistet (S. 12)"
+    },
+    {
+     "groesse": "1",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.18.101",
+     "seite": "16",
+     "hals": "Regular Neck",
+     "en_2014": "gelistet (S. 12)"
+    },
+    {
+     "groesse": "2",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.152",
+     "seite": "16",
+     "hals": "Regular Neck",
+     "en_2014": "gelistet (S. 12)"
+    },
+    {
+     "groesse": "2",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.18.102",
+     "seite": "16",
+     "hals": "Regular Neck",
+     "en_2014": "gelistet (S. 12)"
+    },
+    {
+     "groesse": "3",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.153",
+     "seite": "16",
+     "hals": "Regular Neck",
+     "en_2014": "gelistet (S. 12)"
+    },
+    {
+     "groesse": "3",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.18.103",
+     "seite": "16",
+     "hals": "Regular Neck",
+     "en_2014": "gelistet (S. 12)"
+    },
+    {
+     "groesse": "4",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.154",
+     "seite": "16",
+     "hals": "Regular Neck",
+     "en_2014": "gelistet (S. 12)"
+    },
+    {
+     "groesse": "4",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.18.104",
+     "seite": "16",
+     "hals": "Regular Neck",
+     "en_2014": "gelistet (S. 12)"
+    },
+    {
+     "groesse": "5",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.155",
+     "seite": "16",
+     "hals": "Regular Neck",
+     "en_2014": "gelistet (S. 12)"
+    },
+    {
+     "groesse": "5",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.18.105",
+     "seite": "16",
+     "hals": "Regular Neck",
+     "en_2014": "gelistet (S. 12)"
+    },
+    {
+     "groesse": "6",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.156",
+     "seite": "16",
+     "hals": "Regular Neck",
+     "en_2014": "gelistet (S. 12)"
+    },
+    {
+     "groesse": "6",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.18.106",
+     "seite": "16",
+     "hals": "Regular Neck",
+     "en_2014": "gelistet (S. 12)"
+    },
+    {
+     "groesse": "7",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.157",
+     "seite": "16",
+     "hals": "Regular Neck",
+     "en_2014": "gelistet (S. 12)"
+    },
+    {
+     "groesse": "7",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.18.107",
+     "seite": "16",
+     "hals": "Regular Neck",
+     "en_2014": "gelistet (S. 12)"
+    },
+    {
+     "groesse": "8",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.158",
+     "seite": "16",
+     "hals": "Regular Neck",
+     "en_2014": "gelistet (S. 12)"
+    },
+    {
+     "groesse": "8",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.18.108",
+     "seite": "16",
+     "hals": "Regular Neck",
+     "en_2014": "gelistet (S. 12)"
+    },
+    {
+     "groesse": "00SN",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.699",
+     "seite": "16",
+     "fussnote": "II Kombinierbar ausschließlich mit den Köpfen der Größen S, M und L.",
+     "hals": "Short Neck",
+     "en_2014": "keine Short-Neck-Variante"
+    },
+    {
+     "groesse": "0SN",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.700",
+     "seite": "16",
+     "fussnote": "II Kombinierbar ausschließlich mit den Köpfen der Größen S, M und L.",
+     "hals": "Short Neck",
+     "en_2014": "keine Short-Neck-Variante"
+    },
+    {
+     "groesse": "0SN",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.18.710",
+     "seite": "16",
+     "hals": "Short Neck",
+     "en_2014": "keine Short-Neck-Variante",
+     "hinweis": "Marker II steht in der Größenspalte der Zeile 0SN; OpenAI ordnet die S/M/L-Grenze nur STD 0SN zu. Ob sie auch für LAT 0SN (01.18.710) gilt: offen – vorsorglich nur S/M/L, Medacta fragen."
+    },
+    {
+     "groesse": "1SN",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.701",
+     "seite": "16",
+     "hals": "Short Neck",
+     "en_2014": "keine Short-Neck-Variante"
+    },
+    {
+     "groesse": "1SN",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.18.711",
+     "seite": "16",
+     "hals": "Short Neck",
+     "en_2014": "keine Short-Neck-Variante"
+    },
+    {
+     "groesse": "2SN",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.702",
+     "seite": "16",
+     "hals": "Short Neck",
+     "en_2014": "keine Short-Neck-Variante"
+    },
+    {
+     "groesse": "2SN",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.18.712",
+     "seite": "16",
+     "hals": "Short Neck",
+     "en_2014": "keine Short-Neck-Variante"
+    },
+    {
+     "groesse": "3SN",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.703",
+     "seite": "16",
+     "hals": "Short Neck",
+     "en_2014": "keine Short-Neck-Variante"
+    },
+    {
+     "groesse": "3SN",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.18.713",
+     "seite": "16",
+     "hals": "Short Neck",
+     "en_2014": "keine Short-Neck-Variante"
+    },
+    {
+     "groesse": "4SN",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.704",
+     "seite": "16",
+     "hals": "Short Neck",
+     "en_2014": "keine Short-Neck-Variante"
+    },
+    {
+     "groesse": "4SN",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.18.714",
+     "seite": "16",
+     "hals": "Short Neck",
+     "en_2014": "keine Short-Neck-Variante"
+    },
+    {
+     "groesse": "5SN",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.705",
+     "seite": "16",
+     "hals": "Short Neck",
+     "en_2014": "keine Short-Neck-Variante"
+    },
+    {
+     "groesse": "5SN",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.18.715",
+     "seite": "16",
+     "hals": "Short Neck",
+     "en_2014": "keine Short-Neck-Variante"
+    },
+    {
+     "groesse": "6SN",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.706",
+     "seite": "16",
+     "fussnote": "III Erhältlich nur auf besondere Nachfrage mit Bestätigung.",
+     "hals": "Short Neck",
+     "en_2014": "keine Short-Neck-Variante"
+    },
+    {
+     "groesse": "6SN",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.18.716",
+     "seite": "16",
+     "fussnote": "III Erhältlich nur auf besondere Nachfrage mit Bestätigung.",
+     "hals": "Short Neck",
+     "en_2014": "keine Short-Neck-Variante"
+    },
+    {
+     "groesse": "7SN",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.707",
+     "seite": "16",
+     "fussnote": "III Erhältlich nur auf besondere Nachfrage mit Bestätigung.",
+     "hals": "Short Neck",
+     "en_2014": "keine Short-Neck-Variante"
+    },
+    {
+     "groesse": "7SN",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.18.717",
+     "seite": "16",
+     "fussnote": "III Erhältlich nur auf besondere Nachfrage mit Bestätigung.",
+     "hals": "Short Neck",
+     "en_2014": "keine Short-Neck-Variante"
+    },
+    {
+     "groesse": "8SN",
+     "ausfuehrung": "Standard",
+     "ref": "01.18.708",
+     "seite": "16",
+     "fussnote": "III Erhältlich nur auf besondere Nachfrage mit Bestätigung.",
+     "hals": "Short Neck",
+     "en_2014": "keine Short-Neck-Variante"
+    },
+    {
+     "groesse": "8SN",
+     "ausfuehrung": "Lateralisiert",
+     "ref": "01.18.718",
+     "seite": "16",
+     "fussnote": "III Erhältlich nur auf besondere Nachfrage mit Bestätigung.",
+     "hals": "Short Neck",
+     "en_2014": "keine Short-Neck-Variante"
+    }
+   ]
+  },
+  {
+   "id": "medacta.kopf.edelstahl",
+   "typ": "kopf",
+   "bezeichnung": "Femurkopf Edelstahl (nichtrostender Stahl)",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "material": "nichtrostender Stahl / Edelstahl (Bezeichnung laut Kopftabelle)",
+    "konus": null,
+    "konus_hinweis": "COM rev. 12 führt Edelstahl- und CoCr-Köpfe in 10/12 (nur Native) und 12/14; welche REF welchem Konus entspricht, ist in den OP-Techniken nicht angegeben – Konus am Etikett prüfen (IFU DE S. 26).",
+    "durchmesser_mm": [
+     "22",
+     "28",
+     "32"
+    ],
+    "hinweis": "XL (Ø 28/32) und XXL (Ø 28/32) mit Kragen – kann Bewegungsumfang verringern (q_quadra_de S. 8–9; q_quadra_p S. 9). Ø 22 S kann ROM mit nativer Hüftpfanne verringern (q_quadra_p S. 9). Halslängen in mm: nicht genannt.",
+    "fundstellen": "q_quadra_de S. 11; q_quadra_en S. 11; q_quadra_p S. 12; q_amistem_p S. 14; q_amistem_en S. 13"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-Symbole laut IFU 75.09.017 rev. 26 S. 1 (Legende mit Piktogrammen): REF, LOT, Use by, STERILE EO bzw. STERILE R, Do not reuse, Do not resterilize, Caution – read the accompanying documents, Consult instructions for use, Do not expose to sunlight, Store in a dry place, Do not use if package is damaged, MR Unsafe, Manufacturer, Double sterile barrier system; CE 0476. Etikett kann Konusgröße und/oder Einschränkungen angeben (IFU DE S. 26); je Implantat ein Aufkleber für den Medacta-Implantatpass (IFU DE S. 26). Packungs-/Etikettabbildung, UDI/Barcode, Verpackungsart: in keinem gelesenen Dokument."
+   },
+   "quelle": "q_quadra_p",
+   "sicherheit": "belegt (Original, 1 Prüfer)",
+   "groessen": [
+    {
+     "durchmesser_mm": "22",
+     "groesse": "S",
+     "ref": "01.25.130",
+     "fussnote": "Auf Anfrage (alle Kopftabellen)"
+    },
+    {
+     "durchmesser_mm": "22",
+     "groesse": "M",
+     "ref": "25055.2203",
+     "fussnote": "Auf Anfrage (alle Kopftabellen)"
+    },
+    {
+     "durchmesser_mm": "28",
+     "groesse": "S",
+     "ref": "25055.2801"
+    },
+    {
+     "durchmesser_mm": "28",
+     "groesse": "M",
+     "ref": "25055.2803"
+    },
+    {
+     "durchmesser_mm": "28",
+     "groesse": "L",
+     "ref": "25055.2805"
+    },
+    {
+     "durchmesser_mm": "28",
+     "groesse": "XL",
+     "ref": "25055.2807"
+    },
+    {
+     "durchmesser_mm": "28",
+     "groesse": "XXL",
+     "ref": "25055.2810",
+     "fussnote": "Auf Anfrage (alle Kopftabellen)"
+    },
+    {
+     "durchmesser_mm": "32",
+     "groesse": "S",
+     "ref": "25055.3201"
+    },
+    {
+     "durchmesser_mm": "32",
+     "groesse": "M",
+     "ref": "25055.3203"
+    },
+    {
+     "durchmesser_mm": "32",
+     "groesse": "L",
+     "ref": "25055.3205"
+    },
+    {
+     "durchmesser_mm": "32",
+     "groesse": "XL",
+     "ref": "25055.3207"
+    },
+    {
+     "durchmesser_mm": "32",
+     "groesse": "XXL",
+     "ref": "25055.3210",
+     "fussnote": "Auf Anfrage (alle Kopftabellen)"
+    }
+   ]
+  },
+  {
+   "id": "medacta.kopf.cocr",
+   "typ": "kopf",
+   "bezeichnung": "Femurkopf CoCr",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "material": "CoCr",
+    "konus": null,
+    "konus_hinweis": "COM rev. 12 führt Edelstahl- und CoCr-Köpfe in 10/12 (nur Native) und 12/14; welche REF welchem Konus entspricht, ist in den OP-Techniken nicht angegeben – Konus am Etikett prüfen (IFU DE S. 26).",
+    "durchmesser_mm": [
+     "22",
+     "28",
+     "32",
+     "36"
+    ],
+    "hinweis": "XL (Ø 28/32) und XXL (Ø 28/32/36) mit Kragen – kann Bewegungsumfang verringern. Halslängen in mm: nicht genannt.",
+    "fundstellen": "q_quadra_de S. 11; q_quadra_en S. 11; q_quadra_p S. 12; q_amistem_p S. 14; q_amistem_en S. 13"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-Symbole laut IFU 75.09.017 rev. 26 S. 1 (Legende mit Piktogrammen): REF, LOT, Use by, STERILE EO bzw. STERILE R, Do not reuse, Do not resterilize, Caution – read the accompanying documents, Consult instructions for use, Do not expose to sunlight, Store in a dry place, Do not use if package is damaged, MR Unsafe, Manufacturer, Double sterile barrier system; CE 0476. Etikett kann Konusgröße und/oder Einschränkungen angeben (IFU DE S. 26); je Implantat ein Aufkleber für den Medacta-Implantatpass (IFU DE S. 26). Packungs-/Etikettabbildung, UDI/Barcode, Verpackungsart: in keinem gelesenen Dokument."
+   },
+   "quelle": "q_quadra_p",
+   "sicherheit": "belegt (Original, 1 Prüfer)",
+   "groessen": [
+    {
+     "durchmesser_mm": "22",
+     "groesse": "S",
+     "ref": "01.25.124",
+     "fussnote": "Auf Anfrage (alle Kopftabellen)"
+    },
+    {
+     "durchmesser_mm": "22",
+     "groesse": "M",
+     "ref": "01.25.123",
+     "fussnote": "Auf Anfrage (alle Kopftabellen)"
+    },
+    {
+     "durchmesser_mm": "28",
+     "groesse": "S",
+     "ref": "01.25.011"
+    },
+    {
+     "durchmesser_mm": "28",
+     "groesse": "M",
+     "ref": "01.25.012"
+    },
+    {
+     "durchmesser_mm": "28",
+     "groesse": "L",
+     "ref": "01.25.013"
+    },
+    {
+     "durchmesser_mm": "28",
+     "groesse": "XL",
+     "ref": "01.25.014"
+    },
+    {
+     "durchmesser_mm": "28",
+     "groesse": "XXL",
+     "ref": "01.25.015",
+     "fussnote": "Auf Anfrage (alle Kopftabellen)"
+    },
+    {
+     "durchmesser_mm": "32",
+     "groesse": "S",
+     "ref": "01.25.021"
+    },
+    {
+     "durchmesser_mm": "32",
+     "groesse": "M",
+     "ref": "01.25.022"
+    },
+    {
+     "durchmesser_mm": "32",
+     "groesse": "L",
+     "ref": "01.25.023"
+    },
+    {
+     "durchmesser_mm": "32",
+     "groesse": "XL",
+     "ref": "01.25.024"
+    },
+    {
+     "durchmesser_mm": "32",
+     "groesse": "XXL",
+     "ref": "01.25.025",
+     "fussnote": "Auf Anfrage (alle Kopftabellen)"
+    },
+    {
+     "durchmesser_mm": "36",
+     "groesse": "S",
+     "ref": "01.25.030"
+    },
+    {
+     "durchmesser_mm": "36",
+     "groesse": "M",
+     "ref": "01.25.031"
+    },
+    {
+     "durchmesser_mm": "36",
+     "groesse": "L",
+     "ref": "01.25.032"
+    },
+    {
+     "durchmesser_mm": "36",
+     "groesse": "XL",
+     "ref": "01.25.033"
+    },
+    {
+     "durchmesser_mm": "36",
+     "groesse": "XXL",
+     "ref": "01.25.034",
+     "fussnote": "Auf Anfrage (alle Kopftabellen)"
+    }
+   ]
+  },
+  {
+   "id": "medacta.kopf.ceramtec_biolox_delta",
+   "typ": "kopf",
+   "bezeichnung": "CeramTec BIOLOX delta",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "material": "Keramik BIOLOX delta (CeramTec)",
+    "konus": "12/14 (COM rev. 12: „Ceramtec BIOLOX delta (12/14 taper)“)",
+    "durchmesser_mm": [
+     "28",
+     "32",
+     "36",
+     "40"
+    ],
+    "hinweis": "Kein XL bei Ø 28; kein XXL. Halslängen in mm: nicht genannt.",
+    "fundstellen": "q_quadra_de S. 11; q_quadra_en S. 11; q_quadra_p S. 12; q_amistem_p S. 14; q_amistem_en S. 13"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-Symbole laut IFU 75.09.017 rev. 26 S. 1 (Legende mit Piktogrammen): REF, LOT, Use by, STERILE EO bzw. STERILE R, Do not reuse, Do not resterilize, Caution – read the accompanying documents, Consult instructions for use, Do not expose to sunlight, Store in a dry place, Do not use if package is damaged, MR Unsafe, Manufacturer, Double sterile barrier system; CE 0476. Etikett kann Konusgröße und/oder Einschränkungen angeben (IFU DE S. 26); je Implantat ein Aufkleber für den Medacta-Implantatpass (IFU DE S. 26). Packungs-/Etikettabbildung, UDI/Barcode, Verpackungsart: in keinem gelesenen Dokument."
+   },
+   "quelle": "q_quadra_p",
+   "sicherheit": "belegt (Original, 1 Prüfer)",
+   "groessen": [
+    {
+     "durchmesser_mm": "28",
+     "groesse": "S",
+     "ref": "38.49.7175.445.00"
+    },
+    {
+     "durchmesser_mm": "28",
+     "groesse": "M",
+     "ref": "38.49.7175.455.00"
+    },
+    {
+     "durchmesser_mm": "28",
+     "groesse": "L",
+     "ref": "38.49.7175.465.00"
+    },
+    {
+     "durchmesser_mm": "32",
+     "groesse": "S",
+     "ref": "38.49.7175.665.00"
+    },
+    {
+     "durchmesser_mm": "32",
+     "groesse": "M",
+     "ref": "38.49.7175.675.00"
+    },
+    {
+     "durchmesser_mm": "32",
+     "groesse": "L",
+     "ref": "38.49.7175.685.00"
+    },
+    {
+     "durchmesser_mm": "32",
+     "groesse": "XL",
+     "ref": "38.49.7181.345.00"
+    },
+    {
+     "durchmesser_mm": "36",
+     "groesse": "S",
+     "ref": "38.49.7179.275.00"
+    },
+    {
+     "durchmesser_mm": "36",
+     "groesse": "M",
+     "ref": "38.49.7179.285.00"
+    },
+    {
+     "durchmesser_mm": "36",
+     "groesse": "L",
+     "ref": "38.49.7179.295.00"
+    },
+    {
+     "durchmesser_mm": "36",
+     "groesse": "XL",
+     "ref": "38.49.7175.925.00"
+    },
+    {
+     "durchmesser_mm": "40",
+     "groesse": "S",
+     "ref": "38.49.7179.885.00",
+     "fussnote": "Auf Anfrage nur in q_quadra_p S. 12 / q_amistem_p S. 14 (2021/2022); in q_quadra_de 2016 und q_amistem_en 2014 ohne Marker"
+    },
+    {
+     "durchmesser_mm": "40",
+     "groesse": "M",
+     "ref": "38.49.7179.895.00",
+     "fussnote": "Auf Anfrage nur in q_quadra_p S. 12 / q_amistem_p S. 14 (2021/2022); in q_quadra_de 2016 und q_amistem_en 2014 ohne Marker"
+    },
+    {
+     "durchmesser_mm": "40",
+     "groesse": "L",
+     "ref": "38.49.7179.905.00",
+     "fussnote": "Auf Anfrage nur in q_quadra_p S. 12 / q_amistem_p S. 14 (2021/2022); in q_quadra_de 2016 und q_amistem_en 2014 ohne Marker"
+    },
+    {
+     "durchmesser_mm": "40",
+     "groesse": "XL",
+     "ref": "38.49.7179.915.00",
+     "fussnote": "Auf Anfrage nur in q_quadra_p S. 12 / q_amistem_p S. 14 (2021/2022); in q_quadra_de 2016 und q_amistem_en 2014 ohne Marker"
+    }
+   ]
+  },
+  {
+   "id": "medacta.kopf.ceramtec_biolox_option",
+   "typ": "kopf",
+   "bezeichnung": "CeramTec BIOLOX Option",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "material": "Keramik BIOLOX Option (CeramTec), mit Metallhülse",
+    "konus": "12/14 (COM rev. 12: „Ceramtec BIOLOX OPTION (12/14 taper)“)",
+    "durchmesser_mm": [
+     "28",
+     "32",
+     "36",
+     "40"
+    ],
+    "indikation": "Spezifisch für Revisionsfälle („Specific for revision cases“ / „for ceramic head revision“)",
+    "hinweis": "Reihenfolge der Endziffern wörtlich: S .81, M .82, L .85, XL .84. Halslängen in mm: nicht genannt.",
+    "fundstellen": "q_quadra_de S. 11; q_quadra_en S. 11; q_quadra_p S. 12; q_amistem_p S. 14; q_amistem_en S. 13"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-Symbole laut IFU 75.09.017 rev. 26 S. 1 (Legende mit Piktogrammen): REF, LOT, Use by, STERILE EO bzw. STERILE R, Do not reuse, Do not resterilize, Caution – read the accompanying documents, Consult instructions for use, Do not expose to sunlight, Store in a dry place, Do not use if package is damaged, MR Unsafe, Manufacturer, Double sterile barrier system; CE 0476. Etikett kann Konusgröße und/oder Einschränkungen angeben (IFU DE S. 26); je Implantat ein Aufkleber für den Medacta-Implantatpass (IFU DE S. 26). Packungs-/Etikettabbildung, UDI/Barcode, Verpackungsart: in keinem gelesenen Dokument."
+   },
+   "quelle": "q_quadra_p",
+   "sicherheit": "belegt (Original, 1 Prüfer)",
+   "groessen": [
+    {
+     "durchmesser_mm": "28",
+     "groesse": "S",
+     "ref": "38.49.7176.935.81"
+    },
+    {
+     "durchmesser_mm": "28",
+     "groesse": "M",
+     "ref": "38.49.7176.935.82"
+    },
+    {
+     "durchmesser_mm": "28",
+     "groesse": "L",
+     "ref": "38.49.7176.935.85"
+    },
+    {
+     "durchmesser_mm": "28",
+     "groesse": "XL",
+     "ref": "38.49.7176.935.84"
+    },
+    {
+     "durchmesser_mm": "32",
+     "groesse": "S",
+     "ref": "38.49.7176.945.81"
+    },
+    {
+     "durchmesser_mm": "32",
+     "groesse": "M",
+     "ref": "38.49.7176.945.82"
+    },
+    {
+     "durchmesser_mm": "32",
+     "groesse": "L",
+     "ref": "38.49.7176.945.85"
+    },
+    {
+     "durchmesser_mm": "32",
+     "groesse": "XL",
+     "ref": "38.49.7176.945.84"
+    },
+    {
+     "durchmesser_mm": "36",
+     "groesse": "S",
+     "ref": "38.49.7176.965.81"
+    },
+    {
+     "durchmesser_mm": "36",
+     "groesse": "M",
+     "ref": "38.49.7176.965.82"
+    },
+    {
+     "durchmesser_mm": "36",
+     "groesse": "L",
+     "ref": "38.49.7176.965.85"
+    },
+    {
+     "durchmesser_mm": "36",
+     "groesse": "XL",
+     "ref": "38.49.7176.965.84"
+    },
+    {
+     "durchmesser_mm": "40",
+     "groesse": "S",
+     "ref": "38.49.7179.815.81",
+     "fussnote": "Auf Anfrage nur in q_quadra_p S. 12 / q_amistem_p S. 14 (2021/2022); in q_quadra_de 2016 und q_amistem_en 2014 ohne Marker"
+    },
+    {
+     "durchmesser_mm": "40",
+     "groesse": "M",
+     "ref": "38.49.7179.815.82",
+     "fussnote": "Auf Anfrage nur in q_quadra_p S. 12 / q_amistem_p S. 14 (2021/2022); in q_quadra_de 2016 und q_amistem_en 2014 ohne Marker"
+    },
+    {
+     "durchmesser_mm": "40",
+     "groesse": "L",
+     "ref": "38.49.7179.815.85",
+     "fussnote": "Auf Anfrage nur in q_quadra_p S. 12 / q_amistem_p S. 14 (2021/2022); in q_quadra_de 2016 und q_amistem_en 2014 ohne Marker"
+    },
+    {
+     "durchmesser_mm": "40",
+     "groesse": "XL",
+     "ref": "38.49.7179.815.84",
+     "fussnote": "Auf Anfrage nur in q_quadra_p S. 12 / q_amistem_p S. 14 (2021/2022); in q_quadra_de 2016 und q_amistem_en 2014 ohne Marker"
+    }
+   ]
+  },
+  {
+   "id": "medacta.kopf.mectacer_biolox_delta",
+   "typ": "kopf",
+   "bezeichnung": "Mectacer BIOLOX delta",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "material": "Keramik BIOLOX delta (Medacta „Mectacer“)",
+    "konus": "12/14 (COM rev. 12: „Mectacer BIOLOX delta (12/14 taper)“)",
+    "durchmesser_mm": [
+     "28",
+     "32",
+     "36",
+     "40"
+    ],
+    "hinweis": "Nur in q_quadra_p S. 12 und q_amistem_p S. 14 gelistet (nicht in den Quadra-/AMIStem-Fassungen 2012–2016). Ø 40 ohne Anfrage-Marker.",
+    "fundstellen": "q_quadra_p S. 12; q_amistem_p S. 14"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-Symbole laut IFU 75.09.017 rev. 26 S. 1 (Legende mit Piktogrammen): REF, LOT, Use by, STERILE EO bzw. STERILE R, Do not reuse, Do not resterilize, Caution – read the accompanying documents, Consult instructions for use, Do not expose to sunlight, Store in a dry place, Do not use if package is damaged, MR Unsafe, Manufacturer, Double sterile barrier system; CE 0476. Etikett kann Konusgröße und/oder Einschränkungen angeben (IFU DE S. 26); je Implantat ein Aufkleber für den Medacta-Implantatpass (IFU DE S. 26). Packungs-/Etikettabbildung, UDI/Barcode, Verpackungsart: in keinem gelesenen Dokument."
+   },
+   "quelle": "q_quadra_p",
+   "sicherheit": "belegt (Original, 1 Prüfer)",
+   "groessen": [
+    {
+     "durchmesser_mm": "28",
+     "groesse": "S",
+     "ref": "01.29.201"
+    },
+    {
+     "durchmesser_mm": "28",
+     "groesse": "M",
+     "ref": "01.29.202"
+    },
+    {
+     "durchmesser_mm": "28",
+     "groesse": "L",
+     "ref": "01.29.203"
+    },
+    {
+     "durchmesser_mm": "32",
+     "groesse": "S",
+     "ref": "01.29.204"
+    },
+    {
+     "durchmesser_mm": "32",
+     "groesse": "M",
+     "ref": "01.29.205"
+    },
+    {
+     "durchmesser_mm": "32",
+     "groesse": "L",
+     "ref": "01.29.206"
+    },
+    {
+     "durchmesser_mm": "32",
+     "groesse": "XL",
+     "ref": "01.29.207"
+    },
+    {
+     "durchmesser_mm": "36",
+     "groesse": "S",
+     "ref": "01.29.208"
+    },
+    {
+     "durchmesser_mm": "36",
+     "groesse": "M",
+     "ref": "01.29.209"
+    },
+    {
+     "durchmesser_mm": "36",
+     "groesse": "L",
+     "ref": "01.29.210"
+    },
+    {
+     "durchmesser_mm": "36",
+     "groesse": "XL",
+     "ref": "01.29.211"
+    },
+    {
+     "durchmesser_mm": "40",
+     "groesse": "S",
+     "ref": "01.29.212"
+    },
+    {
+     "durchmesser_mm": "40",
+     "groesse": "M",
+     "ref": "01.29.213"
+    },
+    {
+     "durchmesser_mm": "40",
+     "groesse": "L",
+     "ref": "01.29.214"
+    },
+    {
+     "durchmesser_mm": "40",
+     "groesse": "XL",
+     "ref": "01.29.215"
+    }
+   ]
+  },
+  {
+   "id": "medacta.kopf.mectacer_biolox_option",
+   "typ": "kopf",
+   "bezeichnung": "Mectacer BIOLOX Option System (Kopf + Hülse)",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "material": "Keramikkopf BIOLOX Option + Hülse",
+    "konus": "12/14 (COM rev. 12: „ball head + sleeve 12/14 taper“)",
+    "indikation": "„Speziell für Revisions-Eingriffe“ (q_quadra_p S. 12)",
+    "hinweis": "Kopf und passende Hülse (S/M/L/XL) getrennt wählen. Nur in q_quadra_p S. 12 / q_amistem_p S. 14.",
+    "fundstellen": "q_quadra_p S. 12; q_amistem_p S. 14"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-Symbole laut IFU 75.09.017 rev. 26 S. 1 (Legende mit Piktogrammen): REF, LOT, Use by, STERILE EO bzw. STERILE R, Do not reuse, Do not resterilize, Caution – read the accompanying documents, Consult instructions for use, Do not expose to sunlight, Store in a dry place, Do not use if package is damaged, MR Unsafe, Manufacturer, Double sterile barrier system; CE 0476. Etikett kann Konusgröße und/oder Einschränkungen angeben (IFU DE S. 26); je Implantat ein Aufkleber für den Medacta-Implantatpass (IFU DE S. 26). Packungs-/Etikettabbildung, UDI/Barcode, Verpackungsart: in keinem gelesenen Dokument."
+   },
+   "quelle": "q_quadra_p",
+   "sicherheit": "belegt (Original, 1 Prüfer)",
+   "groessen": [
+    {
+     "teil": "Kopf",
+     "durchmesser_mm": "28",
+     "ref": "01.29.230H"
+    },
+    {
+     "teil": "Kopf",
+     "durchmesser_mm": "32",
+     "ref": "01.29.231H"
+    },
+    {
+     "teil": "Kopf",
+     "durchmesser_mm": "36",
+     "ref": "01.29.232H"
+    },
+    {
+     "teil": "Kopf",
+     "durchmesser_mm": "40",
+     "ref": "01.29.233H"
+    },
+    {
+     "teil": "Hülse (Manschette)",
+     "groesse": "S",
+     "ref": "01.29.240A"
+    },
+    {
+     "teil": "Hülse (Manschette)",
+     "groesse": "M",
+     "ref": "01.29.241A"
+    },
+    {
+     "teil": "Hülse (Manschette)",
+     "groesse": "L",
+     "ref": "01.29.242A"
+    },
+    {
+     "teil": "Hülse (Manschette)",
+     "groesse": "XL",
+     "ref": "01.29.243A"
+    }
+   ]
   },
   {
    "id": "medacta.versafitcup_cc_trio",
    "typ": "pfanne",
-   "bezeichnung": "Versafitcup CC Trio",
+   "bezeichnung": "Versafitcup CC Trio (mit seitlichen Schraubenlöchern)",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "registerbeleg": "EPRD zf-Pfanne #6 (n=20.423)",
+    "fixation": "zementfrei",
+    "form": "elliptisch, Aufweitung am Äquator; kranialer Rand 5° (S. 4, S. 6)",
+    "material": null,
+    "material_hinweis": "Schalenmaterial/Beschichtung im Dokument nicht genannt",
+    "pruefstand": "Zuordnung Schale→Inlaygröße von Claude-Helfer und OpenAI gelesen (2 Prüfer); Einzel-REF nur Claude-Helfer"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-Symbole laut IFU 75.09.017 rev. 26 S. 1 (Legende mit Piktogrammen): REF, LOT, Use by, STERILE EO bzw. STERILE R, Do not reuse, Do not resterilize, Caution – read the accompanying documents, Consult instructions for use, Do not expose to sunlight, Store in a dry place, Do not use if package is damaged, MR Unsafe, Manufacturer, Double sterile barrier system; CE 0476. Etikett kann Konusgröße und/oder Einschränkungen angeben (IFU DE S. 26); je Implantat ein Aufkleber für den Medacta-Implantatpass (IFU DE S. 26). Packungs-/Etikettabbildung, UDI/Barcode, Verpackungsart: in keinem gelesenen Dokument. Lochverschlussschraube „ist in der Verpackung der Hüftpfanne enthalten“ (q_cctrio S. 8)."
+   },
+   "quelle": "q_cctrio",
+   "sicherheit": "belegt (Original, 1 Prüfer)",
+   "groessen": [
+    {
+     "durchmesser_mm": "40",
+     "ref": "01.26.45.0040",
+     "inlay_groesse": "AZ",
+     "seite": "12",
+     "fussnote": "Auf Anfrage"
+    },
+    {
+     "durchmesser_mm": "42",
+     "ref": "01.26.45.0042",
+     "inlay_groesse": "AZ",
+     "seite": "12",
+     "fussnote": "Auf Anfrage"
+    },
+    {
+     "durchmesser_mm": "44",
+     "ref": "01.26.45.0044",
+     "inlay_groesse": "B",
+     "seite": "12",
+     "fussnote": "Auf Anfrage"
+    },
+    {
+     "durchmesser_mm": "46",
+     "ref": "01.26.45.0046",
+     "inlay_groesse": "C",
+     "seite": "12"
+    },
+    {
+     "durchmesser_mm": "48",
+     "ref": "01.26.45.0048",
+     "inlay_groesse": "C",
+     "seite": "12"
+    },
+    {
+     "durchmesser_mm": "50",
+     "ref": "01.26.45.0050",
+     "inlay_groesse": "E",
+     "seite": "12"
+    },
+    {
+     "durchmesser_mm": "52",
+     "ref": "01.26.45.0052",
+     "inlay_groesse": "E",
+     "seite": "12"
+    },
+    {
+     "durchmesser_mm": "54",
+     "ref": "01.26.45.0054",
+     "inlay_groesse": "E",
+     "seite": "12"
+    },
+    {
+     "durchmesser_mm": "56",
+     "ref": "01.26.45.0056",
+     "inlay_groesse": "F",
+     "seite": "12"
+    },
+    {
+     "durchmesser_mm": "58",
+     "ref": "01.26.45.0058",
+     "inlay_groesse": "F",
+     "seite": "12"
+    },
+    {
+     "durchmesser_mm": "60",
+     "ref": "01.26.45.0060",
+     "inlay_groesse": "F",
+     "seite": "12"
+    },
+    {
+     "durchmesser_mm": "62",
+     "ref": "01.26.45.0062",
+     "inlay_groesse": "G",
+     "seite": "12"
+    },
+    {
+     "durchmesser_mm": "64",
+     "ref": "01.26.45.0064",
+     "inlay_groesse": "G",
+     "seite": "12"
+    }
+   ]
+  },
+  {
+   "id": "medacta.versafitcup_cc_trio_nohole",
+   "typ": "pfanne",
+   "bezeichnung": "Versafitcup CC Trio No-Hole",
    "auswahl_dach": true,
    "groesse": null,
    "ref": null,
    "gtin": null,
    "attribute": {
     "fixation": "zementfrei",
-    "registerbeleg": "EPRD zf-Pfanne #6 (n=20.423)"
+    "form": "elliptisch, ohne seitliche Löcher (S. 4)",
+    "material": null,
+    "material_hinweis": "nicht genannt",
+    "pruefstand": "Zuordnung Schale→Inlaygröße 2 Prüfer; Einzel-REF nur Claude-Helfer"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-Symbole laut IFU 75.09.017 rev. 26 S. 1 (Legende mit Piktogrammen): REF, LOT, Use by, STERILE EO bzw. STERILE R, Do not reuse, Do not resterilize, Caution – read the accompanying documents, Consult instructions for use, Do not expose to sunlight, Store in a dry place, Do not use if package is damaged, MR Unsafe, Manufacturer, Double sterile barrier system; CE 0476. Etikett kann Konusgröße und/oder Einschränkungen angeben (IFU DE S. 26); je Implantat ein Aufkleber für den Medacta-Implantatpass (IFU DE S. 26). Packungs-/Etikettabbildung, UDI/Barcode, Verpackungsart: in keinem gelesenen Dokument. Lochverschlussschraube „ist in der Verpackung der Hüftpfanne enthalten“ (q_cctrio S. 8)."
    },
-   "quelle": "es",
-   "sicherheit": "offen"
+   "quelle": "q_cctrio",
+   "sicherheit": "belegt (Original, 1 Prüfer)",
+   "groessen": [
+    {
+     "durchmesser_mm": "44",
+     "ref": "01.26.45.1144",
+     "inlay_groesse": "B",
+     "seite": "12",
+     "fussnote": "Auf Anfrage"
+    },
+    {
+     "durchmesser_mm": "46",
+     "ref": "01.26.45.1146",
+     "inlay_groesse": "C",
+     "seite": "12"
+    },
+    {
+     "durchmesser_mm": "48",
+     "ref": "01.26.45.1148",
+     "inlay_groesse": "C",
+     "seite": "12"
+    },
+    {
+     "durchmesser_mm": "50",
+     "ref": "01.26.45.1150",
+     "inlay_groesse": "E",
+     "seite": "12"
+    },
+    {
+     "durchmesser_mm": "52",
+     "ref": "01.26.45.1152",
+     "inlay_groesse": "E",
+     "seite": "12"
+    },
+    {
+     "durchmesser_mm": "54",
+     "ref": "01.26.45.1154",
+     "inlay_groesse": "E",
+     "seite": "12"
+    },
+    {
+     "durchmesser_mm": "56",
+     "ref": "01.26.45.1156",
+     "inlay_groesse": "F",
+     "seite": "12"
+    },
+    {
+     "durchmesser_mm": "58",
+     "ref": "01.26.45.1158",
+     "inlay_groesse": "F",
+     "seite": "12"
+    },
+    {
+     "durchmesser_mm": "60",
+     "ref": "01.26.45.1160",
+     "inlay_groesse": "F",
+     "seite": "12"
+    },
+    {
+     "durchmesser_mm": "62",
+     "ref": "01.26.45.1162",
+     "inlay_groesse": "G",
+     "seite": "12"
+    },
+    {
+     "durchmesser_mm": "64",
+     "ref": "01.26.45.1164",
+     "inlay_groesse": "G",
+     "seite": "12"
+    }
+   ]
+  },
+  {
+   "id": "medacta.versafitcup_cc_trio.inlay_uhmwpe_flach",
+   "typ": "inlay",
+   "bezeichnung": "Versafitcup CC Trio UHMWPE-Flach-Inlay",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "material": "UHMWPE (Standard)",
+    "form": "flach",
+    "kopf_mm_je_groesse": {
+     "AZ": [
+      "22"
+     ],
+     "B": [
+      "28"
+     ],
+     "C": [
+      "28"
+     ],
+     "E": [
+      "28",
+      "32"
+     ],
+     "F": [
+      "28",
+      "32"
+     ],
+     "G": [
+      "28",
+      "32"
+     ]
+    },
+    "com_spalte": "Versafitcup CC Flat and Hooded UHMWPE",
+    "pruefstand": "Kopf-Ø je Inlaygröße von Claude-Helfer und OpenAI gelesen (2 Prüfer); Einzel-REF nur Claude-Helfer (OpenAI-Stichproben stimmen)"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-Symbole laut IFU 75.09.017 rev. 26 S. 1 (Legende mit Piktogrammen): REF, LOT, Use by, STERILE EO bzw. STERILE R, Do not reuse, Do not resterilize, Caution – read the accompanying documents, Consult instructions for use, Do not expose to sunlight, Store in a dry place, Do not use if package is damaged, MR Unsafe, Manufacturer, Double sterile barrier system; CE 0476. Etikett kann Konusgröße und/oder Einschränkungen angeben (IFU DE S. 26); je Implantat ein Aufkleber für den Medacta-Implantatpass (IFU DE S. 26). Packungs-/Etikettabbildung, UDI/Barcode, Verpackungsart: in keinem gelesenen Dokument."
+   },
+   "quelle": "q_cctrio",
+   "sicherheit": "belegt (Original, 1 Prüfer)",
+   "groessen": [
+    {
+     "inlay_groesse": "AZ",
+     "kopf_mm": "22",
+     "ref": "01.26.2233STT",
+     "seite": "13",
+     "fussnote": "Auf Anfrage"
+    },
+    {
+     "inlay_groesse": "B",
+     "kopf_mm": "28",
+     "ref": "01.26.2837STT",
+     "seite": "13",
+     "fussnote": "Auf Anfrage"
+    },
+    {
+     "inlay_groesse": "C",
+     "kopf_mm": "28",
+     "ref": "01.26.2839STT",
+     "seite": "13"
+    },
+    {
+     "inlay_groesse": "E",
+     "kopf_mm": "28",
+     "ref": "01.26.2844STT",
+     "seite": "13"
+    },
+    {
+     "inlay_groesse": "E",
+     "kopf_mm": "32",
+     "ref": "01.26.3244STT",
+     "seite": "13"
+    },
+    {
+     "inlay_groesse": "F",
+     "kopf_mm": "28",
+     "ref": "01.26.2848STT",
+     "seite": "13"
+    },
+    {
+     "inlay_groesse": "F",
+     "kopf_mm": "32",
+     "ref": "01.26.3248STT",
+     "seite": "13"
+    },
+    {
+     "inlay_groesse": "G",
+     "kopf_mm": "28",
+     "ref": "01.26.2852STT",
+     "seite": "13"
+    },
+    {
+     "inlay_groesse": "G",
+     "kopf_mm": "32",
+     "ref": "01.26.3252STT",
+     "seite": "13"
+    }
+   ]
+  },
+  {
+   "id": "medacta.versafitcup_cc_trio.inlay_uhmwpe_ueberhoeht",
+   "typ": "inlay",
+   "bezeichnung": "Versafitcup CC Trio Überhöhtes Inlay aus UHMWPE",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "material": "UHMWPE (Standard)",
+    "form": "überhöht",
+    "kopf_mm_je_groesse": {
+     "AZ": [
+      "22"
+     ],
+     "B": [
+      "28"
+     ],
+     "C": [
+      "28"
+     ],
+     "E": [
+      "28",
+      "32"
+     ],
+     "F": [
+      "28",
+      "32"
+     ],
+     "G": [
+      "28",
+      "32"
+     ]
+    },
+    "com_spalte": "Versafitcup CC Flat and Hooded UHMWPE",
+    "pruefstand": "Kopf-Ø je Inlaygröße von Claude-Helfer und OpenAI gelesen (2 Prüfer); Einzel-REF nur Claude-Helfer (OpenAI-Stichproben stimmen)"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-Symbole laut IFU 75.09.017 rev. 26 S. 1 (Legende mit Piktogrammen): REF, LOT, Use by, STERILE EO bzw. STERILE R, Do not reuse, Do not resterilize, Caution – read the accompanying documents, Consult instructions for use, Do not expose to sunlight, Store in a dry place, Do not use if package is damaged, MR Unsafe, Manufacturer, Double sterile barrier system; CE 0476. Etikett kann Konusgröße und/oder Einschränkungen angeben (IFU DE S. 26); je Implantat ein Aufkleber für den Medacta-Implantatpass (IFU DE S. 26). Packungs-/Etikettabbildung, UDI/Barcode, Verpackungsart: in keinem gelesenen Dokument."
+   },
+   "quelle": "q_cctrio",
+   "sicherheit": "belegt (Original, 1 Prüfer)",
+   "groessen": [
+    {
+     "inlay_groesse": "AZ",
+     "kopf_mm": "22",
+     "ref": "01.26.2233AT",
+     "seite": "13",
+     "fussnote": "Auf Anfrage"
+    },
+    {
+     "inlay_groesse": "B",
+     "kopf_mm": "28",
+     "ref": "01.26.2837AT",
+     "seite": "13",
+     "fussnote": "Auf Anfrage"
+    },
+    {
+     "inlay_groesse": "C",
+     "kopf_mm": "28",
+     "ref": "01.26.2839AT",
+     "seite": "13"
+    },
+    {
+     "inlay_groesse": "E",
+     "kopf_mm": "28",
+     "ref": "01.26.2844AT",
+     "seite": "13"
+    },
+    {
+     "inlay_groesse": "E",
+     "kopf_mm": "32",
+     "ref": "01.26.3244AT",
+     "seite": "13"
+    },
+    {
+     "inlay_groesse": "F",
+     "kopf_mm": "28",
+     "ref": "01.26.2848AT",
+     "seite": "13"
+    },
+    {
+     "inlay_groesse": "F",
+     "kopf_mm": "32",
+     "ref": "01.26.3248AT",
+     "seite": "13"
+    },
+    {
+     "inlay_groesse": "G",
+     "kopf_mm": "28",
+     "ref": "01.26.2852AT",
+     "seite": "13"
+    },
+    {
+     "inlay_groesse": "G",
+     "kopf_mm": "32",
+     "ref": "01.26.3252AT",
+     "seite": "13"
+    }
+   ]
+  },
+  {
+   "id": "medacta.versafitcup_cc_trio.inlay_hc_flach",
+   "typ": "inlay",
+   "bezeichnung": "Versafitcup CC Trio Highcross UHMWPE-Flach-Inlay",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "material": "Highcross UHMWPE",
+    "form": "flach",
+    "kopf_mm_je_groesse": {
+     "AZ": [
+      "22"
+     ],
+     "B": [
+      "28"
+     ],
+     "C": [
+      "28",
+      "32"
+     ],
+     "E": [
+      "28",
+      "32",
+      "36"
+     ],
+     "F": [
+      "28",
+      "32",
+      "36"
+     ],
+     "G": [
+      "28",
+      "32",
+      "36"
+     ]
+    },
+    "com_spalte": "Versafitcup CC Flat and Hooded HC UHMWPE",
+    "pruefstand": "Kopf-Ø je Inlaygröße von Claude-Helfer und OpenAI gelesen (2 Prüfer); Einzel-REF nur Claude-Helfer (OpenAI-Stichproben stimmen)"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-Symbole laut IFU 75.09.017 rev. 26 S. 1 (Legende mit Piktogrammen): REF, LOT, Use by, STERILE EO bzw. STERILE R, Do not reuse, Do not resterilize, Caution – read the accompanying documents, Consult instructions for use, Do not expose to sunlight, Store in a dry place, Do not use if package is damaged, MR Unsafe, Manufacturer, Double sterile barrier system; CE 0476. Etikett kann Konusgröße und/oder Einschränkungen angeben (IFU DE S. 26); je Implantat ein Aufkleber für den Medacta-Implantatpass (IFU DE S. 26). Packungs-/Etikettabbildung, UDI/Barcode, Verpackungsart: in keinem gelesenen Dokument."
+   },
+   "quelle": "q_cctrio",
+   "sicherheit": "belegt (Original, 1 Prüfer)",
+   "groessen": [
+    {
+     "inlay_groesse": "AZ",
+     "kopf_mm": "22",
+     "ref": "01.26.2233HCT",
+     "seite": "13",
+     "fussnote": "Auf Anfrage"
+    },
+    {
+     "inlay_groesse": "B",
+     "kopf_mm": "28",
+     "ref": "01.26.2837HCT",
+     "seite": "13",
+     "fussnote": "Auf Anfrage"
+    },
+    {
+     "inlay_groesse": "C",
+     "kopf_mm": "28",
+     "ref": "01.26.2839HCT",
+     "seite": "13"
+    },
+    {
+     "inlay_groesse": "C",
+     "kopf_mm": "32",
+     "ref": "01.26.3239HCT",
+     "seite": "13"
+    },
+    {
+     "inlay_groesse": "E",
+     "kopf_mm": "28",
+     "ref": "01.26.2844HCT",
+     "seite": "13"
+    },
+    {
+     "inlay_groesse": "E",
+     "kopf_mm": "32",
+     "ref": "01.26.3244HCT",
+     "seite": "13"
+    },
+    {
+     "inlay_groesse": "E",
+     "kopf_mm": "36",
+     "ref": "01.26.3644HCT",
+     "seite": "13"
+    },
+    {
+     "inlay_groesse": "F",
+     "kopf_mm": "28",
+     "ref": "01.26.2848HCT",
+     "seite": "13"
+    },
+    {
+     "inlay_groesse": "F",
+     "kopf_mm": "32",
+     "ref": "01.26.3248HCT",
+     "seite": "13"
+    },
+    {
+     "inlay_groesse": "F",
+     "kopf_mm": "36",
+     "ref": "01.26.3648HCT",
+     "seite": "13"
+    },
+    {
+     "inlay_groesse": "G",
+     "kopf_mm": "28",
+     "ref": "01.26.2852HCT",
+     "seite": "13"
+    },
+    {
+     "inlay_groesse": "G",
+     "kopf_mm": "32",
+     "ref": "01.26.3252HCT",
+     "seite": "13"
+    },
+    {
+     "inlay_groesse": "G",
+     "kopf_mm": "36",
+     "ref": "01.26.3652HCT",
+     "seite": "13"
+    }
+   ]
+  },
+  {
+   "id": "medacta.versafitcup_cc_trio.inlay_hc_ueberhoeht",
+   "typ": "inlay",
+   "bezeichnung": "Versafitcup CC Trio Highcross überhöhtes Inlay aus UHMWPE",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "material": "Highcross UHMWPE",
+    "form": "überhöht",
+    "kopf_mm_je_groesse": {
+     "AZ": [
+      "22"
+     ],
+     "B": [
+      "28"
+     ],
+     "C": [
+      "28"
+     ],
+     "E": [
+      "28",
+      "32"
+     ],
+     "F": [
+      "28",
+      "32"
+     ],
+     "G": [
+      "28",
+      "32"
+     ]
+    },
+    "hinweis": "Kein 36 mm in überhöhter Form – nicht aus der flachen Variante ableiten (OpenAI 4.2; S. 9).",
+    "com_spalte": "Versafitcup CC Flat and Hooded HC UHMWPE",
+    "pruefstand": "Kopf-Ø je Inlaygröße von Claude-Helfer und OpenAI gelesen (2 Prüfer); Einzel-REF nur Claude-Helfer (OpenAI-Stichproben stimmen)"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-Symbole laut IFU 75.09.017 rev. 26 S. 1 (Legende mit Piktogrammen): REF, LOT, Use by, STERILE EO bzw. STERILE R, Do not reuse, Do not resterilize, Caution – read the accompanying documents, Consult instructions for use, Do not expose to sunlight, Store in a dry place, Do not use if package is damaged, MR Unsafe, Manufacturer, Double sterile barrier system; CE 0476. Etikett kann Konusgröße und/oder Einschränkungen angeben (IFU DE S. 26); je Implantat ein Aufkleber für den Medacta-Implantatpass (IFU DE S. 26). Packungs-/Etikettabbildung, UDI/Barcode, Verpackungsart: in keinem gelesenen Dokument."
+   },
+   "quelle": "q_cctrio",
+   "sicherheit": "belegt (Original, 1 Prüfer)",
+   "groessen": [
+    {
+     "inlay_groesse": "AZ",
+     "kopf_mm": "22",
+     "ref": "01.26.2233HCAT",
+     "seite": "13",
+     "fussnote": "Auf Anfrage"
+    },
+    {
+     "inlay_groesse": "B",
+     "kopf_mm": "28",
+     "ref": "01.26.2837HCAT",
+     "seite": "13",
+     "fussnote": "Auf Anfrage"
+    },
+    {
+     "inlay_groesse": "C",
+     "kopf_mm": "28",
+     "ref": "01.26.2839HCAT",
+     "seite": "13"
+    },
+    {
+     "inlay_groesse": "E",
+     "kopf_mm": "28",
+     "ref": "01.26.2844HCAT",
+     "seite": "13"
+    },
+    {
+     "inlay_groesse": "E",
+     "kopf_mm": "32",
+     "ref": "01.26.3244HCAT",
+     "seite": "13"
+    },
+    {
+     "inlay_groesse": "F",
+     "kopf_mm": "28",
+     "ref": "01.26.2848HCAT",
+     "seite": "13"
+    },
+    {
+     "inlay_groesse": "F",
+     "kopf_mm": "32",
+     "ref": "01.26.3248HCAT",
+     "seite": "13"
+    },
+    {
+     "inlay_groesse": "G",
+     "kopf_mm": "28",
+     "ref": "01.26.2852HCAT",
+     "seite": "13"
+    },
+    {
+     "inlay_groesse": "G",
+     "kopf_mm": "32",
+     "ref": "01.26.3252HCAT",
+     "seite": "13"
+    }
+   ]
+  },
+  {
+   "id": "medacta.versafitcup_cc_trio.inlay_keramik",
+   "typ": "inlay",
+   "bezeichnung": "Versafitcup CC Trio Keramik-Inlay",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "material": "Keramik (Hersteller/Typ im Dokument nicht genannt)",
+    "kopf_mm_je_groesse": {
+     "B": [
+      "28"
+     ],
+     "C": [
+      "28",
+      "32"
+     ],
+     "E": [
+      "28",
+      "32",
+      "36"
+     ],
+     "F": [
+      "28",
+      "32",
+      "36",
+      "40"
+     ],
+     "G": [
+      "28",
+      "32",
+      "36",
+      "40"
+     ]
+    },
+    "com_spalte": "Mectacer BIOLOX delta bzw. Ceramtec BIOLOX delta (Zuordnung der REF 01.29.4xx nicht angegeben)",
+    "hinweis": "Kein Keramik-Inlay der Größe AZ. Keramik-Inlay nur mit Keramikkopf (IFU DE S. 27). Abgeraten bei Inklination > 45° (S. 11).",
+    "pruefstand": "Kopf-Ø je Inlaygröße von Claude-Helfer und OpenAI gelesen (2 Prüfer); Einzel-REF nur Claude-Helfer (OpenAI-Stichproben stimmen)"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-Symbole laut IFU 75.09.017 rev. 26 S. 1 (Legende mit Piktogrammen): REF, LOT, Use by, STERILE EO bzw. STERILE R, Do not reuse, Do not resterilize, Caution – read the accompanying documents, Consult instructions for use, Do not expose to sunlight, Store in a dry place, Do not use if package is damaged, MR Unsafe, Manufacturer, Double sterile barrier system; CE 0476. Etikett kann Konusgröße und/oder Einschränkungen angeben (IFU DE S. 26); je Implantat ein Aufkleber für den Medacta-Implantatpass (IFU DE S. 26). Packungs-/Etikettabbildung, UDI/Barcode, Verpackungsart: in keinem gelesenen Dokument."
+   },
+   "quelle": "q_cctrio",
+   "sicherheit": "belegt (Original, 1 Prüfer)",
+   "groessen": [
+    {
+     "inlay_groesse": "B",
+     "kopf_mm": "28",
+     "ref": "01.29.402",
+     "seite": "13",
+     "fussnote": "Auf Anfrage"
+    },
+    {
+     "inlay_groesse": "C",
+     "kopf_mm": "28",
+     "ref": "01.29.403",
+     "seite": "13"
+    },
+    {
+     "inlay_groesse": "C",
+     "kopf_mm": "32",
+     "ref": "01.29.408",
+     "seite": "13"
+    },
+    {
+     "inlay_groesse": "E",
+     "kopf_mm": "28",
+     "ref": "01.29.405",
+     "seite": "13"
+    },
+    {
+     "inlay_groesse": "E",
+     "kopf_mm": "32",
+     "ref": "01.29.410",
+     "seite": "13"
+    },
+    {
+     "inlay_groesse": "E",
+     "kopf_mm": "36",
+     "ref": "01.29.413",
+     "seite": "13"
+    },
+    {
+     "inlay_groesse": "F",
+     "kopf_mm": "28",
+     "ref": "01.29.406",
+     "seite": "13"
+    },
+    {
+     "inlay_groesse": "F",
+     "kopf_mm": "32",
+     "ref": "01.29.411",
+     "seite": "13"
+    },
+    {
+     "inlay_groesse": "F",
+     "kopf_mm": "36",
+     "ref": "01.29.414",
+     "seite": "13"
+    },
+    {
+     "inlay_groesse": "F",
+     "kopf_mm": "40",
+     "ref": "01.29.416",
+     "seite": "13"
+    },
+    {
+     "inlay_groesse": "G",
+     "kopf_mm": "28",
+     "ref": "01.29.407",
+     "seite": "13"
+    },
+    {
+     "inlay_groesse": "G",
+     "kopf_mm": "32",
+     "ref": "01.29.412",
+     "seite": "13"
+    },
+    {
+     "inlay_groesse": "G",
+     "kopf_mm": "36",
+     "ref": "01.29.415",
+     "seite": "13"
+    },
+    {
+     "inlay_groesse": "G",
+     "kopf_mm": "40",
+     "ref": "01.29.417",
+     "seite": "13"
+    }
+   ]
+  },
+  {
+   "id": "medacta.versafitcup_cc_trio.verschluss",
+   "typ": "verschluss",
+   "bezeichnung": "Hüftpfanne zentraler Verschluss",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "hinweis": "Lochverschlussschraube ist in der Pfannenverpackung enthalten (S. 8)."
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-Symbole laut IFU 75.09.017 rev. 26 S. 1 (Legende mit Piktogrammen): REF, LOT, Use by, STERILE EO bzw. STERILE R, Do not reuse, Do not resterilize, Caution – read the accompanying documents, Consult instructions for use, Do not expose to sunlight, Store in a dry place, Do not use if package is damaged, MR Unsafe, Manufacturer, Double sterile barrier system; CE 0476. Etikett kann Konusgröße und/oder Einschränkungen angeben (IFU DE S. 26); je Implantat ein Aufkleber für den Medacta-Implantatpass (IFU DE S. 26). Packungs-/Etikettabbildung, UDI/Barcode, Verpackungsart: in keinem gelesenen Dokument."
+   },
+   "quelle": "q_cctrio",
+   "sicherheit": "belegt (Original, 1 Prüfer)",
+   "groessen": [
+    {
+     "ref": "01.26.45.0070",
+     "seite": "12"
+    }
+   ]
+  },
+  {
+   "id": "medacta.versafitcup_cc_trio.schraube_flachkopf",
+   "typ": "schraube",
+   "bezeichnung": "Spongiosaschraube (Flachkopf) Ø 6,5 mm",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "durchmesser_mm": "6,5",
+    "hinweis": "„Verwenden Sie immer Flachkopfschrauben (aufgeführt auf Seite 12)“ (S. 8)."
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-Symbole laut IFU 75.09.017 rev. 26 S. 1 (Legende mit Piktogrammen): REF, LOT, Use by, STERILE EO bzw. STERILE R, Do not reuse, Do not resterilize, Caution – read the accompanying documents, Consult instructions for use, Do not expose to sunlight, Store in a dry place, Do not use if package is damaged, MR Unsafe, Manufacturer, Double sterile barrier system; CE 0476. Etikett kann Konusgröße und/oder Einschränkungen angeben (IFU DE S. 26); je Implantat ein Aufkleber für den Medacta-Implantatpass (IFU DE S. 26). Packungs-/Etikettabbildung, UDI/Barcode, Verpackungsart: in keinem gelesenen Dokument."
+   },
+   "quelle": "q_cctrio",
+   "sicherheit": "belegt (Original, 1 Prüfer)",
+   "groessen": [
+    {
+     "laenge_mm": "20",
+     "ref": "01.26.65.20",
+     "seite": "12"
+    },
+    {
+     "laenge_mm": "25",
+     "ref": "01.26.65.25",
+     "seite": "12"
+    },
+    {
+     "laenge_mm": "30",
+     "ref": "01.26.65.30",
+     "seite": "12"
+    },
+    {
+     "laenge_mm": "35",
+     "ref": "01.26.65.35",
+     "seite": "12"
+    },
+    {
+     "laenge_mm": "40",
+     "ref": "01.26.65.40",
+     "seite": "12"
+    },
+    {
+     "laenge_mm": "45",
+     "ref": "01.26.65.45",
+     "seite": "12"
+    }
+   ]
+  },
+  {
+   "id": "medacta.versafitcup_cc_trio.schraube_spongiosa",
+   "typ": "schraube",
+   "bezeichnung": "Spongiosaschraube Ø 6,5 mm (01.43.xxxx)",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "durchmesser_mm": "6,5",
+    "instrument": "spezielle Bohrerführung 01.10.10.372 erforderlich (S. 8)",
+    "hinweis": "Dokument sagt auf S. 8 zugleich „Verwenden Sie immer Flachkopfschrauben (aufgeführt auf Seite 12)“ – Verhältnis zu diesen Schrauben nicht erläutert; nicht aufgelöst."
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-Symbole laut IFU 75.09.017 rev. 26 S. 1 (Legende mit Piktogrammen): REF, LOT, Use by, STERILE EO bzw. STERILE R, Do not reuse, Do not resterilize, Caution – read the accompanying documents, Consult instructions for use, Do not expose to sunlight, Store in a dry place, Do not use if package is damaged, MR Unsafe, Manufacturer, Double sterile barrier system; CE 0476. Etikett kann Konusgröße und/oder Einschränkungen angeben (IFU DE S. 26); je Implantat ein Aufkleber für den Medacta-Implantatpass (IFU DE S. 26). Packungs-/Etikettabbildung, UDI/Barcode, Verpackungsart: in keinem gelesenen Dokument. Goldfarbenes Band auf dem Schraubenetikett; Bohrschablone mit goldfarbener Spitze (q_cctrio S. 8)."
+   },
+   "quelle": "q_cctrio",
+   "sicherheit": "belegt (Original, 1 Prüfer)",
+   "groessen": [
+    {
+     "laenge_mm": "15",
+     "ref": "01.43.0015",
+     "seite": "12"
+    },
+    {
+     "laenge_mm": "20",
+     "ref": "01.43.0020",
+     "seite": "12"
+    },
+    {
+     "laenge_mm": "25",
+     "ref": "01.43.0025",
+     "seite": "12"
+    },
+    {
+     "laenge_mm": "30",
+     "ref": "01.43.0030",
+     "seite": "12"
+    },
+    {
+     "laenge_mm": "35",
+     "ref": "01.43.0035",
+     "seite": "12"
+    },
+    {
+     "laenge_mm": "40",
+     "ref": "01.43.0040",
+     "seite": "12"
+    },
+    {
+     "laenge_mm": "45",
+     "ref": "01.43.0045",
+     "seite": "12"
+    },
+    {
+     "laenge_mm": "50",
+     "ref": "01.43.0050",
+     "seite": "12",
+     "fussnote": "Verfügbarkeit nur auf genehmigte Sonderanfrage"
+    },
+    {
+     "laenge_mm": "55",
+     "ref": "01.43.0055",
+     "seite": "12",
+     "fussnote": "Verfügbarkeit nur auf genehmigte Sonderanfrage"
+    },
+    {
+     "laenge_mm": "60",
+     "ref": "01.43.0060",
+     "seite": "12",
+     "fussnote": "Verfügbarkeit nur auf genehmigte Sonderanfrage"
+    },
+    {
+     "laenge_mm": "65",
+     "ref": "01.43.0065",
+     "seite": "12",
+     "fussnote": "Verfügbarkeit nur auf genehmigte Sonderanfrage"
+    },
+    {
+     "laenge_mm": "70",
+     "ref": "01.43.0070",
+     "seite": "12",
+     "fussnote": "Verfügbarkeit nur auf genehmigte Sonderanfrage"
+    }
+   ]
   },
   {
    "id": "medacta.duokopf.bipolar",
    "typ": "duokopf",
-   "bezeichnung": "Medacta bipolar head",
+   "bezeichnung": "Medacta Bipolar Kopf (Duokopf)",
    "auswahl_dach": true,
    "groesse": null,
    "ref": null,
    "gtin": null,
    "attribute": {
     "registerbeleg": "SIRIS 2024: Amistem-C + Medacta bipolar n=221",
-    "freigabe": "offen"
+    "material": "äußere Schale Edelstahl, hochglanzpoliert; innen UHMWPE-Lagerschale; interner elastischer Rückhaltering (q_bipolar S. 4)",
+    "innen_mm": [
+     "22",
+     "28"
+    ],
+    "femurkopf": "Metall oder Keramik (S. 4); Kopfgruppen laut COM S. 2",
+    "freigabe": "Schäfte im Bipolar-Dokument nicht genannt; COM rev. 12 nur Kopf × Bipolar",
+    "hinweis": "„Nicht alle in den Größenangaben angegebenen Größen sind für die beiden Medacta Bipolar Head Größen Ø 22 mm und Ø 28 mm vorhanden.“ (S. 5). Konflikt: OpenAI fand auf S. 5–6 keine Außen-Ø/REF-Tabelle; Tabelle steht laut Claude-Helfer auf S. 7 (von OpenAI nicht genannt) – 2. Prüfung S. 7 offen."
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-Symbole laut IFU 75.09.017 rev. 26 S. 1 (Legende mit Piktogrammen): REF, LOT, Use by, STERILE EO bzw. STERILE R, Do not reuse, Do not resterilize, Caution – read the accompanying documents, Consult instructions for use, Do not expose to sunlight, Store in a dry place, Do not use if package is damaged, MR Unsafe, Manufacturer, Double sterile barrier system; CE 0476. Etikett kann Konusgröße und/oder Einschränkungen angeben (IFU DE S. 26); je Implantat ein Aufkleber für den Medacta-Implantatpass (IFU DE S. 26). Packungs-/Etikettabbildung, UDI/Barcode, Verpackungsart: in keinem gelesenen Dokument."
    },
-   "quelle": "siris",
-   "sicherheit": "offen"
+   "quelle": "q_bipolar",
+   "sicherheit": "belegt (Original, 1 Prüfer)",
+   "groessen": [
+    {
+     "innen_mm": "28",
+     "aussen_mm": "42",
+     "ref": "25060.2842",
+     "seite": "7"
+    },
+    {
+     "innen_mm": "28",
+     "aussen_mm": "43",
+     "ref": "25060.2843",
+     "seite": "7"
+    },
+    {
+     "innen_mm": "28",
+     "aussen_mm": "44",
+     "ref": "25060.2844",
+     "seite": "7"
+    },
+    {
+     "innen_mm": "28",
+     "aussen_mm": "45",
+     "ref": "25060.2845",
+     "seite": "7"
+    },
+    {
+     "innen_mm": "28",
+     "aussen_mm": "46",
+     "ref": "25060.2846",
+     "seite": "7"
+    },
+    {
+     "innen_mm": "28",
+     "aussen_mm": "47",
+     "ref": "25060.2847",
+     "seite": "7"
+    },
+    {
+     "innen_mm": "28",
+     "aussen_mm": "48",
+     "ref": "25060.2848",
+     "seite": "7"
+    },
+    {
+     "innen_mm": "28",
+     "aussen_mm": "49",
+     "ref": "25060.2849",
+     "seite": "7"
+    },
+    {
+     "innen_mm": "28",
+     "aussen_mm": "50",
+     "ref": "25060.2850",
+     "seite": "7"
+    },
+    {
+     "innen_mm": "28",
+     "aussen_mm": "51",
+     "ref": "25060.2851",
+     "seite": "7"
+    },
+    {
+     "innen_mm": "28",
+     "aussen_mm": "52",
+     "ref": "25060.2852",
+     "seite": "7"
+    },
+    {
+     "innen_mm": "28",
+     "aussen_mm": "53",
+     "ref": "25060.2853",
+     "seite": "7"
+    },
+    {
+     "innen_mm": "28",
+     "aussen_mm": "54",
+     "ref": "25060.2854",
+     "seite": "7"
+    },
+    {
+     "innen_mm": "28",
+     "aussen_mm": "55",
+     "ref": "25060.2855",
+     "seite": "7"
+    },
+    {
+     "innen_mm": "28",
+     "aussen_mm": "56",
+     "ref": "25060.2856",
+     "seite": "7"
+    },
+    {
+     "innen_mm": "28",
+     "aussen_mm": "57",
+     "ref": "25060.2857",
+     "seite": "7"
+    },
+    {
+     "innen_mm": "28",
+     "aussen_mm": "58",
+     "ref": "25060.2858",
+     "seite": "7"
+    },
+    {
+     "innen_mm": "28",
+     "aussen_mm": "59",
+     "ref": "25060.2859",
+     "seite": "7"
+    },
+    {
+     "innen_mm": "28",
+     "aussen_mm": "60",
+     "ref": "25060.2860",
+     "seite": "7"
+    },
+    {
+     "innen_mm": "22",
+     "aussen_mm": "39",
+     "ref": "25060.2239",
+     "seite": "7",
+     "fussnote": "III Bipolare Köpfe für Femurköpfe Ø 22 mm sind auf spezifische Anfrage hin verfügbar."
+    },
+    {
+     "innen_mm": "22",
+     "aussen_mm": "40",
+     "ref": "25060.2240",
+     "seite": "7",
+     "fussnote": "III Bipolare Köpfe für Femurköpfe Ø 22 mm sind auf spezifische Anfrage hin verfügbar."
+    },
+    {
+     "innen_mm": "22",
+     "aussen_mm": "41",
+     "ref": "25060.2241",
+     "seite": "7",
+     "fussnote": "III Bipolare Köpfe für Femurköpfe Ø 22 mm sind auf spezifische Anfrage hin verfügbar."
+    },
+    {
+     "innen_mm": "22",
+     "aussen_mm": "42",
+     "ref": "25060.2242",
+     "seite": "7",
+     "fussnote": "III Bipolare Köpfe für Femurköpfe Ø 22 mm sind auf spezifische Anfrage hin verfügbar."
+    },
+    {
+     "innen_mm": "22",
+     "aussen_mm": "43",
+     "ref": "25060.2243",
+     "seite": "7",
+     "fussnote": "III Bipolare Köpfe für Femurköpfe Ø 22 mm sind auf spezifische Anfrage hin verfügbar."
+    },
+    {
+     "innen_mm": "22",
+     "aussen_mm": "44",
+     "ref": "25060.2244",
+     "seite": "7",
+     "fussnote": "III Bipolare Köpfe für Femurköpfe Ø 22 mm sind auf spezifische Anfrage hin verfügbar."
+    },
+    {
+     "innen_mm": "22",
+     "aussen_mm": "45",
+     "ref": "25060.2245",
+     "seite": "7",
+     "fussnote": "III Bipolare Köpfe für Femurköpfe Ø 22 mm sind auf spezifische Anfrage hin verfügbar."
+    },
+    {
+     "innen_mm": "22",
+     "aussen_mm": "46",
+     "ref": "25060.2246",
+     "seite": "7",
+     "fussnote": "III Bipolare Köpfe für Femurköpfe Ø 22 mm sind auf spezifische Anfrage hin verfügbar."
+    },
+    {
+     "innen_mm": "22",
+     "aussen_mm": "47",
+     "ref": "25060.2247",
+     "seite": "7",
+     "fussnote": "III Bipolare Köpfe für Femurköpfe Ø 22 mm sind auf spezifische Anfrage hin verfügbar."
+    },
+    {
+     "innen_mm": "22",
+     "aussen_mm": "48",
+     "ref": "25060.2248",
+     "seite": "7",
+     "fussnote": "III Bipolare Köpfe für Femurköpfe Ø 22 mm sind auf spezifische Anfrage hin verfügbar."
+    },
+    {
+     "innen_mm": "22",
+     "aussen_mm": "49",
+     "ref": "25060.2249",
+     "seite": "7",
+     "fussnote": "III Bipolare Köpfe für Femurköpfe Ø 22 mm sind auf spezifische Anfrage hin verfügbar."
+    },
+    {
+     "innen_mm": "22",
+     "aussen_mm": "50",
+     "ref": "25060.2250",
+     "seite": "7",
+     "fussnote": "III Bipolare Köpfe für Femurköpfe Ø 22 mm sind auf spezifische Anfrage hin verfügbar."
+    },
+    {
+     "innen_mm": "22",
+     "aussen_mm": "51",
+     "ref": "25060.2251",
+     "seite": "7",
+     "fussnote": "III Bipolare Köpfe für Femurköpfe Ø 22 mm sind auf spezifische Anfrage hin verfügbar."
+    },
+    {
+     "innen_mm": "22",
+     "aussen_mm": "52",
+     "ref": "25060.2252",
+     "seite": "7",
+     "fussnote": "III Bipolare Köpfe für Femurköpfe Ø 22 mm sind auf spezifische Anfrage hin verfügbar."
+    }
+   ],
+   "aliase": [
+    "Duokopf",
+    "Bipolar Head"
+   ]
+  },
+  {
+   "id": "medacta.endokopf",
+   "typ": "endokopf",
+   "bezeichnung": "Medacta Endo Head (unipolar)",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "material": "High Nitrogen stainless steel ISO 5832-9 (PDF 2)",
+    "konus": "12/14 (PDF 2; COM S. 1)",
+    "aufbau": "unipolar, Monobloc-Kopf, artikuliert direkt mit dem Acetabulum (PDF 2)",
+    "freigabe": "„designed to be assembled with all the Medacta® stems with 12/14 taper“ (PDF 2) – Herstelleraussage, keine freie Konusregel",
+    "hinweis": "Implantate 40–56 mm in 2-mm-Schritten, Sizer 39–56 mm in 1-mm-Schritten (WARNING, PDF 2). Halslängen S/M/L in mm nicht genannt. Kein Innenkopf.",
+    "pruefstand": "Größen 40–56 × S/M/L 2 Prüfer; Einzel-REF 42–54 nur Claude-Helfer (OpenAI: Beispiele 40 und 56)"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-Symbole laut IFU 75.09.017 rev. 26 S. 1 (Legende mit Piktogrammen): REF, LOT, Use by, STERILE EO bzw. STERILE R, Do not reuse, Do not resterilize, Caution – read the accompanying documents, Consult instructions for use, Do not expose to sunlight, Store in a dry place, Do not use if package is damaged, MR Unsafe, Manufacturer, Double sterile barrier system; CE 0476. Etikett kann Konusgröße und/oder Einschränkungen angeben (IFU DE S. 26); je Implantat ein Aufkleber für den Medacta-Implantatpass (IFU DE S. 26). Packungs-/Etikettabbildung, UDI/Barcode, Verpackungsart: in keinem gelesenen Dokument. CE 0476 im Impressum (PDF 1). Trial-Adapter S/M/L farblich unterschieden, Farben nicht benannt."
+   },
+   "quelle": "q_endo",
+   "sicherheit": "belegt (Original, 2 Prüfer)",
+   "groessen": [
+    {
+     "aussen_mm": "40",
+     "groesse": "S",
+     "ref": "01.25.140S",
+     "seite": "PDF 1"
+    },
+    {
+     "aussen_mm": "40",
+     "groesse": "M",
+     "ref": "01.25.140M",
+     "seite": "PDF 1"
+    },
+    {
+     "aussen_mm": "40",
+     "groesse": "L",
+     "ref": "01.25.140L",
+     "seite": "PDF 1"
+    },
+    {
+     "aussen_mm": "42",
+     "groesse": "S",
+     "ref": "01.25.142S",
+     "seite": "PDF 1"
+    },
+    {
+     "aussen_mm": "42",
+     "groesse": "M",
+     "ref": "01.25.142M",
+     "seite": "PDF 1"
+    },
+    {
+     "aussen_mm": "42",
+     "groesse": "L",
+     "ref": "01.25.142L",
+     "seite": "PDF 1"
+    },
+    {
+     "aussen_mm": "44",
+     "groesse": "S",
+     "ref": "01.25.144S",
+     "seite": "PDF 1"
+    },
+    {
+     "aussen_mm": "44",
+     "groesse": "M",
+     "ref": "01.25.144M",
+     "seite": "PDF 1"
+    },
+    {
+     "aussen_mm": "44",
+     "groesse": "L",
+     "ref": "01.25.144L",
+     "seite": "PDF 1"
+    },
+    {
+     "aussen_mm": "46",
+     "groesse": "S",
+     "ref": "01.25.146S",
+     "seite": "PDF 1"
+    },
+    {
+     "aussen_mm": "46",
+     "groesse": "M",
+     "ref": "01.25.146M",
+     "seite": "PDF 1"
+    },
+    {
+     "aussen_mm": "46",
+     "groesse": "L",
+     "ref": "01.25.146L",
+     "seite": "PDF 1"
+    },
+    {
+     "aussen_mm": "48",
+     "groesse": "S",
+     "ref": "01.25.148S",
+     "seite": "PDF 1"
+    },
+    {
+     "aussen_mm": "48",
+     "groesse": "M",
+     "ref": "01.25.148M",
+     "seite": "PDF 1"
+    },
+    {
+     "aussen_mm": "48",
+     "groesse": "L",
+     "ref": "01.25.148L",
+     "seite": "PDF 1"
+    },
+    {
+     "aussen_mm": "50",
+     "groesse": "S",
+     "ref": "01.25.150S",
+     "seite": "PDF 1"
+    },
+    {
+     "aussen_mm": "50",
+     "groesse": "M",
+     "ref": "01.25.150M",
+     "seite": "PDF 1"
+    },
+    {
+     "aussen_mm": "50",
+     "groesse": "L",
+     "ref": "01.25.150L",
+     "seite": "PDF 1"
+    },
+    {
+     "aussen_mm": "52",
+     "groesse": "S",
+     "ref": "01.25.152S",
+     "seite": "PDF 1"
+    },
+    {
+     "aussen_mm": "52",
+     "groesse": "M",
+     "ref": "01.25.152M",
+     "seite": "PDF 1"
+    },
+    {
+     "aussen_mm": "52",
+     "groesse": "L",
+     "ref": "01.25.152L",
+     "seite": "PDF 1"
+    },
+    {
+     "aussen_mm": "54",
+     "groesse": "S",
+     "ref": "01.25.154S",
+     "seite": "PDF 1"
+    },
+    {
+     "aussen_mm": "54",
+     "groesse": "M",
+     "ref": "01.25.154M",
+     "seite": "PDF 1"
+    },
+    {
+     "aussen_mm": "54",
+     "groesse": "L",
+     "ref": "01.25.154L",
+     "seite": "PDF 1"
+    },
+    {
+     "aussen_mm": "56",
+     "groesse": "S",
+     "ref": "01.25.156S",
+     "seite": "PDF 1"
+    },
+    {
+     "aussen_mm": "56",
+     "groesse": "M",
+     "ref": "01.25.156M",
+     "seite": "PDF 1"
+    },
+    {
+     "aussen_mm": "56",
+     "groesse": "L",
+     "ref": "01.25.156L",
+     "seite": "PDF 1"
+    }
+   ],
+   "aliase": [
+    "Endokopf",
+    "Hemikopf unipolar"
+   ]
   }
  ],
- "passt_zu": [],
+ "tabellen": {
+  "T1_com_kopf_schaft": {
+   "titel": "99.99.COM rev. 12 – Heads × Stems",
+   "quelle": "q_com",
+   "seite": "1",
+   "zeilen": [
+    {
+     "Kopf": "Stainless Steel (10/12 taper)",
+     "AMIS-K": "nein",
+     "AMIStem C": "nein",
+     "AMIStem H": "nein",
+     "AMIStem H Collared": "nein",
+     "AMIStem H Proximal Coating": "nein",
+     "MasterLoc": "nein",
+     "MiniMAX": "nein",
+     "M-Vizion Femoral Revision System": "nein",
+     "Native (10/12)": "ja",
+     "Quadra-C": "nein",
+     "Quadra-H": "nein",
+     "Quadra-S": "nein",
+     "Quadra-R": "nein",
+     "X-Acta": "nein"
+    },
+    {
+     "Kopf": "Stainless Steel (12/14 taper)",
+     "AMIS-K": "ja",
+     "AMIStem C": "ja",
+     "AMIStem H": "ja",
+     "AMIStem H Collared": "ja",
+     "AMIStem H Proximal Coating": "ja",
+     "MasterLoc": "ja",
+     "MiniMAX": "ja",
+     "M-Vizion Femoral Revision System": "ja",
+     "Native (10/12)": "nein",
+     "Quadra-C": "ja",
+     "Quadra-H": "ja",
+     "Quadra-S": "ja",
+     "Quadra-R": "ja",
+     "X-Acta": "ja"
+    },
+    {
+     "Kopf": "CoCr (10/12 taper)",
+     "AMIS-K": "nein",
+     "AMIStem C": "nein",
+     "AMIStem H": "nein",
+     "AMIStem H Collared": "nein",
+     "AMIStem H Proximal Coating": "nein",
+     "MasterLoc": "nein",
+     "MiniMAX": "nein",
+     "M-Vizion Femoral Revision System": "nein",
+     "Native (10/12)": "ja",
+     "Quadra-C": "nein",
+     "Quadra-H": "nein",
+     "Quadra-S": "nein",
+     "Quadra-R": "nein",
+     "X-Acta": "nein"
+    },
+    {
+     "Kopf": "CoCr (12/14 taper)",
+     "AMIS-K": "ja",
+     "AMIStem C": "ja",
+     "AMIStem H": "ja",
+     "AMIStem H Collared": "ja",
+     "AMIStem H Proximal Coating": "ja",
+     "MasterLoc": "ja",
+     "MiniMAX": "ja",
+     "M-Vizion Femoral Revision System": "ja",
+     "Native (10/12)": "nein",
+     "Quadra-C": "ja",
+     "Quadra-H": "ja",
+     "Quadra-S": "ja",
+     "Quadra-R": "ja",
+     "X-Acta": "ja"
+    },
+    {
+     "Kopf": "Mectacer BIOLOX delta (12/14 taper)",
+     "AMIS-K": "ja",
+     "AMIStem C": "ja",
+     "AMIStem H": "ja",
+     "AMIStem H Collared": "ja",
+     "AMIStem H Proximal Coating": "ja",
+     "MasterLoc": "ja",
+     "MiniMAX": "ja",
+     "M-Vizion Femoral Revision System": "ja",
+     "Native (10/12)": "nein",
+     "Quadra-C": "ja",
+     "Quadra-H": "ja",
+     "Quadra-S": "ja",
+     "Quadra-R": "ja",
+     "X-Acta": "ja"
+    },
+    {
+     "Kopf": "Mectacer BIOLOX OPTION (ball head + sleeve 12/14 taper)",
+     "AMIS-K": "ja",
+     "AMIStem C": "ja",
+     "AMIStem H": "ja",
+     "AMIStem H Collared": "ja",
+     "AMIStem H Proximal Coating": "ja",
+     "MasterLoc": "ja",
+     "MiniMAX": "ja",
+     "M-Vizion Femoral Revision System": "ja",
+     "Native (10/12)": "nein",
+     "Quadra-C": "ja",
+     "Quadra-H": "ja",
+     "Quadra-S": "ja",
+     "Quadra-R": "ja",
+     "X-Acta": "ja"
+    },
+    {
+     "Kopf": "Ceramtec BIOLOX delta (12/14 taper)",
+     "AMIS-K": "ja",
+     "AMIStem C": "ja",
+     "AMIStem H": "ja",
+     "AMIStem H Collared": "ja",
+     "AMIStem H Proximal Coating": "ja",
+     "MasterLoc": "ja",
+     "MiniMAX": "ja",
+     "M-Vizion Femoral Revision System": "ja",
+     "Native (10/12)": "nein",
+     "Quadra-C": "ja",
+     "Quadra-H": "ja",
+     "Quadra-S": "ja",
+     "Quadra-R": "ja",
+     "X-Acta": "ja"
+    },
+    {
+     "Kopf": "Ceramtec BIOLOX OPTION (12/14 taper)",
+     "AMIS-K": "ja",
+     "AMIStem C": "ja",
+     "AMIStem H": "ja",
+     "AMIStem H Collared": "ja",
+     "AMIStem H Proximal Coating": "ja",
+     "MasterLoc": "ja",
+     "MiniMAX": "ja",
+     "M-Vizion Femoral Revision System": "ja",
+     "Native (10/12)": "nein",
+     "Quadra-C": "ja",
+     "Quadra-H": "ja",
+     "Quadra-S": "ja",
+     "Quadra-R": "ja",
+     "X-Acta": "ja"
+    },
+    {
+     "Kopf": "Endo Head (12/14 taper)",
+     "AMIS-K": "ja",
+     "AMIStem C": "ja",
+     "AMIStem H": "ja",
+     "AMIStem H Collared": "ja",
+     "AMIStem H Proximal Coating": "ja",
+     "MasterLoc": "ja",
+     "MiniMAX": "ja",
+     "M-Vizion Femoral Revision System": "ja",
+     "Native (10/12)": "nein",
+     "Quadra-C": "ja",
+     "Quadra-H": "ja",
+     "Quadra-S": "ja",
+     "Quadra-R": "ja",
+     "X-Acta": "ja"
+    }
+   ],
+   "legende": "ja = ✓ (Textschicht „P“) „Combination approved by Medacta International“; nein = × (Textschicht „O“) „Combination NOT approved by Medacta International“. Funktionale Kompatibilität, nicht automatisch Zulassungsstatus. Quadra-P, Quadra-P Collared/Cemented, AMIStem-P, AMIStem-P Collared sind in rev. 12 NICHT aufgeführt → offen."
+  },
+  "T2_com_kopf_liner": {
+   "titel": "99.99.COM rev. 12 – Heads × Liners / UHMWPE Cups / Bipolar / Converter",
+   "quelle": "q_com",
+   "seite": "2",
+   "zeilen": [
+    {
+     "Kopf": "Stainless Steel (10/12 taper)",
+     "(1) DM UHMWPE": "ja",
+     "(2) DM HC UHMWPE": "ja",
+     "(3) CC Flat/Hooded UHMWPE": "ja",
+     "(4) CC Flat/Hooded HC UHMWPE": "ja",
+     "(5) Mectacer BIOLOX delta Liner": "nein",
+     "(6) Ceramtec BIOLOX delta Liner": "nein",
+     "(7) Mpact Flat/Hooded HC UHMWPE": "ja",
+     "(8) Apricot Cemented HC flat cup": "ja",
+     "(9) Native Cemented HC Cup": "ja",
+     "(10) Medacta Bipolar Head": "ja",
+     "(11) DM Converter Liner": "nein"
+    },
+    {
+     "Kopf": "Stainless Steel (12/14 taper)",
+     "(1) DM UHMWPE": "ja",
+     "(2) DM HC UHMWPE": "ja",
+     "(3) CC Flat/Hooded UHMWPE": "ja",
+     "(4) CC Flat/Hooded HC UHMWPE": "ja",
+     "(5) Mectacer BIOLOX delta Liner": "nein",
+     "(6) Ceramtec BIOLOX delta Liner": "nein",
+     "(7) Mpact Flat/Hooded HC UHMWPE": "ja",
+     "(8) Apricot Cemented HC flat cup": "ja",
+     "(9) Native Cemented HC Cup": "ja",
+     "(10) Medacta Bipolar Head": "ja",
+     "(11) DM Converter Liner": "nein"
+    },
+    {
+     "Kopf": "CoCr (10/12 taper)",
+     "(1) DM UHMWPE": "ja",
+     "(2) DM HC UHMWPE": "ja",
+     "(3) CC Flat/Hooded UHMWPE": "ja",
+     "(4) CC Flat/Hooded HC UHMWPE": "ja",
+     "(5) Mectacer BIOLOX delta Liner": "nein",
+     "(6) Ceramtec BIOLOX delta Liner": "nein",
+     "(7) Mpact Flat/Hooded HC UHMWPE": "ja",
+     "(8) Apricot Cemented HC flat cup": "ja",
+     "(9) Native Cemented HC Cup": "ja",
+     "(10) Medacta Bipolar Head": "ja",
+     "(11) DM Converter Liner": "nein"
+    },
+    {
+     "Kopf": "CoCr (12/14 taper)",
+     "(1) DM UHMWPE": "ja",
+     "(2) DM HC UHMWPE": "ja",
+     "(3) CC Flat/Hooded UHMWPE": "ja",
+     "(4) CC Flat/Hooded HC UHMWPE": "ja",
+     "(5) Mectacer BIOLOX delta Liner": "nein",
+     "(6) Ceramtec BIOLOX delta Liner": "nein",
+     "(7) Mpact Flat/Hooded HC UHMWPE": "ja",
+     "(8) Apricot Cemented HC flat cup": "ja",
+     "(9) Native Cemented HC Cup": "ja",
+     "(10) Medacta Bipolar Head": "ja",
+     "(11) DM Converter Liner": "nein"
+    },
+    {
+     "Kopf": "Mectacer BIOLOX delta (12/14 taper)",
+     "(1) DM UHMWPE": "ja",
+     "(2) DM HC UHMWPE": "ja",
+     "(3) CC Flat/Hooded UHMWPE": "ja",
+     "(4) CC Flat/Hooded HC UHMWPE": "ja",
+     "(5) Mectacer BIOLOX delta Liner": "ja",
+     "(6) Ceramtec BIOLOX delta Liner": "ja",
+     "(7) Mpact Flat/Hooded HC UHMWPE": "ja",
+     "(8) Apricot Cemented HC flat cup": "ja",
+     "(9) Native Cemented HC Cup": "nein",
+     "(10) Medacta Bipolar Head": "ja",
+     "(11) DM Converter Liner": "nein"
+    },
+    {
+     "Kopf": "Mectacer BIOLOX OPTION (ball head + sleeve 12/14 taper)",
+     "(1) DM UHMWPE": "ja (iii)",
+     "(2) DM HC UHMWPE": "ja (iii)",
+     "(3) CC Flat/Hooded UHMWPE": "ja",
+     "(4) CC Flat/Hooded HC UHMWPE": "ja",
+     "(5) Mectacer BIOLOX delta Liner": "ja",
+     "(6) Ceramtec BIOLOX delta Liner": "ja",
+     "(7) Mpact Flat/Hooded HC UHMWPE": "ja",
+     "(8) Apricot Cemented HC flat cup": "ja",
+     "(9) Native Cemented HC Cup": "nein",
+     "(10) Medacta Bipolar Head": "ja",
+     "(11) DM Converter Liner": "nein"
+    },
+    {
+     "Kopf": "Ceramtec BIOLOX delta (12/14 taper)",
+     "(1) DM UHMWPE": "ja",
+     "(2) DM HC UHMWPE": "ja",
+     "(3) CC Flat/Hooded UHMWPE": "ja",
+     "(4) CC Flat/Hooded HC UHMWPE": "ja",
+     "(5) Mectacer BIOLOX delta Liner": "ja",
+     "(6) Ceramtec BIOLOX delta Liner": "ja",
+     "(7) Mpact Flat/Hooded HC UHMWPE": "ja",
+     "(8) Apricot Cemented HC flat cup": "ja",
+     "(9) Native Cemented HC Cup": "nein",
+     "(10) Medacta Bipolar Head": "ja",
+     "(11) DM Converter Liner": "nein"
+    },
+    {
+     "Kopf": "Ceramtec BIOLOX OPTION (12/14 taper)",
+     "(1) DM UHMWPE": "ja (iii)",
+     "(2) DM HC UHMWPE": "ja (iii)",
+     "(3) CC Flat/Hooded UHMWPE": "ja",
+     "(4) CC Flat/Hooded HC UHMWPE": "ja",
+     "(5) Mectacer BIOLOX delta Liner": "ja",
+     "(6) Ceramtec BIOLOX delta Liner": "ja",
+     "(7) Mpact Flat/Hooded HC UHMWPE": "ja",
+     "(8) Apricot Cemented HC flat cup": "ja",
+     "(9) Native Cemented HC Cup": "nein",
+     "(10) Medacta Bipolar Head": "ja",
+     "(11) DM Converter Liner": "nein"
+    },
+    {
+     "Kopf": "Endo Head (12/14 taper)",
+     "(1) DM UHMWPE": "nein",
+     "(2) DM HC UHMWPE": "nein",
+     "(3) CC Flat/Hooded UHMWPE": "nein",
+     "(4) CC Flat/Hooded HC UHMWPE": "nein",
+     "(5) Mectacer BIOLOX delta Liner": "nein",
+     "(6) Ceramtec BIOLOX delta Liner": "nein",
+     "(7) Mpact Flat/Hooded HC UHMWPE": "nein",
+     "(8) Apricot Cemented HC flat cup": "nein",
+     "(9) Native Cemented HC Cup": "nein",
+     "(10) Medacta Bipolar Head": "nein",
+     "(11) DM Converter Liner": "nein"
+    }
+   ],
+   "legende": "ja = ✓ (Textschicht „P“) „Combination approved by Medacta International“; nein = × (Textschicht „O“) „Combination NOT approved by Medacta International“. Funktionale Kompatibilität, nicht automatisch Zulassungsstatus. Quadra-P, Quadra-P Collared/Cemented, AMIStem-P, AMIStem-P Collared sind in rev. 12 NICHT aufgeführt → offen. iii: „The internal sleeve of BIOLOX OPTION of ø28 mm, size XL, and sometimes size L, do not completely cover the femoral stem threaded taper. This may cause a premature wear of the double mobility liner. We recommend to follow the combinations indicated in the table below ‚Double Mobility Liners - BIOLOX OPTION Combinations‘.“"
+  },
+  "T3_com_dm_option": {
+   "titel": "99.99.COM rev. 12 – Double Mobility Liners – BIOLOX OPTION Combinations (Schäfte 12/14)",
+   "quelle": "q_com",
+   "seite": "2",
+   "zeilen": [
+    {
+     "Kopf": "Ceramtec BIOLOX OPTION S Ø 28 mm",
+     "AMIS-K": "ja",
+     "AMIStem C": "ja",
+     "AMIStem H": "ja",
+     "AMIStem H Collared": "ja",
+     "AMIStem H PC": "ja",
+     "MasterLoc": "ja",
+     "MiniMAX": "ja",
+     "M-Vizion": "ja",
+     "Quadra-C": "ja",
+     "Quadra-H": "ja",
+     "Quadra-S": "ja",
+     "Quadra-R": "ja",
+     "X-Acta": "ja"
+    },
+    {
+     "Kopf": "Ceramtec BIOLOX OPTION M Ø 28 mm",
+     "AMIS-K": "ja",
+     "AMIStem C": "ja",
+     "AMIStem H": "ja",
+     "AMIStem H Collared": "ja",
+     "AMIStem H PC": "ja",
+     "MasterLoc": "ja",
+     "MiniMAX": "ja",
+     "M-Vizion": "ja",
+     "Quadra-C": "ja",
+     "Quadra-H": "ja",
+     "Quadra-S": "ja",
+     "Quadra-R": "ja",
+     "X-Acta": "ja"
+    },
+    {
+     "Kopf": "Ceramtec BIOLOX OPTION L Ø 28 mm",
+     "AMIS-K": "ja",
+     "AMIStem C": "ja",
+     "AMIStem H": "ja",
+     "AMIStem H Collared": "ja",
+     "AMIStem H PC": "ja",
+     "MasterLoc": "ja",
+     "MiniMAX": "ja",
+     "M-Vizion": "ja",
+     "Quadra-C": "ja",
+     "Quadra-H": "ja",
+     "Quadra-S": "ja",
+     "Quadra-R": "ja",
+     "X-Acta": "nein"
+    },
+    {
+     "Kopf": "Ceramtec BIOLOX OPTION XL Ø 28 mm",
+     "AMIS-K": "nein",
+     "AMIStem C": "nein",
+     "AMIStem H": "nein",
+     "AMIStem H Collared": "nein",
+     "AMIStem H PC": "nein",
+     "MasterLoc": "nein",
+     "MiniMAX": "nein",
+     "M-Vizion": "nein",
+     "Quadra-C": "nein",
+     "Quadra-H": "nein",
+     "Quadra-S": "nein",
+     "Quadra-R": "nein",
+     "X-Acta": "nein"
+    },
+    {
+     "Kopf": "Mectacer BIOLOX OPTION Ø 28 + sleeve S",
+     "AMIS-K": "ja",
+     "AMIStem C": "ja",
+     "AMIStem H": "ja",
+     "AMIStem H Collared": "ja",
+     "AMIStem H PC": "ja",
+     "MasterLoc": "ja",
+     "MiniMAX": "ja",
+     "M-Vizion": "ja",
+     "Quadra-C": "ja",
+     "Quadra-H": "ja",
+     "Quadra-S": "ja",
+     "Quadra-R": "ja",
+     "X-Acta": "ja"
+    },
+    {
+     "Kopf": "Mectacer BIOLOX OPTION Ø 28 + sleeve M",
+     "AMIS-K": "ja",
+     "AMIStem C": "ja",
+     "AMIStem H": "ja",
+     "AMIStem H Collared": "ja",
+     "AMIStem H PC": "ja",
+     "MasterLoc": "ja",
+     "MiniMAX": "ja",
+     "M-Vizion": "ja",
+     "Quadra-C": "ja",
+     "Quadra-H": "ja",
+     "Quadra-S": "ja",
+     "Quadra-R": "ja",
+     "X-Acta": "ja"
+    },
+    {
+     "Kopf": "Mectacer BIOLOX OPTION Ø 28 + sleeve L",
+     "AMIS-K": "ja",
+     "AMIStem C": "ja",
+     "AMIStem H": "ja",
+     "AMIStem H Collared": "ja",
+     "AMIStem H PC": "ja",
+     "MasterLoc": "ja",
+     "MiniMAX": "ja",
+     "M-Vizion": "ja",
+     "Quadra-C": "ja",
+     "Quadra-H": "ja",
+     "Quadra-S": "ja",
+     "Quadra-R": "ja",
+     "X-Acta": "nein"
+    },
+    {
+     "Kopf": "Mectacer BIOLOX OPTION Ø 28 + sleeve XL",
+     "AMIS-K": "nein",
+     "AMIStem C": "nein",
+     "AMIStem H": "nein",
+     "AMIStem H Collared": "nein",
+     "AMIStem H PC": "nein",
+     "MasterLoc": "nein",
+     "MiniMAX": "nein",
+     "M-Vizion": "nein",
+     "Quadra-C": "nein",
+     "Quadra-H": "nein",
+     "Quadra-S": "nein",
+     "Quadra-R": "nein",
+     "X-Acta": "nein"
+    }
+   ],
+   "legende": "ja = ✓ (Textschicht „P“) „Combination approved by Medacta International“; nein = × (Textschicht „O“) „Combination NOT approved by Medacta International“. Funktionale Kompatibilität, nicht automatisch Zulassungsstatus. Quadra-P, Quadra-P Collared/Cemented, AMIStem-P, AMIStem-P Collared sind in rev. 12 NICHT aufgeführt → offen. Gilt nur für Double-Mobility-Liner (nicht Teil dieser Datei)."
+  },
+  "T4_com_schale_liner": {
+   "titel": "99.99.COM rev. 12 – Acetabular Shells × Liners",
+   "quelle": "q_com",
+   "seite": "3",
+   "zeilen": [
+    {
+     "Schale": "Mpact No-hole",
+     "(1) DM UHMWPE": "nein",
+     "(2) DM HC UHMWPE": "nein",
+     "(3) CC Flat/Hooded UHMWPE": "nein",
+     "(4) CC Flat/Hooded HC UHMWPE": "nein",
+     "(5) Mectacer BIOLOX delta Liner": "ja",
+     "(6) Ceramtec BIOLOX delta Liner": "ja",
+     "(7) Mpact Flat/Hooded HC UHMWPE": "ja",
+     "(8) DM Converter Liner": "ja"
+    },
+    {
+     "Schale": "Mpact Two-hole",
+     "(1) DM UHMWPE": "nein",
+     "(2) DM HC UHMWPE": "nein",
+     "(3) CC Flat/Hooded UHMWPE": "nein",
+     "(4) CC Flat/Hooded HC UHMWPE": "nein",
+     "(5) Mectacer BIOLOX delta Liner": "ja",
+     "(6) Ceramtec BIOLOX delta Liner": "ja",
+     "(7) Mpact Flat/Hooded HC UHMWPE": "ja",
+     "(8) DM Converter Liner": "ja"
+    },
+    {
+     "Schale": "Mpact DM",
+     "(1) DM UHMWPE": "ja",
+     "(2) DM HC UHMWPE": "ja",
+     "(3) CC Flat/Hooded UHMWPE": "nein",
+     "(4) CC Flat/Hooded HC UHMWPE": "nein",
+     "(5) Mectacer BIOLOX delta Liner": "nein",
+     "(6) Ceramtec BIOLOX delta Liner": "nein",
+     "(7) Mpact Flat/Hooded HC UHMWPE": "nein",
+     "(8) DM Converter Liner": "nein"
+    },
+    {
+     "Schale": "Mpact Multi-hole",
+     "(1) DM UHMWPE": "nein",
+     "(2) DM HC UHMWPE": "nein",
+     "(3) CC Flat/Hooded UHMWPE": "nein",
+     "(4) CC Flat/Hooded HC UHMWPE": "nein",
+     "(5) Mectacer BIOLOX delta Liner": "nein",
+     "(6) Ceramtec BIOLOX delta Liner": "nein",
+     "(7) Mpact Flat/Hooded HC UHMWPE": "ja",
+     "(8) DM Converter Liner": "ja"
+    },
+    {
+     "Schale": "Mpact Rim-hole",
+     "(1) DM UHMWPE": "nein",
+     "(2) DM HC UHMWPE": "nein",
+     "(3) CC Flat/Hooded UHMWPE": "nein",
+     "(4) CC Flat/Hooded HC UHMWPE": "nein",
+     "(5) Mectacer BIOLOX delta Liner": "ja (iiii)",
+     "(6) Ceramtec BIOLOX delta Liner": "ja",
+     "(7) Mpact Flat/Hooded HC UHMWPE": "ja",
+     "(8) DM Converter Liner": "ja"
+    },
+    {
+     "Schale": "Versacem",
+     "(1) DM UHMWPE": "ja",
+     "(2) DM HC UHMWPE": "ja",
+     "(3) CC Flat/Hooded UHMWPE": "nein",
+     "(4) CC Flat/Hooded HC UHMWPE": "nein",
+     "(5) Mectacer BIOLOX delta Liner": "nein",
+     "(6) Ceramtec BIOLOX delta Liner": "nein",
+     "(7) Mpact Flat/Hooded HC UHMWPE": "nein",
+     "(8) DM Converter Liner": "nein"
+    },
+    {
+     "Schale": "Versafitcup CC Trio",
+     "(1) DM UHMWPE": "nein",
+     "(2) DM HC UHMWPE": "nein",
+     "(3) CC Flat/Hooded UHMWPE": "ja",
+     "(4) CC Flat/Hooded HC UHMWPE": "ja",
+     "(5) Mectacer BIOLOX delta Liner": "ja",
+     "(6) Ceramtec BIOLOX delta Liner": "ja",
+     "(7) Mpact Flat/Hooded HC UHMWPE": "nein",
+     "(8) DM Converter Liner": "nein"
+    },
+    {
+     "Schale": "Versafitcup CC Trio No-Hole",
+     "(1) DM UHMWPE": "nein",
+     "(2) DM HC UHMWPE": "nein",
+     "(3) CC Flat/Hooded UHMWPE": "ja",
+     "(4) CC Flat/Hooded HC UHMWPE": "ja",
+     "(5) Mectacer BIOLOX delta Liner": "ja",
+     "(6) Ceramtec BIOLOX delta Liner": "ja",
+     "(7) Mpact Flat/Hooded HC UHMWPE": "nein",
+     "(8) DM Converter Liner": "nein"
+    },
+    {
+     "Schale": "Versafitcup DM",
+     "(1) DM UHMWPE": "ja",
+     "(2) DM HC UHMWPE": "ja",
+     "(3) CC Flat/Hooded UHMWPE": "nein",
+     "(4) CC Flat/Hooded HC UHMWPE": "nein",
+     "(5) Mectacer BIOLOX delta Liner": "nein",
+     "(6) Ceramtec BIOLOX delta Liner": "nein",
+     "(7) Mpact Flat/Hooded HC UHMWPE": "nein",
+     "(8) DM Converter Liner": "nein"
+    }
+   ],
+   "legende": "ja = ✓ (Textschicht „P“) „Combination approved by Medacta International“; nein = × (Textschicht „O“) „Combination NOT approved by Medacta International“. Funktionale Kompatibilität, nicht automatisch Zulassungsstatus. Quadra-P, Quadra-P Collared/Cemented, AMIStem-P, AMIStem-P Collared sind in rev. 12 NICHT aufgeführt → offen. iiii: „only for Mpact Rim-hole acetabular shell from Ø56 to Ø70mm“. Seite 3 ist Liner × Schale, keine Schaft-Matrix."
+  },
+  "T5_cctrio_schale_inlay": {
+   "titel": "Versafitcup CC Trio / No-Hole – Schale → Größe des Inlays",
+   "quelle": "q_cctrio",
+   "seite": "12",
+   "zeilen": [
+    {
+     "inlay_groesse": "AZ",
+     "schale_mm_cc_trio": [
+      "40",
+      "42"
+     ],
+     "schale_mm_nohole": "-"
+    },
+    {
+     "inlay_groesse": "B",
+     "schale_mm_cc_trio": [
+      "44"
+     ],
+     "schale_mm_nohole": [
+      "44"
+     ]
+    },
+    {
+     "inlay_groesse": "C",
+     "schale_mm_cc_trio": [
+      "46",
+      "48"
+     ],
+     "schale_mm_nohole": [
+      "46",
+      "48"
+     ]
+    },
+    {
+     "inlay_groesse": "E",
+     "schale_mm_cc_trio": [
+      "50",
+      "52",
+      "54"
+     ],
+     "schale_mm_nohole": [
+      "50",
+      "52",
+      "54"
+     ]
+    },
+    {
+     "inlay_groesse": "F",
+     "schale_mm_cc_trio": [
+      "56",
+      "58",
+      "60"
+     ],
+     "schale_mm_nohole": [
+      "56",
+      "58",
+      "60"
+     ]
+    },
+    {
+     "inlay_groesse": "G",
+     "schale_mm_cc_trio": [
+      "62",
+      "64"
+     ],
+     "schale_mm_nohole": [
+      "62",
+      "64"
+     ]
+    }
+   ],
+   "legende": "40, 42, 44 (CC Trio) und 44 (No-Hole) auf Anfrage. Kein Code D. No-Hole beginnt bei 44/B."
+  },
+  "T6_cctrio_inlay_kopf": {
+   "titel": "Versafitcup CC Trio – Kopf-Ø je Inlaygröße und Inlaytyp",
+   "quelle": "q_cctrio",
+   "seite": "13",
+   "zeilen": [
+    {
+     "inlay_groesse": "AZ",
+     "UHMWPE flach": [
+      "22"
+     ],
+     "UHMWPE überhöht": [
+      "22"
+     ],
+     "Highcross flach": [
+      "22"
+     ],
+     "Highcross überhöht": [
+      "22"
+     ],
+     "Keramik": "-"
+    },
+    {
+     "inlay_groesse": "B",
+     "UHMWPE flach": [
+      "28"
+     ],
+     "UHMWPE überhöht": [
+      "28"
+     ],
+     "Highcross flach": [
+      "28"
+     ],
+     "Highcross überhöht": [
+      "28"
+     ],
+     "Keramik": [
+      "28"
+     ]
+    },
+    {
+     "inlay_groesse": "C",
+     "UHMWPE flach": [
+      "28"
+     ],
+     "UHMWPE überhöht": [
+      "28"
+     ],
+     "Highcross flach": [
+      "28",
+      "32"
+     ],
+     "Highcross überhöht": [
+      "28"
+     ],
+     "Keramik": [
+      "28",
+      "32"
+     ]
+    },
+    {
+     "inlay_groesse": "E",
+     "UHMWPE flach": [
+      "28",
+      "32"
+     ],
+     "UHMWPE überhöht": [
+      "28",
+      "32"
+     ],
+     "Highcross flach": [
+      "28",
+      "32",
+      "36"
+     ],
+     "Highcross überhöht": [
+      "28",
+      "32"
+     ],
+     "Keramik": [
+      "28",
+      "32",
+      "36"
+     ]
+    },
+    {
+     "inlay_groesse": "F",
+     "UHMWPE flach": [
+      "28",
+      "32"
+     ],
+     "UHMWPE überhöht": [
+      "28",
+      "32"
+     ],
+     "Highcross flach": [
+      "28",
+      "32",
+      "36"
+     ],
+     "Highcross überhöht": [
+      "28",
+      "32"
+     ],
+     "Keramik": [
+      "28",
+      "32",
+      "36",
+      "40"
+     ]
+    },
+    {
+     "inlay_groesse": "G",
+     "UHMWPE flach": [
+      "28",
+      "32"
+     ],
+     "UHMWPE überhöht": [
+      "28",
+      "32"
+     ],
+     "Highcross flach": [
+      "28",
+      "32",
+      "36"
+     ],
+     "Highcross überhöht": [
+      "28",
+      "32"
+     ],
+     "Keramik": [
+      "28",
+      "32",
+      "36",
+      "40"
+     ]
+    }
+   ],
+   "legende": "Konkrete Kopfbohrungen in mm, kein Bereich – keine Regel „kopf ≤ max“. Leer = kein Artikel („-“). 36 mm nur Keramik und Highcross flach (S. 9). Gleicher Code UND passende Bohrung UND freigegebene Materialpaarung erforderlich (OpenAI 4.2)."
+  },
+  "T7_raspel_quadra_c": {
+   "titel": "Quadra-C – Raspel → Schaft zementiert",
+   "quelle": "q_quadra_de",
+   "seite": "9",
+   "zeilen": [
+    {
+     "raspel": "0",
+     "technik_1": "-",
+     "technik_2": "0"
+    },
+    {
+     "raspel": "1",
+     "technik_1": "0",
+     "technik_2": "1"
+    },
+    {
+     "raspel": "2",
+     "technik_1": "1",
+     "technik_2": "2"
+    },
+    {
+     "raspel": "3",
+     "technik_1": "2",
+     "technik_2": "3"
+    },
+    {
+     "raspel": "4",
+     "technik_1": "3",
+     "technik_2": "4"
+    },
+    {
+     "raspel": "5",
+     "technik_1": "4",
+     "technik_2": "5"
+    },
+    {
+     "raspel": "6",
+     "technik_1": "5",
+     "technik_2": "6"
+    },
+    {
+     "raspel": "7",
+     "technik_1": "6",
+     "technik_2": "7"
+    },
+    {
+     "raspel": "8",
+     "technik_1": "7",
+     "technik_2": "-"
+    }
+   ],
+   "legende": "Technik 1: femorale Öffnung 1.4 mm größer als Prothese; Technik 2: line-to-line (S. 8). „Verwenden Sie nicht die Größen 9 und 10; es sind keine Schäfte der entsprechenden Größen lieferbar.“"
+  },
+  "T8_raspel_quadra_p_cemented": {
+   "titel": "QUADRA-P Cemented – Raspel → Schaft zementiert",
+   "quelle": "q_quadra_p",
+   "seite": "11",
+   "zeilen": [
+    {
+     "raspel": "00",
+     "technik_1": "-",
+     "technik_2": "-"
+    },
+    {
+     "raspel": "0",
+     "technik_1": "-",
+     "technik_2": "0"
+    },
+    {
+     "raspel": "1",
+     "technik_1": "0",
+     "technik_2": "1"
+    },
+    {
+     "raspel": "2",
+     "technik_1": "1",
+     "technik_2": "2"
+    },
+    {
+     "raspel": "3",
+     "technik_1": "2",
+     "technik_2": "3"
+    },
+    {
+     "raspel": "4",
+     "technik_1": "3",
+     "technik_2": "4"
+    },
+    {
+     "raspel": "5",
+     "technik_1": "4",
+     "technik_2": "5"
+    },
+    {
+     "raspel": "6",
+     "technik_1": "5",
+     "technik_2": "6"
+    },
+    {
+     "raspel": "7",
+     "technik_1": "6",
+     "technik_2": "7"
+    },
+    {
+     "raspel": "8",
+     "technik_1": "7",
+     "technik_2": "8"
+    },
+    {
+     "raspel": "9",
+     "technik_1": "8",
+     "technik_2": "-"
+    }
+   ],
+   "legende": "Schaft 9 erforderlich → Technik 1, Schaft 8. Femur auf 0 finalisiert → nur Technik 2 (kein zementierter 00) (S. 11)."
+  },
+  "T9_raspel_amistem_c_2022": {
+   "titel": "AMIStem-C – Raspel → Schaft zementiert (DE 2022)",
+   "quelle": "q_amistem_p",
+   "seite": "12",
+   "zeilen": [
+    {
+     "raspel": "00",
+     "technik_1": "-",
+     "technik_2": "00"
+    },
+    {
+     "raspel": "0",
+     "technik_1": "00",
+     "technik_2": "0"
+    },
+    {
+     "raspel": "1",
+     "technik_1": "0",
+     "technik_2": "1"
+    },
+    {
+     "raspel": "2",
+     "technik_1": "1",
+     "technik_2": "2"
+    },
+    {
+     "raspel": "3",
+     "technik_1": "2",
+     "technik_2": "3"
+    },
+    {
+     "raspel": "4",
+     "technik_1": "3",
+     "technik_2": "4"
+    },
+    {
+     "raspel": "5",
+     "technik_1": "4",
+     "technik_2": "5"
+    },
+    {
+     "raspel": "6",
+     "technik_1": "5",
+     "technik_2": "6"
+    },
+    {
+     "raspel": "7",
+     "technik_1": "6",
+     "technik_2": "7"
+    },
+    {
+     "raspel": "8",
+     "technik_1": "7",
+     "technik_2": "8"
+    },
+    {
+     "raspel": "9",
+     "technik_1": "8",
+     "technik_2": "-"
+    }
+   ],
+   "legende": "S. 13: „Die Größe 9 ist nicht erhältlich, daher ist nach Tech. 1 vorzugehen, wenn eine Raspel der Größe verwendet wurde.“ (Zahl fehlt im Original)."
+  },
+  "T10_raspel_amistem_c_2014": {
+   "titel": "AMIStem-C – Broach → Stem cemented (EN 2014, ältere Fassung)",
+   "quelle": "q_amistem_en",
+   "seite": "11",
+   "zeilen": [
+    {
+     "raspel": "0",
+     "technik_1": "-",
+     "technik_2": "0"
+    },
+    {
+     "raspel": "1",
+     "technik_1": "0",
+     "technik_2": "1"
+    },
+    {
+     "raspel": "2",
+     "technik_1": "1",
+     "technik_2": "2"
+    },
+    {
+     "raspel": "3",
+     "technik_1": "2",
+     "technik_2": "3"
+    },
+    {
+     "raspel": "4",
+     "technik_1": "3",
+     "technik_2": "4"
+    },
+    {
+     "raspel": "5",
+     "technik_1": "4",
+     "technik_2": "5"
+    },
+    {
+     "raspel": "6",
+     "technik_1": "5",
+     "technik_2": "6"
+    },
+    {
+     "raspel": "7",
+     "technik_1": "6",
+     "technik_2": "7"
+    },
+    {
+     "raspel": "8",
+     "technik_1": "7",
+     "technik_2": "8"
+    },
+    {
+     "raspel": "9",
+     "technik_1": "8",
+     "technik_2": "-"
+    }
+   ],
+   "legende": "Abweichung zu T9 (2022): keine Raspel/Schaft 00; Raspel 0 → Tech 1 „-“. Nicht aufgelöst."
+  }
+ },
+ "passt_zu": [
+  {
+   "von": "medacta.quadra_h",
+   "zu": "medacta.kopf.edelstahl",
+   "status": "bedingt",
+   "bedingung": "Nur Ausführung „Stainless Steel (12/14 taper)“ = ja; 10/12 = nein. Konus am Etikett prüfen.",
+   "quelle": "q_com",
+   "seite": "1",
+   "tabelle": "T1_com_kopf_schaft"
+  },
+  {
+   "von": "medacta.quadra_h",
+   "zu": "medacta.kopf.cocr",
+   "status": "bedingt",
+   "bedingung": "Nur Ausführung „CoCr (12/14 taper)“ = ja; 10/12 = nein. Konus am Etikett prüfen.",
+   "quelle": "q_com",
+   "seite": "1",
+   "tabelle": "T1_com_kopf_schaft"
+  },
+  {
+   "von": "medacta.quadra_h",
+   "zu": "medacta.kopf.ceramtec_biolox_delta",
+   "status": "ja",
+   "bedingung": "COM-Zelle ✓ für Quadra-H (12/14).",
+   "quelle": "q_com",
+   "seite": "1",
+   "tabelle": "T1_com_kopf_schaft"
+  },
+  {
+   "von": "medacta.quadra_h",
+   "zu": "medacta.kopf.ceramtec_biolox_option",
+   "status": "ja",
+   "bedingung": "COM-Zelle ✓ für Quadra-H (12/14). OPTION: Revision.",
+   "quelle": "q_com",
+   "seite": "1",
+   "tabelle": "T1_com_kopf_schaft"
+  },
+  {
+   "von": "medacta.quadra_h",
+   "zu": "medacta.kopf.mectacer_biolox_delta",
+   "status": "ja",
+   "bedingung": "COM-Zelle ✓ für Quadra-H (12/14).",
+   "quelle": "q_com",
+   "seite": "1",
+   "tabelle": "T1_com_kopf_schaft"
+  },
+  {
+   "von": "medacta.quadra_h",
+   "zu": "medacta.kopf.mectacer_biolox_option",
+   "status": "ja",
+   "bedingung": "COM-Zelle ✓ für Quadra-H (12/14). OPTION: Revision.",
+   "quelle": "q_com",
+   "seite": "1",
+   "tabelle": "T1_com_kopf_schaft"
+  },
+  {
+   "von": "medacta.quadra_h",
+   "zu": "medacta.endokopf",
+   "status": "ja",
+   "bedingung": "COM „Endo Head (12/14 taper)“ ✓; Endo-Faltblatt: alle Medacta-Schäfte mit 12/14-Konus.",
+   "quelle": "q_com; q_endo",
+   "seite": "1; PDF 2",
+   "tabelle": "T1_com_kopf_schaft"
+  },
+  {
+   "von": "medacta.quadra_c",
+   "zu": "medacta.kopf.edelstahl",
+   "status": "bedingt",
+   "bedingung": "Nur Ausführung „Stainless Steel (12/14 taper)“ = ja; 10/12 = nein. Konus am Etikett prüfen. Größe 0: Körpergewicht ≤ 65 kg.",
+   "quelle": "q_com",
+   "seite": "1",
+   "tabelle": "T1_com_kopf_schaft"
+  },
+  {
+   "von": "medacta.quadra_c",
+   "zu": "medacta.kopf.cocr",
+   "status": "bedingt",
+   "bedingung": "Nur Ausführung „CoCr (12/14 taper)“ = ja; 10/12 = nein. Konus am Etikett prüfen. Größe 0: Körpergewicht ≤ 65 kg.",
+   "quelle": "q_com",
+   "seite": "1",
+   "tabelle": "T1_com_kopf_schaft"
+  },
+  {
+   "von": "medacta.quadra_c",
+   "zu": "medacta.kopf.ceramtec_biolox_delta",
+   "status": "ja",
+   "bedingung": "COM-Zelle ✓ für Quadra-C (12/14). Größe 0: Körpergewicht ≤ 65 kg.",
+   "quelle": "q_com",
+   "seite": "1",
+   "tabelle": "T1_com_kopf_schaft"
+  },
+  {
+   "von": "medacta.quadra_c",
+   "zu": "medacta.kopf.ceramtec_biolox_option",
+   "status": "ja",
+   "bedingung": "COM-Zelle ✓ für Quadra-C (12/14). Größe 0: Körpergewicht ≤ 65 kg. OPTION: Revision.",
+   "quelle": "q_com",
+   "seite": "1",
+   "tabelle": "T1_com_kopf_schaft"
+  },
+  {
+   "von": "medacta.quadra_c",
+   "zu": "medacta.kopf.mectacer_biolox_delta",
+   "status": "ja",
+   "bedingung": "COM-Zelle ✓ für Quadra-C (12/14). Größe 0: Körpergewicht ≤ 65 kg.",
+   "quelle": "q_com",
+   "seite": "1",
+   "tabelle": "T1_com_kopf_schaft"
+  },
+  {
+   "von": "medacta.quadra_c",
+   "zu": "medacta.kopf.mectacer_biolox_option",
+   "status": "ja",
+   "bedingung": "COM-Zelle ✓ für Quadra-C (12/14). Größe 0: Körpergewicht ≤ 65 kg. OPTION: Revision.",
+   "quelle": "q_com",
+   "seite": "1",
+   "tabelle": "T1_com_kopf_schaft"
+  },
+  {
+   "von": "medacta.quadra_c",
+   "zu": "medacta.endokopf",
+   "status": "ja",
+   "bedingung": "COM „Endo Head (12/14 taper)“ ✓; Endo-Faltblatt: alle Medacta-Schäfte mit 12/14-Konus. Größe 0: Körpergewicht ≤ 65 kg.",
+   "quelle": "q_com; q_endo",
+   "seite": "1; PDF 2",
+   "tabelle": "T1_com_kopf_schaft"
+  },
+  {
+   "von": "medacta.amistem_c",
+   "zu": "medacta.kopf.edelstahl",
+   "status": "bedingt",
+   "bedingung": "Nur Ausführung „Stainless Steel (12/14 taper)“ = ja; 10/12 = nein. Konus am Etikett prüfen. AMIStem-C 00, 00SN, STD 0SN: nur Köpfe S/M/L (q_amistem_p S. 16); COM 2016 unterscheidet keine Größen/Short-Neck-Varianten.",
+   "quelle": "q_com",
+   "seite": "1",
+   "tabelle": "T1_com_kopf_schaft"
+  },
+  {
+   "von": "medacta.amistem_c",
+   "zu": "medacta.kopf.cocr",
+   "status": "bedingt",
+   "bedingung": "Nur Ausführung „CoCr (12/14 taper)“ = ja; 10/12 = nein. Konus am Etikett prüfen. AMIStem-C 00, 00SN, STD 0SN: nur Köpfe S/M/L (q_amistem_p S. 16); COM 2016 unterscheidet keine Größen/Short-Neck-Varianten.",
+   "quelle": "q_com",
+   "seite": "1",
+   "tabelle": "T1_com_kopf_schaft"
+  },
+  {
+   "von": "medacta.amistem_c",
+   "zu": "medacta.kopf.ceramtec_biolox_delta",
+   "status": "ja",
+   "bedingung": "COM-Zelle ✓ für AMIStem C (12/14). AMIStem-C 00, 00SN, STD 0SN: nur Köpfe S/M/L (q_amistem_p S. 16); COM 2016 unterscheidet keine Größen/Short-Neck-Varianten.",
+   "quelle": "q_com",
+   "seite": "1",
+   "tabelle": "T1_com_kopf_schaft"
+  },
+  {
+   "von": "medacta.amistem_c",
+   "zu": "medacta.kopf.ceramtec_biolox_option",
+   "status": "ja",
+   "bedingung": "COM-Zelle ✓ für AMIStem C (12/14). AMIStem-C 00, 00SN, STD 0SN: nur Köpfe S/M/L (q_amistem_p S. 16); COM 2016 unterscheidet keine Größen/Short-Neck-Varianten. OPTION: Revision.",
+   "quelle": "q_com",
+   "seite": "1",
+   "tabelle": "T1_com_kopf_schaft"
+  },
+  {
+   "von": "medacta.amistem_c",
+   "zu": "medacta.kopf.mectacer_biolox_delta",
+   "status": "ja",
+   "bedingung": "COM-Zelle ✓ für AMIStem C (12/14). AMIStem-C 00, 00SN, STD 0SN: nur Köpfe S/M/L (q_amistem_p S. 16); COM 2016 unterscheidet keine Größen/Short-Neck-Varianten.",
+   "quelle": "q_com",
+   "seite": "1",
+   "tabelle": "T1_com_kopf_schaft"
+  },
+  {
+   "von": "medacta.amistem_c",
+   "zu": "medacta.kopf.mectacer_biolox_option",
+   "status": "ja",
+   "bedingung": "COM-Zelle ✓ für AMIStem C (12/14). AMIStem-C 00, 00SN, STD 0SN: nur Köpfe S/M/L (q_amistem_p S. 16); COM 2016 unterscheidet keine Größen/Short-Neck-Varianten. OPTION: Revision.",
+   "quelle": "q_com",
+   "seite": "1",
+   "tabelle": "T1_com_kopf_schaft"
+  },
+  {
+   "von": "medacta.amistem_c",
+   "zu": "medacta.endokopf",
+   "status": "ja",
+   "bedingung": "COM „Endo Head (12/14 taper)“ ✓; Endo-Faltblatt: alle Medacta-Schäfte mit 12/14-Konus. AMIStem-C 00, 00SN, STD 0SN: nur Köpfe S/M/L (q_amistem_p S. 16); COM 2016 unterscheidet keine Größen/Short-Neck-Varianten.",
+   "quelle": "q_com; q_endo",
+   "seite": "1; PDF 2",
+   "tabelle": "T1_com_kopf_schaft"
+  },
+  {
+   "von": "medacta.quadra_p",
+   "zu": "medacta.kopf.edelstahl",
+   "status": "offen",
+   "bedingung": "Nicht in 99.99.COM rev. 12. OP-Technik listet Femurköpfe im Implantatverzeichnis (S. 12), ohne Kombinationstabelle/Konusangabe – aktuelle COM bzw. Medacta fragen.",
+   "quelle": "q_quadra_p; q_com",
+   "seite": "12; 1"
+  },
+  {
+   "von": "medacta.quadra_p",
+   "zu": "medacta.kopf.cocr",
+   "status": "offen",
+   "bedingung": "Nicht in 99.99.COM rev. 12. OP-Technik listet Femurköpfe im Implantatverzeichnis (S. 12), ohne Kombinationstabelle/Konusangabe – aktuelle COM bzw. Medacta fragen.",
+   "quelle": "q_quadra_p; q_com",
+   "seite": "12; 1"
+  },
+  {
+   "von": "medacta.quadra_p",
+   "zu": "medacta.kopf.ceramtec_biolox_delta",
+   "status": "offen",
+   "bedingung": "Nicht in 99.99.COM rev. 12. OP-Technik listet Femurköpfe im Implantatverzeichnis (S. 12), ohne Kombinationstabelle/Konusangabe – aktuelle COM bzw. Medacta fragen.",
+   "quelle": "q_quadra_p; q_com",
+   "seite": "12; 1"
+  },
+  {
+   "von": "medacta.quadra_p",
+   "zu": "medacta.kopf.ceramtec_biolox_option",
+   "status": "offen",
+   "bedingung": "Nicht in 99.99.COM rev. 12. OP-Technik listet Femurköpfe im Implantatverzeichnis (S. 12), ohne Kombinationstabelle/Konusangabe – aktuelle COM bzw. Medacta fragen.",
+   "quelle": "q_quadra_p; q_com",
+   "seite": "12; 1"
+  },
+  {
+   "von": "medacta.quadra_p",
+   "zu": "medacta.kopf.mectacer_biolox_delta",
+   "status": "offen",
+   "bedingung": "Nicht in 99.99.COM rev. 12. OP-Technik listet Femurköpfe im Implantatverzeichnis (S. 12), ohne Kombinationstabelle/Konusangabe – aktuelle COM bzw. Medacta fragen.",
+   "quelle": "q_quadra_p; q_com",
+   "seite": "12; 1"
+  },
+  {
+   "von": "medacta.quadra_p",
+   "zu": "medacta.kopf.mectacer_biolox_option",
+   "status": "offen",
+   "bedingung": "Nicht in 99.99.COM rev. 12. OP-Technik listet Femurköpfe im Implantatverzeichnis (S. 12), ohne Kombinationstabelle/Konusangabe – aktuelle COM bzw. Medacta fragen.",
+   "quelle": "q_quadra_p; q_com",
+   "seite": "12; 1"
+  },
+  {
+   "von": "medacta.quadra_p",
+   "zu": "medacta.endokopf",
+   "status": "offen",
+   "bedingung": "Nicht in 99.99.COM rev. 12; Konus des Schafts nicht belegt – Endo-Aussage „12/14“ daher nicht anwendbar.",
+   "quelle": "q_com; q_endo",
+   "seite": "1; PDF 2"
+  },
+  {
+   "von": "medacta.quadra_p_collared",
+   "zu": "medacta.kopf.edelstahl",
+   "status": "offen",
+   "bedingung": "Nicht in 99.99.COM rev. 12. OP-Technik listet Femurköpfe im Implantatverzeichnis (S. 12), ohne Kombinationstabelle/Konusangabe – aktuelle COM bzw. Medacta fragen.",
+   "quelle": "q_quadra_p; q_com",
+   "seite": "12; 1"
+  },
+  {
+   "von": "medacta.quadra_p_collared",
+   "zu": "medacta.kopf.cocr",
+   "status": "offen",
+   "bedingung": "Nicht in 99.99.COM rev. 12. OP-Technik listet Femurköpfe im Implantatverzeichnis (S. 12), ohne Kombinationstabelle/Konusangabe – aktuelle COM bzw. Medacta fragen.",
+   "quelle": "q_quadra_p; q_com",
+   "seite": "12; 1"
+  },
+  {
+   "von": "medacta.quadra_p_collared",
+   "zu": "medacta.kopf.ceramtec_biolox_delta",
+   "status": "offen",
+   "bedingung": "Nicht in 99.99.COM rev. 12. OP-Technik listet Femurköpfe im Implantatverzeichnis (S. 12), ohne Kombinationstabelle/Konusangabe – aktuelle COM bzw. Medacta fragen.",
+   "quelle": "q_quadra_p; q_com",
+   "seite": "12; 1"
+  },
+  {
+   "von": "medacta.quadra_p_collared",
+   "zu": "medacta.kopf.ceramtec_biolox_option",
+   "status": "offen",
+   "bedingung": "Nicht in 99.99.COM rev. 12. OP-Technik listet Femurköpfe im Implantatverzeichnis (S. 12), ohne Kombinationstabelle/Konusangabe – aktuelle COM bzw. Medacta fragen.",
+   "quelle": "q_quadra_p; q_com",
+   "seite": "12; 1"
+  },
+  {
+   "von": "medacta.quadra_p_collared",
+   "zu": "medacta.kopf.mectacer_biolox_delta",
+   "status": "offen",
+   "bedingung": "Nicht in 99.99.COM rev. 12. OP-Technik listet Femurköpfe im Implantatverzeichnis (S. 12), ohne Kombinationstabelle/Konusangabe – aktuelle COM bzw. Medacta fragen.",
+   "quelle": "q_quadra_p; q_com",
+   "seite": "12; 1"
+  },
+  {
+   "von": "medacta.quadra_p_collared",
+   "zu": "medacta.kopf.mectacer_biolox_option",
+   "status": "offen",
+   "bedingung": "Nicht in 99.99.COM rev. 12. OP-Technik listet Femurköpfe im Implantatverzeichnis (S. 12), ohne Kombinationstabelle/Konusangabe – aktuelle COM bzw. Medacta fragen.",
+   "quelle": "q_quadra_p; q_com",
+   "seite": "12; 1"
+  },
+  {
+   "von": "medacta.quadra_p_collared",
+   "zu": "medacta.endokopf",
+   "status": "offen",
+   "bedingung": "Nicht in 99.99.COM rev. 12; Konus des Schafts nicht belegt – Endo-Aussage „12/14“ daher nicht anwendbar.",
+   "quelle": "q_com; q_endo",
+   "seite": "1; PDF 2"
+  },
+  {
+   "von": "medacta.quadra_p_cemented",
+   "zu": "medacta.kopf.edelstahl",
+   "status": "offen",
+   "bedingung": "Nicht in 99.99.COM rev. 12. OP-Technik listet Femurköpfe im Implantatverzeichnis (S. 12), ohne Kombinationstabelle/Konusangabe – aktuelle COM bzw. Medacta fragen.",
+   "quelle": "q_quadra_p; q_com",
+   "seite": "12; 1"
+  },
+  {
+   "von": "medacta.quadra_p_cemented",
+   "zu": "medacta.kopf.cocr",
+   "status": "offen",
+   "bedingung": "Nicht in 99.99.COM rev. 12. OP-Technik listet Femurköpfe im Implantatverzeichnis (S. 12), ohne Kombinationstabelle/Konusangabe – aktuelle COM bzw. Medacta fragen.",
+   "quelle": "q_quadra_p; q_com",
+   "seite": "12; 1"
+  },
+  {
+   "von": "medacta.quadra_p_cemented",
+   "zu": "medacta.kopf.ceramtec_biolox_delta",
+   "status": "offen",
+   "bedingung": "Nicht in 99.99.COM rev. 12. OP-Technik listet Femurköpfe im Implantatverzeichnis (S. 12), ohne Kombinationstabelle/Konusangabe – aktuelle COM bzw. Medacta fragen.",
+   "quelle": "q_quadra_p; q_com",
+   "seite": "12; 1"
+  },
+  {
+   "von": "medacta.quadra_p_cemented",
+   "zu": "medacta.kopf.ceramtec_biolox_option",
+   "status": "offen",
+   "bedingung": "Nicht in 99.99.COM rev. 12. OP-Technik listet Femurköpfe im Implantatverzeichnis (S. 12), ohne Kombinationstabelle/Konusangabe – aktuelle COM bzw. Medacta fragen.",
+   "quelle": "q_quadra_p; q_com",
+   "seite": "12; 1"
+  },
+  {
+   "von": "medacta.quadra_p_cemented",
+   "zu": "medacta.kopf.mectacer_biolox_delta",
+   "status": "offen",
+   "bedingung": "Nicht in 99.99.COM rev. 12. OP-Technik listet Femurköpfe im Implantatverzeichnis (S. 12), ohne Kombinationstabelle/Konusangabe – aktuelle COM bzw. Medacta fragen.",
+   "quelle": "q_quadra_p; q_com",
+   "seite": "12; 1"
+  },
+  {
+   "von": "medacta.quadra_p_cemented",
+   "zu": "medacta.kopf.mectacer_biolox_option",
+   "status": "offen",
+   "bedingung": "Nicht in 99.99.COM rev. 12. OP-Technik listet Femurköpfe im Implantatverzeichnis (S. 12), ohne Kombinationstabelle/Konusangabe – aktuelle COM bzw. Medacta fragen.",
+   "quelle": "q_quadra_p; q_com",
+   "seite": "12; 1"
+  },
+  {
+   "von": "medacta.quadra_p_cemented",
+   "zu": "medacta.endokopf",
+   "status": "offen",
+   "bedingung": "Nicht in 99.99.COM rev. 12; Konus des Schafts nicht belegt – Endo-Aussage „12/14“ daher nicht anwendbar.",
+   "quelle": "q_com; q_endo",
+   "seite": "1; PDF 2"
+  },
+  {
+   "von": "medacta.amistem_p",
+   "zu": "medacta.kopf.edelstahl",
+   "status": "offen",
+   "bedingung": "Nicht in 99.99.COM rev. 12. OP-Technik listet Femurköpfe im Implantatverzeichnis (S. 14), ohne Kombinationstabelle/Konusangabe – aktuelle COM bzw. Medacta fragen. AMIStem-P 00SN: nur Köpfe S/M/L (S. 15).",
+   "quelle": "q_amistem_p; q_com",
+   "seite": "14; 1"
+  },
+  {
+   "von": "medacta.amistem_p",
+   "zu": "medacta.kopf.cocr",
+   "status": "offen",
+   "bedingung": "Nicht in 99.99.COM rev. 12. OP-Technik listet Femurköpfe im Implantatverzeichnis (S. 14), ohne Kombinationstabelle/Konusangabe – aktuelle COM bzw. Medacta fragen. AMIStem-P 00SN: nur Köpfe S/M/L (S. 15).",
+   "quelle": "q_amistem_p; q_com",
+   "seite": "14; 1"
+  },
+  {
+   "von": "medacta.amistem_p",
+   "zu": "medacta.kopf.ceramtec_biolox_delta",
+   "status": "offen",
+   "bedingung": "Nicht in 99.99.COM rev. 12. OP-Technik listet Femurköpfe im Implantatverzeichnis (S. 14), ohne Kombinationstabelle/Konusangabe – aktuelle COM bzw. Medacta fragen. AMIStem-P 00SN: nur Köpfe S/M/L (S. 15).",
+   "quelle": "q_amistem_p; q_com",
+   "seite": "14; 1"
+  },
+  {
+   "von": "medacta.amistem_p",
+   "zu": "medacta.kopf.ceramtec_biolox_option",
+   "status": "offen",
+   "bedingung": "Nicht in 99.99.COM rev. 12. OP-Technik listet Femurköpfe im Implantatverzeichnis (S. 14), ohne Kombinationstabelle/Konusangabe – aktuelle COM bzw. Medacta fragen. AMIStem-P 00SN: nur Köpfe S/M/L (S. 15).",
+   "quelle": "q_amistem_p; q_com",
+   "seite": "14; 1"
+  },
+  {
+   "von": "medacta.amistem_p",
+   "zu": "medacta.kopf.mectacer_biolox_delta",
+   "status": "offen",
+   "bedingung": "Nicht in 99.99.COM rev. 12. OP-Technik listet Femurköpfe im Implantatverzeichnis (S. 14), ohne Kombinationstabelle/Konusangabe – aktuelle COM bzw. Medacta fragen. AMIStem-P 00SN: nur Köpfe S/M/L (S. 15).",
+   "quelle": "q_amistem_p; q_com",
+   "seite": "14; 1"
+  },
+  {
+   "von": "medacta.amistem_p",
+   "zu": "medacta.kopf.mectacer_biolox_option",
+   "status": "offen",
+   "bedingung": "Nicht in 99.99.COM rev. 12. OP-Technik listet Femurköpfe im Implantatverzeichnis (S. 14), ohne Kombinationstabelle/Konusangabe – aktuelle COM bzw. Medacta fragen. AMIStem-P 00SN: nur Köpfe S/M/L (S. 15).",
+   "quelle": "q_amistem_p; q_com",
+   "seite": "14; 1"
+  },
+  {
+   "von": "medacta.amistem_p",
+   "zu": "medacta.endokopf",
+   "status": "offen",
+   "bedingung": "Nicht in 99.99.COM rev. 12; Konus des Schafts nicht belegt – Endo-Aussage „12/14“ daher nicht anwendbar. AMIStem-P 00SN: nur Köpfe S/M/L (S. 15).",
+   "quelle": "q_com; q_endo",
+   "seite": "1; PDF 2"
+  },
+  {
+   "von": "medacta.amistem_p_collared",
+   "zu": "medacta.kopf.edelstahl",
+   "status": "offen",
+   "bedingung": "Nicht in 99.99.COM rev. 12. OP-Technik listet Femurköpfe im Implantatverzeichnis (S. 14), ohne Kombinationstabelle/Konusangabe – aktuelle COM bzw. Medacta fragen.",
+   "quelle": "q_amistem_p; q_com",
+   "seite": "14; 1"
+  },
+  {
+   "von": "medacta.amistem_p_collared",
+   "zu": "medacta.kopf.cocr",
+   "status": "offen",
+   "bedingung": "Nicht in 99.99.COM rev. 12. OP-Technik listet Femurköpfe im Implantatverzeichnis (S. 14), ohne Kombinationstabelle/Konusangabe – aktuelle COM bzw. Medacta fragen.",
+   "quelle": "q_amistem_p; q_com",
+   "seite": "14; 1"
+  },
+  {
+   "von": "medacta.amistem_p_collared",
+   "zu": "medacta.kopf.ceramtec_biolox_delta",
+   "status": "offen",
+   "bedingung": "Nicht in 99.99.COM rev. 12. OP-Technik listet Femurköpfe im Implantatverzeichnis (S. 14), ohne Kombinationstabelle/Konusangabe – aktuelle COM bzw. Medacta fragen.",
+   "quelle": "q_amistem_p; q_com",
+   "seite": "14; 1"
+  },
+  {
+   "von": "medacta.amistem_p_collared",
+   "zu": "medacta.kopf.ceramtec_biolox_option",
+   "status": "offen",
+   "bedingung": "Nicht in 99.99.COM rev. 12. OP-Technik listet Femurköpfe im Implantatverzeichnis (S. 14), ohne Kombinationstabelle/Konusangabe – aktuelle COM bzw. Medacta fragen.",
+   "quelle": "q_amistem_p; q_com",
+   "seite": "14; 1"
+  },
+  {
+   "von": "medacta.amistem_p_collared",
+   "zu": "medacta.kopf.mectacer_biolox_delta",
+   "status": "offen",
+   "bedingung": "Nicht in 99.99.COM rev. 12. OP-Technik listet Femurköpfe im Implantatverzeichnis (S. 14), ohne Kombinationstabelle/Konusangabe – aktuelle COM bzw. Medacta fragen.",
+   "quelle": "q_amistem_p; q_com",
+   "seite": "14; 1"
+  },
+  {
+   "von": "medacta.amistem_p_collared",
+   "zu": "medacta.kopf.mectacer_biolox_option",
+   "status": "offen",
+   "bedingung": "Nicht in 99.99.COM rev. 12. OP-Technik listet Femurköpfe im Implantatverzeichnis (S. 14), ohne Kombinationstabelle/Konusangabe – aktuelle COM bzw. Medacta fragen.",
+   "quelle": "q_amistem_p; q_com",
+   "seite": "14; 1"
+  },
+  {
+   "von": "medacta.amistem_p_collared",
+   "zu": "medacta.endokopf",
+   "status": "offen",
+   "bedingung": "Nicht in 99.99.COM rev. 12; Konus des Schafts nicht belegt – Endo-Aussage „12/14“ daher nicht anwendbar.",
+   "quelle": "q_com; q_endo",
+   "seite": "1; PDF 2"
+  },
+  {
+   "von": "medacta.quadra_c",
+   "zu": "medacta.duokopf.bipolar",
+   "status": "offen",
+   "bedingung": "Bipolar-Dokument nennt keine Schäfte; COM rev. 12 nur Kopf × Bipolar. Registerdaten (SIRIS) sind keine Freigabe.",
+   "quelle": "q_bipolar; q_com",
+   "seite": "7; 2"
+  },
+  {
+   "von": "medacta.amistem_c",
+   "zu": "medacta.duokopf.bipolar",
+   "status": "offen",
+   "bedingung": "Bipolar-Dokument nennt keine Schäfte; COM rev. 12 nur Kopf × Bipolar. Registerdaten (SIRIS) sind keine Freigabe.",
+   "quelle": "q_bipolar; q_com",
+   "seite": "7; 2"
+  },
+  {
+   "von": "medacta.quadra_p_cemented",
+   "zu": "medacta.duokopf.bipolar",
+   "status": "offen",
+   "bedingung": "Bipolar-Dokument nennt keine Schäfte; COM rev. 12 nur Kopf × Bipolar. Registerdaten (SIRIS) sind keine Freigabe.",
+   "quelle": "q_bipolar; q_com",
+   "seite": "7; 2"
+  },
+  {
+   "von": "medacta.kopf.edelstahl",
+   "zu": "medacta.duokopf.bipolar",
+   "status": "ja",
+   "bedingung": "COM Spalte „Medacta Bipolar Head“ ✓. Kopf-Ø = Innen-Ø des Bipolarkopfs (22 bzw. 28); Bipolar 22 nur auf spezifische Anfrage.",
+   "quelle": "q_com; q_bipolar",
+   "seite": "2; 7",
+   "tabelle": "T2_com_kopf_liner"
+  },
+  {
+   "von": "medacta.kopf.cocr",
+   "zu": "medacta.duokopf.bipolar",
+   "status": "ja",
+   "bedingung": "COM Spalte „Medacta Bipolar Head“ ✓. Kopf-Ø = Innen-Ø des Bipolarkopfs (22 bzw. 28); Bipolar 22 nur auf spezifische Anfrage.",
+   "quelle": "q_com; q_bipolar",
+   "seite": "2; 7",
+   "tabelle": "T2_com_kopf_liner"
+  },
+  {
+   "von": "medacta.kopf.ceramtec_biolox_delta",
+   "zu": "medacta.duokopf.bipolar",
+   "status": "ja",
+   "bedingung": "COM Spalte „Medacta Bipolar Head“ ✓. Kopf-Ø = Innen-Ø des Bipolarkopfs (22 bzw. 28); Bipolar 22 nur auf spezifische Anfrage.",
+   "quelle": "q_com; q_bipolar",
+   "seite": "2; 7",
+   "tabelle": "T2_com_kopf_liner"
+  },
+  {
+   "von": "medacta.kopf.ceramtec_biolox_option",
+   "zu": "medacta.duokopf.bipolar",
+   "status": "ja",
+   "bedingung": "COM Spalte „Medacta Bipolar Head“ ✓. Kopf-Ø = Innen-Ø des Bipolarkopfs (22 bzw. 28); Bipolar 22 nur auf spezifische Anfrage.",
+   "quelle": "q_com; q_bipolar",
+   "seite": "2; 7",
+   "tabelle": "T2_com_kopf_liner"
+  },
+  {
+   "von": "medacta.kopf.mectacer_biolox_delta",
+   "zu": "medacta.duokopf.bipolar",
+   "status": "ja",
+   "bedingung": "COM Spalte „Medacta Bipolar Head“ ✓. Kopf-Ø = Innen-Ø des Bipolarkopfs (22 bzw. 28); Bipolar 22 nur auf spezifische Anfrage.",
+   "quelle": "q_com; q_bipolar",
+   "seite": "2; 7",
+   "tabelle": "T2_com_kopf_liner"
+  },
+  {
+   "von": "medacta.kopf.mectacer_biolox_option",
+   "zu": "medacta.duokopf.bipolar",
+   "status": "ja",
+   "bedingung": "COM Spalte „Medacta Bipolar Head“ ✓. Kopf-Ø = Innen-Ø des Bipolarkopfs (22 bzw. 28); Bipolar 22 nur auf spezifische Anfrage.",
+   "quelle": "q_com; q_bipolar",
+   "seite": "2; 7",
+   "tabelle": "T2_com_kopf_liner"
+  },
+  {
+   "von": "medacta.endokopf",
+   "zu": "medacta.duokopf.bipolar",
+   "status": "nein",
+   "bedingung": "COM: Endo Head × Medacta Bipolar Head = ×.",
+   "quelle": "q_com",
+   "seite": "2",
+   "tabelle": "T2_com_kopf_liner"
+  },
+  {
+   "von": "medacta.kopf.edelstahl",
+   "zu": "medacta.versafitcup_cc_trio.inlay_uhmwpe_flach",
+   "status": "ja",
+   "bedingung": "COM ✓ (beide Konusgruppen). Kopf-Ø muss als Bohrung des Inlaytyps in T6 vorkommen.",
+   "quelle": "q_com; q_cctrio",
+   "seite": "2; 13",
+   "tabelle": "T2_com_kopf_liner"
+  },
+  {
+   "von": "medacta.kopf.edelstahl",
+   "zu": "medacta.versafitcup_cc_trio.inlay_uhmwpe_ueberhoeht",
+   "status": "ja",
+   "bedingung": "COM ✓ (beide Konusgruppen). Kopf-Ø muss als Bohrung des Inlaytyps in T6 vorkommen.",
+   "quelle": "q_com; q_cctrio",
+   "seite": "2; 13",
+   "tabelle": "T2_com_kopf_liner"
+  },
+  {
+   "von": "medacta.kopf.edelstahl",
+   "zu": "medacta.versafitcup_cc_trio.inlay_hc_flach",
+   "status": "ja",
+   "bedingung": "COM ✓ (beide Konusgruppen). Kopf-Ø muss als Bohrung des Inlaytyps in T6 vorkommen.",
+   "quelle": "q_com; q_cctrio",
+   "seite": "2; 13",
+   "tabelle": "T2_com_kopf_liner"
+  },
+  {
+   "von": "medacta.kopf.edelstahl",
+   "zu": "medacta.versafitcup_cc_trio.inlay_hc_ueberhoeht",
+   "status": "ja",
+   "bedingung": "COM ✓ (beide Konusgruppen). Kopf-Ø muss als Bohrung des Inlaytyps in T6 vorkommen.",
+   "quelle": "q_com; q_cctrio",
+   "seite": "2; 13",
+   "tabelle": "T2_com_kopf_liner"
+  },
+  {
+   "von": "medacta.kopf.edelstahl",
+   "zu": "medacta.versafitcup_cc_trio.inlay_keramik",
+   "status": "nein",
+   "bedingung": "COM: Metallkopf × Mectacer/Ceramtec BIOLOX delta Liner = ×; IFU: Keramik-Inlays stets mit Keramikkopf.",
+   "quelle": "q_com; q_ifu",
+   "seite": "2; DE 27",
+   "tabelle": "T2_com_kopf_liner"
+  },
+  {
+   "von": "medacta.kopf.cocr",
+   "zu": "medacta.versafitcup_cc_trio.inlay_uhmwpe_flach",
+   "status": "ja",
+   "bedingung": "COM ✓ (beide Konusgruppen). Kopf-Ø muss als Bohrung des Inlaytyps in T6 vorkommen.",
+   "quelle": "q_com; q_cctrio",
+   "seite": "2; 13",
+   "tabelle": "T2_com_kopf_liner"
+  },
+  {
+   "von": "medacta.kopf.cocr",
+   "zu": "medacta.versafitcup_cc_trio.inlay_uhmwpe_ueberhoeht",
+   "status": "ja",
+   "bedingung": "COM ✓ (beide Konusgruppen). Kopf-Ø muss als Bohrung des Inlaytyps in T6 vorkommen.",
+   "quelle": "q_com; q_cctrio",
+   "seite": "2; 13",
+   "tabelle": "T2_com_kopf_liner"
+  },
+  {
+   "von": "medacta.kopf.cocr",
+   "zu": "medacta.versafitcup_cc_trio.inlay_hc_flach",
+   "status": "ja",
+   "bedingung": "COM ✓ (beide Konusgruppen). Kopf-Ø muss als Bohrung des Inlaytyps in T6 vorkommen.",
+   "quelle": "q_com; q_cctrio",
+   "seite": "2; 13",
+   "tabelle": "T2_com_kopf_liner"
+  },
+  {
+   "von": "medacta.kopf.cocr",
+   "zu": "medacta.versafitcup_cc_trio.inlay_hc_ueberhoeht",
+   "status": "ja",
+   "bedingung": "COM ✓ (beide Konusgruppen). Kopf-Ø muss als Bohrung des Inlaytyps in T6 vorkommen.",
+   "quelle": "q_com; q_cctrio",
+   "seite": "2; 13",
+   "tabelle": "T2_com_kopf_liner"
+  },
+  {
+   "von": "medacta.kopf.cocr",
+   "zu": "medacta.versafitcup_cc_trio.inlay_keramik",
+   "status": "nein",
+   "bedingung": "COM: Metallkopf × Mectacer/Ceramtec BIOLOX delta Liner = ×; IFU: Keramik-Inlays stets mit Keramikkopf.",
+   "quelle": "q_com; q_ifu",
+   "seite": "2; DE 27",
+   "tabelle": "T2_com_kopf_liner"
+  },
+  {
+   "von": "medacta.kopf.ceramtec_biolox_delta",
+   "zu": "medacta.versafitcup_cc_trio.inlay_uhmwpe_flach",
+   "status": "ja",
+   "bedingung": "COM ✓. Kopf-Ø muss als Bohrung des Inlaytyps in T6 vorkommen.",
+   "quelle": "q_com; q_cctrio",
+   "seite": "2; 13",
+   "tabelle": "T2_com_kopf_liner"
+  },
+  {
+   "von": "medacta.kopf.ceramtec_biolox_delta",
+   "zu": "medacta.versafitcup_cc_trio.inlay_uhmwpe_ueberhoeht",
+   "status": "ja",
+   "bedingung": "COM ✓. Kopf-Ø muss als Bohrung des Inlaytyps in T6 vorkommen.",
+   "quelle": "q_com; q_cctrio",
+   "seite": "2; 13",
+   "tabelle": "T2_com_kopf_liner"
+  },
+  {
+   "von": "medacta.kopf.ceramtec_biolox_delta",
+   "zu": "medacta.versafitcup_cc_trio.inlay_hc_flach",
+   "status": "ja",
+   "bedingung": "COM ✓. Kopf-Ø muss als Bohrung des Inlaytyps in T6 vorkommen.",
+   "quelle": "q_com; q_cctrio",
+   "seite": "2; 13",
+   "tabelle": "T2_com_kopf_liner"
+  },
+  {
+   "von": "medacta.kopf.ceramtec_biolox_delta",
+   "zu": "medacta.versafitcup_cc_trio.inlay_hc_ueberhoeht",
+   "status": "ja",
+   "bedingung": "COM ✓. Kopf-Ø muss als Bohrung des Inlaytyps in T6 vorkommen.",
+   "quelle": "q_com; q_cctrio",
+   "seite": "2; 13",
+   "tabelle": "T2_com_kopf_liner"
+  },
+  {
+   "von": "medacta.kopf.ceramtec_biolox_delta",
+   "zu": "medacta.versafitcup_cc_trio.inlay_keramik",
+   "status": "ja",
+   "bedingung": "COM ✓. Kopf-Ø muss als Bohrung des Inlaytyps in T6 vorkommen. Keramik-Inlay-REF 01.29.4xx: Mectacer/CeramTec-Zuordnung nicht angegeben – beide COM-Spalten ✓. Abgeraten bei Inklination > 45°.",
+   "quelle": "q_com; q_cctrio",
+   "seite": "2; 13",
+   "tabelle": "T2_com_kopf_liner"
+  },
+  {
+   "von": "medacta.kopf.ceramtec_biolox_option",
+   "zu": "medacta.versafitcup_cc_trio.inlay_uhmwpe_flach",
+   "status": "ja",
+   "bedingung": "COM ✓. Kopf-Ø muss als Bohrung des Inlaytyps in T6 vorkommen.",
+   "quelle": "q_com; q_cctrio",
+   "seite": "2; 13",
+   "tabelle": "T2_com_kopf_liner"
+  },
+  {
+   "von": "medacta.kopf.ceramtec_biolox_option",
+   "zu": "medacta.versafitcup_cc_trio.inlay_uhmwpe_ueberhoeht",
+   "status": "ja",
+   "bedingung": "COM ✓. Kopf-Ø muss als Bohrung des Inlaytyps in T6 vorkommen.",
+   "quelle": "q_com; q_cctrio",
+   "seite": "2; 13",
+   "tabelle": "T2_com_kopf_liner"
+  },
+  {
+   "von": "medacta.kopf.ceramtec_biolox_option",
+   "zu": "medacta.versafitcup_cc_trio.inlay_hc_flach",
+   "status": "ja",
+   "bedingung": "COM ✓. Kopf-Ø muss als Bohrung des Inlaytyps in T6 vorkommen.",
+   "quelle": "q_com; q_cctrio",
+   "seite": "2; 13",
+   "tabelle": "T2_com_kopf_liner"
+  },
+  {
+   "von": "medacta.kopf.ceramtec_biolox_option",
+   "zu": "medacta.versafitcup_cc_trio.inlay_hc_ueberhoeht",
+   "status": "ja",
+   "bedingung": "COM ✓. Kopf-Ø muss als Bohrung des Inlaytyps in T6 vorkommen.",
+   "quelle": "q_com; q_cctrio",
+   "seite": "2; 13",
+   "tabelle": "T2_com_kopf_liner"
+  },
+  {
+   "von": "medacta.kopf.ceramtec_biolox_option",
+   "zu": "medacta.versafitcup_cc_trio.inlay_keramik",
+   "status": "ja",
+   "bedingung": "COM ✓. Kopf-Ø muss als Bohrung des Inlaytyps in T6 vorkommen. Keramik-Inlay-REF 01.29.4xx: Mectacer/CeramTec-Zuordnung nicht angegeben – beide COM-Spalten ✓. Abgeraten bei Inklination > 45°.",
+   "quelle": "q_com; q_cctrio",
+   "seite": "2; 13",
+   "tabelle": "T2_com_kopf_liner"
+  },
+  {
+   "von": "medacta.kopf.mectacer_biolox_delta",
+   "zu": "medacta.versafitcup_cc_trio.inlay_uhmwpe_flach",
+   "status": "ja",
+   "bedingung": "COM ✓. Kopf-Ø muss als Bohrung des Inlaytyps in T6 vorkommen.",
+   "quelle": "q_com; q_cctrio",
+   "seite": "2; 13",
+   "tabelle": "T2_com_kopf_liner"
+  },
+  {
+   "von": "medacta.kopf.mectacer_biolox_delta",
+   "zu": "medacta.versafitcup_cc_trio.inlay_uhmwpe_ueberhoeht",
+   "status": "ja",
+   "bedingung": "COM ✓. Kopf-Ø muss als Bohrung des Inlaytyps in T6 vorkommen.",
+   "quelle": "q_com; q_cctrio",
+   "seite": "2; 13",
+   "tabelle": "T2_com_kopf_liner"
+  },
+  {
+   "von": "medacta.kopf.mectacer_biolox_delta",
+   "zu": "medacta.versafitcup_cc_trio.inlay_hc_flach",
+   "status": "ja",
+   "bedingung": "COM ✓. Kopf-Ø muss als Bohrung des Inlaytyps in T6 vorkommen.",
+   "quelle": "q_com; q_cctrio",
+   "seite": "2; 13",
+   "tabelle": "T2_com_kopf_liner"
+  },
+  {
+   "von": "medacta.kopf.mectacer_biolox_delta",
+   "zu": "medacta.versafitcup_cc_trio.inlay_hc_ueberhoeht",
+   "status": "ja",
+   "bedingung": "COM ✓. Kopf-Ø muss als Bohrung des Inlaytyps in T6 vorkommen.",
+   "quelle": "q_com; q_cctrio",
+   "seite": "2; 13",
+   "tabelle": "T2_com_kopf_liner"
+  },
+  {
+   "von": "medacta.kopf.mectacer_biolox_delta",
+   "zu": "medacta.versafitcup_cc_trio.inlay_keramik",
+   "status": "ja",
+   "bedingung": "COM ✓. Kopf-Ø muss als Bohrung des Inlaytyps in T6 vorkommen. Keramik-Inlay-REF 01.29.4xx: Mectacer/CeramTec-Zuordnung nicht angegeben – beide COM-Spalten ✓. Abgeraten bei Inklination > 45°.",
+   "quelle": "q_com; q_cctrio",
+   "seite": "2; 13",
+   "tabelle": "T2_com_kopf_liner"
+  },
+  {
+   "von": "medacta.kopf.mectacer_biolox_option",
+   "zu": "medacta.versafitcup_cc_trio.inlay_uhmwpe_flach",
+   "status": "ja",
+   "bedingung": "COM ✓. Kopf-Ø muss als Bohrung des Inlaytyps in T6 vorkommen.",
+   "quelle": "q_com; q_cctrio",
+   "seite": "2; 13",
+   "tabelle": "T2_com_kopf_liner"
+  },
+  {
+   "von": "medacta.kopf.mectacer_biolox_option",
+   "zu": "medacta.versafitcup_cc_trio.inlay_uhmwpe_ueberhoeht",
+   "status": "ja",
+   "bedingung": "COM ✓. Kopf-Ø muss als Bohrung des Inlaytyps in T6 vorkommen.",
+   "quelle": "q_com; q_cctrio",
+   "seite": "2; 13",
+   "tabelle": "T2_com_kopf_liner"
+  },
+  {
+   "von": "medacta.kopf.mectacer_biolox_option",
+   "zu": "medacta.versafitcup_cc_trio.inlay_hc_flach",
+   "status": "ja",
+   "bedingung": "COM ✓. Kopf-Ø muss als Bohrung des Inlaytyps in T6 vorkommen.",
+   "quelle": "q_com; q_cctrio",
+   "seite": "2; 13",
+   "tabelle": "T2_com_kopf_liner"
+  },
+  {
+   "von": "medacta.kopf.mectacer_biolox_option",
+   "zu": "medacta.versafitcup_cc_trio.inlay_hc_ueberhoeht",
+   "status": "ja",
+   "bedingung": "COM ✓. Kopf-Ø muss als Bohrung des Inlaytyps in T6 vorkommen.",
+   "quelle": "q_com; q_cctrio",
+   "seite": "2; 13",
+   "tabelle": "T2_com_kopf_liner"
+  },
+  {
+   "von": "medacta.kopf.mectacer_biolox_option",
+   "zu": "medacta.versafitcup_cc_trio.inlay_keramik",
+   "status": "ja",
+   "bedingung": "COM ✓. Kopf-Ø muss als Bohrung des Inlaytyps in T6 vorkommen. Keramik-Inlay-REF 01.29.4xx: Mectacer/CeramTec-Zuordnung nicht angegeben – beide COM-Spalten ✓. Abgeraten bei Inklination > 45°.",
+   "quelle": "q_com; q_cctrio",
+   "seite": "2; 13",
+   "tabelle": "T2_com_kopf_liner"
+  },
+  {
+   "von": "medacta.endokopf",
+   "zu": "medacta.versafitcup_cc_trio.inlay_uhmwpe_flach",
+   "status": "nein",
+   "bedingung": "COM: Endo Head × alle Liner = ×.",
+   "quelle": "q_com",
+   "seite": "2",
+   "tabelle": "T2_com_kopf_liner"
+  },
+  {
+   "von": "medacta.endokopf",
+   "zu": "medacta.versafitcup_cc_trio.inlay_uhmwpe_ueberhoeht",
+   "status": "nein",
+   "bedingung": "COM: Endo Head × alle Liner = ×.",
+   "quelle": "q_com",
+   "seite": "2",
+   "tabelle": "T2_com_kopf_liner"
+  },
+  {
+   "von": "medacta.endokopf",
+   "zu": "medacta.versafitcup_cc_trio.inlay_hc_flach",
+   "status": "nein",
+   "bedingung": "COM: Endo Head × alle Liner = ×.",
+   "quelle": "q_com",
+   "seite": "2",
+   "tabelle": "T2_com_kopf_liner"
+  },
+  {
+   "von": "medacta.endokopf",
+   "zu": "medacta.versafitcup_cc_trio.inlay_hc_ueberhoeht",
+   "status": "nein",
+   "bedingung": "COM: Endo Head × alle Liner = ×.",
+   "quelle": "q_com",
+   "seite": "2",
+   "tabelle": "T2_com_kopf_liner"
+  },
+  {
+   "von": "medacta.endokopf",
+   "zu": "medacta.versafitcup_cc_trio.inlay_keramik",
+   "status": "nein",
+   "bedingung": "COM: Endo Head × alle Liner = ×.",
+   "quelle": "q_com",
+   "seite": "2",
+   "tabelle": "T2_com_kopf_liner"
+  },
+  {
+   "von": "medacta.versafitcup_cc_trio",
+   "zu": "medacta.versafitcup_cc_trio.inlay_uhmwpe_flach",
+   "status": "ja",
+   "bedingung": "COM ✓. Gleiche Inlaygröße (Buchstabencode) laut T5; Kopf-Ø laut T6.",
+   "quelle": "q_com; q_cctrio",
+   "seite": "3; 12–13",
+   "tabelle": "T4_com_schale_liner"
+  },
+  {
+   "von": "medacta.versafitcup_cc_trio",
+   "zu": "medacta.versafitcup_cc_trio.inlay_uhmwpe_ueberhoeht",
+   "status": "ja",
+   "bedingung": "COM ✓. Gleiche Inlaygröße (Buchstabencode) laut T5; Kopf-Ø laut T6.",
+   "quelle": "q_com; q_cctrio",
+   "seite": "3; 12–13",
+   "tabelle": "T4_com_schale_liner"
+  },
+  {
+   "von": "medacta.versafitcup_cc_trio",
+   "zu": "medacta.versafitcup_cc_trio.inlay_hc_flach",
+   "status": "ja",
+   "bedingung": "COM ✓. Gleiche Inlaygröße (Buchstabencode) laut T5; Kopf-Ø laut T6.",
+   "quelle": "q_com; q_cctrio",
+   "seite": "3; 12–13",
+   "tabelle": "T4_com_schale_liner"
+  },
+  {
+   "von": "medacta.versafitcup_cc_trio",
+   "zu": "medacta.versafitcup_cc_trio.inlay_hc_ueberhoeht",
+   "status": "ja",
+   "bedingung": "COM ✓. Gleiche Inlaygröße (Buchstabencode) laut T5; Kopf-Ø laut T6.",
+   "quelle": "q_com; q_cctrio",
+   "seite": "3; 12–13",
+   "tabelle": "T4_com_schale_liner"
+  },
+  {
+   "von": "medacta.versafitcup_cc_trio",
+   "zu": "medacta.versafitcup_cc_trio.inlay_keramik",
+   "status": "ja",
+   "bedingung": "COM ✓. Gleiche Inlaygröße (Buchstabencode) laut T5; Kopf-Ø laut T6.",
+   "quelle": "q_com; q_cctrio",
+   "seite": "3; 12–13",
+   "tabelle": "T4_com_schale_liner"
+  },
+  {
+   "von": "medacta.versafitcup_cc_trio_nohole",
+   "zu": "medacta.versafitcup_cc_trio.inlay_uhmwpe_flach",
+   "status": "ja",
+   "bedingung": "COM ✓. Gleiche Inlaygröße (Buchstabencode) laut T5; Kopf-Ø laut T6.",
+   "quelle": "q_com; q_cctrio",
+   "seite": "3; 12–13",
+   "tabelle": "T4_com_schale_liner"
+  },
+  {
+   "von": "medacta.versafitcup_cc_trio_nohole",
+   "zu": "medacta.versafitcup_cc_trio.inlay_uhmwpe_ueberhoeht",
+   "status": "ja",
+   "bedingung": "COM ✓. Gleiche Inlaygröße (Buchstabencode) laut T5; Kopf-Ø laut T6.",
+   "quelle": "q_com; q_cctrio",
+   "seite": "3; 12–13",
+   "tabelle": "T4_com_schale_liner"
+  },
+  {
+   "von": "medacta.versafitcup_cc_trio_nohole",
+   "zu": "medacta.versafitcup_cc_trio.inlay_hc_flach",
+   "status": "ja",
+   "bedingung": "COM ✓. Gleiche Inlaygröße (Buchstabencode) laut T5; Kopf-Ø laut T6.",
+   "quelle": "q_com; q_cctrio",
+   "seite": "3; 12–13",
+   "tabelle": "T4_com_schale_liner"
+  },
+  {
+   "von": "medacta.versafitcup_cc_trio_nohole",
+   "zu": "medacta.versafitcup_cc_trio.inlay_hc_ueberhoeht",
+   "status": "ja",
+   "bedingung": "COM ✓. Gleiche Inlaygröße (Buchstabencode) laut T5; Kopf-Ø laut T6.",
+   "quelle": "q_com; q_cctrio",
+   "seite": "3; 12–13",
+   "tabelle": "T4_com_schale_liner"
+  },
+  {
+   "von": "medacta.versafitcup_cc_trio_nohole",
+   "zu": "medacta.versafitcup_cc_trio.inlay_keramik",
+   "status": "ja",
+   "bedingung": "COM ✓. Gleiche Inlaygröße (Buchstabencode) laut T5; Kopf-Ø laut T6.",
+   "quelle": "q_com; q_cctrio",
+   "seite": "3; 12–13",
+   "tabelle": "T4_com_schale_liner"
+  }
+ ],
  "regeln": [
   {
    "wenn": "alle",
-   "pruefe": "Herstellerdokument",
-   "text": "Für Medacta liegen nur Registerbelege vor – keine Größen, Köpfe oder Kombinationen ohne gelesenes Herstellerdokument. Quadra H/P/C und Amistem P/C nicht zusammenlegen.",
-   "quelle": "Astra 07.10.2026"
+   "pruefe": "familie_getrennt",
+   "text": "Quadra-H, Quadra-C, Quadra-P (inkl. Collared/Cemented), AMIStem-P (inkl. Collared) und AMIStem-C nicht zusammenlegen; QUADRA-P Cemented ist nicht Quadra-C.",
+   "quelle": "q_quadra_p S. 4, 13; OpenAI 4.1"
+  },
+  {
+   "wenn": "schaft == medacta.quadra_c && groesse == '0'",
+   "pruefe": "koerpergewicht_kg <= 65",
+   "text": "Quadra-C Größe 0: begrenzte Verwendung, Körpergewicht höchstens 65 kg (EN „body mass not exceeding 65 kg“; DE-Fassung „Body-Mass-Index“ ist missverständlich).",
+   "quelle": "q_quadra_en S. 10; q_quadra_de S. 10"
+  },
+  {
+   "wenn": "schaft in [amistem_p 00SN, amistem_c 00, amistem_c 00SN, amistem_c STD 0SN]",
+   "pruefe": "kopf.groesse in ['S','M','L']",
+   "text": "AMIStem-P 00SN (01.18.459) sowie AMIStem-C 00 (01.18.149), 00SN (01.18.699) und STD 0SN (01.18.700): „Kombinierbar ausschließlich mit den Köpfen der Größen S, M und L“ – gilt auch für Endo-/Bipolar-Aufbauten; nicht auf andere Größe-0-Varianten ausweiten. LAT 0SN (01.18.710): offen, vorsorglich S/M/L.",
+   "quelle": "q_amistem_p S. 15–16; OpenAI 4.1/4.3"
+  },
+  {
+   "wenn": "schaft",
+   "pruefe": "fussnote III",
+   "text": "AMIStem-P/-C Short Neck 6SN–9SN bzw. 6SN–8SN: „Erhältlich nur auf besondere Nachfrage mit Bestätigung.“",
+   "quelle": "q_amistem_p S. 15–16"
+  },
+  {
+   "wenn": "schaft zementiert",
+   "pruefe": "groesse lieferbar",
+   "text": "Quadra-C: keine Schäfte 9/10. QUADRA-P Cemented: kein 9 (Technik 1 → Schaft 8), kein 00 (bei Raspel 0 nur Technik 2). AMIStem-C: kein 9 (Technik 1 → Schaft 8).",
+   "quelle": "q_quadra_de S. 9; q_quadra_p S. 11; q_amistem_p S. 12–13"
+  },
+  {
+   "wenn": "kopf.groesse in ['XL','XXL'] || (kopf.durchmesser_mm == 22 && kopf.groesse == 'S')",
+   "pruefe": "ROM",
+   "text": "Metallköpfe XL (Ø 28/32) und XXL (Ø 28/32/36) haben einen Kragen – Bewegungsumfang kann reduziert sein. Ø 22 S kann ROM mit nativer Hüftpfanne verringern.",
+   "quelle": "q_quadra_de S. 8–9; q_quadra_p S. 9; q_amistem_p S. 11"
+  },
+  {
+   "wenn": "kopf metall",
+   "pruefe": "kopf.konus == schaft.konus",
+   "text": "Edelstahl-/CoCr-Köpfe: nur 12/14-Ausführung auf Quadra-H/-C, AMIStem-C (COM S. 1: 10/12 = nein). Etikett kann Konusgröße/Einschränkungen angeben – Schaft-Kopf-Passung vor Montage prüfen.",
+   "quelle": "q_com S. 1; q_ifu DE S. 26 / EN S. 5"
+  },
+  {
+   "wenn": "kopf OPTION",
+   "pruefe": "revision",
+   "text": "BIOLOX Option (CeramTec) und Mectacer BIOLOX Option (Kopf + passende Hülse) sind für Revisionsfälle bestimmt.",
+   "quelle": "q_quadra_p S. 12; q_amistem_p S. 14"
+  },
+  {
+   "wenn": "inlay",
+   "pruefe": "inlay.code == schale.code && kopf_mm in T6[inlay.code][inlay.typ]",
+   "text": "CC Trio: Inlay nach Buchstabencode der Schale wählen; Innendurchmesser = Kopf-Ø; Kopf-Ø ist je Typ eine Liste konkreter Bohrungen (kein Maximalwert). 36 mm nur Keramik und Highcross flach; kein 36 überhöht.",
+   "quelle": "q_cctrio S. 9, 12–13; OpenAI 4.2"
+  },
+  {
+   "wenn": "inlay keramik",
+   "pruefe": "kopf keramik",
+   "text": "Keramik-Inlays stets mit Keramikkopf; bei Keramik-auf-Keramik zwingend kompatible Keramikköpfe und -Inlays.",
+   "quelle": "q_ifu DE S. 27 / EN S. 6; q_quadra_de S. 10"
+  },
+  {
+   "wenn": "inlay keramik",
+   "pruefe": "inklination <= 45",
+   "text": "Keramik-Inlay nicht empfohlen, wenn die Pfanne zu senkrecht steht (Inklination > 45°).",
+   "quelle": "q_cctrio S. 11"
+  },
+  {
+   "wenn": "schale cc_trio",
+   "pruefe": "liner in [CC UHMWPE, CC HC UHMWPE, BIOLOX delta Liner]",
+   "text": "CC Trio / No-Hole nicht mit Double-Mobility-, Mpact- oder Converter-Linern (COM S. 3 = ×).",
+   "quelle": "q_com S. 3"
+  },
+  {
+   "wenn": "schraube",
+   "pruefe": "schraube passend",
+   "text": "Nur die spezifische Schraube im vorgesehenen Schraubenloch. Spongiosaschraube 01.43.xxxx nur mit Bohrerführung 01.10.10.372; 01.43.0050–0070 nur auf genehmigte Sonderanfrage.",
+   "quelle": "q_ifu DE S. 28; q_cctrio S. 8, 12"
+  },
+  {
+   "wenn": "schaft HA-beschichtet",
+   "pruefe": "kein zement",
+   "text": "Mit HA beschichtete Implantate (Quadra-H, Quadra-P, AMIStem-P inkl. Collared) dürfen nicht mit Zement implantiert werden.",
+   "quelle": "q_ifu DE S. 27 / EN S. 5"
+  },
+  {
+   "wenn": "alle",
+   "pruefe": "nur medacta",
+   "text": "Keine Kombination mit Komponenten anderer Hersteller (außer ausdrücklich in der OP-Technik angegeben). Zulässige Kombinationen stehen in der Operationstechnik.",
+   "quelle": "q_ifu DE S. 27 / EN S. 5"
+  },
+  {
+   "wenn": "kopfwechsel",
+   "pruefe": "metall oder option",
+   "text": "Kopfwechsel auf verbleibendem Schaft: je nach Inlay-Material Metallkopf oder BIOLOX Option-Kopf; nach Bruch einer Keramikkomponente sind Metallköpfe kontraindiziert. Bei Versagen eines Keramikkopfes UHMWPE-Pfanne/-Inlay mit austauschen.",
+   "quelle": "q_ifu DE S. 27, 30 / EN S. 6, 8"
+  },
+  {
+   "wenn": "alle",
+   "pruefe": "einmalig",
+   "text": "Komponenten nie reimplantieren; wiederholte Montage/Demontage modularer Teile vermeiden; Probereposition nur mit (unveränderten) Probeprothesen.",
+   "quelle": "q_ifu DE S. 27 / EN S. 5–6"
+  },
+  {
+   "wenn": "probehals",
+   "pruefe": "raspel ohne erhoehung",
+   "text": "Raspeln mit „Erhöhung“/„Anstieg“ nicht mit QUADRA-P- bzw. AMIStem-P-Probehals koppeln.",
+   "quelle": "q_quadra_p S. 8; q_amistem_p S. 10"
+  },
+  {
+   "wenn": "duokopf bipolar",
+   "pruefe": "innen_mm == kopf.durchmesser_mm",
+   "text": "Bipolar: Innen-Ø 28 (außen 42–60) oder 22 (außen 39–52, nur auf spezifische Anfrage); nicht jede Größe für beide Innen-Ø. Schaftfreigabe nicht dokumentiert.",
+   "quelle": "q_bipolar S. 5, 7"
+  },
+  {
+   "wenn": "endokopf",
+   "pruefe": "schaft konus 12/14 medacta",
+   "text": "Endo Head (unipolar) nur auf Medacta-Schäften mit 12/14-Konus; kein Liner, kein Bipolar. Außen-Ø 40–56 in 2-mm-Schritten (Sizer 39–56 in 1-mm-Schritten).",
+   "quelle": "q_endo PDF 2; q_com S. 1–2"
+  },
+  {
+   "wenn": "alle",
+   "pruefe": "MRT",
+   "text": "Sicherheit im MR-Umfeld unbekannt (Symbol „MR Unsafe“).",
+   "quelle": "q_ifu DE S. 26, S. 1"
+  },
+  {
+   "wenn": "kombination",
+   "pruefe": "com_status",
+   "text": "99.99.COM zeigt funktionale Kompatibilität, nicht den Zulassungsstatus; Quadra-P/AMIStem-P sind in rev. 12 nicht enthalten → offen.",
+   "quelle": "q_com S. 1"
   }
  ],
  "rueckrufe": [],
  "offen": [
-  "Medacta OP-Techniken/Kataloge (Quadra, Amistem, Versafitcup CC Trio): Größen, Liner, Kopf-Kompatibilität",
-  "Medacta bipolar/endohead: Freigabe mit Amistem-C",
+  "Aktuelle 99.99.COM (nach rev. 12/Okt. 2016) mit Quadra-P, Quadra-P Collared/Cemented, AMIStem-P, AMIStem-P Collared – bis dahin Kopf-/Endo-/Bipolar-Kombinationen für P-Schäfte offen",
+  "Konus Quadra-P/AMIStem-P (in OP-Techniken nicht genannt)",
+  "Edelstahl-/CoCr-Kopf-REF ↔ Konus 10/12 oder 12/14: Zuordnung nicht im Dokument (Etikett)",
+  "AMIStem-C: DE 2022 (00, Short Neck) vs. EN 2014 (ohne 00/SN, andere Raspeltabelle) – Lieferbarkeit bei Medacta bestätigen",
+  "AMIStem-C LAT 0SN (01.18.710): gilt S/M/L-Kopfgrenze? (Marker in Größenspalte; OpenAI nur STD)",
+  "Quadra-P 6SN–10SN Fußnote I verweist auf Instrumente – Bedeutung für Implantatverfügbarkeit",
+  "Bipolar: Nomenklatur S. 7 nur von einem Prüfer gelesen (OpenAI prüfte S. 4–6, 8); freigegebene Schäfte nicht dokumentiert",
+  "Keramik-Inlay 01.29.4xx: Hersteller/Material (Mectacer vs. CeramTec BIOLOX delta) nicht angegeben",
+  "Versafitcup CC Trio Schalenmaterial/Beschichtung nicht genannt",
+  "CCD-Winkel, Offset, Schaftlängen, Kopf-Halslängen in mm: in keinem gelesenen Dokument",
+  "Endo Head 99.18.12 rev.03: kein Ausgabedatum",
+  "Etikett-/Packungsbilder, UDI/GTIN: nicht in Dokumenten; Medacta-Webseite nicht geprüft",
   "BfArM-Meldungen Medacta (10 Jahre)"
  ],
- "verified_hinweis": "Lauf 001-implantate-dach: Werte von Grok und Astra am Original gelesen (07.10.2026), Änderungsliste von Julian abgenommen. Aufnahme wegen Häufigkeit in DACH (EPRD/SIRIS) – Häufigkeit ist keine Kompatibilitätsfreigabe. Keine EU-IFU gelesen; keine klinische Freigabe.",
+ "verified_hinweis": "Lauf 001-implantate-dach: Werte von Grok und Astra am Original gelesen (07.10.2026), Änderungsliste von Julian abgenommen. Aufnahme wegen Häufigkeit in DACH (EPRD/SIRIS) – Häufigkeit ist keine Kompatibilitätsfreigabe. Keine klinische Freigabe. Lauf 001-implantate-luecken: Größen/REF aus Medacta-OP-Techniken, 99.99.COM rev. 12 und IFU 75.09.017 rev. 26 vom Claude-Helfer am Original gelesen, mit OpenAI-Korrekturen (Familien getrennt, kleine Schäfte, CC-Trio-Bohrungen, P-Schäfte nicht in COM).",
  "region": "hüfte",
  "verified": false,
  "stand_extrakt": "2026-10-07",
@@ -187,7 +5887,10 @@
   "Vor dem Öffnen Komponente, Seite und Größe laut ansagen; Herstellerdokument und aktuelle EU-IFU maßgeblich.",
   "Systeme nicht mischen: nur Komponenten, die der Hersteller ausdrücklich für dieses System vorsieht. Gleicher Konus oder gleiche Keramikmarke ist kein Kombinationsnachweis.",
   "Werte nur aus dem genannten Original mit Seite; nicht dokumentierte Kombinationen bleiben „offen – Operateur fragen“ (ungeprüft ≠ verboten ≠ freigegeben).",
-  "Rückrufe sind chargenspezifisch: Betroffenheit nur über REF/Charge im Original und mit der/dem Medizinprodukte-Beauftragten klären – keine pauschale Sperre oder Freigabe."
+  "Rückrufe sind chargenspezifisch: Betroffenheit nur über REF/Charge im Original und mit der/dem Medizinprodukte-Beauftragten klären – keine pauschale Sperre oder Freigabe.",
+  "Medacta-PDFs tragen den Portal-Stempel „Valid on 07 Oct 2026“ – das ist kein Dokumentstand; Stand = „Letztes Update“ im Impressum.",
+  "Registerhäufigkeit (EPRD/SIRIS) ist keine Kombinationsfreigabe; Freigaben nur aus 99.99.COM und OP-Technik.",
+  "AMIStem-C: aktuelle DE-Fassung 99.14ASTEMPS.42 (07/2022) und ältere EN 99.14ASTEM.12 (07/2014) weichen ab (Größe 00, Short Neck, Raspeltabelle) – nicht aufgelöst."
  ],
  "aenderungsprotokoll": [
   {
@@ -195,6 +5898,12 @@
    "datum": "2026-10-07",
    "lauf": "001-implantate-dach",
    "text": "Neuanlage nach DACH-Ranking (EPRD 2025, SIRIS 2025); Werte nur soweit von Astra am Original bestätigt, Rest offen."
+  },
+  {
+   "version": "1.1",
+   "datum": "2026-10-07",
+   "lauf": "001-implantate-luecken",
+   "text": "Schäfte Quadra-H/-C, Quadra-P/-P Collared/-P Cemented, AMIStem-P/-P Collared/-C mit allen Größen/REF; Köpfe (Edelstahl, CoCr, CeramTec delta/Option, Mectacer delta/Option); Versafitcup CC Trio + No-Hole, 5 Inlaytypen, Verschluss, Schrauben; Bipolar 28/22; Endo Head; COM rev. 12 als Tabellen T1–T4 + passt_zu (P-Schäfte offen); CC-Trio- und Raspeltabellen; IFU-Warnungen als Regeln; Etikett-Schema-Hinweise."
   }
  ]
 }
