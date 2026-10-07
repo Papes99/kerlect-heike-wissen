@@ -1,6 +1,6 @@
 {
  "stand": "2026-10-07",
- "regeln": "Jede Datei bearbeitet nur ihr Ersteller. Claude: pakete/NNN-basis.json + .md, implantate/*, pruefung/STATUS.json. Grok: pruefung/NNN-grok.md. Astra: pruefung/NNN-astra.md. Julian: eingang/*. Dateinamen ohne Versionsnummer.",
+ "regeln": "Jede Datei bearbeitet nur ihr Ersteller. Claude: pakete/NNN-basis.json + .md, pakete/NNN-abschluss.md, implantate/*, pruefung/NNN-perplexity-auftrag.md, pruefung/STATUS.json, README.md. Perplexity: pruefung/NNN-perplexity.md. Grok: pruefung/NNN-grok.md. Astra: pruefung/NNN-astra.md. Julian: eingang/*. Dateinamen ohne Versionsnummer.",
  "ablauf": "Pro Paket EIN Lauf: 1 Claude schreibt NNN-basis („Zur Prüfung“) → 2 Grok prüft EINMAL → 3 Astra prüft EINMAL (liest alles, ändert nichts, bestätigt Grok-Punkte + eigene) → 4 Claude liest alle drei, denkt kritisch mit, Änderungsliste an Julian → 5 Julian ok → Claude baut ein. Grok und Astra arbeiten je einmal pro Lauf, Claude zweimal (Schritt 1 und 4/5). Keine zweite Prüfrunde. Nach dem Einbau: NNN-basis.json + .md werden zu EINER Datei pakete/NNN-abschluss.md (oben lesbar, unten JSON-Block); basis-Dateien entfernt. Neuer Lauf (nach „NNN los“) startet wieder mit NNN-basis aus der Abschlussdatei.",
  "pakete": {
   "000": {
@@ -34,5 +34,6 @@
  "zuordnung": "000 = allgemeines OP-Wissen (gilt für jeden Eingriff). Eingriffspakete (001 …) enthalten NUR Eingriffsspezifisches. Allgemeines aus Eingriffspaketen: ist es schon in 000 → im Eingriffspaket streichen; fehlt es in 000 → über die Kette (000-basis „Zur Prüfung“ → Grok → Astra → Julian) nach 000 verschieben, dann im Eingriffspaket streichen. Eingriffsspezifisches nie in 000.",
  "vorgemerkt": [
   "In der 001-Runde (nach „001 los“): Allgemeines aus 001 nach 000 übernehmen, Doppelungen in 001 streichen."
- ]
+ ],
+ "perplexity": "Nur wenn Claude Implantat-Quellen braucht: Claude legt beim Laufstart pruefung/NNN-perplexity-auftrag.md an (welche Systeme/Dokumente). Perplexity sucht offizielle Herstellerdokumente und legt pruefung/NNN-perplexity.md an (nur Quellenliste: Titel, Nr./Revision, Stand, Markt, PDF-Link, Seite – keine Werte). Grok und Astra lesen die Quellenliste mit und prüfen die Werte am Original. Claude wertet in Arbeit 2 alles aus."
 }
