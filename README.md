@@ -32,6 +32,7 @@ Siehe [PRUEFAUFTRAG.md](PRUEFAUFTRAG.md). Status: [pruefung/STATUS.json](pruefun
 
 ## Regeln (Kurz)
 
+- **Rückfragen an Julian:** immer mit möglichst vielen Beispiel-Systemen/Produkten je Hersteller zur Auswahl (Schäfte, Pfannen, Inlays, Köpfe, Duoköpfe), damit er sie beim Lesen wiedererkennt.
 - **Systeme nicht mischen:** Jede Implantat-Komponente nur mit dem, was der Hersteller im Dokument ausdrücklich dafür vorsieht – keine eigenen Kombinationen.
 - **Zuordnung:** 000 = allgemeines OP-Wissen für jeden Eingriff. Eingriffspakete (001 …) enthalten nur Eingriffsspezifisches. Allgemeines wandert nach 000 und wird im Eingriffspaket gestrichen.
 
