@@ -129,7 +129,15 @@
    "name": "002-knie-tep",
    "typ": "eingriff",
    "basis": "000",
-   "runde": "wartet – Start auf „002 los“"
+   "runde": "perplexity",
+   "lauf_start": "2026-10-07T21:00Z",
+   "perplexity_auftrag": "pakete/002-perplexity-auftrag.md",
+   "dateien": {
+    "perplexity": "pruefung/002-perplexity.md",
+    "grok": "pruefung/002-grok.md",
+    "openai": "pruefung/002-openai.md"
+   },
+   "hinweis": "Implantat-Anteil Knie: Systeme nach DACH-Häufigkeit (EPRD/SIRIS), eigene Dateien implantate/<hersteller>-<system>-knie.json"
   }
  },
  "eingang_verarbeitet": [
