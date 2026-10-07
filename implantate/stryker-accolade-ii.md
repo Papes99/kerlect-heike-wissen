@@ -1,34 +1,47 @@
-# Stryker – Accolade II (zementfrei) + V40-Köpfe + Trident II + UHR
+# Stryker – Accolade II (zementfrei) + Trident II Tritanium + X3 + V40-Köpfe
 
-_Stand 07.10.2026 · **verified: false** – Teilprüfung: Einzelbefunde siehe eingang/2026-10-07-implantate-vstand-2026-10-07-astra.md; Markt-/EU-Anwendbarkeit teilweise offen. · REF/GTIN offen_
+_Stand 2026-10-07 · **verified: false** – Teilprüfung (Lauf 001: Grok + Astra am Original, 07.10.2026). Markt-/EU-Anwendbarkeit, Größen/REF und Komponentenfreigaben teilweise offen. · REF/GTIN offen · Hausangabe Julian 07.10.2026_
 
-## Komponenten
+## Komponenten (im Haus)
 | Typ | Bezeichnung | Angaben | Quelle |
 |---|---|---|---|
 | schaft | Accolade II | konus: V40; fixation: zementfrei (press-fit); ccd_offset: 132° Standard-Offset; 127° High-Offset; indikation_eu: nur Hüft-TEP – in EU/EMEA (CE) und Australien NICHT für Hemiarthroplastik | q1 |
 | kopf | V40 BIOLOX delta Keramikkopf | konus: V40; material: BIOLOX delta; durchmesser_offset_mm: {"28": [-4, -2.7, 0, 4], "32": [-4, 0, 4], "36": [-5, -2.5, 0, 2.5, 5, 7.5]} | q1 |
-| kopf | Universal Taper BIOLOX delta Keramikkopf | konus: Universal Taper – nur mit Universal Taper Sleeve (Familie 6519-T-XX, keine bestellfähige REF; Hülse nach Offset und aktueller IFU wählen); material: BIOLOX delta; durchmesser_mm: [28, 32, 36, 40, 44]; offset_mm: [-2.5, 0, 4] | q1 |
+| kopf | V40 CoCr (LFIT) | konus: V40; material: CoCr; werte: Ø/Offsets laut ACCII-SP-1 S. 12 – noch nicht übernommen | q1 |
 | probekopf | V40 Probeköpfe | konus: V40; durchmesser_mm: [28, 32, 36] | q2 |
-| pfanne | Trident II Tritanium | fixation: zementfrei; bauarten: Solidback / Clusterhole / Multihole; aussen_d_mm: offen; max_kopf_mm: offen; inlay_innen_d_mm: offen | q4 |
-| duokopf | UHR Universal Head (bipolar) – nur Japan-Katalogdaten | markt: Japan (HE01-160 Rev1); EU-Ausführung, Größen und REF offen; aussen_zu_innen_mm: {"36": 22, "38": 22, "40": 22, "41": 26, "42": 26, "43": 26, "44–56 (1-mm-Schritte)": 28, "58": 28, "61": 28}; hinweis: Keine EU-Verfügbarkeit oder Kopf-Schaft-Kompatibilität daraus ableiten.; hemi_sperre_accolade_ii_eu: ja – belegt durch q1 (S. 3/12), nicht durch q3 | q3 |
+| pfanne | Trident II Tritanium | fixation: zementfrei; markt: EU/Canada (TRITRI-SP-3 S. 2); werte: Größen/Inlays/max. Kopf-Ø laut TRITRI-SP-3 Tabelle 1 (S. 4) und Katalog – noch nicht übernommen | q5 |
+| inlay | X3 Polyethylen | material: hochvernetztes PE (X3); werte: Varianten laut TRITRI-SP-3 S. 4/21 – noch nicht übernommen; eu_hinweis: X3 Eccentric 0° laut Tabelle 1 nicht CE-gekennzeichnet | q5 |
 
 ## Regeln
-- Accolade II: nur V40-Köpfe oder Universal-Taper-Köpfe mit Sleeve. (q1)
+- Accolade II: im Haus nur V40-Köpfe (BIOLOX delta, LFIT CoCr). (q1)
 - Offsets je Kopf-Ø unterschiedlich (z. B. +7,5 nur bei 36 mm). (q1)
 - Kein Duokopf/Hemi auf Accolade II in der EU. (q1)
-- Universal-Taper-Hülse zuerst auf den Schaftkonus setzen, danach den Kopf; nicht im Keramikkopf vormontieren. Aktuelle OP-Technik prüfen. (q1 (S. 15, Final reduction, Notes))
+- X3 Eccentric 0° ist laut TRITRI-SP-3 Tabelle 1 nicht CE-gekennzeichnet/nicht im EU-Markt – keine pauschale EU-Freigabe aller X3-Varianten; exakte Variante und aktuelle IFU prüfen. (q5 (S. 4 Tabelle 1/Fußnote))
+
+## Rückrufe / Sicherheitsmeldungen (chargenspezifisch – Bestand mit MPB prüfen)
+| Produkt | Behörde | Kennung | Hinweis | Link |
+|---|---|---|---|---|
+| LFIT V40 / V40 / PCA Vitallium Femurköpfe | BfArM | RA2014-170 (06414/15), 02.10.2015 | bestimmte Chargen; Kopf–Konus-Montage | https://www.bfarm.de/SharedDocs/Kundeninfos/DE/11/2015/06414-15_kundeninfo_de.pdf?__blob=publicationFile |
+| LFIT Anatomic CoCr V40 | BfArM | RA2016-028 (08312/16), 26.09.2016 | bestimmte ältere Größen/Chargen | https://www.bfarm.de/SharedDocs/Kundeninfos/DE/11/2016/08312-16_kundeninfo_de.pdf?__blob=publicationFile |
+| LFIT Anatomic CoCr V40 | BfArM | RA2018-1757583 (06604/18), 12.06.2018 | bestimmte ältere Köpfe; REF in Tabelle und Rückantwort weichen ab – bei Stryker klären | https://www.bfarm.de/SharedDocs/Kundeninfos/DE/11/2018/06604-18_kundeninfo_de.pdf?__blob=publicationFile |
+| BIOLOX delta Ceramic V40 Femurkopf | BfArM | RA2022-2911584 (01953/22), 18.01.2022 | chargenspezifisch, mögliche Packungs-/Inhaltsverwechslung | https://www.bfarm.de/SharedDocs/Kundeninfos/DE/11/2022/01953-22_kundeninfo_de.pdf?__blob=publicationFile |
+
+## Hinweise
+- Vor dem Öffnen Komponente, Seite und Größe laut ansagen; Herstellerdokument und aktuelle EU-IFU maßgeblich.
+- Systeme nicht mischen: nur Komponenten, die der Hersteller ausdrücklich für dieses System vorsieht. Gleicher Konus oder gleiche Keramikmarke ist kein Kombinationsnachweis.
+- Werte (Größen, Offsets, REF) nur aus dem Original mit Seite übernehmen; Fundstellen sind keine Freigabe.
+- Rückrufe sind chargenspezifisch: Betroffenheit nur über REF/Charge im Original und mit der/dem Medizinprodukte-Beauftragten klären – keine pauschale Sperre oder Freigabe.
 
 ## Offen
-- [ ] Accolade II im Haus? (Julian: „glaube II“) – am Etikett bestätigen
-- [ ] Auf welchem Schaft wird der Stryker-Duokopf im Haus verwendet? z. B. Accolade TMZF, Exeter (zementiert)
-- [ ] Größenreihe Accolade II, REF/GTIN
-- [ ] Trident II: Außen-Ø je Größe, Inlays (X3/Keramik), Innen-Ø, max. Kopf-Ø
-- [ ] UHR: EU-Dokument, EU-Größen, Adapterhülse, REF (bisher nur Japan-Katalog)
+- [ ] Accolade II im Haus am Etikett bestätigen (Julian: „glaube II“)
+- [ ] EU-IFU Accolade II; eigenständige EU-IFU V40-Köpfe (BIOLOX delta, LFIT CoCr); Trident X3 IFU QIN 4351
+- [ ] Größenreihe Accolade II, Trident-II-Schalen, X3-Varianten und max. Kopf-Ø je Schale – aus Original mit Seite übernehmen
+- [ ] REF/GTIN
+- [ ] Heutiger Maßnahmenstatus der Rückrufe und Hausbestand
 
 ## Quellen
-- **q1** Accolade II Femoral Hip System Surgical Protocol ACCII-SP-1 · ACCII-SP-1_Rev-4_34423, © 2022 · S. 3/12 (EU-Grenze), 5 (CCD), 12 (Kopfwerte), 15/17 (Hülsen); Dokumentcode S. 25 · https://cdn.stryker.com/SYKGCSDOC-2-45343
-- **q2** Accolade II Tray Layout ACCII-TL-1 · offen · S. offen · https://www.stryker.com/content/dam/stryker/joint-replacement/products/accoladeii/resources/Accolade%20II%20Tray%20Layout_ACCII-TL-1_25643.pdf
-- **q3** UHR Universal Head Bipolar System (Stryker Japan) HE01-160 · HE01-160_Rev1, 03/2022 · S. PDF-S. 2, Katalogtabelle · Markt: Japan · https://www.stryker.com/content/dam/stryker/ja/ja/portfolios/orthopaedics/joint-replacement/HE01-160_Rev1_UHR_BipolarSystem_s.pdf
-- **q4** Produktseite Trident II (DE) · offen · S. - · https://www.stryker.com/de/de/joint-replacement/products/trident-ii.html
+- **q1** Accolade II Femoral Hip System – Surgical protocol · ACCII-SP-1_Rev-4_34423, ©2022 · S. 3/12 EU-Grenze; 5 CCD; 12 Köpfe; 15/17 Hülsen; 25 Kennung · Markt: global, EU-Abschnitte (S. 3) · https://cdn.stryker.com/SYKGCSDOC-2-45343
+- **q2** Accolade II Tray Layout ACCII-TL-1 · offen · S. offen · Markt: offen · https://www.stryker.com/content/dam/stryker/joint-replacement/products/accoladeii/resources/Accolade%20II%20Tray%20Layout_ACCII-TL-1_25643.pdf
+- **q5** Trident II Tritanium Acetabular System – Surgical protocol · TRITRI-SP-3_Rev-6_29553, ©2022 · S. 2 EU/Canada; 4 Tabelle 1/Fußnote; 21 X3-Katalog; 31 Kennung · Markt: EU und Canada · https://az621074-1-cugdarb7eqgsg5g5.a01.azurefd.net/syk-mobile-content-cdn/global-content-system/SYKGCSDOC-2-46747/U2Nvsp-rN0chhVDJe1FHVBhcwuKCRw/TRITRI_SP_3.pdf
 
 Bilder: keine übernommen – Rechte beim Hersteller.

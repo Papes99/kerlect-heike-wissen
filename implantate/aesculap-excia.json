@@ -1,0 +1,239 @@
+{
+ "hersteller": "Aesculap (B. Braun)",
+ "system": "Excia – zementfrei, zementiert, Duokopf",
+ "quellen": [
+  {
+   "id": "e1",
+   "dokument": "AESCULAP Excia T – Hüftendoprothesensystem (Broschüre/OP-Technik)",
+   "stand": "Nr. 4008516, 01/2026",
+   "seiten": "OP-Technik ab gedr. S. 12; Implantatübersicht gedr. S. 18–19 (PDF 10); Kennung PDF 13",
+   "url": "https://www.bbraun.de/content/dam/catalog/bbraun/bbraunProductCatalog/S/AEM2015/de-de/b307/broschuere-exciathueftschaft.pdf",
+   "markt": "DE-Fassung; EU-Gültigkeit nicht separat bestätigt",
+   "gelesen_von": "Grok/Astra 07.10.2026"
+  },
+  {
+   "id": "e2",
+   "dokument": "AESCULAP Plasmafit – Cementless Acetabular Cup System",
+   "stand": "O45502, 0718/1/4",
+   "seiten": "S. 5–7 Plus/Poly; PDF 24 Köpfe/ISODUR F; PDF 34 Kennung",
+   "url": "https://www.bbraun.de/content/dam/catalog/bbraun/bbraunProductCatalog/S/AEM2015/de-de/b307/aesculap-plasmafit.pdf",
+   "markt": "EN auf DE-Seite; EU nicht separat bestätigt",
+   "gelesen_von": "Grok/Astra 07.10.2026"
+  },
+  {
+   "id": "e3",
+   "dokument": "B. Braun Produktkatalog: Bipolar Cup",
+   "stand": "HTML",
+   "seiten": "–",
+   "url": "https://catalogs.bbraun.com/en-01/p/PRID00004418/bipolar-cup",
+   "markt": "offen",
+   "gelesen_von": "Grok/Astra 07.10.2026"
+  },
+  {
+   "id": "e4",
+   "dokument": "B. Braun Produktkatalog: Cemented Polyethylene Cups",
+   "stand": "HTML",
+   "seiten": "–",
+   "url": "https://catalogs.bbraun.com/en-01/p/PRID00002464/cemented-polyethylene-cups",
+   "markt": "offen",
+   "gelesen_von": "Grok/Astra 07.10.2026"
+  }
+ ],
+ "komponenten": [
+  {
+   "typ": "schaft",
+   "bezeichnung": "Excia T zementfrei",
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementfrei",
+    "werte": "laut e1 gedr. S. 18–19 – noch nicht übernommen"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "e1"
+  },
+  {
+   "typ": "schaft",
+   "bezeichnung": "Excia T zementiert",
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementiert",
+    "hinweis": "Hausbezeichnung „Excia zementiert“ = laut Julian Etikett „Excia T zementiert“",
+    "werte": "laut e1 gedr. S. 18–19 – noch nicht übernommen"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "e1"
+  },
+  {
+   "typ": "pfanne",
+   "bezeichnung": "Plasmafit Plus",
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementfrei",
+    "werte": "Liner-Optionen laut e2 S. 5–7 – noch nicht übernommen"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "e2"
+  },
+  {
+   "typ": "pfanne",
+   "bezeichnung": "Plasmafit Poly",
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementfrei",
+    "inlay": "nur PE-Inlays (laut e2 S. 5–7)"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "e2"
+  },
+  {
+   "typ": "pfanne",
+   "bezeichnung": "Aesculap PE-Pfanne zementiert",
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementiert",
+    "name": "genaue Produktbezeichnung offen (Katalog „Cemented Polyethylene Cups“)"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "e4"
+  },
+  {
+   "typ": "inlay",
+   "bezeichnung": "BIOLOX delta Inlay",
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "material": "Keramik",
+    "hinweis": "nicht für Plasmafit Poly"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "e2"
+  },
+  {
+   "typ": "kopf",
+   "bezeichnung": "BIOLOX delta",
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "material": "Keramik",
+    "werte": "offen"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "e1"
+  },
+  {
+   "typ": "kopf",
+   "bezeichnung": "Isodur CoCr",
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "material": "CoCr (ISODUR F laut e2 PDF 24)",
+    "werte": "offen"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "e2"
+  },
+  {
+   "typ": "duokopf",
+   "bezeichnung": "Bipolar Cup",
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "verwendung_im_haus": "mit Excia T zementiert (Hausangabe)",
+    "freigabe": "Herstellerfreigabe Bipolar Cup + Excia T zementiert offen"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "e3"
+  }
+ ],
+ "regeln": [
+  {
+   "wenn": "pfanne+inlay",
+   "pruefe": "Plasmafit Poly → nur PE",
+   "text": "Plasmafit Poly nur als PE-Liner-System führen; Keramikinlay nicht als Poly-Option anbieten. Plasmafit Plus hat andere Lineroptionen; konkrete Paarung nur nach Herstellerfreigabe. Isodur-CoCr-Kopf nicht aus der Hausliste für Keramikinlay freigeben.",
+   "quelle": "e2 (S. 5–7, PDF 24)"
+  },
+  {
+   "wenn": "duokopf+schaft",
+   "pruefe": "Herstellerfreigabe vorhanden",
+   "text": "Bipolar Cup nur mit dem vom Hersteller freigegebenen zementierten Schaft; Freigabe für Excia T zementiert noch nicht belegt.",
+   "quelle": "e3 (Hausangabe Julian; Freigabe offen)"
+  }
+ ],
+ "rueckrufe": [
+  {
+   "produkt": "VITELENE-Einsätze (nicht BIOLOX delta)",
+   "behoerde": "BfArM",
+   "kennung": "FSCA 279 (12190/24), 17.04.2024",
+   "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/DE/11/2024/12190-24_kundeninfo_de.pdf?__blob=publicationFile",
+   "hinweis": "nur relevant, falls Vitelene-Bestand im Haus"
+  }
+ ],
+ "offen": [
+  "EU-IFU/OP-Technik Excia T zementiert",
+  "Name + Dokument der zementierten PE-Pfanne",
+  "Bipolar Cup: EU-IFU und Freigabe mit Excia T zementiert",
+  "Isodur-CoCr-Köpfe: Katalog/IFU",
+  "Größen/REF aller Komponenten aus Original mit Seite",
+  "REF/GTIN"
+ ],
+ "region": "hüfte",
+ "verified": false,
+ "verified_hinweis": "Teilprüfung (Lauf 001: Grok + Astra am Original, 07.10.2026). Markt-/EU-Anwendbarkeit, Größen/REF und Komponentenfreigaben teilweise offen.",
+ "stand_extrakt": "2026-10-07",
+ "hinweise": [
+  "Vor dem Öffnen Komponente, Seite und Größe laut ansagen; Herstellerdokument und aktuelle EU-IFU maßgeblich.",
+  "Systeme nicht mischen: nur Komponenten, die der Hersteller ausdrücklich für dieses System vorsieht. Gleicher Konus oder gleiche Keramikmarke ist kein Kombinationsnachweis.",
+  "Werte (Größen, Offsets, REF) nur aus dem Original mit Seite übernehmen; Fundstellen sind keine Freigabe.",
+  "Rückrufe sind chargenspezifisch: Betroffenheit nur über REF/Charge im Original und mit der/dem Medizinprodukte-Beauftragten klären – keine pauschale Sperre oder Freigabe."
+ ]
+}

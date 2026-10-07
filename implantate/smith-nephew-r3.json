@@ -1,0 +1,284 @@
+{
+ "hersteller": "Smith+Nephew",
+ "system": "R3-System – SL-PLUS MIA, SPECTRON EF, R3, REFLECTION, Duokopf",
+ "quellen": [
+  {
+   "id": "s1",
+   "dokument": "SL-PLUS MIA – Surgical Technique",
+   "stand": "00884-en (1524), V4, 01/15",
+   "seiten": "Kennung PDF 28; Größenseiten offen",
+   "url": "https://smith-nephew.stylelabs.cloud/api/public/content/6eef714e29534cdab814571b84d5d554?v=d8cda33b&download=true",
+   "markt": "EN international; EU nicht bestätigt",
+   "gelesen_von": "Grok/Astra 07.10.2026"
+  },
+  {
+   "id": "s2",
+   "dokument": "Stem and Femoral Ball Head Combinations SL-PLUS / MIA / SLR-PLUS",
+   "stand": "Lit. No. 04758, Ed. 05/23 V11",
+   "seiten": "nur Einzelseite „Page 2/7“; Länder-/Aktualitätsvorbehalt",
+   "url": "https://smith-nephew.stylelabs.cloud/api/public/content/109d0b33697846fc8e9694f4e70ac4ff?v=0758f390",
+   "markt": "länderspezifisch",
+   "gelesen_von": "Grok/Astra 07.10.2026"
+  },
+  {
+   "id": "s3",
+   "dokument": "SPECTRON EF – Surgical Technique",
+   "stand": "21885 V3, 71380478 REVB 03/23, ©2023",
+   "seiten": "gedr. S. 14 (PDF 17) TANDEM Unipolar; gedr. S. 16 (PDF 19) Kompatibilität; PDF 20 Kennung",
+   "url": "https://smith-nephew.stylelabs.cloud/api/public/content/bc33e9a6123b4239b48d4df8c9d84aa9?v=1c492828&download=true",
+   "markt": "EU/US/JP nicht eindeutig",
+   "gelesen_von": "Grok/Astra 07.10.2026"
+  },
+  {
+   "id": "s4",
+   "dokument": "R3 Acetabulum-System – Operationstechnik",
+   "stand": "7138-1560-de REVB 06/12, ©2017",
+   "seiten": "PDF 13 Schale/Inlay; PDF 17–18 XLPE-Katalog; PDF 32 Kennung",
+   "url": "https://smith-nephew-delivery.stylelabs.cloud/api/public/content/1bd7a20b4fdf4a158b95aad5987f2686?v=e321be27&download=true",
+   "markt": "DE; aktuelle EU-IFU nicht bestätigt",
+   "gelesen_von": "Grok/Astra 07.10.2026"
+  }
+ ],
+ "komponenten": [
+  {
+   "typ": "schaft",
+   "bezeichnung": "SL-PLUS MIA",
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementfrei",
+    "werte": "laut s1 – Größenseiten offen"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "s1"
+  },
+  {
+   "typ": "schaft",
+   "bezeichnung": "SPECTRON EF",
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementiert",
+    "werte": "laut s3 – offen"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "s3"
+  },
+  {
+   "typ": "pfanne",
+   "bezeichnung": "R3",
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementfrei",
+    "werte": "Schale/Inlay-Matrix s4 PDF 13 – noch nicht übernommen"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "s4"
+  },
+  {
+   "typ": "pfanne",
+   "bezeichnung": "REFLECTION (zementfrei)",
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementfrei",
+    "dokument": "offen"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": null
+  },
+  {
+   "typ": "pfanne",
+   "bezeichnung": "REFLECTION All-Poly (zementiert)",
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementiert",
+    "dokument": "offen"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": null
+  },
+  {
+   "typ": "pfanne",
+   "bezeichnung": "Müller-PE-Pfanne (S+N)",
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementiert",
+    "dokument": "offen"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": null
+  },
+  {
+   "typ": "inlay",
+   "bezeichnung": "R3 XLPE",
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "material": "hochvernetztes PE",
+    "werte": "s4 PDF 17–18 – noch nicht übernommen"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "s4"
+  },
+  {
+   "typ": "kopf",
+   "bezeichnung": "OXINIUM",
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "werte": "offen; Paarung mit SL-PLUS MIA nur zeilenweise laut s2"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "s2"
+  },
+  {
+   "typ": "kopf",
+   "bezeichnung": "BIOLOX delta",
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "werte": "offen; Paarung zeilenweise laut s2"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "s2"
+  },
+  {
+   "typ": "kopf",
+   "bezeichnung": "CoCr",
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "werte": "offen; Paarung zeilenweise laut s2"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "s2"
+  },
+  {
+   "typ": "duokopf",
+   "bezeichnung": "Bi-Polar Head (S+N)",
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "verwendung_im_haus": "mit SPECTRON EF (Hausangabe)",
+    "freigabe": "offen – SPECTRON-EF-Dokument beschreibt nur TANDEM Unipolar"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": null
+  }
+ ],
+ "regeln": [
+  {
+   "wenn": "kopf+schaft",
+   "pruefe": "Zeile in Matrix 04758",
+   "text": "Kopf-REF/Variante gegen die zutreffende SL-PLUS-MIA-Schaftspalte prüfen; Landesgültigkeit und Aktualität über Hersteller bestätigen; weder Materialname noch 12/14 genügt. Vorliegend nur Seite 2/7.",
+   "quelle": "s2"
+  },
+  {
+   "wenn": "duokopf",
+   "pruefe": "bipolar ≠ unipolar",
+   "text": "TANDEM-Unipolar-Fundstelle (SPECTRON EF S. 14) ist kein Nachweis für den Bi-Polar Head; EU-IFU und Freigabe Bi-Polar Head + SPECTRON EF offen.",
+   "quelle": "s3"
+  }
+ ],
+ "rueckrufe": [
+  {
+   "produkt": "R3 XLPE Acetabular Liner",
+   "behoerde": "BfArM",
+   "kennung": "R-2013-10 (03050/13), 29.05.2013",
+   "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/DE/11/2013/03050-13_kundeninfo_de.pdf?__blob=publicationFile",
+   "hinweis": "zwei Produktlose mit vertauschter Kennzeichnung"
+  },
+  {
+   "produkt": "R3 Acetabular Shells",
+   "behoerde": "BfArM",
+   "kennung": "R-2020-04 (05608/20)",
+   "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/11/2020/05608-20_kundeninfo_en.pdf?__blob=publicationFile",
+   "hinweis": "bestimmte Schalenlose; vollständige Liste beim Hersteller klären"
+  },
+  {
+   "produkt": "R3 0 HOLE Acetabular Shell",
+   "behoerde": "BfArM",
+   "kennung": "R-2023-13 (35762/23), 20.11.2023",
+   "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/DE/11/2023/35762-23_kundeninfo_de.pdf?__blob=publicationFile",
+   "hinweis": "REF 71331854, Charge 23HM03659 (0-Hole beschriftet, 3-Hole enthalten)"
+  }
+ ],
+ "offen": [
+  "EU-IFUs aller Komponenten",
+  "REFLECTION zementfrei/All-Poly und Müller-PE-Pfanne: Dokumente",
+  "Bi-Polar Head: EU-IFU und Freigabe mit SPECTRON EF",
+  "Matrix 04758 vollständig (7 Seiten)",
+  "Größen/REF aus Original mit Seite",
+  "REF/GTIN",
+  "Heutiger Maßnahmenstatus der Rückrufe und Hausbestand"
+ ],
+ "region": "hüfte",
+ "verified": false,
+ "verified_hinweis": "Teilprüfung (Lauf 001: Grok + Astra am Original, 07.10.2026). Markt-/EU-Anwendbarkeit, Größen/REF und Komponentenfreigaben teilweise offen.",
+ "stand_extrakt": "2026-10-07",
+ "hinweise": [
+  "Vor dem Öffnen Komponente, Seite und Größe laut ansagen; Herstellerdokument und aktuelle EU-IFU maßgeblich.",
+  "Systeme nicht mischen: nur Komponenten, die der Hersteller ausdrücklich für dieses System vorsieht. Gleicher Konus oder gleiche Keramikmarke ist kein Kombinationsnachweis.",
+  "Werte (Größen, Offsets, REF) nur aus dem Original mit Seite übernehmen; Fundstellen sind keine Freigabe.",
+  "Rückrufe sind chargenspezifisch: Betroffenheit nur über REF/Charge im Original und mit der/dem Medizinprodukte-Beauftragten klären – keine pauschale Sperre oder Freigabe."
+ ]
+}

@@ -8,9 +8,11 @@ Pro System eine Datei `implantate/<hersteller>-<system>.json` + `.md`. **Nur exa
 | Hersteller · System | Schaft zementfrei | Schaft zementiert | Pfanne zementfrei | Pfanne zementiert | Inlay | Kopf | Duokopf (mit zementiertem Schaft) |
 |---|---|---|---|---|---|---|---|
 | **Stryker** · Accolade – nur zementfrei | Accolade II | – | Trident II Tritanium | – | X3 Polyethylen | V40 BIOLOX delta, V40 CoCr (LFIT) | – |
-| **Aesculap (B. Braun)** · Excia | Excia T | Excia zementiert | Plasmafit Plus, Plasmafit Poly | Aesculap PE-Pfanne zementiert (Name offen) | BIOLOX delta Inlay | BIOLOX delta, Isodur CoCr | Aesculap Bipolarkopf / Duokopf (Name offen) |
+| **Aesculap (B. Braun)** · Excia | Excia T | Excia T zementiert | Plasmafit Plus, Plasmafit Poly | Aesculap PE-Pfanne zementiert (Name offen) | BIOLOX delta Inlay | BIOLOX delta, Isodur CoCr | Bipolar Cup |
 | **Smith+Nephew** · R3 | SL-PLUS MIA | SPECTRON EF | R3, REFLECTION (zementfrei) | REFLECTION All-Poly (zementiert), Müller-PE-Pfanne (S+N) | R3 XLPE | OXINIUM, BIOLOX delta, CoCr | Bi-Polar Head (S+N) |
 | **Enovis (Mathys)** · twinSys | twinSys zementfrei | twinSys zementiert | RM Classic, seleXys PC | ccB-Pfanne | PE-Inlay Standard | ceramys, symarec, CoCr | Mathys Bipolarkopf |
+
+**Dateien:** `stryker-accolade-ii`, `aesculap-excia`, `smith-nephew-r3`, `enovis-twinsys` (je .json + .md).
 
 ## Schema je Datei
 ```json

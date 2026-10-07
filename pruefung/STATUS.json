@@ -6,7 +6,7 @@
   "000": {
    "datei": "pakete/000-abschluss.md",
    "name": "000-grundwissen",
-   "version": "1.4",
+   "version": "1.5",
    "runde": "abgeschlossen",
    "typ": "grundwissen",
    "letzte_runde": {
@@ -17,18 +17,24 @@
    "hinweis": "Wird im Lauf 001 mitgeändert (Teil B1: Allgemeines aus 001)."
   },
   "001": {
-   "datei": "pakete/001-basis.json",
+   "datei": "pakete/001-abschluss.md",
    "name": "001-hueft-tep",
-   "version": "1.2",
-   "runde": "julian",
+   "version": "1.3",
+   "runde": "abgeschlossen",
    "typ": "eingriff",
    "basis": "000",
    "gehoert_dazu": [
     "implantate/stryker-accolade-ii.json",
-    "implantate/smith-nephew-polarstem.json"
+    "implantate/aesculap-excia.json",
+    "implantate/smith-nephew-r3.json",
+    "implantate/enovis-twinsys.json"
    ],
    "lauf_start": "2026-10-07T02:10Z",
-   "quellen_auftrag": "pakete/001-quellen-auftrag.md"
+   "letzte_runde": {
+    "datum": "2026-10-07",
+    "astra_ergebnis": "ÄNDERN",
+    "julian": "eingebaut: alle ✅ + ✏️ 15–17; 20 Excia T zementiert, 21 Bipolar Cup, 22 Bi-Polar Head"
+   }
   }
  },
  "eingang_verarbeitet": [
@@ -51,12 +57,12 @@
   "Aesculap (B. Braun)": {
    "system": "Excia",
    "Schaft zementfrei": "Excia T",
-   "Schaft zementiert": "Excia zementiert",
+   "Schaft zementiert": "Excia T zementiert",
    "Pfanne zementfrei": "Plasmafit Plus, Plasmafit Poly",
    "Pfanne zementiert": "Aesculap PE-Pfanne zementiert (Name offen)",
    "Inlay": "BIOLOX delta Inlay",
    "Kopf": "BIOLOX delta, Isodur CoCr",
-   "Duokopf (mit zementiertem Schaft)": "Aesculap Bipolarkopf / Duokopf (Name offen)"
+   "Duokopf (mit zementiertem Schaft)": "Bipolar Cup"
   },
   "Smith+Nephew": {
    "system": "R3",

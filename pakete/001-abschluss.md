@@ -1,10 +1,287 @@
+# Heike-Wissen 001 – Hüft-TEP (primär)
+
+_Version 1.3 · 2026-10-07 · abgeschlossen (Lauf 001: Grok, Astra, Julian-Abnahme) · baut auf Paket 000 auf · klinisches Review durch Julian offen_
+
+Allgemeines OP-Wissen (Time-out, Zählung, Abdeckung, HF/NE, Zement-Kommunikation, Übergabe …) steht in **Paket 000** und wird hier nicht wiederholt. Implantat-Daten der Haus-Systeme: `implantate/` (Stryker Accolade, Aesculap Excia, Smith+Nephew R3, Enovis twinSys).
+
+**Fixation:** zementfrei · zementiert · Hybrid (= Schaft zementiert, Pfanne zementfrei)  
+**Zugang:** DAA · anterolateral · lateral (Bauer) · posterolateral
+
+Legende: ⚠️ hausabhängig · *(optional)* · 📖 Quelle nachgelesen · _nur …_ = gilt nur in dieser Situation/Variante
+
+## Varianten
+- `zementfrei` – zementfrei
+- `zementiert` – zementiert
+- `hybrid` – Hybrid: Schaft zementiert
+- `daa` – Zugang DAA (anterior)
+- `anterolateral` – Zugang anterolateral
+- `lateral` – Zugang lateral/Bauer
+- `posterolateral` – Zugang posterolateral
+
+## 1. Eckdaten & Sicherheit `facts`
+- **Primäre Hüft-TEP** 📖 AMBOSS
+  - Primärversorgung mit Ersatz von Pfanne und femoraler Gelenkkomponente; Revisionen sind nicht Inhalt dieses Pakets.
+- **Fixation je Komponente klären** ⚠️
+  - Hier bedeutet Hybrid: zementierter Schaft plus zementfreie Pfanne. Zementiert: beide Komponenten; zementfrei: beide ohne Zement. Abweichende Kombinationen ausdrücklich klären; keine Ableitung aus Alter oder Knochenqualität.
+- **Zugang laut OP-Plan** ⚠️
+  - DAA, anterolateral, lateral oder posterolateral bestätigen; keine Zugangswahl durch Heike.
+- **OP-Dauer laut Hausplanung** *(optional)* ⚠️
+  - Zeitbedarf aus lokaler Planung übernehmen; keine allgemeine Zeitgarantie.
+
+## 2. Saal & Geräte `room`
+- **OP-Tisch mit Hüftzubehör** ⚠️
+  - Zugangs- und tischgerechtes Zubehör nach OP-Plan und Herstelleranleitung bereithalten; Details der Polsterung unter position.
+- **DAA: Extensionstisch optional** — _nur daa_ *(optional)* ⚠️
+  - Nur falls für die geplante Technik vorgesehen. DAA erfordert nicht grundsätzlich einen Extensionstisch.
+- **Pulslavage-Gerät** *(optional)* ⚠️
+  - Falls vorgesehen, Gerät und Energieversorgung passend zum Set prüfen; Zementvorbereitung besonders berücksichtigen.
+- **Zementmischer: Anschlüsse prüfen** — _nur zementiert, hybrid_ ⚠️
+  - Bei vorgesehenem Vakuumsystem passende Versorgung sicherstellen; Einmal-Mischset unter supplies, keine doppelte Materialmenge.
+- **Implantatvorrat bereitstellen** ⚠️
+  - Geplantes System mit Größenreserve nach OP-Plan außerhalb des Sterilfelds bereitstellen. Sterilverpackungen bleiben bis zur bestätigten Anforderung geschlossen.
+- **Implantat-Etikettenbogen bereit** ⚠️
+  - Für Etiketten/UDI der verwendeten Komponenten; Hausformular.
+
+## 3. Lagerung `position`
+- **DAA: Rückenlage** — _nur daa_ 📖 AMBOSS
+  - Zugangsbezogene Grundlage; die konkrete Durchführung richtet sich nach Tisch, System und OP-Plan.
+- **Anterolateral: Seite oder Rücken** — _nur anterolateral_ 📖 AMBOSS
+  - Die ausgewählte Lagerungsvariante vor der Vorbereitung bestätigen.
+- **Lateral: Rücken oder Schrägseite** — _nur lateral_ 📖 AMBOSS
+  - Geplante Lagerung bestätigen.
+- **Posterolateral: Seitenlage** — _nur posterolateral_ 📖 AMBOSS
+  - Geplante Seitenlagerung bestätigen.
+- **Beckenstützen zugangsgerecht** ⚠️
+  - Anlageorte und Polster nach Tisch-/Zubehör-IFU und Hausplan; keine pauschale Druckanlage an der Symphyse.
+- **DAA: kontralaterale Abstützung** — _nur daa_ *(optional)* ⚠️
+  - LINK beschreibt dies für seinen DAA-Aufbau. Nur übernehmen, wenn die geplante Technik und das Lagerungssystem dazu passen.
+- **Beinbeweglichkeit vorbereiten** ⚠️
+  - Zugangs- und tischspezifischen Bewegungsraum vorbereiten. Keine pauschale Vierer-Position für DAA; konkrete Manöver legt das OP-Team fest.
+
+## 4. Desinfektion & Abdeckung `draping`
+- **Hüft-/Extremitäten-Abdeckset** ⚠️
+  - Passend zu Zugang und notwendiger Beinbeweglichkeit; konkretes Set laut Haus.
+- **Beinschlauch oder Beinsack** ⚠️
+  - Sterile Extremitätenabdeckung nach Hausset; integrierte Bestandteile nicht nochmals als Material zählen.
+
+## 5. Siebe & Zusatzinstrumente `trays`
+- **Hüft-Grundsieb** ⚠️
+  - Basisinstrumente, Hohmann-Hebel und Retraktoren nach lokaler Siebliste; Bezeichnung mit AEMP abgleichen.
+- **Pfannenfräsen-Sieb** ⚠️
+  - Systemkompatible Fräsen, Probepfannen und Einschläger laut geplanter Primärversorgung.
+- **Schaft- und Probekomponenten-Sieb** ⚠️
+  - Raspeln, Handgriffe und passende Probekomponenten; enthaltene Probeteile nicht als zusätzliches zweites Set buchen.
+- **Zugangsspezifische Zusatzinstrumente** *(optional)* ⚠️
+  - Instrumente passend zu Zugang und Implantatsystem; bei DAA gegebenenfalls spezielle Retraktoren/Handgriffe. Nicht pauschal auf DAA beschränkt.
+- **DAA: LINK-Instrumentenbeispiel** — _nur daa_ *(optional)* 📖 LINK
+  - LINK beschreibt spezielle Retraktoren und Handgriffe für seinen DAA-Zugang; kein universeller Siebstandard.
+- **Steriles Säge-/Antriebsset** ⚠️
+  - Aufbereitung, Funktionsfreigabe und kompatible sterile Komponenten nach Haus und IFU kontrollieren.
+- **Kopfzieher** ⚠️
+  - Passendes Extraktionsinstrument laut OP-Plan bereithalten.
+- **Hüftkopf-Messhilfe optional** *(optional)* ⚠️
+  - Nur falls bei dieser TEP ausdrücklich gewünscht; keine Pflichtmessung aus Hemiendoprothetik ableiten.
+- **Zementierinstrumente** — _nur zementiert, hybrid_ ⚠️
+  - Instrumentarium passend zu geplanter zementierter Komponente und Hersteller; Einmalartikel unter supplies.
+
+## 6. Material `supplies`
+- 1 Stück **Skalpellklinge Nr. 20** (Haut) ⚠️
+  - Hautklinge als Vorschlag; Halterkompatibilität und zusätzliche Reserve lokal bestätigen.
+- 1 Stück **Reserveklinge Nr. 10 oder 22** (eine Alternative wählen) *(optional)* ⚠️
+  - Eine passende Alternative wählen; weder Größenangabe als Menge lesen noch beide automatisch öffnen.
+- 20 Stück **Kompressen 10 × 10 cm** (röntgenkontrastgestreift) ⚠️
+  - Röntgenkontrastfähiges Zählmaterial; Packungsgrößen und tatsächlichen Bedarf lokal bestätigen.
+- 5 Stück **Bauchtücher** (röntgenkontrastgestreift) ⚠️
+  - Röntgenkontrastfähiges Zählmaterial; Vorratsvorschlag.
+- 5 Stück **Stiel-/Präpariertupfer** (zählfähig) *(optional)* ⚠️
+  - Vorratsvorschlag aus C; G nennt 10. Menge und Zählfähigkeit des Hausprodukts bestätigen.
+- 1 Stück **Oszillierendes Sägeblatt** (antriebskompatibel) ⚠️
+  - Antriebskompatibles steriles Blatt.
+- 1 Stück **Ersatz-Sägeblatt steril verpackt** (ungeöffnet bereithalten) *(optional)* ⚠️
+  - Ungeöffnet bereithalten und nur bei Bedarf steril anreichen; kein unsteriles Blatt ans Sterilfeld.
+- 2 Stück **Absaugschläuche** (passend zum Saugsystem) ⚠️
+  - Passend zu den geplanten Saugsystemen; Reserve oder paralleler Betrieb laut Haus.
+- 1 Stück **Yankauer-/chirurgischer Sauger** ⚠️
+  - Spitze passend zum System; Anzahl weiterer Spitzen lokal klären.
+- 1 Stück **Monopolarer HF-Handgriff** — _nur hf_mono_ *(optional)* ⚠️
+  - Nur bei vorgesehener monopolarer Nutzung, mit kompatibler Elektrode.
+- 1 Stück **Neutralelektrode** (Anlage nach IFU) — _nur hf_mono_ *(optional)* ⚠️
+  - Nur wenn die geplante HF-Anwendung sie erfordert; kompatibles Hausprodukt und Anlage nach IFU.
+- 1 Set **Pulslavage-Set** (passend zum Gerät) *(optional)* ⚠️
+  - Passend zum Gerät, wenn vorgesehen; keine generelle Pflichtmenge für alle TEP-Techniken.
+- 3 Liter **NaCl 0,9 % als Spülvorrat** (Spülung, Erwärmung nach Hausverfahren) ⚠️
+  - Bereitstellungsmenge aus den Lieferungen, keine Infusions- oder Patientendosis. Erwärmung nur nach Produktfreigabe und Hausverfahren.
+- 1 Stück **Blasenspritze 50 ml** *(optional)* ⚠️
+  - Optionales Spülzubehör; 50 ml ist die Gerätegröße, keine Dosierung.
+- 1 Stück **Redon-Drainage optional** (Ch 10–12, nur wenn angeordnet) *(optional)* ⚠️
+  - Nur wenn angeordnet; Ch 10–12 ist ein Hausvorschlag aus den Lieferungen, keine Pflichtgröße.
+- 1 Stück **Passendes Drainage-Auffangsystem** (nur mit Drainage) *(optional)* ⚠️
+  - Nur zusammen mit geplanter Drainage; Anschluss und Aktivierung nach IFU.
+- **Knochenzement laut OP-Plan** (Produkt/Anzahl laut Plan) — _nur zementiert, hybrid_ ⚠️
+  - Produkt, Packungsgröße und Anzahl bleiben offen bis System/Komponenten bestätigt sind. G nennt 2 Packungen ohne passende Herstellergrundlage; diese Zahl wird nicht vorbelegt.
+- 1 Set **Zement-Mischset** (Vakuumsystem laut IFU) — _nur zementiert, hybrid_ ⚠️
+  - Bei geplantem Vakuumsystem kompatibles Set gemäß Zement-/System-IFU; keine Mischung oder Verarbeitungszeit aus dem Paket.
+- 1 Set **Zementspritze/Applikator** (passend zum System) — _nur zementiert, hybrid_ ⚠️
+  - Passend zum vorgesehenen Zementiersystem; wenn im Mischset enthalten, kein zweites Set buchen.
+- 1 Stück **Markraumstopper** (Größe laut Operateur/Hersteller) — _nur zementiert, hybrid_ ⚠️
+  - Bei zementiertem Schaft gemäß Systemplan; Größe nach Messung, Operateur und Hersteller, nicht aus einer erfundenen Schaftgröße ableiten.
+- 1 Stück **Hautklammergerät** (Alternative Hautverschluss) *(optional)* ⚠️
+  - Alternative für Hautverschluss nach Operateurplan; keine automatische Addition zu Hautnaht oder Kleber.
+- 1 Stück **Hautkleber** (Alternative Hautverschluss) *(optional)* ⚠️
+  - Alternative nach Produkt- und Operateurplan; nicht automatisch zusätzlich zu anderer Hautverschlussart.
+- 3 Stück **Sterile Schalen** ⚠️
+  - Vorratsvorschlag; wenn im Grundset enthalten, nicht zusätzlich buchen. Inhalte eindeutig kennzeichnen.
+- 1 Stück **Präparatgefäß Femurkopf** (nur bei Einsendung) — _nur praeparat_ *(optional)* ⚠️
+  - Nur bei angeordneter Einsendung; Gefäß und gegebenenfalls Fixans mit Pathologie/Haus-SOP abstimmen.
+
+## 7. Nahtmaterial `sutures`
+- 2 Packungen **Refixation: Ethibond Nr. 2** (Nr. 2 · Nadel offen) — _nur lateral, posterolateral_ *(optional)* ⚠️ · Schicht: Muskel-/Kapselrefixation
+  - Stärke: Nr. 2; Nadel: offen, Hausartikel prüfen. Markenbeispiel, keine Gleichsetzung mit FiberWire; Alternative auswählen.
+- 2 Packungen **Refixation: FiberWire Nr. 2** (Nr. 2 · Nadel offen) — _nur lateral, posterolateral_ *(optional)* ⚠️ · Schicht: Muskel-/Kapselrefixation
+  - Stärke: Nr. 2; Nadel: offen, Hausartikel prüfen. Alternative zu Ethibond, nicht automatisch zusätzlich.
+- 2 Packungen **Faszie: Vicryl 1, CT-1** (1 · CT-1 (Artikel prüfen)) ⚠️ · Schicht: Faszie
+  - Stärke: 1; Nadel: CT-1 als ungeprüftes Hausartikel-Beispiel aus C/G. Exakte Artikelnummer bestätigen. C nennt 2, G 3 Packungen; Reserve lokal klären.
+- 1 Packung **Faszie: Widerhakennaht 1** (1 · Nadel offen) *(optional)* ⚠️ · Schicht: Faszie
+  - Stärke: 1; Nadel: offen. Produktabhängige Alternative zur Fasziennaht; Material/Länge/Anwendung lokal bestätigen.
+- 2 Packungen **Subkutan: Vicryl 2-0** (2-0 · Nadel offen) ⚠️ · Schicht: Subkutan
+  - Stärke: 2-0; Nadel: offen, Hausartikel bestätigen.
+- 1 Packung **Haut: Monocryl 3-0 oder 4-0** (3-0 oder 4-0 · Nadel offen) *(optional)* ⚠️ · Schicht: Haut
+  - Stärke: 3-0 oder 4-0, eine auswählen; Nadel: offen. Intrakutane Alternative, Hausartikel prüfen.
+- 1 Packung **Halte-/Markierungsnaht** (Stärke/Nadel offen) — _nur posterolateral_ *(optional)* ⚠️ · Schicht: Kapsel/Muskelrefixation
+  - Stärke: offen; Nadel: offen; nur falls gesondert angefordert. Überschneidung mit geplanter Refixationsnaht vor zusätzlicher Buchung prüfen.
+
+## 8. Implantate, Zement & Medikamente `implants`
+- **Acetabulum-Pfanne** ⚠️
+  - System und Fixation laut OP-Plan; Größe ausschließlich nach bestätigter Auswahl, keine Standardgröße.
+- **Pfanneninlay bei modularem System** *(optional)* ⚠️
+  - Nur wenn dieses System ein separates Inlay vorsieht; Werkstoff und Kompatibilität bestätigen.
+- **Femurschaft** ⚠️
+  - Fixation, System und bestätigte Größe laut OP-Plan; keine Größenvorschläge.
+- **Femurkopf** ⚠️
+  - Systemkompatibilität, Werkstoff, bestätigte Größe und Halslänge abgleichen; keine Maße erfinden.
+- **Pfannenschrauben nach Plan** — _nur zementfrei, hybrid_ *(optional)* ⚠️
+  - Nur bei vorgesehener Zusatzfixation und passendem Pfannensystem; Anzahl und Länge bleiben offen.
+
+## 9. Ablauf aus Springer-Sicht `workflow`
+- **OP-Plan und Verfügbarkeit abgleichen** ⚠️
+  - Vorbereitung: Seite, Zugang, Fixation je Komponente, Primärsystem, Siebe und bestätigten Größenvorrat abgleichen.
+- **Zubehör je Hüftphase bereithalten** ⚠️
+  - Für Pfannen- und Schaftphase passende Instrumente und Probekomponenten bereithalten; sterile Übergabe nach Teamablauf. Allgemeine Öffnungsregel in 000.
+- **Zementvorbereitung abstimmen** — _nur zementiert, hybrid_ ⚠️
+  - Bei zementiertem Schaft Lavage-/Applikationszubehör und Markraumstopper gemäß Systemplan bereithalten.
+- **Verschlussmaterial abstimmen** ⚠️
+  - Ausgewählte Naht-/Hautverschlussalternative und Verband nach Anforderung bereitstellen; Zählkontrollen gemäß count einplanen.
+- **Implantatgrößen ansagen + wiederholen** ⚠️
+  - Vor dem Öffnen: Komponente, Seite, Größe laut ansagen und vom Operateur bestätigen lassen (Regel aus 000).
+
+## 10. Zählkontrolle & Dokumentation `count`
+- **Implantatstatus gesondert erfassen** ⚠️
+  - Absichtlich implantierte Komponenten einschließlich Markraumstopper dokumentieren; nicht als zurückzuholendes Instrument behandeln.
+- **Zeit- und Bildgebungsdokumentation** — _nur zementiert, hybrid, bildwandler_ *(optional)* ⚠️
+  - Zementereignisse und gegebenenfalls Strahlendokumentation nach Zuständigkeit/Hausvorgabe erfassen.
+- **Markraumstopper mitzählen** (Implantierten/belassenen Markraumstopper in Zähl- und Implantatdokumentation) — _nur zementiert, hybrid_ ⚠️
+  - Beabsichtigt belassenes Material gesondert dokumentieren; Haus-Zählplan maßgeblich.
+- **Stopper und Messhilfe unterscheiden** — _nur zementiert, hybrid_ ⚠️
+  - Implantierter Stopper und temporäre Mess-/Einführteile getrennt führen. Beispiel: Stopper absichtlich im Markraum, Messhilfe wieder außerhalb. Eine dokumentierte Implantation erklärt keinen fehlenden Trial oder Instrumententeil; Haus-Zählplan und Produkt-IFU prüfen.
+
+## 11. Verband & Ausleitung `dressing`
+- **Transfer und Bewegungsvorgaben** ⚠️
+  - Umlagerung mit Team abstimmen. Kissen/Schiene und Bewegungsvorgaben nur nach konkretem Zugang, Operateur- und Hausplan; keine allgemeinen Winkelgrenzen.
+- **Bildkontrolle nach Anordnung** *(optional)* ⚠️
+  - Zeitpunkt und Durchführung laut OP-/Hausplan; keine generelle zusätzliche Aufnahme veranlassen.
+- **Hüftbezogene Übergabe** ⚠️
+  - Zugang, Fixation von Pfanne und Schaft sowie angeordnete Bewegungsvorgaben übergeben. Allgemeine Übergabe (Zählstatus) in 000.
+
+## 12. Typische Fehler & Fallstricke `pitfalls`
+- **Keine unbestätigte Systemmischung** ⚠️
+  - Herstellerkompatibilität prüfen; Primär-, Revisions- und Trial-Komponenten nicht allein wegen ähnlicher Bezeichnung austauschen.
+- **Fixation nicht aus Hybrid erraten** ⚠️
+  - Bei unklarem oder umgekehrtem Hybridplan jede Komponente separat klären; dieses Paket deckt keinen Reverse-Hybrid-Standard ab.
+
+## 13. Fotos `photos`
+- **Foto: Lagerung ohne Patient** *(optional)* ⚠️
+  - Geplanten Aufbau am Modell/leeren Tisch dokumentieren. Nur freigegebene eigene Bilder ohne Personen/Identifikatoren; Platzhalter, kein Bild enthalten.
+- **Foto: Abdeckaufbau am Modell** *(optional)* ⚠️
+  - Zugang und Hausset am Modell darstellen. Nur freigegebene eigene Bilder ohne Personen/Identifikatoren; Platzhalter, kein Bild enthalten.
+- **Foto: Prothesensiebe** *(optional)* ⚠️
+  - Haus-/Systembezeichnung ergänzen, keine Patientendaten. Nur freigegebene eigene Bilder ohne Personen/Identifikatoren; Platzhalter, kein Bild enthalten.
+- **Foto: Zementplatz** — _nur zementiert, hybrid_ *(optional)* ⚠️
+  - Nur bei entsprechendem Fixationsplan und nach Hausregeln. Nur freigegebene eigene Bilder ohne Personen/Identifikatoren; Platzhalter, kein Bild enthalten.
+- **Foto: Verband am Modell** *(optional)* ⚠️
+  - Optionaler Hausaufbau ohne Patient. Nur freigegebene eigene Bilder ohne Personen/Identifikatoren; Platzhalter, kein Bild enthalten.
+
+## Heike darf sagen
+- „Welcher Zugang und welche Fixation? Davon hängen Lagerung, Siebe und Zementmaterial ab.“ 📖 AMBOSS
+- „Hybrid heißt hier: Schaft zementiert – Markraumstopper und Zementplatz trotzdem vorbereiten.“
+- „Zementiert? Anästhesie über jeden Zementierschritt informieren.“ 📖 BCIS
+- „Implantate erst auf Ansage öffnen – Komponente, Seite und Größe laut wiederholen.“
+- „Probeköpfe und Probepfannen gehören in die Zählung, bevor die Faszie zu ist.“
+- „Größenvorrat und Ersatzakkus vor dem Einschleusen prüfen.“
+
+## Abschluss-Check (typische Lücken)
+- Fixation je Komponente und Zugang
+- Passende Siebe, Antriebe und Ersatzakkus
+- Lavage-Zubehör nach Plan
+- Zementierter Schaft auch bei Hybrid: Markraumstopper und Zementvorbereitung
+- Strahlenschutz bei geplanter Bildgebung
+- Nahtnadeln und Artikelnummern je Schicht
+- Teambezogene Kittel-/Handschuhmengen
+- Probekomponenten, Zähldifferenzen und Implantatdokumentation
+
+## Quellen
+- **AMBOSS** – Endoprothetik des Hüftgelenks, AMBOSS GmbH. Zugänge/Lagerung; TEP-Grundprinzip. Stand der Seite: 10.07.2026. Keine Mengen-/Nahtquelle. https://www.amboss.com/de/wissen/endoprothetik-des-huftgelenks
+- **KRINKO** – Prävention postoperativer Wundinfektionen, KRINKO am RKI. 2018, Bundesgesundheitsblatt 61:448–473, gedruckte S. 461 (PDF-S. 14), Abschnitt 4.1 Präoperativ und intraoperativ: Hautantiseptikum-Ansammlungen (Kat. II); flüssigkeitsundurchlässige Abdeckung bei nicht ausschließbarem Durchfeuchten (Kat. IB). https://edoc.rki.de/bitstream/handle/176904/6416/Empf_postopWI.pdf?isAllowed=y&sequence=1
+- **LINK** – Direct Anterior Approach – Operationstechnik (herstellerspezifisch), Waldemar Link GmbH & Co. KG. Ausgabe 2022-06; gedruckte S. 2 und 6, Instrumentenübersicht S. 8–11. Herstellerbeispiel, keine allgemeine Lagerungs-/Siebnorm. https://www.link-ortho.com/fileadmin_atl/user_upload/Global_LINK_Website/Products/PDFs/DE/615_DAA_OP_de_2022-06_003_MAR-01209.pdf
+- **BCIS** – Factsheet Implantationssyndrom / BCIS, Heraeus Medical (PALACADEMY). PDF S. 1: Kommunikation und chirurgische Vorsorge. Kein Beleg für Vakuummischer, Mischzeiten oder Packungszahl. https://www.heraeus-medical.com/dam/jcr:b107fb34-cb46-452f-b5e0-076c7946ee4c/palacademy-factsheet-implantationssyndrom.pdf
+- **HEBU** – Einmal-Neutralelektroden Gebrauchsanweisung GAHF113, HEBU medical GmbH. GAHF113V004 vom 20.02.2026, Abschnitte Anwendung/Anbringen und Warnhinweise: monopolarer Einsatz, Kontaktkontrolle, Brandrisiko. Nur für kompatible Produkte; tatsächliche Haus-IFU prüfen. https://www.hebumedical.de/ga/GAHF113.pdf
+- **STRYKER_ACCII** – Accolade II Femoral Hip System – Surgical protocol, Stryker / Howmedica Osteonics Corp.. ACCII-SP-1_Rev-4_34423, © 2022; S. 3: EU-Indikationen; S. 12: Ausschluss Hemiarthroplastik in EU; Dokumentcode S. 25. https://cdn.stryker.com/SYKGCSDOC-2-45343
+
+## Offen
+- Status: redaktionell geprüftes Zusammenführungspaket, klinischer Entwurf; keine Freigabe durch Julian erfolgt.
+- Keine Quelle belegt die konkreten Vorratsmengen oder die Nahtartikel dieser Lieferungen als allgemeinen Hüft-TEP-Standard.
+- Alle nicht genannten Nadeln/Artikelnummern bleiben offen; keine Ergänzung aus Vermutung.
+- Tatsächlich verwendete Zement-, Implantat-, Antriebs- und Tisch-IFUs liegen nicht vor. Die geprüfte HEBU-Anleitung ersetzt keine fremde Produkt-IFU.
+- Mengen der Ausgangslieferungen unterscheiden sich; Entscheidungen und Ausschlüsse stehen in BEWERTUNG.md.
+- Keine Bilder enthalten; Fotos benötigen separate Hausfreigabe und einen Aufbau ohne Patientendaten.
+- Das C-Schema ist ein Wissensformat, kein nachgewiesener Direktimport für Heike. Es wurde kein App-Import durchgeführt.
+- Implantate: Herstellerunterlagen teilweise gefunden (implantate/*). Aktuelle EU-IFUs, Größen/REF und Komponentenfreigaben überwiegend offen; Mathys/Enovis-Originale nicht lesbar (Umleitung/HCP-Login). Accolade II laut Q_STRYKER_ACCII (S. 3/12) in der EU nicht für Hemi. Systeme nicht mischen.
+
+## Julian bitte prüfen
+- [ ] Eingriffsscope primäre Hüft-TEP bestätigen; keine Revision/Hemiendoprothese.
+- [ ] Fixation von Pfanne und Schaft sowie Zugang bestätigen; Hybridbegriff und Reverse-Hybrid-Abgrenzung prüfen.
+- [ ] Lagerung, Stützen, Tisch/Beinhalter und Bewegungsraum je Hauszugang freigeben.
+- [ ] Hausgeräte/IFUs für HF, NE, Antriebe und Zement-/Mischsystem bestimmen.
+- [ ] Siebnamen, vollständige Systemkompatibilität, AEMP-Prüfung und tatsächliche Bestandsverfügbarkeit bestätigen.
+- [ ] Alle Vorratsmengen prüfen: insbesondere Klingen, 20 Kompressen, 5 Bauchtücher, 5 Tupfer und 3 Liter Spülvorrat.
+- [ ] Handschuhe/Kittel nach tatsächlicher steriler Teamgröße und Wechselreserve berechnen.
+- [ ] Naht je Schicht freigeben: Marke/Material, Stärke, Nadel, Länge und Anzahl. CT-1-Beispiel am konkreten Artikel prüfen; übrige Nadeln offen.
+- [ ] Alternativen bei Refixation, Fasziennaht und Hautverschluss festlegen; optionale Artikel bleiben unselektiert.
+- [ ] Knochenzement: Produkt, Packungsgröße/-anzahl und tatsächlich aktuelle Herstellerunterlagen; keine Dosier-/Mischangaben ergänzen.
+- [ ] Redon ja/nein, Drainagegröße und passendes System; Bildgebung, Pathologie und Verband nach Hausplan.
+- [ ] Zählumfang/-zeitpunkte inklusive Teamwechsel, Trial-Teilen, Teilebruch, Zähldifferenz und implantiertem Markraumstopper mit Haus-SOP abgleichen.
+- [ ] Hygieneplan, Antiseptikum, Folienentscheidung und Flüssigkeitsmanagement prüfen.
+- [ ] Transfer, Bewegungsvorgaben und Übergabeinhalte hausbezogen bestätigen.
+- [ ] Vor späterem App-Einsatz Datenadapter prüfen: Mengen, Stärke, Nadel, Schicht, Variante, Herkunft und Auswahl müssen erhalten bleiben; nur explizit gewählte Inhalte speichern.
+- [ ] Duokopf-Systeme im Haus (Hausangabe Julian 07.10.2026, außerhalb des Primär-TEP-Scope): Aesculap Bipolar Cup mit Excia T zementiert; S+N Bi-Polar Head mit SPECTRON EF; Mathys Bipolarkopf mit twinSys zementiert. Für jedes Teil Etikett-REF und aktuelle EU-IFU bestätigen – die Hausliste ist keine Kombinationsfreigabe. Kein Stryker-Duokopf; Accolade II in der EU nicht für Hemi.
+
+## Änderungen
+- **v1.1** (2026-10-07): pitfalls Alkoholansammlungen: Quelle HEBU → KRINKO (HEBU ergänzend); workflow Anästhesie: über jeden Zementierschritt informieren; heike_hinweise Zement-Satz angepasst; draping: flüssigkeitsundurchlässig Kat. IB; position NE: Haus-IFU maßgeblich; count: neu Markraumstopper mitzählen; offen/julian_pruefen: Accolade-II-Hemi, Mathys offen
+- **v1.2** (2026-10-07): draping Abdeckung: K2 – sobald Durchfeuchten nicht auszuschließen, hausabhaengig false; pitfalls Alkohol: K5a – Q_KRINKO nur Antiseptikum; neu K5b „NE vor Flüssigkeit schützen“ (Q_HEBU); julian_pruefen Duokopf: K8 neutral, Hemi-Grenze genannt; Q_KRINKO: K9 Fundstelle S. 461 Abschnitt 4.1; neu Q_STRYKER_ACCII; offen ohne „laut Grok“; neu workflow P1 „Zementansage rückbestätigen“; count P2 „Stopper und Messhilfe unterscheiden“
+- **v1.3** (2026-10-07): Allgemeines nach 000 v1.5 verschoben und in 001 gestrichen (34 Chips); Übergabe → „Hüftbezogene Übergabe“ (Zugang, Fixation, Bewegungsvorgaben); Steriles Zubehör → „Zubehör je Hüftphase bereithalten“; Duokopf-Rückfrage: Hausangaben Excia T zementiert + Bipolar Cup, SPECTRON EF + Bi-Polar Head, twinSys zementiert + Mathys Bipolarkopf; Implantate: Stryker ohne UHR/Universal Taper, POLARSTEM entfernt, neue Dateien Aesculap Excia, S+N R3, Enovis twinSys; Produktregeln in den Implantat-Dateien
+
+---
+
+## Daten für die App (JSON)
+_Maschinenlesbare Fassung desselben Pakets. Maßgeblich für den Import._
+
+```json
 {
  "paket": "heike-wissen-001",
  "typ": "eingriff",
- "version": "1.2",
+ "version": "1.3",
  "stand": "2026-10-07",
  "basis": "heike-wissen-000",
- "autor": "Claude auf Grundlage Astras Zusammenführung (Grok + Claude); v1.1 nach Grok-, v1.2 nach Astra-Prüfung 07.10.2026; Astra-Prüfung vor Integration offen; klinisches Review durch Julian offen",
+ "autor": "Claude auf Grundlage Astras Zusammenführung (Grok + Claude); klinisches Review durch Julian offen; v1.3 nach Lauf 001 (Grok, Astra, Julian-Abnahme 07.10.2026)",
  "eingriff": "Hüft-TEP (primär)",
  "synonyme": [
   "Hüft-TEP",
@@ -166,20 +443,6 @@
     "hausabhaengig": true,
     "quelle": null,
     "hinweis": "Zeitbedarf aus lokaler Planung übernehmen; keine allgemeine Zeitgarantie."
-   },
-   {
-    "label": "Anästhesieverfahren laut Plan",
-    "menge": null,
-    "einheit": null,
-    "spez": null,
-    "gilt_fuer": [
-     "alle"
-    ],
-    "optional": false,
-    "sicherheit": "hausabhängig",
-    "hausabhaengig": true,
-    "quelle": null,
-    "hinweis": "Verfahren und organisatorische Besonderheiten mit Anästhesie abstimmen; keine Empfehlung für eine Narkoseart."
    }
   ],
   "room": [
@@ -212,34 +475,6 @@
     "hinweis": "Nur falls für die geplante Technik vorgesehen. DAA erfordert nicht grundsätzlich einen Extensionstisch."
    },
    {
-    "label": "HF-Gerät: Betriebsart prüfen",
-    "menge": null,
-    "einheit": null,
-    "spez": null,
-    "gilt_fuer": [
-     "alle"
-    ],
-    "optional": false,
-    "sicherheit": "hausabhängig",
-    "hausabhaengig": true,
-    "quelle": null,
-    "hinweis": "Monopolar/bipolar und kompatibles Zubehör nach Haussystem klären; keine Leistungseinstellungen."
-   },
-   {
-    "label": "Absaugsysteme",
-    "menge": 2,
-    "einheit": "Systeme",
-    "spez": null,
-    "gilt_fuer": [
-     "alle"
-    ],
-    "optional": false,
-    "sicherheit": "hausabhängig",
-    "hausabhaengig": true,
-    "quelle": null,
-    "hinweis": "Anschlüsse und Kanister prüfen; zweites System nach Hausplan als parallele Absaugung oder Reserve."
-   },
-   {
     "label": "Pulslavage-Gerät",
     "menge": null,
     "einheit": null,
@@ -252,48 +487,6 @@
     "hausabhaengig": true,
     "quelle": null,
     "hinweis": "Falls vorgesehen, Gerät und Energieversorgung passend zum Set prüfen; Zementvorbereitung besonders berücksichtigen."
-   },
-   {
-    "label": "Antriebe und Ersatzakkus",
-    "menge": null,
-    "einheit": null,
-    "spez": null,
-    "gilt_fuer": [
-     "alle"
-    ],
-    "optional": false,
-    "sicherheit": "hausabhängig",
-    "hausabhaengig": true,
-    "quelle": null,
-    "hinweis": "Säge, Fräs-/Bohrantrieb und Ersatzakkus funktionsbereit. Steriles Antriebskonzept gemäß jeweiliger IFU; eine Akkuhülle ist nicht für jedes System richtig."
-   },
-   {
-    "label": "Patientenwärmung",
-    "menge": null,
-    "einheit": null,
-    "spez": null,
-    "gilt_fuer": [
-     "alle"
-    ],
-    "optional": false,
-    "sicherheit": "hausabhängig",
-    "hausabhaengig": true,
-    "quelle": null,
-    "hinweis": "Wärmesystem nach Anästhesie- und Hausplan bereitstellen; Produktanleitung beachten."
-   },
-   {
-    "label": "C-Bogen und Strahlenschutz",
-    "menge": null,
-    "einheit": null,
-    "spez": null,
-    "gilt_fuer": [
-     "bildwandler"
-    ],
-    "optional": true,
-    "sicherheit": "hausabhängig",
-    "hausabhaengig": true,
-    "quelle": null,
-    "hinweis": "Nur wenn Bildgebung geplant, unabhängig vom Zugang; Platz, Durchleuchtbarkeit und Strahlenschutzausrüstung früh abstimmen."
    },
    {
     "label": "Zementmischer: Anschlüsse prüfen",
@@ -425,20 +618,6 @@
     "hinweis": "LINK beschreibt dies für seinen DAA-Aufbau. Nur übernehmen, wenn die geplante Technik und das Lagerungssystem dazu passen."
    },
    {
-    "label": "Druckstellen und Arme schützen",
-    "menge": null,
-    "einheit": null,
-    "spez": null,
-    "gilt_fuer": [
-     "alle"
-    ],
-    "optional": false,
-    "sicherheit": "hausabhängig",
-    "hausabhaengig": true,
-    "quelle": null,
-    "hinweis": "Polster an belasteten Kontaktstellen, Armlagerung und Fixierung gemeinsam kontrollieren; Leitungen ohne Zug führen."
-   },
-   {
     "label": "Beinbeweglichkeit vorbereiten",
     "menge": null,
     "einheit": null,
@@ -451,34 +630,6 @@
     "hausabhaengig": true,
     "quelle": null,
     "hinweis": "Zugangs- und tischspezifischen Bewegungsraum vorbereiten. Keine pauschale Vierer-Position für DAA; konkrete Manöver legt das OP-Team fest."
-   },
-   {
-    "label": "NE-Kontakt kontrollieren",
-    "menge": null,
-    "einheit": null,
-    "spez": null,
-    "gilt_fuer": [
-     "hf_mono"
-    ],
-    "optional": false,
-    "sicherheit": "belegt",
-    "hausabhaengig": false,
-    "quelle": "Q_HEBU",
-    "hinweis": "Bei monopolarer Anwendung: geeignete Anlagefläche und vollständigen Hautkontakt gemäß Produkt-IFU prüfen; nach Umlagerung erneut kontrollieren. HEBU GAHF113 ist nur ein Produktbeispiel; maßgeblich ist die IFU der im Haus verwendeten Neutralelektrode."
-   },
-   {
-    "label": "Mechanische Prophylaxe laut Plan",
-    "menge": null,
-    "einheit": null,
-    "spez": null,
-    "gilt_fuer": [
-     "alle"
-    ],
-    "optional": true,
-    "sicherheit": "hausabhängig",
-    "hausabhaengig": true,
-    "quelle": null,
-    "hinweis": "Nur falls angeordnet; System und vorgesehene Extremität bestätigen. Keine pauschale Gegenbein-Anordnung und keine Medikamentenempfehlung."
    }
   ],
   "draping": [
@@ -509,48 +660,6 @@
     "hausabhaengig": true,
     "quelle": null,
     "hinweis": "Sterile Extremitätenabdeckung nach Hausset; integrierte Bestandteile nicht nochmals als Material zählen."
-   },
-   {
-    "label": "Inzisionsfolie nur nach Hausplan",
-    "menge": 1,
-    "einheit": "Stück",
-    "spez": null,
-    "gilt_fuer": [
-     "alle"
-    ],
-    "optional": true,
-    "sicherheit": "hausabhängig",
-    "hausabhaengig": true,
-    "quelle": null,
-    "hinweis": "Antiseptisch imprägniertes Produkt nur falls vorgesehen. Daraus folgt keine allgemeine Pflicht zur Folie."
-   },
-   {
-    "label": "Flüssigkeitsdichte Abdeckung",
-    "menge": null,
-    "einheit": null,
-    "spez": "Flüssigkeitsundurchlässig, sobald Durchfeuchten nicht auszuschließen ist (KRINKO Kat. IB).",
-    "gilt_fuer": [
-     "alle"
-    ],
-    "optional": false,
-    "sicherheit": "belegt",
-    "hausabhaengig": false,
-    "quelle": "Q_KRINKO",
-    "hinweis": "Konkretes Abdeckprodukt nach Hausstandard; die Schutzanforderung bleibt bestehen."
-   },
-   {
-    "label": "Kabel und Schläuche sichern",
-    "menge": null,
-    "einheit": null,
-    "spez": null,
-    "gilt_fuer": [
-     "alle"
-    ],
-    "optional": false,
-    "sicherheit": "hausabhängig",
-    "hausabhaengig": true,
-    "quelle": null,
-    "hinweis": "Sterilfeld, Beinbeweglichkeit und gegebenenfalls Bildgebung freihalten; keine Zugbelastung."
    }
   ],
   "trays": [
@@ -838,20 +947,6 @@
     "hinweis": "Nur wenn die geplante HF-Anwendung sie erfordert; kompatibles Hausprodukt und Anlage nach IFU."
    },
    {
-    "label": "Bipolare Pinzette mit Kabel",
-    "menge": 1,
-    "einheit": "Set",
-    "spez": null,
-    "gilt_fuer": [
-     "hf_bi"
-    ],
-    "optional": true,
-    "sicherheit": "hausabhängig",
-    "hausabhaengig": true,
-    "quelle": null,
-    "hinweis": "Nur bei vorgesehener bipolarer Nutzung, systemkompatibel."
-   },
-   {
     "label": "Pulslavage-Set",
     "menge": 1,
     "einheit": "Set",
@@ -920,48 +1015,6 @@
     "hausabhaengig": true,
     "quelle": null,
     "hinweis": "Nur zusammen mit geplanter Drainage; Anschluss und Aktivierung nach IFU."
-   },
-   {
-    "label": "Doppelhandschuhe pro sterile Person",
-    "menge": 2,
-    "einheit": "Paare je sterile Person",
-    "spez": "Größen je Person",
-    "gilt_fuer": [
-     "alle"
-    ],
-    "optional": false,
-    "sicherheit": "hausabhängig",
-    "hausabhaengig": true,
-    "quelle": null,
-    "hinweis": "Zwei Paare pro Person für doppelte Handschuhe; Größen, Material und Wechselreserve gesondert planen. Kein pauschaler Gesamtbedarf für das Team."
-   },
-   {
-    "label": "Steriler OP-Kittel pro Person",
-    "menge": 1,
-    "einheit": "Stück je sterile Person",
-    "spez": null,
-    "gilt_fuer": [
-     "alle"
-    ],
-    "optional": false,
-    "sicherheit": "hausabhängig",
-    "hausabhaengig": true,
-    "quelle": null,
-    "hinweis": "Ein Kittel je steril tätiger Person; Material/Schutzleistung und Reserven nach Hausplan."
-   },
-   {
-    "label": "Sterile Lichtgriffe",
-    "menge": 2,
-    "einheit": "Stück",
-    "spez": null,
-    "gilt_fuer": [
-     "alle"
-    ],
-    "optional": false,
-    "sicherheit": "hausabhängig",
-    "hausabhaengig": true,
-    "quelle": null,
-    "hinweis": "Passend zur vorhandenen Leuchte; Vorschlag aus C."
    },
    {
     "label": "Knochenzement laut OP-Plan",
@@ -1050,20 +1103,6 @@
     "hausabhaengig": true,
     "quelle": null,
     "hinweis": "Alternative nach Produkt- und Operateurplan; nicht automatisch zusätzlich zu anderer Hautverschlussart."
-   },
-   {
-    "label": "Hautantiseptik-/Waschset",
-    "menge": null,
-    "einheit": null,
-    "spez": "Hausprodukt",
-    "gilt_fuer": [
-     "alle"
-    ],
-    "optional": false,
-    "sicherheit": "hausabhängig",
-    "hausabhaengig": true,
-    "quelle": null,
-    "hinweis": "Hausprodukt und Verbrauchsmenge gemäß Hygieneplan; falls im Abdeckset enthalten, nicht doppelt buchen."
    },
    {
     "label": "Sterile Schalen",
@@ -1292,7 +1331,7 @@
     "hinweis": "Vorbereitung: Seite, Zugang, Fixation je Komponente, Primärsystem, Siebe und bestätigten Größenvorrat abgleichen."
    },
    {
-    "label": "Anschlüsse vor Nutzung prüfen",
+    "label": "Zubehör je Hüftphase bereithalten",
     "menge": null,
     "einheit": null,
     "spez": null,
@@ -1303,21 +1342,7 @@
     "sicherheit": "hausabhängig",
     "hausabhaengig": true,
     "quelle": null,
-    "hinweis": "HF, Absaugung und Antriebe nach Bedarf funktionsgerecht anschließen; Springer stellt bereit, keine Instrumentier- oder Operationstechnik."
-   },
-   {
-    "label": "Steriles Zubehör auf Ansage reichen",
-    "menge": null,
-    "einheit": null,
-    "spez": null,
-    "gilt_fuer": [
-     "alle"
-    ],
-    "optional": false,
-    "sicherheit": "hausabhängig",
-    "hausabhaengig": true,
-    "quelle": null,
-    "hinweis": "Pfannen-/Schaftphase: passende Instrumente und Probekomponenten bereithalten, sterile Übergabe nach Teamablauf; keine operative Anleitung."
+    "hinweis": "Für Pfannen- und Schaftphase passende Instrumente und Probekomponenten bereithalten; sterile Übergabe nach Teamablauf. Allgemeine Öffnungsregel in 000."
    },
    {
     "label": "Zementvorbereitung abstimmen",
@@ -1333,65 +1358,6 @@
     "hausabhaengig": true,
     "quelle": null,
     "hinweis": "Bei zementiertem Schaft Lavage-/Applikationszubehör und Markraumstopper gemäß Systemplan bereithalten."
-   },
-   {
-    "label": "Anästhesie vor Zement informieren",
-    "menge": null,
-    "einheit": null,
-    "spez": "Anästhesie über jeden Schritt des Zementiervorgangs informieren",
-    "gilt_fuer": [
-     "zementiert",
-     "hybrid"
-    ],
-    "optional": false,
-    "sicherheit": "belegt",
-    "hausabhaengig": false,
-    "quelle": "Q_BCIS",
-    "hinweis": "Nicht nur einmal vor dem Einbringen: jeden Zementierschritt ansagen; BCIS-Vorsorge gemeinsam abstimmen."
-   },
-   {
-    "label": "Zementansage rückbestätigen",
-    "menge": null,
-    "einheit": null,
-    "spez": null,
-    "gilt_fuer": [
-     "zementiert",
-     "hybrid"
-    ],
-    "optional": false,
-    "sicherheit": "hausabhängig",
-    "hausabhaengig": true,
-    "quelle": null,
-    "hinweis": "Vorab festlegen, wer die Schritte ansagt. Beispiel: „Zement wird jetzt eingebracht“ – Rückmeldung der Anästhesie abwarten; bei fehlender Antwort unmittelbar klären. Konkrete Ansagen/Zuständigkeit laut Haus-SOP."
-   },
-   {
-    "label": "Zementmischen nur auf Ansage",
-    "menge": null,
-    "einheit": null,
-    "spez": null,
-    "gilt_fuer": [
-     "zementiert",
-     "hybrid"
-    ],
-    "optional": false,
-    "sicherheit": "hausabhängig",
-    "hausabhaengig": true,
-    "quelle": null,
-    "hinweis": "Start und Dokumentation nach Hausablauf; ausschließlich aktuelle Produkt-/Mischsystem-IFU verwenden. Keine Mischzeit oder Zusatzrezeptur."
-   },
-   {
-    "label": "Definitivimplantat bestätigt öffnen",
-    "menge": null,
-    "einheit": null,
-    "spez": null,
-    "gilt_fuer": [
-     "alle"
-    ],
-    "optional": false,
-    "sicherheit": "hausabhängig",
-    "hausabhaengig": true,
-    "quelle": null,
-    "hinweis": "Erst auf Anforderung nach Abgleich von System, Kompatibilität und bestätigter Größe öffnen; Verpackung und Sterilität beachten."
    },
    {
     "label": "Verschlussmaterial abstimmen",
@@ -1424,34 +1390,6 @@
   ],
   "count": [
    {
-    "label": "Probekomponenten zurückführen",
-    "menge": null,
-    "einheit": null,
-    "spez": null,
-    "gilt_fuer": [
-     "alle"
-    ],
-    "optional": false,
-    "sicherheit": "hausabhängig",
-    "hausabhaengig": true,
-    "quelle": null,
-    "hinweis": "Alle eingesetzten Trial-Teile nach Hausprotokoll auf Vollständigkeit prüfen; von Definitivimplantaten trennen."
-   },
-   {
-    "label": "Scharfe Teile und Teilebruch prüfen",
-    "menge": null,
-    "einheit": null,
-    "spez": null,
-    "gilt_fuer": [
-     "alle"
-    ],
-    "optional": false,
-    "sicherheit": "hausabhängig",
-    "hausabhaengig": true,
-    "quelle": null,
-    "hinweis": "Nadeln, Klingen, Sägeblätter sowie ablösbare Geräte-/Applikatorteile erfassen. Ungeöffnete Reserve nicht mit ans Sterilfeld gegebenem Material verwechseln."
-   },
-   {
     "label": "Implantatstatus gesondert erfassen",
     "menge": null,
     "einheit": null,
@@ -1464,35 +1402,6 @@
     "hausabhaengig": true,
     "quelle": null,
     "hinweis": "Absichtlich implantierte Komponenten einschließlich Markraumstopper dokumentieren; nicht als zurückzuholendes Instrument behandeln."
-   },
-   {
-    "label": "Zementüberschuss gesondert prüfen",
-    "menge": null,
-    "einheit": null,
-    "spez": null,
-    "gilt_fuer": [
-     "zementiert",
-     "hybrid"
-    ],
-    "optional": false,
-    "sicherheit": "hausabhängig",
-    "hausabhaengig": true,
-    "quelle": null,
-    "hinweis": "Kein pauschales Stückzählen von Zementresten. Operative Kontrolle auf unerwünschten Überschuss; beabsichtigte Zementfixation bleibt davon getrennt."
-   },
-   {
-    "label": "Implantatetiketten dokumentieren",
-    "menge": null,
-    "einheit": null,
-    "spez": null,
-    "gilt_fuer": [
-     "alle"
-    ],
-    "optional": false,
-    "sicherheit": "hausabhängig",
-    "hausabhaengig": true,
-    "quelle": null,
-    "hinweis": "Verwendete Komponenten mit Etiketten/UDI und Hausdokumentation bzw. Implantatpass abgleichen; keine Patientendaten in Wissenspakete übernehmen."
    },
    {
     "label": "Zeit- und Bildgebungsdokumentation",
@@ -1543,34 +1452,6 @@
   ],
   "dressing": [
    {
-    "label": "Steriler Wundverband",
-    "menge": null,
-    "einheit": null,
-    "spez": null,
-    "gilt_fuer": [
-     "alle"
-    ],
-    "optional": false,
-    "sicherheit": "hausabhängig",
-    "hausabhaengig": true,
-    "quelle": null,
-    "hinweis": "Hausprodukt und benötigte Größe/Menge nach Wundsituation und Operateurplan; keine erfundene Größe."
-   },
-   {
-    "label": "Drainageanschluss kontrollieren",
-    "menge": null,
-    "einheit": null,
-    "spez": null,
-    "gilt_fuer": [
-     "alle"
-    ],
-    "optional": true,
-    "sicherheit": "hausabhängig",
-    "hausabhaengig": true,
-    "quelle": null,
-    "hinweis": "Nur bei Drainage: Fixierung, Durchgängigkeit und passendes Auffangsystem nach IFU prüfen."
-   },
-   {
     "label": "Transfer und Bewegungsvorgaben",
     "menge": null,
     "einheit": null,
@@ -1583,20 +1464,6 @@
     "hausabhaengig": true,
     "quelle": null,
     "hinweis": "Umlagerung mit Team abstimmen. Kissen/Schiene und Bewegungsvorgaben nur nach konkretem Zugang, Operateur- und Hausplan; keine allgemeinen Winkelgrenzen."
-   },
-   {
-    "label": "Präparat korrekt übergeben",
-    "menge": null,
-    "einheit": null,
-    "spez": null,
-    "gilt_fuer": [
-     "praeparat"
-    ],
-    "optional": true,
-    "sicherheit": "hausabhängig",
-    "hausabhaengig": true,
-    "quelle": null,
-    "hinweis": "Nur bei Einsendung: Kennzeichnung und Begleitschein im klinischen Ablauf abgleichen; Transport/Fixans nach Laborvorgabe."
    },
    {
     "label": "Bildkontrolle nach Anordnung",
@@ -1613,7 +1480,7 @@
     "hinweis": "Zeitpunkt und Durchführung laut OP-/Hausplan; keine generelle zusätzliche Aufnahme veranlassen."
    },
    {
-    "label": "Übergabe an AWR/Anästhesie",
+    "label": "Hüftbezogene Übergabe",
     "menge": null,
     "einheit": null,
     "spez": null,
@@ -1624,7 +1491,7 @@
     "sicherheit": "hausabhängig",
     "hausabhaengig": true,
     "quelle": null,
-    "hinweis": "Seite, Zugang, Fixation, Besonderheiten, Drainage, dokumentierten Zählstatus und angeordnete Bewegungsvorgaben übergeben. Klinische Befunde nur wie tatsächlich erhoben."
+    "hinweis": "Zugang, Fixation von Pfanne und Schaft sowie angeordnete Bewegungsvorgaben übergeben. Allgemeine Übergabe (Zählstatus) in 000."
    }
   ],
   "pitfalls": [
@@ -1655,62 +1522,6 @@
     "hausabhaengig": true,
     "quelle": null,
     "hinweis": "Bei unklarem oder umgekehrtem Hybridplan jede Komponente separat klären; dieses Paket deckt keinen Reverse-Hybrid-Standard ab."
-   },
-   {
-    "label": "Konkrete Unverträglichkeiten klären",
-    "menge": null,
-    "einheit": null,
-    "spez": null,
-    "gilt_fuer": [
-     "alle"
-    ],
-    "optional": false,
-    "sicherheit": "hausabhängig",
-    "hausabhaengig": true,
-    "quelle": null,
-    "hinweis": "Bekannte Auslöser und Reaktionen auf Antiseptikum, Klebstoff, Latex oder Implantatmaterial ans Team geben; die Kurzangabe „Jod“ ist zu unspezifisch."
-   },
-   {
-    "label": "Alkoholansammlungen vermeiden",
-    "menge": null,
-    "einheit": null,
-    "spez": "Patient darf nicht in angesammeltem Hautantiseptikum liegen.",
-    "gilt_fuer": [
-     "hf_mono"
-    ],
-    "optional": false,
-    "sicherheit": "belegt",
-    "hausabhaengig": false,
-    "quelle": "Q_KRINKO",
-    "hinweis": "Einwirkzeit und anschließende Trocknung laut IFU des verwendeten Antiseptikums prüfen; HF-Brandrisiko ergänzend Q_HEBU, Abschnitt 6. NE-Flüssigkeitsschutz getrennt belegen."
-   },
-   {
-    "label": "NE vor Flüssigkeit schützen",
-    "menge": null,
-    "einheit": null,
-    "spez": "Flüssigkeitskontakt und Eindringen unter die NE vermeiden.",
-    "gilt_fuer": [
-     "hf_mono"
-    ],
-    "optional": false,
-    "sicherheit": "belegt",
-    "hausabhaengig": false,
-    "quelle": "Q_HEBU",
-    "hinweis": "HEBU GAHF113V004 als Produktbeispiel; maßgeblich ist die IFU der tatsächlich verwendeten NE."
-   },
-   {
-    "label": "Größenvorrat vorab prüfen",
-    "menge": null,
-    "einheit": null,
-    "spez": null,
-    "gilt_fuer": [
-     "alle"
-    ],
-    "optional": false,
-    "sicherheit": "hausabhängig",
-    "hausabhaengig": true,
-    "quelle": null,
-    "hinweis": "Fehlende Größe mitten in der OP ist der Klassiker – Lager/Leihset vorher abgleichen."
    }
   ],
   "photos": [
@@ -1741,20 +1552,6 @@
     "hausabhaengig": true,
     "quelle": null,
     "hinweis": "Zugang und Hausset am Modell darstellen. Nur freigegebene eigene Bilder ohne Personen/Identifikatoren; Platzhalter, kein Bild enthalten."
-   },
-   {
-    "label": "Foto: Instrumentiertisch",
-    "menge": null,
-    "einheit": null,
-    "spez": null,
-    "gilt_fuer": [
-     "alle"
-    ],
-    "optional": true,
-    "sicherheit": "hausabhängig",
-    "hausabhaengig": true,
-    "quelle": null,
-    "hinweis": "Lokale Ordnung und Siebzuordnung zeigen. Nur freigegebene eigene Bilder ohne Personen/Identifikatoren; Platzhalter, kein Bild enthalten."
    },
    {
     "label": "Foto: Prothesensiebe",
@@ -1909,7 +1706,7 @@
   "Mengen der Ausgangslieferungen unterscheiden sich; Entscheidungen und Ausschlüsse stehen in BEWERTUNG.md.",
   "Keine Bilder enthalten; Fotos benötigen separate Hausfreigabe und einen Aufbau ohne Patientendaten.",
   "Das C-Schema ist ein Wissensformat, kein nachgewiesener Direktimport für Heike. Es wurde kein App-Import durchgeführt.",
-  "Implantate: Mathys-Werte offen (kein Herstellerdokument lesbar). Accolade II ist laut Q_STRYKER_ACCII (Rev-4, 2022, S. 3/12) in der EU nicht für Hemiarthroplastik indiziert; keine Kopf-Schaft-Kombination über Hersteller hinweg ableiten."
+  "Implantate: Herstellerunterlagen teilweise gefunden (implantate/*). Aktuelle EU-IFUs, Größen/REF und Komponentenfreigaben überwiegend offen; Mathys/Enovis-Originale nicht lesbar (Umleitung/HCP-Login). Accolade II laut Q_STRYKER_ACCII (S. 3/12) in der EU nicht für Hemi. Systeme nicht mischen."
  ],
  "julian_pruefen": [
   "Eingriffsscope primäre Hüft-TEP bestätigen; keine Revision/Hemiendoprothese.",
@@ -1927,7 +1724,7 @@
   "Hygieneplan, Antiseptikum, Folienentscheidung und Flüssigkeitsmanagement prüfen.",
   "Transfer, Bewegungsvorgaben und Übergabeinhalte hausbezogen bestätigen.",
   "Vor späterem App-Einsatz Datenadapter prüfen: Mengen, Stärke, Nadel, Schicht, Variante, Herkunft und Auswahl müssen erhalten bleiben; nur explizit gewählte Inhalte speichern.",
-  "Nur Rückfrage außerhalb des Primär-TEP-Scope: Wie heißen Duokopf, Innenkopf und Schaft genau? Bitte Hersteller, Produktlinie, REF und aktuelle EU-IFU nennen. Zur Identifikation: Steht auf der Schaftpackung Accolade II, Accolade TMZF, Exeter oder twinSys? Dies sind keine freigegebenen Kombinationsvorschläge. Accolade II ist laut Q_STRYKER_ACCII (Rev-4, 2022, S. 3/12) in der EU nicht für Hemiarthroplastik indiziert. Auch eine Mathys-Bipolarkopf/twinSys-Kombination bleibt ohne konkreten Herstellerbeleg offen; keine Kombination über Hersteller hinweg ableiten."
+  "Duokopf-Systeme im Haus (Hausangabe Julian 07.10.2026, außerhalb des Primär-TEP-Scope): Aesculap Bipolar Cup mit Excia T zementiert; S+N Bi-Polar Head mit SPECTRON EF; Mathys Bipolarkopf mit twinSys zementiert. Für jedes Teil Etikett-REF und aktuelle EU-IFU bestätigen – die Hausliste ist keine Kombinationsfreigabe. Kein Stryker-Duokopf; Accolade II in der EU nicht für Hemi."
  ],
  "aus_000_uebernommen": [
   "Sign-in/Time-out/Sign-out",
@@ -1968,6 +1765,25 @@
     "neu workflow P1 „Zementansage rückbestätigen“; count P2 „Stopper und Messhilfe unterscheiden“"
    ],
    "nachpruefung": "Astra prüft v1.2 vor Integration"
+  },
+  {
+   "version": "1.3",
+   "datum": "2026-10-07",
+   "grundlage": "Lauf 001: pruefung/001-grok.md, pruefung/001-astra.md (ÄNDERN), eingang/001-perplexity.md; Julian-Abnahme 07.10.2026",
+   "aenderungen": [
+    "Allgemeines nach 000 v1.5 verschoben und in 001 gestrichen (34 Chips)",
+    "Übergabe → „Hüftbezogene Übergabe“ (Zugang, Fixation, Bewegungsvorgaben)",
+    "Steriles Zubehör → „Zubehör je Hüftphase bereithalten“",
+    "Duokopf-Rückfrage: Hausangaben Excia T zementiert + Bipolar Cup, SPECTRON EF + Bi-Polar Head, twinSys zementiert + Mathys Bipolarkopf",
+    "Implantate: Stryker ohne UHR/Universal Taper, POLARSTEM entfernt, neue Dateien Aesculap Excia, S+N R3, Enovis twinSys; Produktregeln in den Implantat-Dateien"
+   ]
   }
+ ],
+ "gehoert_dazu": [
+  "implantate/stryker-accolade-ii.json",
+  "implantate/aesculap-excia.json",
+  "implantate/smith-nephew-r3.json",
+  "implantate/enovis-twinsys.json"
  ]
 }
+```

@@ -1,10 +1,10 @@
 # Heike-Wissen 000 – Grundwissen für alle Eingriffe
 
-_Version 1.4 · 07.10.2026 · nach Grok-Prüfung · Astra-Prüfung vor Integration offen · klinisches Review offen_
+_Version 1.5 · 2026-10-07 · abgeschlossen (Lauf 000 + Ergänzung aus Lauf 001) · klinisches Review durch Julian offen_
 
-Paket 000 ist das gemeinsame Fundament: Es gilt bei **jedem** Eingriff. Die Eingriffspakete (001 Hüft-TEP …) ergänzen es.
+Paket 000 ist das gemeinsame Fundament: Es gilt bei **jedem** Eingriff und enthält alles allgemeine OP-Wissen. Die Eingriffspakete (001 Hüft-TEP …) enthalten nur Eingriffsspezifisches.
 
-Legende: ⚠️ hausabhängig · *(optional)* · 📖 Quelle nachgelesen · _nur …_ = gilt nur in dieser Situation
+Legende: ⚠️ hausabhängig · *(optional)* · 📖 Quelle nachgelesen · _nur …_ = gilt nur in dieser Situation/Variante
 
 ## Regeln für Heike
 1. Erlaubt nur mit Quelle und Hinweis: Medikamente mit Dosierung („laut ärztlicher Anordnung/Fachinformation prüfen“), Zement-Mischzeiten („nur für genanntes Produkt laut IFU, temperaturabhängig“), HF-Leistungswerte („Herstellerempfehlung, Gerät/Gewebe abhängig“), Implantatgrößen und -kompatibilität („laut Herstellerdokument, Stand angeben“). Ohne Quelle: weglassen.
@@ -36,96 +36,138 @@ Legende: ⚠️ hausabhängig · *(optional)* · 📖 Quelle nachgelesen · _nur
 - `laparoskopie` – Laparoskopie
 - `notfall` – Notfalleingriff
 
-## Eckdaten & Sicherheit `facts`
-- Patientenidentität geprüft (Patient bestätigt Identität; Armband + aktive Rückfrage zusätzlich laut KVWL) 📖 WHO · KVWL
-- Eingriffsort markiert und sichtbar (Markierung nach Lagerung/Abdeckung prüfbar) 📖 KVWL
-- Sign-in (vor Narkoseeinleitung) 📖 WHO
-- Team-Time-out (vor dem Schnitt, hörbar, ganzes Team) 📖 WHO
-- Sign-out (vor Verlassen des Saals, inkl. Zählergebnis) 📖 WHO
-- Allergien/Unverträglichkeiten erfragt (produktbezogen (z. B. Desinfektion, Latex, Pflaster)) ⚠️
-- Implantat laut Planung bestätigt — _nur Implantat geplant_ ⚠️
+## 1. Eckdaten & Sicherheit `facts`
+- **Patientenidentität geprüft** (Patient bestätigt Identität (WHO); Armband + aktive Rückfrage zusätzlich (KVWL/APS)) 📖 WHO
+  - Armband steht nicht in der WHO-Checkliste; Armband + Rückfrage laut q_kvwl.
+- **Eingriffsort markiert und sichtbar** (Markierung nach Lagerung/Abdeckung prüfbar) 📖 KVWL
+- **Sign-in** (vor Narkoseeinleitung) 📖 WHO
+- **Team-Time-out** (vor dem Schnitt, hörbar, ganzes Team) 📖 WHO
+- **Sign-out** (vor Verlassen des Saals, inkl. Zählergebnis) 📖 WHO
+- **Allergien/Unverträglichkeiten erfragt** (konkrete Auslöser erfragen, z. B. Antiseptikum, Latex, Pflaster, Nickel/Metall, Knochenzement) ⚠️
+- **Implantat laut Planung bestätigt** — _nur implantat_ ⚠️
+- **Anästhesieverfahren laut Plan** ⚠️
+  - Verfahren und organisatorische Besonderheiten mit Anästhesie abstimmen; keine Empfehlung für eine Narkoseart.
 
-## Saal & Geräte `room`
-- OP-Tisch + Zubehör für Lagerung ⚠️
-- HF-Gerät funktionsgeprüft (Leistung nach Herstellerempfehlung/Operateur) ⚠️
-- 1× Neutralelektrode (nur bei monopolar) — _nur monopolare HF-Chirurgie_ ⚠️
-- 1× Bipolare Pinzette + Kabel — _nur bipolare HF-Chirurgie_ *(optional)* ⚠️
-- 1× Sauger funktionsgeprüft ⚠️
-- Wärmesystem (z. B. Warmluftdecke) ⚠️
-- OP-Licht ausgerichtet + Lichtgriffe
-- Bildwandler + Röntgenschürzen — _nur Bildwandler/Röntgen geplant_ ⚠️
-- Dosimeter/Strahlenschutz laut Haus — _nur Bildwandler/Röntgen geplant_ ⚠️
-- Blutsperren-Gerät + Manschette — _nur Blutsperre/-leere geplant_ ⚠️
-- Laparoskopie-Turm + CO₂ geprüft — _nur Laparoskopie_ ⚠️
-- Notfallausstattung erreichbar (laut Haus) ⚠️
+## 2. Saal & Geräte `room`
+- **OP-Tisch + Zubehör für Lagerung** ⚠️
+- **HF-Gerät funktionsgeprüft** (Leistung nach Herstellerempfehlung/Operateur) ⚠️
+  - Geplante Betriebsart mono-/bipolar und zugehöriges Zubehör vor Nutzung klären; Geräte-/Zubehör-IFU und Hausablauf beachten.
+- 1 Stk **Neutralelektrode** (nur bei monopolar) — _nur hf_mono_ ⚠️
+- 1 Stk **Bipolare Pinzette + Kabel** — _nur hf_bi_ *(optional)* ⚠️
+- **Sauger funktionsgeprüft** ⚠️
+  - Anzahl und Konfiguration nach Eingriff und Hausplan festlegen; Funktion, Anschlüsse und erforderliche Reserve prüfen. Weder ein noch zwei Systeme als allgemeine Pflichtmenge setzen.
+- **Wärmesystem** (z. B. Warmluftdecke) ⚠️
+- **OP-Licht ausgerichtet + Lichtgriffe** ⚠️
+- **Bildwandler + Röntgenschürzen** — _nur bildwandler_ ⚠️
+- **Dosimeter/Strahlenschutz laut Haus** — _nur bildwandler_ ⚠️
+- **Blutsperren-Gerät + Manschette** — _nur blutsperre_ ⚠️
+- **Laparoskopie-Turm + CO₂ geprüft** — _nur laparoskopie_ ⚠️
+- **Notfallausstattung erreichbar** (laut Haus) ⚠️
+- 2 Paare je sterile Person **Doppelhandschuhe pro sterile Person** (Größen je Person) *(optional)* ⚠️
+  - Nur wenn Doppelhandschuhe laut Risiko-/Hausplanung vorgesehen sind; Größen, Teamzahl und Wechselreserve festlegen. Keine allgemeine Zwei-Paar-Pflicht für jeden Eingriff.
+- 1 Stück je sterile Person **Steriler OP-Kittel pro Person** ⚠️
+  - Ein Kittel je steril tätiger Person; Material/Schutzleistung und Reserven nach Hausplan.
+- **Antriebe und Ersatzakkus** *(optional)* ⚠️
+  - Nur wenn Antriebe geplant; steriles Antriebskonzept und Ersatzakkus passend zu Gerät und IFU.
 
-## Lagerung `position`
-- Druckstellen gepolstert (Fersen, Sakrum, Ellenbogen, Knochenvorsprünge) ⚠️
-- Arme gesichert, nicht überstreckt (Nervenschutz Plexus/Ulnaris) ⚠️
-- Neutralelektrode-Ort (gut durchblutete Muskulatur, nicht über Knochen/Narbe/Metall, vollflächig) — _nur monopolare HF-Chirurgie_ ⚠️
-- Kein Hautkontakt zu Metallteilen — _nur monopolare HF-Chirurgie_ ⚠️
-- Seitenstützen/Polster stabil — _nur Seitenlage_ ⚠️
-- Hüftbeugung >90° lange vermeiden (Steinschnitt, vaginale Eingriffe) — _nur Steinschnittlage_ 📖 LAG
-- Gesicht/Augen/Brust geschützt — _nur Bauchlage_ ⚠️
-- Lagerung dokumentiert ⚠️
+## 3. Lagerung `position`
+- **Druckstellen gepolstert** (Fersen, Sakrum, Ellenbogen, Knochenvorsprünge) ⚠️
+- **Arme gesichert, nicht überstreckt** (Nervenschutz Plexus/Ulnaris) ⚠️
+- **Neutralelektrode-Ort** (gut durchblutete Muskulatur, nicht über Knochen/Narbe/Metall, vollflächig) — _nur hf_mono_ ⚠️
+- **Kein Hautkontakt zu Metallteilen** — _nur hf_mono_ ⚠️
+- **Seitenstützen/Polster stabil** — _nur seitenlage_ ⚠️
+- **Hüftbeugung >90° lange vermeiden** (Steinschnitt, vaginale Eingriffe) — _nur steinschnitt_ 📖 LAG
+- **Gesicht/Augen/Brust geschützt** — _nur bauchlage_ ⚠️
+- **Lagerung dokumentiert** ⚠️
+- **Mechanische Prophylaxe laut Plan** *(optional)* ⚠️
+  - Nur falls angeordnet; System und vorgesehene Extremität bestätigen. Keine pauschale Gegenbein-Anordnung und keine Medikamentenempfehlung.
+- **NE-Kontakt nach Umlagerung** — _nur hf_mono_ 📖 HEBU
+  - HEBU verlangt erneute Kontrolle nach Änderung der Patientenlage. Produktbeispiel; tatsächliche NE-IFU maßgeblich.
 
-## Desinfektion & Abdeckung `draping`
-- Sterile Tische erst kurz vor Beginn (bis Schnitt steril abgedeckt; S. 462, Erläuterung S. 455) 📖 KRINKO
-- Hautdesinfektion laut Haus (Produkt + Einwirkzeit nach IFU) ⚠️
-- Abdeckung flüssigkeitsdicht (flüssigkeitsundurchlässig, sobald Durchfeuchten nicht auszuschließen ist, Kat. IB; Produkt laut Haus) 📖 KRINKO
-- Keine nicht imprägnierte Inzisionsfolie (nicht antiseptisch imprägnierte Folien nicht verwenden, Kat. IB) *(optional)* 📖 KRINKO
-- Türbewegungen/Saalverkehr gering 📖 KRINKO
+## 4. Desinfektion & Abdeckung `draping`
+- **Sterile Tische erst kurz vor Beginn** (bis Schnitt steril abgedeckt) 📖 KRINKO
+  - KRINKO gedruckte S. 462 (PDF-S. 15), Abschnitt 4.1, Kat. II; Erläuterung S. 455 (PDF-S. 8), Instrumentarium (Medizinprodukte).
+- **Hautdesinfektion laut Haus** (Produkt + Einwirkzeit nach IFU) ⚠️
+- **Abdeckung flüssigkeitsdicht** (Flüssigkeitsundurchlässig, sobald Durchfeuchten nicht auszuschließen ist (KRINKO Kat. IB).) 📖 KRINKO
+  - Konkretes Abdeckprodukt nach Hausstandard; die Schutzanforderung bleibt bestehen.
+- **Keine nicht imprägnierte Inzisionsfolie** (nicht antiseptisch imprägnierte Folien nicht verwenden (Kat. IB)) *(optional)* 📖 KRINKO
+- **Türbewegungen/Saalverkehr gering** 📖 KRINKO
+- **Kabel und Schläuche sichern** ⚠️
+  - Sterilfeld, Bewegungsraum und ggf. Bildgebung freihalten; keine Zugbelastung.
+- **Inzisionsfolie nur nach Hausplan** *(optional)* ⚠️
+  - Nur antiseptisch imprägnierte Folie, falls laut Hausplan vorgesehen; keine allgemeine Folienpflicht. Separate KRINKO-Regel gegen nicht antiseptisch imprägnierte Inzisionsfolie bleibt bestehen.
 
-## Zählkontrolle & Dokumentation `count`
-- Zählen vor Beginn (alle eingesetzten Materialien) 📖 APS
-- Ergänztes Material sofort zählen (Vier-Augen-Prinzip) 📖 APS
-- Zählen bei Teamwechsel 📖 APS
-- Zählen vor Wund-/Höhlenverschluss (Zeitpunkte laut Haus-Zählplan) ⚠️ 📖 APS
-- Abschlusszählung + Entsorgungskontrolle 📖 APS
-- Kompressen, Tupfer, Bauchtücher (röntgenkontrastgestreift) 📖 APS
-- Nadeln, Klingen, Clips, Drahtteile (Nadeln, Clips, Drahtteile; Instrumente/Klingen laut Haus-Zählplan) 📖 APS
-- Instrumente + Zusatzinstrumente 📖 APS
-- Beabsichtigt belassenes Material doku (z. B. Tamponade, Drainage, Implantat) 📖 APS
-- Differenz: STOPP + sofort melden (weiteres Vorgehen laut Operateur/Haus) ⚠️ 📖 APS
-- Zählprotokoll dokumentiert 📖 APS
+## 5. Zählkontrolle & Dokumentation `count`
+- **Zählen vor Beginn** (alle eingesetzten Materialien) 📖 APS
+- **Ergänztes Material sofort zählen** (Vier-Augen-Prinzip) 📖 APS
+- **Zählen bei Teamwechsel** 📖 APS
+- **Zählen vor Wund-/Höhlenverschluss** (Zeitpunkte laut Haus-Zählplan) 📖 APS
+- **Abschlusszählung + Entsorgungskontrolle** 📖 APS
+- **Kompressen, Tupfer, Bauchtücher** (röntgenkontrastgestreift) 📖 APS
+- **Nadeln, Klingen, Clips, Drahtteile** (Nadeln, Clips, Drahtteile; Instrumente/Klingen laut Haus-Zählplan) 📖 APS
+- **Instrumente + Zusatzinstrumente** 📖 APS
+- **Beabsichtigt belassenes Material doku** (z. B. Tamponade, Drainage, Implantat) 📖 APS
+- **Differenz: STOPP + sofort melden** (weiteres Vorgehen laut Operateur/Haus) 📖 APS
+- **Zählprotokoll dokumentiert** 📖 APS
+- **Scharfe Teile und Teilebruch prüfen** ⚠️
+  - Nadeln, Klingen, Sägeblätter sowie ablösbare Geräte-/Applikatorteile erfassen. Ungeöffnete Reserve nicht mit ans Sterilfeld gegebenem Material verwechseln.
+- **Probekomponenten zurückführen** — _nur implantat_ ⚠️
+  - Alle eingesetzten Trial-Teile nach Hausprotokoll auf Vollständigkeit prüfen; von Definitivimplantaten trennen.
+- **Zementüberschuss gesondert prüfen** — _nur zement_ ⚠️
+  - Kein pauschales Stückzählen von Zementresten. Operative Kontrolle auf unerwünschten Überschuss; beabsichtigte Zementfixation bleibt davon getrennt.
 
-## Implantate, Zement & Medikamente `implants`
-- Implantat erst auf Ansage öffnen (Typ, Seite, Größe laut wiederholen) — _nur Implantat geplant_ ⚠️
-- Verpackung/Verfall prüfen — _nur Implantat geplant_
-- Implantat-Etiketten in Doku — _nur Implantat geplant_ ⚠️
-- Implantatpass laut Haus — _nur Implantat geplant_ ⚠️
-- Anästhesie vor Zement informieren (über jeden Zementierschritt; AMBOSS: vor Einbringen) — _nur Knochenzement geplant_ 📖 BCIS
-- Zement nach Hersteller-IFU (Mischzeit je Produkt laut IFU, temperaturabhängig) — _nur Knochenzement geplant_ ⚠️
-- Medikamente am Tisch nur laut Anordnung (Dosis nur mit Quelle + „laut Anordnung prüfen“) ⚠️
+## 6. Implantate, Zement & Medikamente `implants`
+- **Implantat erst auf Ansage öffnen** (Typ, Seite, Größe laut wiederholen) — _nur implantat_ ⚠️
+  - Vor Öffnen Komponente, gegebenenfalls Seite, System, Größe und ausdrücklich belegte Komponentenkompatibilität abgleichen; Ansage bestätigen lassen. Verpackung und Sterilität beachten. Offene Kompatibilität zuerst klären.
+- **Verpackung/Verfall prüfen** — _nur implantat_ ⚠️
+- **Implantat-Etiketten in Doku** — _nur implantat_ ⚠️
+- **Implantatpass laut Haus** — _nur implantat_ ⚠️
+- **Anästhesie vor Zement informieren** (Anästhesie über jeden Schritt des Zementiervorgangs informieren) — _nur zement_ 📖 BCIS
+  - AMBOSS: vor Einbringen; q_bcis: jeden Zementierschritt.
+- **Zement nach Hersteller-IFU** (Mischzeit je Produkt laut IFU, temperaturabhängig) — _nur zement_ ⚠️
+- **Medikamente am Tisch nur laut Anordnung** (Dosis nur mit Quelle + „laut Anordnung prüfen“) ⚠️
+- **Größenvorrat vorab prüfen** — _nur implantat_ ⚠️
+  - Fehlende Größe mitten in der OP vermeiden – Lager/Leihset vorher mit der Planung abgleichen.
+- **Zementansage rückbestätigen** — _nur zement_ ⚠️
+  - Vorab festlegen, wer die Schritte ansagt. Beispiel: „Zement wird jetzt eingebracht“ – Rückmeldung der Anästhesie abwarten; bei fehlender Antwort unmittelbar klären. Konkrete Ansagen/Zuständigkeit laut Haus-SOP.
+- **Zementmischen nur auf Ansage** — _nur zement_ ⚠️
+  - Start und Dokumentation nach Hausablauf; ausschließlich aktuelle Produkt-/Mischsystem-IFU verwenden. Keine Mischzeit oder Zusatzrezeptur.
 
-## Ablauf aus Springer-Sicht `workflow`
-- Saal vorbereiten vor Einschleusen ⚠️
-- Material nach Bedarf anreichen + ansagen (steril übergeben, mitzählen) 📖 APS
-- Instrumente/Material auf Ansage öffnen ⚠️
-- Blutsperrenzeit ansagen + dokumentieren — _nur Blutsperre/-leere geplant_ ⚠️
-- Präparat sofort beschriften (Patient, Lokalisation, Begleitschein) — _nur Präparat/Histologie angeordnet_ ⚠️
-- Fixierung laut Pathologie-Vorgabe — _nur Präparat/Histologie angeordnet_ ⚠️
-- Notfall: Zählung nach Haus-Regel (Aussetzen/Nachzählen festgelegt) — _nur Notfalleingriff_ ⚠️ 📖 APS
+## 7. Ablauf aus Springer-Sicht `workflow`
+- **Saal vorbereiten vor Einschleusen** ⚠️
+- **Material nach Bedarf anreichen + ansagen** (steril übergeben, mitzählen) 📖 APS
+- **Instrumente/Material auf Ansage öffnen** ⚠️
+- **Blutsperrenzeit ansagen + dokumentieren** — _nur blutsperre_ ⚠️
+- **Präparat sofort beschriften** (Patient, Lokalisation, Begleitschein) — _nur praeparat_ ⚠️
+- **Fixierung laut Pathologie-Vorgabe** — _nur praeparat_ ⚠️
+- **Notfall: Zählung nach Haus-Regel** (Aussetzen/Nachzählen festgelegt) — _nur notfall_ 📖 APS
+- **Anschlüsse vor Nutzung prüfen** ⚠️
+  - HF, Absaugung und Antriebe nach Bedarf funktionsgerecht anschließen; Springer stellt bereit, keine Instrumentier- oder Operationstechnik.
 
-## Verband & Ausleitung `dressing`
-- Steriler Wundverband laut Haus ⚠️
-- Drainagen fixiert + beschriftet *(optional)* ⚠️
-- Neutralelektrode ab, Haut kontrolliert — _nur monopolare HF-Chirurgie_ ⚠️
-- Lagerungsstellen kontrolliert (Hautbefund dokumentieren) ⚠️
-- Übergabe Aufwachraum (Eingriff, Drainagen, Besonderheiten, Anordnungen) ⚠️
+## 8. Verband & Ausleitung `dressing`
+- **Steriler Wundverband laut Haus** ⚠️
+- **Drainagen fixiert + beschriftet** *(optional)* ⚠️
+  - Falls Drainage vorhanden: Fixierung/Beschriftung und passenden Anschluss zum Auffangsystem prüfen; Durchgängigkeit und Handhabung nach aktueller Produkt-IFU/Hausvorgabe kontrollieren.
+- **Neutralelektrode ab, Haut kontrolliert** — _nur hf_mono_ ⚠️
+- **Lagerungsstellen kontrolliert** (Hautbefund dokumentieren) ⚠️
+- **Übergabe Aufwachraum** (Eingriff, Drainagen, Besonderheiten, Anordnungen) ⚠️
+  - Zählstatus und offene Besonderheiten strukturiert übergeben; eingriffsspezifische Inhalte stehen im Eingriffspaket.
 
-## Typische Fehler `pitfalls`
-- Markierung unter Abdeckung verschwunden 📖 KVWL
-- Zählung bei Teamwechsel vergessen 📖 APS
-- Implantat auf Verdacht geöffnet — _nur Implantat geplant_
-- Präparat unbeschriftet — _nur Präparat/Histologie angeordnet_
-- Tische zu früh offen 📖 KRINKO
-- Neutralelektrode über Metall/Narbe — _nur monopolare HF-Chirurgie_
-- Zement ohne Anästhesie-Ansage — _nur Knochenzement geplant_ 📖 AMBOSS
-- Keine Antiseptikum-Pfützen (Patient nicht in angesammeltem Hautantiseptikum) 📖 KRINKO
+## 9. Typische Fehler & Fallstricke `pitfalls`
+- **Markierung unter Abdeckung verschwunden** 📖 KVWL
+- **Zählung bei Teamwechsel vergessen** 📖 APS
+- **Implantat auf Verdacht geöffnet** — _nur implantat_ ⚠️
+- **Präparat unbeschriftet** — _nur praeparat_ ⚠️
+- **Tische zu früh offen** 📖 KRINKO
+- **Neutralelektrode über Metall/Narbe** — _nur hf_mono_ ⚠️
+- **Zement ohne Anästhesie-Ansage** — _nur zement_ 📖 AMBOSS
+- **Keine Antiseptikum-Pfützen** (Patient darf nicht in angesammeltem Hautantiseptikum liegen.) 📖 KRINKO
+  - Einwirkzeit/Abtrocknen laut Antiseptikum-IFU; besonders vor monopolarer HF.
+- **NE vor Flüssigkeit schützen** (Flüssigkeitskontakt und Eindringen unter die NE vermeiden.) — _nur hf_mono_ 📖 HEBU
+  - HEBU GAHF113V004 als Produktbeispiel; maßgeblich ist die IFU der tatsächlich verwendeten NE.
 
-## Fotos `photos`
-- Foto Tischaufbau ohne Patient (keine Personen, keine Identifikatoren) *(optional)*
+## 10. Fotos `photos`
+- **Foto Tischaufbau ohne Patient** (keine Personen, keine Identifikatoren) *(optional)* ⚠️
 
 ## Heike darf sagen
 - „Ist die Markierung nach dem Abdecken noch zu sehen?“ 📖 KVWL
@@ -144,15 +186,16 @@ Legende: ⚠️ hausabhängig · *(optional)* · 📖 Quelle nachgelesen · _nur
 - Lagerungsstellen nach OP kontrollieren
 
 ## Quellen
-- **WHO** – Implementation Manual WHO Surgical Safety Checklist 2009, World Health Organization. https://www.who.int/docs/default-source/patient-safety/9789241598590-eng.pdf (abgerufen 2026-10-06)
-- **APS** – Flyer „Jeder Tupfer zählt! Zählkontrolle ist Teamarbeit“, Aktionsbündnis Patientensicherheit e. V.. https://www.aps-ev.de/wp-content/uploads/2024/06/flyer-JTZ.pdf (abgerufen 2026-10-06)
-- **KRINKO** – Prävention postoperativer Wundinfektionen, Bundesgesundheitsbl 2018;61:448–473, KRINKO am RKI. https://www.rki.de/DE/Themen/Infektionskrankheiten/Krankenhaushygiene/KRINKO/Empfehlungen-der-KRINKO/Device-assoziierte-postoperative-Infektionen/Downloads/Empf_postopWI.pdf?__blob=publicationFile&v=1 (abgerufen 2026-10-06)
-- **KVWL** – Handlungsempfehlung Vermeidung einer Eingriffsverwechslung, 2. Auflage 2024, APS / KVWL. https://www.kvwl.de/fileadmin/user_upload/pdf/Mitglieder/Qualitaetssicherung/Patientensicherheit/Vermeidung_einer_Eingriffsverwechslung.pdf (abgerufen 2026-10-06)
-- **LAG** – S2k-Leitlinie Verhinderung lagerungsbedingter Schäden in der operativen Gynäkologie (AWMF 015-077), AWMF / DGGG. https://register.awmf.org/assets/guidelines/015-077l_S2k_Verhinderung_Lagerungssch%C3%A4den_Operationen_Gyn%C3%A4kologie_2021-01.pdf (abgerufen 2026-10-06)
-- **BCIS** – Factsheet Implantationssyndrom / BCIS, Heraeus Medical / PALACADEMY, PDF S. 1. https://www.heraeus-medical.com/dam/jcr:b107fb34-cb46-452f-b5e0-076c7946ee4c/palacademy-factsheet-implantationssyndrom.pdf (abgerufen 2026-10-07)
-- **AMBOSS** – Endoprothetik des Hüftgelenks (Zementhinweis), AMBOSS GmbH. https://www.amboss.com/de/wissen/endoprothetik-des-huftgelenks (abgerufen 2026-10-06)
+- **WHO** – Implementation Manual WHO Surgical Safety Checklist 2009, World Health Organization https://www.who.int/docs/default-source/patient-safety/9789241598590-eng.pdf
+- **APS** – Flyer „Jeder Tupfer zählt! Zählkontrolle ist Teamarbeit“, Aktionsbündnis Patientensicherheit e. V. https://www.aps-ev.de/wp-content/uploads/2024/06/flyer-JTZ.pdf
+- **KRINKO** – Prävention postoperativer Wundinfektionen, Bundesgesundheitsbl 2018;61:448–473, KRINKO am RKI. Abschnitt 4.1: S. 461 (PDF-S. 14): Antiseptikum-Ansammlung (II), flüssigkeitsundurchlässige Abdeckung (IB), nicht antiseptisch imprägnierte Inzisionsfolie (IB), Türen/Fluktuation (II). S. 462 (PDF-S. 15): Abdeckung vorbereiteter steriler Tische (II). Erläuterung: S. 455 (PDF-S. 8), Instrumentarium (Medizinprodukte). https://www.rki.de/DE/Themen/Infektionskrankheiten/Krankenhaushygiene/KRINKO/Empfehlungen-der-KRINKO/Device-assoziierte-postoperative-Infektionen/Downloads/Empf_postopWI.pdf?__blob=publicationFile&v=1
+- **KVWL** – Handlungsempfehlung Vermeidung einer Eingriffsverwechslung, 2. Auflage 2024, APS / KVWL https://www.kvwl.de/fileadmin/user_upload/pdf/Mitglieder/Qualitaetssicherung/Patientensicherheit/Vermeidung_einer_Eingriffsverwechslung.pdf
+- **LAG** – S2k-Leitlinie Verhinderung lagerungsbedingter Schäden in der operativen Gynäkologie (AWMF 015-077), AWMF / DGGG https://register.awmf.org/assets/guidelines/015-077l_S2k_Verhinderung_Lagerungssch%C3%A4den_Operationen_Gyn%C3%A4kologie_2021-01.pdf
+- **AMBOSS** – Endoprothetik des Hüftgelenks (Zementhinweis), AMBOSS GmbH https://www.amboss.com/de/wissen/endoprothetik-des-huftgelenks
+- **BCIS** – Factsheet Implantationssyndrom / BCIS, Heraeus Medical / PALACADEMY. PDF S. 1, Vorsichtsmaßnahmen Chirurgie Nr. 1: Anästhesie über jeden Schritt des Zementiervorgangs informieren. https://www.heraeus-medical.com/dam/jcr:b107fb34-cb46-452f-b5e0-076c7946ee4c/palacademy-factsheet-implantationssyndrom.pdf
+- **HEBU** – Einmal-Neutralelektroden – Gebrauchsanweisung GAHF113, HEBU medical GmbH. GAHF113V004 vom 20.02.2026, S. 6 §5.2 (Kontakt, Kontrolle nach Lageänderung, kein Flüssigkeitskontakt); S. 8 §6 (Brandrisiko); S. 9 §8. Produktbeispiel – Haus-NE-IFU maßgeblich. https://www.hebumedical.de/ga/GAHF113.pdf
 
-## Offen / nicht belegt
+## Offen
 - Neutralelektrode: Ort/Anlage laut Hersteller-IFU des Hauses – keine Normquelle ausgewertet.
 - Wärmemanagement: AWMF-S3 „Vermeidung perioperativer Hypothermie“ (001-018) nicht nachgelesen – deshalb ohne Quelle.
 - Strahlenschutz: Strahlenschutzanweisung des Hauses maßgeblich; keine Rechtsquelle ausgewertet.
@@ -167,24 +210,12 @@ Legende: ⚠️ hausabhängig · *(optional)* · 📖 Quelle nachgelesen · _nur
 - [ ] Was ihr bei Teamwechsel konkret macht
 - [ ] Übergabe-Inhalte Aufwachraum
 
-## Änderungen v1.2 (07.10.2026)
-Grundlage: Grok-Prüfung 2026-10-07-000-grundwissen-v1.1-grok.md (Git-Verlauf). Alte Version: Git-Verlauf. KRINKO-Seiten nach Astra (S. 461, Abschnitt 4.1).
-- Patientenidentität: WHO = Patientenbestätigung, Armband + Rückfrage laut KVWL
-- Anästhesie über jeden Zementierschritt informieren (Chip + Heike-Satz), neue Quelle BCIS
-- Abdeckung: jetzt belegt (KRINKO Kat. IB), flüssigkeitsundurchlässig, sobald Durchfeuchten nicht auszuschließen
-- Neu: Keine Antiseptikum-Pfützen (KRINKO Kat. II)
-- Sterile Tische: Seite 462 (v1.3); Inzisionsfolie: Text klarer; Zählung: Klingen laut Haus-Zählplan
-- Wärme, NE-Ort, Strahlenschutz bleiben offen (Grok Nr. 8–10)
-
-## Änderungen v1.3 (07.10.2026)
-Grundlage: KRINKO-Seitenklärung in 2026-10-07-001-hueft-tep-v1.1-grok.md (Git-Verlauf). Alte Version: Git-Verlauf.
-- Sterile Tische: Fundstelle S. 461 → **S. 462** (PDF-S. 15)
-
-## Änderungen v1.4 (07.10.2026)
-Grundlage: Lauf 000 (Grok + Astra, Julian ok).
-- Anästhesie vor Zement informieren: Quelle AMBOSS → **BCIS** (AMBOSS-Hinweis bleibt)
-- Heike-Satz „Zement geplant? …“: Quelle AMBOSS → **BCIS**
-- KRINKO-Fundstellen: Inzisionsfolie/Türen **S. 461**, sterile Tische S. 462, Erläuterung **S. 455**
+## Änderungen
+- **v1.1** (2026-10-07): Regel geändert (Julian): Dosierungen, Zement-Mischzeiten, HF-Werte und Implantatgrößen mit Quelle und Hinweis erlaubt.
+- **v1.2** (2026-10-07): Grok Nr. 1–7, 11 eingebaut; KRINKO-Seiten nach Astra (S. 461); Nr. 8–10 bleiben offen.
+- **v1.3** (2026-10-07): Sterile Tische: Fundstelle S. 461 → S. 462 (PDF-S. 15); q_krinko-Fundstellen bereinigt.
+- **v1.4** (2026-10-07): Zement-Chip und Heike-Satz Quelle q_amboss → q_bcis; q_krinko-Fundstellen (S. 461/462/455); sterile Tische Erläuterung S. 455.
+- **v1.5** (2026-10-07): Allgemeines aus 001 übernommen (14 Chips, u. a. Kabel sichern, Anschlüsse, scharfe Teile, Probekomponenten, Zementansage/-mischen/-überschuss, Kittel, Doppelhandschuhe optional, Antriebe, Prophylaxe, Anästhesieverfahren, NE vor Flüssigkeit, NE nach Umlagerung, Inzisionsfolie nach Hausplan); HF-Betriebsart, Sauger-Anzahl, Drainage, Implantat-Öffnen, Übergabe-Zählstatus und Allergie-Auslöser präzisiert; Quelle q_hebu neu.
 
 ---
 
@@ -195,7 +226,7 @@ _Maschinenlesbare Fassung desselben Pakets. Maßgeblich für den Import._
 {
  "paket": "heike-wissen-000",
  "typ": "grundwissen",
- "version": "1.4",
+ "version": "1.5",
  "stand": "2026-10-07",
  "autor": "Claude (KI) – Entwurf, Gegenprüfung (Grok/Astra) + klinisches Review Julian offen",
  "gilt_fuer_eingriffe": "alle",
@@ -340,7 +371,7 @@ _Maschinenlesbare Fassung desselben Pakets. Maßgeblich für den Import._
     "label": "Allergien/Unverträglichkeiten erfragt",
     "menge": null,
     "einheit": null,
-    "spez": "produktbezogen (z. B. Desinfektion, Latex, Pflaster)",
+    "spez": "konkrete Auslöser erfragen, z. B. Antiseptikum, Latex, Pflaster, Nickel/Metall, Knochenzement",
     "gilt_fuer": [
      "alle"
     ],
@@ -361,6 +392,20 @@ _Maschinenlesbare Fassung desselben Pakets. Maßgeblich für den Import._
     "sicherheit": "hausabhängig",
     "hausabhaengig": true,
     "quelle": null
+   },
+   {
+    "label": "Anästhesieverfahren laut Plan",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Verfahren und organisatorische Besonderheiten mit Anästhesie abstimmen; keine Empfehlung für eine Narkoseart."
    }
   ],
   "room": [
@@ -388,7 +433,8 @@ _Maschinenlesbare Fassung desselben Pakets. Maßgeblich für den Import._
     "optional": false,
     "sicherheit": "hausabhängig",
     "hausabhaengig": true,
-    "quelle": null
+    "quelle": null,
+    "hinweis": "Geplante Betriebsart mono-/bipolar und zugehöriges Zubehör vor Nutzung klären; Geräte-/Zubehör-IFU und Hausablauf beachten."
    },
    {
     "label": "Neutralelektrode",
@@ -418,8 +464,8 @@ _Maschinenlesbare Fassung desselben Pakets. Maßgeblich für den Import._
    },
    {
     "label": "Sauger funktionsgeprüft",
-    "menge": 1,
-    "einheit": "Stk",
+    "menge": null,
+    "einheit": null,
     "spez": null,
     "gilt_fuer": [
      "alle"
@@ -427,7 +473,8 @@ _Maschinenlesbare Fassung desselben Pakets. Maßgeblich für den Import._
     "optional": false,
     "sicherheit": "hausabhängig",
     "hausabhaengig": true,
-    "quelle": null
+    "quelle": null,
+    "hinweis": "Anzahl und Konfiguration nach Eingriff und Hausplan festlegen; Funktion, Anschlüsse und erforderliche Reserve prüfen. Weder ein noch zwei Systeme als allgemeine Pflichtmenge setzen."
    },
    {
     "label": "Wärmesystem",
@@ -519,6 +566,48 @@ _Maschinenlesbare Fassung desselben Pakets. Maßgeblich für den Import._
     "sicherheit": "hausabhängig",
     "hausabhaengig": true,
     "quelle": null
+   },
+   {
+    "label": "Doppelhandschuhe pro sterile Person",
+    "menge": 2,
+    "einheit": "Paare je sterile Person",
+    "spez": "Größen je Person",
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": true,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Nur wenn Doppelhandschuhe laut Risiko-/Hausplanung vorgesehen sind; Größen, Teamzahl und Wechselreserve festlegen. Keine allgemeine Zwei-Paar-Pflicht für jeden Eingriff."
+   },
+   {
+    "label": "Steriler OP-Kittel pro Person",
+    "menge": 1,
+    "einheit": "Stück je sterile Person",
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Ein Kittel je steril tätiger Person; Material/Schutzleistung und Reserven nach Hausplan."
+   },
+   {
+    "label": "Antriebe und Ersatzakkus",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": true,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Nur wenn Antriebe geplant; steriles Antriebskonzept und Ersatzakkus passend zu Gerät und IFU."
    }
   ],
   "position": [
@@ -625,6 +714,34 @@ _Maschinenlesbare Fassung desselben Pakets. Maßgeblich für den Import._
     "sicherheit": "hausabhängig",
     "hausabhaengig": true,
     "quelle": null
+   },
+   {
+    "label": "Mechanische Prophylaxe laut Plan",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": true,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Nur falls angeordnet; System und vorgesehene Extremität bestätigen. Keine pauschale Gegenbein-Anordnung und keine Medikamentenempfehlung."
+   },
+   {
+    "label": "NE-Kontakt nach Umlagerung",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "hf_mono"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": false,
+    "quelle": "q_hebu",
+    "hinweis": "HEBU verlangt erneute Kontrolle nach Änderung der Patientenlage. Produktbeispiel; tatsächliche NE-IFU maßgeblich."
    }
   ],
   "draping": [
@@ -694,6 +811,34 @@ _Maschinenlesbare Fassung desselben Pakets. Maßgeblich für den Import._
     "sicherheit": "belegt",
     "hausabhaengig": false,
     "quelle": "q_krinko"
+   },
+   {
+    "label": "Kabel und Schläuche sichern",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Sterilfeld, Bewegungsraum und ggf. Bildgebung freihalten; keine Zugbelastung."
+   },
+   {
+    "label": "Inzisionsfolie nur nach Hausplan",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": true,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Nur antiseptisch imprägnierte Folie, falls laut Hausplan vorgesehen; keine allgemeine Folienpflicht. Separate KRINKO-Regel gegen nicht antiseptisch imprägnierte Inzisionsfolie bleibt bestehen."
    }
   ],
   "count": [
@@ -839,6 +984,48 @@ _Maschinenlesbare Fassung desselben Pakets. Maßgeblich für den Import._
     "sicherheit": "belegt",
     "hausabhaengig": false,
     "quelle": "q_aps"
+   },
+   {
+    "label": "Scharfe Teile und Teilebruch prüfen",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Nadeln, Klingen, Sägeblätter sowie ablösbare Geräte-/Applikatorteile erfassen. Ungeöffnete Reserve nicht mit ans Sterilfeld gegebenem Material verwechseln."
+   },
+   {
+    "label": "Probekomponenten zurückführen",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "implantat"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Alle eingesetzten Trial-Teile nach Hausprotokoll auf Vollständigkeit prüfen; von Definitivimplantaten trennen."
+   },
+   {
+    "label": "Zementüberschuss gesondert prüfen",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "zement"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Kein pauschales Stückzählen von Zementresten. Operative Kontrolle auf unerwünschten Überschuss; beabsichtigte Zementfixation bleibt davon getrennt."
    }
   ],
   "implants": [
@@ -853,7 +1040,8 @@ _Maschinenlesbare Fassung desselben Pakets. Maßgeblich für den Import._
     "optional": false,
     "sicherheit": "hausabhängig",
     "hausabhaengig": true,
-    "quelle": null
+    "quelle": null,
+    "hinweis": "Vor Öffnen Komponente, gegebenenfalls Seite, System, Größe und ausdrücklich belegte Komponentenkompatibilität abgleichen; Ansage bestätigen lassen. Verpackung und Sterilität beachten. Offene Kompatibilität zuerst klären."
    },
    {
     "label": "Verpackung/Verfall prüfen",
@@ -933,6 +1121,48 @@ _Maschinenlesbare Fassung desselben Pakets. Maßgeblich für den Import._
     "sicherheit": "hausabhängig",
     "hausabhaengig": true,
     "quelle": null
+   },
+   {
+    "label": "Größenvorrat vorab prüfen",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "implantat"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Fehlende Größe mitten in der OP vermeiden – Lager/Leihset vorher mit der Planung abgleichen."
+   },
+   {
+    "label": "Zementansage rückbestätigen",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "zement"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Vorab festlegen, wer die Schritte ansagt. Beispiel: „Zement wird jetzt eingebracht“ – Rückmeldung der Anästhesie abwarten; bei fehlender Antwort unmittelbar klären. Konkrete Ansagen/Zuständigkeit laut Haus-SOP."
+   },
+   {
+    "label": "Zementmischen nur auf Ansage",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "zement"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Start und Dokumentation nach Hausablauf; ausschließlich aktuelle Produkt-/Mischsystem-IFU verwenden. Keine Mischzeit oder Zusatzrezeptur."
    }
   ],
   "workflow": [
@@ -1026,6 +1256,20 @@ _Maschinenlesbare Fassung desselben Pakets. Maßgeblich für den Import._
     "sicherheit": "belegt",
     "hausabhaengig": true,
     "quelle": "q_aps"
+   },
+   {
+    "label": "Anschlüsse vor Nutzung prüfen",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "HF, Absaugung und Antriebe nach Bedarf funktionsgerecht anschließen; Springer stellt bereit, keine Instrumentier- oder Operationstechnik."
    }
   ],
   "dressing": [
@@ -1053,7 +1297,8 @@ _Maschinenlesbare Fassung desselben Pakets. Maßgeblich für den Import._
     "optional": true,
     "sicherheit": "hausabhängig",
     "hausabhaengig": true,
-    "quelle": null
+    "quelle": null,
+    "hinweis": "Falls Drainage vorhanden: Fixierung/Beschriftung und passenden Anschluss zum Auffangsystem prüfen; Durchgängigkeit und Handhabung nach aktueller Produkt-IFU/Hausvorgabe kontrollieren."
    },
    {
     "label": "Neutralelektrode ab, Haut kontrolliert",
@@ -1092,7 +1337,8 @@ _Maschinenlesbare Fassung desselben Pakets. Maßgeblich für den Import._
     "optional": false,
     "sicherheit": "hausabhängig",
     "hausabhaengig": true,
-    "quelle": null
+    "quelle": null,
+    "hinweis": "Zählstatus und offene Besonderheiten strukturiert übergeben; eingriffsspezifische Inhalte stehen im Eingriffspaket."
    }
   ],
   "pitfalls": [
@@ -1200,6 +1446,20 @@ _Maschinenlesbare Fassung desselben Pakets. Maßgeblich für den Import._
     "hausabhaengig": false,
     "quelle": "q_krinko",
     "hinweis": "Einwirkzeit/Abtrocknen laut Antiseptikum-IFU; besonders vor monopolarer HF."
+   },
+   {
+    "label": "NE vor Flüssigkeit schützen",
+    "menge": null,
+    "einheit": null,
+    "spez": "Flüssigkeitskontakt und Eindringen unter die NE vermeiden.",
+    "gilt_fuer": [
+     "hf_mono"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": false,
+    "quelle": "q_hebu",
+    "hinweis": "HEBU GAHF113V004 als Produktbeispiel; maßgeblich ist die IFU der tatsächlich verwendeten NE."
    }
   ],
   "photos": [
@@ -1304,6 +1564,14 @@ _Maschinenlesbare Fassung desselben Pakets. Maßgeblich für den Import._
    "url": "https://www.heraeus-medical.com/dam/jcr:b107fb34-cb46-452f-b5e0-076c7946ee4c/palacademy-factsheet-implantationssyndrom.pdf",
    "abgerufen": "2026-10-07",
    "fundstelle": "PDF S. 1, Vorsichtsmaßnahmen Chirurgie Nr. 1: Anästhesie über jeden Schritt des Zementiervorgangs informieren."
+  },
+  {
+   "id": "q_hebu",
+   "titel": "Einmal-Neutralelektroden – Gebrauchsanweisung GAHF113",
+   "herausgeber": "HEBU medical GmbH",
+   "url": "https://www.hebumedical.de/ga/GAHF113.pdf",
+   "abgerufen": "2026-10-07",
+   "fundstelle": "GAHF113V004 vom 20.02.2026, S. 6 §5.2 (Kontakt, Kontrolle nach Lageänderung, kein Flüssigkeitskontakt); S. 8 §6 (Brandrisiko); S. 9 §8. Produktbeispiel – Haus-NE-IFU maßgeblich."
   }
  ],
  "offen": [
@@ -1345,6 +1613,12 @@ _Maschinenlesbare Fassung desselben Pakets. Maßgeblich für den Import._
    "datum": "2026-10-07",
    "grundlage": "Lauf 000: 000-grok + 000-astra (Astra: ÄNDERN, Nr. 2/6/8/9), Julian ok 07.10.2026",
    "was": "Zement-Chip und Heike-Satz Quelle q_amboss → q_bcis; q_krinko-Fundstellen (S. 461/462/455); sterile Tische Erläuterung S. 455."
+  },
+  {
+   "version": "1.5",
+   "datum": "2026-10-07",
+   "grundlage": "Lauf 001 (Grok + Astra, Julian-Abnahme 07.10.2026)",
+   "was": "Allgemeines aus 001 übernommen (14 Chips, u. a. Kabel sichern, Anschlüsse, scharfe Teile, Probekomponenten, Zementansage/-mischen/-überschuss, Kittel, Doppelhandschuhe optional, Antriebe, Prophylaxe, Anästhesieverfahren, NE vor Flüssigkeit, NE nach Umlagerung, Inzisionsfolie nach Hausplan); HF-Betriebsart, Sauger-Anzahl, Drainage, Implantat-Öffnen, Übergabe-Zählstatus und Allergie-Auslöser präzisiert; Quelle q_hebu neu."
   }
  ]
 }
