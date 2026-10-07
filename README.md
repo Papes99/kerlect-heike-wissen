@@ -17,7 +17,7 @@
 - **001-hueft-tep** — Hüft-TEP primär, baut auf 000 auf; Chips mit Mengen, Naht, Varianten (Fixation/Zugang).
 - 002 ff. folgen (z. B. Knie-TEP).
 
-Ablauf (ab 07.10.2026): Grok prüft offene Pakete → Ergebnis als Datei in `eingang/` → Claude prüft stündlich, legt einen Vorschlag in `aenderungen/` an und baut die „übernehmen“-Punkte **automatisch** als neue Paketversion ein (alte Version in `pakete/archiv/`) → **Astra prüft vor der Integration – nur über die eine Datei `pruefung/ASTRA.md`** (nur ungeprüfte Änderungen, nichts doppelt; Status in `pruefung/STATUS.json`) → Grok prüft die neue Version erneut. Punkte „Julian entscheidet“ (z. B. Implantat-Kombinationen) warten auf Julian.
+Ablauf (ab 07.10.2026, je Paket eine Runde, Dateinamen ohne Versionsnummer): **Claude** schreibt `pruefung/NNN-claude.md` (was geändert wird) → **Grok** prüft → `pruefung/NNN-grok.md` → **Astra** prüft NNN-claude **und** NNN-grok (Grok-Datei unverändert) → `pruefung/NNN-astra.md` (FREIGEGEBEN/ÄNDERN, Astra entscheidet abschließend) → **Claude** baut 1:1 ein, schickt Julian die Auflistung und entfernt die drei Arbeitsdateien – übrig bleibt nur das Paket. Nächstes Paket nur auf Julians Wort.
 
 ## Gegenprüfung
 
