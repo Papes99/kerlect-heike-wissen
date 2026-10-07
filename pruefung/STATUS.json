@@ -141,10 +141,10 @@
   }
  ],
  "astra_pause": "Julian 07.10.2026: Bis Paket 020 prüft Astra in jedem Lauf NUR die Implantate (Implantat-Suche + Implantat-Einbau: implantate/*, quellen-auftrag, Implantat-Punkte der Basis) – den übrigen Paketinhalt nicht. Läufe ohne Implantat-Bezug: kein Astra-Schritt. Nach 020 prüft Astra in EINEM Gesamtlauf alles (000–020 + implantate/*) → pruefung/gesamt-astra.md.",
- "app_regel": "Julian 07.10.2026: Astra programmiert – und nur in Kerlect (Base44-App „Kerlect“, ID 6aa3f64b0b23cc244ce7686d). Claude schreibt keinen App-Code in Kerlect; Claude liefert Daten (implantate/*, pakete/*), Vorgaben (app/*.md, app/implantat-eingriffe.json) und Prototypen. App-Auftrag Implantat-Tablett startet erst nach Abschluss von Lauf 001-implantate.",
+ "app_regel": "Julian 07.10.2026: Astra programmiert – und nur in Kerlect (Base44-App „Kerlect“, ID 6aa3f64b0b23cc244ce7686d). Claude schreibt keinen App-Code in Kerlect; Claude liefert Daten (implantate/*, pakete/*), Vorgaben (app/*.md, app/implantat-eingriffe.json) und Prototypen. App-Auftrag Implantat-Tablett: Start freigegeben 07.10.2026.",
  "app_auftrag": {
   "datei": "app/hueft-implantat-auswahl.md",
-  "start": "nach STATUS pakete.001-implantate.runde = abgeschlossen",
+  "start": "jetzt (Julian 07.10.2026) – mit aktuellem Datenstand; spätere Läufe (001-implantate, 001-implantate-dach) kommen ohne Codeänderung über die Daten dazu",
   "astra_ergebnis": "pruefung/app-astra.md"
  },
  "auswahl_regel": "Julian 07.10.2026: Implantat-Systeme werden nach Häufigkeit in DACH ausgewählt (Register: EPRD Deutschland, SIRIS Schweiz, Österreich), nicht nach einer einzelnen Klinik. „haus_systeme“ = aktuelle Auswahl häufiger DACH-Systeme; Hausbestand prüft jede Klinik selbst am Etikett."

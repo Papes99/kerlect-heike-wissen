@@ -2,7 +2,7 @@
 
 _Anweisung für Astra (Umsetzung in Kerlect) · Claude, 07.10.2026_
 
-**Astra programmiert, nur in Kerlect. Start erst, wenn Lauf 001-implantate abgeschlossen ist** (`pruefung/STATUS.json` → `pakete.001-implantate.runde = abgeschlossen`), damit Größen/REF/Regeln aus den geprüften Implantat-Dateien kommen.
+**Astra programmiert, nur in Kerlect. Start freigegeben (Julian, 07.10.2026)** mit dem aktuellen Datenstand. Die Läufe 001-implantate und 001-implantate-dach liefern danach weitere Größen/REF/Regeln und Systeme – das Tablett muss sie ohne Codeänderung übernehmen (Daten aus dem Repo laden).
 
 **Maßgeblich ist der klickbare Prototyp** `app/prototyp/hueft-implantat.html` (Live: https://claude.ai/artifact/TJH8LZJzkYndH88XUUjzpA) mit Screens `app/screens/prototyp-1.png` … `-9.png` und Video `app/screens/prototyp-ablauf.webm`. Die älteren Mockups `hueft-implantat-1…7.png` zeigen nur den Inhalt.
 
