@@ -1,10 +1,10 @@
 {
  "paket": "heike-wissen-001",
  "typ": "eingriff",
- "version": "1.2",
+ "version": "1.1",
  "stand": "2026-10-07",
  "basis": "heike-wissen-000",
- "autor": "Claude auf Grundlage Astras Zusammenführung (Grok + Claude); v1.1 nach Grok-, v1.2 nach Astra-Prüfung 07.10.2026; Astra-Prüfung vor Integration offen; klinisches Review durch Julian offen",
+ "autor": "Claude auf Grundlage Astras Zusammenführung (Grok + Claude); v1.1 nach Grok-Gegenprüfung 07.10.2026; Astra-Prüfung vor Integration offen; klinisches Review durch Julian offen",
  "eingriff": "Hüft-TEP (primär)",
  "synonyme": [
   "Hüft-TEP",
@@ -528,15 +528,15 @@
     "label": "Flüssigkeitsdichte Abdeckung",
     "menge": null,
     "einheit": null,
-    "spez": "Flüssigkeitsundurchlässig, sobald Durchfeuchten nicht auszuschließen ist (KRINKO Kat. IB).",
+    "spez": "Bei erwartetem Durchfeuchten flüssigkeitsundurchlässig (KRINKO Kat. IB)",
     "gilt_fuer": [
      "alle"
     ],
     "optional": false,
     "sicherheit": "belegt",
-    "hausabhaengig": false,
+    "hausabhaengig": true,
     "quelle": "Q_KRINKO",
-    "hinweis": "Konkretes Abdeckprodukt nach Hausstandard; die Schutzanforderung bleibt bestehen."
+    "hinweis": "Bei erwartetem Durchfeuchten flüssigkeitsdichte Abdeckung einsetzen."
    },
    {
     "label": "Kabel und Schläuche sichern",
@@ -1350,21 +1350,6 @@
     "hinweis": "Nicht nur einmal vor dem Einbringen: jeden Zementierschritt ansagen; BCIS-Vorsorge gemeinsam abstimmen."
    },
    {
-    "label": "Zementansage rückbestätigen",
-    "menge": null,
-    "einheit": null,
-    "spez": null,
-    "gilt_fuer": [
-     "zementiert",
-     "hybrid"
-    ],
-    "optional": false,
-    "sicherheit": "hausabhängig",
-    "hausabhaengig": true,
-    "quelle": null,
-    "hinweis": "Vorab festlegen, wer die Schritte ansagt. Beispiel: „Zement wird jetzt eingebracht“ – Rückmeldung der Anästhesie abwarten; bei fehlender Antwort unmittelbar klären. Konkrete Ansagen/Zuständigkeit laut Haus-SOP."
-   },
-   {
     "label": "Zementmischen nur auf Ansage",
     "menge": null,
     "einheit": null,
@@ -1524,21 +1509,6 @@
     "hausabhaengig": true,
     "quelle": null,
     "hinweis": "Beabsichtigt belassenes Material gesondert dokumentieren; Haus-Zählplan maßgeblich."
-   },
-   {
-    "label": "Stopper und Messhilfe unterscheiden",
-    "menge": null,
-    "einheit": null,
-    "spez": null,
-    "gilt_fuer": [
-     "zementiert",
-     "hybrid"
-    ],
-    "optional": false,
-    "sicherheit": "hausabhängig",
-    "hausabhaengig": true,
-    "quelle": null,
-    "hinweis": "Implantierter Stopper und temporäre Mess-/Einführteile getrennt führen. Beispiel: Stopper absichtlich im Markraum, Messhilfe wieder außerhalb. Eine dokumentierte Implantation erklärt keinen fehlenden Trial oder Instrumententeil; Haus-Zählplan und Produkt-IFU prüfen."
    }
   ],
   "dressing": [
@@ -1674,29 +1644,15 @@
     "label": "Alkoholansammlungen vermeiden",
     "menge": null,
     "einheit": null,
-    "spez": "Patient darf nicht in angesammeltem Hautantiseptikum liegen.",
+    "spez": "Keine Flüssigkeitsansammlung des Hautantiseptikums; NE nicht unter Flüssigkeit",
     "gilt_fuer": [
      "hf_mono"
     ],
     "optional": false,
     "sicherheit": "belegt",
-    "hausabhaengig": false,
+    "hausabhaengig": true,
     "quelle": "Q_KRINKO",
-    "hinweis": "Einwirkzeit und anschließende Trocknung laut IFU des verwendeten Antiseptikums prüfen; HF-Brandrisiko ergänzend Q_HEBU, Abschnitt 6. NE-Flüssigkeitsschutz getrennt belegen."
-   },
-   {
-    "label": "NE vor Flüssigkeit schützen",
-    "menge": null,
-    "einheit": null,
-    "spez": "Flüssigkeitskontakt und Eindringen unter die NE vermeiden.",
-    "gilt_fuer": [
-     "hf_mono"
-    ],
-    "optional": false,
-    "sicherheit": "belegt",
-    "hausabhaengig": false,
-    "quelle": "Q_HEBU",
-    "hinweis": "HEBU GAHF113V004 als Produktbeispiel; maßgeblich ist die IFU der tatsächlich verwendeten NE."
+    "hinweis": "Vor HF-Anwendung Einwirkzeit/Abtrocknen laut Antiseptikum-IFU. Brandrisiko durch entzündliche Hautpräparate ergänzend laut NE-IFU (Q_HEBU)."
    },
    {
     "label": "Größenvorrat vorab prüfen",
@@ -1860,9 +1816,9 @@
    "titel": "Prävention postoperativer Wundinfektionen",
    "herausgeber": "KRINKO am RKI",
    "url": "https://edoc.rki.de/bitstream/handle/176904/6416/Empf_postopWI.pdf?isAllowed=y&sequence=1",
-   "abgerufen": "2026-10-07",
-   "fundstelle": "2018, Bundesgesundheitsblatt 61:448–473, gedruckte S. 461 (PDF-S. 14), Abschnitt 4.1 Präoperativ und intraoperativ: Hautantiseptikum-Ansammlungen (Kat. II); flüssigkeitsundurchlässige Abdeckung bei nicht ausschließbarem Durchfeuchten (Kat. IB).",
-   "pruefung": "Originaltext und gerenderte Seite am 07.10.2026 von Astra geprüft."
+   "abgerufen": "2026-10-06",
+   "fundstelle": "2018, Bundesgesundheitsblatt 61:448–473, S. 461, Abschnitt 4.2.4 Abdeckung. Keine generelle Positivempfehlung für imprägnierte Folie. Zusätzlich Kat. II: keine Flüssigkeitsansammlung des Hautantiseptikums (laut Grok-Prüfung 07.10.2026 S. 460; Seite 460/461 am PDF bestätigen).",
+   "pruefung": "Dokument/Seite geöffnet, angegebene Aussage im Text geprüft am 2026-10-06."
   },
   {
    "id": "Q_LINK",
@@ -1890,15 +1846,6 @@
    "abgerufen": "2026-10-06",
    "fundstelle": "GAHF113V004 vom 20.02.2026, Abschnitte Anwendung/Anbringen und Warnhinweise: monopolarer Einsatz, Kontaktkontrolle, Brandrisiko. Nur für kompatible Produkte; tatsächliche Haus-IFU prüfen.",
    "pruefung": "Dokument/Seite geöffnet, angegebene Aussage im Text geprüft am 2026-10-06."
-  },
-  {
-   "id": "Q_STRYKER_ACCII",
-   "titel": "Accolade II Femoral Hip System – Surgical protocol",
-   "herausgeber": "Stryker / Howmedica Osteonics Corp.",
-   "url": "https://cdn.stryker.com/SYKGCSDOC-2-45343",
-   "abgerufen": "2026-10-07",
-   "fundstelle": "ACCII-SP-1_Rev-4_34423, © 2022; S. 3: EU-Indikationen; S. 12: Ausschluss Hemiarthroplastik in EU; Dokumentcode S. 25.",
-   "pruefung": "Über die deutsche Stryker-Produktseite geöffnet und Originalstellen am 07.10.2026 von Astra geprüft. Vor Anwendung aktuelle produktbezogene EU-IFU/Herstellerdokumente prüfen."
   }
  ],
  "offen": [
@@ -1909,7 +1856,7 @@
   "Mengen der Ausgangslieferungen unterscheiden sich; Entscheidungen und Ausschlüsse stehen in BEWERTUNG.md.",
   "Keine Bilder enthalten; Fotos benötigen separate Hausfreigabe und einen Aufbau ohne Patientendaten.",
   "Das C-Schema ist ein Wissensformat, kein nachgewiesener Direktimport für Heike. Es wurde kein App-Import durchgeführt.",
-  "Implantate: Mathys-Werte offen (kein Herstellerdokument lesbar). Accolade II ist laut Q_STRYKER_ACCII (Rev-4, 2022, S. 3/12) in der EU nicht für Hemiarthroplastik indiziert; keine Kopf-Schaft-Kombination über Hersteller hinweg ableiten."
+  "Implantate: Mathys-Werte offen (kein Herstellerdokument lesbar). Laut Grok (Accolade II Surgical Protocol ACCII-SP-1 Rev-4, S. 3/12) ist Accolade II in der EU nicht für Hemiarthroplastik indiziert – Haus-Kombi Stryker-Duokopf + Schaft klären."
  ],
  "julian_pruefen": [
   "Eingriffsscope primäre Hüft-TEP bestätigen; keine Revision/Hemiendoprothese.",
@@ -1927,7 +1874,7 @@
   "Hygieneplan, Antiseptikum, Folienentscheidung und Flüssigkeitsmanagement prüfen.",
   "Transfer, Bewegungsvorgaben und Übergabeinhalte hausbezogen bestätigen.",
   "Vor späterem App-Einsatz Datenadapter prüfen: Mengen, Stärke, Nadel, Schicht, Variante, Herkunft und Auswahl müssen erhalten bleiben; nur explizit gewählte Inhalte speichern.",
-  "Nur Rückfrage außerhalb des Primär-TEP-Scope: Wie heißen Duokopf, Innenkopf und Schaft genau? Bitte Hersteller, Produktlinie, REF und aktuelle EU-IFU nennen. Zur Identifikation: Steht auf der Schaftpackung Accolade II, Accolade TMZF, Exeter oder twinSys? Dies sind keine freigegebenen Kombinationsvorschläge. Accolade II ist laut Q_STRYKER_ACCII (Rev-4, 2022, S. 3/12) in der EU nicht für Hemiarthroplastik indiziert. Auch eine Mathys-Bipolarkopf/twinSys-Kombination bleibt ohne konkreten Herstellerbeleg offen; keine Kombination über Hersteller hinweg ableiten."
+  "Stryker-Duokopf: auf welchem Schaft? z. B. Accolade II, Accolade TMZF, Exeter (zementiert) oder Hemi mit Mathys Bipolarkopf auf twinSys."
  ],
  "aus_000_uebernommen": [
   "Sign-in/Time-out/Sign-out",
@@ -1953,21 +1900,6 @@
     "offen/julian_pruefen: Accolade-II-Hemi, Mathys offen"
    ],
    "nachpruefung": "Claude konnte Quellen nicht selbst öffnen (gesperrt); Astra prüft vor Integration"
-  },
-  {
-   "version": "1.2",
-   "datum": "2026-10-07",
-   "grundlage": "eingang/2026-10-07-001-hueft-tep-v1.1-astra.md (FEHLER)",
-   "vorschlag": "aenderungen/2026-10-07-001-hueft-tep-vorschlag-2.md",
-   "aenderungen": [
-    "draping Abdeckung: K2 – sobald Durchfeuchten nicht auszuschließen, hausabhaengig false",
-    "pitfalls Alkohol: K5a – Q_KRINKO nur Antiseptikum; neu K5b „NE vor Flüssigkeit schützen“ (Q_HEBU)",
-    "julian_pruefen Duokopf: K8 neutral, Hemi-Grenze genannt",
-    "Q_KRINKO: K9 Fundstelle S. 461 Abschnitt 4.1",
-    "neu Q_STRYKER_ACCII; offen ohne „laut Grok“",
-    "neu workflow P1 „Zementansage rückbestätigen“; count P2 „Stopper und Messhilfe unterscheiden“"
-   ],
-   "nachpruefung": "Astra prüft v1.2 vor Integration"
   }
  ]
 }

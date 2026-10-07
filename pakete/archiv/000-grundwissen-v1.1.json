@@ -1,7 +1,7 @@
 {
  "paket": "heike-wissen-000",
  "typ": "grundwissen",
- "version": "1.2",
+ "version": "1.1",
  "stand": "2026-10-07",
  "autor": "Claude (KI) – Entwurf, Gegenprüfung (Grok/Astra) + klinisches Review Julian offen",
  "gilt_fuer_eingriffe": "alle",
@@ -80,15 +80,14 @@
     "label": "Patientenidentität geprüft",
     "menge": null,
     "einheit": null,
-    "spez": "Patient bestätigt Identität (WHO); Armband + aktive Rückfrage zusätzlich (KVWL/APS)",
+    "spez": "Armband + Rückfrage",
     "gilt_fuer": [
      "alle"
     ],
     "optional": false,
     "sicherheit": "belegt",
     "hausabhaengig": false,
-    "quelle": "q_who",
-    "hinweis": "Armband steht nicht in der WHO-Checkliste; Armband + Rückfrage laut q_kvwl."
+    "quelle": "q_who"
    },
    {
     "label": "Eingriffsort markiert und sichtbar",
@@ -445,8 +444,7 @@
     "optional": false,
     "sicherheit": "belegt",
     "hausabhaengig": false,
-    "quelle": "q_krinko",
-    "hinweis": "KRINKO S. 461 Kat. II; Erläuterung S. 454."
+    "quelle": "q_krinko"
    },
    {
     "label": "Hautdesinfektion laut Haus",
@@ -465,21 +463,20 @@
     "label": "Abdeckung flüssigkeitsdicht",
     "menge": null,
     "einheit": null,
-    "spez": "Flüssigkeitsundurchlässig, sobald Durchfeuchten nicht auszuschließen ist (KRINKO Kat. IB).",
+    "spez": "passend zum Eingriff",
     "gilt_fuer": [
      "alle"
     ],
     "optional": false,
-    "sicherheit": "belegt",
-    "hausabhaengig": false,
-    "quelle": "q_krinko",
-    "hinweis": "Konkretes Abdeckprodukt nach Hausstandard; die Schutzanforderung bleibt bestehen."
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null
    },
    {
     "label": "Keine nicht imprägnierte Inzisionsfolie",
     "menge": null,
     "einheit": null,
-    "spez": "nicht antiseptisch imprägnierte Folien nicht verwenden (Kat. IB)",
+    "spez": null,
     "gilt_fuer": [
      "alle"
     ],
@@ -585,7 +582,7 @@
     "label": "Nadeln, Klingen, Clips, Drahtteile",
     "menge": null,
     "einheit": null,
-    "spez": "Nadeln, Clips, Drahtteile; Instrumente/Klingen laut Haus-Zählplan",
+    "spez": null,
     "gilt_fuer": [
      "alle"
     ],
@@ -704,15 +701,14 @@
     "label": "Anästhesie vor Zement informieren",
     "menge": null,
     "einheit": null,
-    "spez": "Anästhesie über jeden Schritt des Zementiervorgangs informieren",
+    "spez": null,
     "gilt_fuer": [
      "zement"
     ],
     "optional": false,
     "sicherheit": "belegt",
     "hausabhaengig": false,
-    "quelle": "q_amboss",
-    "hinweis": "AMBOSS: vor Einbringen; q_bcis: jeden Zementierschritt."
+    "quelle": "q_amboss"
    },
    {
     "label": "Zement nach Hersteller-IFU",
@@ -992,20 +988,6 @@
     "sicherheit": "belegt",
     "hausabhaengig": false,
     "quelle": "q_amboss"
-   },
-   {
-    "label": "Keine Antiseptikum-Pfützen",
-    "menge": null,
-    "einheit": null,
-    "spez": "Patient darf nicht in angesammeltem Hautantiseptikum liegen.",
-    "gilt_fuer": [
-     "alle"
-    ],
-    "optional": false,
-    "sicherheit": "belegt",
-    "hausabhaengig": false,
-    "quelle": "q_krinko",
-    "hinweis": "Einwirkzeit/Abtrocknen laut Antiseptikum-IFU; besonders vor monopolarer HF."
    }
   ],
   "photos": [
@@ -1042,7 +1024,7 @@
    "quelle": "q_krinko"
   },
   {
-   "text": "Zement geplant? Anästhesie über jeden Zementierschritt informieren.",
+   "text": "Zement geplant? Sag der Anästhesie vor dem Einbringen Bescheid.",
    "quelle": "q_amboss"
   },
   {
@@ -1078,8 +1060,7 @@
    "titel": "Prävention postoperativer Wundinfektionen, Bundesgesundheitsbl 2018;61:448–473",
    "herausgeber": "KRINKO am RKI",
    "url": "https://www.rki.de/DE/Themen/Infektionskrankheiten/Krankenhaushygiene/KRINKO/Empfehlungen-der-KRINKO/Device-assoziierte-postoperative-Infektionen/Downloads/Empf_postopWI.pdf?__blob=publicationFile&v=1",
-   "abgerufen": "2026-10-06",
-   "fundstelle": "S. 460 Kat. IB (keine nicht imprägnierte Inzisionsfolie), S. 460 Kat. II (Türen/Fluktuation), S. 461 Abschnitt 4.1 (Antiseptikum-Ansammlung Kat. II; flüssigkeitsundurchlässige Abdeckung Kat. IB; sterile Tische Kat. II), Erläuterung S. 454."
+   "abgerufen": "2026-10-06"
   },
   {
    "id": "q_kvwl",
@@ -1102,14 +1083,6 @@
    "herausgeber": "AMBOSS GmbH",
    "url": "https://www.amboss.com/de/wissen/endoprothetik-des-huftgelenks",
    "abgerufen": "2026-10-06"
-  },
-  {
-   "id": "q_bcis",
-   "titel": "Factsheet Implantationssyndrom / BCIS",
-   "herausgeber": "Heraeus Medical / PALACADEMY",
-   "url": "https://www.heraeus-medical.com/dam/jcr:b107fb34-cb46-452f-b5e0-076c7946ee4c/palacademy-factsheet-implantationssyndrom.pdf",
-   "abgerufen": "2026-10-07",
-   "fundstelle": "PDF S. 1, Vorsichtsmaßnahmen Chirurgie Nr. 1: Anästhesie über jeden Schritt des Zementiervorgangs informieren."
   }
  ],
  "offen": [
@@ -1132,13 +1105,6 @@
    "version": "1.1",
    "datum": "2026-10-07",
    "was": "Regel geändert (Julian): Dosierungen, Zement-Mischzeiten, HF-Werte und Implantatgrößen mit Quelle und Hinweis erlaubt."
-  },
-  {
-   "version": "1.2",
-   "datum": "2026-10-07",
-   "grundlage": "eingang/2026-10-07-000-grundwissen-v1.1-grok.md",
-   "vorschlag": "aenderungen/2026-10-07-000-grundwissen-vorschlag.md",
-   "was": "Grok Nr. 1–7, 11 eingebaut; KRINKO-Seiten nach Astra (S. 461); Nr. 8–10 bleiben offen."
   }
  ]
 }

@@ -1,6 +1,6 @@
 # Heike-Wissen 001 – Hüft-TEP (primär)
 
-_Version 1.2 · 07.10.2026 · baut auf Paket 000 auf · nach Grok- und Astra-Prüfung · Astra-Prüfung v1.2 vor Integration offen · klinisches Review durch Julian offen_
+_Version 1.1 · 07.10.2026 · baut auf Paket 000 auf · nach Grok-Gegenprüfung · Astra-Prüfung vor Integration offen · klinisches Review durch Julian offen_
 
 Allgemeines (Time-out, Zählregeln, Markierung, Inzisionsfolie, Hautantiseptik, Heike-Regeln) steht in **Paket 000** und wird hier nicht wiederholt.
 
@@ -45,7 +45,7 @@ Legende: ⚠️ hausabhängig · *(optional)* · 📖 Quelle nachgelesen · _nur
 - **Hüft-/Extremitäten-Abdeckset** ⚠️
 - **Beinschlauch oder Beinsack** ⚠️
 - 1 Stück **Inzisionsfolie nur nach Hausplan** *(optional)* ⚠️
-- **Flüssigkeitsdichte Abdeckung** (flüssigkeitsundurchlässig, sobald Durchfeuchten nicht auszuschließen ist, Kat. IB; Produkt laut Haus) 📖 KRINKO
+- **Flüssigkeitsdichte Abdeckung** (bei erwartetem Durchfeuchten flüssigkeitsundurchlässig, Kat. IB) ⚠️ 📖 KRINKO
 - **Kabel und Schläuche sichern** ⚠️
 
 ## 5. Siebe & Zusatzinstrumente `trays`
@@ -112,7 +112,6 @@ Legende: ⚠️ hausabhängig · *(optional)* · 📖 Quelle nachgelesen · _nur
 - **Steriles Zubehör auf Ansage reichen** ⚠️
 - **Zementvorbereitung abstimmen** — _nur zementiert, hybrid_ ⚠️
 - **Anästhesie vor Zement informieren** (über jeden Zementierschritt) — _nur zementiert, hybrid_ 📖 BCIS
-- **Zementansage rückbestätigen** (z. B. „Zement wird jetzt eingebracht“ – Antwort der Anästhesie abwarten) — _nur zementiert, hybrid_ ⚠️
 - **Zementmischen nur auf Ansage** — _nur zementiert, hybrid_ ⚠️
 - **Definitivimplantat bestätigt öffnen** ⚠️
 - **Verschlussmaterial abstimmen** ⚠️
@@ -125,7 +124,6 @@ Legende: ⚠️ hausabhängig · *(optional)* · 📖 Quelle nachgelesen · _nur
 - **Zementüberschuss gesondert prüfen** — _nur zementiert, hybrid_ ⚠️
 - **Implantatetiketten dokumentieren** ⚠️
 - **Markraumstopper mitzählen** — _nur zementiert, hybrid_ ⚠️
-- **Stopper und Messhilfe unterscheiden** (Stopper bleibt drin, Messhilfe raus; erklärt keinen fehlenden Trial) — _nur zementiert, hybrid_ ⚠️
 - **Zeit- und Bildgebungsdokumentation** — _nur zementiert, hybrid, bildwandler_ *(optional)* ⚠️
 
 ## 11. Verband & Ausleitung `dressing`
@@ -140,8 +138,7 @@ Legende: ⚠️ hausabhängig · *(optional)* · 📖 Quelle nachgelesen · _nur
 - **Keine unbestätigte Systemmischung** ⚠️
 - **Fixation nicht aus Hybrid erraten** ⚠️
 - **Konkrete Unverträglichkeiten klären** ⚠️
-- **Alkoholansammlungen vermeiden** (Patient nicht in angesammeltem Hautantiseptikum) — _nur hf_mono_ 📖 KRINKO
-- **NE vor Flüssigkeit schützen** (kein Flüssigkeitskontakt, nichts unter die NE; IFU der Haus-NE) — _nur hf_mono_ 📖 HEBU
+- **Alkoholansammlungen vermeiden** (keine Pfützen Hautantiseptikum, NE nicht unter Flüssigkeit) — _nur hf_mono_ ⚠️ 📖 KRINKO
 - **Größenvorrat vorab prüfen** ⚠️
 
 ## 13. Fotos `photos`
@@ -171,7 +168,6 @@ Legende: ⚠️ hausabhängig · *(optional)* · 📖 Quelle nachgelesen · _nur
 - Probekomponenten, Zähldifferenzen und Implantatdokumentation
 
 ## Quellen
-- **STRYKER_ACCII** – Accolade II Femoral Hip System – Surgical protocol, ACCII-SP-1_Rev-4_34423 © 2022, S. 3/12. https://cdn.stryker.com/SYKGCSDOC-2-45343
 - **AMBOSS** – Endoprothetik des Hüftgelenks. https://www.amboss.com/de/wissen/endoprothetik-des-huftgelenks
 - **KRINKO** – Prävention postoperativer Wundinfektionen. https://edoc.rki.de/bitstream/handle/176904/6416/Empf_postopWI.pdf?isAllowed=y&sequence=1
 - **LINK** – Direct Anterior Approach – Operationstechnik (herstellerspezifisch). https://www.link-ortho.com/fileadmin_atl/user_upload/Global_LINK_Website/Products/PDFs/DE/615_DAA_OP_de_2022-06_003_MAR-01209.pdf
@@ -179,7 +175,7 @@ Legende: ⚠️ hausabhängig · *(optional)* · 📖 Quelle nachgelesen · _nur
 - **HEBU** – Einmal-Neutralelektroden Gebrauchsanweisung GAHF113. https://www.hebumedical.de/ga/GAHF113.pdf
 
 ## Offen
-- Implantate: Mathys-Werte offen (kein Herstellerdokument lesbar). Accolade II ist laut Q_STRYKER_ACCII (Rev-4, 2022, S. 3/12) in der EU nicht für Hemiarthroplastik indiziert; keine Kopf-Schaft-Kombination über Hersteller hinweg ableiten.
+- Implantate: Mathys-Werte offen (kein Herstellerdokument lesbar). Laut Grok (Accolade II Surgical Protocol ACCII-SP-1 Rev-4, S. 3/12) ist Accolade II in der EU nicht für Hemiarthroplastik indiziert – Haus-Kombi Stryker-Duokopf + Schaft klären.
 - Status: redaktionell geprüftes Zusammenführungspaket, klinischer Entwurf; keine Freigabe durch Julian erfolgt.
 - Keine Quelle belegt die konkreten Vorratsmengen oder die Nahtartikel dieser Lieferungen als allgemeinen Hüft-TEP-Standard.
 - Alle nicht genannten Nadeln/Artikelnummern bleiben offen; keine Ergänzung aus Vermutung.
@@ -189,7 +185,7 @@ Legende: ⚠️ hausabhängig · *(optional)* · 📖 Quelle nachgelesen · _nur
 - Das C-Schema ist ein Wissensformat, kein nachgewiesener Direktimport für Heike. Es wurde kein App-Import durchgeführt.
 
 ## Julian bitte prüfen
-- [ ] Nur Rückfrage außerhalb des Primär-TEP-Scope: Wie heißen Duokopf, Innenkopf und Schaft genau? Bitte Hersteller, Produktlinie, REF und aktuelle EU-IFU nennen. Zur Identifikation: Steht auf der Schaftpackung Accolade II, Accolade TMZF, Exeter oder twinSys? Dies sind keine freigegebenen Kombinationsvorschläge. Accolade II ist laut Q_STRYKER_ACCII (Rev-4, 2022, S. 3/12) in der EU nicht für Hemiarthroplastik indiziert. Auch eine Mathys-Bipolarkopf/twinSys-Kombination bleibt ohne konkreten Herstellerbeleg offen; keine Kombination über Hersteller hinweg ableiten.
+- [ ] Stryker-Duokopf: auf welchem Schaft? z. B. Accolade II, Accolade TMZF, Exeter (zementiert) oder Hemi mit Mathys Bipolarkopf auf twinSys.
 - [ ] Eingriffsscope primäre Hüft-TEP bestätigen; keine Revision/Hemiendoprothese.
 - [ ] Fixation von Pfanne und Schaft sowie Zugang bestätigen; Hybridbegriff und Reverse-Hybrid-Abgrenzung prüfen.
 - [ ] Lagerung, Stützen, Tisch/Beinhalter und Bewegungsraum je Hauszugang freigeben.
@@ -215,11 +211,3 @@ Grundlage: Grok-Gegenprüfung (`eingang/2026-10-07-001-hueft-tep-grok.md`), Vors
 - Neu: Markraumstopper mitzählen
 - Offen/Julian: Accolade-II-Hemi, Mathys
 - Quellen von Claude nicht selbst geöffnet (gesperrt); **Astra prüft vor Integration**.
-
-## Änderungen v1.2 (07.10.2026)
-Grundlage: Astra-Prüfung `eingang/2026-10-07-001-hueft-tep-v1.1-astra.md` (FEHLER). Alte Version: `pakete/archiv/001-hueft-tep-v1.1.*`.
-- Abdeckung: flüssigkeitsundurchlässig, sobald Durchfeuchten nicht auszuschließen (KRINKO S. 461, Abschnitt 4.1)
-- Alkoholansammlungen: nur Antiseptikum-Regel (KRINKO); neu getrennt „NE vor Flüssigkeit schützen“ (HEBU)
-- Duokopf-Rückfrage neutral, Hemi-Grenze Accolade II genannt (Stryker ACCII-SP-1)
-- KRINKO-Fundstelle bestätigt (S. 461, PDF-S. 14); neue Quelle Stryker ACCII-SP-1
-- Neu (Praxis, hausabhängig): Zementansage rückbestätigen; Stopper und Messhilfe unterscheiden

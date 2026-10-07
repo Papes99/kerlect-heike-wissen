@@ -1,6 +1,6 @@
 # Heike-Wissen 000 – Grundwissen für alle Eingriffe
 
-_Version 1.2 · 07.10.2026 · nach Grok-Prüfung · Astra-Prüfung vor Integration offen · klinisches Review offen_
+_Version 1.1 · 07.10.2026 · Entwurf Claude · Gegenprüfung und klinisches Review offen_
 
 Paket 000 ist das gemeinsame Fundament: Es gilt bei **jedem** Eingriff. Die Eingriffspakete (001 Hüft-TEP …) ergänzen es.
 
@@ -37,7 +37,7 @@ Legende: ⚠️ hausabhängig · *(optional)* · 📖 Quelle nachgelesen · _nur
 - `notfall` – Notfalleingriff
 
 ## Eckdaten & Sicherheit `facts`
-- Patientenidentität geprüft (Patient bestätigt Identität; Armband + aktive Rückfrage zusätzlich laut KVWL) 📖 WHO · KVWL
+- Patientenidentität geprüft (Armband + Rückfrage) 📖 WHO
 - Eingriffsort markiert und sichtbar (Markierung nach Lagerung/Abdeckung prüfbar) 📖 KVWL
 - Sign-in (vor Narkoseeinleitung) 📖 WHO
 - Team-Time-out (vor dem Schnitt, hörbar, ganzes Team) 📖 WHO
@@ -70,10 +70,10 @@ Legende: ⚠️ hausabhängig · *(optional)* · 📖 Quelle nachgelesen · _nur
 - Lagerung dokumentiert ⚠️
 
 ## Desinfektion & Abdeckung `draping`
-- Sterile Tische erst kurz vor Beginn (bis Schnitt steril abgedeckt; S. 461) 📖 KRINKO
+- Sterile Tische erst kurz vor Beginn (bis Schnitt steril abgedeckt) 📖 KRINKO
 - Hautdesinfektion laut Haus (Produkt + Einwirkzeit nach IFU) ⚠️
-- Abdeckung flüssigkeitsdicht (flüssigkeitsundurchlässig, sobald Durchfeuchten nicht auszuschließen ist, Kat. IB; Produkt laut Haus) 📖 KRINKO
-- Keine nicht imprägnierte Inzisionsfolie (nicht antiseptisch imprägnierte Folien nicht verwenden, Kat. IB) *(optional)* 📖 KRINKO
+- Abdeckung flüssigkeitsdicht (passend zum Eingriff) ⚠️
+- Keine nicht imprägnierte Inzisionsfolie *(optional)* 📖 KRINKO
 - Türbewegungen/Saalverkehr gering 📖 KRINKO
 
 ## Zählkontrolle & Dokumentation `count`
@@ -83,7 +83,7 @@ Legende: ⚠️ hausabhängig · *(optional)* · 📖 Quelle nachgelesen · _nur
 - Zählen vor Wund-/Höhlenverschluss (Zeitpunkte laut Haus-Zählplan) ⚠️ 📖 APS
 - Abschlusszählung + Entsorgungskontrolle 📖 APS
 - Kompressen, Tupfer, Bauchtücher (röntgenkontrastgestreift) 📖 APS
-- Nadeln, Klingen, Clips, Drahtteile (Nadeln, Clips, Drahtteile; Instrumente/Klingen laut Haus-Zählplan) 📖 APS
+- Nadeln, Klingen, Clips, Drahtteile 📖 APS
 - Instrumente + Zusatzinstrumente 📖 APS
 - Beabsichtigt belassenes Material doku (z. B. Tamponade, Drainage, Implantat) 📖 APS
 - Differenz: STOPP + sofort melden (weiteres Vorgehen laut Operateur/Haus) ⚠️ 📖 APS
@@ -94,7 +94,7 @@ Legende: ⚠️ hausabhängig · *(optional)* · 📖 Quelle nachgelesen · _nur
 - Verpackung/Verfall prüfen — _nur Implantat geplant_
 - Implantat-Etiketten in Doku — _nur Implantat geplant_ ⚠️
 - Implantatpass laut Haus — _nur Implantat geplant_ ⚠️
-- Anästhesie vor Zement informieren (über jeden Zementierschritt) — _nur Knochenzement geplant_ 📖 AMBOSS · BCIS
+- Anästhesie vor Zement informieren — _nur Knochenzement geplant_ 📖 AMBOSS
 - Zement nach Hersteller-IFU (Mischzeit je Produkt laut IFU, temperaturabhängig) — _nur Knochenzement geplant_ ⚠️
 - Medikamente am Tisch nur laut Anordnung (Dosis nur mit Quelle + „laut Anordnung prüfen“) ⚠️
 
@@ -122,7 +122,6 @@ Legende: ⚠️ hausabhängig · *(optional)* · 📖 Quelle nachgelesen · _nur
 - Tische zu früh offen 📖 KRINKO
 - Neutralelektrode über Metall/Narbe — _nur monopolare HF-Chirurgie_
 - Zement ohne Anästhesie-Ansage — _nur Knochenzement geplant_ 📖 AMBOSS
-- Keine Antiseptikum-Pfützen (Patient nicht in angesammeltem Hautantiseptikum) 📖 KRINKO
 
 ## Fotos `photos`
 - Foto Tischaufbau ohne Patient (keine Personen, keine Identifikatoren) *(optional)*
@@ -132,7 +131,7 @@ Legende: ⚠️ hausabhängig · *(optional)* · 📖 Quelle nachgelesen · _nur
 - „Ergänztes Material gleich mitzählen – vier Augen.“ 📖 APS
 - „Teamwechsel? Dann wird gezählt, bevor übergeben wird.“ 📖 APS
 - „Sterile Tische erst kurz vor Beginn öffnen und bis zum Schnitt abdecken.“ 📖 KRINKO
-- „Zement geplant? Anästhesie über jeden Zementierschritt informieren.“ 📖 AMBOSS · BCIS
+- „Zement geplant? Sag der Anästhesie vor dem Einbringen Bescheid.“ 📖 AMBOSS
 - „Implantat erst auf Ansage öffnen – Typ, Seite und Größe laut wiederholen.“
 
 ## Abschluss-Check (typische Lücken)
@@ -149,7 +148,6 @@ Legende: ⚠️ hausabhängig · *(optional)* · 📖 Quelle nachgelesen · _nur
 - **KRINKO** – Prävention postoperativer Wundinfektionen, Bundesgesundheitsbl 2018;61:448–473, KRINKO am RKI. https://www.rki.de/DE/Themen/Infektionskrankheiten/Krankenhaushygiene/KRINKO/Empfehlungen-der-KRINKO/Device-assoziierte-postoperative-Infektionen/Downloads/Empf_postopWI.pdf?__blob=publicationFile&v=1 (abgerufen 2026-10-06)
 - **KVWL** – Handlungsempfehlung Vermeidung einer Eingriffsverwechslung, 2. Auflage 2024, APS / KVWL. https://www.kvwl.de/fileadmin/user_upload/pdf/Mitglieder/Qualitaetssicherung/Patientensicherheit/Vermeidung_einer_Eingriffsverwechslung.pdf (abgerufen 2026-10-06)
 - **LAG** – S2k-Leitlinie Verhinderung lagerungsbedingter Schäden in der operativen Gynäkologie (AWMF 015-077), AWMF / DGGG. https://register.awmf.org/assets/guidelines/015-077l_S2k_Verhinderung_Lagerungssch%C3%A4den_Operationen_Gyn%C3%A4kologie_2021-01.pdf (abgerufen 2026-10-06)
-- **BCIS** – Factsheet Implantationssyndrom / BCIS, Heraeus Medical / PALACADEMY, PDF S. 1. https://www.heraeus-medical.com/dam/jcr:b107fb34-cb46-452f-b5e0-076c7946ee4c/palacademy-factsheet-implantationssyndrom.pdf (abgerufen 2026-10-07)
 - **AMBOSS** – Endoprothetik des Hüftgelenks (Zementhinweis), AMBOSS GmbH. https://www.amboss.com/de/wissen/endoprothetik-des-huftgelenks (abgerufen 2026-10-06)
 
 ## Offen / nicht belegt
@@ -166,12 +164,3 @@ Legende: ⚠️ hausabhängig · *(optional)* · 📖 Quelle nachgelesen · _nur
 - [ ] Neutralelektrode-Regeln
 - [ ] Was ihr bei Teamwechsel konkret macht
 - [ ] Übergabe-Inhalte Aufwachraum
-
-## Änderungen v1.2 (07.10.2026)
-Grundlage: Grok-Prüfung `eingang/2026-10-07-000-grundwissen-v1.1-grok.md`. Alte Version: `pakete/archiv/000-grundwissen-v1.1.*`. KRINKO-Seiten nach Astra (S. 461, Abschnitt 4.1).
-- Patientenidentität: WHO = Patientenbestätigung, Armband + Rückfrage laut KVWL
-- Anästhesie über jeden Zementierschritt informieren (Chip + Heike-Satz), neue Quelle BCIS
-- Abdeckung: jetzt belegt (KRINKO Kat. IB), flüssigkeitsundurchlässig, sobald Durchfeuchten nicht auszuschließen
-- Neu: Keine Antiseptikum-Pfützen (KRINKO Kat. II)
-- Sterile Tische: Seite 461; Inzisionsfolie: Text klarer; Zählung: Klingen laut Haus-Zählplan
-- Wärme, NE-Ort, Strahlenschutz bleiben offen (Grok Nr. 8–10)

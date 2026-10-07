@@ -25,7 +25,7 @@ _Stand 07.10.2026 · Werte aus Herstellerdokument (gelesen von Grok) · ersetzt 
 - [ ] UHR: EU-Dokument (statt Japan-Broschüre), Adapterhülse, REF
 
 ## Quellen
-- **q1** Accolade II Femoral Hip System Surgical Protocol ACCII-SP-1 · Rev-4 ©2022 · S. 3, 4, 12 · https://az621074-1-cugdarb7eqgsg5g5.a01.azurefd.net/syk-mobile-content-cdn/global-content-system/SYKGCSDOC-2-45343/OrTQyxQIqD2-WhrxKy8f3JDuPuEV4Q/ACCII_SP_1.pdf
+- **q1** Accolade II Femoral Hip System Surgical Protocol · ACCII-SP-1_Rev-4_34423, © 2022 · S. 3, 4, 12 · https://cdn.stryker.com/SYKGCSDOC-2-45343 · EU-Hemi-Ausschluss (S. 3/12) von Astra im Original bestätigt
 - **q2** Accolade II Tray Layout ACCII-TL-1 · offen · S. offen · https://www.stryker.com/content/dam/stryker/joint-replacement/products/accoladeii/resources/Accolade%20II%20Tray%20Layout_ACCII-TL-1_25643.pdf
 - **q3** UHR Universal Head Bipolar System (Stryker Japan) HE01-160 · Rev1 · S. Katalogtabelle · https://www.stryker.com/content/dam/stryker/ja/ja/portfolios/orthopaedics/joint-replacement/HE01-160_Rev1_UHR_BipolarSystem_s.pdf
 - **q4** Produktseite Trident II (DE) · offen · S. - · https://www.stryker.com/de/de/joint-replacement/products/trident-ii.html
