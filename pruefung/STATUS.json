@@ -73,8 +73,8 @@
    "ergebnis": "4 Implantat-Dateien v1.1: Größen/REF/Tabellen, feste IDs, passt_zu, Rückrufe mit betrifft"
   },
   "001-implantate-dach": {
-   "name": "001-implantate-dach (Extra-Lauf, geplant)",
-   "runde": "wartet auf Julian („Implantate DACH los“)",
+   "name": "001-implantate-dach (Extra-Lauf)",
+   "runde": "grok",
    "typ": "implantate",
    "gehoert_zu": "001",
    "auftrag": "Erst DACH-Ranking belegen (EPRD-Jahresbericht 2025 Tabellen Schäfte/Pfannen/Kombinationen, SIRIS Schweiz, Österreich-Register), dann die häufigsten Systeme je Hersteller als Implantat-Dateien anlegen.",
@@ -84,7 +84,15 @@
     "Mathys/Enovis zusätzlich (optimys, RM Pressfit vitamys, seleXys)",
     "Weitere laut Register (z. B. Lima, implantcast, Corin)"
    ],
-   "start": "nach Abschluss 001-implantate"
+   "datei": "pakete/001-implantate-dach-basis.md",
+   "perplexity_auftrag": "pakete/001-implantate-dach-perplexity-auftrag.md",
+   "lauf_start": "2026-10-07T05:30Z",
+   "dateien": {
+    "grok": "pruefung/001-implantate-dach-grok.md",
+    "astra": "pruefung/001-implantate-dach-astra.md",
+    "perplexity": "pruefung/001-implantate-dach-perplexity.md"
+   },
+   "abschluss": "neue Dateien implantate/<hersteller>-<system>.json + .md (Schema v1.1); basis + perplexity-auftrag danach entfernen"
   }
  },
  "eingang_verarbeitet": [
