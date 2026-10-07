@@ -237,5 +237,6 @@
   "astra_ergebnis": "pruefung/app-astra.md"
  },
  "auswahl_regel": "Julian 07.10.2026: Implantat-Systeme werden nach Häufigkeit in DACH ausgewählt (Register: EPRD Deutschland, SIRIS Schweiz, Österreich), nicht nach einer einzelnen Klinik. „haus_systeme“ = aktuelle Auswahl häufiger DACH-Systeme; Hausbestand prüft jede Klinik selbst am Etikett.",
- "runde_schema": "pruefung/runde-schema-v2.json (wartet → perplexity → cloud → grok → openai [nur Implantate] → cloud-final → julian → astra-bau → abgeschlossen)"
+ "runde_schema": "pruefung/runde-schema-v2.json (wartet → perplexity → cloud → grok → openai [nur Implantate] → cloud-final → julian → astra-bau → abgeschlossen)",
+ "prompt_regel": "Julian 07.10.2026: Bei jedem Prompt für Astra steht der empfohlene Aufwand dabei (niedrig / mittel / hoch / sehr hoch) mit kurzem Grund."
 }
