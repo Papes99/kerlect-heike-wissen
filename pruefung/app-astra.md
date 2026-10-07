@@ -1,3 +1,25 @@
+# Fluid-Spielgefühl – aktueller Stand
+Veröffentlicht in Kerlect (App 6aa3f64b0b23cc244ce7686d). Das Dashboard bestätigt „Ihre App ist live“.
+
+Oberfläche: appweit weichere Rundungen für Karten, Eingaben, Knöpfe und Dialoge; Fachgebiete als lockere ovale Auswahlflächen. Gedämpfte Federn mit erhaltenem Schwung beim erneuten Antippen, kleine Reaktion auch auf leere Flächen. Animationen berücksichtigen reduzierte Bewegung sowie vorhandene Ton-/Vibrationseinstellungen.
+
+Heike: neuer lebendiger Mint-Avatar, Blickbewegung, Anstupsen und Ziehen mit Rückfederung; neu gestalteter Einstieg, Eingabe, Vorschläge, Gespräch und Fortschritt. Der Einstieg bleibt beim Öffnen oben sichtbar. „Kleine Spielpause“ mit fünf greifbaren Kugeln, Schwerkraft, Kollisionen, Anstupsen und Schweben auf Start und bei Heike.
+
+Hallo: dreistufiger Vollbild-Einstieg nach erster Anmeldung unabhängig vom Login-Anbieter; Abschluss wird pro Nutzer gespeichert. Google und E-Mail verwenden dieselbe Einstiegsschranke. Unter Profil → „Hallo & Rundführung“ erneut aufrufbar. Kein echtes neues Google-Konto angelegt.
+
+Archivieren: Karte zerfällt nach bestätigtem Servererfolg in bewegliche Teile, mit Rückgängig und Beenden. Kein permanentes Löschen eingeführt; keine echten Nutzerstandards für diesen Effekt archiviert. Visueller Live-Archivierungstest bleibt offen.
+
+Tisch: Abwurfposition beim Loslassen aktualisiert; nachgeladenes Instrument erscheint auch bei ruhendem Finger als Ziehvorschau. Scroll-Abbruch, vertikale Leiste und Tastaturbedienung korrigiert. Federnde Kamera, kurze physikalische Landung und mobile Kopfzeile mit allen Werkzeugen.
+
+Prüfung: 27 gezielte Tests, Lint und vollständiger Build grün. Mobile Vorschau: Hallo in drei Schritten samt Abschluss, Heike-Einstieg und Avatarziehen, Spielpause mit Anstupsen/Schweben geprüft; Tisch-Werkzeuge vollständig sichtbar. 3D-Ziehen im Cloud-Browser nicht abschließend prüfbar, weil WebGL fehlt. Echte Gerätehaptik und vollständige Erstanmeldung per Google bleiben offen. Klinische Daten, Gruppenbestand und Ansage-/Halteprüfungen unverändert.
+
+Code-Checkpoint: 6ac6da5ab4c274bc5308bd27; Commit 09e7e6f0ec2c340134e7b276f03b33ea005dccbf. Vorheriger Restorepunkt: 6ac6d047e7fa558e7cc9cde7. Frühere Wissenspaket- und Bildstände bleiben unten dokumentiert.
+
+Live-Domain nach Veröffentlichung bis zur Anmeldeseite verifiziert: https://kerlect.base44.app/login?returnTo=%2F.
+
+
+---
+
 # 08.10.2026 – 000–002 konsolidiert und Einzelpackungen live
 
 Kerlect **6aa3f64b0b23cc244ce7686d** ist veröffentlicht. Das Base44-Dashboard bestätigte „Ihre App ist live“. Die veröffentlichte Quellenansicht wurde unter https://kerlect.base44.app/knowledge-offline.html?paket=002 aufgerufen; REF-Suche und Medacta-Einzelpackung **02.12.0004L / 4 links** waren sichtbar.
