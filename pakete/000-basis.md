@@ -168,7 +168,7 @@ Legende: ⚠️ hausabhängig · *(optional)* · 📖 Quelle nachgelesen · _nur
 - [ ] Übergabe-Inhalte Aufwachraum
 
 ## Änderungen v1.2 (07.10.2026)
-Grundlage: Grok-Prüfung `eingang/2026-10-07-000-grundwissen-v1.1-grok.md`. Alte Version: `pakete/archiv/000-grundwissen-v1.1.*`. KRINKO-Seiten nach Astra (S. 461, Abschnitt 4.1).
+Grundlage: Grok-Prüfung 2026-10-07-000-grundwissen-v1.1-grok.md (Git-Verlauf). Alte Version: Git-Verlauf. KRINKO-Seiten nach Astra (S. 461, Abschnitt 4.1).
 - Patientenidentität: WHO = Patientenbestätigung, Armband + Rückfrage laut KVWL
 - Anästhesie über jeden Zementierschritt informieren (Chip + Heike-Satz), neue Quelle BCIS
 - Abdeckung: jetzt belegt (KRINKO Kat. IB), flüssigkeitsundurchlässig, sobald Durchfeuchten nicht auszuschließen
@@ -177,14 +177,14 @@ Grundlage: Grok-Prüfung `eingang/2026-10-07-000-grundwissen-v1.1-grok.md`. Alte
 - Wärme, NE-Ort, Strahlenschutz bleiben offen (Grok Nr. 8–10)
 
 ## Änderungen v1.3 (07.10.2026)
-Grundlage: KRINKO-Seitenklärung in `eingang/2026-10-07-001-hueft-tep-v1.1-grok.md`. Alte Version: `pakete/archiv/000-grundwissen-v1.2.*`.
+Grundlage: KRINKO-Seitenklärung in 2026-10-07-001-hueft-tep-v1.1-grok.md (Git-Verlauf). Alte Version: Git-Verlauf.
 - Sterile Tische: Fundstelle S. 461 → **S. 462** (PDF-S. 15)
 
 ## Zur Prüfung in dieser Runde (07.10.2026)
 Grok und Astra prüfen in dieser Runde nur diese Punkte, alles andere ist unverändert. Claude ersetzt diesen Abschnitt in jeder Runde.
 
 #### 000-grundwissen (v1.1 → v1.3)
-Grundlage: Grok-Prüfung 2026-10-07-000-grundwissen-v1.1-grok.md (im Repo unter eingang/) (Grok Nr. 1–7, 11; Nr. 8–10 bleiben offen) = v1.2; KRINKO-Seitenklärung aus 2026-10-07-001-hueft-tep-v1.1-grok.md (im Repo unter eingang/) (sterile Tische S. 462) = v1.3. Abdeckung/Antiseptikum nach deiner 001-Prüfung (S. 461, Abschnitt 4.1). Erstmals bei Astra – nur diese Änderungen prüfen.
+Grundlage: Grok-Prüfung 2026-10-07-000-grundwissen-v1.1-grok.md (Git-Verlauf) (Grok Nr. 1–7, 11; Nr. 8–10 bleiben offen) = v1.2; KRINKO-Seitenklärung aus 2026-10-07-001-hueft-tep-v1.1-grok.md (Git-Verlauf) (sterile Tische S. 462) = v1.3. Abdeckung/Antiseptikum nach deiner 001-Prüfung (S. 461, Abschnitt 4.1). Erstmals bei Astra – nur diese Änderungen prüfen.
 
 | Nr | Art | Abschnitt · Eintrag | ALT (nur geänderte Felder) | NEU | Quelle |
 |---|---|---|---|---|---|

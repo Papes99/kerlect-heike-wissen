@@ -207,7 +207,7 @@ Legende: ⚠️ hausabhängig · *(optional)* · 📖 Quelle nachgelesen · _nur
 - [ ] Vor späterem App-Einsatz Datenadapter prüfen: Mengen, Stärke, Nadel, Schicht, Variante, Herkunft und Auswahl müssen erhalten bleiben; nur explizit gewählte Inhalte speichern.
 
 ## Änderungen v1.1 (07.10.2026)
-Grundlage: Grok-Gegenprüfung (`eingang/2026-10-07-001-hueft-tep-grok.md`), Vorschlag `aenderungen/2026-10-07-001-hueft-tep-vorschlag.md`. Alte Version: `pakete/archiv/001-hueft-tep-v1.0.*`.
+Grundlage: Grok-Gegenprüfung (2026-10-07-001-hueft-tep-grok.md (Git-Verlauf)), Vorschlag `aenderungen/2026-10-07-001-hueft-tep-vorschlag.md`. Alte Version: Git-Verlauf.
 - Alkoholansammlungen: Quelle HEBU → KRINKO (HEBU ergänzend)
 - Anästhesie über jeden Zementierschritt informieren (Ablauf + Heike-Satz)
 - Abdeckung: flüssigkeitsundurchlässig bei erwartetem Durchfeuchten (Kat. IB)
@@ -217,7 +217,7 @@ Grundlage: Grok-Gegenprüfung (`eingang/2026-10-07-001-hueft-tep-grok.md`), Vors
 - Quellen von Claude nicht selbst geöffnet (gesperrt); **Astra prüft vor Integration**.
 
 ## Änderungen v1.2 (07.10.2026)
-Grundlage: Astra-Prüfung `eingang/2026-10-07-001-hueft-tep-v1.1-astra.md` (FEHLER). Alte Version: `pakete/archiv/001-hueft-tep-v1.1.*`.
+Grundlage: Astra-Prüfung 2026-10-07-001-hueft-tep-v1.1-astra.md (Git-Verlauf) (FEHLER). Alte Version: Git-Verlauf.
 - Abdeckung: flüssigkeitsundurchlässig, sobald Durchfeuchten nicht auszuschließen (KRINKO S. 461, Abschnitt 4.1)
 - Alkoholansammlungen: nur Antiseptikum-Regel (KRINKO); neu getrennt „NE vor Flüssigkeit schützen“ (HEBU)
 - Duokopf-Rückfrage neutral, Hemi-Grenze Accolade II genannt (Stryker ACCII-SP-1)
@@ -228,7 +228,7 @@ Grundlage: Astra-Prüfung `eingang/2026-10-07-001-hueft-tep-v1.1-astra.md` (FEHL
 Grok und Astra prüfen in dieser Runde nur diese Punkte, alles andere ist unverändert. Claude ersetzt diesen Abschnitt in jeder Runde.
 
 #### 001-hueft-tep (v1.1 → v1.2)
-Grundlage: deine Prüfung 2026-10-07-001-hueft-tep-v1.1-astra.md (im Repo unter eingang/) (FEHLER) – K2, K5a/b, K8, K9, Q_STRYKER_ACCII, P1, P2 1:1 eingebaut. Bitte nur prüfen, ob richtig umgesetzt. Deine ok-Punkte 1, 3, 4, 6, 7 sind unverändert. Groks Nachprüfung von v1.1 (2026-10-07-001-hueft-tep-v1.1-grok.md (im Repo unter eingang/)) bestätigt K2/K5/K8/K9/P1/P2; Groks Abweichung „Alkoholansammlungen gilt_fuer alle“ nicht übernommen (deine K5a: hf_mono; allgemeine Regel steht in 000 „Keine Antiseptikum-Pfützen“).
+Grundlage: deine Prüfung 2026-10-07-001-hueft-tep-v1.1-astra.md (Git-Verlauf) (FEHLER) – K2, K5a/b, K8, K9, Q_STRYKER_ACCII, P1, P2 1:1 eingebaut. Bitte nur prüfen, ob richtig umgesetzt. Deine ok-Punkte 1, 3, 4, 6, 7 sind unverändert. Groks Nachprüfung von v1.1 (2026-10-07-001-hueft-tep-v1.1-grok.md (Git-Verlauf)) bestätigt K2/K5/K8/K9/P1/P2; Groks Abweichung „Alkoholansammlungen gilt_fuer alle“ nicht übernommen (deine K5a: hf_mono; allgemeine Regel steht in 000 „Keine Antiseptikum-Pfützen“).
 
 | Nr | Art | Abschnitt · Eintrag | ALT (nur geänderte Felder) | NEU | Quelle |
 |---|---|---|---|---|---|
@@ -245,7 +245,7 @@ Grundlage: deine Prüfung 2026-10-07-001-hueft-tep-v1.1-astra.md (im Repo unter 
 | 11 | neu | quellen · **Q_STRYKER_ACCII** | – | Accolade II Femoral Hip System – Surgical protocol – ACCII-SP-1_Rev-4_34423, © 2022; S. 3: EU-Indikationen; S. 12: Ausschluss Hemiarthroplastik in EU; Dokumentcode S. 25. | Q_STRYKER_ACCII – Accolade II Femoral Hip System – Surgical protocol |
 
 #### Implantate zu 001: Umsetzung von Astras Implantat-Prüfung (stryker-accolade-ii, smith-nephew-polarstem)
-Grundlage: 2026-10-07-implantate-vstand-2026-10-07-astra.md (im Repo unter eingang/) (FEHLER) – K5, K6, K7, P1, P2 1:1 umgesetzt. Bitte nur die Umsetzung prüfen; deine ok-Punkte 1–4, 8 sind unverändert (nur Seitenergänzung S. 5).
+Grundlage: 2026-10-07-implantate-vstand-2026-10-07-astra.md (Git-Verlauf) (FEHLER) – K5, K6, K7, P1, P2 1:1 umgesetzt. Bitte nur die Umsetzung prüfen; deine ok-Punkte 1–4, 8 sind unverändert (nur Seitenergänzung S. 5).
 
 | Nr | Art | Datei · Komponente | ALT | NEU | Quelle |
 |---|---|---|---|---|---|

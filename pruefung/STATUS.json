@@ -14,7 +14,7 @@
    "datei": "pakete/001-basis.json",
    "name": "001-hueft-tep",
    "version": "1.2",
-   "runde": "grok",
+   "runde": "wartet – startet erst nach Abschluss von 000",
    "typ": "eingriff",
    "basis": "000",
    "gehoert_dazu": [
@@ -23,19 +23,6 @@
    ]
   }
  },
- "eingang_verarbeitet": [
-  "2026-10-07-000-grundwissen-v1.1-grok.md",
-  "2026-10-07-001-hueft-tep-grok.md",
-  "2026-10-07-001-hueft-tep-v1.1-astra.md",
-  "2026-10-07-001-hueft-tep-v1.1-grok.md",
-  "2026-10-07-implantate-UEBERSICHT.md",
-  "2026-10-07-implantate-mathys-beliebte-systeme-extrakt.json",
-  "2026-10-07-implantate-mathys-beliebte-systeme-extrakt.md",
-  "2026-10-07-implantate-smith-nephew-beliebte-systeme-extrakt.json",
-  "2026-10-07-implantate-smith-nephew-beliebte-systeme-extrakt.md",
-  "2026-10-07-implantate-stryker-beliebte-systeme-extrakt.json",
-  "2026-10-07-implantate-stryker-beliebte-systeme-extrakt.md",
-  "2026-10-07-implantate-vstand-2026-10-07-astra.md",
-  "2026-10-07-julian-implantate-bestaetigung.md"
- ]
+ "eingang_verarbeitet": [],
+ "hinweis_start": "Neustart 07.10.2026: alte Prüf-/Arbeitsdateien gelöscht (Git-Verlauf). Kette beginnt mit 000."
 }
