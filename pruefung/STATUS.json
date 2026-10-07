@@ -60,6 +60,13 @@
     "datum": "2026-10-07",
     "astra_ergebnis": "ÄNDERN",
     "claude": "Änderungsliste an Julian 04:4xZ"
+   },
+   "julian_antworten": {
+    "datum": "2026-10-07",
+    "plasmafit_poly_inlay": "Standard-PE (UHMWPE)",
+    "sn_duokopf_etikett": "weiß nicht – offen (Hausname Bi-Polar Head bleibt, Freigabe offen)",
+    "enovis_ccb_profil": "beide (Low- und Full-profile)",
+    "abnahme": "noch nicht einbauen – wartet auf Julian (ggf. Perplexity 001-perplexity-3)"
    }
   }
  },
