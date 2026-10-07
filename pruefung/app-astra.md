@@ -1,3 +1,22 @@
+# 07.10.2026 – Live-Korrekturen und Veröffentlichung abgeschlossen
+
+Veröffentlicht: Kerlect, App 6aa3f64b0b23cc244ce7686d. Base44-Dashboard bestätigt „Ihre App ist live“. Live-Seite erreichbar unter https://kerlect.base44.app/login?returnTo=%2F. Paket 1 bleibt eingefroren.
+
+Implantat-Tablett: Unsere Systeme pro Gruppe, eigene Systeme privat oder gruppenbezogen, Systemdefinition im Standard ohne konkrete OP-Größen. Bestätigung → Variante → OP-Reihenfolge → sechs Ansage-Haken → 1,1 Sekunden Halten → Etikettenübersicht. Größen und Herstellergrenzen aus dem Katalog; keine Patientendaten, OP-Auswahl nur im Arbeitsspeicher.
+
+Animation: Größenrad, einfliegende Teile, Drag-and-drop mit Einrasten und Rücksprung, Kopfanimation und Abschlussdrehung. Reduzierte Bewegung sowie Ton-/Haptikeinstellungen berücksichtigt.
+
+Live-Korrekturen: Server-Katalog verwendet bei Abruffehlern einen geprüften letzten Datenstand; neue Stände werden vollständig und atomar übernommen. Gruppenauswahl wird nur für aktuell berechtigte Mitglieder vollständig geladen. Größenrad übernimmt die explizite Auswahl sofort, ohne Zwischenwerte während der Federanimation zu speichern.
+
+Prüfung: zuvor 37 gezielte Tests und vollständiger isolierter UI-Ablauf bestanden. Nach Live-Korrekturen 15 gezielte Tests, Lint und Build grün. Angemeldete Vorschau gegen echte Gruppendaten: Musterhaus-Auswahl gespeichert, nach Wiederöffnung vorhanden, System/Variante/Größenrad/Ansage-Check geprüft. Temporäre Stryker-Auswahl anschließend auf leeren Bestand zurückgesetzt. Keine eigenen Testsysteme oder Patientenangaben angelegt.
+
+Veröffentlichter Code-Checkpoint: 6ac6acbf7924f18b59011ba3; Commit a828290816d4072162c316e57b54e6a9fdec9454. Prüfbericht: https://github.com/Papes99/kerlect-heike-wissen/blob/main/pruefung/app-astra.md
+
+Offen: Haltebestätigung im Cloud-Browser nicht abschließend bestätigt (im isolierten Test erfolgreich); echte Gerätehaptik und vollständiger angemeldeter End-to-End-Lauf eigener Systeme/Fotos/Freigaben nicht geprüft. Live-App nach Veröffentlichung bis zur Anmeldeseite verifiziert. Bisheriger Tischaufbau unverändert.
+
+
+---
+
 # 07.10.2026 – Aktuelle Abnahme: Unsere Systeme und physikalisches Implantat-Tablett
 
 **In Kerlect implementiert und als Checkpoint gesichert. Lint und Build grün; 37 gezielte automatisierte Tests bestanden. Vollständiger OP-Lauf mit den produktiven UI-Komponenten im isolierten Browser bestanden. Ein angemeldeter Live-Test gegen echte Gruppen und eigene Systeme steht noch aus. Kein Publish durchgeführt.**
