@@ -2,13 +2,12 @@
 
 Pro System eine Datei `implantate/<hersteller>-<system>.json` + `.md`. **Nur exakte Herstellerdaten** (Kompatibilitätstabelle, OP-Technik, IFU, Katalog) mit Dokument, Stand und Link. Nichts schätzen. Firma **und** System müssen passen.
 
-## Erste Systeme (Haus Julian)
-| Hersteller | System | Rolle | Noch zu klären |
-|---|---|---|---|
-| Stryker | Accolade (Schaft) | Hüft-TEP Schaft | Accolade **II** oder Accolade TMZF? Zementfrei/zementiert? |
-| Mathys | twinSys (Schaft) | Hüft-TEP Schaft | zementfrei und/oder zementiert? |
-| ? | Duokopf (bipolarer Kopf) | Hemiprothese | Hersteller/Produktname? |
-| ? | zementfreie Pfanne | Hüft-TEP Pfanne | Hersteller/Produktname? |
+## Systeme im Haus (Julian, 07.10.2026)
+| Hersteller | Im Haus | Noch zu klären |
+|---|---|---|
+| **Stryker** | **nur zementfreie Hüfte**: Accolade-Schaft (Konus **V40**), zementfreie Pfanne, Duokopf (bipolar) | Accolade II oder Accolade TMZF (beide V40)? Name der Pfanne (z. B. Trident/Trident II)? Name des Duokopfs? |
+| **Mathys** | **alles**: twinSys zementfrei + zementiert, Pfanne zementfrei + zementiert, Duokopf | Namen der Pfannen und des Duokopfs |
+| **Smith & Nephew** | **alles**: Schaft zementfrei + zementiert, Pfanne zementfrei + zementiert, Duokopf | Systemnamen (Schaft, Pfannen, Duokopf) |
 
 ## Schema je Datei
 ```json
