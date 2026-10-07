@@ -1,3 +1,69 @@
+# Astra – Implantat-Tablett in Kerlect: Start gesperrt
+
+Stand: 07.10.2026, nach Julians präzisiertem App-Auftrag. Maßgeblicher Wissens-Commit: `b1ccb1bd47fd48d361f6d2c707d3fbaf69ae0fd7` auf `main`.
+
+**Nicht gestartet / keine Abnahme: Die ausdrücklich verlangte Voraussetzung ist nicht erfüllt.**
+`pruefung/STATUS.json → pakete["001-implantate"].runde` steht auf **`astra`**, nicht auf **`abgeschlossen`**.
+Nachweis: STATUS-Blob `d5765826dcd06f19cf6bda347ddcb020731a6be4`, erneut am oben genannten Commit gelesen. Die aktuelle Vorgabe `app/hueft-implantat-auswahl.md` wurde vollständig gelesen (Blob `3da8335b0c1a9d0cbb867d2041e74be1a88e841b`).
+
+## Tatsächlicher App-Stand und Rücknahme
+
+- Einzig bearbeitete App: **Kerlect**, ID **`6aa3f64b0b23cc244ce7686d`**. Keine Änderungen an Kerlect Kliniken oder Kopien.
+- Unter dem vorherigen Auftrag, vor der neuen Startvoraussetzung, wurden nach dem Checkpoint `6ac5c6084181a6ce74786139` / App-Commit `d4233bfee15f61bafb6f8daa3bb43f993ed104d7` fünf neue Dateien angelegt. Diese Vorarbeit orientierte sich an der früheren Sieben-Mockup-Vorgabe, noch nicht am neuen Tablett-Prototyp.
+- Nach Feststellung des gesperrten Starts wurden **ausschließlich diese eigenen fünf neuen Dateien wieder entfernt**:
+  - `src/components/implants/HipImplantFlow.jsx`
+  - `src/components/implants/load.mjs`
+  - `src/components/implants/model.mjs`
+  - `src/components/implants/style.css`
+  - `src/pages/HueftImplantate.jsx`
+- Vor dem Entfernen geprüft: Dateien waren am Ausgangs-Commit nicht vorhanden und seit dem eigenen letzten Schreibstand `20fa6f4` unverändert. Keine fremde Arbeit zurückgesetzt.
+- **Nachweis der vollständigen Rücknahme:** `git diff --stat d4233bfee15f61bafb6f8daa3bb43f993ed104d7` lieferte nach dem Entfernen keinerlei Ausgabe.
+- Abschluss-Checkpoint: `6ac5c92bdfc8d7bf1d135855`, „Implantat-Tablett pausiert – Vorarbeiten zurückgenommen, Gate 001-implantate offen“, App-Commit `d6f722524282e0edeb68af9c49ce3d5a1d956116`.
+- Kein Publish. Keine Patientendaten oder Entity-Datensätze angelegt. Bestehende App-Einstiege, OPKatalogClean, CleanStandardView, OPMode und LETZTER_STAND.txt unverändert.
+- Lokale Vorabtests der zurückgenommenen Fassung sind **kein Nachweis für die jetzt verlangte Umsetzung** und werden nicht als deren Abnahme gewertet.
+
+## Abnahme – jeder Punkt der aktuellen Vorgabe
+
+„Nicht bestanden – Start gesperrt“ bedeutet: noch keine gültige Umsetzung und kein End-to-End-Nachweis in Kerlect; nicht ein behaupteter fehlgeschlagener Test einer fertigen Funktion.
+
+| Nr. | Abnahmepunkt | Ergebnis | Nachweis / verbleibende Prüfung |
+| --- | --- | --- | --- |
+| 1 | Alle sieben Inhaltsansichten; maßgebliche Bedienung wie neuer Prototyp; ausschließlich zugelassene Datenquellen | **Nicht bestanden – Start gesperrt** | Keine Tablett-Integration vorhanden. Nach Abschluss von 001-implantate den Prototyp, alle neun neuen PNGs, das WebM und die geprüften JSON-Daten lesen; jeden Zustand gegenprüfen. |
+| 2 | Kein fremder Hersteller / fremdes System auswählbar; Isodur bei Stryker führt zu „Nicht in diesem System“ | **Nicht bestanden – Start gesperrt** | In der produktiven Kerlect-Integration nicht geprüft. Später Datei-/Systembindung und Fremdteil-Suche gegen den geprüften Datenstand testen. |
+| 3 | Fehlende Werte „noch nicht hinterlegt“; keine erfundenen Zahlen, REF oder Vorbelegungen | **Nicht bestanden – Start gesperrt** | Noch keine gültige Tablett-Oberfläche. Leere Startauswahl und manuelle Etiketteingaben nach Datenfreigabe prüfen. |
+| 4 | „Steril anreichen“ erst nach vollständigem Ansage-Check; zusätzlich Halten 1,1 s | **Nicht bestanden – Start gesperrt** | Neuer Halte-Mechanismus nicht implementiert. Später jeden fehlenden Haken, frühes Loslassen, vollständiges Halten, Tastaturbedienung und Check-Rücksetzung bei Änderungen prüfen. |
+| 5 | Rückruf-Hinweise LFIT/BIOLOX delta V40, R3, Vitelene; reine Hinweise | **Nicht bestanden – Start gesperrt** | Komponentenbezogene Zuordnung aus dem abgeschlossenen Lauf abwarten; Vitelene nicht als BIOLOX-Betroffenheit ausgeben. Hinweis darf keine pauschale Sperre/Freigabe erzeugen. |
+| 6 | Ergänzte Werte erscheinen ohne Codeänderung | **Nicht bestanden – Start gesperrt** | Noch kein verbleibender produktiver Loader. Später Datenimport/-Cache mit Stand und Commit sowie Aktualisierung anhand isolierter Testdaten nachweisen. |
+
+## Zusätzliche Pflichtpunkte aus Julians präzisiertem Auftrag
+
+| Pflichtpunkt | Ergebnis | Nachweis / weiterer Schritt |
+| --- | --- | --- |
+| Nur Kerlect, keine anderen Apps | **Bestanden** | Sämtliche App-Schreib- und Rücknahmeaufrufe ausschließlich mit ID `6aa3f64b0b23cc244ce7686d`. |
+| Start erst bei `001-implantate.runde = abgeschlossen` | **Nicht erfüllt; Halt eingehalten** | Aktuell `astra`; neuer Auftrag nicht begonnen, frühere Vorarbeit zurückgenommen. |
+| Implantate-Knopf in OPKatalogClean, Karte in CleanStandardView/implants, Zugang in OPMode | **Nicht bestanden – Start gesperrt** | Noch nicht eingebaut; keine neue Menüseite übrig. |
+| Erkennung über implantat-eingriffe.json; Standards ohne Implantat-Paket ohne Einstieg | **Nicht bestanden – Start gesperrt** | Konfiguration und Integration nach Öffnen der Startvoraussetzung prüfen. |
+| System-Vorschlag aus Standard, explizite Bestätigung; generisches ImplantTray | **Nicht bestanden – Start gesperrt** | Noch nicht implementiert. |
+| Varianten und OP-Reihenfolge aus implantat-eingriffe.json und Paket-JSON; nichts vorausgewählt | **Nicht bestanden – Start gesperrt** | Geprüften Datenstand abwarten; Paket 000/001 als erlaubte Quellen in der Fortsetzung lesen. |
+| Kerlect springs / haptic / feedback; reduced motion | **Nicht bestanden – Start gesperrt** | Neue Prototyp-Bedienung noch nicht implementiert oder getestet. |
+| Daten nicht abtippen; Stand + Commit; lokale Auswahl ohne Patientendaten | **Nicht bestanden als Feature-Abnahme** | Keine produktive Datenintegration vorhanden; tatsächlich keine Patientendaten gespeichert. |
+| Checkpoint vor Änderungen | **Bestanden für Vorarbeit und Rücknahme** | Ausgangs-Checkpoint und abschließender Rücknahme-Checkpoint oben dokumentiert. |
+| npm run lint und npm run build grün | **Nicht bestanden / nicht ausgeführt** | Kein fertiger Feature-Stand vorhanden. Nach vollständiger Rücknahme identischer Quellbaum wie vor der Vorarbeit; keine Build-Freigabe behauptet. |
+| LETZTER_STAND.txt nach dessen Regeln fortschreiben | **Nicht ausgeführt – Start gesperrt** | Datei gelesen und unverändert belassen; kein Implementierungsblock abgeschlossen. |
+| Wissens-Repo nur pruefung/app-astra.md ändern | **Bestanden** | Ausschließlich dieser Bericht wird auf main aktualisiert. Keine App-Quelldateien, Daten, Vorgaben oder fremden Berichte ins Wissens-Repo geschrieben. |
+
+## Rückfragen / Fortsetzung
+
+Keine zusätzliche Freigabe-Frage an Julian. Der Auftrag ist klar; es fehlt allein der verlangte Abschlussstatus. Vor einer Fortsetzung `STATUS.json` frisch lesen. Erst bei `abgeschlossen` den gesamten neuen Referenzsatz einlesen und ausschließlich in Kerlect das generische ImplantTray am vorgegebenen Einbauort umsetzen.
+
+Die früheren Fragen A1 (Ziel-App) und A2 (Paket 001 als Datenquelle) sind durch den neuen Auftrag beantwortet. A3–A5 werden laut aktueller Vorgabe im laufenden Datenpaket behandelt. A6 ist durch den neuen Prototyp präzisiert. Diese Punkte begründen keine weitere Chat-Rückfrage.
+
+---
+
+# Historischer Bericht – durch den aktuellen Stand oben ersetzt
+
+Der folgende frühere Bericht bleibt zur Nachvollziehbarkeit erhalten. Seine damalige Blockade „Ziel-App fehlt“ gilt nicht mehr; maßgeblich ist jetzt ausschließlich der offene Abschlussstatus.
+
 # Astra – App-Prüfung Hüft-Implantat-Auswahl
 
 Stand: 07.10.2026. Geprüfter Branch: `main`, Commit `9af2f87e75e7d89f39e367d9c898f252b319d402`.
@@ -51,3 +117,4 @@ Stand: 07.10.2026. Geprüfter Branch: `main`, Commit `9af2f87e75e7d89f39e367d9c8
 000 v1.5 und 001 v1.3 sind abgeschlossen. Alte 001-Astra-Datei bereits gelöscht. Extra-Lauf `001-implantate` steht auf `grok`, Laufstart `2026-10-07T03:55Z`; `pruefung/001-implantate-grok.md` fehlt am geprüften Commit. Deshalb noch keine fachliche Astra-Prüfung dieses Laufs.
 
 Ausschließlich diese eigene Datei angelegt. Vorgabe, Mockups, Wissensdaten und fremde Prüfdateien unverändert.
+
