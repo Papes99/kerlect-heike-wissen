@@ -1,3 +1,93 @@
+# 07.10.2026 – Fortsetzung: System im Standard und eigene Implantatsysteme
+
+**Implementierung gesichert, 101 Tests sowie Lint/Build grün. Vollständige visuelle/live Abnahme noch offen. Kein Publish.**
+
+## Stand und Checkpoints
+
+- Ausschließlich Kerlect `6aa3f64b0b23cc244ce7686d` bearbeitet.
+- Zu Beginn: sauberer Arbeitsbaum bei `543eb329ef9b9ef6a8de03840211f00f962d0463`; keine Änderungen nach diesem Commit vorgefunden. Die bestehende Implementierung wurde fortgesetzt.
+- Ausgangscheckpoint dieser Fortsetzung: `6ac5f50b423dac8de9496264` (auf `543eb329`).
+- Gesicherter Arbeitsstand: **`6ac60127e6caf6550547b764`**, „Implantate: Systemstandard und eigene Systeme – 101 Tests grün – UI-Abnahme offen“.
+- App-Commit: **`8e1623fddc0412b6a1caadd4d4ed1aeda3780e3c`**.
+- Katalog durch den vorhandenen Generator aktualisiert: acht Dateien, Wissens-Commit `62be60f05111ea429f60bbd5fd0dc45d206d3679`. Keine Produkt-/Größen-/REF-Werte von Hand in den App-Code übertragen.
+- Vollständige Vorgabe einschließlich Julians Ergänzung, HTML-Prototyp, neun PNG-Bedienreferenzen, Daten und Paketquellen gelesen. Der zusätzliche Claude-Artefakt-Link zeigt eine Anmeldeseite und konnte nicht visuell geprüft werden.
+- Keine Änderungen an Kliniken, Kopien, Stripe oder Billing. Keine echten Testdatensätze, Patientendaten oder Zugangsdaten angelegt bzw. in diesen Bericht aufgenommen.
+
+## Gemacht
+
+**System im Standard:** In `CleanStandardView`/Abschnitt `implants`, erreichbar über `OPKatalogClean`, ist „System in Standard übernehmen“ eingebaut. Serveraktion `implantSystems.attach` prüft Schreibrecht, unveränderten Standard und eine erlaubte Katalogdatei, liest die Quelle selbst und speichert ausschließlich die Systemdefinition: Hersteller/System, Varianten/Fixationen, Komponenten mit verfügbaren Größenbereichen, Konus, Probesets, Quellen und Stand/Commit. Mitgesendete OP-Auswahlfelder werden ignoriert. `implant_system` ist für direkte Client-Schreibzugriffe gesperrt. Die gespeicherte Quellen-ID wird beim nächsten Öffnen als Vorschlag gezeigt; die Pflegekraft bestätigt sie ausdrücklich.
+
+**OP-Lauf:** Auswahl und Größen bleiben im lokalen React-/Sessionzustand. Schließen/erneutes Öffnen erhält den unfertigen Lauf. „OP-Lauf abschließen · zurücksetzen“ verwirft ihn. Wiederöffnung startet mit leerem System, leerer Variante und ohne Größen. Dafür besteht ein Test gegen die tatsächliche Tablett-Komponente.
+
+**Eigene Systeme:** Anlegen/Bearbeiten mit Hersteller, System, Konus, Komponenten, verfügbaren Größen und REF sowie Probesets. Zugänge in der Systemwahl des Tabletts, im Profil und im Team unter „Meine Implantatsysteme“. Durchgängiges Badge **„eigene Angabe – nicht geprüft“**. Getrennte `own:<id>`-Quellen; keine Kombination mit Katalogkomponenten oder anderen eigenen Quellen.
+
+**Rechte und Fotos:** Neue serverseitig geschriebene Entities `ImplantSystem` und `ImplantPhoto`; private Systeme bzw. Gruppenfreigabe nach dem bestehenden Standard-Rechtemodell. Leserlisten werden serverseitig abgeleitet, nicht vom Client übernommen. Gruppenentzug, Rollenänderung und Gruppenauflösung synchronisieren die eigenen Systeme. Backend-Lesen prüft zusätzlich aktuelle Mitgliedschaft. Eigene Fotos gehen in private Dateien, benötigen ein Rechtefeld, werden serverseitig dem Uploader zugeordnet und nur für ein zugängliches, tatsächlich referenzierendes System kurzzeitig signiert. Kein öffentlicher Foto-Upload. Geprüfte Katalogdateien bleiben unverändert.
+
+**Aktuelle Daten/Filter:** Stabile IDs, direkte `passt_zu`-Paare und literal vorhandene Größen-/REF-Zeilen werden verarbeitet. Explizites „nein“ sperrt; Bedingungen/Quellen bleiben sichtbar. Kein transitives oder pauschales „passt“. Seitenweise REF-/SAP-Spalten und explizite Varianten werden ohne Erzeugung von Artikelnummern aufgelöst; widersprüchliche Größen-/Variantenkombinationen werden nicht akzeptiert. REF-Suche berücksichtigt diese Zeilen. Freitextbereiche werden nicht numerisch expandiert; heterogene Originaltabellen bleiben Quellenanzeige. Monoblockpfannen und ausdrücklich zementierte PE-Pfannen überspringen das separate Inlay. Die getrennte optimys-Hauszuordnung wird korrekt verwendet.
+
+**Animationen:** Greifgriff mit Pointer-Drag, Masseträgheit, Magnetzone, Rückfederung falscher Teile; Tippen bleibt möglich. Drag kann ausschließlich auswählen, niemals den Ansage-Check bestätigen. Kopf-Klick/Glanz, Pfannenrotation, Abschlussrotation/Glanz und von unten einlaufende Übersicht ergänzt. Vorhandene `motion.js`-/`feel.js`-Vorgaben und Reduced-Motion-Verhalten genutzt. Tatsächliche Haptik und Animationsqualität sind noch nicht am Gerät abgenommen.
+
+## Tests und Grenzen der Nachweise
+
+- **PASS:** `npm run lint`.
+- **PASS:** `npm run build` einschließlich Standard-Strukturcheck, Offline-Bundle, Tablett-Demo und Vite.
+- **PASS:** alle vorhandenen Tests plus neue Implantat-Tests: **101/101, 0 Fehler, 0 übersprungen**.
+- Testaufruf: `node --test tools/tests/*.test.mjs tools/implant-tray.test.mjs /tmp/implant-catalog.test.mjs`; der Katalogtest wurde davor mit esbuild als ESM-Node-Bundle nach `/tmp/implant-catalog.test.mjs` erzeugt.
+- Neue Tests: `tools/tests/implant-systems.test.mjs` (System-only-Projektion, Vorschlag, Privat/Gruppe, Manipulationen, Versionskonflikte, Entzug, private Fotorechte/Referenzen, Katalogschutz); `tools/tests/implant-interactions.test.mjs` (echte Komponenten mit isoliertem Hook-/Motion-Treiber: sechs Haken, Halten 1100 ms, Abbruch, Wiederaufnahme/Reset, Drag/Magnet/falsches Teil).
+- Bestehende Modelltests an die mittlerweile vorhandenen JSON-Zeilen angepasst; zusätzliche Durchläufe über reale REF-Zeilen und verbotene Paarungen. Der bestehende Offline-Checklisten-Test erhielt das im Browser vorhandene `window` im Testkontext.
+- **Kein Live-RLS-/Upload-Nachweis behauptet:** Backendtests verwenden isolierte Entity-/Integrations-Doubles; es wurden keine realen Nutzer-, Gruppen- oder Fotodatensätze zum Testen erzeugt.
+- Zusätzlicher globaler `npm run typecheck` war **nicht grün** (1.414 Diagnosen im ausgeführten Lauf, darunter viele Three.js-/Altcode-Diagnosen und Typinferenzdiagnosen der JSX-/Motion-Dateien). Dieser zusätzliche Check wird nicht als bestanden ausgegeben. Es wurde keine pauschale Deaktivierung der Typprüfung vorgenommen.
+- Reproduzierbare isolierte UI-Hülle: `node tools/implant-preview.mjs` erzeugt eine HTML-Datei aus den echten Komponenten mit flüchtigen Testdaten und ohne gehostete API. Das ist kein produktiver Einstieg und kein Ersatz für visuelle Abnahme.
+- Ein separates QA-Berichtsfile wurde durch die automatische Prüfung wegen der Vorgabe „nur pruefung/app-astra.md“ abgelehnt und **nicht** angelegt. Die Ergebnisse stehen ausschließlich hier.
+
+## Vollständige Abnahme-Liste der Vorgabe
+
+Ein Haken bedeutet den angegebenen tatsächlich erbrachten Nachweis, keine klinische oder pauschale Live-Freigabe.
+
+| Abnahmepunkt | Status | Nachweis / verbleibender Schritt |
+| --- | --- | --- |
+| Alle 7 Inhaltsansichten wie Mockups, zugelassene Quellen | **[ ] Visuelle Endabnahme offen** | Bestehende sieben Zustände fortgeführt, Generator/Build grün. Neue Screenshots aller Zustände im laufenden, angemeldeten Kerlect erforderlich. |
+| Kein fremder Hersteller/System; Isodur bei Stryker → falsches Teil | **[x] Technisch geprüft** | Quellenbindung und Isodur-Suche im Modell; reale Drag-Komponente nimmt gesperrte Kandidaten nicht an. Visueller Rückprall noch aufzunehmen. |
+| Fehlende Werte „noch nicht hinterlegt“, keine erfundenen Zahl/REF | **[x] Technisch geprüft** | Leere Startfelder, manuelle Etikettangaben; exakte JSON-Zeilen und unbekannte Werte/REF getestet. |
+| „Steril anreichen“ erst nach vollständigem Ansage-Check | **[x] Technisch geprüft** | Sechs Haken; realer HoldButton: 1099 ms reicht nicht, 1100 ms bestätigt einmal, frühes Loslassen/Abbruch bleibt wirkungslos. |
+| Rückruf-Hinweise LFIT/BIOLOX delta V40, R3, VITELENE – nur Hinweis | **[x] Technisch geprüft** | Originalhinweise und stabile Zuordnung angezeigt; VITELENE ohne zugeordnete Hauskomponente bleibt ausdrücklich Systemhinweis, nicht BIOLOX-Betroffenheit. Keine Rückrufsperre. |
+| Neue JSON-Werte ohne Codeänderung | **[x] Technisch geprüft** | Atomarer Loader-Test mit zusätzlicher Quelle/Werten; fehlgeschlagenes Teilupdate erhält den bisherigen kompletten Stand; Offline-Fallback. Aktuelle acht Dateien per bestehendem Generator geladen. |
+| Standard speichert nur System, Größen nur im OP-Lauf | **[x] Technisch geprüft** | Server-Quellenauflösung/Whitelist, keine OP-Payload-Übernahme; Vorschlag; echte Komponente bis Abschluss und leerer Wiederöffnung getestet. |
+| Eigenes System anlegen/teilen, Badge, keine Mischung | **[ ] Live-Abnahme offen** | Implementierung und isolierte Rechte-/Funktionsprüfungen grün. Angemeldeten CRUD-/Upload-/Gruppenablauf mit mindestens Leser und Bearbeiter im Dashboard prüfen. |
+
+Zusätzliches Pflichtvideo **≤ 30 Sekunden** mit Drag/Magnet, falschem Teil/Rückprall, Kopf-Klick und Abschlussrotation: **noch offen**. Physische Haptik und Reduced-Motion-Bedienung am Handy: **noch offen**.
+
+## Screenshots / Browserblockade
+
+**Keine neuen UI-Screenshots und kein Video als Abnahmebeleg vorhanden.** Die vorhandenen Referenzbilder sind keine Screenshots dieses Arbeitsstands. Es wurden keine Bilder erzeugt, die eine nicht durchgeführte Prüfung vortäuschen.
+
+- Dashboard-Vorschau `https://app.base44.com/apps/6aa3f64b0b23cc244ce7686d/editor/preview` führt zur Base44-Anmeldung.
+- Plattform-Sandboxvorschau `https://preview-sandbox--6aa3f64b0b23cc244ce7686d.base44-preview.app/` blieb auch nach erneutem Laden auf **„Preview is starting up“**.
+- Öffnen einer lokalen QA-HTML-Datei wurde von der Browser-Sicherheitsrichtlinie (kein `file:`-Protokoll) abgelehnt. Keine Umgehung über andere Browsersteuerung oder Ersatzprotokolle vorgenommen.
+- Deshalb ist der Auftrag **noch nicht vollständig abgenommen**; der Code wurde mit offen ausgewiesener visueller Prüfung checkpointed.
+
+## A3–A10: fortgesetzter Stand
+
+| ID | Stand |
+| --- | --- |
+| A3 | Stabile IDs und explizite `passt_zu`-Verbote/Bedingungen umgesetzt. Heterogene Freitexttabellen weiterhin offen, keine medizinische Freigabe daraus abgeleitet. |
+| A4 | Exakte REF-Suche über JSON-Zeilen ergänzt. Unbekannte REF/GTIN bleiben ohne Zuordnung; keine Kamera-/UDI-Decodierung behauptet. |
+| A5 | Rückruf-`betrifft`-IDs werden verständlich aufgelöst; beim Ansage-Check Zuordnung zur gewählten Komponente markiert. Nicht zugeordnete Systemhinweise bleiben getrennt erkennbar. |
+| A6 | Leere Auswahl und kein Standard-Größenwert; Reset testet tatsächliche Tablett-Komponente. |
+| A7 | Zement weiterhin vor jeder zementierten Pfanne/jedem zementierten Schaft. Explizite PE-/Monoblockpfannen ohne separaten Inlay-Schritt. Index nicht verändert. |
+| A8 | Aktuelle S+N-JSON enthält stabile TANDEM-Bipolar-Komponente; wird aus den Daten geladen. Keine erfundene Gleichsetzung nötig. |
+| A9 | Aktuelle Aesculap-Datei enthält Standard-PE-Inlay und explizite Poly/Keramik-Paarung. Verbot getestet; fehlende PE-Größen/REF bleiben offen. |
+| A10 | **Julian veröffentlicht im Dashboard.** Veröffentlichung ist ausdrücklich nicht erfolgt und wird nicht durch CLI-Deploy ersetzt. |
+
+## Was Julian tun muss / konkrete Fortsetzung
+
+1. Für die ausstehende UI-Abnahme die Anmeldung an der Kerlect-Dashboardvorschau ermöglichen; anschließend reale Vorschau, sieben Screens, private Fotos und Gruppenrollen prüfen. Der separate Claude-Prototyp benötigt ebenfalls Anmeldung, falls sein visueller Abgleich noch gewünscht ist.
+2. Handyprüfung: drei Tablett-Einstiege, Systemübernahme ohne Größe, vollständiger OP-Lauf mit leerer Wiederöffnung; eigenes System privat/Gruppe samt Foto-Rechten. Haptik laut Profil und Reduced Motion prüfen.
+3. Höchstens 30 Sekunden Bildschirmvideo und neue Screenshots aufnehmen, danach die offenen Abnahmezeilen in **diesem Bericht** abschließen und einen endgültigen Abnahmecheckpoint erstellen.
+4. Erst nach eigener Abnahme **im Dashboard veröffentlichen**. Keine Veröffentlichung durch Astra.
+
+---
+
 # Astra – Implantat-Tablett in Kerlect: Umsetzung und Abnahme
 
 Stand: 07.10.2026. **Start ausdrücklich durch Julian freigegeben.** Diese Freigabe und die aktuelle App-Vorgabe ersetzen die frühere Startblockade. Der historische Bericht weiter unten beschreibt keinen aktuellen App-Zustand.
