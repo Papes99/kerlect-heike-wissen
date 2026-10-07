@@ -25,3 +25,21 @@ Grundlage: Grok-Prüfung `eingang/2026-10-07-001-hueft-tep-grok.md`. Claude konn
 | 9 | geändert | quellen · **Q_KRINKO** (Fundstelle) | 2018, S. 461, Abschnitt 4.2.4 Abdeckung | + Kat. II: keine Flüssigkeitsansammlung des Hautantiseptikums (laut Grok S. 460; Seite 460/461 am PDF bestätigen) | Q_KRINKO |
 
 Quellenstellen: siehe `quellen` in `pakete/001-hueft-tep.json`. Was hier nicht steht, ist gegenüber v1.0 unverändert und muss nicht erneut geprüft werden.
+
+---
+
+## Implantat-Daten (neu): implantate/stryker-accolade-ii + implantate/smith-nephew-polarstem
+Berichtigung von Claudes Websuche-Entwurf (`eingang/2026-10-07-implantate-*-extrakt`, verified:false) mit den Werten, die Grok im Herstellerdokument gelesen hat (`eingang/2026-10-07-001-hueft-tep-grok.md`, Abschnitt C). Claude konnte die Dokumente nicht öffnen.
+
+| Nr | Art | Datei · Komponente | ALT (Entwurf) | NEU | Quelle |
+|---|---|---|---|---|---|
+| 1 | neu | stryker · Accolade II | Konus V40, zementfrei | + CCD 132° Standard / 127° High-Offset; **EU: nicht für Hemi indiziert** | ACCII-SP-1 Rev-4, S. 3, 4, 12 |
+| 2 | geändert | stryker · V40 BIOLOX delta | 28/32/36, Offset −5 bis +7,5 pauschal | 28: −4/−2,7/0/+4 · 32: −4/0/+4 · 36: −5/−2,5/0/+2,5/+5/+7,5 | ACCII-SP-1 Rev-4, S. 12 |
+| 3 | geändert | stryker · Universal Taper BIOLOX delta | Offset 0 | Offset −2,5/0/+4; nur mit Sleeve 6519-T-XX | ACCII-SP-1 Rev-4, S. 12 |
+| 4 | geändert | stryker · Trident II | Schalen 42–72, Kopf 22–44 (Websuche) | Größen/Inlays/max. Kopf **offen** (keine OP-Technik gelesen) | Produktseite DE |
+| 5 | geändert | stryker · UHR | Außen-Ø „u. a. 52“ | Außen-Ø 36–61, Innenkopf 22/26/28; **keine Freigabe mit Accolade II in EU** | UHR HE01-160 Rev1 (Japan) + ACCII-SP-1 |
+| 6 | neu | smith-nephew · POLARSTEM zementfrei | Ti-6Al-4V, Konus offen | Konus 12/14; Ti mit Titanplasma/HA; CCD 135°/126°/145°, teils Kragen | IFU 81098832 Rev. 2 |
+| 7 | neu | smith-nephew · POLARSTEM zementiert | – | Edelstahl; Konus 12/14; nur OXINIUM- oder BIOLOX-delta-Köpfe | IFU 81098832 Rev. 2 |
+| 8 | neu | smith-nephew · R3 | – | im Haus (Julian); Größen/Inlays offen | Julian 07.10.2026 |
+
+Mathys: keine Datei – kein Herstellerdokument lesbar, bleibt offen.

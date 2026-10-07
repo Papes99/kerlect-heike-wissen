@@ -1,0 +1,220 @@
+{
+ "hersteller": "Stryker",
+ "system": "Accolade II (zementfrei) + V40-Köpfe + Trident II + UHR",
+ "region": "hüfte",
+ "verified": true,
+ "verified_hinweis": "Werte aus Herstellerdokument mit Seite (gelesen von Grok); Astra-Prüfung vor Integration offen",
+ "stand_extrakt": "2026-10-07",
+ "quellen": [
+  {
+   "id": "q1",
+   "dokument": "Accolade II Femoral Hip System Surgical Protocol ACCII-SP-1",
+   "stand": "Rev-4 ©2022",
+   "url": "https://az621074-1-cugdarb7eqgsg5g5.a01.azurefd.net/syk-mobile-content-cdn/global-content-system/SYKGCSDOC-2-45343/OrTQyxQIqD2-WhrxKy8f3JDuPuEV4Q/ACCII_SP_1.pdf",
+   "seiten": "3, 4, 12",
+   "gelesen_von": "eingang/2026-10-07-001-hueft-tep-grok.md (Abschnitt C/D)"
+  },
+  {
+   "id": "q2",
+   "dokument": "Accolade II Tray Layout ACCII-TL-1",
+   "stand": "offen",
+   "url": "https://www.stryker.com/content/dam/stryker/joint-replacement/products/accoladeii/resources/Accolade%20II%20Tray%20Layout_ACCII-TL-1_25643.pdf",
+   "seiten": "offen",
+   "gelesen_von": "eingang/2026-10-07-001-hueft-tep-grok.md (Abschnitt C/D)"
+  },
+  {
+   "id": "q3",
+   "dokument": "UHR Universal Head Bipolar System (Stryker Japan) HE01-160",
+   "stand": "Rev1",
+   "url": "https://www.stryker.com/content/dam/stryker/ja/ja/portfolios/orthopaedics/joint-replacement/HE01-160_Rev1_UHR_BipolarSystem_s.pdf",
+   "seiten": "Katalogtabelle",
+   "gelesen_von": "eingang/2026-10-07-001-hueft-tep-grok.md (Abschnitt C/D)"
+  },
+  {
+   "id": "q4",
+   "dokument": "Produktseite Trident II (DE)",
+   "stand": "offen",
+   "url": "https://www.stryker.com/de/de/joint-replacement/products/trident-ii.html",
+   "seiten": "-",
+   "gelesen_von": "eingang/2026-10-07-001-hueft-tep-grok.md (Abschnitt C/D)"
+  }
+ ],
+ "komponenten": [
+  {
+   "typ": "schaft",
+   "bezeichnung": "Accolade II",
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "konus": "V40",
+    "fixation": "zementfrei (press-fit)",
+    "ccd_offset": "132° Standard-Offset; 127° High-Offset",
+    "indikation_eu": "nur Hüft-TEP – in EU/EMEA (CE) und Australien NICHT für Hemiarthroplastik"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "q1"
+  },
+  {
+   "typ": "kopf",
+   "bezeichnung": "V40 BIOLOX delta Keramikkopf",
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "konus": "V40",
+    "material": "BIOLOX delta",
+    "durchmesser_offset_mm": {
+     "28": [
+      -4,
+      -2.7,
+      0,
+      4
+     ],
+     "32": [
+      -4,
+      0,
+      4
+     ],
+     "36": [
+      -5,
+      -2.5,
+      0,
+      2.5,
+      5,
+      7.5
+     ]
+    }
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "q1"
+  },
+  {
+   "typ": "kopf",
+   "bezeichnung": "Universal Taper BIOLOX delta Keramikkopf",
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "konus": "Universal Taper – nur mit Universal Taper Sleeve 6519-T-XX",
+    "material": "BIOLOX delta",
+    "durchmesser_mm": [
+     28,
+     32,
+     36,
+     40,
+     44
+    ],
+    "offset_mm": [
+     -2.5,
+     0,
+     4
+    ]
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "q1"
+  },
+  {
+   "typ": "probekopf",
+   "bezeichnung": "V40 Probeköpfe",
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "konus": "V40",
+    "durchmesser_mm": [
+     28,
+     32,
+     36
+    ]
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "q2"
+  },
+  {
+   "typ": "pfanne",
+   "bezeichnung": "Trident II Tritanium",
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementfrei",
+    "bauarten": "Solidback / Clusterhole / Multihole",
+    "aussen_d_mm": "offen",
+    "max_kopf_mm": "offen",
+    "inlay_innen_d_mm": "offen"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "q4"
+  },
+  {
+   "typ": "duokopf",
+   "bezeichnung": "UHR Universal Head (bipolar)",
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "aussen_d_mm": "36–61",
+    "innenkopf_mm": "22 / 26 / 28 je Größe",
+    "freigabe_mit_accolade_ii_eu": "NEIN – Accolade II in EU nicht für Hemi indiziert"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "q3"
+  }
+ ],
+ "regeln": [
+  {
+   "wenn": "kopf",
+   "pruefe": "kopf.konus == 'V40' oder (Universal Taper + Sleeve 6519-T-XX)",
+   "text": "Accolade II: nur V40-Köpfe oder Universal-Taper-Köpfe mit Sleeve.",
+   "quelle": "q1"
+  },
+  {
+   "wenn": "kopf",
+   "pruefe": "offset in erlaubte_offsets[kopf.durchmesser]",
+   "text": "Offsets je Kopf-Ø unterschiedlich (z. B. +7,5 nur bei 36 mm).",
+   "quelle": "q1"
+  },
+  {
+   "wenn": "duokopf+schaft",
+   "pruefe": "NICHT (schaft == 'Accolade II' und region == EU)",
+   "text": "Kein Duokopf/Hemi auf Accolade II in der EU.",
+   "quelle": "q1"
+  }
+ ],
+ "hinweise": [
+  "Vor dem Öffnen Komponente, Seite und Größe laut ansagen; Herstellerdokument maßgeblich.",
+  "Werte von Grok im Herstellerdokument gelesen (07.10.2026); von Claude nicht selbst geöffnet (gesperrt); Astra prüft vor Integration."
+ ],
+ "offen": [
+  "Accolade II im Haus? (Julian: „glaube II“) – am Etikett bestätigen",
+  "Auf welchem Schaft wird der Stryker-Duokopf im Haus verwendet? z. B. Accolade TMZF, Exeter (zementiert)",
+  "Größenreihe Accolade II, REF/GTIN",
+  "Trident II: Außen-Ø je Größe, Inlays (X3/Keramik), Innen-Ø, max. Kopf-Ø",
+  "UHR: EU-Dokument (statt Japan-Broschüre), Adapterhülse, REF"
+ ]
+}

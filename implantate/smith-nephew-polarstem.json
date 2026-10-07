@@ -1,0 +1,109 @@
+{
+ "hersteller": "Smith+Nephew",
+ "system": "POLARSTEM zementfrei/zementiert + R3",
+ "region": "hüfte",
+ "verified": true,
+ "verified_hinweis": "Werte aus Herstellerdokument mit Seite (gelesen von Grok); Astra-Prüfung vor Integration offen",
+ "stand_extrakt": "2026-10-07",
+ "quellen": [
+  {
+   "id": "q1",
+   "dokument": "POLARSTEM femoral stems Instructions for Use 81098832",
+   "stand": "Rev. 2",
+   "url": "https://smith-nephew.stylelabs.cloud/api/public/content/dda3044cb508477195f9fb946f902eef?download=true&v=277c7283",
+   "seiten": "Product-specific Information",
+   "gelesen_von": "eingang/2026-10-07-001-hueft-tep-grok.md (Abschnitt C/D)"
+  },
+  {
+   "id": "q2",
+   "dokument": "Julian – Hausangabe",
+   "stand": "07.10.2026",
+   "url": "eingang/2026-10-07-julian-implantate-bestaetigung.md",
+   "seiten": "-"
+  }
+ ],
+ "komponenten": [
+  {
+   "typ": "schaft",
+   "bezeichnung": "POLARSTEM zementfrei",
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "konus": "12/14",
+    "fixation": "zementfrei",
+    "material": "Titanlegierung, poröse Titanplasma-/HA-Beschichtung",
+    "ccd_varianten": "Standard 135°; lateral 126°; valgus 145°; teilweise mit Kragen"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "q1"
+  },
+  {
+   "typ": "schaft",
+   "bezeichnung": "POLARSTEM zementiert",
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "konus": "12/14",
+    "fixation": "zementiert",
+    "material": "Edelstahl",
+    "koepfe_erlaubt": "nur OXINIUM oder BIOLOX delta (laut IFU)"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "q1"
+  },
+  {
+   "typ": "pfanne",
+   "bezeichnung": "R3 Acetabular System",
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementfrei",
+    "im_haus": "ja (Julian)",
+    "groessen_inlays_max_kopf": "offen"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "q2"
+  }
+ ],
+ "regeln": [
+  {
+   "wenn": "kopf",
+   "pruefe": "kopf.konus == '12/14'",
+   "text": "POLARSTEM: Konus 12/14.",
+   "quelle": "q1"
+  },
+  {
+   "wenn": "kopf+schaft_zementiert",
+   "pruefe": "kopf.material in ['OXINIUM','BIOLOX delta']",
+   "text": "Zementierter POLARSTEM: nur OXINIUM- oder BIOLOX-delta-Köpfe.",
+   "quelle": "q1"
+  }
+ ],
+ "hinweise": [
+  "Vor dem Öffnen Komponente, Seite und Größe laut ansagen; Herstellerdokument maßgeblich.",
+  "Werte von Grok im Herstellerdokument gelesen (07.10.2026); von Claude nicht selbst geöffnet (gesperrt); Astra prüft vor Integration."
+ ],
+ "offen": [
+  "POLARSTEM im Haus? (Alternativen z. B. SL-PLUS, ANTHOLOGY)",
+  "R3: Schalengrößen, Inlay (XLPE/Keramik), Innen-Ø, max. Kopf-Ø",
+  "OXINIUM-Kopf: Ø und Offsets",
+  "TANDEM bipolar: Größen, Taper-Sleeve",
+  "Zementierte S+N-Pfanne (Name)",
+  "REF/GTIN"
+ ]
+}

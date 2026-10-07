@@ -21,5 +21,15 @@
     "datei": "eingang/2026-10-07-001-hueft-tep-grok.md"
    }
   }
+ },
+ "implantate": {
+  "stryker-accolade-ii": {
+   "stand": "2026-10-07",
+   "astra_vor_integration": "offen"
+  },
+  "smith-nephew-polarstem": {
+   "stand": "2026-10-07",
+   "astra_vor_integration": "offen"
+  }
  }
 }
