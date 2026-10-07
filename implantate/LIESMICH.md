@@ -2,15 +2,15 @@
 
 Pro System eine Datei `implantate/<hersteller>-<system>.json` + `.md`. **Nur exakte Herstellerdaten** (Kompatibilitätstabelle, OP-Technik, IFU, Katalog) mit Dokument, Stand und Link. Nichts schätzen. Firma **und** System müssen passen.
 
-## Systeme im Haus (Julian, 07.10.2026 – korrigiert)
-**Systeme werden nicht gemischt** – je System nur Komponenten, die der Hersteller ausdrücklich dafür vorsieht. Der Duokopf wird mit dem zementierten Schaft desselben Systems verwendet.
+## Systeme im Haus (Julian, Auswahlliste 07.10.2026)
+**Systeme werden nicht gemischt** – je System nur Komponenten, die der Hersteller ausdrücklich dafür vorsieht. Duokopf mit dem zementierten Schaft desselben Systems.
 
-| Hersteller | System | Im Haus |
-|---|---|---|
-| **Stryker** | Accolade (V40, vermutl. Accolade II) | nur zementfreies Hüftsystem (alle Komponenten) |
-| **Aesculap (B. Braun)** | Excia | zementfrei + zementiert + Duokopf (mit zementiertem Schaft) |
-| **Smith+Nephew** | R3-System: SL-PLUS MIA (zementfrei), SPECTRON EF (zementiert), Pfannen R3 + REFLECTION, Liner R3 XLPE, Köpfe OXINIUM / BIOLOX delta / CoCr | zementfrei + zementiert + Duokopf (mit zementiertem Schaft, Name offen) |
-| **Enovis (Mathys)** | twinSys | zementfrei + zementiert + Duokopf (mit zementiertem Schaft) |
+| Hersteller · System | Schaft zementfrei | Schaft zementiert | Pfanne zementfrei | Pfanne zementiert | Inlay | Kopf | Duokopf (mit zementiertem Schaft) |
+|---|---|---|---|---|---|---|---|
+| **Stryker** · Accolade – nur zementfrei | Accolade II | – | Trident II Tritanium | – | X3 Polyethylen | V40 BIOLOX delta, V40 CoCr (LFIT) | – |
+| **Aesculap (B. Braun)** · Excia | Excia T | Excia zementiert | Plasmafit Plus, Plasmafit Poly | Aesculap PE-Pfanne zementiert (Name offen) | BIOLOX delta Inlay | BIOLOX delta, Isodur CoCr | Aesculap Bipolarkopf / Duokopf (Name offen) |
+| **Smith+Nephew** · R3 | SL-PLUS MIA | SPECTRON EF | R3, REFLECTION (zementfrei) | REFLECTION All-Poly (zementiert), Müller-PE-Pfanne (S+N) | R3 XLPE | OXINIUM, BIOLOX delta, CoCr | Bi-Polar Head (S+N) |
+| **Enovis (Mathys)** · twinSys | twinSys zementfrei | twinSys zementiert | RM Classic, seleXys PC | ccB-Pfanne | PE-Inlay Standard | ceramys, symarec, CoCr | Mathys Bipolarkopf |
 
 ## Schema je Datei
 ```json

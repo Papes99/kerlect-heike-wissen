@@ -39,9 +39,42 @@
  "lauf_regel": "Liegt eine eigene Datei von VOR dem lauf_start des Pakets, überschreibt ihr Ersteller sie im neuen Lauf.",
  "systeme": "Systeme werden nicht aktiv gemischt (Julian 07.10.2026): jede Komponente nur zusammen mit dem, was der Hersteller im Dokument ausdrücklich dafür vorsieht. Keine eigenen Kombinationen – weder über Hersteller noch innerhalb eines Herstellers.",
  "haus_systeme": {
-  "Stryker": "Accolade – nur zementfrei",
-  "Aesculap": "Excia – zementfrei, zementiert, Duokopf mit zementiertem Schaft",
-  "Smith+Nephew": "R3 – zementfrei, zementiert, Duokopf mit zementiertem Schaft",
-  "Enovis (Mathys)": "twinSys – zementfrei, zementiert, Duokopf mit zementiertem Schaft"
+  "Stryker": {
+   "system": "Accolade – nur zementfrei",
+   "Schaft zementfrei": "Accolade II",
+   "Pfanne zementfrei": "Trident II Tritanium",
+   "Inlay": "X3 Polyethylen",
+   "Kopf": "V40 BIOLOX delta, V40 CoCr (LFIT)"
+  },
+  "Aesculap (B. Braun)": {
+   "system": "Excia",
+   "Schaft zementfrei": "Excia T",
+   "Schaft zementiert": "Excia zementiert",
+   "Pfanne zementfrei": "Plasmafit Plus, Plasmafit Poly",
+   "Pfanne zementiert": "Aesculap PE-Pfanne zementiert (Name offen)",
+   "Inlay": "BIOLOX delta Inlay",
+   "Kopf": "BIOLOX delta, Isodur CoCr",
+   "Duokopf (mit zementiertem Schaft)": "Aesculap Bipolarkopf / Duokopf (Name offen)"
+  },
+  "Smith+Nephew": {
+   "system": "R3",
+   "Schaft zementfrei": "SL-PLUS MIA",
+   "Schaft zementiert": "SPECTRON EF",
+   "Pfanne zementfrei": "R3, REFLECTION (zementfrei)",
+   "Pfanne zementiert": "REFLECTION All-Poly (zementiert), Müller-PE-Pfanne (S+N)",
+   "Inlay": "R3 XLPE",
+   "Kopf": "OXINIUM, BIOLOX delta, CoCr",
+   "Duokopf (mit zementiertem Schaft)": "Bi-Polar Head (S+N)"
+  },
+  "Enovis (Mathys)": {
+   "system": "twinSys",
+   "Schaft zementfrei": "twinSys zementfrei",
+   "Schaft zementiert": "twinSys zementiert",
+   "Pfanne zementfrei": "RM Classic, seleXys PC",
+   "Pfanne zementiert": "ccB-Pfanne",
+   "Inlay": "PE-Inlay Standard",
+   "Kopf": "ceramys, symarec, CoCr",
+   "Duokopf (mit zementiertem Schaft)": "Mathys Bipolarkopf"
+  }
  }
 }

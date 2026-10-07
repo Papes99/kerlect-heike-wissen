@@ -312,19 +312,17 @@ Bitte prüfen: Deckt der 000-Eintrag den 001-Eintrag wirklich ab? Wo 001 Hüft-S
 ### Teil C – Implantat-Quellen (Perplexity-Auftrag: `pruefung/001-perplexity-auftrag.md`)
 Offen: EU-Dokumente und Größen/Kompatibilität für Stryker Accolade II / Trident II / UHR, Smith+Nephew POLARSTEM (EU-IFU) / R3 / TANDEM, Mathys twinSys / Pfannen / Bipolarkopf. Werte nur aus dem Original mit Seite; Perplexity liefert nur Fundstellen.
 
-### Teil D – Hausangaben Julian (07.10.2026, korrigiert)
-| Hersteller | System | Im Haus |
-|---|---|---|
-| Stryker | Accolade (V40, vermutl. Accolade II) | **nur zementfreies Hüftsystem** (alle Komponenten) |
-| Aesculap (B. Braun) | Excia | zementfrei + zementiert + **Duokopf mit zementiertem Schaft** |
-| Smith+Nephew | R3-System: Schaft zementfrei **SL-PLUS MIA**, Schaft zementiert **SPECTRON (EF)**, Pfannen **R3** und **REFLECTION**, Liner **R3 XLPE**, Köpfe **OXINIUM / BIOLOX delta / CoCr** (Julian 07.10.) | zementfrei + zementiert + **Duokopf mit zementiertem Schaft (Name offen)** |
-| Enovis (Mathys) | twinSys | zementfrei + zementiert + **Duokopf mit zementiertem Schaft** |
+### Teil D – Hausangaben Julian (Auswahlliste 07.10.2026)
+| Hersteller · System | Schaft zementfrei | Schaft zementiert | Pfanne zementfrei | Pfanne zementiert | Inlay | Kopf | Duokopf (mit zementiertem Schaft) |
+|---|---|---|---|---|---|---|---|
+| **Stryker** · Accolade – nur zementfrei | Accolade II | – | Trident II Tritanium | – | X3 Polyethylen | V40 BIOLOX delta, V40 CoCr (LFIT) | – |
+| **Aesculap (B. Braun)** · Excia | Excia T | Excia zementiert | Plasmafit Plus, Plasmafit Poly | Aesculap PE-Pfanne zementiert (Name offen) | BIOLOX delta Inlay | BIOLOX delta, Isodur CoCr | Aesculap Bipolarkopf / Duokopf (Name offen) |
+| **Smith+Nephew** · R3 | SL-PLUS MIA | SPECTRON EF | R3, REFLECTION (zementfrei) | REFLECTION All-Poly (zementiert), Müller-PE-Pfanne (S+N) | R3 XLPE | OXINIUM, BIOLOX delta, CoCr | Bi-Polar Head (S+N) |
+| **Enovis (Mathys)** · twinSys | twinSys zementfrei | twinSys zementiert | RM Classic, seleXys PC | ccB-Pfanne | PE-Inlay Standard | ceramys, symarec, CoCr | Mathys Bipolarkopf |
 
 - **Systeme werden NICHT gemischt:** je System nur Komponenten, die der Hersteller ausdrücklich dafür vorsieht.
-- Folge für Implantat-Dateien (bitte prüfen): **Stryker hat im Haus keinen Duokopf** → UHR-Eintrag in `implantate/stryker-accolade-ii` streichen. Exeter ist **nicht** im Haus (frühere Notiz war ein Lesefehler: gemeint war Aesculap **Excia**).
-- Neue Implantat-Dateien nötig: Aesculap Excia, Enovis twinSys (Mathys), S+N R3-System – Werte nur aus Herstellerdokument mit Seite (Quellen: Perplexity).
+- Folge für Implantat-Dateien (bitte prüfen): Stryker hat im Haus **keinen Duokopf** → UHR-Eintrag in `implantate/stryker-accolade-ii` streichen. **POLARSTEM nicht im Haus** → `implantate/smith-nephew-polarstem` streichen. Neue Implantat-Dateien: Aesculap Excia, Smith+Nephew R3-System, Enovis twinSys – Werte nur aus Herstellerdokument mit Seite (Quellen: Perplexity).
 
 ### Teil E – Wartet auf Julian (nicht prüfen)
-- Smith+Nephew Duokopf: Name offen (Vorschläge im Chat 07.10.).
 - POLARSTEM ist laut Julian NICHT im Haus → implantate/smith-nephew-polarstem prüfen/streichen.
-- Aesculap: Welche Excia-Pfannen? z. B. *Plasmafit* (zementfrei) und zementierte PE-Pfanne?
+- Aesculap: genaue Namen der zementierten PE-Pfanne und des Duokopfs (vom Etikett), falls Perplexity sie nicht eindeutig findet.

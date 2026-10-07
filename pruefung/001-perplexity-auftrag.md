@@ -2,15 +2,17 @@
 
 _Lauf 001, Start 07.10.2026 · Haus-Systeme laut Julian (07.10.2026, korrigiert). Ergebnis bitte als eigene Datei `pruefung/001-perplexity.md`. Nur Fundstellen, keine Werte._
 
-## Haus-Systeme (Julian) – je System ALLE Komponenten
-**Regel: Systeme nicht mischen.** Je System nur die Komponenten, die der Hersteller im Dokument dafür vorsieht. Der Duokopf wird im Haus mit dem **zementierten Schaft desselben Systems** verwendet – nur so, wie es das Herstellerdokument erlaubt.
+## Haus-Systeme (Julian, Auswahlliste 07.10.2026) – genau diese Komponenten
+**Regel: Systeme nicht mischen.** Je System nur, was der Hersteller dafür vorsieht. Duokopf wird mit dem zementierten Schaft desselben Systems verwendet.
 
-| Hersteller | System | Im Haus | Gesucht |
-|---|---|---|---|
-| Stryker | **Accolade** (V40; vermutl. Accolade II) – zementfreies Hüftsystem | nur zementfrei | Alle Komponenten des Systems: Schaft (Größen/Offsets), Köpfe, zementfreie Pfanne(n) + Inlays, ggf. Schrauben – EU-OP-Technik, EU-IFU, Kompatibilitätstabelle |
-| Aesculap (B. Braun) | **Excia** – Hüftsystem | zementfrei + zementiert + Duokopf (mit zementiertem Schaft) | Excia zementfrei und zementiert (Größen, Konus), zugehörige Köpfe, Pfannen zementfrei/zementiert + Inlays, Duokopf-System, Zement-/Markraumstopper-Vorgaben – EU-OP-Technik, EU-IFU, Kompatibilitätstabelle |
-| Smith+Nephew | **R3**-Hüftsystem | Schaft zementfrei **SL-PLUS MIA**, Schaft zementiert **SPECTRON EF**, Pfannen **R3** + **REFLECTION**, Liner **R3 XLPE**, Köpfe **OXINIUM / BIOLOX delta / CoCr**, Duokopf (Name offen) | Je Komponente EU-OP-Technik, EU-IFU, Größentabelle (Konus SL-PLUS MIA und SPECTRON EF, Liner-Innen-Ø je R3-Größe, max. Kopf-Ø, REFLECTION zementfrei/zementiert); laut S+N zugelassene Kopf-Schaft- und Kopf-Liner-Kombinationen; welcher S+N-Duokopf/Bipolarkopf laut Hersteller mit SPECTRON EF verwendet wird |
-| Enovis (Mathys) | **twinSys** – Hüftsystem | zementfrei + zementiert + Duokopf (mit zementiertem Schaft) | twinSys zementfrei/zementiert (Größen, Konus 12/14), Köpfe (Kompatibilitäts-Chart Hipheads), Pfannen zementfrei/zementiert + Inlays, Bipolar-/Duokopf – EU-OP-Technik (z. B. OP-Technik twinSys DE), EU-IFU |
+| Hersteller · System | Schaft zementfrei | Schaft zementiert | Pfanne zementfrei | Pfanne zementiert | Inlay | Kopf | Duokopf (mit zementiertem Schaft) |
+|---|---|---|---|---|---|---|---|
+| **Stryker** · Accolade – nur zementfrei | Accolade II | – | Trident II Tritanium | – | X3 Polyethylen | V40 BIOLOX delta, V40 CoCr (LFIT) | – |
+| **Aesculap (B. Braun)** · Excia | Excia T | Excia zementiert | Plasmafit Plus, Plasmafit Poly | Aesculap PE-Pfanne zementiert (Name offen) | BIOLOX delta Inlay | BIOLOX delta, Isodur CoCr | Aesculap Bipolarkopf / Duokopf (Name offen) |
+| **Smith+Nephew** · R3 | SL-PLUS MIA | SPECTRON EF | R3, REFLECTION (zementfrei) | REFLECTION All-Poly (zementiert), Müller-PE-Pfanne (S+N) | R3 XLPE | OXINIUM, BIOLOX delta, CoCr | Bi-Polar Head (S+N) |
+| **Enovis (Mathys)** · twinSys | twinSys zementfrei | twinSys zementiert | RM Classic, seleXys PC | ccB-Pfanne | PE-Inlay Standard | ceramys, symarec, CoCr | Mathys Bipolarkopf |
+
+Je Komponente gesucht: EU-OP-Technik, EU-IFU, Größen-/Katalogübersicht, Kompatibilitätstabelle (Kopf–Schaft, Kopf–Inlay, Duokopf–Schaft) – mit Seite. „Name offen“: bitte den Herstellernamen des Produkts im System finden.
 
 Zusätzlich: Rückrufe/Sicherheitsmeldungen (BfArM, FDA) zu diesen Systemen.
 
