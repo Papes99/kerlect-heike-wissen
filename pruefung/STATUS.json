@@ -107,10 +107,11 @@
   },
   "001-implantate-luecken": {
    "name": "Perplexity-Recherche Lücken Hüft-Implantate",
-   "runde": "perplexity",
+   "runde": "wartet auf Julian („Implantate Lücken los“)",
    "perplexity_auftrag": "pakete/001-implantate-luecken-perplexity-auftrag.md",
    "ergebnis": "pruefung/001-implantate-luecken-perplexity.md",
-   "weiter": "Funde fließen in den nächsten Implantat-Lauf (Grok/Astra lesen am Original)"
+   "weiter": "Funde fließen in den nächsten Implantat-Lauf (Grok/Astra lesen am Original)",
+   "perplexity_fertig": "2026-10-07, pruefung/001-implantate-luecken-perplexity.md (Repo-Stand 9ad0cb1)"
   }
  },
  "eingang_verarbeitet": [
