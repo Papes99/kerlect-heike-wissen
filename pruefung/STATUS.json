@@ -110,7 +110,7 @@
   },
   "001-implantate-luecken": {
    "name": "001-implantate-luecken (Extra-Lauf, Pipeline NEU)",
-   "runde": "grok",
+   "runde": "wartet – wird mit Lauf 002 zusammengeführt (Julian 07.10.2026)",
    "perplexity_auftrag": "pakete/001-implantate-luecken-perplexity-auftrag.md",
    "ergebnis": "pruefung/001-implantate-luecken-perplexity.md",
    "weiter": "Funde fließen in den nächsten Implantat-Lauf (Grok/Astra lesen am Original)",
@@ -123,7 +123,8 @@
     "grok": "pruefung/001-implantate-luecken-grok.md",
     "openai": "pruefung/001-implantate-luecken-openai.md"
    },
-   "abschluss": "Werte direkt in implantate/*.json + .md (Version +0.1), basis + perplexity-auftrag danach entfernen"
+   "abschluss": "Werte direkt in implantate/*.json + .md (Version +0.1), basis + perplexity-auftrag danach entfernen",
+   "hinweis": "Grok/OpenAI noch nicht starten; die 23 Punkte aus pakete/001-implantate-luecken-basis.md kommen beim Start von 002 in dessen Basis (Abschnitt Implantate Hüfte)."
   }
  },
  "eingang_verarbeitet": [
