@@ -10,7 +10,7 @@ Dokumenttypen: OP-Technik / Surgical Protocol, Kompatibilitätstabelle, Katalog/
 | Stryker | Accolade II (V40) | EU-IFU; Größenreihe; REF-Übersicht (wir haben Surgical Protocol ACCII-SP-1 Rev-4) |
 | Stryker | Accolade TMZF | nur falls im Haus: EU-IFU/OP-Technik (Hemi-Indikation?) |
 | Stryker | **Exeter V40 (zementierter Schaft)** – im Haus (Julian 07.10.) | EU-OP-Technik + EU-IFU: Schaftgrößen/Offsets, Konus V40, Zement-/Markraumstopper-/Zentralisierer-Vorgaben, Hemi-Indikation |
-| Stryker | **Duokopf-System zu Exeter/Accolade** (z. B. UHR Universal Head bipolar, Exeter-Unipolar/-Bipolar) – im Haus (Julian 07.10.) | EU-Dokument: welcher Duokopf auf Exeter bzw. Accolade zugelassen, Adapterhülse V40, Größenreihe, Innenkopf |
+| Stryker | **Duokopf-System zu Exeter/Accolade** (z. B. UHR Universal Head bipolar, Exeter-Unipolar/-Bipolar) – im Haus (Julian 07.10.) | EU-Dokument des Herstellers zum Duokopf-System: welche Komponenten laut Stryker dazugehören (Schaft, Adapterhülse, Größenreihe, Innenkopf). Nur Fundstellen – keine eigenen Kombinationen ableiten |
 | Stryker | Trident II Tritanium | OP-Technik/Größentabelle: Schalengrößen, Inlays (X3, Keramik), Innen-Ø, max. Kopf-Ø je Schale |
 | Stryker | UHR Universal Head | EU-Dokument (wir haben nur Japan-Katalog HE01-160): Außen-Ø-Reihe, Innenkopf, Adapterhülse V40, zugelassene Schäfte |
 | Stryker | V40 / Universal Taper Köpfe | Kompatibilitätstabelle Kopf–Schaft–Inlay (EU) |

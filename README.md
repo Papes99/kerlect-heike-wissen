@@ -32,6 +32,7 @@ Siehe [PRUEFAUFTRAG.md](PRUEFAUFTRAG.md). Status: [pruefung/STATUS.json](pruefun
 
 ## Regeln (Kurz)
 
+- **Systeme nicht mischen:** Jede Implantat-Komponente nur mit dem, was der Hersteller im Dokument ausdrücklich dafür vorsieht – keine eigenen Kombinationen.
 - **Zuordnung:** 000 = allgemeines OP-Wissen für jeden Eingriff. Eingriffspakete (001 …) enthalten nur Eingriffsspezifisches. Allgemeines wandert nach 000 und wird im Eingriffspaket gestrichen.
 
 - Erlaubt nur mit Quelle und Hinweis: Medikamente mit Dosierung („laut ärztlicher Anordnung/Fachinformation prüfen“), Zement-Mischzeiten („nur für genanntes Produkt laut IFU, temperaturabhängig“), HF-Leistungswerte („Herstellerempfehlung, Gerät/Gewebe abhängig“), Implantatgrößen und -kompatibilität („laut Herstellerdokument, Stand angeben“). Ohne Quelle: weglassen.

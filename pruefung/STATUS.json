@@ -36,5 +36,6 @@
  "start_befehl": "Ein Paket startet nur, wenn Julian „NNN los“ sagt (z. B. „001 los“).",
  "zuordnung": "000 = allgemeines OP-Wissen (gilt für jeden Eingriff). Eingriffspakete (001 …) enthalten NUR Eingriffsspezifisches. Allgemeines aus Eingriffspaketen: ist es schon in 000 → im Eingriffspaket streichen; fehlt es in 000 → über die Kette (000-basis „Zur Prüfung“ → Grok → Astra → Julian) nach 000 verschieben, dann im Eingriffspaket streichen. Eingriffsspezifisches nie in 000.",
  "perplexity": "Nur wenn Claude Implantat-Quellen braucht: Claude legt beim Laufstart pruefung/NNN-perplexity-auftrag.md an (welche Systeme/Dokumente). Perplexity sucht offizielle Herstellerdokumente und legt pruefung/NNN-perplexity.md an (nur Quellenliste: Titel, Nr./Revision, Stand, Markt, PDF-Link, Seite – keine Werte). Grok und Astra lesen die Quellenliste mit und prüfen die Werte am Original. Claude wertet in Arbeit 2 alles aus.",
- "lauf_regel": "Liegt eine eigene Datei von VOR dem lauf_start des Pakets, überschreibt ihr Ersteller sie im neuen Lauf."
+ "lauf_regel": "Liegt eine eigene Datei von VOR dem lauf_start des Pakets, überschreibt ihr Ersteller sie im neuen Lauf.",
+ "systeme": "Systeme werden nicht aktiv gemischt (Julian 07.10.2026): jede Komponente nur zusammen mit dem, was der Hersteller im Dokument ausdrücklich dafür vorsieht. Keine eigenen Kombinationen – weder über Hersteller noch innerhalb eines Herstellers."
 }
