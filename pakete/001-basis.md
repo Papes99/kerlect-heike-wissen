@@ -312,6 +312,10 @@ Bitte prüfen: Deckt der 000-Eintrag den 001-Eintrag wirklich ab? Wo 001 Hüft-S
 ### Teil C – Implantat-Quellen (Perplexity-Auftrag: `pruefung/001-perplexity-auftrag.md`)
 Offen: EU-Dokumente und Größen/Kompatibilität für Stryker Accolade II / Trident II / UHR, Smith+Nephew POLARSTEM (EU-IFU) / R3 / TANDEM, Mathys twinSys / Pfannen / Bipolarkopf. Werte nur aus dem Original mit Seite; Perplexity liefert nur Fundstellen.
 
-### Teil D – Wartet auf Julian (nicht prüfen)
-- Duokopf: Welcher Schaft steht auf der Packung? z. B. *Accolade II*, *Accolade TMZF*, *Exeter*, *twinSys*.
+### Teil D – Hausangaben Julian (07.10.2026)
+- Stryker im Haus: **Accolade (V40, vermutlich Accolade II) zementfrei**, **Exeter (zementierter Schaft)** und das **Duokopf-System** dazu. Bitte prüfen: Welcher Duokopf ist laut Hersteller für Exeter bzw. Accolade in der EU zugelassen? (Accolade II laut ACCII-SP-1 in der EU nicht für Hemi.)
+- Smith+Nephew: R3 (Pfanne).
+
+### Teil E – Wartet auf Julian (nicht prüfen)
+- Duokopf: Kommt er bei euch auf Exeter, auf Accolade oder auf beide? Und heißt er z. B. *UHR Universal Head*?
 - Smith+Nephew-Schaft: *POLARSTEM*, *SL-PLUS* oder *ANTHOLOGY*? EU-IFU vorhanden?

@@ -5,7 +5,7 @@ Pro System eine Datei `implantate/<hersteller>-<system>.json` + `.md`. **Nur exa
 ## Systeme im Haus (Julian, 07.10.2026)
 | Hersteller | Im Haus | Noch zu klären |
 |---|---|---|
-| **Stryker** | **nur zementfreie Hüfte**: Accolade-Schaft (Konus **V40**), zementfreie Pfanne, Duokopf (bipolar) | Accolade II oder Accolade TMZF (beide V40)? Name der Pfanne (z. B. Trident/Trident II)? Name des Duokopfs? |
+| **Stryker** | Accolade-Schaft zementfrei (Konus **V40**, vermutl. Accolade II), **Exeter zementiert** (Julian 07.10.), zementfreie Pfanne, Duokopf-System (bipolar) | Accolade II oder Accolade TMZF (beide V40)? Name der Pfanne (z. B. Trident/Trident II)? Name des Duokopfs? |
 | **Mathys** | **alles**: twinSys zementfrei + zementiert, Pfanne zementfrei + zementiert, Duokopf | Namen der Pfannen und des Duokopfs |
 | **Smith & Nephew** | **alles**: Schaft zementfrei + zementiert, Pfanne zementfrei + zementiert, Duokopf | Systemnamen (Schaft, Pfannen, Duokopf) |
 
