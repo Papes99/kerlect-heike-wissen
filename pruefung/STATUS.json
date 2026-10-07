@@ -1,7 +1,7 @@
 {
  "stand": "2026-10-07",
- "regeln": "Jede Datei bearbeitet nur ihr Ersteller. Claude: pakete/NNN-basis.json + .md, pakete/NNN-abschluss.md, implantate/*, pakete/NNN-quellen-auftrag.md, pruefung/STATUS.json, README.md. Grok: pruefung/NNN-grok.md. Astra: pruefung/NNN-astra.md. Perplexity: pruefung/NNN-perplexity.md. Julian: eingang/*. Dateinamen ohne Versionsnummer.",
- "ablauf": "Pro Paket EIN Lauf: 1 Claude schreibt NNN-basis („Zur Prüfung“) → 2 Grok prüft EINMAL (alles) → 3 Astra prüft EINMAL, bis 020 nur die Implantat-Punkte (Lauf ohne Implantate: entfällt) → 4 Claude liest alles, denkt kritisch mit, Änderungsliste an Julian (Entscheidungen als Multiple Choice) → 5 Julian ok → Claude baut ein. Keine zweite Prüfrunde. Nach dem Einbau: NNN-basis.json + .md werden zu EINER Datei pakete/NNN-abschluss.md (oben lesbar, unten JSON-Block); basis-Dateien entfernt. Neuer Lauf (nach „NNN los“) startet wieder mit NNN-basis aus der Abschlussdatei.",
+ "regeln": "Jede Datei bearbeitet nur ihr Ersteller. Claude: pakete/*, implantate/*, app/*.md+json, pruefung/STATUS.json, README.md. Grok: pruefung/NNN-grok.md. OpenAI: pruefung/NNN-openai.md. Perplexity: pruefung/NNN-perplexity.md. Astra: Kerlect-Code + pruefung/app-astra.md. Julian: eingang/* und alles auf ausdrücklichen Wunsch. Dateinamen ohne Versionsnummer.",
+ "ablauf": "Prüf-Pipeline NEU (Julian 07.10.2026, pruefung/PIPELINE-NEU.md): Julian nennt Paket → Perplexity Quellen (pruefung/NNN-perplexity.md) → Claude/Cloud startet (pakete/NNN-basis, Zur Prüfung) → Grok ganze Paketversion (pruefung/NNN-grok.md) → nur Implantate: OpenAI (pruefung/NNN-openai.md; Herstellerangaben/Kompatibilität/Indikationsgrenzen, keine Instrumente) → Claude letzter Check + Änderungsliste (Multiple Choice) → Julian okay → Claude baut Daten ein → Astra implementiert in Kerlect → abgeschlossen; Grok/OpenAI/Perplexity/Astra löschen eigene Prüfdateien.",
  "pakete": {
   "000": {
    "datei": "pakete/000-abschluss.md",
@@ -26,12 +26,15 @@
    "gehoert_dazu": [
     "implantate/stryker-accolade-ii.json",
     "implantate/aesculap-excia.json",
+    "implantate/aesculap-bicontact.json",
+    "implantate/aesculap-corehip.json",
     "implantate/smith-nephew-r3.json",
     "implantate/enovis-twinsys.json",
     "implantate/enovis-optimys.json",
     "implantate/depuy-corail-pinnacle.json",
     "implantate/zimmer-biomet.json",
     "implantate/medacta-quadra-amistem.json",
+    "implantate/link-spii-lubinus.json",
     "implantate/auswahl-dach.md"
    ],
    "lauf_start": "2026-10-07T02:10Z",
@@ -106,12 +109,21 @@
    "julian": "Systeme: DePuy, Zimmer Biomet, optimys, Medacta; POLARSTEM wieder auf; einbauen (✅1–11, ✏️16–18, ❌12–15)"
   },
   "001-implantate-luecken": {
-   "name": "Perplexity-Recherche Lücken Hüft-Implantate",
-   "runde": "wartet auf Julian („Implantate Lücken los“)",
+   "name": "001-implantate-luecken (Extra-Lauf, Pipeline NEU)",
+   "runde": "grok",
    "perplexity_auftrag": "pakete/001-implantate-luecken-perplexity-auftrag.md",
    "ergebnis": "pruefung/001-implantate-luecken-perplexity.md",
    "weiter": "Funde fließen in den nächsten Implantat-Lauf (Grok/Astra lesen am Original)",
-   "perplexity_fertig": "2026-10-07, pruefung/001-implantate-luecken-perplexity.md (Repo-Stand 9ad0cb1)"
+   "perplexity_fertig": "2026-10-07, pruefung/001-implantate-luecken-perplexity.md (Repo-Stand 9ad0cb1)",
+   "typ": "implantate",
+   "datei": "pakete/001-implantate-luecken-basis.md",
+   "lauf_start": "2026-10-07T18:30Z",
+   "dateien": {
+    "perplexity": "pruefung/001-implantate-luecken-perplexity.md",
+    "grok": "pruefung/001-implantate-luecken-grok.md",
+    "openai": "pruefung/001-implantate-luecken-openai.md"
+   },
+   "abschluss": "Werte direkt in implantate/*.json + .md (Version +0.1), basis + perplexity-auftrag danach entfernen"
   }
  },
  "eingang_verarbeitet": [
@@ -195,15 +207,29 @@
    "Schaft zementiert": "Quadra-C, Amistem-C",
    "Pfanne zementfrei": "Versafitcup CC Trio",
    "Duokopf (mit zementiertem Schaft)": "Medacta bipolar"
+  },
+  "Aesculap Bicontact/CoreHip": {
+   "system": "Bicontact (S/H/SD/N), CoreHip Primary/Extended – Datei von Julian 07.10.2026",
+   "dateien": [
+    "implantate/aesculap-bicontact.json",
+    "implantate/aesculap-corehip.json"
+   ]
+  },
+  "Waldemar Link": {
+   "system": "SP II Modell Lubinus (zementiert) + Lubinus/IP-Pfannen – Datei von Julian 07.10.2026",
+   "dateien": [
+    "implantate/link-spii-lubinus.json"
+   ]
   }
  },
  "eingang_offen": [],
- "astra_pause": "Julian 07.10.2026: Bis Paket 020 prüft Astra in jedem Lauf NUR die Implantate (Implantat-Suche + Implantat-Einbau: implantate/*, quellen-auftrag, Implantat-Punkte der Basis) – den übrigen Paketinhalt nicht. Läufe ohne Implantat-Bezug: kein Astra-Schritt. Nach 020 prüft Astra in EINEM Gesamtlauf alles (000–020 + implantate/*) → pruefung/gesamt-astra.md.",
+ "astra_pause": "Abgelöst durch Pipeline NEU (07.10.2026): Implantat-Prüfung macht OpenAI; Astra implementiert in Kerlect. Gesamtprüfung nach 020 bleibt vorgemerkt, falls Julian sie will.",
  "app_regel": "Julian 07.10.2026: Astra programmiert – und nur in Kerlect (Base44-App „Kerlect“, ID 6aa3f64b0b23cc244ce7686d). Claude schreibt keinen App-Code in Kerlect; Claude liefert Daten (implantate/*, pakete/*), Vorgaben (app/*.md, app/implantat-eingriffe.json) und Prototypen. App-Auftrag Implantat-Tablett: Start freigegeben 07.10.2026.",
  "app_auftrag": {
   "datei": "app/hueft-implantat-auswahl.md",
   "start": "jetzt (Julian 07.10.2026) – mit aktuellem Datenstand; spätere Läufe (001-implantate, 001-implantate-dach) kommen ohne Codeänderung über die Daten dazu",
   "astra_ergebnis": "pruefung/app-astra.md"
  },
- "auswahl_regel": "Julian 07.10.2026: Implantat-Systeme werden nach Häufigkeit in DACH ausgewählt (Register: EPRD Deutschland, SIRIS Schweiz, Österreich), nicht nach einer einzelnen Klinik. „haus_systeme“ = aktuelle Auswahl häufiger DACH-Systeme; Hausbestand prüft jede Klinik selbst am Etikett."
+ "auswahl_regel": "Julian 07.10.2026: Implantat-Systeme werden nach Häufigkeit in DACH ausgewählt (Register: EPRD Deutschland, SIRIS Schweiz, Österreich), nicht nach einer einzelnen Klinik. „haus_systeme“ = aktuelle Auswahl häufiger DACH-Systeme; Hausbestand prüft jede Klinik selbst am Etikett.",
+ "runde_schema": "pruefung/runde-schema-v2.json (wartet → perplexity → cloud → grok → openai [nur Implantate] → cloud-final → julian → astra-bau → abgeschlossen)"
 }

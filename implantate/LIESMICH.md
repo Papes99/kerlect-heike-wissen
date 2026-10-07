@@ -18,7 +18,7 @@ Auswahl nach Häufigkeit in DACH (EPRD, SIRIS, Österreich) – Erweiterung um D
 | **Enovis (Mathys)** · optimys | optimys | – | RM Pressfit vitamys (Monoblock) | – | – | ceramys, symarec | (twinSys-Datei) |
 | **Medacta** | Quadra-H, Quadra-P, Amistem-P | Quadra-C, Amistem-C | Versafitcup CC Trio | – | offen | offen | Medacta bipolar |
 
-**Dateien:** `stryker-accolade-ii`, `aesculap-excia`, `smith-nephew-r3`, `enovis-twinsys`, `enovis-optimys`, `depuy-corail-pinnacle`, `zimmer-biomet`, `medacta-quadra-amistem` (je .json + .md). Ranking: `auswahl-dach.md`.
+**Dateien:** `stryker-accolade-ii`, `aesculap-excia`, `aesculap-bicontact`, `aesculap-corehip`, `smith-nephew-r3`, `enovis-twinsys`, `enovis-optimys`, `depuy-corail-pinnacle`, `zimmer-biomet`, `medacta-quadra-amistem`, `link-spii-lubinus` (je .json + .md). Ranking: `auswahl-dach.md`. Bicontact, CoreHip und SP II Lubinus von Julian angelegt (07.10.2026).
 
 ## Schema je Datei
 ```json

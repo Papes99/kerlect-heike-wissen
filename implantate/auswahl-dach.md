@@ -15,10 +15,12 @@ _Claude · Lauf 001-implantate-dach · Stand 07.10.2026 · Daten: Astra am Origi
 | Smith+Nephew | SL-PLUS MIA, POLARSTEM, SPECTRON EF, R3, TANDEM | `smith-nephew-r3` | DE R3 #4 Pfanne, Polar+R3 #8; CH #3 |
 | Aesculap | Excia T + Plasmafit | `aesculap-excia` | DE Kombi #7, Plasmafit #3 Pfanne |
 | Stryker | Accolade II + Trident II | `stryker-accolade-ii` | DE Kombi #13; Tirol Accolade II #3 |
+| Aesculap | Bicontact, CoreHip | `aesculap-bicontact`, `aesculap-corehip` | DE zf-Schaft #6 / #10; zementiert #7 (von Julian angelegt) |
+| Waldemar Link | SP II Modell Lubinus + Lubinus/IP | `link-spii-lubinus` | DE zementierter Schaft #2 (von Julian angelegt) |
 
 ## Häufig, aber (noch) nicht ausgewählt
-- Aesculap **BICONTACT** (zf-Schaft DE #6, zementiert #7), **COREHIP** (#10), **METHA** (#15); Aesculap **All POLY** (zementierte Pfanne #2)
-- Waldemar Link **SPII Model Lubinus** (zementierter Schaft DE #2), Link-Pfannen (IP, Lubinus, CombiCup)
+- Aesculap **METHA** (#15); Aesculap **All POLY** (zementierte Pfanne #2)
+- Link **CombiCup** (zf-Pfanne #15)
 - ARTIQO **A2 Kurzschaft** + ANA.NOVA (DE zf-Schaft #9)
 - OHST **Müller II** (zementierte Pfanne #3)
 - DePuy **ACTIS** (CH Actis/Pinnacle #8) – nur AU/NZ-Dokument

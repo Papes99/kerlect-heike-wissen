@@ -22,17 +22,21 @@ Nach Häufigkeit in DACH (Register EPRD, SIRIS, Österreich) – nicht nach eine
 ## Aktuelle Reihe
 
 - **000-grundwissen** (`pakete/000-abschluss.md`, abgeschlossen v1.5) — gilt für jeden Eingriff: Sicherheit, Zählung, Sterilität, Lagerung, HF, Implantate, Präparate, Übergabe; 13 Situations-IDs.
-- **001-hueft-tep** (`pakete/001-abschluss.md`, abgeschlossen v1.3, dazu `implantate/`: Stryker Accolade II, Aesculap Excia, S+N R3, Enovis twinSys) — Hüft-TEP primär, baut auf 000 auf; Chips mit Mengen, Naht, Varianten (Fixation/Zugang).
+- **001-hueft-tep** (`pakete/001-abschluss.md`, abgeschlossen v1.3, dazu `implantate/`: 11 Systemdateien häufiger DACH-Systeme, Ranking `implantate/auswahl-dach.md`) — Hüft-TEP primär, baut auf 000 auf; Chips mit Mengen, Naht, Varianten (Fixation/Zugang).
 - 002 ff. folgen (z. B. Knie-TEP).
 
-Ablauf (ab 07.10.2026). **Jede Datei bearbeitet nur ihr Ersteller – keiner verändert fremde Dateien.** Dateinamen ohne Versionsnummer.
-1. **Claude** schreibt `pakete/NNN-basis.json` + `.md` (das Paket; Abschnitt „Zur Prüfung in dieser Runde“) und setzt in `pruefung/STATUS.json` `runde: grok`.
-1b. Braucht es Implantat-Quellen, legt Claude zusätzlich `pakete/NNN-quellen-auftrag.md` an.
-2. **Grok** schreibt `pruefung/NNN-grok.md` (Änderungsvorschläge; sucht die Quellen aus dem Quellen-Auftrag selbst, Nicht Gefundenes als „nicht gefunden“).
-3. **Astra** liest alles, ändert nichts, schreibt `pruefung/NNN-astra.md` (Grok-Punkte, die Astra genauso übernehmen würde, bestätigt sie ausdrücklich, plus eigene). **Bis Paket 020 nur die Implantate** (Implantat-Suche und -Einbau); Läufe ohne Implantat-Bezug ohne Astra. Nach 020 prüft Astra in einem Gesamtlauf alles (000–020 + `implantate/`) → `pruefung/gesamt-astra.md`.
-4. **Claude** liest alles (Basis, Grok, ggf. Astra), prüft kritisch mit und schickt Julian im Chat die **Änderungsliste: was Claude übernehmen würde, was nicht und warum** (`runde: julian`). Am Ende der Liste: **fertiger Perplexity-Prompt** für alles, was nicht gefunden wurde – Julian kopiert ihn zu Perplexity und das Ergebnis zurück in den Chat (`eingang/`).
-5. **Julian** sagt ok bzw. korrigiert → Claude baut ein und macht daraus **eine Abschlussdatei** `pakete/NNN-abschluss.md` (oben lesbar, unten JSON für die App); die basis-Dateien verschwinden.
-6. **Grok** und **Astra** löschen danach jeweils ihre eigene Datei → übrig bleibt nur `NNN-basis`. Nächstes Paket nur auf Julians Wort.
+Ablauf – **Prüf-Pipeline NEU** (Julian, 07.10.2026; Details `pruefung/PIPELINE-NEU.md`, `pruefung/runde-schema-v2.json`). **Jede Datei bearbeitet nur ihr Ersteller – keiner verändert fremde Dateien.** Dateinamen ohne Versionsnummer. „Cloud“ = Claude.
+1. **Julian** nennt das Paket (z. B. „003 los“) → `runde: perplexity`.
+2. **Perplexity** liefert zuerst die Quellenangaben (Titel, Stand, Seite, URL) → `pruefung/NNN-perplexity.md` (Auftrag: `pakete/NNN-perplexity-auftrag.md`).
+3. **Claude** startet die Prüfung: `pakete/NNN-basis` (+ „Zur Prüfung in diesem Lauf“) → `runde: grok`.
+4. **Grok** prüft die ganze Paketversion gründlich → `pruefung/NNN-grok.md`.
+5. **Nur bei Implantaten: OpenAI** prüft ausschließlich Implantate (Herstellerangaben, Kompatibilitätstabellen, Indikationsgrenzen – keine Instrumente) → `pruefung/NNN-openai.md` → zurück an Claude.
+6. **Claude** macht den letzten Check, denkt kritisch mit und schickt Julian die Änderungsliste (✅/❌/✏️/❓ als Multiple Choice, 🔎 Perplexity-Prompt) → `runde: julian`.
+7. **Julian** gibt das Okay → Claude baut die Daten ein (`pakete/NNN-abschluss.md` bzw. `implantate/*`) → `runde: astra-bau`.
+8. **Astra implementiert** in Kerlect (nur dort) → `runde: abgeschlossen`.
+9. **Grok, OpenAI, Perplexity und Astra** löschen danach nur ihre eigenen Prüfdateien.
+
+`runde`-Kette: `wartet → perplexity → cloud → grok → (openai nur Implantate) → cloud-final → julian → astra-bau → abgeschlossen`. Ereignisgesteuert über GitHub-Action (`pruefung/github-action-pruef-pipeline.yml`, einmalig nach `.github/workflows/` kopieren).
 
 ## Gegenprüfung
 

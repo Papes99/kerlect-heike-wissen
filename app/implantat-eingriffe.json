@@ -21,12 +21,15 @@
    "implantat_dateien": [
     "implantate/stryker-accolade-ii.json",
     "implantate/aesculap-excia.json",
+    "implantate/aesculap-bicontact.json",
+    "implantate/aesculap-corehip.json",
     "implantate/smith-nephew-r3.json",
     "implantate/enovis-twinsys.json",
     "implantate/enovis-optimys.json",
     "implantate/depuy-corail-pinnacle.json",
     "implantate/zimmer-biomet.json",
-    "implantate/medacta-quadra-amistem.json"
+    "implantate/medacta-quadra-amistem.json",
+    "implantate/link-spii-lubinus.json"
    ],
    "varianten": {
     "zementfrei": [
