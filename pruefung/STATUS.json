@@ -39,7 +39,7 @@
   "001-implantate": {
    "datei": "pakete/001-implantate-basis.md",
    "name": "001-implantate (Extra-Lauf)",
-   "runde": "astra",
+   "runde": "julian",
    "typ": "implantate",
    "gehoert_zu": "001",
    "betrifft": [
@@ -55,7 +55,12 @@
     "astra": "pruefung/001-implantate-astra.md"
    },
    "abschluss": "Ergebnis direkt in implantate/*.json + .md (je Datei Änderungsprotokoll); basis-Datei wird danach entfernt – keine eigene Abschlussdatei",
-   "hinweis": "mit Astra (Implantat-Lauf)"
+   "hinweis": "mit Astra (Implantat-Lauf)",
+   "letzte_runde": {
+    "datum": "2026-10-07",
+    "astra_ergebnis": "ÄNDERN",
+    "claude": "Änderungsliste an Julian 04:4xZ"
+   }
   }
  },
  "eingang_verarbeitet": [
