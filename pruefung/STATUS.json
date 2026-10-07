@@ -1,13 +1,13 @@
 {
  "stand": "2026-10-07",
  "regeln": "Jede Datei bearbeitet nur ihr Ersteller. Claude: pakete/NNN-basis.json + .md, implantate/*, pruefung/STATUS.json. Grok: pruefung/NNN-grok.md. Astra: pruefung/NNN-astra.md. Julian: eingang/*. Dateinamen ohne Versionsnummer.",
- "ablauf": "Pro Paket EIN Lauf: 1 Claude schreibt NNN-basis („Zur Prüfung“) → 2 Grok prüft EINMAL → 3 Astra prüft EINMAL (liest alles, ändert nichts, bestätigt Grok-Punkte + eigene) → 4 Claude liest alle drei, denkt kritisch mit, Änderungsliste an Julian → 5 Julian ok → Claude baut ein. Grok und Astra arbeiten je einmal pro Lauf, Claude zweimal (Schritt 1 und 4/5). Keine zweite Prüfrunde.",
+ "ablauf": "Pro Paket EIN Lauf: 1 Claude schreibt NNN-basis („Zur Prüfung“) → 2 Grok prüft EINMAL → 3 Astra prüft EINMAL (liest alles, ändert nichts, bestätigt Grok-Punkte + eigene) → 4 Claude liest alle drei, denkt kritisch mit, Änderungsliste an Julian → 5 Julian ok → Claude baut ein. Grok und Astra arbeiten je einmal pro Lauf, Claude zweimal (Schritt 1 und 4/5). Keine zweite Prüfrunde. Nach dem Einbau: NNN-basis.json + .md werden zu EINER Datei pakete/NNN-abschluss.md (oben lesbar, unten JSON-Block); basis-Dateien entfernt. Neuer Lauf (nach „NNN los“) startet wieder mit NNN-basis aus der Abschlussdatei.",
  "pakete": {
   "000": {
-   "datei": "pakete/000-basis.json",
+   "datei": "pakete/000-abschluss.md",
    "name": "000-grundwissen",
    "version": "1.4",
-   "runde": "eingebaut",
+   "runde": "abgeschlossen",
    "typ": "grundwissen",
    "letzte_runde": {
     "datum": "2026-10-07",
