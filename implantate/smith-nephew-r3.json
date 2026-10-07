@@ -1,116 +1,269 @@
 {
  "hersteller": "Smith+Nephew",
- "system": "R3-System – SL-PLUS MIA, SPECTRON EF, R3, REFLECTION, Duokopf",
+ "system": "SL-PLUS MIA, SPECTRON EF, R3, REFLECTION, TANDEM Bipolar",
+ "version": "1.1",
  "quellen": [
   {
    "id": "s1",
-   "dokument": "SL-PLUS MIA – Surgical Technique",
-   "stand": "00884-en (1524), V4, 01/15",
-   "seiten": "Kennung PDF 28; Größenseiten offen",
+   "dokument": "SL-PLUS MIA INTEGRATION-PLUS – Surgical Technique",
+   "stand": "00884-en (1524) V4, 01/15",
+   "seiten": "gedr. 16–19/PDF 18–21 (CCD S. 16, Implantate S. 18–19); Kennung PDF 28",
    "url": "https://smith-nephew.stylelabs.cloud/api/public/content/6eef714e29534cdab814571b84d5d554?v=d8cda33b&download=true",
-   "markt": "EN international; EU nicht bestätigt",
+   "markt": "EN international",
    "gelesen_von": "Grok/Astra 07.10.2026"
   },
   {
-   "id": "s2",
-   "dokument": "Stem and Femoral Ball Head Combinations SL-PLUS / MIA / SLR-PLUS",
-   "stand": "Lit. No. 04758, Ed. 05/23 V11",
-   "seiten": "nur Einzelseite „Page 2/7“; Länder-/Aktualitätsvorbehalt",
-   "url": "https://smith-nephew.stylelabs.cloud/api/public/content/109d0b33697846fc8e9694f4e70ac4ff?v=0758f390",
-   "markt": "länderspezifisch",
+   "id": "s1b",
+   "dokument": "SL-PLUS MIA INTEGRATION-PLUS – Surgical Technique (neuere Fassung)",
+   "stand": "31156-en V2, 11/2024",
+   "seiten": "Implantate S. 16; Dimensions S. 17; Maßzeichnung S. 18",
+   "url": "https://smith-nephew.stylelabs.cloud/api/public/content/c38ee11595e14dfdbdd7ade71a170ac9?v=3e0dbffa&download=true",
+   "markt": "international",
+   "gelesen_von": "Perplexity-Fundstelle 07.10.2026 – Werte noch nicht am Original übernommen"
+  },
+  {
+   "id": "matrix",
+   "dokument": "Hip implant compatibility matrix – Stem and Femoral Ball Head Combinations",
+   "stand": "Lit. No. 04758, Ed. 05/26 V12",
+   "seiten": "S. 2/7 (SL-PLUS MIA), 6/7 (SPECTRON)",
+   "url": "https://smith-nephew.stylelabs.cloud/api/public/content/18df5a64ab234b02acb3e147b753f771?v=2833a5de",
+   "markt": "international mit lokalen Zulassungsvorbehalten",
    "gelesen_von": "Grok/Astra 07.10.2026"
   },
   {
    "id": "s3",
    "dokument": "SPECTRON EF – Surgical Technique",
    "stand": "21885 V3, 71380478 REVB 03/23, ©2023",
-   "seiten": "gedr. S. 14 (PDF 17) TANDEM Unipolar; gedr. S. 16 (PDF 19) Kompatibilität; PDF 20 Kennung",
+   "seiten": "Specs gedr. 1/PDF 4; Katalog gedr. 12/PDF 15; TANDEM Unipolar gedr. 14/PDF 17; Kompatibilität gedr. 16/PDF 19; Kennung PDF 20",
    "url": "https://smith-nephew.stylelabs.cloud/api/public/content/bc33e9a6123b4239b48d4df8c9d84aa9?v=1c492828&download=true",
-   "markt": "EU/US/JP nicht eindeutig",
+   "markt": "EN",
    "gelesen_von": "Grok/Astra 07.10.2026"
   },
   {
    "id": "s4",
    "dokument": "R3 Acetabulum-System – Operationstechnik",
    "stand": "7138-1560-de REVB 06/12, ©2017",
-   "seiten": "PDF 13 Schale/Inlay; PDF 17–18 XLPE-Katalog; PDF 32 Kennung",
+   "seiten": "gedr.=PDF 13 Kombi-Grafik; 17–18 XLPE-Katalog; Kennung 32",
    "url": "https://smith-nephew-delivery.stylelabs.cloud/api/public/content/1bd7a20b4fdf4a158b95aad5987f2686?v=e321be27&download=true",
-   "markt": "DE; aktuelle EU-IFU nicht bestätigt",
+   "markt": "DE",
    "gelesen_von": "Grok/Astra 07.10.2026"
+  },
+  {
+   "id": "tandem",
+   "dokument": "TANDEM Bipolar and Unipolar Hip System – INTL Surgical Technique",
+   "stand": "29073 V2, 71380925 REVA 02/23",
+   "seiten": "PDF 17 Implant Compatibility (unnummeriert); Kennung PDF 20",
+   "url": "https://smith-nephew.stylelabs.cloud/api/public/content/8af4fc46aafd4be4a8d289f62a72ee8e?download=true&v=bdf205cd",
+   "markt": "INTL mit EU-Fußnoten",
+   "gelesen_von": "Grok/Astra 07.10.2026"
+  },
+  {
+   "id": "reflection",
+   "dokument": "REFLECTION – Surgical Technique (historisch)",
+   "stand": "00811 V1, 10/13, ©2013",
+   "seiten": "Titelblatt/Impressum",
+   "url": "https://smith-nephew.stylelabs.cloud/api/public/content/7cada363f2224bc3957ac5e0fde018ad?download=true&v=eca89761",
+   "markt": "historische EN-Unterlage, kein aktueller EU-Nachweis",
+   "gelesen_von": "Astra 07.10.2026"
   }
  ],
  "komponenten": [
   {
+   "id": "sn.slplus_mia.schaft",
    "typ": "schaft",
    "bezeichnung": "SL-PLUS MIA",
+   "auswahl_dach": true,
    "groesse": null,
    "ref": null,
    "gtin": null,
    "attribute": {
     "fixation": "zementfrei",
-    "werte": "laut s1 – Größenseiten offen"
+    "konus": "12/14",
+    "ccd_grad": {
+     "standard": 131,
+     "lateral": 123
+    },
+    "laengen_mm": "offen – Widerspruch in 00884-en V4 (Gr. 1/2/6: 137/141/159 vs. 136/140/158); neuere Fassung 31156-en V2 noch nicht gelesen",
+    "hinweis": "Größenbezeichnung als Text: „01“ ≠ „0“; 11/12 optionale Sondergrößen"
    },
    "bild": {
     "typ": "keins",
     "datei": null,
     "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
    },
-   "quelle": "s1"
+   "quelle": "s1",
+   "sicherheit": "belegt",
+   "groessen": [
+    {
+     "groesse": "01",
+     "sap_standard": "75000172",
+     "sap_lateral": null
+    },
+    {
+     "groesse": "0",
+     "sap_standard": "75000173",
+     "sap_lateral": null
+    },
+    {
+     "groesse": "1",
+     "sap_standard": "75000174",
+     "sap_lateral": "75000186"
+    },
+    {
+     "groesse": "2",
+     "sap_standard": "75000175",
+     "sap_lateral": "75000187"
+    },
+    {
+     "groesse": "3",
+     "sap_standard": "75000176",
+     "sap_lateral": "75000188"
+    },
+    {
+     "groesse": "4",
+     "sap_standard": "75000177",
+     "sap_lateral": "75000189"
+    },
+    {
+     "groesse": "5",
+     "sap_standard": "75000178",
+     "sap_lateral": "75000190"
+    },
+    {
+     "groesse": "6",
+     "sap_standard": "75000179",
+     "sap_lateral": "75000191"
+    },
+    {
+     "groesse": "7",
+     "sap_standard": "75000180",
+     "sap_lateral": "75000192"
+    },
+    {
+     "groesse": "8",
+     "sap_standard": "75000181",
+     "sap_lateral": "75000193"
+    },
+    {
+     "groesse": "9",
+     "sap_standard": "75000182",
+     "sap_lateral": "75000194"
+    },
+    {
+     "groesse": "10",
+     "sap_standard": "75000183",
+     "sap_lateral": "75000195"
+    },
+    {
+     "groesse": "11",
+     "sap_standard": "75000184",
+     "sap_lateral": "75000196"
+    },
+    {
+     "groesse": "12",
+     "sap_standard": "75000185",
+     "sap_lateral": "75000197"
+    }
+   ]
   },
   {
+   "id": "sn.spectron_ef.schaft",
    "typ": "schaft",
    "bezeichnung": "SPECTRON EF",
+   "auswahl_dach": true,
    "groesse": null,
    "ref": null,
    "gtin": null,
    "attribute": {
     "fixation": "zementiert",
-    "werte": "laut s3 – offen"
+    "konus": "12/14",
+    "ccd_grad": 131
    },
    "bild": {
     "typ": "keins",
     "datei": null,
     "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
    },
-   "quelle": "s3"
+   "quelle": "s3",
+   "sicherheit": "belegt",
+   "groessen": [
+    {
+     "groesse": "1 / 1H",
+     "laenge_mm": 115,
+     "ref_standard": "71312101",
+     "ref_high_offset": "71312111"
+    },
+    {
+     "groesse": "2 / 2H",
+     "laenge_mm": 125,
+     "ref_standard": "71312102",
+     "ref_high_offset": "71312112"
+    },
+    {
+     "groesse": "3 / 3H",
+     "laenge_mm": 135,
+     "ref_standard": "71312103",
+     "ref_high_offset": "71312113"
+    },
+    {
+     "groesse": "4 / 4H",
+     "laenge_mm": 135,
+     "ref_standard": "71312104",
+     "ref_high_offset": "71312114"
+    },
+    {
+     "groesse": "5 / 5H",
+     "laenge_mm": 135,
+     "ref_standard": "71312105",
+     "ref_high_offset": "71312115"
+    }
+   ]
   },
   {
+   "id": "sn.r3.schale",
    "typ": "pfanne",
    "bezeichnung": "R3",
+   "auswahl_dach": true,
    "groesse": null,
    "ref": null,
    "gtin": null,
    "attribute": {
     "fixation": "zementfrei",
-    "werte": "Schale/Inlay-Matrix s4 PDF 13 – noch nicht übernommen"
+    "schalen_mm": "40–80 laut Grafik"
    },
    "bild": {
     "typ": "keins",
     "datei": null,
     "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
    },
-   "quelle": "s4"
+   "quelle": "s4",
+   "sicherheit": "belegt (1 Prüfer: Astra visuell)"
   },
   {
+   "id": "sn.reflection.zementfrei",
    "typ": "pfanne",
    "bezeichnung": "REFLECTION (zementfrei)",
+   "auswahl_dach": true,
    "groesse": null,
    "ref": null,
    "gtin": null,
    "attribute": {
     "fixation": "zementfrei",
-    "dokument": "offen"
+    "dokument": "nur historische EN-Unterlage 00811 (2013); aktuelle EU-Unterlage offen"
    },
    "bild": {
     "typ": "keins",
     "datei": null,
     "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
    },
-   "quelle": null
+   "quelle": "reflection",
+   "sicherheit": "offen"
   },
   {
+   "id": "sn.reflection.all_poly",
    "typ": "pfanne",
    "bezeichnung": "REFLECTION All-Poly (zementiert)",
+   "auswahl_dach": true,
    "groesse": null,
    "ref": null,
    "gtin": null,
@@ -123,120 +276,398 @@
     "datei": null,
     "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
    },
-   "quelle": null
+   "quelle": null,
+   "sicherheit": "offen"
   },
   {
+   "id": "sn.mueller_pe",
    "typ": "pfanne",
    "bezeichnung": "Müller-PE-Pfanne (S+N)",
+   "auswahl_dach": true,
    "groesse": null,
    "ref": null,
    "gtin": null,
    "attribute": {
     "fixation": "zementiert",
-    "dokument": "offen"
+    "dokument": "kein Herstellernachweis gefunden"
    },
    "bild": {
     "typ": "keins",
     "datei": null,
     "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
    },
-   "quelle": null
+   "quelle": null,
+   "sicherheit": "offen"
   },
   {
+   "id": "sn.r3.xlpe",
    "typ": "inlay",
    "bezeichnung": "R3 XLPE",
+   "auswahl_dach": true,
    "groesse": null,
    "ref": null,
    "gtin": null,
    "attribute": {
     "material": "hochvernetztes PE",
-    "werte": "s4 PDF 17–18 – noch nicht übernommen"
+    "varianten": "0°, 20°, 0°+4, 20°+4 (getrennte REF)",
+    "beispiel_ref": "Ø36/Schale 52: 7133-2752 / 7133-5752 / 7133-6952 / 7133-8552; Ø36/66–70: 7133-0766 / 7133-1266 / 7133-1566 / 7133-2666",
+    "hinweis": "keine REF durch Zahlenfortsetzung erzeugen"
    },
    "bild": {
     "typ": "keins",
     "datei": null,
     "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
    },
-   "quelle": "s4"
+   "quelle": "s4",
+   "sicherheit": "belegt"
   },
   {
+   "id": "sn.kopf.oxinium",
    "typ": "kopf",
    "bezeichnung": "OXINIUM",
+   "auswahl_dach": true,
    "groesse": null,
    "ref": null,
    "gtin": null,
    "attribute": {
-    "werte": "offen; Paarung mit SL-PLUS MIA nur zeilenweise laut s2"
+    "konus": "12/14",
+    "hinweis": "Ø40/44 nur mit zugehöriger Ti-Hülse; SAP Ø40/44: 71342340/71342344"
    },
    "bild": {
     "typ": "keins",
     "datei": null,
     "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
    },
-   "quelle": "s2"
+   "quelle": "matrix",
+   "sicherheit": "belegt"
   },
   {
+   "id": "sn.kopf.biolox_delta",
    "typ": "kopf",
    "bezeichnung": "BIOLOX delta",
+   "auswahl_dach": true,
    "groesse": null,
    "ref": null,
    "gtin": null,
    "attribute": {
-    "werte": "offen; Paarung zeilenweise laut s2"
+    "konus": "12/14",
+    "familien": "765391/713460 (Halslänge in mm) und 750074 (S/M/L/XL) – am Etikett unterscheiden",
+    "hinweis": "BIOLOX OPTION ist eine eigene Familie, nicht als BIOLOX delta führen; OPTION Ø40 XL nicht freigegeben"
    },
    "bild": {
     "typ": "keins",
     "datei": null,
     "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
    },
-   "quelle": "s2"
+   "quelle": "matrix",
+   "sicherheit": "belegt"
   },
   {
+   "id": "sn.kopf.cocr",
    "typ": "kopf",
    "bezeichnung": "CoCr",
+   "auswahl_dach": true,
    "groesse": null,
    "ref": null,
    "gtin": null,
    "attribute": {
-    "werte": "offen; Paarung zeilenweise laut s2"
+    "material": "CoCrMo",
+    "konus": "12/14",
+    "hinweis": "SAP Ø40/44: 71342640/71342644 (mit Ti-Hülse)"
    },
    "bild": {
     "typ": "keins",
     "datei": null,
     "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
    },
-   "quelle": "s2"
+   "quelle": "matrix",
+   "sicherheit": "belegt"
   },
   {
+   "id": "sn.duokopf.tandem_bipolar",
    "typ": "duokopf",
-   "bezeichnung": "Bi-Polar Head (S+N)",
+   "bezeichnung": "TANDEM Bipolar",
+   "auswahl_dach": true,
    "groesse": null,
    "ref": null,
    "gtin": null,
    "attribute": {
-    "verwendung_im_haus": "mit SPECTRON EF (Hausangabe)",
-    "freigabe": "offen – SPECTRON-EF-Dokument beschreibt nur TANDEM Unipolar"
+    "verwendung": "mit SPECTRON EF",
+    "innenkopf": "S+N OXINIUM/CoCr 12/14, Ø22/28 (tandem PDF 17); keine BIOLOX-delta-Bipolar-Freigabe",
+    "varianten": "TANDEM Bipolar (XLPE) und TANDEM INTL Bipolar (UHMWPE) getrennt",
+    "fussnoten": "* Kombination in EU nicht genehmigt; ** Größe 01 nicht mit +16 oder TANDEM INTL Bipolar; *** 10/12 nicht in EU verkauft – SPECTRON EF ohne Sperrstern"
    },
    "bild": {
     "typ": "keins",
     "datei": null,
     "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
    },
-   "quelle": null
+   "quelle": "tandem",
+   "sicherheit": "belegt; Auswahl Julian 07.10.2026 (DACH-häufig)",
+   "aliase": [
+    "Bi-Polar Head (frühere Bezeichnung in dieser Datei)"
+   ]
+  }
+ ],
+ "tabellen": {
+  "T12_matrix": {
+   "titel": "S+N Kopf ↔ Schaft (Matrix 04758 Ed. 05/26 V12)",
+   "quelle": "matrix",
+   "seite": "2/7, 6/7",
+   "zeilen": [
+    {
+     "kopf": "OXINIUM/CoCrMo",
+     "durchmesser_mm": "22",
+     "hals": "0,+4,+8,+12",
+     "sl_plus_mia_01": "ja",
+     "sl_plus_mia_uebrige": "ja",
+     "spectron": "ja"
+    },
+    {
+     "kopf": "OXINIUM/CoCrMo",
+     "durchmesser_mm": "26",
+     "hals": "0,+4,+8,+12",
+     "sl_plus_mia_01": "nein",
+     "sl_plus_mia_uebrige": "nein",
+     "spectron": "ja"
+    },
+    {
+     "kopf": "OXINIUM/CoCrMo",
+     "durchmesser_mm": "28",
+     "hals": "−3,0,+4,+8,+12",
+     "sl_plus_mia_01": "ja",
+     "sl_plus_mia_uebrige": "ja",
+     "spectron": "ja"
+    },
+    {
+     "kopf": "OXINIUM/CoCrMo",
+     "durchmesser_mm": "28",
+     "hals": "+16",
+     "sl_plus_mia_01": "nein",
+     "sl_plus_mia_uebrige": "ja",
+     "spectron": "ja"
+    },
+    {
+     "kopf": "OXINIUM/CoCrMo",
+     "durchmesser_mm": "32",
+     "hals": "−3,0,+4,+8,+12",
+     "sl_plus_mia_01": "ja",
+     "sl_plus_mia_uebrige": "ja",
+     "spectron": "ja"
+    },
+    {
+     "kopf": "OXINIUM/CoCrMo",
+     "durchmesser_mm": "32",
+     "hals": "+16",
+     "sl_plus_mia_01": "nein",
+     "sl_plus_mia_uebrige": "ja",
+     "spectron": "ja"
+    },
+    {
+     "kopf": "OXINIUM/CoCrMo",
+     "durchmesser_mm": "36",
+     "hals": "−3,0,+4,+8,+12",
+     "sl_plus_mia_01": "ja",
+     "sl_plus_mia_uebrige": "ja",
+     "spectron": "ja"
+    },
+    {
+     "kopf": "OXINIUM/CoCrMo",
+     "durchmesser_mm": "40/44",
+     "hals": "−4,0,+4,+8 (Ti-Hülse zwingend: 71344245/47/48/49)",
+     "sl_plus_mia_01": "ja",
+     "sl_plus_mia_uebrige": "ja",
+     "spectron": "ja"
+    },
+    {
+     "kopf": "BIOLOX delta (765391/713460)",
+     "durchmesser_mm": "32",
+     "hals": "0,+4,+8 (SAP 765391-60/61/62)",
+     "sl_plus_mia_01": "ja",
+     "sl_plus_mia_uebrige": "ja",
+     "spectron": "ja"
+    },
+    {
+     "kopf": "BIOLOX delta (765391/713460)",
+     "durchmesser_mm": "36",
+     "hals": "0,+4,+8,+12 (SAP 765391-65/66/67/53)",
+     "sl_plus_mia_01": "ja",
+     "sl_plus_mia_uebrige": "ja",
+     "spectron": "ja"
+    },
+    {
+     "kopf": "BIOLOX delta (765391/713460)",
+     "durchmesser_mm": "40",
+     "hals": "0,+4,+8 (SAP 713460-04/05/06)",
+     "sl_plus_mia_01": "ja",
+     "sl_plus_mia_uebrige": "ja",
+     "spectron": "ja"
+    },
+    {
+     "kopf": "BIOLOX delta (750074)",
+     "durchmesser_mm": "28",
+     "hals": "S/M/L (SAP 750074-51/52/53)",
+     "sl_plus_mia_01": "ja",
+     "sl_plus_mia_uebrige": "ja",
+     "spectron": "ja"
+    },
+    {
+     "kopf": "BIOLOX delta (750074)",
+     "durchmesser_mm": "32",
+     "hals": "S/M/L/XL (SAP 750074-60/61/62/63)",
+     "sl_plus_mia_01": "ja",
+     "sl_plus_mia_uebrige": "ja",
+     "spectron": "ja"
+    },
+    {
+     "kopf": "BIOLOX delta (750074)",
+     "durchmesser_mm": "36",
+     "hals": "S/M/L/XL (SAP 750074-48/49/50/47)",
+     "sl_plus_mia_01": "ja",
+     "sl_plus_mia_uebrige": "ja",
+     "spectron": "ja"
+    }
+   ],
+   "legende": "ja/nein = Herstellerstatus; lokale Zulassung prüfen; Stainless Steel nicht freigegeben; Spalte SL-PLUS Japan ist keine MIA-Spalte"
+  },
+  "T15_r3": {
+   "titel": "R3 Schale ↔ XLPE-Innen-Ø",
+   "quelle": "s4",
+   "seite": "13, 17–18",
+   "zeilen": [
+    {
+     "schalen_mm": "40/42/44",
+     "innen_mm": "22"
+    },
+    {
+     "schalen_mm": "46",
+     "innen_mm": "28"
+    },
+    {
+     "schalen_mm": "48/50",
+     "innen_mm": "28,32"
+    },
+    {
+     "schalen_mm": "52/54",
+     "innen_mm": "28,32,36"
+    },
+    {
+     "schalen_mm": "56/58",
+     "innen_mm": "28,32,36,40"
+    },
+    {
+     "schalen_mm": "60",
+     "innen_mm": "28,32,36,40,44"
+    },
+    {
+     "schalen_mm": "62",
+     "innen_mm": "32,36,40,44"
+    },
+    {
+     "schalen_mm": "64/66/68/70/72/74/76/78/80",
+     "innen_mm": "36,40,44"
+    }
+   ],
+   "legende": "aus Grafik visuell gelesen (Astra, 1 Prüfer); alte Keramik-Spalten nicht verwenden"
+  }
+ },
+ "passt_zu": [
+  {
+   "von": "sn.slplus_mia.schaft",
+   "zu": "sn.kopf.oxinium",
+   "status": "bedingt",
+   "bedingung": "Ø/Hals laut T12 inkl. Nein-Zeilen (26 mm nein; +16 nicht bei Größe 01)",
+   "quelle": "matrix",
+   "seite": "2/7",
+   "tabelle": "T12_matrix"
+  },
+  {
+   "von": "sn.slplus_mia.schaft",
+   "zu": "sn.kopf.cocr",
+   "status": "bedingt",
+   "bedingung": "wie OXINIUM laut T12",
+   "quelle": "matrix",
+   "seite": "2/7",
+   "tabelle": "T12_matrix"
+  },
+  {
+   "von": "sn.slplus_mia.schaft",
+   "zu": "sn.kopf.biolox_delta",
+   "status": "bedingt",
+   "bedingung": "Familie/Ø/Hals laut T12",
+   "quelle": "matrix",
+   "seite": "2/7",
+   "tabelle": "T12_matrix"
+  },
+  {
+   "von": "sn.spectron_ef.schaft",
+   "zu": "sn.kopf.oxinium",
+   "status": "ja",
+   "bedingung": "Ø 22–44 laut T12",
+   "quelle": "matrix",
+   "seite": "6/7",
+   "tabelle": "T12_matrix"
+  },
+  {
+   "von": "sn.spectron_ef.schaft",
+   "zu": "sn.kopf.cocr",
+   "status": "ja",
+   "bedingung": "Ø 22–44 laut T12",
+   "quelle": "matrix",
+   "seite": "6/7",
+   "tabelle": "T12_matrix"
+  },
+  {
+   "von": "sn.spectron_ef.schaft",
+   "zu": "sn.kopf.biolox_delta",
+   "status": "bedingt",
+   "bedingung": "Familie/Ø laut T12",
+   "quelle": "matrix",
+   "seite": "6/7",
+   "tabelle": "T12_matrix"
+  },
+  {
+   "von": "sn.r3.schale",
+   "zu": "sn.r3.xlpe",
+   "status": "bedingt",
+   "bedingung": "Innen-Ø je Schale laut T15",
+   "quelle": "s4",
+   "seite": "13, 17–18",
+   "tabelle": "T15_r3"
+  },
+  {
+   "von": "sn.spectron_ef.schaft",
+   "zu": "sn.duokopf.tandem_bipolar",
+   "status": "ja",
+   "bedingung": "Innenkopf OXINIUM/CoCr 12/14 Ø22/28; EU-Fußnoten beachten",
+   "quelle": "tandem",
+   "seite": "PDF 17"
   }
  ],
  "regeln": [
   {
    "wenn": "kopf+schaft",
-   "pruefe": "Zeile in Matrix 04758",
-   "text": "Kopf-REF/Variante gegen die zutreffende SL-PLUS-MIA-Schaftspalte prüfen; Landesgültigkeit und Aktualität über Hersteller bestätigen; weder Materialname noch 12/14 genügt. Vorliegend nur Seite 2/7.",
-   "quelle": "s2"
+   "pruefe": "Zeile in Matrix T12",
+   "text": "Kopf gegen die zutreffende Schaftspalte prüfen – auch Nein-Zeilen (z. B. Ø26 nicht mit SL-PLUS MIA; +16 nicht mit Größe 01).",
+   "quelle": "matrix S. 2/6"
+  },
+  {
+   "wenn": "kopf",
+   "pruefe": "Ø40/44 → Ti-Hülse",
+   "text": "OXINIUM/CoCr Ø40/44 nur mit der zugehörigen Ti-Hülse; keine Hülsen fremder Systeme.",
+   "quelle": "matrix"
   },
   {
    "wenn": "duokopf",
-   "pruefe": "bipolar ≠ unipolar",
-   "text": "TANDEM-Unipolar-Fundstelle (SPECTRON EF S. 14) ist kein Nachweis für den Bi-Polar Head; EU-IFU und Freigabe Bi-Polar Head + SPECTRON EF offen.",
-   "quelle": "s3"
+   "pruefe": "innenkopf in OXINIUM/CoCr 22/28",
+   "text": "TANDEM Bipolar mit SPECTRON EF: Innenkopf nur S+N OXINIUM/CoCr 12/14 Ø22/28; TANDEM Unipolar ist ein anderes Produkt.",
+   "quelle": "tandem PDF 17, s3 S. 14"
+  },
+  {
+   "wenn": "inlay+schale",
+   "pruefe": "innen_mm in T15[schale]",
+   "text": "R3-XLPE-Innen-Ø nur in den Schalengrößen laut Grafik; Variante (0°/20°/+4) getrennt.",
+   "quelle": "s4 S. 13"
   }
  ],
  "rueckrufe": [
@@ -245,40 +676,69 @@
    "behoerde": "BfArM",
    "kennung": "R-2013-10 (03050/13), 29.05.2013",
    "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/DE/11/2013/03050-13_kundeninfo_de.pdf?__blob=publicationFile",
-   "hinweis": "zwei Produktlose mit vertauschter Kennzeichnung"
+   "hinweis": "zwei Produktlose mit vertauschter Kennzeichnung",
+   "betrifft": [
+    "sn.r3.xlpe"
+   ],
+   "markt": "EU/DE"
   },
   {
-   "produkt": "R3 Acetabular Shells",
+   "produkt": "R3 – Schalen oder XLPE-Liner (widersprüchlich)",
    "behoerde": "BfArM",
    "kennung": "R-2020-04 (05608/20)",
-   "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/11/2020/05608-20_kundeninfo_en.pdf?__blob=publicationFile",
-   "hinweis": "bestimmte Schalenlose; vollständige Liste beim Hersteller klären"
+   "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/DE/11/2020/05608-20_1_kundeninfo_de.pdf?__blob=publicationFile",
+   "hinweis": "Perplexity (DE-Original 22.04.2020, S. 1/3): R3 Acetabular Shells; Astra (EN-Arztschreiben): R3 Acetabular Liners, Rücknahme laut Hersteller abgewickelt – am Original klären",
+   "betrifft": [
+    "sn.r3.schale",
+    "sn.r3.xlpe"
+   ],
+   "markt": "EU/DE",
+   "status": "kein behördlicher Abschluss gefunden"
   },
   {
-   "produkt": "R3 0 HOLE Acetabular Shell",
+   "produkt": "R3 – Schale 0-Hole oder XLPE 20° Liner (widersprüchlich)",
    "behoerde": "BfArM",
    "kennung": "R-2023-13 (35762/23), 20.11.2023",
    "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/DE/11/2023/35762-23_kundeninfo_de.pdf?__blob=publicationFile",
-   "hinweis": "REF 71331854, Charge 23HM03659 (0-Hole beschriftet, 3-Hole enthalten)"
+   "hinweis": "REF 71331854, Charge 23HM03659. Astra (PDF gelesen): „R3 XLPE 20 DEG ACET LNR“; Perplexity (Suchtext): 0-Hole-Schale – am Original klären",
+   "betrifft": [
+    "sn.r3.schale",
+    "sn.r3.xlpe"
+   ],
+   "markt": "EU/DE",
+   "status": "kein Abschluss gefunden"
   }
  ],
  "offen": [
-  "EU-IFUs aller Komponenten",
-  "REFLECTION zementfrei/All-Poly und Müller-PE-Pfanne: Dokumente",
-  "Bi-Polar Head: EU-IFU und Freigabe mit SPECTRON EF",
-  "Matrix 04758 vollständig (7 Seiten)",
-  "Größen/REF aus Original mit Seite",
-  "REF/GTIN",
-  "Heutiger Maßnahmenstatus der Rückrufe und Hausbestand"
+  "EU-IFUs (ifu.smith-nephew.com, REF nötig)",
+  "SL-PLUS MIA Längen aus 31156-en V2 (11/2024) am Original übernehmen",
+  "REFLECTION zementfrei/All-Poly aktuelle EU-Unterlage; Müller-PE-Pfanne von S+N",
+  "TANDEM Bipolar: Größen/REF; EU-Verfügbarkeit XLPE- vs. INTL-Variante",
+  "R-2020-04/R-2023-13: Schale oder Liner?",
+  "GTIN"
  ],
  "region": "hüfte",
  "verified": false,
- "verified_hinweis": "Teilprüfung (Lauf 001: Grok + Astra am Original, 07.10.2026). Markt-/EU-Anwendbarkeit, Größen/REF und Komponentenfreigaben teilweise offen.",
+ "verified_hinweis": "Lauf 001-implantate: Werte von Grok und Astra am Original gelesen (07.10.2026), Claude-Änderungsliste von Julian abgenommen. Keine EU-IFU gelesen; keine klinische Freigabe. Hausbestand jeder Klinik am Etikett prüfen.",
  "stand_extrakt": "2026-10-07",
  "hinweise": [
   "Vor dem Öffnen Komponente, Seite und Größe laut ansagen; Herstellerdokument und aktuelle EU-IFU maßgeblich.",
   "Systeme nicht mischen: nur Komponenten, die der Hersteller ausdrücklich für dieses System vorsieht. Gleicher Konus oder gleiche Keramikmarke ist kein Kombinationsnachweis.",
-  "Werte (Größen, Offsets, REF) nur aus dem Original mit Seite übernehmen; Fundstellen sind keine Freigabe.",
+  "Werte nur aus dem genannten Original mit Seite; nicht dokumentierte Kombinationen bleiben „offen – Operateur fragen“ (ungeprüft ≠ verboten ≠ freigegeben).",
   "Rückrufe sind chargenspezifisch: Betroffenheit nur über REF/Charge im Original und mit der/dem Medizinprodukte-Beauftragten klären – keine pauschale Sperre oder Freigabe."
+ ],
+ "aenderungsprotokoll": [
+  {
+   "version": "1.0",
+   "datum": "2026-10-07",
+   "lauf": "001",
+   "text": "Erstanlage in Lauf 001 (Fundstellen, Werte offen)"
+  },
+  {
+   "version": "1.1",
+   "datum": "2026-10-07",
+   "lauf": "001-implantate",
+   "text": "Größen/REF/Kombinationstabellen aus Grok + Astra (Astra-Korrekturen), feste IDs, passt_zu mit Bedingungen, Rückrufe mit betrifft; Perplexity-Fundstellen (eingang/001-perplexity-2/-3) als Fundstellen."
+  }
  ]
 }

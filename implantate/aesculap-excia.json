@@ -1,212 +1,733 @@
 {
  "hersteller": "Aesculap (B. Braun)",
- "system": "Excia – zementfrei, zementiert, Duokopf",
+ "system": "Excia T – zementfrei, zementiert, Duokopf; Plasmafit",
+ "version": "1.1",
  "quellen": [
   {
    "id": "e1",
-   "dokument": "AESCULAP Excia T – Hüftendoprothesensystem (Broschüre/OP-Technik)",
+   "dokument": "AESCULAP Excia T – Hüftendoprothesensystem",
    "stand": "Nr. 4008516, 01/2026",
-   "seiten": "OP-Technik ab gedr. S. 12; Implantatübersicht gedr. S. 18–19 (PDF 10); Kennung PDF 13",
+   "seiten": "CCD gedr. 11/PDF 6; Schäfte gedr. 18/PDF 10; Köpfe gedr. 19/PDF 10; Kennung PDF 13",
    "url": "https://www.bbraun.de/content/dam/catalog/bbraun/bbraunProductCatalog/S/AEM2015/de-de/b307/broschuere-exciathueftschaft.pdf",
-   "markt": "DE-Fassung; EU-Gültigkeit nicht separat bestätigt",
+   "markt": "DE-Fassung",
    "gelesen_von": "Grok/Astra 07.10.2026"
   },
   {
    "id": "e2",
-   "dokument": "AESCULAP Plasmafit – Cementless Acetabular Cup System",
-   "stand": "O45502, 0718/1/4",
-   "seiten": "S. 5–7 Plus/Poly; PDF 24 Köpfe/ISODUR F; PDF 34 Kennung",
+   "dokument": "AESCULAP Plasmafit – Acetabular Cup System",
+   "stand": "O45502 0718/1/4, 07/2018",
+   "seiten": "gedr.=PDF 5–7 Konzept; 18–21 Implantate/Liner; 24 Köpfe; Kennung 34",
    "url": "https://www.bbraun.de/content/dam/catalog/bbraun/bbraunProductCatalog/S/AEM2015/de-de/b307/aesculap-plasmafit.pdf",
-   "markt": "EN auf DE-Seite; EU nicht separat bestätigt",
+   "markt": "EN auf DE-Herstellerseite",
    "gelesen_von": "Grok/Astra 07.10.2026"
   },
   {
    "id": "e3",
-   "dokument": "B. Braun Produktkatalog: Bipolar Cup",
-   "stand": "HTML",
-   "seiten": "–",
+   "dokument": "B. Braun Produktkatalog: Bipolar Cup (PRID00004418)",
+   "stand": "HTML, undatiert",
+   "seiten": "Produktbeschreibung",
    "url": "https://catalogs.bbraun.com/en-01/p/PRID00004418/bipolar-cup",
-   "markt": "offen",
+   "markt": "international",
    "gelesen_von": "Grok/Astra 07.10.2026"
   },
   {
    "id": "e4",
-   "dokument": "B. Braun Produktkatalog: Cemented Polyethylene Cups",
-   "stand": "HTML",
-   "seiten": "–",
+   "dokument": "B. Braun Produktkatalog: Cemented Polyethylene Cups (PRID00002464)",
+   "stand": "HTML, undatiert",
+   "seiten": "Produktbeschreibung (Flat-/Full-profile, XLPE mit Vitamin E, Ø 22,2–36)",
    "url": "https://catalogs.bbraun.com/en-01/p/PRID00002464/cemented-polyethylene-cups",
-   "markt": "offen",
+   "markt": "international",
+   "gelesen_von": "Grok/Astra 07.10.2026"
+  },
+  {
+   "id": "bb-web",
+   "dokument": "B. Braun – Zementierte Hüftprothese (Anwendungsfall Bipolarpfanne + zementierter Excia-T-Gradschaft)",
+   "stand": "HTML, undatiert",
+   "seiten": "Abschnitt Operationstechniken",
+   "url": "https://www.bbraun.de/de/produkte-und-loesungen/therapien/orthopaedischer-gelenkersatz-und-regenerative-therapien/hueftendoprothetik/zementierte-hueftprothese.html",
+   "markt": "DE",
+   "gelesen_von": "Grok/Astra 07.10.2026"
+  },
+  {
+   "id": "excia-old",
+   "dokument": "AESCULAP Excia 12/14 – andere Schaftlinie (nur Abgrenzung)",
+   "stand": "O90301 1119/PDF/5, 11/2019",
+   "seiten": "gedr.=PDF 14, 16",
+   "url": "https://www.bbraun.de/content/dam/catalog/bbraun/bbraunProductCatalog/S/AEM2015/de-de/b306/aesculap-excia-1214.pdf",
+   "markt": "DE",
    "gelesen_von": "Grok/Astra 07.10.2026"
   }
  ],
  "komponenten": [
   {
+   "id": "aesculap.excia_t.zementfrei",
    "typ": "schaft",
    "bezeichnung": "Excia T zementfrei",
+   "auswahl_dach": true,
    "groesse": null,
    "ref": null,
    "gtin": null,
    "attribute": {
     "fixation": "zementfrei",
-    "werte": "laut e1 gedr. S. 18–19 – noch nicht übernommen"
+    "material": "Ti6Al4V / PLASMAPORE",
+    "konus": "12/14",
+    "ccd_grad": {
+     "standard_T": 135,
+     "lateral_TL": "128 (+6 mm Offset)"
+    }
    },
    "bild": {
     "typ": "keins",
     "datei": null,
     "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
    },
-   "quelle": "e1"
+   "quelle": "e1",
+   "sicherheit": "belegt",
+   "groessen": [
+    {
+     "groesse": "8",
+     "ref_standard_T": "NU208T",
+     "ref_lateral_TL": "NU228T"
+    },
+    {
+     "groesse": "9",
+     "ref_standard_T": "NU209T",
+     "ref_lateral_TL": "NU229T"
+    },
+    {
+     "groesse": "10",
+     "ref_standard_T": "NU210T",
+     "ref_lateral_TL": "NU230T"
+    },
+    {
+     "groesse": "11",
+     "ref_standard_T": "NU211T",
+     "ref_lateral_TL": "NU231T"
+    },
+    {
+     "groesse": "12",
+     "ref_standard_T": "NU212T",
+     "ref_lateral_TL": "NU232T"
+    },
+    {
+     "groesse": "13",
+     "ref_standard_T": "NU213T",
+     "ref_lateral_TL": "NU233T"
+    },
+    {
+     "groesse": "14",
+     "ref_standard_T": "NU214T",
+     "ref_lateral_TL": "NU234T"
+    },
+    {
+     "groesse": "15",
+     "ref_standard_T": "NU215T",
+     "ref_lateral_TL": "NU235T"
+    },
+    {
+     "groesse": "16",
+     "ref_standard_T": "NU216T",
+     "ref_lateral_TL": "NU236T"
+    },
+    {
+     "groesse": "17",
+     "ref_standard_T": "NU217T",
+     "ref_lateral_TL": "NU237T"
+    },
+    {
+     "groesse": "18",
+     "ref_standard_T": "NU218T",
+     "ref_lateral_TL": "NU238T"
+    },
+    {
+     "groesse": "19",
+     "ref_standard_T": "NU219T",
+     "ref_lateral_TL": "NU239T"
+    },
+    {
+     "groesse": "20",
+     "ref_standard_T": "NU220T",
+     "ref_lateral_TL": "NU240T"
+    }
+   ]
   },
   {
+   "id": "aesculap.excia_t.zementiert",
    "typ": "schaft",
    "bezeichnung": "Excia T zementiert",
+   "auswahl_dach": true,
    "groesse": null,
    "ref": null,
    "gtin": null,
    "attribute": {
     "fixation": "zementiert",
-    "hinweis": "Hausbezeichnung „Excia zementiert“ = laut Julian Etikett „Excia T zementiert“",
-    "werte": "laut e1 gedr. S. 18–19 – noch nicht übernommen"
+    "material": "CoCr",
+    "konus": "12/14",
+    "ccd_grad": {
+     "standard_T": 135,
+     "lateral_TL": "128 (+6 mm Offset)"
+    }
    },
    "bild": {
     "typ": "keins",
     "datei": null,
     "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
    },
-   "quelle": "e1"
+   "quelle": "e1",
+   "sicherheit": "belegt",
+   "groessen": [
+    {
+     "groesse": "10",
+     "ref_standard_T": "NU270K",
+     "ref_lateral_TL": "NU290K"
+    },
+    {
+     "groesse": "12",
+     "ref_standard_T": "NU272K",
+     "ref_lateral_TL": "NU292K"
+    },
+    {
+     "groesse": "14",
+     "ref_standard_T": "NU274K",
+     "ref_lateral_TL": "NU294K"
+    },
+    {
+     "groesse": "16",
+     "ref_standard_T": "NU276K",
+     "ref_lateral_TL": "NU296K"
+    },
+    {
+     "groesse": "18",
+     "ref_standard_T": "NU278K",
+     "ref_lateral_TL": "NU298K"
+    },
+    {
+     "groesse": "20",
+     "ref_standard_T": "NU280K",
+     "ref_lateral_TL": "NU300K"
+    }
+   ]
   },
   {
+   "id": "aesculap.plasmafit.plus",
    "typ": "pfanne",
    "bezeichnung": "Plasmafit Plus",
+   "auswahl_dach": true,
    "groesse": null,
    "ref": null,
    "gtin": null,
    "attribute": {
     "fixation": "zementfrei",
-    "werte": "Liner-Optionen laut e2 S. 5–7 – noch nicht übernommen"
+    "varianten": "Plus / Plus 3 / Plus 7 (Plus 7 bei 40/42/44 nur fünf Schraubenlöcher, e2 S. 20)",
+    "liner": "Keramik oder PE (e2 S. 5)"
    },
    "bild": {
     "typ": "keins",
     "datei": null,
     "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
    },
-   "quelle": "e2"
+   "quelle": "e2",
+   "sicherheit": "belegt",
+   "groessen": [
+    {
+     "groesse": "40",
+     "liner_code": "A"
+    },
+    {
+     "groesse": "42",
+     "liner_code": "B"
+    },
+    {
+     "groesse": "44",
+     "liner_code": "C"
+    },
+    {
+     "groesse": "46",
+     "liner_code": "D"
+    },
+    {
+     "groesse": "48",
+     "liner_code": "E"
+    },
+    {
+     "groesse": "50",
+     "liner_code": "F"
+    },
+    {
+     "groesse": "52",
+     "liner_code": "G"
+    },
+    {
+     "groesse": "54",
+     "liner_code": "H"
+    },
+    {
+     "groesse": "56",
+     "liner_code": "I"
+    },
+    {
+     "groesse": "58",
+     "liner_code": "J"
+    },
+    {
+     "groesse": "60",
+     "liner_code": "J"
+    },
+    {
+     "groesse": "62",
+     "liner_code": "J"
+    },
+    {
+     "groesse": "64",
+     "liner_code": "K"
+    },
+    {
+     "groesse": "66",
+     "liner_code": "K"
+    },
+    {
+     "groesse": "68",
+     "liner_code": "K"
+    },
+    {
+     "groesse": "70",
+     "liner_code": "K"
+    }
+   ]
   },
   {
+   "id": "aesculap.plasmafit.poly",
    "typ": "pfanne",
    "bezeichnung": "Plasmafit Poly",
+   "auswahl_dach": true,
    "groesse": null,
    "ref": null,
    "gtin": null,
    "attribute": {
     "fixation": "zementfrei",
-    "inlay": "nur PE-Inlays (laut e2 S. 5–7)"
+    "liner": "nur PE (e2 S. 5: „Only for polyethylene liners“)"
    },
    "bild": {
     "typ": "keins",
     "datei": null,
     "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
    },
-   "quelle": "e2"
+   "quelle": "e2",
+   "sicherheit": "belegt",
+   "groessen": [
+    {
+     "groesse": "40",
+     "liner_code": "B"
+    },
+    {
+     "groesse": "42",
+     "liner_code": "C"
+    },
+    {
+     "groesse": "44",
+     "liner_code": "D"
+    },
+    {
+     "groesse": "46",
+     "liner_code": "E"
+    },
+    {
+     "groesse": "48",
+     "liner_code": "F"
+    },
+    {
+     "groesse": "50",
+     "liner_code": "G"
+    },
+    {
+     "groesse": "52",
+     "liner_code": "H"
+    },
+    {
+     "groesse": "54",
+     "liner_code": "I"
+    },
+    {
+     "groesse": "56",
+     "liner_code": "J"
+    },
+    {
+     "groesse": "58",
+     "liner_code": "K"
+    },
+    {
+     "groesse": "60",
+     "liner_code": "L"
+    },
+    {
+     "groesse": "62",
+     "liner_code": "M"
+    }
+   ]
   },
   {
+   "id": "aesculap.pe_pfanne.zementiert",
    "typ": "pfanne",
    "bezeichnung": "Aesculap PE-Pfanne zementiert",
+   "auswahl_dach": true,
    "groesse": null,
    "ref": null,
    "gtin": null,
    "attribute": {
     "fixation": "zementiert",
-    "name": "genaue Produktbezeichnung offen (Katalog „Cemented Polyethylene Cups“)"
+    "familie": "Cemented Polyethylene Cups (Flat-/Full-profile) – Einzelprodukt/Profil/REF offen",
+    "hinweis": "nicht als Müller-Pfanne umbenennen"
    },
    "bild": {
     "typ": "keins",
     "datei": null,
     "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
    },
-   "quelle": "e4"
+   "quelle": "e4",
+   "sicherheit": "offen"
   },
   {
+   "id": "aesculap.inlay.biolox_delta",
    "typ": "inlay",
    "bezeichnung": "BIOLOX delta Inlay",
+   "auswahl_dach": true,
    "groesse": null,
    "ref": null,
    "gtin": null,
    "attribute": {
     "material": "Keramik",
-    "hinweis": "nicht für Plasmafit Poly"
+    "nur_fuer": "Plasmafit Plus",
+    "nicht_fuer": "Plasmafit Poly",
+    "beispiel_ref_36": "Plus 52=NV113D, 54=NV114D, 56=NV115D, 58/60/62=NV116D, 64–70=NV117D (e2 S. 20–21)"
    },
    "bild": {
     "typ": "keins",
     "datei": null,
     "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
    },
-   "quelle": "e2"
+   "quelle": "e2",
+   "sicherheit": "belegt",
+   "groessen": [
+    {
+     "innen_mm": "28",
+     "plus_schalen": "44–54"
+    },
+    {
+     "innen_mm": "32",
+     "plus_schalen": "48–70"
+    },
+    {
+     "innen_mm": "36",
+     "plus_schalen": "52–70"
+    },
+    {
+     "innen_mm": "40",
+     "plus_schalen": "56–70"
+    }
+   ]
   },
   {
+   "id": "aesculap.inlay.pe_standard",
+   "typ": "inlay",
+   "bezeichnung": "PE-Inlay Standard (UHMWPE)",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "material": "UHMWPE",
+    "fuer": "Plasmafit Poly (Auswahl Julian 07.10.2026); Plasmafit Plus ebenfalls PE möglich",
+    "werte": "symmetrische UHMWPE-Zeilen in e2 noch nicht übernommen – Größe vom Etikett"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "e2",
+   "sicherheit": "hausabhängig"
+  },
+  {
+   "id": "aesculap.kopf.biolox_delta",
    "typ": "kopf",
    "bezeichnung": "BIOLOX delta",
+   "auswahl_dach": true,
    "groesse": null,
    "ref": null,
    "gtin": null,
    "attribute": {
     "material": "Keramik",
-    "werte": "offen"
+    "konus": "12/14",
+    "halslaenge_mm": {
+     "28": "S/M/L = −3,5/0/+3,5",
+     "32-40": "S/M/L/XL = −4/0/+4/+8"
+    }
    },
    "bild": {
     "typ": "keins",
     "datei": null,
     "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
    },
-   "quelle": "e1"
+   "quelle": "e1",
+   "sicherheit": "belegt",
+   "groessen": [
+    {
+     "durchmesser_mm": "28",
+     "hals": "S/M/L",
+     "ref": "NK460D/NK461D/NK462D"
+    },
+    {
+     "durchmesser_mm": "32",
+     "hals": "S/M/L/XL",
+     "ref": "NK560D/NK561D/NK562D/NK563D"
+    },
+    {
+     "durchmesser_mm": "36",
+     "hals": "S/M/L/XL",
+     "ref": "NK650D/NK651D/NK652D/NK653D"
+    },
+    {
+     "durchmesser_mm": "40",
+     "hals": "S/M/L/XL",
+     "ref": "NK750D/NK751D/NK752D/NK753D"
+    }
+   ]
   },
   {
+   "id": "aesculap.kopf.isodur_cocr",
    "typ": "kopf",
    "bezeichnung": "Isodur CoCr",
+   "auswahl_dach": true,
    "groesse": null,
    "ref": null,
    "gtin": null,
    "attribute": {
-    "material": "CoCr (ISODUR F laut e2 PDF 24)",
-    "werte": "offen"
+    "material": "CoCrMo (ISO 5832-12); in e2 S. 24 als ISODUR F mit identischen REF",
+    "konus": "12/14",
+    "halslaenge_mm": {
+     "28": "S/M/L/XL/XXL = −3,5/0/+3,5/+7/+10,5",
+     "32-40": "S/M/L/XL/XXL = −4/0/+4/+8/+12"
+    },
+    "hinweis": "Ø22,2 (nur M/L, NK330K/NK331K) steht nicht in der Excia-T-Kopfübersicht – nicht für Excia T anbieten"
    },
    "bild": {
     "typ": "keins",
     "datei": null,
     "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
    },
-   "quelle": "e2"
+   "quelle": "e1",
+   "sicherheit": "belegt",
+   "groessen": [
+    {
+     "durchmesser_mm": "28",
+     "hals": "S/M/L/XL/XXL",
+     "ref": "NK429K/NK430K/NK431K/NK432K/NK433K"
+    },
+    {
+     "durchmesser_mm": "32",
+     "hals": "S/M/L/XL/XXL",
+     "ref": "NK529K/NK530K/NK531K/NK532K/NK533K"
+    },
+    {
+     "durchmesser_mm": "36",
+     "hals": "S/M/L/XL/XXL",
+     "ref": "NK669K/NK670K/NK671K/NK672K/NK673K"
+    },
+    {
+     "durchmesser_mm": "40",
+     "hals": "S/M/L/XL/XXL",
+     "ref": "NK769K/NK770K/NK771K/NK772K/NK773K"
+    }
+   ],
+   "aliase": [
+    "Metallkopf (e1)",
+    "ISODUR F (e2)"
+   ]
   },
   {
+   "id": "aesculap.duokopf.bipolar_cup",
    "typ": "duokopf",
    "bezeichnung": "Bipolar Cup",
+   "auswahl_dach": true,
    "groesse": null,
    "ref": null,
    "gtin": null,
    "attribute": {
-    "verwendung_im_haus": "mit Excia T zementiert (Hausangabe)",
-    "freigabe": "Herstellerfreigabe Bipolar Cup + Excia T zementiert offen"
+    "verwendung": "mit Excia T zementiert",
+    "freigabe": "offen – nur Anwendungsfall bb-web, keine Kopf-/Größen-Freigabetabelle"
    },
    "bild": {
     "typ": "keins",
     "datei": null,
     "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
    },
-   "quelle": "e3"
+   "quelle": "e3",
+   "sicherheit": "hausabhängig"
+  }
+ ],
+ "tabellen": {
+  "T8_plasmafit_liner": {
+   "titel": "Plasmafit Liner (symmetrisch) ↔ Schalen",
+   "quelle": "e2",
+   "seite": "18–21",
+   "zeilen": [
+    {
+     "liner": "Vitelene",
+     "innen_mm": "22,2",
+     "poly": "40/42",
+     "plus": "40/42/44"
+    },
+    {
+     "liner": "Vitelene",
+     "innen_mm": "28",
+     "poly": "42–54",
+     "plus": "44–56"
+    },
+    {
+     "liner": "Vitelene",
+     "innen_mm": "32",
+     "poly": "46–62",
+     "plus": "48–70"
+    },
+    {
+     "liner": "Vitelene",
+     "innen_mm": "36",
+     "poly": "50–62",
+     "plus": "52–70"
+    },
+    {
+     "liner": "Vitelene",
+     "innen_mm": "40",
+     "poly": "54–62",
+     "plus": "56–70"
+    },
+    {
+     "liner": "BIOLOX delta",
+     "innen_mm": "28",
+     "poly": "nicht vorgesehen",
+     "plus": "44–54"
+    },
+    {
+     "liner": "BIOLOX delta",
+     "innen_mm": "32",
+     "poly": "nicht vorgesehen",
+     "plus": "48–70"
+    },
+    {
+     "liner": "BIOLOX delta",
+     "innen_mm": "36",
+     "poly": "nicht vorgesehen",
+     "plus": "52–70"
+    },
+    {
+     "liner": "BIOLOX delta",
+     "innen_mm": "40",
+     "poly": "nicht vorgesehen",
+     "plus": "56–70"
+    }
+   ],
+   "legende": "jeweils 2-mm-Schritte; gilt nur für symmetrische Liner; gleicher Liner-Buchstabe allein genügt nicht (Poly und Plus ordnen gleiche Schalen-Ø verschiedenen Codes zu)"
+  }
+ },
+ "passt_zu": [
+  {
+   "von": "aesculap.plasmafit.plus",
+   "zu": "aesculap.inlay.biolox_delta",
+   "status": "bedingt",
+   "bedingung": "Innen-Ø nur in den Schalen laut T8",
+   "quelle": "e2",
+   "seite": "18–21",
+   "tabelle": "T8_plasmafit_liner"
+  },
+  {
+   "von": "aesculap.plasmafit.poly",
+   "zu": "aesculap.inlay.biolox_delta",
+   "status": "nein",
+   "bedingung": "Poly nur PE-Liner",
+   "quelle": "e2",
+   "seite": "5"
+  },
+  {
+   "von": "aesculap.plasmafit.poly",
+   "zu": "aesculap.inlay.pe_standard",
+   "status": "bedingt",
+   "bedingung": "nur PE; Größe vom Etikett (UHMWPE-Zeilen noch nicht übernommen)",
+   "quelle": "e2",
+   "seite": "5"
+  },
+  {
+   "von": "aesculap.excia_t.zementfrei",
+   "zu": "aesculap.kopf.biolox_delta",
+   "status": "ja",
+   "bedingung": "Ø/Hals laut Excia-T-Kopfübersicht",
+   "quelle": "e1",
+   "seite": "19"
+  },
+  {
+   "von": "aesculap.excia_t.zementfrei",
+   "zu": "aesculap.kopf.isodur_cocr",
+   "status": "ja",
+   "bedingung": "Ø 28–40 laut Excia-T-Kopfübersicht; nicht Ø22,2",
+   "quelle": "e1",
+   "seite": "19"
+  },
+  {
+   "von": "aesculap.excia_t.zementiert",
+   "zu": "aesculap.kopf.biolox_delta",
+   "status": "ja",
+   "bedingung": "Ø/Hals laut Excia-T-Kopfübersicht",
+   "quelle": "e1",
+   "seite": "19"
+  },
+  {
+   "von": "aesculap.excia_t.zementiert",
+   "zu": "aesculap.kopf.isodur_cocr",
+   "status": "ja",
+   "bedingung": "Ø 28–40 laut Excia-T-Kopfübersicht; nicht Ø22,2",
+   "quelle": "e1",
+   "seite": "19"
+  },
+  {
+   "von": "aesculap.inlay.biolox_delta",
+   "zu": "aesculap.kopf.isodur_cocr",
+   "status": "nein",
+   "bedingung": "keinen Metallkopf mit Keramikinlay freigeben",
+   "quelle": "e2",
+   "seite": "24"
+  },
+  {
+   "von": "aesculap.excia_t.zementiert",
+   "zu": "aesculap.duokopf.bipolar_cup",
+   "status": "offen",
+   "bedingung": "nur Anwendungsfall; Freigabetabelle fehlt",
+   "quelle": "bb-web",
+   "seite": "Operationstechniken"
   }
  ],
  "regeln": [
   {
    "wenn": "pfanne+inlay",
    "pruefe": "Plasmafit Poly → nur PE",
-   "text": "Plasmafit Poly nur als PE-Liner-System führen; Keramikinlay nicht als Poly-Option anbieten. Plasmafit Plus hat andere Lineroptionen; konkrete Paarung nur nach Herstellerfreigabe. Isodur-CoCr-Kopf nicht aus der Hausliste für Keramikinlay freigeben.",
-   "quelle": "e2 (S. 5–7, PDF 24)"
+   "text": "Plasmafit Poly nur mit PE-Liner; Keramikinlay nur bei Plasmafit Plus und nur in den Schalengrößen laut Tabelle.",
+   "quelle": "e2 S. 5, 18–21"
+  },
+  {
+   "wenn": "kopf+inlay",
+   "pruefe": "metall != keramik",
+   "text": "Keinen Metallkopf (Isodur/ISODUR F) mit Keramikinlay kombinieren.",
+   "quelle": "e2 S. 24"
+  },
+  {
+   "wenn": "schaft",
+   "pruefe": "Excia T ≠ Excia 12/14",
+   "text": "Excia 12/14 (O90301) ist eine andere Schaftlinie – Größen/REF nicht auf Excia T übertragen.",
+   "quelle": "excia-old, e1"
   },
   {
    "wenn": "duokopf+schaft",
    "pruefe": "Herstellerfreigabe vorhanden",
-   "text": "Bipolar Cup nur mit dem vom Hersteller freigegebenen zementierten Schaft; Freigabe für Excia T zementiert noch nicht belegt.",
-   "quelle": "e3 (Hausangabe Julian; Freigabe offen)"
+   "text": "Bipolar Cup nur mit freigegebenem zementiertem Schaft; Freigabetabelle mit Excia T zementiert fehlt.",
+   "quelle": "bb-web, e3"
   }
  ],
  "rueckrufe": [
@@ -215,25 +736,39 @@
    "behoerde": "BfArM",
    "kennung": "FSCA 279 (12190/24), 17.04.2024",
    "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/DE/11/2024/12190-24_kundeninfo_de.pdf?__blob=publicationFile",
-   "hinweis": "nur relevant, falls Vitelene-Bestand im Haus"
+   "hinweis": "nur relevant, falls Vitelene-Liner verwendet werden",
+   "betrifft": [],
+   "markt": "EU/DE"
   }
  ],
  "offen": [
-  "EU-IFU/OP-Technik Excia T zementiert",
-  "Name + Dokument der zementierten PE-Pfanne",
-  "Bipolar Cup: EU-IFU und Freigabe mit Excia T zementiert",
-  "Isodur-CoCr-Köpfe: Katalog/IFU",
-  "Größen/REF aller Komponenten aus Original mit Seite",
-  "REF/GTIN"
+  "EU-IFU Excia T zementiert / Bipolar Cup (Freigabetabelle)",
+  "Einzelprodukt/Profil/REF der zementierten PE-Pfanne",
+  "UHMWPE-Liner (symmetrisch) Plasmafit: Zeilen aus e2 übernehmen",
+  "GTIN"
  ],
  "region": "hüfte",
  "verified": false,
- "verified_hinweis": "Teilprüfung (Lauf 001: Grok + Astra am Original, 07.10.2026). Markt-/EU-Anwendbarkeit, Größen/REF und Komponentenfreigaben teilweise offen.",
+ "verified_hinweis": "Lauf 001-implantate: Werte von Grok und Astra am Original gelesen (07.10.2026), Claude-Änderungsliste von Julian abgenommen. Keine EU-IFU gelesen; keine klinische Freigabe. Hausbestand jeder Klinik am Etikett prüfen.",
  "stand_extrakt": "2026-10-07",
  "hinweise": [
   "Vor dem Öffnen Komponente, Seite und Größe laut ansagen; Herstellerdokument und aktuelle EU-IFU maßgeblich.",
   "Systeme nicht mischen: nur Komponenten, die der Hersteller ausdrücklich für dieses System vorsieht. Gleicher Konus oder gleiche Keramikmarke ist kein Kombinationsnachweis.",
-  "Werte (Größen, Offsets, REF) nur aus dem Original mit Seite übernehmen; Fundstellen sind keine Freigabe.",
+  "Werte nur aus dem genannten Original mit Seite; nicht dokumentierte Kombinationen bleiben „offen – Operateur fragen“ (ungeprüft ≠ verboten ≠ freigegeben).",
   "Rückrufe sind chargenspezifisch: Betroffenheit nur über REF/Charge im Original und mit der/dem Medizinprodukte-Beauftragten klären – keine pauschale Sperre oder Freigabe."
+ ],
+ "aenderungsprotokoll": [
+  {
+   "version": "1.0",
+   "datum": "2026-10-07",
+   "lauf": "001",
+   "text": "Erstanlage in Lauf 001 (Fundstellen, Werte offen)"
+  },
+  {
+   "version": "1.1",
+   "datum": "2026-10-07",
+   "lauf": "001-implantate",
+   "text": "Größen/REF/Kombinationstabellen aus Grok + Astra (Astra-Korrekturen), feste IDs, passt_zu mit Bedingungen, Rückrufe mit betrifft; Perplexity-Fundstellen (eingang/001-perplexity-2/-3) als Fundstellen."
+  }
  ]
 }

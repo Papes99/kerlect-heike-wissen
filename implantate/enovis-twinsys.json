@@ -1,183 +1,346 @@
 {
  "hersteller": "Enovis (Mathys)",
- "system": "twinSys – zementfrei, zementiert, Duokopf",
+ "system": "twinSys – zementfrei, zementiert, Duokopf; RM Classic, seleXys PC, ccB",
+ "version": "1.1",
  "quellen": [
   {
-   "id": "m1",
-   "dokument": "twinSys – Surgical technique (Fundstelle)",
-   "stand": "V06 laut Dateiname",
-   "seiten": "nicht lesbar (Umleitung auf Enovis / HCP-Login) – Inhalte nicht am Original geprüft",
-   "url": "https://www.mathysmedical.com/Storages/User/Dokumente/Operationstechnik/Huefte/OP-Technik_twinSys_EN_V06.pdf",
-   "markt": "offen",
-   "gelesen_von": "Perplexity-Fundstelle; Grok/Astra: nicht lesbar"
+   "id": "twinsys",
+   "dokument": "twinSys – Product Information",
+   "stand": "Item 336.010.078 / 04-0224-01 / 2024-02",
+   "seiten": "PDF 7 Ordering information; Kennung PDF 8",
+   "url": "https://enovis-surgical.com/repo/storage/4721/file/EN_TSS_ProdInfo_V04%20%281%29.pdf",
+   "markt": "EN/international",
+   "gelesen_von": "Grok/Astra 07.10.2026"
   },
   {
-   "id": "m2",
-   "dokument": "RM Classic Pfanne – Operationstechnik (Fundstelle)",
-   "stand": "offen",
-   "seiten": "nicht lesbar (Umleitung auf Enovis / HCP-Login) – Inhalte nicht am Original geprüft",
-   "url": "https://www.mathysmedical.com/Storages/User/Dokumente/Operationstechnik/Huefte/OP-Technik_RM_Classic_Pfanne_DE.pdf",
-   "markt": "offen",
-   "gelesen_von": "Perplexity-Fundstelle"
+   "id": "ccb",
+   "dokument": "CCB cup – CCE roof reinforcement ring, Surgical Technique/Product Information",
+   "stand": "Item 336.010.151 / 01-0220-01 / 2020-02",
+   "seiten": "gedr.=PDF 21–22; Kennung 32",
+   "url": "https://enovis-surgical.com/repo/storage/4723/file/op-technik_produktinfo-ccb-cce_en_v1.0.pdf",
+   "markt": "EN/international",
+   "gelesen_von": "Grok/Astra 07.10.2026"
   },
   {
-   "id": "m3",
-   "dokument": "seleXys PC – OP-Technik (Fundstelle)",
-   "stand": "V04 laut Dateiname",
-   "seiten": "nicht lesbar (Umleitung auf Enovis / HCP-Login) – Inhalte nicht am Original geprüft",
+   "id": "ceramics",
+   "dokument": "Mathys – Ceramic implants, Product Information",
+   "stand": "Item 336.010.127 / 03-0319-01 / 2019-03",
+   "seiten": "PDF 1–6; Kennung PDF 8",
+   "url": "https://enovis-surgical.com/repo/storage/4763/file/produktinformation_keramik_en_v3.0.pdf",
+   "markt": "EN/international; keine twinSys-Paarung daraus",
+   "gelesen_von": "Grok/Astra 07.10.2026"
+  },
+  {
+   "id": "rm-classic",
+   "dokument": "Enovis – RM Classic (Monoblock)",
+   "stand": "HTML, undatiert",
+   "seiten": "Produktbeschreibung",
+   "url": "https://enovis-surgical.com/en/products/321/rm-classic.html",
+   "markt": "international",
+   "gelesen_von": "Grok/Astra 07.10.2026"
+  },
+  {
+   "id": "selexys",
+   "dokument": "seleXys PC – Modulares zementfreies Pressfit-Pfannensystem (OP-Technik)",
+   "stand": "Art. Nr. 316.010.123; 04-1019-01; V04, 2019-10",
+   "seiten": "S. 11–12 Zuordnung; S. 18 vitamys-Einsatz; S. 19 seleXys PE Einsatz standard/überhöht",
    "url": "https://www.mathysmedical.com/Storages/User/Dokumente/Operationstechnik/Huefte/OP-Technik_seleXys_PC_DE_V04.pdf",
-   "markt": "offen",
-   "gelesen_von": "Perplexity-Fundstelle"
+   "markt": "DE",
+   "gelesen_von": "Perplexity-Fundstelle 07.10.2026; Astra: Altlink leitet um – Original noch nicht von Grok/Astra gelesen"
   },
   {
-   "id": "m4",
-   "dokument": "CCB-Pfanne / CCE – OP-Technik/Produktinfo (Fundstelle)",
-   "stand": "V01 laut Dateiname",
-   "seiten": "nicht lesbar (Umleitung auf Enovis / HCP-Login) – Inhalte nicht am Original geprüft",
-   "url": "https://www.mathysmedical.com/Storages/User/Dokumente/Operationstechnik/Huefte/OP-Technik_Produktinfo_CCB_CCE_DE_V01.pdf",
-   "markt": "offen",
-   "gelesen_von": "Perplexity-Fundstelle"
+   "id": "enovis-bipolar",
+   "dokument": "Enovis – Bipolar (Hip Heads)",
+   "stand": "HTML, undatiert",
+   "seiten": "Produktbeschreibung",
+   "url": "https://enovis-surgical.com/en/products/335/bipolar.html",
+   "markt": "international; keine twinSys-Paarung",
+   "gelesen_von": "Grok/Astra 07.10.2026"
   },
   {
-   "id": "m5",
-   "dokument": "Kompatibilitäts-Chart Hipheads (Fundstelle)",
+   "id": "hipheads-alt",
+   "dokument": "Mathys – Compatibility chart hip heads (alt)",
    "stand": "V01 laut Dateiname",
-   "seiten": "nicht lesbar (Umleitung auf Enovis / HCP-Login) – Inhalte nicht am Original geprüft",
+   "seiten": "–",
    "url": "https://www.mathysmedical.com/Storages/User/Dokumente/Operationstechnik/Huefte/Kompatibilitaets-Chart/Kompatibilit%C3%A4ts-Chart_OPT_Hipheads_Mathys_EN_V01.pdf",
-   "markt": "offen",
-   "gelesen_von": "Perplexity-Fundstelle"
-  },
-  {
-   "id": "m6",
-   "dokument": "Bipolarköpfe/Hemiköpfe – OP-Technik/Produktinfo (Fundstelle)",
-   "stand": "V01 laut Dateiname, FR",
-   "seiten": "nicht lesbar (Umleitung auf Enovis / HCP-Login) – Inhalte nicht am Original geprüft",
-   "url": "https://www.mathysmedical.com/Storages/User/Dokumente/Operationstechnik/Huefte/Bipolar-Hemi/OP-Technik-Produktinfo_Bipolar-Hemikopf_FR_V01.pdf",
-   "markt": "offen",
-   "gelesen_von": "Perplexity-Fundstelle"
+   "markt": "Altlink leitet laut Astra um",
+   "gelesen_von": "Fundstelle"
   }
  ],
  "komponenten": [
   {
+   "id": "enovis.twinsys.zementfrei",
    "typ": "schaft",
    "bezeichnung": "twinSys zementfrei",
+   "auswahl_dach": true,
    "groesse": null,
    "ref": null,
    "gtin": null,
    "attribute": {
     "fixation": "zementfrei",
-    "werte": "offen"
+    "varianten": {
+     "Standard": "7–18",
+     "Lateral": "7–18",
+     "XS": "7–12",
+     "Long": "12–15"
+    },
+    "hinweis": "nur aufgeführte Einzel-REF; XS/Long sind dokumentierte Varianten, kein Bestandsnachweis"
    },
    "bild": {
     "typ": "keins",
     "datei": null,
     "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
    },
-   "quelle": "m1"
+   "quelle": "twinsys",
+   "sicherheit": "belegt",
+   "groessen": [
+    {
+     "variante": "Standard",
+     "groesse": "7",
+     "ref": "52.34.1157"
+    },
+    {
+     "variante": "Standard",
+     "groesse": "8",
+     "ref": "52.34.1158"
+    },
+    {
+     "variante": "Standard",
+     "groesse": "9",
+     "ref": "56.11.1000"
+    },
+    {
+     "variante": "Standard",
+     "groesse": "18",
+     "ref": "56.11.1009"
+    },
+    {
+     "variante": "Lateral",
+     "groesse": "7",
+     "ref": "52.34.1159"
+    },
+    {
+     "variante": "Lateral",
+     "groesse": "8",
+     "ref": "52.34.1160"
+    },
+    {
+     "variante": "Lateral",
+     "groesse": "9",
+     "ref": "56.11.1010"
+    },
+    {
+     "variante": "Lateral",
+     "groesse": "18",
+     "ref": "56.11.1019"
+    },
+    {
+     "variante": "XS",
+     "groesse": "7",
+     "ref": "56.11.1068"
+    },
+    {
+     "variante": "XS",
+     "groesse": "8",
+     "ref": "56.11.1069"
+    },
+    {
+     "variante": "XS",
+     "groesse": "9",
+     "ref": "56.11.1070"
+    },
+    {
+     "variante": "XS",
+     "groesse": "10",
+     "ref": "56.11.1071"
+    },
+    {
+     "variante": "XS",
+     "groesse": "11",
+     "ref": "52.34.1161"
+    },
+    {
+     "variante": "XS",
+     "groesse": "12",
+     "ref": "52.34.1162"
+    },
+    {
+     "variante": "Long",
+     "groesse": "12",
+     "ref": "56.11.3003"
+    },
+    {
+     "variante": "Long",
+     "groesse": "13",
+     "ref": "56.11.3004"
+    },
+    {
+     "variante": "Long",
+     "groesse": "14",
+     "ref": "56.11.3005"
+    },
+    {
+     "variante": "Long",
+     "groesse": "15",
+     "ref": "56.11.3006"
+    }
+   ]
   },
   {
+   "id": "enovis.twinsys.zementiert",
    "typ": "schaft",
    "bezeichnung": "twinSys zementiert",
+   "auswahl_dach": true,
    "groesse": null,
    "ref": null,
    "gtin": null,
    "attribute": {
     "fixation": "zementiert",
-    "werte": "offen"
+    "varianten": {
+     "Standard": "9–16",
+     "Lateral": "9–16"
+    }
    },
    "bild": {
     "typ": "keins",
     "datei": null,
     "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
    },
-   "quelle": "m1"
+   "quelle": "twinsys",
+   "sicherheit": "belegt",
+   "groessen": [
+    {
+     "variante": "Standard",
+     "groesse": "9",
+     "ref": "56.11.2000NG"
+    },
+    {
+     "variante": "Standard",
+     "groesse": "16",
+     "ref": "56.11.2007NG"
+    },
+    {
+     "variante": "Lateral",
+     "groesse": "9",
+     "ref": "56.11.2010NG"
+    },
+    {
+     "variante": "Lateral",
+     "groesse": "16",
+     "ref": "56.11.2017NG"
+    }
+   ]
   },
   {
+   "id": "enovis.rm_classic",
    "typ": "pfanne",
    "bezeichnung": "RM Classic",
+   "auswahl_dach": true,
    "groesse": null,
    "ref": null,
    "gtin": null,
    "attribute": {
     "fixation": "zementfrei",
-    "werte": "offen"
+    "bauart": "Monoblock – kein modulares Inlay"
    },
    "bild": {
     "typ": "keins",
     "datei": null,
     "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
    },
-   "quelle": "m2"
+   "quelle": "rm-classic",
+   "sicherheit": "belegt"
   },
   {
+   "id": "enovis.selexys_pc",
    "typ": "pfanne",
    "bezeichnung": "seleXys PC",
+   "auswahl_dach": true,
    "groesse": null,
    "ref": null,
    "gtin": null,
    "attribute": {
     "fixation": "zementfrei",
-    "werte": "offen"
+    "inlay": "seleXys PE Einsatz (standard/überhöht) oder vitamys-Einsatz (S. 18/19)"
    },
    "bild": {
     "typ": "keins",
     "datei": null,
     "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
    },
-   "quelle": "m3"
+   "quelle": "selexys",
+   "sicherheit": "Fundstelle"
   },
   {
+   "id": "enovis.ccb",
    "typ": "pfanne",
    "bezeichnung": "ccB-Pfanne",
+   "auswahl_dach": true,
    "groesse": null,
    "ref": null,
    "gtin": null,
    "attribute": {
     "fixation": "zementiert",
-    "werte": "offen"
+    "profile": "Low-profile und Full-profile (Auswahl Julian: beide)",
+    "hinweis": "für 60–64 keine CCE-Ringe verfügbar"
    },
    "bild": {
     "typ": "keins",
     "datei": null,
     "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
    },
-   "quelle": "m4"
+   "quelle": "ccb",
+   "sicherheit": "belegt"
   },
   {
+   "id": "enovis.selexys_pe_einsatz",
    "typ": "inlay",
-   "bezeichnung": "PE-Inlay Standard",
+   "bezeichnung": "seleXys PE Einsatz (standard)",
+   "auswahl_dach": true,
    "groesse": null,
    "ref": null,
    "gtin": null,
    "attribute": {
-    "werte": "offen; genaue Zuordnung zur Pfanne offen"
+    "material": "PE",
+    "nur_fuer": "seleXys PC",
+    "varianten": "standard / überhöht",
+    "hinweis": "entspricht vermutlich „PE-Inlay Standard“; RM Classic hat kein Inlay"
    },
    "bild": {
     "typ": "keins",
     "datei": null,
     "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
    },
-   "quelle": null
+   "quelle": "selexys",
+   "sicherheit": "Fundstelle",
+   "aliase": [
+    "PE-Inlay Standard"
+   ]
   },
   {
+   "id": "enovis.kopf.ceramys",
    "typ": "kopf",
    "bezeichnung": "ceramys",
+   "auswahl_dach": true,
    "groesse": null,
    "ref": null,
    "gtin": null,
    "attribute": {
-    "werte": "offen"
+    "werte": "offen; keine twinSys-Paarung aus Keramik-Flyer"
    },
    "bild": {
     "typ": "keins",
     "datei": null,
     "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
    },
-   "quelle": "m5"
+   "quelle": "ceramics",
+   "sicherheit": "offen"
   },
   {
+   "id": "enovis.kopf.symarec",
    "typ": "kopf",
    "bezeichnung": "symarec",
+   "auswahl_dach": true,
    "groesse": null,
    "ref": null,
    "gtin": null,
@@ -189,11 +352,14 @@
     "datei": null,
     "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
    },
-   "quelle": "m5"
+   "quelle": "ceramics",
+   "sicherheit": "offen"
   },
   {
+   "id": "enovis.kopf.cocr",
    "typ": "kopf",
    "bezeichnung": "CoCr",
+   "auswahl_dach": true,
    "groesse": null,
    "ref": null,
    "gtin": null,
@@ -205,32 +371,92 @@
     "datei": null,
     "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
    },
-   "quelle": "m5"
+   "quelle": null,
+   "sicherheit": "offen"
   },
   {
+   "id": "enovis.duokopf.bipolar",
    "typ": "duokopf",
    "bezeichnung": "Mathys Bipolarkopf",
+   "auswahl_dach": true,
    "groesse": null,
    "ref": null,
    "gtin": null,
    "attribute": {
-    "verwendung_im_haus": "mit twinSys zementiert (Hausangabe)",
-    "freigabe": "offen"
+    "verwendung": "mit twinSys zementiert",
+    "freigabe": "offen – Produktseite ohne Schaft-Paarung"
    },
    "bild": {
     "typ": "keins",
     "datei": null,
     "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
    },
-   "quelle": "m6"
+   "quelle": "enovis-bipolar",
+   "sicherheit": "offen"
+  }
+ ],
+ "tabellen": {
+  "T19b_ccb": {
+   "titel": "CCB Profil ↔ Kopf-Ø ↔ Außen-Ø",
+   "quelle": "ccb",
+   "seite": "21–22",
+   "zeilen": [
+    {
+     "profil": "Low-profile",
+     "kopf_mm": "28",
+     "aussen_mm": "42–64",
+     "pflicht": "42 nur mit Pfannendachverstärkungsring"
+    },
+    {
+     "profil": "Low-profile",
+     "kopf_mm": "32",
+     "aussen_mm": "42–64",
+     "pflicht": "42/44/46 nur mit Pfannendachverstärkungsring"
+    },
+    {
+     "profil": "Full-profile",
+     "kopf_mm": "28",
+     "aussen_mm": "44–58",
+     "pflicht": "–"
+    },
+    {
+     "profil": "Full-profile",
+     "kopf_mm": "32",
+     "aussen_mm": "44–58",
+     "pflicht": "44/46 nur mit Pfannendachverstärkungsring"
+    }
+   ],
+   "legende": "jeweils 2-mm-Schritte"
+  }
+ },
+ "passt_zu": [
+  {
+   "von": "enovis.selexys_pc",
+   "zu": "enovis.selexys_pe_einsatz",
+   "status": "bedingt",
+   "bedingung": "Zuordnung laut seleXys-PC-OP-Technik S. 11–12/19 – noch nicht am Original gelesen",
+   "quelle": "selexys",
+   "seite": "11–12, 19"
   }
  ],
  "regeln": [
   {
    "wenn": "alle",
-   "pruefe": "Originaldokument gelesen",
-   "text": "Für twinSys liegen nur Fundstellen vor, keine gelesenen Originale – keine Werte, Größen oder Kombinationen aus Dateinamen oder Treffertexten ableiten.",
+   "pruefe": "Paarung mit Quelle",
+   "text": "Keine Kopf-/Schaft-/Pfannen-Paarung ohne lesbares Original; Flyer und Produktseiten nennen keine twinSys-Kopffreigabe.",
    "quelle": "Astra 07.10.2026"
+  },
+  {
+   "wenn": "pfanne",
+   "pruefe": "ccB klein → Ring",
+   "text": "ccB: kleine Größen nur mit Pfannendachverstärkungsring laut Tabelle.",
+   "quelle": "ccb S. 21–22"
+  },
+  {
+   "wenn": "pfanne+inlay",
+   "pruefe": "RM Classic ohne Inlay",
+   "text": "RM Classic ist Monoblock – kein zusätzliches Inlay anbieten.",
+   "quelle": "rm-classic"
   }
  ],
  "rueckrufe": [
@@ -239,23 +465,41 @@
    "behoerde": "BfArM",
    "kennung": "FSCA 12/04 (01107/12), 16.02.2012",
    "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/11/2012/01107-12_kundeninfo_en.pdf?__blob=publicationFile",
-   "hinweis": "IFU-Ergänzung zum Öffnen der Verpackung; nur bei vitamys-Bestand relevant"
+   "hinweis": "IFU-Ergänzung zum Öffnen der Verpackung; nur bei vitamys-Einsätzen relevant",
+   "betrifft": [],
+   "markt": "EU/DE"
   }
  ],
  "offen": [
-  "Aktuelle Enovis-Dokumente (twinSys OP-Technik DE, Kompatibilitäts-Chart, RM Classic, seleXys PC, ccB, PE-Inlay, Köpfe, Bipolarkopf DE) – ggf. HCP-Login",
-  "EU-IFUs aller Komponenten",
-  "Größen/REF aus Original mit Seite",
-  "REF/GTIN"
+  "seleXys PC Original (V04 2019-10) von Grok/Astra lesen; aktuelle Enovis-Fassung",
+  "Kopf-Kompatibilität twinSys (aktuelles Enovis-Chart)",
+  "Mathys Bipolarkopf + twinSys zementiert Freigabe",
+  "twinSys: nicht aufgeführte Einzel-REF",
+  "EU-IFUs",
+  "GTIN"
  ],
  "region": "hüfte",
  "verified": false,
- "verified_hinweis": "Teilprüfung (Lauf 001: Grok + Astra am Original, 07.10.2026). Markt-/EU-Anwendbarkeit, Größen/REF und Komponentenfreigaben teilweise offen.",
+ "verified_hinweis": "Lauf 001-implantate: Werte von Grok und Astra am Original gelesen (07.10.2026), Claude-Änderungsliste von Julian abgenommen. Keine EU-IFU gelesen; keine klinische Freigabe. Hausbestand jeder Klinik am Etikett prüfen.",
  "stand_extrakt": "2026-10-07",
  "hinweise": [
   "Vor dem Öffnen Komponente, Seite und Größe laut ansagen; Herstellerdokument und aktuelle EU-IFU maßgeblich.",
   "Systeme nicht mischen: nur Komponenten, die der Hersteller ausdrücklich für dieses System vorsieht. Gleicher Konus oder gleiche Keramikmarke ist kein Kombinationsnachweis.",
-  "Werte (Größen, Offsets, REF) nur aus dem Original mit Seite übernehmen; Fundstellen sind keine Freigabe.",
+  "Werte nur aus dem genannten Original mit Seite; nicht dokumentierte Kombinationen bleiben „offen – Operateur fragen“ (ungeprüft ≠ verboten ≠ freigegeben).",
   "Rückrufe sind chargenspezifisch: Betroffenheit nur über REF/Charge im Original und mit der/dem Medizinprodukte-Beauftragten klären – keine pauschale Sperre oder Freigabe."
+ ],
+ "aenderungsprotokoll": [
+  {
+   "version": "1.0",
+   "datum": "2026-10-07",
+   "lauf": "001",
+   "text": "Erstanlage in Lauf 001 (Fundstellen, Werte offen)"
+  },
+  {
+   "version": "1.1",
+   "datum": "2026-10-07",
+   "lauf": "001-implantate",
+   "text": "Größen/REF/Kombinationstabellen aus Grok + Astra (Astra-Korrekturen), feste IDs, passt_zu mit Bedingungen, Rückrufe mit betrifft; Perplexity-Fundstellen (eingang/001-perplexity-2/-3) als Fundstellen."
+  }
  ]
 }

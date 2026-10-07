@@ -37,9 +37,9 @@
    }
   },
   "001-implantate": {
-   "datei": "pakete/001-implantate-basis.md",
+   "datei": "implantate/*.json (v1.1)",
    "name": "001-implantate (Extra-Lauf)",
-   "runde": "julian",
+   "runde": "abgeschlossen",
    "typ": "implantate",
    "gehoert_zu": "001",
    "betrifft": [
@@ -66,10 +66,11 @@
     "plasmafit_poly_inlay": "Standard-PE (UHMWPE)",
     "sn_duokopf_etikett": "TANDEM Bipolar (häufigstes aktuelles S+N-Duokopfsystem; laut TANDEM-OP-Technik 29073 V2 PDF 17 mit SPECTRON EF kompatibel, Innenkopf OXINIUM/CoCr 22/28)",
     "enovis_ccb_profil": "beide (Low- und Full-profile)",
-    "abnahme": "noch nicht einbauen – wartet auf Julian (ggf. Perplexity 001-perplexity-3)"
+    "abnahme": "Ja, alles einbauen (✅ 1–16, 24–27; ✏️ 17–19, 28; ❌ 20–21)"
    },
-   "perplexity_auftrag": "pakete/001-implantate-perplexity-auftrag.md",
-   "perplexity_ergebnis": "eingang/001-perplexity-3.md"
+   "perplexity_ergebnis": "eingang/001-perplexity-3.md",
+   "abgeschlossen": "2026-10-07",
+   "ergebnis": "4 Implantat-Dateien v1.1: Größen/REF/Tabellen, feste IDs, passt_zu, Rückrufe mit betrifft"
   },
   "001-implantate-dach": {
    "name": "001-implantate-dach (Extra-Lauf, geplant)",
@@ -111,7 +112,7 @@
    "Schaft zementiert": "Excia T zementiert",
    "Pfanne zementfrei": "Plasmafit Plus, Plasmafit Poly",
    "Pfanne zementiert": "Aesculap PE-Pfanne zementiert (Name offen)",
-   "Inlay": "BIOLOX delta Inlay",
+   "Inlay": "BIOLOX delta Inlay (nur Plasmafit Plus), PE-Inlay Standard (UHMWPE)",
    "Kopf": "BIOLOX delta, Isodur CoCr",
    "Duokopf (mit zementiertem Schaft)": "Bipolar Cup"
   },
@@ -130,8 +131,8 @@
    "Schaft zementfrei": "twinSys zementfrei",
    "Schaft zementiert": "twinSys zementiert",
    "Pfanne zementfrei": "RM Classic, seleXys PC",
-   "Pfanne zementiert": "ccB-Pfanne",
-   "Inlay": "PE-Inlay Standard",
+   "Pfanne zementiert": "ccB-Pfanne (Low- und Full-profile)",
+   "Inlay": "seleXys PE Einsatz standard (nur seleXys PC)",
    "Kopf": "ceramys, symarec, CoCr",
    "Duokopf (mit zementiertem Schaft)": "Mathys Bipolarkopf"
   }

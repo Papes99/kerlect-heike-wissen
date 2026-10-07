@@ -2,15 +2,17 @@
 
 Pro System eine Datei `implantate/<hersteller>-<system>.json` + `.md`. **Nur exakte Herstellerdaten** (Kompatibilitätstabelle, OP-Technik, IFU, Katalog) mit Dokument, Stand und Link. Nichts schätzen. Firma **und** System müssen passen.
 
-## Systeme im Haus (Julian, Auswahlliste 07.10.2026)
+## Ausgewählte Systeme (häufig in DACH; Julian 07.10.2026)
+Auswahl nach Häufigkeit in DACH (EPRD, SIRIS, Österreich) – Erweiterung um DePuy Synthes, Zimmer Biomet, weitere Mathys-Systeme im Lauf `001-implantate-dach`. Jede Klinik prüft ihren Bestand am Etikett.
+
 **Systeme werden nicht gemischt** – je System nur Komponenten, die der Hersteller ausdrücklich dafür vorsieht. Duokopf mit dem zementierten Schaft desselben Systems.
 
 | Hersteller · System | Schaft zementfrei | Schaft zementiert | Pfanne zementfrei | Pfanne zementiert | Inlay | Kopf | Duokopf (mit zementiertem Schaft) |
 |---|---|---|---|---|---|---|---|
 | **Stryker** · Accolade – nur zementfrei | Accolade II | – | Trident II Tritanium | – | X3 Polyethylen | V40 BIOLOX delta, V40 CoCr (LFIT) | – |
-| **Aesculap (B. Braun)** · Excia | Excia T | Excia T zementiert | Plasmafit Plus, Plasmafit Poly | Aesculap PE-Pfanne zementiert (Name offen) | BIOLOX delta Inlay | BIOLOX delta, Isodur CoCr | Bipolar Cup |
-| **Smith+Nephew** · R3 | SL-PLUS MIA | SPECTRON EF | R3, REFLECTION (zementfrei) | REFLECTION All-Poly (zementiert), Müller-PE-Pfanne (S+N) | R3 XLPE | OXINIUM, BIOLOX delta, CoCr | Bi-Polar Head (S+N) |
-| **Enovis (Mathys)** · twinSys | twinSys zementfrei | twinSys zementiert | RM Classic, seleXys PC | ccB-Pfanne | PE-Inlay Standard | ceramys, symarec, CoCr | Mathys Bipolarkopf |
+| **Aesculap (B. Braun)** · Excia | Excia T | Excia T zementiert | Plasmafit Plus, Plasmafit Poly | Aesculap PE-Pfanne zementiert (Name offen) | BIOLOX delta Inlay (nur Plus), PE-Inlay Standard (UHMWPE) | BIOLOX delta, Isodur CoCr | Bipolar Cup |
+| **Smith+Nephew** · R3 | SL-PLUS MIA | SPECTRON EF | R3, REFLECTION (zementfrei) | REFLECTION All-Poly (zementiert), Müller-PE-Pfanne (S+N) | R3 XLPE | OXINIUM, BIOLOX delta, CoCr | TANDEM Bipolar |
+| **Enovis (Mathys)** · twinSys | twinSys zementfrei | twinSys zementiert | RM Classic, seleXys PC | ccB-Pfanne (Low- und Full-profile) | seleXys PE Einsatz standard (nur seleXys PC; RM Classic = Monoblock) | ceramys, symarec, CoCr | Mathys Bipolarkopf |
 
 **Dateien:** `stryker-accolade-ii`, `aesculap-excia`, `smith-nephew-r3`, `enovis-twinsys` (je .json + .md).
 
@@ -34,6 +36,13 @@ Pro System eine Datei `implantate/<hersteller>-<system>.json` + `.md`. **Nur exa
  "offen": ["…"]
 }
 ```
+
+## Erweiterung ab v1.1 (Lauf 001-implantate)
+- `version`, `aenderungsprotokoll` je Datei.
+- Komponente: `id` (fest, z. B. `stryker.trident2.schale`), `auswahl_dach`, `sicherheit` (belegt / hausabhängig / Fundstelle / offen), `aliase`, `groessen` (Liste mit Größe/REF/Varianten genau laut Original).
+- `tabellen`: benannte Original-Tabellen (z. B. `T3_trident_x3`) mit `quelle`, `seite`, `zeilen`, `legende`.
+- `passt_zu`: `{von, zu, status: ja|bedingt|nein|offen, bedingung, quelle, seite, tabelle}` – nur was das Original ausdrücklich sagt; ungeprüft ≠ verboten ≠ freigegeben; keine transitiven Freigaben.
+- `rueckrufe[].betrifft`: Komponenten-IDs; `markt`, `status`.
 
 ## Bilder
 Produktfotos der Hersteller sind urheberrechtlich geschützt und dürfen nicht einfach übernommen werden. Erlaubt: eigene Fotos (Verpackung/Etikett, ohne Patientendaten), Bilder mit schriftlicher Freigabe des Herstellers, eigene Zeichnungen. Feld `bild.rechte` immer ausfüllen.
