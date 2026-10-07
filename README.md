@@ -15,6 +15,10 @@
 
 **Astra programmiert – nur in Kerlect** (Base44-App „Kerlect“, ID `6aa3f64b0b23cc244ce7686d`). Claude schreibt keinen App-Code, sondern liefert Daten, Vorgaben (`app/`) und Prototypen.
 
+## Auswahl der Implantat-Systeme
+
+Nach Häufigkeit in DACH (Register EPRD, SIRIS, Österreich) – nicht nach einer einzelnen Klinik. Jede Klinik gleicht ihren Bestand selbst am Etikett ab.
+
 ## Aktuelle Reihe
 
 - **000-grundwissen** (`pakete/000-abschluss.md`, abgeschlossen v1.5) — gilt für jeden Eingriff: Sicherheit, Zählung, Sterilität, Lagerung, HF, Implantate, Präparate, Übergabe; 13 Situations-IDs.

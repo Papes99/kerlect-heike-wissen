@@ -64,7 +64,7 @@
    "julian_antworten": {
     "datum": "2026-10-07",
     "plasmafit_poly_inlay": "Standard-PE (UHMWPE)",
-    "sn_duokopf_etikett": "weiß nicht – offen (Hausname Bi-Polar Head bleibt, Freigabe offen)",
+    "sn_duokopf_etikett": "TANDEM Bipolar (häufigstes aktuelles S+N-Duokopfsystem; laut TANDEM-OP-Technik 29073 V2 PDF 17 mit SPECTRON EF kompatibel, Innenkopf OXINIUM/CoCr 22/28)",
     "enovis_ccb_profil": "beide (Low- und Full-profile)",
     "abnahme": "noch nicht einbauen – wartet auf Julian (ggf. Perplexity 001-perplexity-3)"
    }
@@ -105,7 +105,7 @@
    "Pfanne zementiert": "REFLECTION All-Poly (zementiert), Müller-PE-Pfanne (S+N)",
    "Inlay": "R3 XLPE",
    "Kopf": "OXINIUM, BIOLOX delta, CoCr",
-   "Duokopf (mit zementiertem Schaft)": "Bi-Polar Head (S+N)"
+   "Duokopf (mit zementiertem Schaft)": "TANDEM Bipolar"
   },
   "Enovis (Mathys)": {
    "system": "twinSys",
@@ -131,5 +131,6 @@
   "datei": "app/hueft-implantat-auswahl.md",
   "start": "nach STATUS pakete.001-implantate.runde = abgeschlossen",
   "astra_ergebnis": "pruefung/app-astra.md"
- }
+ },
+ "auswahl_regel": "Julian 07.10.2026: Implantat-Systeme werden nach Häufigkeit in DACH ausgewählt (Register: EPRD Deutschland, SIRIS Schweiz, Österreich), nicht nach einer einzelnen Klinik. „haus_systeme“ = aktuelle Auswahl häufiger DACH-Systeme; Hausbestand prüft jede Klinik selbst am Etikett."
 }
