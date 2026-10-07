@@ -312,6 +312,8 @@ Bitte prüfen: Deckt der 000-Eintrag den 001-Eintrag wirklich ab? Wo 001 Hüft-S
 ### Teil C – Implantat-Quellen (Quellen-Auftrag für Grok: `pakete/001-quellen-auftrag.md`)
 Offen: EU-Dokumente und Größen/Kompatibilität für Stryker Accolade II / Trident II / UHR, Smith+Nephew POLARSTEM (EU-IFU) / R3 / TANDEM, Mathys twinSys / Pfannen / Bipolarkopf. Grok sucht die Herstellerdokumente selbst; Werte nur aus dem Original mit Seite. Nicht Gefundenes → Perplexity-Prompt am Laufende.
 
+**Fundstellen von Perplexity liegen vor:** `eingang/001-perplexity.md` (Teilrecherche 07.10.2026, nur Links/Seiten, keine Werte; u. a. Aesculap-Duokopf-Name „Bipolar Cup“, R3-/LFIT-V40-Rückrufe). Grok/Astra: als Startpunkt nutzen, Werte und Marktbezug (EU) am Original prüfen.
+
 ### Teil D – Hausangaben Julian (Auswahlliste 07.10.2026)
 | Hersteller · System | Schaft zementfrei | Schaft zementiert | Pfanne zementfrei | Pfanne zementiert | Inlay | Kopf | Duokopf (mit zementiertem Schaft) |
 |---|---|---|---|---|---|---|---|

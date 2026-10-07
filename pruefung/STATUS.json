@@ -31,7 +31,9 @@
    "quellen_auftrag": "pakete/001-quellen-auftrag.md"
   }
  },
- "eingang_verarbeitet": [],
+ "eingang_verarbeitet": [
+  "001-perplexity.md"
+ ],
  "hinweis_start": "Neustart 07.10.2026: alte Prüf-/Arbeitsdateien gelöscht (Git-Verlauf). Kette beginnt mit 000.",
  "start_befehl": "Ein Paket startet nur, wenn Julian „NNN los“ sagt (z. B. „001 los“).",
  "zuordnung": "000 = allgemeines OP-Wissen (gilt für jeden Eingriff). Eingriffspakete (001 …) enthalten NUR Eingriffsspezifisches. Allgemeines aus Eingriffspaketen: ist es schon in 000 → im Eingriffspaket streichen; fehlt es in 000 → über die Kette (000-basis „Zur Prüfung“ → Grok → Astra → Julian) nach 000 verschieben, dann im Eingriffspaket streichen. Eingriffsspezifisches nie in 000.",

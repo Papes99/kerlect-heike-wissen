@@ -2,6 +2,8 @@
 
 _Lauf 001, Start 07.10.2026 · Haus-Systeme laut Julian (07.10.2026, korrigiert). Grok sucht diese Quellen im Rahmen seiner Prüfung selbst (Ergebnis in `pruefung/001-grok.md`, Abschnitt „Quellen“). Was nicht gefunden wird: „nicht gefunden“ – daraus macht Claude am Laufende einen Perplexity-Prompt für Julian._
 
+**Startpunkt:** Perplexity-Fundstellen in `eingang/001-perplexity.md` (07.10.2026) – dort Gefundenes prüfen, „nicht gefunden“ weitersuchen.
+
 ## Haus-Systeme (Julian, Auswahlliste 07.10.2026) – genau diese Komponenten
 **Regel: Systeme nicht mischen.** Je System nur, was der Hersteller dafür vorsieht. Duokopf wird mit dem zementierten Schaft desselben Systems verwendet.
 
