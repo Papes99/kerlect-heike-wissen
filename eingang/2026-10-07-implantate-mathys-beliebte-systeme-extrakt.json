@@ -1,0 +1,224 @@
+{
+ "hersteller": "Mathys (Enovis)",
+ "system": "twinSys zementfrei/zementiert + RM Pressfit vitamys / RM Classic / seleXys + Bipolarkopf",
+ "region": "hüfte",
+ "verified": false,
+ "stand_extrakt": "2026-10-07",
+ "quellen": [
+  {
+   "id": "q1",
+   "dokument": "Produktinfo twinSys EN V03",
+   "stand": "V03",
+   "url": "https://www.mathysmedical.com/Storages/User/Dokumente/Produktinfo/Huefte/Produktinfo_twinSys_EN_V03.pdf",
+   "seiten": "offen",
+   "art": "Websuche-Auszug 07.10.2026 – Dokument selbst NICHT gelesen (Hersteller-Domains gesperrt)"
+  },
+  {
+   "id": "q2",
+   "dokument": "Produktseite twinSys uncemented",
+   "stand": "offen",
+   "url": "https://mathysmedical.com/en/products/hip/stems/twinsys-uncemented",
+   "seiten": "-",
+   "art": "Websuche-Auszug 07.10.2026 – Dokument selbst NICHT gelesen (Hersteller-Domains gesperrt)"
+  },
+  {
+   "id": "q3",
+   "dokument": "Produktseite twinSys cemented",
+   "stand": "offen",
+   "url": "https://mathysmedical.com/en/products/hip/stems/twinsys-cemented",
+   "seiten": "-",
+   "art": "Websuche-Auszug 07.10.2026 – Dokument selbst NICHT gelesen (Hersteller-Domains gesperrt)"
+  },
+  {
+   "id": "q4",
+   "dokument": "Brochure Product Portfolio EN V06",
+   "stand": "V06",
+   "url": "https://www.mathysmedical.com/Storages/User/Dokumente_NEU/1_Produkteinformationen/EN_Brochure_Productportfolio_V06.pdf",
+   "seiten": "offen",
+   "art": "Websuche-Auszug 07.10.2026 – Dokument selbst NICHT gelesen (Hersteller-Domains gesperrt)"
+  },
+  {
+   "id": "q5",
+   "dokument": "OP-Technik RM Classic Pfanne EN",
+   "stand": "offen",
+   "url": "https://www.mathysmedical.com/Storages/User/Dokumente/Operationstechnik/Huefte/OP-Technik_RM_Classic_Pfanne_EN.pdf",
+   "seiten": "offen",
+   "art": "Websuche-Auszug 07.10.2026 – Dokument selbst NICHT gelesen (Hersteller-Domains gesperrt)"
+  },
+  {
+   "id": "q6",
+   "dokument": "TGA Hazard Alert seleXys TH+ / TPS (Behördenmeldung)",
+   "stand": "offen",
+   "url": "https://www.tga.gov.au/alert/selexys-th-and-tps-acetabular-shells-used-hip-replacements",
+   "seiten": "-",
+   "art": "Websuche-Auszug 07.10.2026 – Dokument selbst NICHT gelesen (Hersteller-Domains gesperrt)"
+  },
+  {
+   "id": "q7",
+   "dokument": "OP-Technik twinSys DE V05 (Startdokument, nicht lesbar)",
+   "stand": "V05",
+   "url": "https://www.mathysmedical.com/Storages/User/Dokumente/Operationstechnik/Huefte/OP-Technik_twinSys_DE_V05.pdf",
+   "seiten": "-",
+   "art": "nicht gelesen (gesperrt)"
+  },
+  {
+   "id": "q8",
+   "dokument": "Kompatibilitäts-Chart Hipheads Mathys DE V01 (nicht lesbar)",
+   "stand": "V01",
+   "url": "https://www.mathysmedical.com/Storages/User/Dokumente/Operationstechnik/Huefte/Kompatibilitaets-Chart/Kompatibilit%C3%A4ts-Chart_OPT_Hipheads_Mathys_DE_V01.pdf",
+   "seiten": "-",
+   "art": "nicht gelesen (gesperrt)"
+  }
+ ],
+ "komponenten": [
+  {
+   "typ": "schaft",
+   "bezeichnung": "twinSys zementfrei",
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "konus": "12/14",
+    "fixation": "zementfrei",
+    "varianten": [
+     "XS",
+     "Standard",
+     "Lateral",
+     "Long"
+    ],
+    "bauart": "Monoblock-Geradschaft (Müller-Konzept)"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "q2",
+   "sicherheit": "websuche_ungeprueft"
+  },
+  {
+   "typ": "schaft",
+   "bezeichnung": "twinSys zementiert",
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "konus": "12/14",
+    "fixation": "zementiert",
+    "varianten": [
+     "Standard",
+     "Lateral"
+    ],
+    "hinweis": "gegenüber Raspel 1 mm je Seite unterdimensioniert (Zementmantel)"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "q3",
+   "sicherheit": "websuche_ungeprueft"
+  },
+  {
+   "typ": "pfanne",
+   "bezeichnung": "RM Pressfit vitamys",
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementfrei",
+    "material": "vitamys (hochvernetztes, Vitamin-E-PE)"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "q1",
+   "sicherheit": "websuche_ungeprueft"
+  },
+  {
+   "typ": "pfanne",
+   "bezeichnung": "RM Classic",
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementfrei",
+    "bauart": "Monoblock-PE-Pfanne mit TiCP-Partikelbeschichtung"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "q5",
+   "sicherheit": "websuche_ungeprueft"
+  },
+  {
+   "typ": "pfanne",
+   "bezeichnung": "seleXys PC (Schale) + Inlays (z. B. vitamys, ceramys)",
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementfrei"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "q4",
+   "sicherheit": "websuche_ungeprueft"
+  },
+  {
+   "typ": "duokopf",
+   "bezeichnung": "Bipolarkopf Mathys",
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "material": "Edelstahl bzw. CoCrMo (laut Portfolio)"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "q4",
+   "sicherheit": "websuche_ungeprueft"
+  }
+ ],
+ "regeln": [
+  {
+   "wenn": "kopf",
+   "pruefe": "kopf.konus == '12/14'",
+   "text": "twinSys hat Konus 12/14; Kopf-Kompatibilität laut Mathys-Kompatibilitäts-Chart Hipheads (V01) – Inhalt offen.",
+   "quelle": "q2",
+   "sicherheit": "websuche_ungeprueft"
+  },
+  {
+   "wenn": "schaft",
+   "pruefe": "schaft.fixation == plan.fixation",
+   "text": "twinSys zementfrei und zementiert sind verschiedene Implantate bei gemeinsamer Instrumentierung – Variante vor Öffnen bestätigen.",
+   "quelle": "q1",
+   "sicherheit": "websuche_ungeprueft"
+  }
+ ],
+ "hinweise": [
+  "Entwurf: Werte stammen aus Suchtreffer-Auszügen, nicht aus dem gelesenen Herstellerdokument. Vor Nutzung im Herstellerdokument (Seite) bestätigen.",
+  "Vor dem Öffnen Komponente, Seite und Größe laut ansagen; Herstellerdokument maßgeblich.",
+  "Herstellerübergreifende Kombinationen nur, wenn ein Herstellerdokument sie ausdrücklich erlaubt.",
+  "seleXys TH+: Lieferung laut TGA-Meldung 2013 eingestellt (erhöhte Revisionsrate) – nicht mit seleXys PC verwechseln."
+ ],
+ "offen": [
+  "Name der zementierten Mathys-Pfanne im Haus",
+  "Name des Duokopfs/Bipolarkopfs im Haus und kompatible Außen-⌀",
+  "Größenreihen twinSys (alle Varianten), REF/GTIN",
+  "Köpfe: Material (ceramys, symarec, CoCr), ⌀, Halslängen S/M/L/XL laut Chart V01",
+  "Inlay-Innen-⌀ je Pfannengröße, max. Kopf-⌀",
+  "Markraumstopper/Zement laut OP-Technik twinSys V05",
+  "Alle Angaben im gelesenen Herstellerdokument mit Seite bestätigen"
+ ]
+}

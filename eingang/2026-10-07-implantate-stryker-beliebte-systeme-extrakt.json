@@ -1,0 +1,211 @@
+{
+ "hersteller": "Stryker",
+ "system": "Accolade II + Trident II + V40-Köpfe + UHR (zementfrei)",
+ "region": "hüfte",
+ "verified": false,
+ "stand_extrakt": "2026-10-07",
+ "quellen": [
+  {
+   "id": "q1",
+   "dokument": "Accolade II Tray Layout (ACCII-TL-1)",
+   "stand": "offen",
+   "url": "https://www.stryker.com/content/dam/stryker/joint-replacement/products/accoladeii/resources/Accolade%20II%20Tray%20Layout_ACCII-TL-1_25643.pdf",
+   "seiten": "offen",
+   "art": "Websuche-Auszug 07.10.2026 – Dokument selbst NICHT gelesen (Hersteller-Domains gesperrt)"
+  },
+  {
+   "id": "q2",
+   "dokument": "Produktseite Trident II (Stryker, EU)",
+   "stand": "offen",
+   "url": "https://www.stryker.com/gb/en/joint-replacement/products/trident-ii/index-eu.html",
+   "seiten": "-",
+   "art": "Websuche-Auszug 07.10.2026 – Dokument selbst NICHT gelesen (Hersteller-Domains gesperrt)"
+  },
+  {
+   "id": "q3",
+   "dokument": "Studienprotokoll ATX Register Accolade Stem & Trident/Tritanium Cup with X3 Insert (ClinicalTrials.gov NCT02520544) – kein Herstellerkatalog",
+   "stand": "offen",
+   "url": "https://cdn.clinicaltrials.gov/large-docs/44/NCT02520544/Prot_SAP_ICF_000.pdf",
+   "seiten": "offen",
+   "art": "Websuche-Auszug 07.10.2026 – Dokument selbst NICHT gelesen (Hersteller-Domains gesperrt)"
+  },
+  {
+   "id": "q4",
+   "dokument": "UHR Bipolar System Broschüre (Stryker Japan, HE01-160 Rev1)",
+   "stand": "Rev1",
+   "url": "https://www.stryker.com/content/dam/stryker/ja/ja/portfolios/orthopaedics/joint-replacement/HE01-160_Rev1_UHR_BipolarSystem_s.pdf",
+   "seiten": "offen",
+   "art": "Websuche-Auszug 07.10.2026 – Dokument selbst NICHT gelesen (Hersteller-Domains gesperrt)"
+  },
+  {
+   "id": "q5",
+   "dokument": "FDA GUDID – Gerätedatensatz UHR",
+   "stand": "abgerufen 07.10.2026 (nur Suchtreffer)",
+   "url": "https://accessgudid.nlm.nih.gov/devices/07613327017144",
+   "seiten": "-",
+   "art": "Websuche-Auszug 07.10.2026 – Dokument selbst NICHT gelesen (Hersteller-Domains gesperrt)"
+  }
+ ],
+ "komponenten": [
+  {
+   "typ": "schaft",
+   "bezeichnung": "Accolade II",
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "konus": "V40",
+    "fixation": "zementfrei",
+    "material": null
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "q3",
+   "sicherheit": "websuche_ungeprueft"
+  },
+  {
+   "typ": "kopf",
+   "bezeichnung": "V40 BIOLOX delta Keramikkopf",
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "konus": "V40",
+    "durchmesser_mm": [
+     28,
+     32,
+     36
+    ],
+    "offset": "-5 bis +7,5 mm (laut Auszug; Stufen offen)",
+    "material": "BIOLOX delta Keramik"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "q3",
+   "sicherheit": "websuche_ungeprueft"
+  },
+  {
+   "typ": "kopf",
+   "bezeichnung": "Universal Taper BIOLOX delta Keramikkopf",
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "konus": "Universal Taper (Hülse/Adapter laut Dokument offen)",
+    "durchmesser_mm": [
+     28,
+     32,
+     36,
+     40,
+     44
+    ],
+    "offset": "0 (laut Auszug)",
+    "material": "BIOLOX delta Keramik"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "q3",
+   "sicherheit": "websuche_ungeprueft"
+  },
+  {
+   "typ": "probekopf",
+   "bezeichnung": "V40 Probeköpfe (Sieb Accolade II)",
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "konus": "V40",
+    "durchmesser_mm": [
+     28,
+     32,
+     36
+    ]
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "q1",
+   "sicherheit": "websuche_ungeprueft"
+  },
+  {
+   "typ": "pfanne",
+   "bezeichnung": "Trident II Tritanium Schale",
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementfrei",
+    "material": "Tritanium (poröses Titan)",
+    "max_kopf_mm": 44,
+    "kopf_bereich_mm": "22–44 (laut Auszug; je Schalengröße offen)",
+    "aussen_d_mm": "42–72; Solidback/Clusterhole 42–66, Multihole 42–72"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "q2",
+   "sicherheit": "websuche_ungeprueft"
+  },
+  {
+   "typ": "duokopf",
+   "bezeichnung": "UHR Universal Head (bipolar)",
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "konus": "V40 über Adapterhülse – laut Auszug nicht bestätigt",
+    "aussen_d_mm": "u. a. 52 mm (ein GUDID-Datensatz); Größenreihe offen"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "q4+q5",
+   "sicherheit": "websuche_ungeprueft"
+  }
+ ],
+ "regeln": [
+  {
+   "wenn": "kopf",
+   "pruefe": "kopf.konus == schaft.konus",
+   "text": "Accolade II hat V40-Konus – nur V40-Köpfe bzw. vom Hersteller freigegebene Hülsen/Köpfe.",
+   "quelle": "q3",
+   "sicherheit": "websuche_ungeprueft"
+  },
+  {
+   "wenn": "kopf+pfanne",
+   "pruefe": "kopf.durchmesser_mm <= inlay.max_kopf_mm(schalengroesse)",
+   "text": "Trident II: Kopf 22–44 mm, zulässiger Kopf je Schalengröße und Inlay laut Kompatibilitätstabelle – Werte offen.",
+   "quelle": "q2",
+   "sicherheit": "websuche_ungeprueft"
+  }
+ ],
+ "hinweise": [
+  "Entwurf: Werte stammen aus Suchtreffer-Auszügen, nicht aus dem gelesenen Herstellerdokument. Vor Nutzung im Herstellerdokument (Seite) bestätigen.",
+  "Vor dem Öffnen Komponente, Seite und Größe laut ansagen; Herstellerdokument maßgeblich.",
+  "Herstellerübergreifende Kombinationen nur, wenn ein Herstellerdokument sie ausdrücklich erlaubt."
+ ],
+ "offen": [
+  "Im Haus: Accolade II oder Accolade TMZF? (TMZF hier nicht ausgearbeitet)",
+  "Größenreihe Accolade II, Material, CCD/Offset-Varianten, REF/GTIN",
+  "Trident-II-Inlays (X3 PE / Keramik): Innen-⌀ je Schalengröße",
+  "Pfannenschrauben: Durchmesser/Längen",
+  "UHR: Außendurchmesser-Reihe, Innen-⌀, Adapterhülse V40 (REF), Freigabe mit Accolade II",
+  "Halslängen/Offset-Stufen V40-Köpfe (CoCr/Keramik) exakt",
+  "Alle Angaben im gelesenen Herstellerdokument mit Seite bestätigen"
+ ]
+}

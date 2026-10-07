@@ -1,0 +1,166 @@
+{
+ "hersteller": "Smith+Nephew",
+ "system": "POLARSTEM zementfrei/zementiert + R3 + OXINIUM + TANDEM",
+ "region": "hüfte",
+ "verified": false,
+ "stand_extrakt": "2026-10-07",
+ "quellen": [
+  {
+   "id": "q1",
+   "dokument": "Produktseite POLARSTEM (HCP)",
+   "stand": "offen",
+   "url": "https://smith-nephew.com/en/health-care-professionals/products/orthopaedics/polarstem",
+   "seiten": "-",
+   "art": "Websuche-Auszug 07.10.2026 – Dokument selbst NICHT gelesen (Hersteller-Domains gesperrt)"
+  },
+  {
+   "id": "q2",
+   "dokument": "Pressemitteilung 16.12.2020 (POLAR3: POLARSTEM + R3 + OXINIUM)",
+   "stand": "16.12.2020",
+   "url": "https://www.smith-nephew.com/en/news/2020/12/16/20201216-new-data-confirms-sn-tech-as-the-best-performing-cementless",
+   "seiten": "-",
+   "art": "Websuche-Auszug 07.10.2026 – Dokument selbst NICHT gelesen (Hersteller-Domains gesperrt)"
+  },
+  {
+   "id": "q3",
+   "dokument": "Produktseite TANDEM (HCP)",
+   "stand": "offen",
+   "url": "https://www.smith-nephew.com/en/health-care-professionals/products/orthopaedics/tandem",
+   "seiten": "-",
+   "art": "Websuche-Auszug 07.10.2026 – Dokument selbst NICHT gelesen (Hersteller-Domains gesperrt)"
+  },
+  {
+   "id": "q4",
+   "dokument": "Studienprotokoll POLARSTEM Cementless (ClinicalTrials.gov NCT02648152) – kein Herstellerkatalog",
+   "stand": "offen",
+   "url": "https://cdn.clinicaltrials.gov/large-docs/52/NCT02648152/Prot_000.pdf",
+   "seiten": "offen",
+   "art": "Websuche-Auszug 07.10.2026 – Dokument selbst NICHT gelesen (Hersteller-Domains gesperrt)"
+  },
+  {
+   "id": "q5",
+   "dokument": "FDA Recall TANDEM Bipolar Hip System",
+   "stand": "offen",
+   "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRes/res.cfm?ID=149948",
+   "seiten": "-",
+   "art": "Websuche-Auszug 07.10.2026 – Dokument selbst NICHT gelesen (Hersteller-Domains gesperrt)"
+  }
+ ],
+ "komponenten": [
+  {
+   "typ": "schaft",
+   "bezeichnung": "POLARSTEM zementfrei",
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementfrei",
+    "material": "Ti-6Al-4V, poröse Titanschicht + HA",
+    "bauart": "dreifach konisch, kurz, schmale distale Spitze (DAA-geeignet)",
+    "konus": null
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "q4",
+   "sicherheit": "websuche_ungeprueft"
+  },
+  {
+   "typ": "schaft",
+   "bezeichnung": "POLARSTEM zementiert",
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementiert",
+    "konus": null
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "q1",
+   "sicherheit": "websuche_ungeprueft"
+  },
+  {
+   "typ": "pfanne",
+   "bezeichnung": "R3 Acetabular System",
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementfrei"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "q2",
+   "sicherheit": "websuche_ungeprueft"
+  },
+  {
+   "typ": "kopf",
+   "bezeichnung": "OXINIUM Femurkopf",
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "material": "OXINIUM (oxidiertes Zirkonium)",
+    "konus": null
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "q2",
+   "sicherheit": "websuche_ungeprueft"
+  },
+  {
+   "typ": "duokopf",
+   "bezeichnung": "TANDEM Bipolar",
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "bauteile": "Kopf, Taper-Sleeve, UHMWPE-Liner (bipolar)"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "q3",
+   "sicherheit": "websuche_ungeprueft"
+  }
+ ],
+ "regeln": [
+  {
+   "wenn": "schaft+pfanne",
+   "pruefe": "-",
+   "text": "POLAR3 = POLARSTEM zementfrei + R3 + OXINIUM ist eine vom Hersteller genannte Kombination; Größen-/Inlay-Regeln offen.",
+   "quelle": "q2",
+   "sicherheit": "websuche_ungeprueft"
+  }
+ ],
+ "hinweise": [
+  "Entwurf: Werte stammen aus Suchtreffer-Auszügen, nicht aus dem gelesenen Herstellerdokument. Vor Nutzung im Herstellerdokument (Seite) bestätigen.",
+  "Vor dem Öffnen Komponente, Seite und Größe laut ansagen; Herstellerdokument maßgeblich.",
+  "Herstellerübergreifende Kombinationen nur, wenn ein Herstellerdokument sie ausdrücklich erlaubt.",
+  "TANDEM Bipolar: FDA-Recall (Retainer-Nut, Herstellungsfehler) – betroffene Chargen im Haus prüfen lassen."
+ ],
+ "offen": [
+  "Bestätigen: im Haus POLARSTEM? (Alternativen in DE: z. B. SL-PLUS, ANTHOLOGY – nicht ausgearbeitet)",
+  "Konus POLARSTEM (12/14?) – in den Auszügen NICHT belegt",
+  "Zementierte S+N-Pfanne im Haus (Name)",
+  "R3: Schalengrößen, Liner (XLPE/Keramik), Innen-⌀, max. Kopf-⌀",
+  "OXINIUM/Keramik/CoCr-Köpfe: ⌀ und Halslängen",
+  "TANDEM: Außen-⌀-Reihe, Taper-Sleeve passend zum Schaftkonus",
+  "Größen, REF/GTIN",
+  "Alle Angaben im gelesenen Herstellerdokument mit Seite bestätigen"
+ ]
+}
