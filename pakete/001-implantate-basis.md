@@ -52,5 +52,8 @@ Dieser Lauf betrifft **nur die vier Implantat-Dateien** der Haussysteme. Paket 0
 20. **seleXys PC und „PE-Inlay Standard“:** Dokument und genaue Bezeichnung (welche Pfanne?).
 21. **Mathys Bipolarkopf + twinSys zementiert:** ausdrückliche Freigabe vorhanden?
 
+### E. Datenstruktur für die App (aus Astra `pruefung/app-astra.md` A3–A5)
+22. Je Komponente stabile `id` (z. B. `stryker.trident2.schale`), `haus: true/false`, maschinenlesbare Paarungen nur mit Quelle (`passt_zu: [{id, bedingung, quelle, seite}]`), Rückrufe mit `betrifft: [komponenten-id]`. Grok: Vorschlag prüfen, nur Paarungen nennen, die im Dokument ausdrücklich stehen.
+
 ## Ergebnis-Format (Grok und Astra)
 Je Punkt: **Nr. · Befund · Wert/Tabelle · Dokument + Kennung + Stand + Seite + Markt · Vorschlag (übernehmen / nicht / offen lassen)**. Am Ende Abschnitt „Nicht gefunden“.

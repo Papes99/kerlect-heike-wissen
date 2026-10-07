@@ -6,8 +6,13 @@ _Anweisung für Astra (Umsetzung in der Heike-App) · Claude, 07.10.2026_
 
 **Ziel:** Unerfahrene OP-Pflegekräfte sehen auf einen Blick, **was bei uns möglich ist**, und klicken sich während der OP **in der echten Reihenfolge** durch die Implantate. Bei jedem Schritt zeigt Heike **nur die passenden Teile desselben Systems** – mit Größe, Offset, REF und Bild. Heike entscheidet nichts: **Der Operateur sagt an, die Pflegekraft gleicht ab.**
 
+## Ziel-App (Julian, 07.10.2026 – Antwort auf Astra A1)
+- **Base44-App „Kerlect“, App-ID `6aa3f64b0b23cc244ce7686d`** (React, `src/pages/…`; Heike: `HeikeStudio`, `HeikeCatalog`, `Tischaufbau`). Bisher keine Implantat-Seite vorhanden.
+- Neue Seite z. B. `src/pages/Implantate.jsx`, erreichbar aus dem Hüft-TEP-Standard bzw. Tischaufbau. Kopien („Kerlect Copy“, „Kerlect (Copy)“) und „Kerlect Kliniken“ nicht anfassen.
+- Vor Änderungen in Base44 einen Checkpoint setzen; Wissensdaten nicht im Code duplizieren, sondern aus diesem Repo laden (raw.githubusercontent.com/Papes99/kerlect-heike-wissen/main/…) oder als Datenimport mit Stand/Version.
+
 ## Datenquelle
-- Nur `implantate/*.json` (Schema: `implantate/LIESMICH.md`) und Hausauswahl in `pruefung/STATUS.json` → `haus_systeme`. Nichts im App-Code fest eintragen.
+- `implantate/*.json` (Schema: `implantate/LIESMICH.md`), Hausauswahl in `pruefung/STATUS.json` → `haus_systeme` **und (Julian, Antwort auf A2) der JSON-Block aus `pakete/001-abschluss.md`** für Heike-Sätze, Zement-Schritt und Hüft-Varianten. Nichts im App-Code fest eintragen.
 - Werte fehlen noch (`"werte": "… noch nicht übernommen"`, `ref: null`): **nicht raten**, sondern Zustand „noch nicht hinterlegt“ zeigen (Screen 3) und Eintippen vom Etikett erlauben.
 - `verified: false` → kleines Badge „nicht verifiziert“ an jedem Teil; Quelle (Dokument + Seite) per Tipp sichtbar.
 - **Bilder:** keine Herstellerbilder kopieren. `bild.typ = "keins"` → neutrale Strichzeichnung je Typ (Pfanne/Inlay/Kopf/Schaft/Duokopf, wie in den Mockups). Liegt später ein Link mit Rechten vor, Bild per Link laden.
@@ -35,8 +40,10 @@ _Anweisung für Astra (Umsetzung in der Heike-App) · Claude, 07.10.2026_
 3. Gibt es für eine Kombination **keine** Angabe: zeigen mit Badge „offen – Operateur fragen“. Nie selbst ableiten.
 4. Gesuchtes/gescanntes Teil aus anderer Datei → Screen 6.
 
-## Umgesetzt aus `pruefung/app-astra.md` (A6)
-- Nichts vorbelegt: Pfanne, Schaft, Kopf-Ø und Offset sind leer, bis die Pflegekraft am Rad dreht bzw. antippt; „Übernehmen“ bis dahin gesperrt.
+## Antworten auf `pruefung/app-astra.md`
+- **A1** → Ziel-App siehe oben. **A2** → Paket 001 ist zugelassene Datenquelle.
+- **A3–A5** (stabile Komponenten-IDs, maschinenlesbare Regeln, Rückruf↔Komponente, Hauszuordnung) baut Claude im Lauf 001-implantate in die Implantat-Dateien ein; bis dahin Freitext-Regeln nur anzeigen.
+- **A6** umgesetzt im Prototyp: Nichts vorbelegt: Pfanne, Schaft, Kopf-Ø und Offset sind leer, bis die Pflegekraft am Rad dreht bzw. antippt; „Übernehmen“ bis dahin gesperrt.
 - Für Stryker gibt es nur „gehört zum System“, kein pauschales „passt“; fehlende Paarungsangaben bleiben „offen – Operateur fragen“.
 
 ## Bedienung und Animation (physikalisch, „satisfying“)
