@@ -1,0 +1,580 @@
+{
+ "hersteller": "Aesculap (B. Braun)",
+ "system": "CoreHip Primary (zf/zem/AS) + Extended zementfrei",
+ "version": "1.0",
+ "quellen": [
+  {
+   "id": "ch-de",
+   "dokument": "AESCULAP CoreHip System (deutsche Broschüre)",
+   "stand": "Nr. 4008487, 02/2024",
+   "seiten": "Indikationslinien; CCD/Offset; Implantatübersicht REF; Extraktionsadapter 12/14; Köpfe",
+   "url": "https://www.bbraun.de/content/dam/catalog/bbraun/bbraunProductCatalog/S/AEM2015/de-de/b307/corehip-broschuere.pdf",
+   "markt": "DE",
+   "gelesen_von": "Grok 07.10.2026"
+  },
+  {
+   "id": "ch-en",
+   "dokument": "AESCULAP CoreHip SYSTEM (EN Brochure / OP)",
+   "stand": "O61502 0321/PDF/1",
+   "seiten": "Design; Primary/Extended; REF-Tabellen; BIOLOX/Isodur-Köpfe",
+   "url": "https://www.stvincentsboneandjoint.com.au/pdf/aesculap-core-hip.pdf",
+   "markt": "EN (Aesculap AG)",
+   "gelesen_von": "Grok 07.10.2026"
+  },
+  {
+   "id": "pf",
+   "dokument": "AESCULAP Plasmafit – Acetabular Cup System",
+   "stand": "O45502 0718/1/4, 07/2018",
+   "seiten": "Poly/Plus",
+   "url": "https://www.bbraun.de/content/dam/catalog/bbraun/bbraunProductCatalog/S/AEM2015/de-de/b307/aesculap-plasmafit.pdf",
+   "markt": "EN auf DE-Seite",
+   "gelesen_von": "Grok 07.10.2026",
+   "hinweis": "keine tabellarische CoreHip-Schaftfreigabe in diesem Extrakt"
+  },
+  {
+   "id": "es",
+   "dokument": "EPRD / auswahl-dach",
+   "stand": "Jahresbericht 2025",
+   "seiten": "COREHIP zf #10 / zem #10; Kombi COREHIP+PLASMAFIT; COREHIP+All POLY",
+   "url": "https://www.eprd.de/de/downloads/tabellen/jahresbericht2025",
+   "markt": "DE (Ranking)",
+   "gelesen_von": "Grok 07.10.2026"
+  }
+ ],
+ "komponenten": [
+  {
+   "id": "aesculap.corehip.primary.zementfrei",
+   "typ": "schaft",
+   "bezeichnung": "CoreHip Primary zementfrei",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementfrei",
+    "material": "ISOTAN F Ti6Al4V + proximales PLASMAPORE",
+    "konus": "12/14",
+    "linien": {
+     "valgus_VLG": {
+      "ccd_grad": 142,
+      "offset_mm": "30,5–38,0"
+     },
+     "standard_STD": {
+      "ccd_grad": 132,
+      "offset_mm": "38,0–45,5"
+     },
+     "varus_VAR": {
+      "ccd_grad": 122,
+      "offset_mm": "45,5–53,0"
+     },
+     "dysplasie_DYS": {
+      "ccd_grad": 142,
+      "offset_mm": "30,5–38,0",
+      "hinweis": "10 mm weniger Beinlänge vs. VLG; ASIA-Raspel NT1154"
+     }
+    }
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "ch-de",
+   "sicherheit": "belegt",
+   "groessen": [
+    {
+     "groesse": "0",
+     "ref_dysplasie": "NK1060T",
+     "ref_valgus": "NK1020T",
+     "ref_standard": "NK1000T",
+     "ref_varus": "NK1040T",
+     "schaftlaenge_mm": 119.5,
+     "gewicht_max_kg": 60,
+     "gewicht_hinweis": "Primary Größe 0 alle Linien: max. 60 kg (ch-de)"
+    },
+    {
+     "groesse": "1",
+     "ref_dysplasie": "NK1061T",
+     "ref_valgus": "NK1021T",
+     "ref_standard": "NK1001T",
+     "ref_varus": "NK1041T",
+     "schaftlaenge_mm": 121.5,
+     "gewicht_hinweis": "Primary Größe 0 alle Linien und Dysplasie Größe 1: 60 kg (DE-Broschüre / O61502)",
+     "gewicht_hinweis_dysplasie": "Nur Dysplasie Größe 1: max. 60 kg (ch-de); andere Linien Größe 1 ohne diese Beschränkung in der Broschüre"
+    },
+    {
+     "groesse": "2",
+     "ref_dysplasie": "NK1062T",
+     "ref_valgus": "NK1022T",
+     "ref_standard": "NK1002T",
+     "ref_varus": "NK1042T",
+     "schaftlaenge_mm": 123.5
+    },
+    {
+     "groesse": "3",
+     "ref_dysplasie": "NK1063T",
+     "ref_valgus": "NK1023T",
+     "ref_standard": "NK1003T",
+     "ref_varus": "NK1043T",
+     "schaftlaenge_mm": 125.5
+    },
+    {
+     "groesse": "4",
+     "ref_dysplasie": "NK1064T",
+     "ref_valgus": "NK1024T",
+     "ref_standard": "NK1004T",
+     "ref_varus": "NK1044T",
+     "schaftlaenge_mm": 127.5
+    },
+    {
+     "groesse": "5",
+     "ref_dysplasie": "NK1065T",
+     "ref_valgus": "NK1025T",
+     "ref_standard": "NK1005T",
+     "ref_varus": "NK1045T",
+     "schaftlaenge_mm": 129.5
+    },
+    {
+     "groesse": "6",
+     "ref_dysplasie": "NK1066T",
+     "ref_valgus": "NK1026T",
+     "ref_standard": "NK1006T",
+     "ref_varus": "NK1046T",
+     "schaftlaenge_mm": 131.5
+    },
+    {
+     "groesse": "7",
+     "ref_dysplasie": "NK1067T",
+     "ref_valgus": "NK1027T",
+     "ref_standard": "NK1007T",
+     "ref_varus": "NK1047T",
+     "schaftlaenge_mm": 133.5
+    },
+    {
+     "groesse": "8",
+     "ref_dysplasie": "NK1068T",
+     "ref_valgus": "NK1028T",
+     "ref_standard": "NK1008T",
+     "ref_varus": "NK1048T",
+     "schaftlaenge_mm": 135.5
+    },
+    {
+     "groesse": "9",
+     "ref_dysplasie": "NK1069T",
+     "ref_valgus": "NK1029T",
+     "ref_standard": "NK1009T",
+     "ref_varus": "NK1049T",
+     "schaftlaenge_mm": 137.5
+    },
+    {
+     "groesse": "10",
+     "ref_dysplasie": "NK1070T",
+     "ref_valgus": "NK1030T",
+     "ref_standard": "NK1010T",
+     "ref_varus": "NK1050T",
+     "schaftlaenge_mm": 139.5
+    },
+    {
+     "groesse": "11",
+     "ref_dysplasie": "NK1071T",
+     "ref_valgus": "NK1031T",
+     "ref_standard": "NK1011T",
+     "ref_varus": "NK1051T",
+     "schaftlaenge_mm": 141.5
+    }
+   ]
+  },
+  {
+   "id": "aesculap.corehip.primary.zementiert",
+   "typ": "schaft",
+   "bezeichnung": "CoreHip Primary zementiert / AS",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementiert",
+    "material": "ISODUR F CoCrMo; AS = Multilayer ZrN-System",
+    "konus": "12/14",
+    "linien": "Valgus / Standard / Varus (keine Dysplasie in zementierter Übersicht)",
+    "zementmantel_mm": 1.0,
+    "centralizer": "NK1281/83/85/87/89 zu Größen 1/3/5/7/9"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "ch-de",
+   "sicherheit": "belegt",
+   "groessen": [
+    {
+     "groesse": "1",
+     "ref_valgus": "NK1221K",
+     "ref_valgus_as": "NK1221Z",
+     "ref_standard": "NK1201K",
+     "ref_standard_as": "NK1201Z",
+     "ref_varus": "NK1241K",
+     "ref_varus_as": "NK1241Z",
+     "centralizer": "NK1281",
+     "schaftlaenge_mm": 121.5
+    },
+    {
+     "groesse": "3",
+     "ref_valgus": "NK1223K",
+     "ref_valgus_as": "NK1223Z",
+     "ref_standard": "NK1203K",
+     "ref_standard_as": "NK1203Z",
+     "ref_varus": "NK1243K",
+     "ref_varus_as": "NK1243Z",
+     "centralizer": "NK1283",
+     "schaftlaenge_mm": 125.5
+    },
+    {
+     "groesse": "5",
+     "ref_valgus": "NK1225K",
+     "ref_valgus_as": "NK1225Z",
+     "ref_standard": "NK1205K",
+     "ref_standard_as": "NK1205Z",
+     "ref_varus": "NK1245K",
+     "ref_varus_as": "NK1245Z",
+     "centralizer": "NK1285",
+     "schaftlaenge_mm": 129.5
+    },
+    {
+     "groesse": "7",
+     "ref_valgus": "NK1227K",
+     "ref_valgus_as": "NK1227Z",
+     "ref_standard": "NK1207K",
+     "ref_standard_as": "NK1207Z",
+     "ref_varus": "NK1247K",
+     "ref_varus_as": "NK1247Z",
+     "centralizer": "NK1287",
+     "schaftlaenge_mm": 133.5
+    },
+    {
+     "groesse": "9",
+     "ref_valgus": "NK1229K",
+     "ref_valgus_as": "NK1229Z",
+     "ref_standard": "NK1209K",
+     "ref_standard_as": "NK1209Z",
+     "ref_varus": "NK1249K",
+     "ref_varus_as": "NK1249Z",
+     "centralizer": "NK1289",
+     "schaftlaenge_mm": 137.5
+    }
+   ]
+  },
+  {
+   "id": "aesculap.corehip.extended.zementfrei",
+   "typ": "schaft",
+   "bezeichnung": "CoreHip Extended zementfrei",
+   "auswahl_dach": false,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementfrei",
+    "material": "ISOTAN F + PLASMAPORE",
+    "konus": "12/14",
+    "linien": "Valgus / Standard / Varus"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "ch-de",
+   "sicherheit": "belegt",
+   "groessen": [
+    {
+     "groesse": "0",
+     "ref_valgus": "NK1120T",
+     "ref_standard": "NK1100T",
+     "ref_varus": "NK1140T",
+     "schaftlaenge_mm": 150.5
+    },
+    {
+     "groesse": "1",
+     "ref_valgus": "NK1121T",
+     "ref_standard": "NK1101T",
+     "ref_varus": "NK1141T",
+     "schaftlaenge_mm": 154.5
+    },
+    {
+     "groesse": "2",
+     "ref_valgus": "NK1122T",
+     "ref_standard": "NK1102T",
+     "ref_varus": "NK1142T",
+     "schaftlaenge_mm": 158.5
+    },
+    {
+     "groesse": "3",
+     "ref_valgus": "NK1123T",
+     "ref_standard": "NK1103T",
+     "ref_varus": "NK1143T",
+     "schaftlaenge_mm": 162.5
+    },
+    {
+     "groesse": "4",
+     "ref_valgus": "NK1124T",
+     "ref_standard": "NK1104T",
+     "ref_varus": "NK1144T",
+     "schaftlaenge_mm": 166.5
+    },
+    {
+     "groesse": "5",
+     "ref_valgus": "NK1125T",
+     "ref_standard": "NK1105T",
+     "ref_varus": "NK1145T",
+     "schaftlaenge_mm": 170.5
+    },
+    {
+     "groesse": "6",
+     "ref_valgus": "NK1126T",
+     "ref_standard": "NK1106T",
+     "ref_varus": "NK1146T",
+     "schaftlaenge_mm": 174.5
+    },
+    {
+     "groesse": "7",
+     "ref_valgus": "NK1127T",
+     "ref_standard": "NK1107T",
+     "ref_varus": "NK1147T",
+     "schaftlaenge_mm": 178.5
+    },
+    {
+     "groesse": "8",
+     "ref_valgus": "NK1128T",
+     "ref_standard": "NK1108T",
+     "ref_varus": "NK1148T",
+     "schaftlaenge_mm": 182.5
+    },
+    {
+     "groesse": "9",
+     "ref_valgus": "NK1129T",
+     "ref_standard": "NK1109T",
+     "ref_varus": "NK1149T",
+     "schaftlaenge_mm": 186.5
+    },
+    {
+     "groesse": "10",
+     "ref_valgus": "NK1130T",
+     "ref_standard": "NK1110T",
+     "ref_varus": "NK1150T",
+     "schaftlaenge_mm": 190.5
+    },
+    {
+     "groesse": "11",
+     "ref_valgus": "NK1131T",
+     "ref_standard": "NK1111T",
+     "ref_varus": "NK1151T",
+     "schaftlaenge_mm": 194.5
+    }
+   ]
+  },
+  {
+   "id": "aesculap.plasmafit.plus.corehip_kontext",
+   "typ": "pfanne",
+   "bezeichnung": "Plasmafit Plus (Kontext CoreHip – Freigabe offen)",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementfrei",
+    "registerbeleg": "EPRD COREHIP + PLASMAFIT",
+    "detail_datei": "implantate/aesculap-excia.json",
+    "freigabe": "offen"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "es",
+   "sicherheit": "offen"
+  },
+  {
+   "id": "aesculap.all_poly.corehip_kontext",
+   "typ": "pfanne",
+   "bezeichnung": "Aesculap All POLY zementiert (Kontext CoreHip – Freigabe offen)",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementiert",
+    "registerbeleg": "EPRD COREHIP + All POLY",
+    "freigabe": "offen"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "es",
+   "sicherheit": "offen"
+  },
+  {
+   "id": "aesculap.kopf.biolox_delta.corehip",
+   "typ": "kopf",
+   "bezeichnung": "BIOLOX delta 12/14",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "material": "Keramik",
+    "konus": "12/14"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "ch-de",
+   "sicherheit": "belegt",
+   "groessen": [
+    {
+     "durchmesser_mm": "28",
+     "hals": "S/M/L",
+     "ref": "NK460D/NK461D/NK462D"
+    },
+    {
+     "durchmesser_mm": "32",
+     "hals": "S/M/L/XL",
+     "ref": "NK560D/NK561D/NK562D/NK563D"
+    },
+    {
+     "durchmesser_mm": "36",
+     "hals": "S/M/L/XL",
+     "ref": "NK650D/NK651D/NK652D/NK653D"
+    }
+   ]
+  },
+  {
+   "id": "aesculap.kopf.isodur.corehip",
+   "typ": "kopf",
+   "bezeichnung": "Isodur F CoCr 12/14",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "material": "CoCrMo",
+    "konus": "12/14"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "ch-de",
+   "sicherheit": "belegt",
+   "groessen": [
+    {
+     "durchmesser_mm": "28",
+     "hals": "S/M/L/XL/XXL",
+     "ref": "NK429K/NK430K/NK431K/NK432K/NK433K"
+    },
+    {
+     "durchmesser_mm": "32",
+     "hals": "S/M/L/XL/XXL",
+     "ref": "NK529K/NK530K/NK531K/NK532K/NK533K"
+    },
+    {
+     "durchmesser_mm": "36",
+     "hals": "S/M/L/XL/XXL",
+     "ref": "NK669K/NK670K/NK671K/NK672K/NK673K"
+    }
+   ]
+  }
+ ],
+ "passt_zu": [
+  {
+   "von": "aesculap.corehip.primary.zementfrei",
+   "zu": "aesculap.kopf.biolox_delta.corehip",
+   "status": "ja",
+   "bedingung": "Konus 12/14; REF laut Kopfübersicht",
+   "quelle": "ch-de",
+   "seite": "Implantatübersicht Köpfe"
+  },
+  {
+   "von": "aesculap.corehip.primary.zementfrei",
+   "zu": "aesculap.kopf.isodur.corehip",
+   "status": "ja",
+   "bedingung": "Konus 12/14",
+   "quelle": "ch-de",
+   "seite": "Implantatübersicht Köpfe"
+  },
+  {
+   "von": "aesculap.corehip.primary.zementiert",
+   "zu": "aesculap.kopf.biolox_delta.corehip",
+   "status": "ja",
+   "bedingung": "Konus 12/14",
+   "quelle": "ch-de",
+   "seite": "Implantatübersicht Köpfe"
+  },
+  {
+   "von": "aesculap.corehip.primary.zementfrei",
+   "zu": "aesculap.plasmafit.plus.corehip_kontext",
+   "status": "offen",
+   "bedingung": "EPRD beobachtet; keine Freigabetabelle in CoreHip-Broschüre",
+   "quelle": "es",
+   "seite": "Kombi"
+  },
+  {
+   "von": "aesculap.corehip.primary.zementiert",
+   "zu": "aesculap.all_poly.corehip_kontext",
+   "status": "offen",
+   "bedingung": "EPRD beobachtet; All-POLY-IFU nicht gelesen",
+   "quelle": "es",
+   "seite": "Kombi"
+  }
+ ],
+ "regeln": [
+  {
+   "wenn": "schaft",
+   "pruefe": "linie = adapter",
+   "text": "Schaftlinie (Valgus/Standard/Varus/Dysplasie) folgt dem Probehalsadapter und der Raspelposition – nicht nur der Größe.",
+   "quelle": "ch-de"
+  },
+  {
+   "wenn": "dysplasie",
+   "pruefe": "ASIA-Raspel",
+   "text": "Dysplasie-Schaft nur mit ASIA-Raspelset NT1154 vorbereiten.",
+   "quelle": "ch-de"
+  },
+  {
+   "wenn": "pfanne",
+   "pruefe": "Register ≠ Freigabe",
+   "text": "Plasmafit/All POLY mit CoreHip in EPRD ≠ Herstellerfreigabe.",
+   "quelle": "es"
+  }
+ ],
+ "rueckrufe": [],
+ "offen": [
+  "Isocer-Köpfe: nur PE/XLPE laut Broschüre – Keramik-Keramik nein; vollständige REF",
+  "Explizite Freigabe CoreHip ↔ Plasmafit / All POLY",
+  "Extended-REF-Tabelle in App-Form (derzeit in Broschüre, hier teilweise nachziehen)",
+  "BfArM CoreHip"
+ ],
+ "verified_hinweis": "Neuanlage P1 07.10.2026 aus CoreHip-Broschüre DE 02/2024 und O61502. verified: false. Plasmafit/All POLY nur Kontext.",
+ "region": "hüfte",
+ "verified": false,
+ "stand_extrakt": "2026-10-07",
+ "hinweise": [
+  "Vor dem Öffnen Komponente, Seite und Größe laut ansagen; Herstellerdokument und aktuelle EU-IFU maßgeblich.",
+  "Systeme nicht mischen.",
+  "Nicht dokumentierte Kombinationen: offen – Operateur fragen."
+ ],
+ "aenderungsprotokoll": [
+  {
+   "version": "1.0",
+   "datum": "2026-10-07",
+   "lauf": "p1-fehlende-systeme",
+   "text": "Neuanlage CoreHip Primary zf/zem + Köpfe; Extended und Plasmafit/All POLY als Kontext/offen."
+  }
+ ]
+}

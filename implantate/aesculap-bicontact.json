@@ -1,0 +1,623 @@
+{
+ "hersteller": "Aesculap (B. Braun)",
+ "system": "Bicontact – zementfrei/zementiert (S/H/SD/N); Revision getrennt",
+ "version": "1.0",
+ "quellen": [
+  {
+   "id": "bc1",
+   "dokument": "Aesculap Bicontact System – Hip Endoprosthesis System (OP-Technik / Implantatübersicht)",
+   "stand": "O10702 0113/1/1",
+   "seiten": "Schafttypen S.6; zf/zem S.4–5; Implantate S.34–37; Köpfe 12/14 S.38; Probeköpfe 12/14 S.30",
+   "url": "https://knoglemekanik.dk/Vejledninger/O10702%20Bicontact%202013.pdf",
+   "markt": "EN-Broschüre Aesculap (Dok-Nr. O10702)",
+   "gelesen_von": "Grok 07.10.2026"
+  },
+  {
+   "id": "bc-web",
+   "dokument": "B. Braun – Bicontact Hüftendoprothesensystem (Produktseite)",
+   "stand": "HTML, undatiert (abgerufen 07.10.2026)",
+   "seiten": "Design zf/zem; Schafttypen S/H/SD/N; Revision",
+   "url": "https://www.bbraun.de/de/products/b/bicontact-hueftendoprothesensystem.html",
+   "markt": "DE",
+   "gelesen_von": "Grok 07.10.2026"
+  },
+  {
+   "id": "pf",
+   "dokument": "AESCULAP Plasmafit – Acetabular Cup System",
+   "stand": "O45502 0718/1/4, 07/2018",
+   "seiten": "Konzept Poly/Plus; Liner-Übersicht",
+   "url": "https://www.bbraun.de/content/dam/catalog/bbraun/bbraunProductCatalog/S/AEM2015/de-de/b307/aesculap-plasmafit.pdf",
+   "markt": "EN auf DE-Herstellerseite",
+   "gelesen_von": "Grok 07.10.2026",
+   "hinweis": "Pfannenfamilie Aesculap; Schaft-Freigabe mit Bicontact hier nicht tabellarisch belegt"
+  },
+  {
+   "id": "es",
+   "dokument": "EPRD Implantatergebnisse / auswahl-dach Ranking",
+   "stand": "Jahresbericht 2025 / Stand 07.10.2026",
+   "seiten": "BICONTACT zf #6 / zem #7; Kombi BICONTACT+PLASMAFIT; BICONTACT+All POLY",
+   "url": "https://www.eprd.de/de/downloads/tabellen/jahresbericht2025",
+   "markt": "DE (nur Ranking – keine Kompatibilitätsfreigabe)",
+   "gelesen_von": "Grok 07.10.2026"
+  }
+ ],
+ "komponenten": [
+  {
+   "id": "aesculap.bicontact.s.zementfrei",
+   "typ": "schaft",
+   "bezeichnung": "Bicontact S zementfrei",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementfrei",
+    "material": "ISOTAN F (Ti6Al4V) + PLASMAPORE",
+    "konus": "12/14",
+    "ccd_grad": 135,
+    "offset_hinweis": "linear von 39,1 mm (Größe 10) bis 50,1 mm (Größe 21) laut bc1"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "bc1",
+   "sicherheit": "belegt",
+   "groessen": [
+    {
+     "groesse": "10",
+     "ref": "NK510T"
+    },
+    {
+     "groesse": "11",
+     "ref": "NK511T"
+    },
+    {
+     "groesse": "12",
+     "ref": "NK512T"
+    },
+    {
+     "groesse": "13",
+     "ref": "NK513T"
+    },
+    {
+     "groesse": "14",
+     "ref": "NK514T"
+    },
+    {
+     "groesse": "15",
+     "ref": "NK515T"
+    },
+    {
+     "groesse": "16",
+     "ref": "NK516T"
+    },
+    {
+     "groesse": "17",
+     "ref": "NK517T"
+    },
+    {
+     "groesse": "18",
+     "ref": "NK518T"
+    },
+    {
+     "groesse": "19",
+     "ref": "NK519T"
+    },
+    {
+     "groesse": "21",
+     "ref": "NK521T"
+    }
+   ]
+  },
+  {
+   "id": "aesculap.bicontact.h.zementfrei",
+   "typ": "schaft",
+   "bezeichnung": "Bicontact H zementfrei (hohes Offset)",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementfrei",
+    "material": "ISOTAN F + PLASMAPORE",
+    "konus": "12/14",
+    "ccd_grad": 128,
+    "offset_hinweis": "+6 mm Offset gegenüber Bicontact S laut bc1"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "bc1",
+   "sicherheit": "belegt",
+   "groessen": [
+    {
+     "groesse": "10",
+     "ref": "NK110T"
+    },
+    {
+     "groesse": "11",
+     "ref": "NK111T"
+    },
+    {
+     "groesse": "12",
+     "ref": "NK112T"
+    },
+    {
+     "groesse": "13",
+     "ref": "NK113T"
+    },
+    {
+     "groesse": "14",
+     "ref": "NK114T"
+    },
+    {
+     "groesse": "15",
+     "ref": "NK115T"
+    },
+    {
+     "groesse": "16",
+     "ref": "NK116T"
+    },
+    {
+     "groesse": "17",
+     "ref": "NK117T"
+    },
+    {
+     "groesse": "18",
+     "ref": "NK118T"
+    },
+    {
+     "groesse": "19",
+     "ref": "NK119T"
+    },
+    {
+     "groesse": "21",
+     "ref": "NK121T"
+    }
+   ]
+  },
+  {
+   "id": "aesculap.bicontact.s.zementiert",
+   "typ": "schaft",
+   "bezeichnung": "Bicontact S zementiert",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementiert",
+    "material": "ISODUR F (CoCrMo), glatt; distaler PMMA-Centralizer",
+    "konus": "12/14",
+    "ccd_grad": 135
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "bc1",
+   "sicherheit": "belegt",
+   "groessen": [
+    {
+     "groesse": "10",
+     "ref": "NK610K",
+     "hinweis": "nur S, kein H laut bc1"
+    },
+    {
+     "groesse": "12",
+     "ref": "NK612K"
+    },
+    {
+     "groesse": "14",
+     "ref": "NK614K"
+    },
+    {
+     "groesse": "16",
+     "ref": "NK616K"
+    },
+    {
+     "groesse": "18",
+     "ref": "NK618K"
+    }
+   ]
+  },
+  {
+   "id": "aesculap.bicontact.h.zementiert",
+   "typ": "schaft",
+   "bezeichnung": "Bicontact H zementiert (hohes Offset)",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementiert",
+    "material": "ISODUR F (CoCrMo)",
+    "konus": "12/14",
+    "ccd_grad": 128
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "bc1",
+   "sicherheit": "belegt",
+   "groessen": [
+    {
+     "groesse": "12",
+     "ref": "NK312K"
+    },
+    {
+     "groesse": "14",
+     "ref": "NK314K"
+    },
+    {
+     "groesse": "16",
+     "ref": "NK316K"
+    },
+    {
+     "groesse": "18",
+     "ref": "NK318K"
+    }
+   ]
+  },
+  {
+   "id": "aesculap.bicontact.sd.zementfrei",
+   "typ": "schaft",
+   "bezeichnung": "Bicontact SD zementfrei",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementfrei",
+    "material": "ISOTAN F + PLASMAPORE",
+    "konus": "12/14",
+    "indikation_kurz": "enge / dysplastische Markraumverhältnisse laut bc1/bc-web"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "bc1",
+   "sicherheit": "belegt",
+   "groessen": [
+    {
+     "groesse": "9",
+     "ref": "NK709T",
+     "hinweis": "Gewichtsbeschränkung – IFU prüfen"
+    },
+    {
+     "groesse": "10",
+     "ref": "NK710T",
+     "hinweis": "Gewichtsbeschränkung – IFU prüfen"
+    },
+    {
+     "groesse": "11",
+     "ref": "NK711T"
+    },
+    {
+     "groesse": "12",
+     "ref": "NK712T"
+    },
+    {
+     "groesse": "13",
+     "ref": "NK713T"
+    },
+    {
+     "groesse": "14",
+     "ref": "NK714T"
+    },
+    {
+     "groesse": "15",
+     "ref": "NK715T"
+    },
+    {
+     "groesse": "16",
+     "ref": "NK716T"
+    }
+   ]
+  },
+  {
+   "id": "aesculap.bicontact.n",
+   "typ": "schaft",
+   "bezeichnung": "Bicontact N (enge Markräume)",
+   "auswahl_dach": false,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementfrei und zementiert (REF-Listen in bc1)",
+    "konus": "8/10",
+    "hinweis": "anderer Konus als S/H/SD – Köpfe 12/14 nicht verwenden"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "bc1",
+   "sicherheit": "belegt"
+  },
+  {
+   "id": "aesculap.bicontact.revision",
+   "typ": "schaft",
+   "bezeichnung": "Bicontact Revision",
+   "auswahl_dach": false,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementfrei",
+    "konus": "12/14",
+    "hinweis": "Längen/Verriegelung laut bc1 Revisionskapitel – Details nicht voll übernommen"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "bc1",
+   "sicherheit": "offen"
+  },
+  {
+   "id": "aesculap.plasmafit.plus.bicontact_kontext",
+   "typ": "pfanne",
+   "bezeichnung": "Plasmafit Plus (Kontext Bicontact – Freigabe offen)",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementfrei",
+    "registerbeleg": "EPRD: BICONTACT + PLASMAFIT (zf-/Hybrid-Kombi)",
+    "detail_datei": "implantate/aesculap-excia.json (Plasmafit-Detail)",
+    "freigabe": "offen – Register ≠ Herstellerfreigabe"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "es",
+   "sicherheit": "offen"
+  },
+  {
+   "id": "aesculap.plasmafit.poly.bicontact_kontext",
+   "typ": "pfanne",
+   "bezeichnung": "Plasmafit Poly (Kontext Bicontact – Freigabe offen)",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementfrei",
+    "liner": "nur PE laut pf",
+    "freigabe": "offen für Kombination mit Bicontact-Schaft"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "pf",
+   "sicherheit": "offen"
+  },
+  {
+   "id": "aesculap.all_poly.bicontact_kontext",
+   "typ": "pfanne",
+   "bezeichnung": "Aesculap All POLY zementiert (Kontext Bicontact – Freigabe offen)",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementiert",
+    "registerbeleg": "EPRD: BICONTACT + All POLY (zementiert / revers-hybrid)",
+    "freigabe": "offen – keine IFU-Freigabetabelle gelesen"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "es",
+   "sicherheit": "offen"
+  },
+  {
+   "id": "aesculap.kopf.biolox_delta.bicontact_1214",
+   "typ": "kopf",
+   "bezeichnung": "BIOLOX delta 12/14",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "material": "Keramik BIOLOX delta",
+    "konus": "12/14",
+    "nicht_fuer": "Bicontact N (8/10)"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "bc1",
+   "sicherheit": "belegt",
+   "groessen": [
+    {
+     "durchmesser_mm": "28",
+     "hals": "S/M/L",
+     "ref": "NK460D/NK461D/NK462D"
+    },
+    {
+     "durchmesser_mm": "32",
+     "hals": "S/M/L/XL",
+     "ref": "NK560D/NK561D/NK562D/NK563D"
+    },
+    {
+     "durchmesser_mm": "36",
+     "hals": "S/M/L/XL",
+     "ref": "NK650D/NK651D/NK652D/NK653D"
+    },
+    {
+     "durchmesser_mm": "40",
+     "hals": "S/M/L/XL",
+     "ref": "NK750D/NK751D/NK752D/NK753D"
+    }
+   ]
+  },
+  {
+   "id": "aesculap.kopf.isodur.bicontact_1214",
+   "typ": "kopf",
+   "bezeichnung": "Isodur F CoCr 12/14",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "material": "CoCrMo ISODUR F",
+    "konus": "12/14"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "bc1",
+   "sicherheit": "belegt",
+   "groessen": [
+    {
+     "durchmesser_mm": "28",
+     "hals": "S/M/L/XL/XXL",
+     "ref": "NK429K/NK430K/NK431K/NK432K/NK433K"
+    },
+    {
+     "durchmesser_mm": "32",
+     "hals": "S/M/L/XL/XXL",
+     "ref": "NK529K/NK530K/NK531K/NK532K/NK533K"
+    },
+    {
+     "durchmesser_mm": "36",
+     "hals": "S/M/L/XL/XXL",
+     "ref": "NK669K/NK670K/NK671K/NK672K/NK673K"
+    },
+    {
+     "durchmesser_mm": "40",
+     "hals": "S/M/L/XL/XXL",
+     "ref": "NK769K/NK770K/NK771K/NK772K/NK773K"
+    }
+   ]
+  }
+ ],
+ "passt_zu": [
+  {
+   "von": "aesculap.bicontact.s.zementfrei",
+   "zu": "aesculap.kopf.biolox_delta.bicontact_1214",
+   "status": "ja",
+   "bedingung": "Konus 12/14; Ø/Hals laut Kopfübersicht bc1",
+   "quelle": "bc1",
+   "seite": "38"
+  },
+  {
+   "von": "aesculap.bicontact.s.zementfrei",
+   "zu": "aesculap.kopf.isodur.bicontact_1214",
+   "status": "ja",
+   "bedingung": "Konus 12/14",
+   "quelle": "bc1",
+   "seite": "38"
+  },
+  {
+   "von": "aesculap.bicontact.h.zementfrei",
+   "zu": "aesculap.kopf.biolox_delta.bicontact_1214",
+   "status": "ja",
+   "bedingung": "Konus 12/14",
+   "quelle": "bc1",
+   "seite": "38"
+  },
+  {
+   "von": "aesculap.bicontact.sd.zementfrei",
+   "zu": "aesculap.kopf.biolox_delta.bicontact_1214",
+   "status": "ja",
+   "bedingung": "Konus 12/14 (nicht N)",
+   "quelle": "bc1",
+   "seite": "35–38"
+  },
+  {
+   "von": "aesculap.bicontact.n",
+   "zu": "aesculap.kopf.biolox_delta.bicontact_1214",
+   "status": "nein",
+   "bedingung": "N = Konus 8/10; eigene Kopfserie",
+   "quelle": "bc1",
+   "seite": "35, 39"
+  },
+  {
+   "von": "aesculap.bicontact.s.zementfrei",
+   "zu": "aesculap.plasmafit.plus.bicontact_kontext",
+   "status": "offen",
+   "bedingung": "EPRD beobachtet BICONTACT+PLASMAFIT; keine Freigabetabelle in bc1 gelesen",
+   "quelle": "es",
+   "seite": "Kombi-Tabellen"
+  },
+  {
+   "von": "aesculap.bicontact.s.zementiert",
+   "zu": "aesculap.all_poly.bicontact_kontext",
+   "status": "offen",
+   "bedingung": "EPRD beobachtet; All-POLY-IFU nicht gelesen",
+   "quelle": "es",
+   "seite": "Kombi-Tabellen"
+  }
+ ],
+ "regeln": [
+  {
+   "wenn": "schaft",
+   "pruefe": "S/H/SD ≠ N",
+   "text": "Bicontact N hat Konus 8/10 – nicht mit Köpfen 12/14 kombinieren. S/H/SD nutzen 12/14.",
+   "quelle": "bc1 S. 30–39"
+  },
+  {
+   "wenn": "pfanne",
+   "pruefe": "Register ≠ Freigabe",
+   "text": "Plasmafit/All POLY erscheinen häufig mit Bicontact in EPRD – das ist keine Herstellerfreigabe. Freigabe nur aus aktueller EU-IFU / Operateur.",
+   "quelle": "es; LIESMICH"
+  },
+  {
+   "wenn": "schaft",
+   "pruefe": "Excia T ≠ Bicontact",
+   "text": "Excia T und Bicontact sind getrennte Schaftlinien – REF und Instrumente nicht mischen.",
+   "quelle": "bc-web / Excia-Datei"
+  }
+ ],
+ "rueckrufe": [],
+ "offen": [
+  "Aktuelle DE/EU-IFU Bicontact (neuere Revision als O10702 0113) nachlesen",
+  "Explizite Herstellerfreigabe Bicontact ↔ Plasmafit Plus/Poly (Tabelle)",
+  "All POLY: Produktname/REF/IFU und Freigabe mit Bicontact zementiert",
+  "Plasmacup (älter) vs. Plasmafit – Abgrenzung für Bestand",
+  "Bicontact Revision: vollständige Längen-/Verriegelungs-REF",
+  "BfArM-Meldungen Bicontact (10 Jahre)"
+ ],
+ "verified_hinweis": "Neuanlage P1 07.10.2026: Werte aus O10702 0113/1/1 und B.Braun-Produktseite. verified: false. Plasmafit/All POLY nur als Kontext/Ranking, Freigabe offen. Keine klinische Freigabe.",
+ "region": "hüfte",
+ "verified": false,
+ "stand_extrakt": "2026-10-07",
+ "hinweise": [
+  "Vor dem Öffnen Komponente, Seite und Größe laut ansagen; Herstellerdokument und aktuelle EU-IFU maßgeblich.",
+  "Systeme nicht mischen: nur Komponenten, die der Hersteller ausdrücklich für dieses System vorsieht.",
+  "Werte nur aus dem genannten Original mit Seite; nicht dokumentierte Kombinationen bleiben „offen – Operateur fragen“.",
+  "Rückrufe chargenspezifisch mit MPB klären."
+ ],
+ "aenderungsprotokoll": [
+  {
+   "version": "1.0",
+   "datum": "2026-10-07",
+   "lauf": "p1-fehlende-systeme",
+   "text": "Neuanlage Bicontact S/H/SD/N + Köpfe 12/14 aus O10702; Plasmafit/All POLY als offene Kontext-Komponenten (EPRD)."
+  }
+ ]
+}

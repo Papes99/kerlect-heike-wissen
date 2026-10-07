@@ -1,0 +1,320 @@
+{
+ "hersteller": "Waldemar Link",
+ "system": "SP II Modell Lubinus (zementiert) + zementierte Pfannen Lubinus/IP; CombiCup Kontext offen",
+ "version": "1.0",
+ "quellen": [
+  {
+   "id": "sp1",
+   "dokument": "Lubinus SP II – Anatomically Adapted Cemented Hip System (Surgical Technique / Implants)",
+   "stand": "6431_SP_II_OP-Impl-Instr_us_2020-05_001 MAR-01247 1.0",
+   "seiten": "CCD/Planung S.1; Implantate S.12–15; Konus 12/14 Probeköpfe S.19; Indikationen S.28; Hinweis cemented use / heads +4 mm",
+   "url": "https://www.link-ortho.com/fileadmin/user_upload/Fuer_den_Arzt/Produkte/Downloads/US/6431_SP_II_OP-Impl-Instr_us_2020-05_001_MAR-01247_1.0_final.pdf",
+   "markt": "US-Fassung (Link Orthopaedics)",
+   "gelesen_von": "Grok 07.10.2026"
+  },
+  {
+   "id": "sp-web",
+   "dokument": "LINK – SPII Model Lubinus (Produktseite)",
+   "stand": "HTML, abgerufen 07.10.2026",
+   "seiten": "Design anatomisch S-förmig; modular seit 1984",
+   "url": "https://www.link-ortho.com/products/hip/link-spii",
+   "markt": "international",
+   "gelesen_von": "Grok 07.10.2026"
+  },
+  {
+   "id": "cup-web",
+   "dokument": "LINK – Cemented Acetabular Cup System (Lubinus / IP / FAL / FC / Endo-Model)",
+   "stand": "HTML, abgerufen 07.10.2026",
+   "seiten": "Lubinus Cup explizit mit SPII; IP Cup Beschreibung; UHMWPE / X-Linked; Größenbereich 38–71 mm je Modell",
+   "url": "https://www.link-ortho.com/products/hip/cemented-acetabular-cup-system",
+   "markt": "international",
+   "gelesen_von": "Grok 07.10.2026"
+  },
+  {
+   "id": "combi",
+   "dokument": "LINK CombiCup R – OP/Implant Instructions",
+   "stand": "6981_CombiCup-R_OP-Impl-Instr_en_2020-09_001",
+   "seiten": "zementfreie Pfanne; Indikationen CombiCup PF/SC",
+   "url": "https://www.link-ortho.com/fileadmin/user_upload/Fuer_den_Arzt/Produkte/Downloads/EN/6981_CombiCup-R_OP-Impl-Instr_en_2020-09_001.pdf",
+   "markt": "EN",
+   "gelesen_von": "Grok 07.10.2026",
+   "hinweis": "eigenes zementfreies Pfannensystem – keine Schaft-Freigabe mit SP II in diesem Extrakt"
+  },
+  {
+   "id": "es",
+   "dokument": "EPRD / auswahl-dach",
+   "stand": "Jahresbericht 2025",
+   "seiten": "SPII Model Lubinus zementiert #2; Kombi SPII+IP / +Lubinus / +CombiCup; Hybrid SPII+Allofit ⚠ Fremdhersteller",
+   "url": "https://www.eprd.de/de/downloads/tabellen/jahresbericht2025",
+   "markt": "DE (Ranking)",
+   "gelesen_von": "Grok 07.10.2026"
+  }
+ ],
+ "komponenten": [
+  {
+   "id": "link.spii.standard",
+   "typ": "schaft",
+   "bezeichnung": "SP II Modell Lubinus Standard",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementiert",
+    "material": "CoCrMo",
+    "konus": "12/14",
+    "ccd_grad": [
+     117,
+     126,
+     135
+    ],
+    "schaftlaengen_mm": [
+     130,
+     150,
+     170
+    ],
+    "seiten": "rechts/links anatomisch",
+    "hinweis_zementmantel": "Raspel ca. +0,75 mm; Schaft eine Größe kleiner als letzte Raspel für ~2–3 mm Zementmantel (sp1)"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "sp1",
+   "sicherheit": "belegt",
+   "groessen": [
+    {
+     "marking": "R/L 01",
+     "breite": "extra narrow",
+     "laengen_mm": "130/150/170",
+     "beispiel_ref_rechts_130_ccd126": "127-610/26"
+    },
+    {
+     "marking": "R/L 1",
+     "breite": "narrow",
+     "beispiel_ref_rechts_130_ccd135": "127-612/35"
+    },
+    {
+     "marking": "R/L 2",
+     "breite": "medium",
+     "beispiel_ref_rechts_130_ccd126": "127-614/26"
+    },
+    {
+     "marking": "R/L 3",
+     "breite": "large"
+    },
+    {
+     "marking": "R/L 4",
+     "breite": "extra large"
+    },
+    {
+     "marking": "R/L 4 A",
+     "breite": "extra large plus"
+    },
+    {
+     "marking": "R/L 5",
+     "breite": "super large"
+    },
+    {
+     "hinweis": "Vollständige REF-Matrix (CCD × Länge × Seite × Breite) in sp1 S.12–13 – vor Entnahme Etikett/Katalog"
+    }
+   ]
+  },
+  {
+   "id": "link.spii.xl",
+   "typ": "schaft",
+   "bezeichnung": "SP II Modell Lubinus XL (langer Hals)",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementiert",
+    "material": "CoCrMo",
+    "konus": "12/14",
+    "ccd_grad": [
+     117,
+     126
+    ],
+    "hals_plus_mm": 10.5,
+    "hinweis": "Hals-/Konusabschnitt 10,5 mm länger als Standard; CCD 135° in XL-Tabelle sp1 nicht geführt"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "sp1",
+   "sicherheit": "belegt"
+  },
+  {
+   "id": "link.pfanne.lubinus",
+   "typ": "pfanne",
+   "bezeichnung": "Lubinus Cup (zementiert)",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementiert",
+    "material": "UHMWPE und X-Linked",
+    "design": "exzentrisch, hoher Rand; optional Snap-fit laut cup-web",
+    "herstellerfreigabe_schaft": "Produktseite: Kombination mit SPII Model Lubinus"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "cup-web",
+   "sicherheit": "belegt"
+  },
+  {
+   "id": "link.pfanne.ip",
+   "typ": "pfanne",
+   "bezeichnung": "IP Cup (zementiert)",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementiert",
+    "material": "UHMWPE und X-Linked",
+    "design": "hoher Rand mit Fase am Eingang (größeres ROM laut cup-web)",
+    "registerbeleg": "EPRD: SPII + IP zementiert",
+    "freigabe_mit_spii": "offen – auf Produktseite keine gleich explizite Paarungsformel wie bei Lubinus Cup"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "cup-web",
+   "sicherheit": "offen"
+  },
+  {
+   "id": "link.pfanne.combicup",
+   "typ": "pfanne",
+   "bezeichnung": "CombiCup (zementfrei PF/SC/R)",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementfrei",
+    "registerbeleg": "EPRD: SPII + CombiCup (Hybrid)",
+    "freigabe_mit_spii": "offen – CombiCup ist eigenes System (combi); keine Schaft-Tabelle in diesem Extrakt"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "combi",
+   "sicherheit": "offen"
+  },
+  {
+   "id": "link.kopf.modular_1214",
+   "typ": "kopf",
+   "bezeichnung": "Prothesenköpfe Konus 12/14 (modular)",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "konus": "12/14",
+    "max_zusatz_hals_mm": 4,
+    "hinweis": "sp1: SP II nur mit Köpfen bis +4 mm zusätzliche Halslänge; Probeköpfe Ø28/32/36 (40 optional) dokumentiert",
+    "material_kopf": "offen – Keramik/CoCrMo laut cup-web für Pfannen geeignet, konkrete Kopfreferenzen nicht aus sp1 übernommen"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "sp1",
+   "sicherheit": "hausabhängig"
+  }
+ ],
+ "passt_zu": [
+  {
+   "von": "link.spii.standard",
+   "zu": "link.kopf.modular_1214",
+   "status": "bedingt",
+   "bedingung": "Konus 12/14; Halszusatz max. +4 mm laut sp1",
+   "quelle": "sp1",
+   "seite": "28"
+  },
+  {
+   "von": "link.spii.standard",
+   "zu": "link.pfanne.lubinus",
+   "status": "ja",
+   "bedingung": "Hersteller-Produktseite nennt Kombination SPII + Lubinus Cup; Größen/Inlay vom Etikett",
+   "quelle": "cup-web",
+   "seite": "Lubinus Cup"
+  },
+  {
+   "von": "link.spii.standard",
+   "zu": "link.pfanne.ip",
+   "status": "offen",
+   "bedingung": "EPRD beobachtet; explizite Freigabeformel auf Produktseite schwächer als bei Lubinus Cup",
+   "quelle": "cup-web; es",
+   "seite": "IP Cup / EPRD"
+  },
+  {
+   "von": "link.spii.standard",
+   "zu": "link.pfanne.combicup",
+   "status": "offen",
+   "bedingung": "EPRD Hybrid; CombiCup-IFU ohne SP-II-Schaftfreigabe in diesem Extrakt",
+   "quelle": "combi; es",
+   "seite": "–"
+  }
+ ],
+ "regeln": [
+  {
+   "wenn": "schaft",
+   "pruefe": "nur zementiert",
+   "text": "SP II laut sp1 nur für zementierte Anwendung vorgesehen.",
+   "quelle": "sp1 S. 28"
+  },
+  {
+   "wenn": "kopf",
+   "pruefe": "hals <= +4",
+   "text": "LINK Lubinus SP II nur mit Prothesenköpfen bis +4 mm zusätzliche Halslänge.",
+   "quelle": "sp1 S. 28"
+  },
+  {
+   "wenn": "fremd",
+   "pruefe": "nicht mischen",
+   "text": "Implantate anderer Hersteller nicht kombinieren (sp1 Important Information). EPRD-Hybrid SPII+Allofit ⚠ ist keine Freigabe.",
+   "quelle": "sp1; es"
+  }
+ ],
+ "rueckrufe": [],
+ "offen": [
+  "EU/DE-Fassung der SP-II-OP-Technik (neuere EN 2026-04) gegen US-Dok abgleichen",
+  "Vollständige REF-Matrix aller CCD/Längen/Seiten in App-taugliche Tabelle",
+  "Kopf-REF (Keramik/CoCr) Katalog nachziehen",
+  "IP Cup / FAL / FC: Größeninnen-Ø und explizite Freigabe mit SP II",
+  "CombiCup PF/SC: Schaft-Freigabe oder bewusst getrennt dokumentieren",
+  "BfArM / Field Safety Notice SP II Label (falls relevant) prüfen"
+ ],
+ "verified_hinweis": "Neuanlage P1 07.10.2026 aus Link SP-II-OP-Technik US 2020-05 und Produktseiten. verified: false. Lubinus Cup als Hersteller-Paarung; IP/CombiCup offen.",
+ "region": "hüfte",
+ "verified": false,
+ "stand_extrakt": "2026-10-07",
+ "hinweise": [
+  "Vor dem Öffnen Komponente, Seite und Größe laut ansagen; Herstellerdokument und aktuelle EU-IFU maßgeblich.",
+  "Systeme nicht mischen – Registerbeobachtungen (z. B. SPII+Allofit) sind keine Freigabe.",
+  "Nicht dokumentierte Kombinationen: offen – Operateur fragen."
+ ],
+ "aenderungsprotokoll": [
+  {
+   "version": "1.0",
+   "datum": "2026-10-07",
+   "lauf": "p1-fehlende-systeme",
+   "text": "Neuanlage SP II Lubinus zementiert + Lubinus/IP/CombiCup-Kontext aus Link-Originalen und EPRD-Ranking."
+  }
+ ]
+}
