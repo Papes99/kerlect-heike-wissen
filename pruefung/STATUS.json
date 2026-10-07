@@ -7,8 +7,9 @@
    "datei": "pakete/000-basis.json",
    "name": "000-grundwissen",
    "version": "1.3",
-   "runde": "julian",
-   "typ": "grundwissen"
+   "runde": "grok",
+   "typ": "grundwissen",
+   "runde_nr": 2
   },
   "001": {
    "datei": "pakete/001-basis.json",
@@ -20,7 +21,8 @@
    "gehoert_dazu": [
     "implantate/stryker-accolade-ii.json",
     "implantate/smith-nephew-polarstem.json"
-   ]
+   ],
+   "runde_nr": 1
   }
  },
  "eingang_verarbeitet": [],
@@ -29,5 +31,6 @@
  "zuordnung": "000 = allgemeines OP-Wissen (gilt für jeden Eingriff). Eingriffspakete (001 …) enthalten NUR Eingriffsspezifisches. Allgemeines aus Eingriffspaketen: ist es schon in 000 → im Eingriffspaket streichen; fehlt es in 000 → über die Kette (000-basis „Zur Prüfung“ → Grok → Astra → Julian) nach 000 verschieben, dann im Eingriffspaket streichen. Eingriffsspezifisches nie in 000.",
  "vorgemerkt": [
   "Beim nächsten 000-Durchlauf / „001 los“: Allgemeines aus 001 nach 000 verschieben bzw. in 001 streichen (Kandidatenliste im Chat 07.10.2026)."
- ]
+ ],
+ "runden_regel": "Jede Runde hat eine Nummer (runde_nr). Grok/Astra schreiben in die erste Zeile ihrer Datei „Runde <nr>“. Passt die Nummer in der eigenen Datei nicht zur runde_nr in STATUS, überschreibt der Ersteller seine eigene Datei mit der neuen Runde."
 }
