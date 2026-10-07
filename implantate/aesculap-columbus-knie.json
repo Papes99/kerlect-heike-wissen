@@ -1,0 +1,698 @@
+{
+ "hersteller": "Aesculap (B. Braun)",
+ "system": "Columbus (CR, CR Deep Dish, UC, UCR, RP, PS; AS-Beschichtung)",
+ "version": "1.0",
+ "quellen": [
+  {
+   "id": "ac1",
+   "dokument": "Aesculap Columbus Knee Arthroplasty Operating Technique with IQ Instruments (O47502)",
+   "stand": "O47502 0414-1-1 (2014)",
+   "seiten": "PDF-S. 4 Varianten; S. 45 Gleitflächenhöhen; S. 49/67 Patella; S. 65 Femurmaße; S. 68–81 Bestellinformation und Implantatmatrix",
+   "url": "https://www.onmed.spb.ru/upload/iblock/2bb/2bb9d5cf080a58538a5b0133cdbe5eab.pdf",
+   "markt": "englisch, 2014; Datei liegt auf Händler-Server (Drittanbieter) – nur Fundstelle, kein aktueller Hersteller-Nachweis",
+   "gelesen_von": "Grok 08.10.2026"
+  },
+  {
+   "id": "ac2",
+   "dokument": "Columbus Knieendoprothesensystem – Produktseite",
+   "stand": "Webseite, abgerufen 2026-10-07",
+   "seiten": "Produktbeschreibung",
+   "url": "https://www.bbraun.de/de/products/b/columbus-knieendoprothesensystem.html",
+   "markt": "DE",
+   "gelesen_von": "Grok 07.10.2026"
+  }
+ ],
+ "komponenten": [
+  {
+   "id": "aesculap.columbus.femur_cr_zem",
+   "typ": "femur",
+   "bezeichnung": "Columbus CR/RP Femur zementiert",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "kopplung": "CR (auch für RP)",
+    "groessen": "F1, F2N, F2, F3N, F3, F4N, F4, F5N, F5, F6N, F6, F7, F8",
+    "seiten": "L/R",
+    "fixation": "zementiert",
+    "as_variante": "AS-Beschichtung: gleiche Nummer mit Endung Z statt K (laut Bestellinfo)"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "ac1",
+   "sicherheit": "Fundstelle (2014, Drittanbieter-Kopie)",
+   "groessen": [
+    {
+     "groesse": "F1",
+     "ref_links": "NN001K",
+     "ref_rechts": "NN011K"
+    },
+    {
+     "groesse": "F2N",
+     "ref_links": "NN800K",
+     "ref_rechts": "NN810K"
+    },
+    {
+     "groesse": "F2",
+     "ref_links": "NN002K",
+     "ref_rechts": "NN012K"
+    },
+    {
+     "groesse": "F3N",
+     "ref_links": "NN801K",
+     "ref_rechts": "NN811K"
+    },
+    {
+     "groesse": "F3",
+     "ref_links": "NN003K",
+     "ref_rechts": "NN013K"
+    },
+    {
+     "groesse": "F4N",
+     "ref_links": "NN899K",
+     "ref_rechts": "NN909K"
+    },
+    {
+     "groesse": "F4",
+     "ref_links": "NN004K",
+     "ref_rechts": "NN014K"
+    },
+    {
+     "groesse": "F5N",
+     "ref_links": "NN900K",
+     "ref_rechts": "NN910K"
+    },
+    {
+     "groesse": "F5",
+     "ref_links": "NN005K",
+     "ref_rechts": "NN015K"
+    },
+    {
+     "groesse": "F6N",
+     "ref_links": "NN901K",
+     "ref_rechts": "NN911K"
+    },
+    {
+     "groesse": "F6",
+     "ref_links": "NN006K",
+     "ref_rechts": "NN016K"
+    },
+    {
+     "groesse": "F7",
+     "ref_links": "NN007K",
+     "ref_rechts": "NN017K"
+    },
+    {
+     "groesse": "F8",
+     "ref_links": "NN008K",
+     "ref_rechts": "NN018K"
+    }
+   ]
+  },
+  {
+   "id": "aesculap.columbus.femur_cr_zf",
+   "typ": "femur",
+   "bezeichnung": "Columbus CR/RP Femur zementfrei",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "kopplung": "CR",
+    "groessen": "F1, F2N, F2, F3N, F3, F4N, F4, F5N, F5, F6N, F6, F7, F8",
+    "fixation": "zementfrei"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "ac1",
+   "sicherheit": "Fundstelle",
+   "groessen": [
+    {
+     "groesse": "F1",
+     "ref_links": "NN021K",
+     "ref_rechts": "NN031K"
+    },
+    {
+     "groesse": "F2N",
+     "ref_links": "NN820K",
+     "ref_rechts": "NN830K"
+    },
+    {
+     "groesse": "F2",
+     "ref_links": "NN022K",
+     "ref_rechts": "NN032K"
+    },
+    {
+     "groesse": "F3N",
+     "ref_links": "NN821K",
+     "ref_rechts": "NN831K"
+    },
+    {
+     "groesse": "F3",
+     "ref_links": "NN023K",
+     "ref_rechts": "NN033K"
+    },
+    {
+     "groesse": "F4N",
+     "ref_links": "NN919K",
+     "ref_rechts": "NN929K"
+    },
+    {
+     "groesse": "F4",
+     "ref_links": "NN024K",
+     "ref_rechts": "NN034K"
+    },
+    {
+     "groesse": "F5N",
+     "ref_links": "NN920K",
+     "ref_rechts": "NN930K"
+    },
+    {
+     "groesse": "F5",
+     "ref_links": "NN025K",
+     "ref_rechts": "NN035K"
+    },
+    {
+     "groesse": "F6N",
+     "ref_links": "NN921K",
+     "ref_rechts": "NN931K"
+    },
+    {
+     "groesse": "F6",
+     "ref_links": "NN026K",
+     "ref_rechts": "NN036K"
+    },
+    {
+     "groesse": "F7",
+     "ref_links": "NN027K",
+     "ref_rechts": "NN037K"
+    },
+    {
+     "groesse": "F8",
+     "ref_links": "NN028K",
+     "ref_rechts": "NN038K"
+    }
+   ]
+  },
+  {
+   "id": "aesculap.columbus.femur_ps",
+   "typ": "femur",
+   "bezeichnung": "Columbus PS Femur zementiert",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "kopplung": "PS",
+    "groessen": "F1, F2N, F2, F3N, F3, F4N, F4, F5N, F5, F6N, F6, F7, F8",
+    "fixation": "zementiert",
+    "as_variante": "Z-Nummern nicht für alle Größen gelistet (z. B. F2N, F8)"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "ac1",
+   "sicherheit": "Fundstelle",
+   "groessen": [
+    {
+     "groesse": "F1",
+     "ref_links": "NN161K",
+     "ref_rechts": "NN171K"
+    },
+    {
+     "groesse": "F2N",
+     "ref_links": "NN840K",
+     "ref_rechts": "NN850K"
+    },
+    {
+     "groesse": "F2",
+     "ref_links": "NN162K",
+     "ref_rechts": "NN172K"
+    },
+    {
+     "groesse": "F3N",
+     "ref_links": "NN841K",
+     "ref_rechts": "NN851K"
+    },
+    {
+     "groesse": "F3",
+     "ref_links": "NN163K",
+     "ref_rechts": "NN173K"
+    },
+    {
+     "groesse": "F4N",
+     "ref_links": "NN939K",
+     "ref_rechts": "NN949K"
+    },
+    {
+     "groesse": "F4",
+     "ref_links": "NN164K",
+     "ref_rechts": "NN174K"
+    },
+    {
+     "groesse": "F5N",
+     "ref_links": "NN940K",
+     "ref_rechts": "NN950K"
+    },
+    {
+     "groesse": "F5",
+     "ref_links": "NN165K",
+     "ref_rechts": "NN175K"
+    },
+    {
+     "groesse": "F6N",
+     "ref_links": "NN941K",
+     "ref_rechts": "NN951K"
+    },
+    {
+     "groesse": "F6",
+     "ref_links": "NN166K",
+     "ref_rechts": "NN176K"
+    },
+    {
+     "groesse": "F7",
+     "ref_links": "NN167K",
+     "ref_rechts": "NN177K"
+    },
+    {
+     "groesse": "F8",
+     "ref_links": "NN168K",
+     "ref_rechts": "NN178K"
+    }
+   ]
+  },
+  {
+   "id": "aesculap.columbus.tibia_crps",
+   "typ": "tibia",
+   "bezeichnung": "Columbus CR/PS Tibiaplateau modular",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "groessen": "T0, T0+, T1, T1+, T2, T2+, T3, T3+, T4, T4+, T5",
+    "fixation": "zementiert (K, AS = Z) oder zementfrei"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "ac1",
+   "sicherheit": "Fundstelle",
+   "groessen": [
+    {
+     "groesse": "T0",
+     "ref_zementiert": "NN070K",
+     "ref_zementfrei": "NN080K"
+    },
+    {
+     "groesse": "T0+",
+     "ref_zementiert": "NN058K",
+     "ref_zementfrei": "NN059K"
+    },
+    {
+     "groesse": "T1",
+     "ref_zementiert": "NN071K",
+     "ref_zementfrei": "NN081K"
+    },
+    {
+     "groesse": "T1+",
+     "ref_zementiert": "NN072K",
+     "ref_zementfrei": "NN082K"
+    },
+    {
+     "groesse": "T2",
+     "ref_zementiert": "NN073K",
+     "ref_zementfrei": "NN083K"
+    },
+    {
+     "groesse": "T2+",
+     "ref_zementiert": "NN074K",
+     "ref_zementfrei": "NN084K"
+    },
+    {
+     "groesse": "T3",
+     "ref_zementiert": "NN075K",
+     "ref_zementfrei": "NN085K"
+    },
+    {
+     "groesse": "T3+",
+     "ref_zementiert": "NN076K",
+     "ref_zementfrei": "NN086K"
+    },
+    {
+     "groesse": "T4",
+     "ref_zementiert": "NN077K",
+     "ref_zementfrei": "NN087K"
+    },
+    {
+     "groesse": "T4+",
+     "ref_zementiert": "NN078K",
+     "ref_zementfrei": "NN088K"
+    },
+    {
+     "groesse": "T5",
+     "ref_zementiert": "NN079K",
+     "ref_zementfrei": "NN089K"
+    }
+   ]
+  },
+  {
+   "id": "aesculap.columbus.tibia_rp",
+   "typ": "tibia",
+   "bezeichnung": "Columbus RP Tibiaplateau (Rotating Platform)",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "groessen": "T1–T5 (inkl. +)",
+    "plattform": "mobil",
+    "fixation": "zementiert NN271K–NN279K, zementfrei NN281K–NN289K"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "ac1",
+   "sicherheit": "Fundstelle",
+   "groessen": []
+  },
+  {
+   "id": "aesculap.columbus.tibia_ucr",
+   "typ": "tibia",
+   "bezeichnung": "Columbus UCR Tibiaplateau zementiert",
+   "auswahl_dach": false,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "groessen": "T0–T5",
+    "ref_bereich": "NN670K, NN668K (T0+), NN671K–NN679K"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "ac1",
+   "sicherheit": "Fundstelle",
+   "groessen": []
+  },
+  {
+   "id": "aesculap.columbus.gleit_dd",
+   "typ": "insert",
+   "bezeichnung": "Columbus CR Deep Dish Gleitfläche",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "kopplung": "CR DD",
+    "groessengruppen": "T0/0+, T1/1+, T2/2+, T3/3+, T4/4+, T5",
+    "hoehen_mm": [
+     10,
+     12,
+     14,
+     16,
+     18,
+     20
+    ]
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "ac1",
+   "sicherheit": "Fundstelle",
+   "groessen": [
+    {
+     "ref_schema": "NN2{Gruppe 0–5}{0–5 = 10–20 mm}, z. B. NN200 = T0/0+ 10 mm, NN210 = T1/1+ 10 mm",
+     "seite_quelle": "PDF-S. 73"
+    }
+   ]
+  },
+  {
+   "id": "aesculap.columbus.gleit_uc",
+   "typ": "insert",
+   "bezeichnung": "Columbus UC (Ultra Congruent) Gleitfläche",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "kopplung": "UC (kreuzbandopfernd)",
+    "hoehen_mm": "10–20"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "ac1",
+   "sicherheit": "Fundstelle",
+   "groessen": [
+    {
+     "ref_schema": "NN4xx, z. B. NN400 = T0/0+ 10 mm",
+     "seite_quelle": "PDF-S. 74"
+    }
+   ]
+  },
+  {
+   "id": "aesculap.columbus.gleit_rp",
+   "typ": "insert",
+   "bezeichnung": "Columbus RP Gleitfläche",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "kopplung": "RP (mobil)",
+    "hoehen_mm": "10–16"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "ac1",
+   "sicherheit": "Fundstelle",
+   "groessen": [
+    {
+     "ref_schema": "NN3xx, z. B. NN310 = T1/1+ 10 mm",
+     "seite_quelle": "PDF-S. 74"
+    }
+   ]
+  },
+  {
+   "id": "aesculap.columbus.gleit_ps",
+   "typ": "insert",
+   "bezeichnung": "Columbus PS Gleitfläche inkl. Fixationsschraube",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "kopplung": "PS",
+    "hoehen_mm": "10–20",
+    "hinweis": "PS-Schraube nach Aushärten des Zements festziehen (PDF-S. 51)"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "ac1",
+   "sicherheit": "Fundstelle",
+   "groessen": [
+    {
+     "ref_schema": "NN5xx, z. B. NN500 = T0/0+ 10 mm",
+     "seite_quelle": "PDF-S. 76"
+    }
+   ]
+  },
+  {
+   "id": "aesculap.columbus.patella",
+   "typ": "patella",
+   "bezeichnung": "Columbus Patella 3-Peg",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "groessen_mm": [
+     "P1 Ø26 × 7",
+     "P2 Ø29 × 8",
+     "P3 Ø32 × 9",
+     "P4 Ø35 × 10",
+     "P5 Ø38 × 11"
+    ]
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "ac1",
+   "sicherheit": "Fundstelle",
+   "groessen": [
+    {
+     "groesse": "P1",
+     "ref": "NX041"
+    },
+    {
+     "groesse": "P2",
+     "ref": "NX042"
+    },
+    {
+     "groesse": "P3",
+     "ref": "NX043"
+    },
+    {
+     "groesse": "P4",
+     "ref": "NX044"
+    },
+    {
+     "groesse": "P5",
+     "ref": "NX045"
+    }
+   ]
+  }
+ ],
+ "tabellen": {
+  "T_columbus_varianten": {
+   "titel": "Varianten und Fixation",
+   "quelle": "ac1",
+   "seite": "PDF-S. 4",
+   "zeilen": [
+    "RP: mobil, zementiert/zementfrei",
+    "UCR: fest, zementiert",
+    "CR DD: fest, zementiert/zementfrei",
+    "UC: fest, zementiert/zementfrei",
+    "PS: fest, zementiert"
+   ],
+   "legende": "AS-beschichtete Implantate für Patienten mit Metallsensitivität (PDF-S. 4). B. Braun DE: 14 Femur-, 11 Tibiagrößen, PE bis 20 mm (ac2) – Abweichung zu 13 Femurgrößen im Dokument 2014."
+  },
+  "T_columbus_patella": {
+   "titel": "Patella / Femur",
+   "quelle": "ac1",
+   "seite": "PDF-S. 79",
+   "zeilen": [
+    "Patella P1–P5 (NX041–NX045) für Femur F1–F8"
+   ],
+   "legende": "Implantatmatrix"
+  }
+ },
+ "passt_zu": [
+  {
+   "von": "aesculap.columbus.femur_cr_zem",
+   "zu": "aesculap.columbus.gleit_dd",
+   "status": "bedingt",
+   "bedingung": "Gleitfläche nach Tibia-Größengruppe; Kombination aus Bezeichnung CR abgeleitet – Herstellertabelle nicht gefunden",
+   "quelle": "ac1",
+   "seite": "PDF-S. 4/73",
+   "tabelle": null
+  },
+  {
+   "von": "aesculap.columbus.femur_cr_zem",
+   "zu": "aesculap.columbus.gleit_rp",
+   "status": "bedingt",
+   "bedingung": "Femur ausdrücklich „CR/RP“; RP-Tibia + RP-Gleitfläche",
+   "quelle": "ac1",
+   "seite": "PDF-S. 68/74",
+   "tabelle": null
+  },
+  {
+   "von": "aesculap.columbus.femur_cr_zem",
+   "zu": "aesculap.columbus.gleit_uc",
+   "status": "offen",
+   "bedingung": "UC (kreuzbandopfernd) – Freigabe mit CR-Femur im Dokument nicht als Tabelle gefunden",
+   "quelle": "ac1",
+   "seite": "PDF-S. 4/74",
+   "tabelle": null
+  },
+  {
+   "von": "aesculap.columbus.femur_ps",
+   "zu": "aesculap.columbus.gleit_ps",
+   "status": "bedingt",
+   "bedingung": "PS-Gleitfläche mit PS-Femur auf CR/PS-Tibia; nur zementiert",
+   "quelle": "ac1",
+   "seite": "PDF-S. 4/76",
+   "tabelle": null
+  },
+  {
+   "von": "aesculap.columbus.gleit_ps",
+   "zu": "aesculap.columbus.tibia_crps",
+   "status": "bedingt",
+   "bedingung": "gleiche Tibia-Größengruppe (z. B. T2/2+ auf T2 oder T2+)",
+   "quelle": "ac1",
+   "seite": "PDF-S. 76",
+   "tabelle": null
+  },
+  {
+   "von": "aesculap.columbus.patella",
+   "zu": "aesculap.columbus.femur_cr_zem",
+   "status": "ja",
+   "bedingung": "P1–P5 für F1–F8",
+   "quelle": "ac1",
+   "seite": "PDF-S. 79",
+   "tabelle": "T_columbus_patella"
+  }
+ ],
+ "regeln": [
+  {
+   "wenn": "gleitflaeche",
+   "pruefe": "Größengruppe = Tibia",
+   "text": "Gleitfläche T0/0+ … T5 passend zur Tibiagröße wählen.",
+   "quelle": "ac1 PDF-S. 73–76"
+  },
+  {
+   "wenn": "ps",
+   "pruefe": "Schraube",
+   "text": "PS-Fixationsschraube erst nach Aushärten des Zements festziehen.",
+   "quelle": "ac1 PDF-S. 51"
+  },
+  {
+   "wenn": "as",
+   "pruefe": "K vs. Z",
+   "text": "Standard (K) und AS-beschichtet (Z) am Etikett unterscheiden.",
+   "quelle": "ac1 PDF-S. 68–70"
+  }
+ ],
+ "rueckrufe": [],
+ "offen": [
+  "Aktuelle B.-Braun-OP-Technik/IFU nicht abrufbar (DE- und US-PDF 404, Katalogseiten nur mit JavaScript) – Daten aus Dokument 2014 auf Drittanbieter-Server.",
+  "Femur-Tibia-Größenkombination: keine Tabelle gefunden.",
+  "Femurgrößen: Dokument 2014 13 Größen, B.-Braun-Seite nennt 14 – aktuellen Stand klären.",
+  "IFU TA012000 (Kontraindikationen) nicht gelesen."
+ ],
+ "verified_hinweis": "Neuanlage 08.10.2026 aus Aesculap O47502 (2014, Drittanbieter-Kopie) und B.-Braun-Produktseite. verified: false. REF nur als Fundstelle – vor Nutzung mit aktuellem Hersteller-Katalog abgleichen.",
+ "region": "knie",
+ "verified": false,
+ "stand_extrakt": "2026-10-08",
+ "hinweise": [
+  "Vor dem Öffnen Komponente, Seite, Größe, Typ und Insert-Höhe laut ansagen; Herstellerdokument und aktuelle EU-IFU maßgeblich.",
+  "Systeme nicht mischen – Registerbeobachtungen sind keine Freigabe.",
+  "Nicht dokumentierte Kombinationen: offen – Operateur bzw. Hersteller fragen."
+ ],
+ "aenderungsprotokoll": [
+  {
+   "version": "1.0",
+   "datum": "2026-10-08",
+   "lauf": "002-knie-tep",
+   "text": "Neuanlage aus Hersteller-Originalen (Grok); Systemauswahl nach EPRD/SIRIS."
+  }
+ ]
+}

@@ -1,0 +1,575 @@
+{
+ "hersteller": "Smith+Nephew",
+ "system": "LEGION / GENESIS II (primär: CR, CR Deep Dish, PS; CoCr und OXINIUM)",
+ "version": "1.0",
+ "quellen": [
+  {
+   "id": "sl1",
+   "dokument": "LEGION Total Knee System – Total System Specification Guide and Product Catalog",
+   "stand": "02861 V1 02/15",
+   "seiten": "S. 12 Sägeblatt/Stylus; S. 21–25 Compatibility Guide und Insert-Austauschbarkeit; S. 40–48 Katalog (Femur, Inserts, Patella, Tibia)",
+   "url": "https://smith-nephew.stylelabs.cloud/api/public/content/9b60b8ccb8d34736b556c9582336e376?download=true&v=e3edc939",
+   "markt": "US-Katalog 2015 („Product availability may vary by country“) – kein EU-Ersatz",
+   "gelesen_von": "Grok 08.10.2026; OpenAI 07.10.2026 (S. 40)"
+  }
+ ],
+ "komponenten": [
+  {
+   "id": "sn.legion.femur_cr",
+   "typ": "femur",
+   "bezeichnung": "LEGION CR Femur zementiert (CoCr oder OXINIUM)",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "kopplung": "CR",
+    "groessen": "2, 3N, 3, 4N, 4, 5N, 5, 6N, 6, 7, 8",
+    "material": "CoCr / OXINIUM (oxidiertes Zirkonium)",
+    "fixation": "zementiert"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "sl1",
+   "sicherheit": "belegt (US-Katalog)",
+   "groessen": [
+    {
+     "groesse": "2",
+     "cocr_links": "7142-3202",
+     "cocr_rechts": "7142-3212",
+     "oxinium_links": "7142-1232",
+     "oxinium_rechts": "7142-1222"
+    },
+    {
+     "groesse": "3N",
+     "cocr_links": "7193-3640",
+     "cocr_rechts": "7193-3644",
+     "oxinium_links": "7142-1243",
+     "oxinium_rechts": "7142-1253"
+    },
+    {
+     "groesse": "3",
+     "cocr_links": "7142-3203",
+     "cocr_rechts": "7142-3213",
+     "oxinium_links": "7142-1233",
+     "oxinium_rechts": "7142-1223"
+    },
+    {
+     "groesse": "4N",
+     "cocr_links": "7193-3641",
+     "cocr_rechts": "7193-3645",
+     "oxinium_links": "7142-1244",
+     "oxinium_rechts": "7142-1254"
+    },
+    {
+     "groesse": "4",
+     "cocr_links": "7142-3204",
+     "cocr_rechts": "7142-3214",
+     "oxinium_links": "7142-1234",
+     "oxinium_rechts": "7142-1224"
+    },
+    {
+     "groesse": "5N",
+     "cocr_links": "7193-3642",
+     "cocr_rechts": "7193-3646",
+     "oxinium_links": "7142-1245",
+     "oxinium_rechts": "7142-1255"
+    },
+    {
+     "groesse": "5",
+     "cocr_links": "7142-3205",
+     "cocr_rechts": "7142-3215",
+     "oxinium_links": "7142-1235",
+     "oxinium_rechts": "7142-1225"
+    },
+    {
+     "groesse": "6N",
+     "cocr_links": "7193-3643",
+     "cocr_rechts": "7193-3647",
+     "oxinium_links": "7142-1246",
+     "oxinium_rechts": "7142-1256"
+    },
+    {
+     "groesse": "6",
+     "cocr_links": "7142-3206",
+     "cocr_rechts": "7142-3216",
+     "oxinium_links": "7142-1236",
+     "oxinium_rechts": "7142-1226"
+    },
+    {
+     "groesse": "7",
+     "cocr_links": "7142-3207",
+     "cocr_rechts": "7142-3217",
+     "oxinium_links": "7142-1237",
+     "oxinium_rechts": "7142-1227"
+    },
+    {
+     "groesse": "8",
+     "cocr_links": "7142-3208",
+     "cocr_rechts": "7142-3218",
+     "oxinium_links": "7142-1238",
+     "oxinium_rechts": "7142-1228"
+    }
+   ]
+  },
+  {
+   "id": "sn.legion.femur_cr_zf",
+   "typ": "femur",
+   "bezeichnung": "LEGION CR Femur zementfrei (CoCr porös, mit/ohne HA)",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "kopplung": "CR",
+    "groessen": "2–8",
+    "fixation": "zementfrei"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "sl1",
+   "sicherheit": "belegt (US-Katalog)",
+   "groessen": [
+    {
+     "ref_schema": "ohne HA 7142-324x (L) / 7142-325x (R); mit HA 7142-520x (L) / 7142-521x (R); x = Größe",
+     "seite_quelle": "S. 40"
+    }
+   ]
+  },
+  {
+   "id": "sn.legion.femur_ps",
+   "typ": "femur",
+   "bezeichnung": "LEGION PS Femur zementiert (CoCr oder OXINIUM)",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "kopplung": "PS",
+    "groessen": "2, 3N, 3, 4N, 4, 5N, 5, 6N, 6, 7, 8",
+    "fixation": "zementiert"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "sl1",
+   "sicherheit": "belegt (US-Katalog)",
+   "groessen": [
+    {
+     "groesse": "2",
+     "cocr_links": "7142-3222",
+     "cocr_rechts": "7142-3232",
+     "oxinium_links": "7142-1212",
+     "oxinium_rechts": "7142-1202"
+    },
+    {
+     "groesse": "3N",
+     "cocr_links": "7193-3648",
+     "cocr_rechts": "7193-3652",
+     "oxinium_links": "7142-1263",
+     "oxinium_rechts": "7142-1273"
+    },
+    {
+     "groesse": "3",
+     "cocr_links": "7142-3223",
+     "cocr_rechts": "7142-3233",
+     "oxinium_links": "7142-1213",
+     "oxinium_rechts": "7142-1203"
+    },
+    {
+     "groesse": "4N",
+     "cocr_links": "7193-3649",
+     "cocr_rechts": "7193-3653",
+     "oxinium_links": "7142-1264",
+     "oxinium_rechts": "7142-1274"
+    },
+    {
+     "groesse": "4",
+     "cocr_links": "7142-3224",
+     "cocr_rechts": "7142-3234",
+     "oxinium_links": "7142-1214",
+     "oxinium_rechts": "7142-1204"
+    },
+    {
+     "groesse": "5N",
+     "cocr_links": "7193-3650",
+     "cocr_rechts": "7193-3654",
+     "oxinium_links": "7142-1265",
+     "oxinium_rechts": "7142-1275"
+    },
+    {
+     "groesse": "5",
+     "cocr_links": "7142-3225",
+     "cocr_rechts": "7142-3235",
+     "oxinium_links": "7142-1215",
+     "oxinium_rechts": "7142-1205"
+    },
+    {
+     "groesse": "6N",
+     "cocr_links": "7193-3651",
+     "cocr_rechts": "7193-3655",
+     "oxinium_links": "7142-1266",
+     "oxinium_rechts": "7142-1276"
+    },
+    {
+     "groesse": "6",
+     "cocr_links": "7142-3226",
+     "cocr_rechts": "7142-3236",
+     "oxinium_links": "7142-1216",
+     "oxinium_rechts": "7142-1206"
+    },
+    {
+     "groesse": "7",
+     "cocr_links": "7142-3227",
+     "cocr_rechts": "7142-3237",
+     "oxinium_links": "7142-1217",
+     "oxinium_rechts": "7142-1207"
+    },
+    {
+     "groesse": "8",
+     "cocr_links": "7142-3228",
+     "cocr_rechts": "7142-3238",
+     "oxinium_links": "7142-1218",
+     "oxinium_rechts": "7142-1208"
+    }
+   ]
+  },
+  {
+   "id": "sn.genesis2.tibia",
+   "typ": "tibia",
+   "bezeichnung": "LEGION/GENESIS II Tibial Baseplate zementiert (male tapered)",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "groessen": "1–8",
+    "seiten": "L/R",
+    "fixation": "zementiert"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "sl1",
+   "sicherheit": "belegt (US-Katalog)",
+   "groessen": [
+    {
+     "groesse": "1",
+     "ref_links": "7142-0160",
+     "ref_rechts": "7142-0176"
+    },
+    {
+     "groesse": "2",
+     "ref_links": "7142-0162",
+     "ref_rechts": "7142-0180"
+    },
+    {
+     "groesse": "3",
+     "ref_links": "7142-0164",
+     "ref_rechts": "7142-0182"
+    },
+    {
+     "groesse": "4",
+     "ref_links": "7142-0166",
+     "ref_rechts": "7142-0184"
+    },
+    {
+     "groesse": "5",
+     "ref_links": "7142-0168",
+     "ref_rechts": "7142-0186"
+    },
+    {
+     "groesse": "6",
+     "ref_links": "7142-0170",
+     "ref_rechts": "7142-0188"
+    },
+    {
+     "groesse": "7",
+     "ref_links": "7142-0172",
+     "ref_rechts": "7142-0190"
+    },
+    {
+     "groesse": "8",
+     "ref_links": "7142-0174",
+     "ref_rechts": "7142-0191"
+    }
+   ]
+  },
+  {
+   "id": "sn.legion.insert_cr",
+   "typ": "insert",
+   "bezeichnung": "LEGION (GENESIS II) CR Standard-Insert",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "kopplung": "CR",
+    "groessenpaare": "1-2, 3-4, 5-6, 7-8",
+    "hoehen_mm": [
+     9,
+     11,
+     13,
+     15,
+     18
+    ]
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "sl1",
+   "sicherheit": "belegt",
+   "groessen": [
+    {
+     "ref_schema": "z. B. Größe 3-4: 7142-0490 (9 mm) … 7142-0498 (18 mm)",
+     "seite_quelle": "S. 42"
+    }
+   ]
+  },
+  {
+   "id": "sn.legion.insert_crdd",
+   "typ": "insert",
+   "bezeichnung": "LEGION (GENESIS II) CR Deep Dish Insert",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "kopplung": "CR Deep Dish",
+    "hoehen_mm": [
+     9,
+     11,
+     13,
+     15,
+     18,
+     21
+    ]
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "sl1",
+   "sicherheit": "belegt",
+   "groessen": [
+    {
+     "ref_schema": "z. B. Größe 3-4: 7142-0766 (9 mm) … 7142-0776 (21 mm)",
+     "seite_quelle": "S. 42"
+    }
+   ]
+  },
+  {
+   "id": "sn.legion.insert_ps",
+   "typ": "insert",
+   "bezeichnung": "LEGION (GENESIS II) PS Insert",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "kopplung": "PS",
+    "hoehen_mm": [
+     9,
+     11,
+     13,
+     15,
+     18,
+     21,
+     25
+    ]
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "sl1",
+   "sicherheit": "belegt",
+   "groessen": [
+    {
+     "ref_schema": "z. B. Größe 3-4: 7142-0816 (9 mm) … 7142-0828 (25 mm)",
+     "seite_quelle": "S. 43"
+    }
+   ]
+  },
+  {
+   "id": "sn.legion.insert_hf_xlpe",
+   "typ": "insert",
+   "bezeichnung": "High-Flex- und XLPE-Varianten (CRHF, PSHF, CR/PS XLPE)",
+   "auswahl_dach": false,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "hinweis": "eigene REF-Reihen 7142-15xx, 7145-3xxx"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "sl1",
+   "sicherheit": "belegt",
+   "groessen": []
+  },
+  {
+   "id": "sn.genesis2.patella",
+   "typ": "patella",
+   "bezeichnung": "GENESIS II Patella (biconvex / resurfacing / oval resurfacing)",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "groessen_mm": "biconvex 23/26/29/32; resurfacing 26/29/32/35; oval 29/32/35/38/41",
+    "hinweis": "7,5-mm-Patella nur USA/Israel"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "sl1",
+   "sicherheit": "belegt",
+   "groessen": [
+    {
+     "variante": "oval resurfacing",
+     "groesse": "29–41 mm",
+     "ref": "7142-1029 / -1032 / -1035 / -1038 / -1041",
+     "seite_quelle": "S. 45"
+    }
+   ]
+  }
+ ],
+ "tabellen": {
+  "T_legion_insert": {
+   "titel": "Insert-Austauschbarkeit mit LEGION CR/PS-Femur",
+   "quelle": "sl1",
+   "seite": "S. 25",
+   "zeilen": [
+    "CR-Standard-Inserts: mit allen Femurgrößen austauschbar",
+    "Insert 1-2 PS/CRDD/PSCon: Femur 1–3; PSHF/CRHF: Femur 1–4",
+    "Insert 3-4 PS/CRDD/PSCon: Femur 2–5; PSHF/CRHF: 2–6",
+    "Insert 5-6 PS/CRDD/PSCon: Femur 4–7; PSHF/CRHF: 4–8",
+    "Insert 7-8 PS/CRDD/PSCon: Femur 6–8; PSHF/CRHF: 6–9* (*9 nur GENESIS II, eingeschränkt)"
+   ],
+   "legende": "Für GENESIS II CR/PS gleiche Austauschbarkeit, außer Constrained-Inserts (nicht mit GENESIS-II-Primärfemur)."
+  }
+ },
+ "passt_zu": [
+  {
+   "von": "sn.legion.femur_cr",
+   "zu": "sn.legion.insert_cr",
+   "status": "ja",
+   "bedingung": "alle Größen",
+   "quelle": "sl1",
+   "seite": "S. 25",
+   "tabelle": "T_legion_insert"
+  },
+  {
+   "von": "sn.legion.femur_cr",
+   "zu": "sn.legion.insert_crdd",
+   "status": "bedingt",
+   "bedingung": "Größe laut Tabelle; CRDD nur LEGION CR (nicht PS)",
+   "quelle": "sl1",
+   "seite": "S. 22/25",
+   "tabelle": "T_legion_insert"
+  },
+  {
+   "von": "sn.legion.femur_ps",
+   "zu": "sn.legion.insert_crdd",
+   "status": "nein",
+   "bedingung": "CRDD: LEGION PS „No“",
+   "quelle": "sl1",
+   "seite": "S. 22",
+   "tabelle": null
+  },
+  {
+   "von": "sn.legion.femur_ps",
+   "zu": "sn.legion.insert_ps",
+   "status": "bedingt",
+   "bedingung": "Größe laut Tabelle",
+   "quelle": "sl1",
+   "seite": "S. 25",
+   "tabelle": "T_legion_insert"
+  },
+  {
+   "von": "sn.legion.femur_cr",
+   "zu": "sn.genesis2.tibia",
+   "status": "ja",
+   "bedingung": "GENESIS II Tibial Baseplate male tapered mit LEGION CR, PS, RK",
+   "quelle": "sl1",
+   "seite": "S. 21",
+   "tabelle": null
+  },
+  {
+   "von": "sn.legion.femur_ps",
+   "zu": "sn.genesis2.tibia",
+   "status": "ja",
+   "bedingung": "wie oben",
+   "quelle": "sl1",
+   "seite": "S. 21",
+   "tabelle": null
+  },
+  {
+   "von": "sn.legion.insert_cr",
+   "zu": "sn.genesis2.tibia",
+   "status": "offen",
+   "bedingung": "Größenregel Insert ↔ Baseplate im Katalog nicht ausdrücklich gefunden",
+   "quelle": "sl1",
+   "seite": "–",
+   "tabelle": null
+  }
+ ],
+ "regeln": [
+  {
+   "wenn": "insert",
+   "pruefe": "Größenpaar",
+   "text": "Insert-Größenpaar (1-2, 3-4 …) gegen Femurgröße laut Tabelle S. 25 prüfen; CR-Standard frei.",
+   "quelle": "sl1 S. 25"
+  },
+  {
+   "wenn": "markt",
+   "pruefe": "US-Katalog",
+   "text": "Verfügbarkeit länderabhängig; 7,5-mm-Patella nur USA/Israel.",
+   "quelle": "sl1 S. 1/45"
+  }
+ ],
+ "rueckrufe": [],
+ "offen": [
+  "Nur US-Katalog 02/2015 – EU-Katalog/IFU offen.",
+  "Insert ↔ Tibia-Baseplate-Größenregel nicht ausdrücklich gefunden.",
+  "Zuordnung Standard-CR/PS-Insert zu Femurtyp in Tabelle S. 22 mehrdeutig – Hersteller fragen.",
+  "GENESIS II Femur (eigene Komponente, EPRD Rang 10) nicht separat ausgewertet."
+ ],
+ "verified_hinweis": "Neuanlage 08.10.2026 aus LEGION Spec Guide/Katalog 02/15 (US). verified: false.",
+ "region": "knie",
+ "verified": false,
+ "stand_extrakt": "2026-10-08",
+ "hinweise": [
+  "Vor dem Öffnen Komponente, Seite, Größe, Typ und Insert-Höhe laut ansagen; Herstellerdokument und aktuelle EU-IFU maßgeblich.",
+  "Systeme nicht mischen – Registerbeobachtungen sind keine Freigabe.",
+  "Nicht dokumentierte Kombinationen: offen – Operateur bzw. Hersteller fragen."
+ ],
+ "aenderungsprotokoll": [
+  {
+   "version": "1.0",
+   "datum": "2026-10-08",
+   "lauf": "002-knie-tep",
+   "text": "Neuanlage aus Hersteller-Originalen (Grok); Systemauswahl nach EPRD/SIRIS."
+  }
+ ]
+}

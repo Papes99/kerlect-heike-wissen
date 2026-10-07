@@ -1,0 +1,500 @@
+{
+ "hersteller": "Zimmer Biomet",
+ "system": "Persona The Personalized Knee (primär: CR, MC, UC, PS, CPS)",
+ "version": "1.0",
+ "quellen": [
+  {
+   "id": "zp1",
+   "dokument": "Persona The Personalized Knee – Surgical Technique",
+   "stand": "3914.1-GLBL-en, Issue Date 2022-08 (MC258599)",
+   "seiten": "PDF-S. 4 Indikation/Fixation; S. 5 Kopplung; S. 6 Blutsperre; S. 31 Patella; S. 34/36 Standard/Narrow; S. 44 Insert-Höhen; S. 47–50 Implantation + REF-Beispiele; S. 70–72 Kompatibilität (gedruckt = PDF − 2)",
+   "url": "https://assets.ctfassets.net/rc4arfpyhdpw/6R1FpGyC07WTfcszrO2MKP/710ce1e70eb68bda7a449e07909f4859/persona-the-personalized-knee-surgical-technique1.pdf",
+   "markt": "global (englisch), Legal Manufacturer Zimmer Inc. USA; EU-IFU nicht gelesen",
+   "gelesen_von": "Grok 08.10.2026; REF-Beispiele auch in pruefung/002-openai.md (OpenAI 07.10.2026)"
+  }
+ ],
+ "komponenten": [
+  {
+   "id": "zb.persona.femur_cr",
+   "typ": "femur",
+   "bezeichnung": "Persona CR Femurkomponente",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "kopplung": "CR",
+    "groessen": "1–12",
+    "profile": "Größe 1–2 nur narrow, 12 nur standard, 3–11 standard und narrow",
+    "seiten": "links/rechts",
+    "fixation": "zementiert; poröse Variante zementiert oder zementfrei (PDF-S. 4)"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "zp1",
+   "sicherheit": "belegt (Original, 1 Prüfer)",
+   "groessen": [
+    {
+     "groesse": "7",
+     "seite": "rechts",
+     "ref": "42-5026-062-02",
+     "seite_quelle": "PDF-S. 48"
+    }
+   ]
+  },
+  {
+   "id": "zb.persona.femur_ps",
+   "typ": "femur",
+   "bezeichnung": "Persona PS Femurkomponente",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "kopplung": "PS",
+    "groessen": "1–12",
+    "profile": "wie CR (PDF-S. 36)",
+    "seiten": "links/rechts",
+    "fixation": "zementiert; poröse Variante zementiert oder zementfrei"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "zp1",
+   "sicherheit": "belegt (Original, 1 Prüfer)",
+   "groessen": [
+    {
+     "groesse": "7",
+     "seite": "rechts",
+     "ref": "42-5006-062-02",
+     "seite_quelle": "PDF-S. 48"
+    }
+   ]
+  },
+  {
+   "id": "zb.persona.tibia",
+   "typ": "tibia",
+   "bezeichnung": "Persona Tibiakomponente (u. a. Stemmed Cemented)",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "groessen": "A, B, C, D, E, F, G, H, J (Farbcodes Orange/Gelb/Grün/Blau/Grau je Paar)",
+    "seiten": "links/rechts",
+    "fixation": "nicht-poröse zementiert; poröse zementiert oder zementfrei"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "zp1",
+   "sicherheit": "belegt (Original, 1 Prüfer)",
+   "groessen": [
+    {
+     "groesse": "F",
+     "seite": "rechts",
+     "variante": "Stemmed Cemented",
+     "ref": "42-5320-075-02",
+     "seite_quelle": "PDF-S. 47/49"
+    }
+   ]
+  },
+  {
+   "id": "zb.persona.insert_cr",
+   "typ": "insert",
+   "bezeichnung": "Persona CR Tibial Articular Surface",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "kopplung": "CR",
+    "hoehen_mm": "10–18 (15 nicht erhältlich)",
+    "bezeichnung_groesse": "Femurbereich/Tibiapaar, z. B. 3-11/EF"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "zp1",
+   "sicherheit": "belegt",
+   "groessen": [
+    {
+     "groesse": "3-11/EF",
+     "seite": "rechts",
+     "ref": "42-5210-005-10",
+     "seite_quelle": "PDF-S. 49"
+    }
+   ]
+  },
+  {
+   "id": "zb.persona.insert_mc",
+   "typ": "insert",
+   "bezeichnung": "Persona MC (Medial Congruent) Tibial Articular Surface",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "kopplung": "MC",
+    "hoehen_mm": "10–20 (15, 17, 19 nicht erhältlich)",
+    "hkb": "mit oder ohne HKB"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "zp1",
+   "sicherheit": "belegt",
+   "groessen": [
+    {
+     "groesse": "6-7/EF",
+     "seite": "rechts",
+     "ref": "42-5221-007-10",
+     "seite_quelle": "PDF-S. 49"
+    }
+   ]
+  },
+  {
+   "id": "zb.persona.insert_uc",
+   "typ": "insert",
+   "bezeichnung": "Persona UC (Ultracongruent) Tibial Articular Surface",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "kopplung": "UC",
+    "hoehen_mm": "10–20 (15, 17, 19 nicht erhältlich)",
+    "hkb": "nicht bei vorhandenem HKB",
+    "hinweis": "nur In-vivo-Montage empfohlen (PDF-S. 49)"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "zp1",
+   "sicherheit": "belegt",
+   "groessen": [
+    {
+     "groesse": "4-11/EF",
+     "seite": "rechts",
+     "ref": "42-5212-005-10",
+     "seite_quelle": "PDF-S. 49"
+    }
+   ]
+  },
+  {
+   "id": "zb.persona.insert_ps",
+   "typ": "insert",
+   "bezeichnung": "Persona PS Tibial Articular Surface",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "kopplung": "PS",
+    "hoehen_mm": "10–20 (15, 17, 19 nicht erhältlich)"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "zp1",
+   "sicherheit": "belegt",
+   "groessen": [
+    {
+     "groesse": "6-9/EF",
+     "seite": "rechts",
+     "ref": "42-5214-007-10",
+     "seite_quelle": "PDF-S. 49"
+    }
+   ]
+  },
+  {
+   "id": "zb.persona.insert_cps",
+   "typ": "insert",
+   "bezeichnung": "Persona CPS (Constrained Posterior Stabilized) Articular Surface",
+   "auswahl_dach": false,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "kopplung": "CPS",
+    "hinweis": "nur mit zementierten nicht-porösen Femur- und Tibiakomponenten; eigene OP-Technik 97-5026-072-00"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "zp1",
+   "sicherheit": "belegt (Regeltext); REF nicht gesehen",
+   "groessen": []
+  },
+  {
+   "id": "zb.persona.patella",
+   "typ": "patella",
+   "bezeichnung": "Persona All-Poly Patella (Standard)",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "groessen_mm": [
+     "26 × 7,5",
+     "29 × 8,0",
+     "32 × 8,5",
+     "35 × 9,0",
+     "38 × 9,5",
+     "41 × 10,0"
+    ],
+    "fixation": "nur zementiert",
+    "inset": "26 mm immer inset; 29/32 mm inset bei PS-Femur 10–12"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "zp1",
+   "sicherheit": "belegt",
+   "groessen": [
+    {
+     "groesse": "32 mm",
+     "ref": "42-5400-000-32",
+     "seite_quelle": "PDF-S. 50"
+    }
+   ]
+  }
+ ],
+ "tabellen": {
+  "T_persona_cr": {
+   "titel": "CR-Femur / CR-Insert / Tibia",
+   "quelle": "zp1",
+   "seite": "PDF-S. 70",
+   "zeilen": [
+    "Tibia A–B: Femur 1–2 (Insert 1-2/AB), Femur 3–6 (3-6/AB)",
+    "Tibia C–D: Femur 1–2 (1-2/CD), Femur 3–9 (3-9/CD)",
+    "Tibia E–F: Femur 3–11 (3-11/EF)",
+    "Tibia G–H: Femur 7–12 (7-12/GH)",
+    "Tibia J: Femur 9–12 (9-12/J)"
+   ],
+   "legende": "Aus PDF-Text extrahiert; vor App-Nutzung am Original gegenprüfen."
+  },
+  "T_persona_mc": {
+   "titel": "CR-Femur / MC-Insert / Tibia",
+   "quelle": "zp1",
+   "seite": "PDF-S. 70",
+   "zeilen": [
+    "Tibia A–B: Femur 1–2, 3–4",
+    "Tibia C–D: Femur 4–5, 6–7, 8–9",
+    "Tibia E–F: Femur 4–5, 6–7, 8–11",
+    "Tibia G–H: Femur 8–11, 12",
+    "Tibia J: Femur 12"
+   ],
+   "legende": "Aus PDF-Text extrahiert; Spaltenzuordnung am Original prüfen."
+  },
+  "T_persona_uc": {
+   "titel": "CR-Femur / UC-Insert / Tibia",
+   "quelle": "zp1",
+   "seite": "PDF-S. 70",
+   "zeilen": [
+    "Tibia A–B: Femur 1–2, 3–4",
+    "Tibia C–D: Femur 1–2, 3–7",
+    "Tibia E–F: Femur 4–11",
+    "Tibia G–H: Femur 7–12",
+    "Tibia J: Femur 9–12"
+   ],
+   "legende": "Aus PDF-Text extrahiert."
+  },
+  "T_persona_ps_cps": {
+   "titel": "PS-Femur / PS- bzw. CPS-Insert / Tibia (identisch)",
+   "quelle": "zp1",
+   "seite": "PDF-S. 71",
+   "zeilen": [
+    "Tibia A–B: Femur 1–2, 3–5",
+    "Tibia C–D: Femur 1–2, 3–5, 6–9",
+    "Tibia E–F: Femur 3–5, 6–9, 10–11",
+    "Tibia G–H: Femur 6–9, 10–12",
+    "Tibia J: Femur 10–12"
+   ],
+   "legende": "Aus PDF-Text extrahiert."
+  }
+ },
+ "passt_zu": [
+  {
+   "von": "zb.persona.femur_cr",
+   "zu": "zb.persona.insert_cr",
+   "status": "bedingt",
+   "bedingung": "HKB intakt; Größe laut T_persona_cr",
+   "quelle": "zp1",
+   "seite": "PDF-S. 5/70",
+   "tabelle": "T_persona_cr"
+  },
+  {
+   "von": "zb.persona.femur_cr",
+   "zu": "zb.persona.insert_mc",
+   "status": "bedingt",
+   "bedingung": "mit oder ohne HKB; Größe laut T_persona_mc",
+   "quelle": "zp1",
+   "seite": "PDF-S. 5–6/70",
+   "tabelle": "T_persona_mc"
+  },
+  {
+   "von": "zb.persona.femur_cr",
+   "zu": "zb.persona.insert_uc",
+   "status": "bedingt",
+   "bedingung": "nur bei reseziertem/insuffizientem HKB; Größe laut T_persona_uc",
+   "quelle": "zp1",
+   "seite": "PDF-S. 5–6/70",
+   "tabelle": "T_persona_uc"
+  },
+  {
+   "von": "zb.persona.femur_cr",
+   "zu": "zb.persona.insert_ps",
+   "status": "nein",
+   "bedingung": "CR-Femur nicht mit PS- oder CPS-Insert",
+   "quelle": "zp1",
+   "seite": "PDF-S. 5",
+   "tabelle": null
+  },
+  {
+   "von": "zb.persona.femur_cr",
+   "zu": "zb.persona.insert_cps",
+   "status": "nein",
+   "bedingung": "CR-Femur nicht mit PS- oder CPS-Insert",
+   "quelle": "zp1",
+   "seite": "PDF-S. 5",
+   "tabelle": null
+  },
+  {
+   "von": "zb.persona.femur_ps",
+   "zu": "zb.persona.insert_ps",
+   "status": "bedingt",
+   "bedingung": "Größe laut T_persona_ps_cps",
+   "quelle": "zp1",
+   "seite": "PDF-S. 5/71",
+   "tabelle": "T_persona_ps_cps"
+  },
+  {
+   "von": "zb.persona.femur_ps",
+   "zu": "zb.persona.insert_cps",
+   "status": "bedingt",
+   "bedingung": "nur zementierte nicht-poröse Femur- und Tibiakomponenten",
+   "quelle": "zp1",
+   "seite": "PDF-S. 5/71",
+   "tabelle": "T_persona_ps_cps"
+  },
+  {
+   "von": "zb.persona.femur_ps",
+   "zu": "zb.persona.insert_cr",
+   "status": "nein",
+   "bedingung": "PS-Femur nicht mit CR-, MC- oder UC-Insert",
+   "quelle": "zp1",
+   "seite": "PDF-S. 5",
+   "tabelle": null
+  },
+  {
+   "von": "zb.persona.femur_ps",
+   "zu": "zb.persona.insert_mc",
+   "status": "nein",
+   "bedingung": "PS-Femur nicht mit CR-, MC- oder UC-Insert",
+   "quelle": "zp1",
+   "seite": "PDF-S. 5",
+   "tabelle": null
+  },
+  {
+   "von": "zb.persona.femur_ps",
+   "zu": "zb.persona.insert_uc",
+   "status": "nein",
+   "bedingung": "PS-Femur nicht mit CR-, MC- oder UC-Insert",
+   "quelle": "zp1",
+   "seite": "PDF-S. 5",
+   "tabelle": null
+  },
+  {
+   "von": "zb.persona.patella",
+   "zu": "zb.persona.femur_ps",
+   "status": "bedingt",
+   "bedingung": "29/32 mm bei PS-Femur 10–12 nur inset; 26 mm immer inset",
+   "quelle": "zp1",
+   "seite": "PDF-S. 31",
+   "tabelle": null
+  }
+ ],
+ "regeln": [
+  {
+   "wenn": "insert",
+   "pruefe": "femur.kopplung passt",
+   "text": "PS-Femur nur mit PS/CPS; CR-Femur mit CR/MC/UC (UC nur ohne HKB).",
+   "quelle": "zp1 PDF-S. 5"
+  },
+  {
+   "wenn": "insert",
+   "pruefe": "hoehe in 10,11,12,13,14,16,18,20",
+   "text": "CR maximal 18 mm; 15/17/19 mm nicht erhältlich.",
+   "quelle": "zp1 PDF-S. 44"
+  },
+  {
+   "wenn": "insert",
+   "pruefe": "nicht wiederverwenden",
+   "text": "Insert nur einmal einsetzen, nie erneut auf eine Tibia setzen.",
+   "quelle": "zp1 PDF-S. 48"
+  },
+  {
+   "wenn": "alle",
+   "pruefe": "Kompatibilität vor Implantation",
+   "text": "Vor dem Implantieren prüfen, dass alle Komponenten kompatibel sind.",
+   "quelle": "zp1 PDF-S. 47"
+  },
+  {
+   "wenn": "reihenfolge",
+   "pruefe": "femur.kopplung",
+   "text": "CR-Femur: Tibia zuerst; PS-Femur: Femur zuerst (Technik-Empfehlung).",
+   "quelle": "zp1 PDF-S. 49"
+  },
+  {
+   "wenn": "zement",
+   "pruefe": "Portionen",
+   "text": "Bei zementierten Komponenten zwei Zementportionen empfohlen; Zement nach Hersteller-IFU.",
+   "quelle": "zp1 PDF-S. 47"
+  }
+ ],
+ "rueckrufe": [],
+ "offen": [
+  "EU-IFU/Packungsbeilage nicht gelesen; nur globale OP-Technik 2022-08.",
+  "Vollständige REF-Matrix (alle Größen/Seiten/Höhen) nicht übernommen – nur Beispiele aus der OP-Technik.",
+  "Porous-/Trabecular-Metal-Varianten: Bezeichnungen und REF offen.",
+  "Kreuzkompatibilität Persona-CR-Femur mit NexGen-Tibia/Inserts (PDF-S. 72) nicht übernommen.",
+  "Personalized-Alignment-Technik laut Dokument in der EU nicht lizenziert (PDF-S. 4)."
+ ],
+ "verified_hinweis": "Neuanlage 08.10.2026 aus Persona-OP-Technik 2022-08. verified: false. Tabellen aus PDF-Text extrahiert – am Original gegenprüfen.",
+ "region": "knie",
+ "verified": false,
+ "stand_extrakt": "2026-10-08",
+ "hinweise": [
+  "Vor dem Öffnen Komponente, Seite, Größe, Typ und Insert-Höhe laut ansagen; Herstellerdokument und aktuelle EU-IFU maßgeblich.",
+  "Systeme nicht mischen – Registerbeobachtungen sind keine Freigabe.",
+  "Nicht dokumentierte Kombinationen: offen – Operateur bzw. Hersteller fragen."
+ ],
+ "aenderungsprotokoll": [
+  {
+   "version": "1.0",
+   "datum": "2026-10-08",
+   "lauf": "002-knie-tep",
+   "text": "Neuanlage aus Hersteller-Originalen (Grok); Systemauswahl nach EPRD/SIRIS."
+  }
+ ]
+}

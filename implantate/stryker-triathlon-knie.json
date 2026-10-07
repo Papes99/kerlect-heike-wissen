@@ -1,0 +1,628 @@
+{
+ "hersteller": "Stryker",
+ "system": "Triathlon Knee System (primär: CR, CS, PS, PSR; Tritanium)",
+ "version": "1.0",
+ "quellen": [
+  {
+   "id": "st1",
+   "dokument": "Triathlon Knee System – Surgical protocol compendium",
+   "stand": "TRIATH-SP-30_Rev-1_29865, © 2021",
+   "seiten": "S. 2 Kompatibilität; S. 3 Indikationen; S. 44 Patella-Probeteile; S. 57–60 Implantat-REF; S. 310 Tritanium-Baseplate",
+   "url": "https://www.stryker.com/content/dam/stryker/joint-replacement/training-and-education/orthopaedic-fellows-summit/resources/1--knees/3.pdf",
+   "markt": "Sammel-Dokument (US und Rest der Welt); einzelne Produkte laut Dokument nicht CE-gekennzeichnet (z. B. Screw-Fix-Baseplate)",
+   "gelesen_von": "Grok 08.10.2026; REF-Beispiele auch OpenAI 07.10.2026"
+  }
+ ],
+ "komponenten": [
+  {
+   "id": "stryker.triathlon.femur_cr_zem",
+   "typ": "femur",
+   "bezeichnung": "Triathlon CR Femoral Component – zementiert",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "kopplung": "CR",
+    "groessen": "1–8",
+    "seiten": "L (X01) / R (X02)",
+    "fixation": "zementiert"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "st1",
+   "sicherheit": "belegt",
+   "groessen": [
+    {
+     "ref_schema": "5510-F-X01 (links) / 5510-F-X02 (rechts), X = Größe 1–8",
+     "beispiel": "5510-F-401 / 5510-F-402 = Größe 4",
+     "seite_quelle": "S. 57"
+    }
+   ]
+  },
+  {
+   "id": "stryker.triathlon.femur_cr_zf",
+   "typ": "femur",
+   "bezeichnung": "Triathlon CR Femoral Component – zementfrei Beaded mit Peri-Apatite",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "kopplung": "CR",
+    "groessen": "1–8",
+    "fixation": "zementfrei – nicht mit Zement verwenden"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "st1",
+   "sicherheit": "belegt",
+   "groessen": [
+    {
+     "ref_schema": "5517-F-X01 / 5517-F-X02",
+     "seite_quelle": "S. 57"
+    }
+   ]
+  },
+  {
+   "id": "stryker.triathlon.femur_ps_zem",
+   "typ": "femur",
+   "bezeichnung": "Triathlon PS Femoral Component – zementiert",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "kopplung": "PS",
+    "groessen": "1–8",
+    "fixation": "zementiert"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "st1",
+   "sicherheit": "belegt",
+   "groessen": [
+    {
+     "ref_schema": "5515-F-X01 / 5515-F-X02",
+     "seite_quelle": "S. 57"
+    }
+   ]
+  },
+  {
+   "id": "stryker.triathlon.femur_ps_zf",
+   "typ": "femur",
+   "bezeichnung": "Triathlon PS Femoral Component – zementfrei Beaded mit Peri-Apatite",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "kopplung": "PS",
+    "groessen": "1–8",
+    "fixation": "zementfrei"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "st1",
+   "sicherheit": "belegt",
+   "groessen": [
+    {
+     "ref_schema": "5516-F-X01 / 5516-F-X02",
+     "seite_quelle": "S. 57"
+    }
+   ]
+  },
+  {
+   "id": "stryker.triathlon.tibia_primary_zem",
+   "typ": "tibia",
+   "bezeichnung": "Triathlon Primary Tibial Baseplate – zementiert",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "groessen": "0–8",
+    "fixation": "zementiert"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "st1",
+   "sicherheit": "belegt",
+   "groessen": [
+    {
+     "ref_schema": "5520-B-X00",
+     "beispiel": "5520-B-400 = Größe 4",
+     "seite_quelle": "S. 57"
+    }
+   ]
+  },
+  {
+   "id": "stryker.triathlon.tibia_primary_pa",
+   "typ": "tibia",
+   "bezeichnung": "Triathlon Primary Tibial Baseplate – Beaded mit Peri-Apatite",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "groessen": "1–8",
+    "fixation": "zementfrei"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "st1",
+   "sicherheit": "belegt",
+   "groessen": [
+    {
+     "ref_schema": "5526-B-X00",
+     "seite_quelle": "S. 57"
+    }
+   ]
+  },
+  {
+   "id": "stryker.triathlon.tibia_tritanium",
+   "typ": "tibia",
+   "bezeichnung": "Triathlon Tritanium Baseplate",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "groessen": "0–8",
+    "fixation": "zementfrei und zementiert (Indikation S. 3)"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "st1",
+   "sicherheit": "belegt",
+   "groessen": [
+    {
+     "ref_schema": "5536-B-X00",
+     "seite_quelle": "S. 310"
+    }
+   ]
+  },
+  {
+   "id": "stryker.triathlon.insert_cr",
+   "typ": "insert",
+   "bezeichnung": "Triathlon CR Tibial Insert (konventionelles PE / X3)",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "kopplung": "CR",
+    "hoehen_mm": [
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     16,
+     19
+    ],
+    "groessen": "PE 1–8; X3 0–8 (19 mm ohne Größe 0)"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "st1",
+   "sicherheit": "belegt",
+   "groessen": [
+    {
+     "ref_schema": "5530-P-XNN (PE), 5530-G-XNN bzw. 5530-G-XNN-E (X3); NN = Höhe",
+     "beispiel": "5530-G-409-E = Größe 4, 9 mm X3",
+     "seite_quelle": "S. 58"
+    }
+   ]
+  },
+  {
+   "id": "stryker.triathlon.insert_cs",
+   "typ": "insert",
+   "bezeichnung": "Triathlon CS Tibial Insert (PE / X3)",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "kopplung": "CS",
+    "hoehen_mm": [
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     16,
+     19,
+     22
+    ]
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "st1",
+   "sicherheit": "belegt",
+   "groessen": [
+    {
+     "ref_schema": "5531-P-XNN / 5531-G-XNN(-E)",
+     "seite_quelle": "S. 59"
+    }
+   ]
+  },
+  {
+   "id": "stryker.triathlon.insert_ps",
+   "typ": "insert",
+   "bezeichnung": "Triathlon PS Tibial Insert (PE / X3)",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "kopplung": "PS",
+    "hoehen_mm": [
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     16,
+     19,
+     22
+    ],
+    "groessen": "PE 1–8; X3 0–8 (22 mm ohne 0)"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "st1",
+   "sicherheit": "belegt",
+   "groessen": [
+    {
+     "ref_schema": "5532-P-XNN / 5532-G-XNN(-E)",
+     "seite_quelle": "S. 59–60"
+    }
+   ]
+  },
+  {
+   "id": "stryker.triathlon.insert_psr",
+   "typ": "insert",
+   "bezeichnung": "Triathlon PSR Tibial Insert",
+   "auswahl_dach": false,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "kopplung": "PSR",
+    "hinweis": "PS-Probeinsert darf zum Trial für PSR verwendet werden (S. 2)"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "st1",
+   "sicherheit": "belegt (Tabelle); REF nicht übernommen",
+   "groessen": []
+  },
+  {
+   "id": "stryker.triathlon.patella_sym",
+   "typ": "patella",
+   "bezeichnung": "Triathlon Symmetric Patella (PE / X3)",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "groessen_mm": [
+     "27 × 8",
+     "29 × 8",
+     "31 × 9",
+     "33 × 9",
+     "36 × 10",
+     "39 × 11"
+    ]
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "st1",
+   "sicherheit": "belegt",
+   "groessen": [
+    {
+     "ref_schema": "5550-L-DDT (PE), 5550-G-DDT(-E) (X3)",
+     "beispiel": "5550-L-278 = 27 mm × 8 mm",
+     "seite_quelle": "S. 60"
+    }
+   ]
+  },
+  {
+   "id": "stryker.triathlon.patella_asym",
+   "typ": "patella",
+   "bezeichnung": "Triathlon Asymmetric Patella",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "groessen_mm": [
+     "29×33×9",
+     "32×36×10",
+     "35×39×10",
+     "38×42×11",
+     "40×44×11 (S/I × M/L × Höhe, laut Probeteilen)"
+    ]
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "st1",
+   "sicherheit": "belegt (Probeteile S. 44); Implantat-REF nicht übernommen",
+   "groessen": []
+  }
+ ],
+ "tabellen": {
+  "T_tri_femur_insert": {
+   "titel": "Femur / Insert-Typ",
+   "quelle": "st1",
+   "seite": "S. 2",
+   "zeilen": [
+    "CR zementiert: CR ja, CS ja, PS nein, PSR nein, TS nein",
+    "PS zementiert: CR nein, CS ja, PS ja, PSR ja, TS ja",
+    "TS zementiert: CR nein, CS nein, PS ja, PSR ja, TS ja",
+    "CR Beaded PA (zementfrei): CR ja, CS ja, PS/PSR/TS nein",
+    "PS Beaded PA (zementfrei): CR nein, CS nein, PS ja, PSR ja, TS ja"
+   ],
+   "legende": "Größenregel: Femur eine Größe auf/ab zu Insert/Baseplate (z. B. Femur 5 mit Insert/Baseplate 4 oder 6). Gilt für X3-Inserts mit REF-Endung E."
+  },
+  "T_tri_baseplate_insert": {
+   "titel": "Baseplate / Insert-Typ",
+   "quelle": "st1",
+   "seite": "S. 2",
+   "zeilen": [
+    "Cemented Primary: CR, CS, PS, PSR ja; TS nein",
+    "Cemented Universal: CR, CS, PS, PSR, TS ja",
+    "Beaded PA Primary: CR, CS, PS, PSR ja; TS nein",
+    "Beaded PA Screw Fix*: CR, CS, PS, PSR ja; TS nein (*nicht CE-gekennzeichnet)",
+    "Tritanium: CR, CS, PS, PSR ja; TS nein"
+   ],
+   "legende": "Größenregel: Insert nur mit Baseplate gleicher Größe."
+  },
+  "T_tri_patella": {
+   "titel": "Femur / Patella",
+   "quelle": "st1",
+   "seite": "S. 2",
+   "zeilen": [
+    "Jede Patella (asymmetrisch, symmetrisch, jeweils auch metal-backed) artikuliert mit jedem Femur (CR/PS/TS, zementiert/zementfrei)"
+   ],
+   "legende": "gemeinsamer Radius über alle Größen"
+  }
+ },
+ "passt_zu": [
+  {
+   "von": "stryker.triathlon.femur_cr_zem",
+   "zu": "stryker.triathlon.insert_cr",
+   "status": "bedingt",
+   "bedingung": "Größe ±1 zum Insert",
+   "quelle": "st1",
+   "seite": "S. 2",
+   "tabelle": "T_tri_femur_insert"
+  },
+  {
+   "von": "stryker.triathlon.femur_cr_zem",
+   "zu": "stryker.triathlon.insert_cs",
+   "status": "bedingt",
+   "bedingung": "Größe ±1",
+   "quelle": "st1",
+   "seite": "S. 2",
+   "tabelle": "T_tri_femur_insert"
+  },
+  {
+   "von": "stryker.triathlon.femur_cr_zem",
+   "zu": "stryker.triathlon.insert_ps",
+   "status": "nein",
+   "bedingung": "laut Tabelle",
+   "quelle": "st1",
+   "seite": "S. 2",
+   "tabelle": "T_tri_femur_insert"
+  },
+  {
+   "von": "stryker.triathlon.femur_ps_zem",
+   "zu": "stryker.triathlon.insert_ps",
+   "status": "bedingt",
+   "bedingung": "Größe ±1",
+   "quelle": "st1",
+   "seite": "S. 2",
+   "tabelle": "T_tri_femur_insert"
+  },
+  {
+   "von": "stryker.triathlon.femur_ps_zem",
+   "zu": "stryker.triathlon.insert_cs",
+   "status": "bedingt",
+   "bedingung": "Größe ±1",
+   "quelle": "st1",
+   "seite": "S. 2",
+   "tabelle": "T_tri_femur_insert"
+  },
+  {
+   "von": "stryker.triathlon.femur_ps_zem",
+   "zu": "stryker.triathlon.insert_cr",
+   "status": "nein",
+   "bedingung": "laut Tabelle",
+   "quelle": "st1",
+   "seite": "S. 2",
+   "tabelle": "T_tri_femur_insert"
+  },
+  {
+   "von": "stryker.triathlon.femur_cr_zf",
+   "zu": "stryker.triathlon.insert_cr",
+   "status": "bedingt",
+   "bedingung": "Größe ±1; Femur nicht zementieren",
+   "quelle": "st1",
+   "seite": "S. 2",
+   "tabelle": "T_tri_femur_insert"
+  },
+  {
+   "von": "stryker.triathlon.femur_cr_zf",
+   "zu": "stryker.triathlon.insert_cs",
+   "status": "bedingt",
+   "bedingung": "Größe ±1",
+   "quelle": "st1",
+   "seite": "S. 2",
+   "tabelle": "T_tri_femur_insert"
+  },
+  {
+   "von": "stryker.triathlon.femur_ps_zf",
+   "zu": "stryker.triathlon.insert_ps",
+   "status": "bedingt",
+   "bedingung": "Größe ±1",
+   "quelle": "st1",
+   "seite": "S. 2",
+   "tabelle": "T_tri_femur_insert"
+  },
+  {
+   "von": "stryker.triathlon.femur_ps_zf",
+   "zu": "stryker.triathlon.insert_cs",
+   "status": "nein",
+   "bedingung": "laut Tabelle (CS nein bei PS Beaded PA)",
+   "quelle": "st1",
+   "seite": "S. 2",
+   "tabelle": "T_tri_femur_insert"
+  },
+  {
+   "von": "stryker.triathlon.insert_cr",
+   "zu": "stryker.triathlon.tibia_primary_zem",
+   "status": "bedingt",
+   "bedingung": "gleiche Größe",
+   "quelle": "st1",
+   "seite": "S. 2",
+   "tabelle": "T_tri_baseplate_insert"
+  },
+  {
+   "von": "stryker.triathlon.insert_ps",
+   "zu": "stryker.triathlon.tibia_primary_zem",
+   "status": "bedingt",
+   "bedingung": "gleiche Größe",
+   "quelle": "st1",
+   "seite": "S. 2",
+   "tabelle": "T_tri_baseplate_insert"
+  },
+  {
+   "von": "stryker.triathlon.insert_cs",
+   "zu": "stryker.triathlon.tibia_tritanium",
+   "status": "bedingt",
+   "bedingung": "gleiche Größe",
+   "quelle": "st1",
+   "seite": "S. 2",
+   "tabelle": "T_tri_baseplate_insert"
+  },
+  {
+   "von": "stryker.triathlon.patella_sym",
+   "zu": "stryker.triathlon.femur_cr_zem",
+   "status": "ja",
+   "bedingung": "alle Größen",
+   "quelle": "st1",
+   "seite": "S. 2",
+   "tabelle": "T_tri_patella"
+  },
+  {
+   "von": "stryker.triathlon.patella_asym",
+   "zu": "stryker.triathlon.femur_ps_zem",
+   "status": "ja",
+   "bedingung": "alle Größen",
+   "quelle": "st1",
+   "seite": "S. 2",
+   "tabelle": "T_tri_patella"
+  }
+ ],
+ "regeln": [
+  {
+   "wenn": "insert",
+   "pruefe": "insert.groesse == baseplate.groesse",
+   "text": "Insert nur mit Baseplate gleicher Größe.",
+   "quelle": "st1 S. 2"
+  },
+  {
+   "wenn": "femur",
+   "pruefe": "|femur.groesse − insert.groesse| ≤ 1",
+   "text": "Femur eine Größe auf oder ab zu Insert/Baseplate.",
+   "quelle": "st1 S. 2"
+  },
+  {
+   "wenn": "insert",
+   "pruefe": "REF endet auf -E",
+   "text": "Kompatibilitätstabelle gilt für X3-Inserts mit REF-Endung E; andere beim Hersteller klären.",
+   "quelle": "st1 S. 2"
+  },
+  {
+   "wenn": "femur",
+   "pruefe": "zementfrei",
+   "text": "Zementfreie Femurkomponenten nicht mit Zement verwenden.",
+   "quelle": "st1 S. 2"
+  },
+  {
+   "wenn": "insert",
+   "pruefe": "TS",
+   "text": "TS-Insert nur mit Cemented Universal Baseplate (Revision, nicht Primärstandard).",
+   "quelle": "st1 S. 2"
+  }
+ ],
+ "rueckrufe": [],
+ "offen": [
+  "Aktuelle EU-IFU nicht gelesen.",
+  "Asymmetrische und metal-backed Patella: Implantat-REF nicht übernommen.",
+  "PSR- und TS-Implantat-REF nicht übernommen (TS = Revision).",
+  "Volle REF-Liste je Größe nicht als Tabelle übernommen – nur Schema mit X."
+ ],
+ "verified_hinweis": "Neuanlage 08.10.2026 aus Triathlon-Kompendium (Rev. 1, © 2021). verified: false.",
+ "region": "knie",
+ "verified": false,
+ "stand_extrakt": "2026-10-08",
+ "hinweise": [
+  "Vor dem Öffnen Komponente, Seite, Größe, Typ und Insert-Höhe laut ansagen; Herstellerdokument und aktuelle EU-IFU maßgeblich.",
+  "Systeme nicht mischen – Registerbeobachtungen sind keine Freigabe.",
+  "Nicht dokumentierte Kombinationen: offen – Operateur bzw. Hersteller fragen.",
+  "REF-Schema: X = Größe, NN = Höhe in mm; Endung -E bei X3 beachten."
+ ],
+ "aenderungsprotokoll": [
+  {
+   "version": "1.0",
+   "datum": "2026-10-08",
+   "lauf": "002-knie-tep",
+   "text": "Neuanlage aus Hersteller-Originalen (Grok); Systemauswahl nach EPRD/SIRIS."
+  }
+ ]
+}

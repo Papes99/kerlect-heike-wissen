@@ -1,0 +1,2120 @@
+{
+ "paket": "heike-wissen-002",
+ "typ": "eingriff",
+ "version": "1.0",
+ "stand": "2026-10-08",
+ "basis": "heike-wissen-000",
+ "autor": "Grok (heikes Helferchen) im Auftrag von Julian, Neuanlage 08.10.2026; Prüfrunde und klinisches Review durch Julian offen",
+ "eingriff": "Knie-TEP (primär, bikondylärer Oberflächenersatz)",
+ "synonyme": [
+  "Knie-TEP",
+  "Knietotalendoprothese",
+  "TKA",
+  "TKR",
+  "Knieendoprothese",
+  "Kniegelenkersatz",
+  "Oberflächenersatz Knie",
+  "KTEP"
+ ],
+ "fachgebiet": "Unfallchirurgie/Orthopädie",
+ "varianten": [
+  {
+   "id": "zementiert",
+   "label": "zementiert"
+  },
+  {
+   "id": "zementfrei",
+   "label": "zementfrei"
+  },
+  {
+   "id": "hybrid",
+   "label": "Hybrid: Komponenten unterschiedlich fixiert"
+  },
+  {
+   "id": "cr",
+   "label": "CR – kreuzbanderhaltend"
+  },
+  {
+   "id": "ps",
+   "label": "PS – posterior stabilisiert"
+  },
+  {
+   "id": "uc",
+   "label": "UC/CS – ultrakongruent"
+  },
+  {
+   "id": "mp",
+   "label": "MP/MC – medial pivot/medial congruent"
+  },
+  {
+   "id": "plattform_fest",
+   "label": "feste Plattform"
+  },
+  {
+   "id": "plattform_mobil",
+   "label": "mobile Plattform"
+  },
+  {
+   "id": "mit_patella",
+   "label": "mit Patellarückflächenersatz"
+  },
+  {
+   "id": "ohne_patella",
+   "label": "ohne Patellarückflächenersatz"
+  },
+  {
+   "id": "konventionell",
+   "label": "konventionelle Instrumente"
+  },
+  {
+   "id": "navigation",
+   "label": "Navigation"
+  },
+  {
+   "id": "psi",
+   "label": "PSI (patientenspezifische Schablonen)"
+  },
+  {
+   "id": "roboter",
+   "label": "Roboter-Assistenz"
+  }
+ ],
+ "variantengruppen": {
+  "fixation": [
+   "zementiert",
+   "zementfrei",
+   "hybrid"
+  ],
+  "kopplung": [
+   "cr",
+   "ps",
+   "uc",
+   "mp"
+  ],
+  "plattform": [
+   "plattform_fest",
+   "plattform_mobil"
+  ],
+  "patella": [
+   "mit_patella",
+   "ohne_patella"
+  ],
+  "technik": [
+   "konventionell",
+   "navigation",
+   "psi",
+   "roboter"
+  ]
+ },
+ "situationen_aus_000": {
+  "immer": [
+   "implantat"
+  ],
+  "zementiert": [
+   "zement"
+  ],
+  "hybrid": [
+   "zement"
+  ],
+  "typisch": [
+   "hf_mono"
+  ],
+  "bei_bedarf": [
+   "blutsperre",
+   "hf_bi",
+   "bildwandler"
+  ]
+ },
+ "varianten_aenderungen": {
+  "zementiert": [
+   "Jet-Lavage, Vakuum-Zementmischsystem und Zement laut OP-Plan vorbereiten.",
+   "Zementmenge systemabhängig (z. B. Persona: zwei Portionen); Zementkommunikation laut 000."
+  ],
+  "zementfrei": [
+   "Keine Zementartikel anzeigen; zementfreie Komponenten nicht zementieren (Triathlon S. 2).",
+   "Fixationsfreigabe je Komponente am Etikett prüfen."
+  ],
+  "hybrid": [
+   "Je Komponente klären, welche zementiert wird; Zementvorbereitung trotzdem vollständig."
+  ],
+  "cr": [
+   "CR-Femur nur mit den laut System freigegebenen Inserts (Persona: CR oder MC; UC bei resezierter HKB; Triathlon: CR oder CS)."
+  ],
+  "ps": [
+   "PS-Femur nur mit PS-/höher gekoppelten Inserts des Systems; Probe- und Original-Insert PS."
+  ],
+  "uc": [
+   "UC/CS-Insert systemabhängig mit CR-Femur kombiniert (z. B. Persona UC, Triathlon CS) – Tabelle prüfen."
+  ],
+  "mp": [
+   "Medial-Pivot-/MC-Insert systemabhängig (z. B. GMK Sphere Flex, Persona MC)."
+  ],
+  "plattform_fest": [
+   "Standard in DE (EPRD 2024: 92,9 %)."
+  ],
+  "plattform_mobil": [
+   "Nur Systeme mit Rotating Platform (z. B. ATTUNE RP, Columbus RP); passende Tibia + Insert."
+  ],
+  "mit_patella": [
+   "Patella-Instrumente, Probepatella und Patellakomponente; Zement für Patella einplanen."
+  ],
+  "ohne_patella": [
+   "Keine Patella-Implantate öffnen."
+  ],
+  "konventionell": [
+   "Standard dieses Pakets."
+  ],
+  "navigation": [
+   "Navigationssystem, Tracker, Pins, sterile Drapes."
+  ],
+  "psi": [
+   "PSI-Schablonen: Patient/Seite/Lieferung prüfen."
+  ],
+  "roboter": [
+   "Robotersystem, Planung, sterile Drapes, systemeigene Einmalartikel."
+  ]
+ },
+ "abschnitte": {
+  "facts": [
+   {
+    "label": "Primäre Knie-TEP (bikondylärer Oberflächenersatz)",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": false,
+    "quelle": "Q_EMED",
+    "hinweis": "Ersatz der femoralen und tibialen Gelenkfläche, mit oder ohne Patellarückflächenersatz. Unikondylärer Schlitten, teil-/vollgekoppelte Revisions- und Tumorprothesen sind nicht Inhalt dieses Pakets."
+   },
+   {
+    "label": "Zementiert ist in DE der Regelfall",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": false,
+    "quelle": "Q_EPRD",
+    "hinweis": "EPRD-Jahresbericht 2025, Datenjahr 2024: 96,5 % der Knie-TEP zementiert, 1,9 % hybrid, 1,5 % zementfrei (Tab. 31). In der Schweiz 2024: 75,7 % vollzementiert (SIRIS S. 136). Registerzahl ist keine Vorgabe für den einzelnen Fall."
+   },
+   {
+    "label": "Fixation je Komponente klären",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": true,
+    "quelle": "Q_GON_K",
+    "hinweis": "Leitlinie: (teil-)zementierte und zementfreie Versorgung möglich, vergleichbare Ergebnisse (Empf. 76, ⇔). Hybrid heißt hier: Komponenten unterschiedlich fixiert – welche Komponente zementiert wird, ausdrücklich nachfragen. Heike leitet die Fixation nicht aus Alter oder Knochenqualität ab."
+   },
+   {
+    "label": "Kopplungsgrad / Insert-Typ laut OP-Plan",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": true,
+    "quelle": "Q_GON_K",
+    "hinweis": "CR (kreuzbanderhaltend), PS (posterior stabilisiert), UC/CS (ultrakongruent), MP/MC (medial pivot/medial congruent). Leitlinie: kreuzbanderhaltende und -resezierende Prothesen möglich (Empf. 75, ⇔). EPRD 2024 Standardprothesen: CR 40,6 %, PS 25,5 %, CR/CS 12,1 %, CS 10,8 %, Pivot 6,7 % (Tab. 30)."
+   },
+   {
+    "label": "Patellarückflächenersatz ja/nein klären",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": true,
+    "quelle": "Q_GON_K",
+    "hinweis": "Leitlinie: Retropatellarersatz kann erfolgen (Empf. 77, ⇔). EPRD 2024: 11,0 % mit Retropatellarersatz (Tab. 35); SIRIS 2024: 43,2 % (S. 136). Entscheidung trifft der Operateur – Patella-Instrumente und -Implantat nur dann vorbereiten bzw. bereithalten."
+   },
+   {
+    "label": "Plattform fest oder mobil",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": true,
+    "quelle": "Q_EPRD",
+    "hinweis": "EPRD 2024: feste Plattform 92,9 %, mobile Plattform 7,1 % (Tab. 33). SIRIS 2024: mobile PE 16,4 % (S. 136). Systemabhängig – nicht jedes System bietet beides."
+   },
+   {
+    "label": "Navigation, PSI, Roboter nur als Variante",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": true,
+    "quelle": "Q_GON_K",
+    "hinweis": "Leitlinie: Navigation (Empf. 59), PSI (Empf. 60) und Roboter-Assistenz (Empf. 78) können verwendet werden (⇔). SIRIS 2019–2024: konventionell 67,2 %, PSI 18,1 %, Navigation 9,3 %, Roboter 6,0 % (Tab. 5.1, S. 135). Standard dieses Pakets ist konventionell."
+   },
+   {
+    "label": "Metallallergie abfragen",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": true,
+    "quelle": "Q_EMED",
+    "hinweis": "CoCrMo enthält geringe Anteile Nickel – Allergie präoperativ abfragen (Q_EMED). Leitlinie Empf. 61 (EK ⇑⇑): bei bestätigter Metallallergie Aufklärung und Abwägung; Standardimplantat mit Einverständnis möglich. Beschichtete Implantate (z. B. TiN, TiNbN, OxZr, ZrN) nur nach ärztlicher Entscheidung."
+   },
+   {
+    "label": "Tranexamsäure: ärztliche Entscheidung",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": true,
+    "quelle": "Q_GON_K",
+    "hinweis": "Leitlinie empfiehlt TXA ohne Kontraindikation (Empf. 74, ⇑⇑). Anordnung, Applikationsweg und Dosis ausschließlich ärztlich – Heike nennt keine Dosis."
+   },
+   {
+    "label": "Blutsperre: Entscheidung des Operateurs",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "blutsperre"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": true,
+    "quelle": "Q_GON_K",
+    "hinweis": "Leitlinie: Blutsperre kann nach Nutzen-Risiko-Abwägung benutzt werden (Empf. 58a, ⇔); Dauer so kurz wie möglich (58b, ⇑). Für den Manschettendruck gibt die Literatur laut Leitlinie keine Empfehlung her (Langfassung S. 221)."
+   },
+   {
+    "label": "OP-Dauer laut Hausplanung",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": true,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Zeitbedarf aus lokaler Planung übernehmen; keine allgemeine Zeitgarantie."
+   }
+  ],
+  "room": [
+   {
+    "label": "OP-Tisch mit Knie-Lagerungszubehör",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Seitenstütze, Fußstütze/Keil oder Beinhalter laut Hausausstattung und Tisch-IFU bereithalten; Details unter position."
+   },
+   {
+    "label": "Blutsperre: Oberschenkelmanschette passender Größe",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "blutsperre"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": true,
+    "quelle": "Q_VBM",
+    "hinweis": "Manschettengröße passend zur Extremität wählen; vor Gebrauch Sicht- und Funktionskontrolle mit dem Blutsperregerät (Beispiel VBM Tourniquet Wipe Cuff, PDF-S. 5–6). Allgemeines zu Gerät und Manschette in 000; tatsächliche Geräte-/Manschetten-IFU des Hauses maßgeblich."
+   },
+   {
+    "label": "Jet-Lavage-Gerät",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "zementiert",
+     "hybrid"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": true,
+    "quelle": "Q_EMED",
+    "hinweis": "Bei zementierten Komponenten wird vor dem Zementieren mit Jet-Lavage gereinigt (Q_EMED). Gerät, Akku/Energieversorgung und passendes Einmalset prüfen."
+   },
+   {
+    "label": "Vakuum-Zementmischsystem: Vakuumquelle prüfen",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "zementiert",
+     "hybrid"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": true,
+    "quelle": "Q_EMED",
+    "hinweis": "Zwei-Komponenten-PMMA wird im Vakuumsystem angemischt, um Lufteinschlüsse zu vermeiden (Q_EMED). Anschluss/Pumpe passend zum Hausprodukt; Einmalset unter supplies."
+   },
+   {
+    "label": "Bildwandler nach Anordnung",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": true,
+    "sicherheit": "belegt",
+    "hausabhaengig": true,
+    "quelle": "Q_EMED",
+    "hinweis": "Q_EMED beschreibt eine intraoperative Kontrolle und Dokumentation der Implantatlage mittels Bildwandler. Ob und wann: Operateur/Hausstandard. Strahlenschutz laut 000."
+   },
+   {
+    "label": "Navigationssystem: Kamera und Tower",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "navigation"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Gerät, Software-Fall, sterile Tracker und Zubehör laut Hersteller und Haus. Aufstellung im Saal mit Operateur und Hersteller-Einweisung abstimmen."
+   },
+   {
+    "label": "Robotersystem: Gerät, Kamera, sterile Abdeckungen",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "roboter"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Mako, ROSA, VELYS oder anderes System nur nach OP-Plan (Systemnamen laut Q_EMED). Planungsdaten, Einweisung, sterile Drapes und systemeigene Einmalartikel laut Hersteller-IFU und Haus."
+   },
+   {
+    "label": "Implantatvorrat bereitstellen",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Femur, Tibia, Insert und ggf. Patella des geplanten Systems mit Größenreserve außerhalb des Sterilfelds. Femurkomponenten sind in den Implantat-Dateien links/rechts geführt – Seite am Etikett prüfen. Sterilverpackungen bis zur Anforderung geschlossen (Regel aus 000)."
+   },
+   {
+    "label": "Systemsiebe/Leihsiebe rechtzeitig",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Bei Leih- oder Systemsieben Lieferung, Vollständigkeit und Aufbereitung vor OP-Tag mit AEMP klären."
+   }
+  ],
+  "position": [
+   {
+    "label": "Rückenlage",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": false,
+    "quelle": "Q_EMED",
+    "hinweis": "Standard für die primäre Knie-TEP mit medialem parapatellarem Zugang (Q_EMED). Abweichungen laut OP-Plan."
+   },
+   {
+    "label": "Seitenstütze und Keil/Fußstütze für ca. 90° Beugung",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": true,
+    "quelle": "Q_EMED",
+    "hinweis": "Wegen häufigem Wechsel zwischen Streckung und Beugung hat sich laut Q_EMED eine Seitenstütze plus Keil zur Aufstellung des Knies in 90°-Beugung bewährt. Konkretes Zubehör und Position laut Tisch-IFU und Operateur."
+   },
+   {
+    "label": "Beinhalter als Alternative",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": true,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Statt Keil/Fußstütze ein Beinhalter-System, falls im Haus verwendet; Kompatibilität mit Tisch prüfen."
+   },
+   {
+    "label": "Bein frei zwischen Streckung und Beugung",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Abdeckung und Lagerung so, dass das Bein intraoperativ voll gestreckt und gebeugt werden kann."
+   },
+   {
+    "label": "Blutsperrenmanschette proximal am Oberschenkel",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "blutsperre"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": true,
+    "quelle": "Q_VBM",
+    "hinweis": "Dünn unterpolstern, Schlauch nach proximal (nicht ins OP-Feld), eng ohne Kraft anlegen – zwei Finger sollen zwischen Bein und Manschette passen (Beispiel VBM, PDF-S. 6). Persona-OP-Technik nennt eine proximale Oberschenkel-Blutsperre (Q_PERSONA, PDF-S. 6). Haus-IFU maßgeblich."
+   },
+   {
+    "label": "Gegenbein und Druckstellen",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Polsterung und Druckstellenkontrolle laut 000; Seitenstütze nicht auf Druckstellen."
+   }
+  ],
+  "draping": [
+   {
+    "label": "Extremitäten-Abdeckset Knie",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Konkretes Set laut Haus; Bein beweglich lassen."
+   },
+   {
+    "label": "Fuß/Unterschenkel steril einpacken",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Beinschlauch/Stockinette oder Fußsack laut Hausset; integrierte Bestandteile nicht doppelt als Material zählen."
+   },
+   {
+    "label": "Unterschenkelachse beurteilbar lassen",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": true,
+    "quelle": "Q_EMED",
+    "hinweis": "Bei extramedullärer Tibia-Ausrichtung so abdecken, dass die Unterschenkelachse beurteilt werden kann (Q_EMED)."
+   },
+   {
+    "label": "Keine Flüssigkeit unter die Manschette",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "blutsperre"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": false,
+    "quelle": "Q_VBM",
+    "hinweis": "Um chemische Verbrennung zu vermeiden, darf keine Flüssigkeit unter die Manschette gelangen (Q_VBM, PDF-S. 7). KRINKO: Ansammlungen von Hautantiseptikum vermeiden (Q_KRINKO). Manschette vor dem Abwaschen schützen, z. B. abkleben laut Haus."
+   },
+   {
+    "label": "Flüssigkeitsdichte Abdeckung bei Lavage",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": false,
+    "quelle": "Q_KRINKO",
+    "hinweis": "Wenn Durchfeuchten nicht auszuschließen ist (z. B. Jet-Lavage), flüssigkeitsundurchlässig abdecken (KRINKO Kat. IB)."
+   },
+   {
+    "label": "Sterile Abdeckung für Navigation/Roboter",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "navigation",
+     "roboter"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Systemeigene sterile Drapes für Kamera-/Roboterarm laut Hersteller-IFU."
+   }
+  ],
+  "trays": [
+   {
+    "label": "Knie-Grundsieb",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Basisinstrumente, Haken/Hohmann-Hebel nach lokaler Siebliste; Bezeichnung mit AEMP abgleichen."
+   },
+   {
+    "label": "System-Instrumentarium des geplanten Implantats",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Ausrichtung (intra-/extramedullär), Schnittblöcke, Größenlehren laut Hersteller-Siebliste. Nur Instrumente des geplanten Systems – Systeme nicht mischen."
+   },
+   {
+    "label": "Probekomponenten-Sieb",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Probefemur, Probetibia, Probeinserts (Höhen/Typen) und ggf. Probepatella des geplanten Systems. Persona z. B. mit TASP-Probeaufbau aus Shims (Q_PERSONA, PDF-S. 44) – alle Shims mitzählen."
+   },
+   {
+    "label": "Patella-Instrumente",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "mit_patella"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Patella-Resektions-/Bohrlehre und Zementierzange laut System."
+   },
+   {
+    "label": "Säge-/Antriebsset",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Oszillierende Säge und Bohrmaschine; Aufbereitung, Funktion, Ersatzakkus (000)."
+   },
+   {
+    "label": "Zementierinstrumente",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "zementiert",
+     "hybrid"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Laut System und Hausstandard; Einmalartikel unter supplies."
+   },
+   {
+    "label": "Navigations-/Roboter-Instrumente",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "navigation",
+     "roboter"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Tracker, Pins, Pointer, systemeigene Schneidführungen laut System."
+   },
+   {
+    "label": "PSI-Schablonen",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "psi"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Patientenspezifische Schnittblöcke: Name, Geburtsdatum, Seite und Lieferung vor OP-Beginn prüfen; Aufbereitung/Sterilität laut Hersteller."
+   },
+   {
+    "label": "Höher gekoppeltes Insert / Stiel nach Absprache",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": true,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Ob ein stärker gekoppeltes Insert (z. B. PS statt CR) oder ein Stiel in Reserve bereitliegt, entscheidet der Operateur. Persona: Operateur beurteilt, ob ein stärker gekoppeltes System nötig ist (Q_PERSONA, PDF-S. 5)."
+   }
+  ],
+  "supplies": [
+   {
+    "label": "Skalpellklinge Haut",
+    "menge": 1,
+    "einheit": "Stück",
+    "spez": "Haut",
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Hautklinge als Vorschlag; Halterkompatibilität lokal bestätigen."
+   },
+   {
+    "label": "Reserveklinge",
+    "menge": 1,
+    "einheit": "Stück",
+    "spez": "Größe laut Haus",
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": true,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Eine passende Alternative wählen; nicht automatisch öffnen."
+   },
+   {
+    "label": "Kompressen röntgenkontrastgestreift",
+    "menge": null,
+    "einheit": "Stück",
+    "spez": "röntgenkontrastfähig",
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Zählmaterial; Menge laut Haus-Zählplan."
+   },
+   {
+    "label": "Bauchtücher röntgenkontrastgestreift",
+    "menge": null,
+    "einheit": "Stück",
+    "spez": "röntgenkontrastfähig",
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Zählmaterial; Menge laut Haus."
+   },
+   {
+    "label": "Sägeblätter passend zu Schnittblock und Antrieb",
+    "menge": null,
+    "einheit": "Stück",
+    "spez": "systemkompatibel",
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": true,
+    "quelle": "Q_LEGION",
+    "hinweis": "Blattdicke/-breite systemabhängig – Hersteller führen Blattdicken für ihre Schnittblöcke (z. B. LEGION Spezifikation „Sawblade/Tibial Stylus Thickness“, Q_LEGION S. 12). Haus- und Systemartikel prüfen."
+   },
+   {
+    "label": "Ersatz-Sägeblatt steril verpackt",
+    "menge": 1,
+    "einheit": "Stück",
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": true,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Ungeöffnet bereithalten."
+   },
+   {
+    "label": "Absaugschlauch und Sauger",
+    "menge": 1,
+    "einheit": "Set",
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Laut Haus."
+   },
+   {
+    "label": "HF-Handgriff monopolar",
+    "menge": 1,
+    "einheit": "Stück",
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Allgemeines zu HF/NE in 000."
+   },
+   {
+    "label": "Jet-Lavage-Einmalset",
+    "menge": 1,
+    "einheit": "Set",
+    "spez": null,
+    "gilt_fuer": [
+     "zementiert",
+     "hybrid"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": true,
+    "quelle": "Q_EMED",
+    "hinweis": "Vor dem Zementieren Jet-Lavage (Q_EMED); auch Persona-OP-Technik nennt Pulslavage vor dem Zementieren (Q_PERSONA, PDF-S. 47). Set passend zum Gerät."
+   },
+   {
+    "label": "Spülflüssigkeit",
+    "menge": null,
+    "einheit": "Liter",
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Art und Menge laut Haus/Operateur."
+   },
+   {
+    "label": "Vakuum-Zementmischsystem",
+    "menge": null,
+    "einheit": "Set",
+    "spez": null,
+    "gilt_fuer": [
+     "zementiert",
+     "hybrid"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": true,
+    "quelle": "Q_EMED",
+    "hinweis": "Einmal-Mischset passend zum Zement und zur Vakuumquelle (Q_EMED). Anzahl laut Zementmenge."
+   },
+   {
+    "label": "Zementapplikator/-spritze",
+    "menge": null,
+    "einheit": "Stück",
+    "spez": null,
+    "gilt_fuer": [
+     "zementiert",
+     "hybrid"
+    ],
+    "optional": true,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Nur falls laut Haus verwendet."
+   },
+   {
+    "label": "Blutsperre: Unterpolsterung",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "blutsperre"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": true,
+    "quelle": "Q_VBM",
+    "hinweis": "Dünne Unterpolsterung unter der Manschette gegen Druckstellen und Hautverletzungen (Beispiel VBM, PDF-S. 6). Material laut Haus."
+   },
+   {
+    "label": "Blutsperre: Auswickelbinde",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "blutsperre"
+    ],
+    "optional": true,
+    "sicherheit": "belegt",
+    "hausabhaengig": true,
+    "quelle": "Q_VBM",
+    "hinweis": "Laut VBM-IFU muss vor dem Belüften die Blutentleerung der Extremität erfolgen (PDF-S. 6); Methode laut Operateur/Haus."
+   },
+   {
+    "label": "Redon-Drainage nur auf Anforderung",
+    "menge": 1,
+    "einheit": "Stück",
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": true,
+    "sicherheit": "belegt",
+    "hausabhaengig": true,
+    "quelle": "Q_GON_K",
+    "hinweis": "Leitlinie empfiehlt, auf eine Drainage zu verzichten (Empf. 57, ⇓⇓); in begründeten Fällen kann eine Drainage gelegt werden (Langfassung S. 216). Nicht standardmäßig öffnen."
+   },
+   {
+    "label": "Drainage-Auffangsystem",
+    "menge": 1,
+    "einheit": "Stück",
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": true,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Nur zusammen mit angeforderter Drainage."
+   },
+   {
+    "label": "Spritzen/Kanülen für LIA",
+    "menge": null,
+    "einheit": "Stück",
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": true,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Nur wenn LIA angeordnet; Spritzengröße/Kanülen laut Haus. Medikamente unter implants."
+   },
+   {
+    "label": "Hautklammergerät",
+    "menge": 1,
+    "einheit": "Stück",
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": true,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Alternative zum Nahtverschluss; eine Variante wählen."
+   },
+   {
+    "label": "Hautkleber",
+    "menge": 1,
+    "einheit": "Stück",
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": true,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Optional laut Haus."
+   },
+   {
+    "label": "Sterile Schalen",
+    "menge": null,
+    "einheit": "Stück",
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Für Spülung, Zement-Zubehör, Probeteile; Anzahl laut Haus."
+   },
+   {
+    "label": "Elastische Binde zum Wickeln",
+    "menge": null,
+    "einheit": "Stück",
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": true,
+    "quelle": "Q_EMED",
+    "hinweis": "Q_EMED nennt das Wickeln des Beins nach Hautnaht (Blutsperre-Öffnung danach möglich). Material laut Haus."
+   }
+  ],
+  "sutures": [
+   {
+    "label": "Kapsel/Retinakulum: Einzelknopfnähte",
+    "menge": null,
+    "einheit": "Packungen",
+    "spez": "Stärke/Nadel offen",
+    "schicht": "Kapsel/Retinakulum",
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": true,
+    "quelle": "Q_EMED",
+    "hinweis": "Q_EMED beschreibt den Kapselverschluss in Einzelknopftechnik. Material, Stärke, Nadel und Anzahl offen – Hausartikel und Operateur."
+   },
+   {
+    "label": "Kapsel: zusätzliche fortlaufende Naht bei intraartikulärer LIA",
+    "menge": null,
+    "einheit": "Packungen",
+    "spez": "Stärke/Nadel offen",
+    "schicht": "Kapsel/Retinakulum",
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": true,
+    "sicherheit": "belegt",
+    "hausabhaengig": true,
+    "quelle": "Q_EMED",
+    "hinweis": "Laut Q_EMED soll bei intraartikulärer LIA zusätzlich fortlaufend verschlossen werden. Material/Stärke offen."
+   },
+   {
+    "label": "Kapsel: Widerhakennaht",
+    "menge": null,
+    "einheit": "Packungen",
+    "spez": "Stärke/Nadel offen",
+    "schicht": "Kapsel/Retinakulum",
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": true,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Produktabhängige Alternative; nur nach Operateur."
+   },
+   {
+    "label": "Subkutan",
+    "menge": null,
+    "einheit": "Packungen",
+    "spez": "Stärke/Nadel offen",
+    "schicht": "Subkutan",
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Stärke und Nadel laut Haus."
+   },
+   {
+    "label": "Haut: intrakutan oder Einzelknopf",
+    "menge": null,
+    "einheit": "Packungen",
+    "spez": "Stärke/Nadel offen",
+    "schicht": "Haut",
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": true,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Eine Variante auswählen; Alternative Klammern (supplies)."
+   },
+   {
+    "label": "Drainage-Fixationsnaht",
+    "menge": null,
+    "einheit": "Packungen",
+    "spez": "Stärke/Nadel offen",
+    "schicht": "Haut",
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": true,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Nur bei angeforderter Drainage."
+   }
+  ],
+  "implants": [
+   {
+    "label": "Femurkomponente",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "System, Typ (CR/PS …), Fixation, Seite (L/R) und bestätigte Größe laut OP-Plan. Keine Standardgröße."
+   },
+   {
+    "label": "Tibiakomponente (Tibiaplateau)",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Fixation, Plattform (fest/mobil) und Größe laut OP-Plan; manche Systeme mit Stiel-Option."
+   },
+   {
+    "label": "Tibia-Insert (PE-Gleitfläche)",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Typ passend zur Femurkomponente (CR/PS/UC/MP), Größe und Höhe nach Probephase. Kombination laut Kompatibilitätstabelle des Systems (implantate/*-knie). Persona: ein Insert nur einmal einsetzen, nie erneut auf eine Tibia setzen (Q_PERSONA, PDF-S. 48)."
+   },
+   {
+    "label": "Patellakomponente",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "mit_patella"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Nur bei Patellarückflächenersatz; Größe nach Probe. Größenfreigabe systemabhängig (z. B. ATTUNE: 29 mm nur Femur 1–3, Q_ATTUNE PDF-S. 132)."
+   },
+   {
+    "label": "Probe- vs. Originalimplantat trennen",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Probeteile nicht implantieren; Original erst nach Probephase auf Ansage öffnen (000). Probeinsert und Originalinsert: Typ, Größe und Höhe abgleichen."
+   },
+   {
+    "label": "Knochenzement (PMMA) laut OP-Plan",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "zementiert",
+     "hybrid"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": true,
+    "quelle": "Q_EMED",
+    "hinweis": "Produkt, Antibiotikazusatz und Packungszahl ärztlich/hausabhängig; dem Zement können Antibiotika beigemengt sein (Q_EMED). Menge systemabhängig – Persona-OP-Technik empfiehlt bei zementierten Komponenten zwei Zementportionen (Q_PERSONA, PDF-S. 47). Keine Mischzeiten von Heike; Hersteller-IFU des Zements."
+   },
+   {
+    "label": "Zement auch für Patella",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "mit_patella"
+    ],
+    "optional": true,
+    "sicherheit": "belegt",
+    "hausabhaengig": true,
+    "quelle": "Q_PERSONA",
+    "hinweis": "Bei zementierter Patella (z. B. Persona All-Poly-Patella nur zementiert, Q_PERSONA PDF-S. 4) Zementbedarf mit einplanen."
+   },
+   {
+    "label": "Stiel/Verlängerung nach Plan",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": true,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Nur wenn vorgesehen (z. B. Persona Stemmed Tibia, GMK Stem Extension); Größe/Länge offen."
+   },
+   {
+    "label": "Tranexamsäure nach ärztlicher Anordnung",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": true,
+    "sicherheit": "belegt",
+    "hausabhaengig": true,
+    "quelle": "Q_GON_K",
+    "hinweis": "Leitlinie Empf. 74 (⇑⇑). Applikation (i.v./topisch), Zeitpunkt und Dosis nur ärztlich; Heike nennt keine Dosis. Bei topischer Gabe Bereitstellung laut Anordnung."
+   },
+   {
+    "label": "LIA-Medikamente nach ärztlicher Anordnung",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": true,
+    "sicherheit": "belegt",
+    "hausabhaengig": true,
+    "quelle": "Q_GON_K",
+    "hinweis": "Leitlinie empfiehlt LIA als Teil des Narkosekonzepts (Empf. 55/56, ⇑⇑). Mischung und Dosis nur ärztlich/Haus-SOP; Heike nennt keine Rezeptur."
+   }
+  ],
+  "workflow": [
+   {
+    "label": "OP-Plan abgleichen",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Seite, System, Fixation je Komponente, Kopplung (CR/PS/UC/MP), Plattform, Patella ja/nein, Technik (konventionell/Navigation/PSI/Roboter), Größenvorrat, Leihsiebe."
+   },
+   {
+    "label": "Blutsperre: Anlage und Belüften auf Ansage",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "blutsperre"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": true,
+    "quelle": "Q_VBM",
+    "hinweis": "Ob Blutsperre, Druck und Zeitpunkt entscheidet der Operateur (Empf. 58). VBM-Beispiel: Platzierung prüfen, Blutentleerung vor Belüften, niedrigst notwendiger Druck, arterieller Fluss gestoppt (PDF-S. 6–7). Persona-Beispiel: Belüften bei hyperflektiertem Knie (Q_PERSONA PDF-S. 6). Heike nennt keine Druckwerte."
+   },
+   {
+    "label": "Blutsperre: Zeit im Blick",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "blutsperre"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": true,
+    "quelle": "Q_GON_K",
+    "hinweis": "Dauer so kurz wie möglich (Empf. 58b). Herstellerbeispiel VBM: Dauer im Ermessen des Arztes, üblicherweise max. 2 Stunden empfohlen (produktspezifisch, PDF-S. 6). Ansage und Dokumentation der Zeit laut 000."
+   },
+   {
+    "label": "Blutsperre öffnen: Zeitpunkt erfragen",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "blutsperre"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": true,
+    "quelle": "Q_EMED",
+    "hinweis": "Laut Q_EMED entweder vor vollständigem Kapselverschluss (Blutungskontrolle) oder nach Hautnaht und Wickeln. Öffnungszeit dokumentieren."
+   },
+   {
+    "label": "Probephase begleiten",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Probeteile in Typ/Größe/Höhe bereithalten und nach Gebrauch zurückführen (000). Gewählte Probegrößen für alle Komponenten notieren."
+   },
+   {
+    "label": "Kompatibilität vor dem Öffnen prüfen",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": true,
+    "quelle": "Q_PERSONA",
+    "hinweis": "Persona: vor dem Implantieren prüfen, dass alle Komponenten kompatibel sind (Q_PERSONA PDF-S. 47). Tabellen je System in implantate/*-knie.json."
+   },
+   {
+    "label": "Implantat-Anreichen im Vier-Augen-Prinzip",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Vor dem Öffnen Komponente, Seite, Größe, Typ (CR/PS …), Insert-Höhe, Fixation und Verfall laut ansagen und vom Operateur am Etikett bestätigen lassen. Grundregel in 000."
+   },
+   {
+    "label": "Jet-Lavage vor dem Zementieren",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "zementiert",
+     "hybrid"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": true,
+    "quelle": "Q_EMED",
+    "hinweis": "Laut Q_EMED vor dem Zementieren und erneut nach Entfernen des Zementüberschusses. Lavage-Set rechtzeitig bereit."
+   },
+   {
+    "label": "Zement im Vakuumsystem auf Ansage anmischen",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "zementiert",
+     "hybrid"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": true,
+    "quelle": "Q_EMED",
+    "hinweis": "Vakuummischung gegen Lufteinschlüsse (Q_EMED). Anmischen nur auf Ansage, Zeiten nach Zement-IFU (000). Anästhesie vor Zement informieren (000; Q_BCIS)."
+   },
+   {
+    "label": "Reihenfolge der Komponenten erfragen",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": true,
+    "quelle": "Q_PERSONA",
+    "hinweis": "Systemabhängig (z. B. Persona: bei CR-Femur Tibia zuerst, bei PS-Femur Femur zuerst, Q_PERSONA PDF-S. 49). Reihenfolge beim Operateur erfragen und Komponenten in dieser Reihenfolge bereithalten."
+   },
+   {
+    "label": "Bildwandlerkontrolle nach Anordnung",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": true,
+    "sicherheit": "belegt",
+    "hausabhaengig": true,
+    "quelle": "Q_EMED",
+    "hinweis": "Optionale intraoperative Kontrolle der Implantatlage (Q_EMED)."
+   },
+   {
+    "label": "Etiketten aller Komponenten sichern",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Femur, Tibia, Insert, ggf. Patella, Zement: Etiketten in OP-Doku/Implantatpass laut 000 und Haus."
+   },
+   {
+    "label": "Navigation/Roboter: Ablauf mit Team",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "navigation",
+     "roboter"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Hochfahren, Registrierung, Tracker-Pins und Zubehör laut Hersteller und Operateur; Springer-Aufgaben vorab klären."
+   },
+   {
+    "label": "Verschlussmaterial abstimmen",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Naht/Klammern, Drainage ja/nein, Verband nach Anforderung bereitstellen."
+   }
+  ],
+  "count": [
+   {
+    "label": "Probekomponenten vollständig zurück",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Probefemur, -tibia, -inserts, Shims/Spacer, Probepatella: Anzahl vor Kapselverschluss prüfen. Grundregel in 000."
+   },
+   {
+    "label": "Pins und Bohrdrähte zählen",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Schnittblock-Pins und ggf. Tracker-Pins: Anzahl ein/aus laut Haus-Zählplan."
+   },
+   {
+    "label": "Sägeblätter auf Vollständigkeit prüfen",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Blätter nach Gebrauch auf Bruchstücke prüfen."
+   },
+   {
+    "label": "Implantatstatus gesondert erfassen",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Implantierte Komponenten (inkl. Patella, Zement) dokumentieren; nicht als zurückzuholendes Material behandeln."
+   },
+   {
+    "label": "Blutsperre dokumentieren",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "blutsperre"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Zeiten (Anlage/Öffnen) laut 000; Druck und Manschettenlage laut Hausformular."
+   }
+  ],
+  "dressing": [
+   {
+    "label": "Blutsperre vollständig ablassen und entfernen",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "blutsperre"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": false,
+    "quelle": "Q_VBM",
+    "hinweis": "Manschette nach Anwendung vollständig entlüften und mit Unterpolsterung sofort entfernen – Risiko venöser Stauung (Q_VBM PDF-S. 7)."
+   },
+   {
+    "label": "Steriler Wundverband",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": true,
+    "quelle": "Q_EMED",
+    "hinweis": "Erster Verbandwechsel laut Q_EMED (mit Bezug auf KRINKO 2018) nach 48 h, sofern keine Komplikation früher erfordert. Verbandprodukt laut Haus."
+   },
+   {
+    "label": "Wickeln des Beins",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": true,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Elastische Wickelung laut Haus/Operateur (Q_EMED erwähnt Wickeln)."
+   },
+   {
+    "label": "Drainage: Klemmstatus übergeben",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": true,
+    "sicherheit": "belegt",
+    "hausabhaengig": true,
+    "quelle": "Q_EMED",
+    "hinweis": "Bei LIA laut Q_EMED Drainage 1–2 h geschlossen lassen, danach öffnen. Nur bei angeforderter Drainage."
+   },
+   {
+    "label": "Knie-bezogene Übergabe",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Blutsperrenzeit, Drainage ja/nein (Klemmstatus), LIA ja/nein, TXA laut Anästhesie-Doku, Patella ja/nein, implantiertes System. Allgemeine Übergabe in 000."
+   },
+   {
+    "label": "Lagerung/Schiene nach Anordnung",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": true,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Keine allgemeinen Winkel- oder Lagerungsvorgaben von Heike."
+   }
+  ],
+  "pitfalls": [
+   {
+    "label": "Desinfektionsmittel unter der Manschette",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "blutsperre"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": false,
+    "quelle": "Q_VBM",
+    "hinweis": "Flüssigkeit unter der Manschette kann zu chemischer Verbrennung führen (Q_VBM PDF-S. 7); Antiseptikum-Ansammlungen vermeiden (Q_KRINKO)."
+   },
+   {
+    "label": "CR- und PS-Komponenten verwechseln",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": false,
+    "quelle": "Q_PERSONA",
+    "hinweis": "Persona: PS-Femur nicht mit CR-, MC- oder UC-Insert; CR-Femur nicht mit PS- oder CPS-Insert (Q_PERSONA PDF-S. 5). Triathlon: CR-Femur nicht mit PS-/PSR-/TS-Insert (Q_TRIATHLON S. 2). Typ am Etikett prüfen."
+   },
+   {
+    "label": "Systeme nicht mischen",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": false,
+    "quelle": "Q_ATTUNE",
+    "hinweis": "ATTUNE: Implantate und Probeteile anderer Hersteller/Systeme nie zusammen verwenden (Q_ATTUNE PDF-S. 132). Registerbefunde zu Mischkombinationen (EPRD S. 60) sind keine Freigabe."
+   },
+   {
+    "label": "REF-Suffix beachten",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": false,
+    "quelle": "Q_TRIATHLON",
+    "hinweis": "Triathlon: Kompatibilitätstabelle gilt für X3-Inserts mit REF-Endung „E“ (Q_TRIATHLON S. 2). Andere Inserts beim Hersteller klären."
+   },
+   {
+    "label": "Zementfreie Komponente nicht zementieren",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": false,
+    "quelle": "Q_TRIATHLON",
+    "hinweis": "Triathlon: zementfreie Femurkomponenten nicht mit Zement verwenden (Q_TRIATHLON S. 2). Fixationsfreigabe je System im Etikett/IFU prüfen."
+   },
+   {
+    "label": "Insert nicht wiederverwenden",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "belegt",
+    "hausabhaengig": true,
+    "quelle": "Q_PERSONA",
+    "hinweis": "Persona: ein Insert nur einmal einsetzen (Q_PERSONA PDF-S. 48). Herausgenommenes Original-Insert nicht erneut verwenden; Ersatz klären."
+   },
+   {
+    "label": "Seite der Femurkomponente",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Femurkomponenten der ausgewählten Systeme sind seitenspezifisch (L/R) geführt; Seite am Etikett mit OP-Seite abgleichen."
+   },
+   {
+    "label": "PSI-Schablone falscher Patient/Seite",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "psi"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Patientendaten und Seite der Schablone vor Gebrauch prüfen."
+   },
+   {
+    "label": "Keine Dosen und Gerätewerte von Heike",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": false,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "TXA, LIA, Antibiotika, Blutsperrendruck und Zement-Mischzeiten nur nach ärztlicher Anordnung bzw. Produkt-IFU."
+   }
+  ],
+  "photos": [
+   {
+    "label": "Foto: Lagerung mit Seitenstütze/Fußstütze ohne Patient",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": true,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Aufbau am leeren Tisch. Nur freigegebene eigene Bilder ohne Personen/Identifikatoren; Platzhalter, kein Bild enthalten."
+   },
+   {
+    "label": "Foto: Blutsperrenmanschette am Modell",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "blutsperre"
+    ],
+    "optional": true,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Lage, Unterpolsterung, Schlauchrichtung. Nur eigene freigegebene Bilder; Platzhalter."
+   },
+   {
+    "label": "Foto: Abdeckaufbau am Modell",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": true,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Hausset am Modell. Nur eigene freigegebene Bilder; Platzhalter."
+   },
+   {
+    "label": "Foto: Systemsiebe",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": true,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Haus-/Systembezeichnung; keine Herstellerbilder übernehmen. Platzhalter."
+   },
+   {
+    "label": "Foto: Ablage Probe- vs. Originalimplantate",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": true,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Eigene Fotos ohne Patientendaten; keine Herstellerbilder. Platzhalter."
+   },
+   {
+    "label": "Foto: Zementplatz mit Vakuummischsystem",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "zementiert",
+     "hybrid"
+    ],
+    "optional": true,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Nur nach Hausregeln. Platzhalter."
+   },
+   {
+    "label": "Foto: Verband am Modell",
+    "menge": null,
+    "einheit": null,
+    "spez": null,
+    "gilt_fuer": [
+     "alle"
+    ],
+    "optional": true,
+    "sicherheit": "hausabhängig",
+    "hausabhaengig": true,
+    "quelle": null,
+    "hinweis": "Optionaler Hausaufbau ohne Patient. Platzhalter."
+   }
+  ]
+ },
+ "heike_hinweise": [
+  {
+   "text": "Welche Fixation, welcher Insert-Typ und Patella ja oder nein? Davon hängen Siebe, Implantate und Zement ab.",
+   "quelle": "Q_GON_K"
+  },
+  {
+   "text": "Blutsperre? Manschette dünn unterpolstern, Schlauch nach oben – und keine Desinfektionslösung drunterlaufen lassen.",
+   "quelle": "Q_VBM"
+  },
+  {
+   "text": "Seitenstütze und Fußkeil für die 90°-Beugung bereit?",
+   "quelle": "Q_EMED"
+  },
+  {
+   "text": "Zementiert? Jet-Lavage und Vakuummischer vorbereiten, Anästhesie vor dem Zement informieren.",
+   "quelle": "Q_EMED"
+  },
+  {
+   "text": "CR und PS nicht verwechseln – Femur und Insert müssen laut Tabelle zusammenpassen.",
+   "quelle": "Q_PERSONA"
+  },
+  {
+   "text": "Implantat erst auf Ansage öffnen: Komponente, Seite, Größe, Typ, Höhe laut wiederholen.",
+   "quelle": null
+  },
+  {
+   "text": "Drainage nur, wenn der Operateur sie ausdrücklich will.",
+   "quelle": "Q_GON_K"
+  },
+  {
+   "text": "Tranexamsäure und LIA: ärztliche Anordnung – ich nenne keine Dosis.",
+   "quelle": null
+  },
+  {
+   "text": "Probeteile, Shims und Pins vor dem Kapselverschluss vollständig?",
+   "quelle": null
+  }
+ ],
+ "regeln_fuer_adapter": [
+  "Ich bin Heike, eine KI-Assistentin für OP-Vorbereitung. Ich habe keine eigene klinische Berufserfahrung.",
+  "Diese Einträge sind auswählbare Vorschläge; weder optional=false noch belegt bedeutet automatische Auswahl oder klinische Freigabe.",
+  "Zuerst Fixation, Kopplung, Patella und Technik klären. gilt_fuer enthält kanonische Varianten-IDs oder Situations-IDs aus 000 (z. B. blutsperre); mehrere IDs bedeuten ODER. alle steht allein.",
+  "Belegt kennzeichnet die konkrete Quellenstütze, nicht die Freigabe für jedes Haus. Herstellerbeispiele gelten nur für das genannte Produkt.",
+  "Eigene bestätigte Angaben haben Vorrang bei Hausdetails. Widersprüche zu Sicherheitsinformationen sichtbar klären, nicht still überschreiben.",
+  "Keine Dosen (TXA, LIA, Antibiotika), keine Blutsperrendrücke, keine Zement-Mischzeiten und keine Implantatgrößen vorschlagen.",
+  "Implantat-Kompatibilität nur aus implantate/*-knie.json des jeweiligen Systems; keine transitiven Freigaben, keine Systemmischung."
+ ],
+ "typische_luecken": [
+  "Fixation je Komponente, Kopplung und Patella ja/nein",
+  "Passende System- und Leihsiebe, Antriebe, Ersatzakkus",
+  "Seitenstütze/Fußstütze bzw. Beinhalter",
+  "Blutsperre: Manschettengröße, Unterpolsterung, Schutz vor Flüssigkeit",
+  "Jet-Lavage und Vakuum-Zementmischsystem",
+  "Insert-Höhen und Probeteile vollständig",
+  "Implantat-Etiketten aller Komponenten",
+  "Drainage ja/nein und LIA ja/nein"
+ ],
+ "quellen": [
+  {
+   "id": "Q_GON_K",
+   "titel": "S3-Leitlinie Prävention und Therapie der Gonarthrose – Kurzfassung (AWMF-Reg.-Nr. 187-050), Version 5.0",
+   "herausgeber": "DGOU/DGOOC u. a. (AWMF)",
+   "url": "https://register.awmf.org/assets/guidelines/187-050k_S3_Gonarthrose_2025-05.pdf",
+   "abgerufen": "2026-10-07",
+   "fundstelle": "Überarbeitung 2024/07/12. S. 14–15: Empf. 55/56 (Narkose + LIA ⇑⇑), 57 (Drainage verzichten ⇓⇓), 58 (Blutsperre a ⇔, b Dauer kurz ⇑); S. 16: Empf. 59 Navigation, 60 PSI, 61 Metallallergie; S. 18: Empf. 74 TXA ⇑⇑ (Dosisangaben im Original bewusst nicht übernommen); S. 19: Empf. 75 CR/PS, 76 zementiert/zementfrei, 77 Retropatellarersatz, 78 Roboter (alle ⇔).",
+   "pruefung": "PDF heruntergeladen, Empfehlungstexte im Original gelesen am 2026-10-07/08 (Grok)."
+  },
+  {
+   "id": "Q_GON_L",
+   "titel": "S3-Leitlinie Prävention und Therapie der Gonarthrose – Langfassung (187-050), Version 5.0",
+   "herausgeber": "DGOU/DGOOC u. a. (AWMF)",
+   "url": "https://register.awmf.org/assets/guidelines/187-050l_S3_Gonarthrose_2025-05.pdf",
+   "abgerufen": "2026-10-07",
+   "fundstelle": "S. 215–216 Drainage („In begründeten Fällen kann eine Drainage gelegt werden“); S. 219–221 Blutsperre (Höhe: keine Empfehlung aus Literatur ableitbar, S. 221).",
+   "pruefung": "PDF gelesen (Grok) 2026-10-07."
+  },
+  {
+   "id": "Q_EMED",
+   "titel": "Knieendoprothetik (eMedpedia Orthopädie und Unfallchirurgie)",
+   "herausgeber": "Springer Medizin; Goedecke E, Engelhardt M, Haaker R",
+   "url": "https://www.springermedizin.de/emedpedia/detail/orthopaedie-und-unfallchirurgie/knieendoprothetik?epediaDoi=10.1007%2F978-3-642-54673-0_321",
+   "abgerufen": "2026-10-08",
+   "fundstelle": "Publiziert 08.07.2024. Abschnitte: Versorgungsmöglichkeiten; Zugangsweg (medial parapatellar); Lagerung und Blutsperre (Seitenstütze + Keil 90°, Blutsperre Operateursentscheidung, Abdeckung Unterschenkelachse); OP-Schritte (Jet-Lavage, Einzelknopf-Kapselnaht, fortlaufend bei LIA, Öffnen der Blutsperre); Materialien (Nickel abfragen, Beschichtungen); Zementiert oder zementfrei (Vakuummischung, Jet-Lavage, Antibiotika im Zement); Nachbehandlung (Bildwandler intraoperativ, Drainage bei LIA 1–2 h geschlossen, erster Verbandwechsel nach 48 h mit Bezug KRINKO 2018).",
+   "pruefung": "Volltext online gelesen am 2026-10-08 (Grok)."
+  },
+  {
+   "id": "Q_VBM",
+   "titel": "Tourniquet Wipe Cuff – Gebrauchsanweisung 004-01-0349",
+   "herausgeber": "VBM Medizintechnik GmbH",
+   "url": "https://ifu.vbm-medical.de/ifudocs/004-01-0349%20Tourniquet%20Wipe%20Cuff%2002_2024-05_online.pdf",
+   "abgerufen": "2026-10-07",
+   "fundstelle": "Rev. 02/2024-05, deutscher Teil PDF-S. 5–7: Manschettengröße, Sicht-/Funktionskontrolle, Dauer im Ermessen des Arztes (üblicherweise max. 2 h empfohlen), dünn unterpolstern, Schlauch nach proximal, zwei Finger, Blutentleerung vor Belüften, niedrigst notwendiger Druck, keine Flüssigkeit unter die Manschette, nach Gebrauch vollständig entlüften und sofort entfernen. Produktspezifisch – ersetzt nicht die Haus-IFU.",
+   "pruefung": "PDF gelesen (Grok) 2026-10-07/08."
+  },
+  {
+   "id": "Q_KRINKO",
+   "titel": "Prävention postoperativer Wundinfektionen",
+   "herausgeber": "KRINKO am RKI",
+   "url": "https://edoc.rki.de/bitstream/handle/176904/6416/Empf_postopWI.pdf?isAllowed=y&sequence=1",
+   "abgerufen": "2026-10-07",
+   "fundstelle": "2018, Bundesgesundheitsblatt 61:448–473, gedruckte S. 461 (PDF-S. 14), Abschnitt 4.1: Hautantiseptikum-Ansammlungen (Kat. II); flüssigkeitsundurchlässige Abdeckung bei nicht ausschließbarem Durchfeuchten (Kat. IB).",
+   "pruefung": "Aus Paket 001 übernommen (dort von Astra am 07.10.2026 geprüft)."
+  },
+  {
+   "id": "Q_BCIS",
+   "titel": "Factsheet Implantationssyndrom / BCIS",
+   "herausgeber": "Heraeus Medical (PALACADEMY)",
+   "url": "https://www.heraeus-medical.com/dam/jcr:b107fb34-cb46-452f-b5e0-076c7946ee4c/palacademy-factsheet-implantationssyndrom.pdf",
+   "abgerufen": "2026-10-06",
+   "fundstelle": "PDF S. 1: Kommunikation und chirurgische Vorsorge. Nicht knie-spezifisch; kein Beleg für Mischzeiten oder Packungszahl.",
+   "pruefung": "Aus Paket 001 übernommen."
+  },
+  {
+   "id": "Q_EPRD",
+   "titel": "EPRD Jahresbericht 2025",
+   "herausgeber": "EPRD Deutsche Endoprothesenregister gGmbH",
+   "url": "https://www.eprd.de/fileadmin/user_upload/Dateien/Publikationen/Berichte/Jahresbericht2025-Status5_2025-10-28_F.pdf",
+   "abgerufen": "2026-10-07",
+   "fundstelle": "Status 5, 2025-10-28. Datenjahr 2024, gedruckte S. 48–50: Tab. 30 Kopplung, Tab. 31 Fixation, Tab. 33 Plattform, Tab. 35 Retropatellarersatz, Tab. 36/37 Material/Insert; S. 60 Mischkombinationen (Tab. 47/49).",
+   "pruefung": "PDF gelesen (Grok) 2026-10-07."
+  },
+  {
+   "id": "Q_EPRD_XLSX",
+   "titel": "EPRD Implantatergebnisse Knieversorgungen 2025 (Tabelle)",
+   "herausgeber": "EPRD",
+   "url": "https://www.eprd.de/fileadmin/user_upload/Dateien/Tabellen/2025/Implantatergebnisse_Knieversorgungen.xlsx",
+   "abgerufen": "2026-10-07",
+   "fundstelle": "Kumulative Analysepopulation je Femur-/Tibia-System (kein Jahres-Marktanteil). Grundlage der Systemauswahl.",
+   "pruefung": "Datei ausgewertet (Grok) 2026-10-07."
+  },
+  {
+   "id": "Q_SIRIS",
+   "titel": "SIRIS Report Hip and Knee 2025",
+   "herausgeber": "SIRIS / ANQ / Stiftung SIRIS",
+   "url": "https://www.siris-implant.ch/images/content/download/20251204_SIRISReportHipandKnee2025_Final.pdf",
+   "abgerufen": "2026-10-07",
+   "fundstelle": "Tab. 5.1 S. 135 (Technik, Kopplung 2019–2024); S. 136 (Fixation, Patella, mobile PE 2024); Tab. 5.8 S. 157 (häufigste TKA-Systeme 2024).",
+   "pruefung": "PDF gelesen (Grok) 2026-10-07. ANQ-Link mit JS-Sperre nicht abrufbar."
+  },
+  {
+   "id": "Q_PERSONA",
+   "titel": "Persona The Personalized Knee – Surgical Technique",
+   "herausgeber": "Zimmer Biomet",
+   "url": "https://assets.ctfassets.net/rc4arfpyhdpw/6R1FpGyC07WTfcszrO2MKP/710ce1e70eb68bda7a449e07909f4859/persona-the-personalized-knee-surgical-technique1.pdf",
+   "abgerufen": "2026-10-07",
+   "fundstelle": "3914.1-GLBL-en, Issue Date 2022-08. PDF-S. 4 Fixation; S. 5 Kopplungsregeln; S. 6 Blutsperre; S. 44 Insert-Höhen; S. 47–49 Implantation (Zement, Lavage, Reihenfolge, Insert einmalig); S. 70–71 Kompatibilität. Englisch, global.",
+   "pruefung": "PDF gelesen (Grok) 2026-10-08."
+  },
+  {
+   "id": "Q_TRIATHLON",
+   "titel": "Triathlon Knee System – Surgical protocol compendium",
+   "herausgeber": "Stryker",
+   "url": "https://www.stryker.com/content/dam/stryker/joint-replacement/training-and-education/orthopaedic-fellows-summit/resources/1--knees/3.pdf",
+   "abgerufen": "2026-10-07",
+   "fundstelle": "TRIATH-SP-30_Rev-1_29865, © 2021. S. 2 Kompatibilität; S. 57–58 Implantat-REF (Schema mit X).",
+   "pruefung": "PDF gelesen (Grok) 2026-10-08."
+  },
+  {
+   "id": "Q_ATTUNE",
+   "titel": "ATTUNE Knee System – INTUITION Instruments Surgical Technique",
+   "herausgeber": "DePuy Synthes",
+   "url": "https://p1.aprimocdn.net/jjamp/en/depuy-synthes/surgical-technique-guide/attune-knee-system-intuition-instruments-dsusjrc03161437.pdf",
+   "abgerufen": "2026-10-07",
+   "fundstelle": "DSUS/JRC/0316/1437 Rev. K, © 2022 (US-Fassung). PDF-S. 2 Konfigurationen; S. 130 Kompatibilität; S. 132 Essential Product Information.",
+   "pruefung": "PDF gelesen (Grok) 2026-10-08. US-Dokument – kein EU-Ersatz."
+  },
+  {
+   "id": "Q_LEGION",
+   "titel": "LEGION Total Knee System – Specification Guide and Product Catalog",
+   "herausgeber": "Smith & Nephew",
+   "url": "https://smith-nephew.stylelabs.cloud/api/public/content/9b60b8ccb8d34736b556c9582336e376?download=true&v=e3edc939",
+   "abgerufen": "2026-10-07",
+   "fundstelle": "02861 V1 02/15 (US). S. 12 Sägeblatt-/Stylusdicke, S. 21–25 Kompatibilität, S. 40–48 Katalog.",
+   "pruefung": "PDF gelesen (Grok) 2026-10-08. US-Katalog 2015 – kein EU-Ersatz."
+  }
+ ],
+ "offen": [
+  "Status: Neuanlage, klinischer Entwurf; keine Freigabe durch Julian, keine Cloud-Prüfrunde.",
+  "Keine Quelle belegt Vorratsmengen, Nahtmaterial (Stärke/Nadel) oder Sieb-Inhalte als allgemeinen Knie-TEP-Standard – alles hausabhängig.",
+  "Keine Geräte-IFU für das Blutsperregerät, keine Zement-IFU und keine Jet-Lavage-IFU des Hauses gelesen. VBM-Manschette nur als Produktbeispiel.",
+  "Blutsperrendruck: laut Leitlinie keine Empfehlung aus Literatur ableitbar – bewusst offen.",
+  "BCIS-Bezug nur allgemein (Heraeus-Factsheet); keine knie-spezifische Quelle gelesen.",
+  "Navigation/Roboter: keine Hersteller-IFU von Mako, ROSA oder VELYS gelesen; nur Systemnamen aus Q_EMED.",
+  "Österreich: kein aktuelles Implantat-Ranking gefunden (nur BMSGPK-Bericht 2018).",
+  "Implantat-Originale teils US-Fassungen bzw. alt (ATTUNE US Rev. K 2022, LEGION US 2015) oder Drittanbieter-Kopie (Columbus 2014); EU-IFUs nicht gelesen.",
+  "Keine Bilder enthalten."
+ ],
+ "julian_pruefen": [
+  "Scope primäre bikondyläre Knie-TEP bestätigen (keine Schlitten-/Revisionsprothesen).",
+  "Hausstandard Blutsperre: Gerät, Manschette, Dokumentation, wer belüftet/öffnet.",
+  "Lagerungszubehör (Seitenstütze, Fußstütze/Keil, Beinhalter) und Abdeckset benennen.",
+  "Haus-Systeme Knie (welche der sechs Dateien; weitere wie SIGMA, Vanguard, NexGen, balanSys?).",
+  "Zement: Produkt, Antibiotikazusatz, Packungszahl, Vakuummischsystem und Jet-Lavage-Set.",
+  "Naht je Schicht (Kapsel, Subkutan, Haut): Material, Stärke, Nadel, Anzahl.",
+  "Drainage-, LIA- und TXA-Praxis im Haus (nur Ablauf, keine Dosen in Heike).",
+  "Navigation/Roboter/PSI im Haus vorhanden? Welche Systeme?",
+  "Zählplan: Probeteile, Shims, Pins, Sägeblätter."
+ ],
+ "aus_000_uebernommen": [
+  "Sign-in/Time-out/Sign-out",
+  "Zählumfang, Zeitpunkte, Vier-Augen, Differenz-Stopp",
+  "Seitenmarkierung sichtbar",
+  "Inzisionsfolie, Hautantiseptik",
+  "Blutsperren-Gerät + Manschette; Blutsperrenzeit ansagen + dokumentieren",
+  "Implantat erst auf Ansage öffnen; Verpackung/Verfall prüfen; Etiketten in Doku; Implantatpass laut Haus",
+  "Größenvorrat vorab prüfen; Probekomponenten zurückführen",
+  "Zement: Anästhesie informieren, Zement nach IFU, Ansage rückbestätigen, Mischen nur auf Ansage, Überschuss prüfen",
+  "Druckstellen gepolstert, NE-Ort, Antriebe und Ersatzakkus, Doppelhandschuhe",
+  "Regeln: keine Dosen/Mischzeiten/HF-Werte/Implantatgrößen"
+ ],
+ "aenderungsprotokoll": [
+  {
+   "version": "1.0",
+   "datum": "2026-10-08",
+   "grundlage": "Auftrag Julian („Erstelle Datei für knie tep also 002 ausführlich“); eigene Recherche Grok; Struktur nach 001 v1.3",
+   "aenderungen": [
+    "Neuanlage 002 mit 13 Abschnitten",
+    "Neue Implantat-Dateien für 6 Knie-Systeme"
+   ],
+   "nachpruefung": "Cloud-/Julian-Prüfung ausstehend"
+  }
+ ],
+ "gehoert_dazu": [
+  "implantate/aesculap-columbus-knie.json",
+  "implantate/zimmer-biomet-persona-knie.json",
+  "implantate/smith-nephew-legion-genesis-ii-knie.json",
+  "implantate/stryker-triathlon-knie.json",
+  "implantate/depuy-attune-knie.json",
+  "implantate/medacta-gmk-sphere-knie.json"
+ ]
+}

@@ -1,0 +1,365 @@
+{
+ "hersteller": "DePuy Synthes (J&J MedTech)",
+ "system": "ATTUNE Knee System (PS FB, PS RP, CR FB, CR RP, MS FB)",
+ "version": "1.0",
+ "quellen": [
+  {
+   "id": "da1",
+   "dokument": "ATTUNE Knee System – INTUITION Instruments Surgical Technique",
+   "stand": "DSUS/JRC/0316/1437 Rev. K, © 2022",
+   "seiten": "PDF-S. 2 Konfigurationen; S. 43 Narrow-Größen; S. 68 Patella-Optionen; S. 130 Kompatibilität; S. 132 Essential Product Information",
+   "url": "https://p1.aprimocdn.net/jjamp/en/depuy-synthes/surgical-technique-guide/attune-knee-system-intuition-instruments-dsusjrc03161437.pdf",
+   "markt": "US-Fassung – kein EU-Ersatz",
+   "gelesen_von": "Grok 08.10.2026; OpenAI 07.10.2026 (S. 130)"
+  },
+  {
+   "id": "da_fsca",
+   "dokument": "Swissmedic FSCA – Dringende Sicherheitsinformation ATTUNE zementfreier CR-Femur (falsche Größe, 1 Lot)",
+   "stand": "DePuy Ireland, Schreiben 18.08.2023; DPS-Referenz 2293230",
+   "seiten": "S. 1",
+   "url": "https://fsca.swissmedic.ch/mep/api/publications/Vk_20230814_04/documents/1",
+   "markt": "CH",
+   "gelesen_von": "Grok 08.10.2026 (Hinweis aus OpenAI 07.10.2026)"
+  }
+ ],
+ "komponenten": [
+  {
+   "id": "depuy.attune.femur_cr",
+   "typ": "femur",
+   "bezeichnung": "ATTUNE CR Femoral Component",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "kopplung": "CR (auch für CS-Anwendung)",
+    "groessen": "1, 2, 3/3N, 4/4N, 5/5N, 6/6N, 7, 8, 9, 10",
+    "narrow": "3–6",
+    "fixation": "zementiert; zementfreie poröse CR-Variante existiert laut FSCA (mit oder ohne Zement)"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "da1",
+   "sicherheit": "belegt",
+   "groessen": [
+    {
+     "variante": "zementfrei Porocoat, rechts, Größe 4",
+     "ref": "1504-01-204",
+     "gtin": "10603295041474",
+     "seite_quelle": "da_fsca S. 1 (Rückruf-Lot!)"
+    }
+   ]
+  },
+  {
+   "id": "depuy.attune.femur_ps",
+   "typ": "femur",
+   "bezeichnung": "ATTUNE PS Femoral Component",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "kopplung": "PS",
+    "groessen": "1, 2, 3/3N, 4/4N, 5/5N, 6/6N, 7, 8, 9, 10"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "da1",
+   "sicherheit": "belegt",
+   "groessen": []
+  },
+  {
+   "id": "depuy.attune.tibia_fb",
+   "typ": "tibia",
+   "bezeichnung": "ATTUNE FB Tibial Base (Fixed Bearing)",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "groessen": "1–10",
+    "plattform": "fest"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "da1",
+   "sicherheit": "belegt",
+   "groessen": []
+  },
+  {
+   "id": "depuy.attune.tibia_rp",
+   "typ": "tibia",
+   "bezeichnung": "ATTUNE RP Tibial Base (Rotating Platform)",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "groessen": "1–10",
+    "plattform": "mobil"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "da1",
+   "sicherheit": "belegt",
+   "groessen": []
+  },
+  {
+   "id": "depuy.attune.insert_fb",
+   "typ": "insert",
+   "bezeichnung": "ATTUNE CR, PS und Medial Stabilized FB Tibial Insert",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "kopplung": "CR / PS / MS",
+    "groessen": "1–10 (= Femurgröße)",
+    "hoehen": "offen (Original nicht ausgewertet)"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "da1",
+   "sicherheit": "belegt (Größen); Höhen offen",
+   "groessen": []
+  },
+  {
+   "id": "depuy.attune.insert_rp",
+   "typ": "insert",
+   "bezeichnung": "ATTUNE CR und PS RP Tibial Insert",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "kopplung": "CR / PS",
+    "groessen": "1–10"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "da1",
+   "sicherheit": "belegt",
+   "groessen": []
+  },
+  {
+   "id": "depuy.attune.allpoly",
+   "typ": "tibia",
+   "bezeichnung": "ATTUNE CR und PS All Poly Tibial Component",
+   "auswahl_dach": false,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementiert (laut Kompatibilitätstabelle ±1 Größe)"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "da1",
+   "sicherheit": "belegt",
+   "groessen": []
+  },
+  {
+   "id": "depuy.attune.patella",
+   "typ": "patella",
+   "bezeichnung": "ATTUNE Medialized Anatomic / Medialized Dome Patella",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "groessen_mm": [
+     29,
+     32,
+     35,
+     38,
+     41
+    ],
+    "hinweis": "Aufteilung der Größen auf Anatomic/Dome laut Tabelle S. 130 am Original prüfen"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "da1",
+   "sicherheit": "belegt (Größenregel)",
+   "groessen": []
+  }
+ ],
+ "tabellen": {
+  "T_attune_modular": {
+   "titel": "Femur = Insert-Größe; Tibia-Basis FB/RP; Patella",
+   "quelle": "da1",
+   "seite": "PDF-S. 130",
+   "zeilen": [
+    "F1: Basis 1–3; Patella 29–41",
+    "F2: Basis 1–4; Patella 29–41",
+    "F3/3N: Basis 1–5; Patella 29–41",
+    "F4/4N: Basis 2–6; Patella 32–41",
+    "F5/5N: Basis 3–7; Patella 32–41",
+    "F6/6N: Basis 4–8; Patella 32–41",
+    "F7: Basis 5–9; Patella 35–41",
+    "F8: Basis 6–10; Patella 35–41",
+    "F9: Basis 7–10; Patella 38–41",
+    "F10: Basis 8–10; Patella 38–41"
+   ],
+   "legende": "Insert-Größe = Femurgröße; Insert ±2 Größen zur Basis (Ref. Number 103262475)."
+  },
+  "T_attune_allpoly": {
+   "titel": "Femur / All-Poly-Tibia",
+   "quelle": "da1",
+   "seite": "PDF-S. 130",
+   "zeilen": [
+    "F1: 1–2",
+    "F2: 1–3",
+    "F3/3N: 2–4",
+    "F4/4N: 3–5",
+    "F5/5N: 4–6",
+    "F6/6N: 5–7",
+    "F7: 6–8",
+    "F8: 7–9",
+    "F9: 8–10",
+    "F10: 9–10"
+   ],
+   "legende": "±1 Größe"
+  }
+ },
+ "passt_zu": [
+  {
+   "von": "depuy.attune.femur_cr",
+   "zu": "depuy.attune.insert_fb",
+   "status": "bedingt",
+   "bedingung": "CR-Insert gleiche Größe wie CR-Femur; Insert ±2 Größen zur Basis",
+   "quelle": "da1",
+   "seite": "PDF-S. 132/130",
+   "tabelle": "T_attune_modular"
+  },
+  {
+   "von": "depuy.attune.femur_ps",
+   "zu": "depuy.attune.insert_fb",
+   "status": "bedingt",
+   "bedingung": "PS-Insert gleiche Größe wie PS-Femur; ±2 zur Basis",
+   "quelle": "da1",
+   "seite": "PDF-S. 132/130",
+   "tabelle": "T_attune_modular"
+  },
+  {
+   "von": "depuy.attune.femur_cr",
+   "zu": "depuy.attune.insert_rp",
+   "status": "bedingt",
+   "bedingung": "CR-RP-Insert, Größe laut Tabelle",
+   "quelle": "da1",
+   "seite": "PDF-S. 130",
+   "tabelle": "T_attune_modular"
+  },
+  {
+   "von": "depuy.attune.insert_fb",
+   "zu": "depuy.attune.tibia_fb",
+   "status": "bedingt",
+   "bedingung": "±2 Größen",
+   "quelle": "da1",
+   "seite": "PDF-S. 132/130",
+   "tabelle": "T_attune_modular"
+  },
+  {
+   "von": "depuy.attune.insert_rp",
+   "zu": "depuy.attune.tibia_rp",
+   "status": "bedingt",
+   "bedingung": "±2 Größen",
+   "quelle": "da1",
+   "seite": "PDF-S. 130",
+   "tabelle": "T_attune_modular"
+  },
+  {
+   "von": "depuy.attune.allpoly",
+   "zu": "depuy.attune.femur_cr",
+   "status": "bedingt",
+   "bedingung": "±1 Größe",
+   "quelle": "da1",
+   "seite": "PDF-S. 132/130",
+   "tabelle": "T_attune_allpoly"
+  },
+  {
+   "von": "depuy.attune.patella",
+   "zu": "depuy.attune.femur_cr",
+   "status": "bedingt",
+   "bedingung": "38/41 mm alle Femurgrößen; 29 mm nur F1–3; 32 mm nur F1–6; 35 mm nur F1–8",
+   "quelle": "da1",
+   "seite": "PDF-S. 132",
+   "tabelle": "T_attune_modular"
+  }
+ ],
+ "regeln": [
+  {
+   "wenn": "insert",
+   "pruefe": "insert.groesse == femur.groesse",
+   "text": "CR/PS-Insert gleiche Größe wie Femur; innerhalb 2 Größen der Basis.",
+   "quelle": "da1 PDF-S. 132"
+  },
+  {
+   "wenn": "patella",
+   "pruefe": "femur.groesse",
+   "text": "29 mm nur F1–3, 32 mm nur F1–6, 35 mm nur F1–8, 38/41 mm alle.",
+   "quelle": "da1 PDF-S. 132"
+  },
+  {
+   "wenn": "fremd",
+   "pruefe": "nicht mischen",
+   "text": "Implantate und Probeteile anderer Hersteller/Systeme nie zusammen verwenden.",
+   "quelle": "da1 PDF-S. 132"
+  }
+ ],
+ "rueckrufe": [
+  {
+   "betrifft": [
+    "depuy.attune.femur_cr"
+   ],
+   "markt": "CH (Swissmedic FSCA, DePuy Ireland 18.08.2023)",
+   "status": "lot-spezifisch: REF 1504-01-204, Lot 3883327 (zementfreier CR-Femur rechts Gr. 4, Maße einer Gr. 5) – keine allgemeine Sperre"
+  }
+ ],
+ "offen": [
+  "Nur US-Dokument (Rev. K 2022) gelesen – EU-IFU/Katalog offen.",
+  "REF der zementierten Standardkomponenten nicht gesehen.",
+  "Insert-Höhen nicht ausgewertet.",
+  "Zementfreie ATTUNE-Komponenten (außer FSCA-Beispiel) offen."
+ ],
+ "verified_hinweis": "Neuanlage 08.10.2026 aus ATTUNE INTUITION ST Rev. K (US) und Swissmedic-FSCA. verified: false.",
+ "region": "knie",
+ "verified": false,
+ "stand_extrakt": "2026-10-08",
+ "hinweise": [
+  "Vor dem Öffnen Komponente, Seite, Größe, Typ und Insert-Höhe laut ansagen; Herstellerdokument und aktuelle EU-IFU maßgeblich.",
+  "Systeme nicht mischen – Registerbeobachtungen sind keine Freigabe.",
+  "Nicht dokumentierte Kombinationen: offen – Operateur bzw. Hersteller fragen."
+ ],
+ "aenderungsprotokoll": [
+  {
+   "version": "1.0",
+   "datum": "2026-10-08",
+   "lauf": "002-knie-tep",
+   "text": "Neuanlage aus Hersteller-Originalen (Grok); Systemauswahl nach EPRD/SIRIS."
+  }
+ ]
+}
