@@ -1,3 +1,31 @@
+# 08.10.2026 – 000–002 konsolidiert und Einzelpackungen live
+
+Kerlect **6aa3f64b0b23cc244ce7686d** ist veröffentlicht. Das Base44-Dashboard bestätigte „Ihre App ist live“. Die veröffentlichte Quellenansicht wurde unter https://kerlect.base44.app/knowledge-offline.html?paket=002 aufgerufen; REF-Suche und Medacta-Einzelpackung **02.12.0004L / 4 links** waren sichtbar.
+
+## Umfang
+
+- Gemeinsamer Einstieg „Heikes Wissenspakete“ in HeikeCatalog und OPKatalogClean: 000 Grundwissen, 001 Hüfte und 002 Knie; situationsbezogene Filter, Suche und Originalquellen. Keine Änderungen an Nutzerstandards oder Gruppenbeständen.
+- 000 und 001 zeigen die vorhandenen Paketdaten. Hip-Snapshot und Backend-Fallback sind auf Wissens-Commit **4979c046304658fda0ce97c4723497fe0e28c4d7** aktualisiert: **11 Systemdateien, 168 Komponenten, 1.617 rohe Größen-/Tabellenzeilen**. Die Zeilenzahl ist keine Anzahl vollständig freigegebener REF-/Größenpaare.
+- 002 ist eine klar gekennzeichnete Rechercheansicht mit **18 belegten Artikelbeispielen**, sechs Kompatibilitätsbefunden, Quellen- und Marktgrenzen, chargenbezogenem Hinweis und offenen Punkten. Kein Knie-OP-Tablett aktiviert, keine vollständige Kombinationsfreigabe behauptet.
+- Julians Zusatzauftrag: Jede belegte Variante kann einzeln als herstellerangelehnte **Symbolpackung mit REF/Bestellnummer und Größe/Variante** angesehen werden. In der Hüftliste öffnet sie direkt unter der gewählten Zeile; bei Knie über „Packung & Quelle“. LOT/Verfall bleiben am Original abzulesen; keine erfundenen CE-/UDI-/Chargenangaben.
+- Farben und Form sind gestalterische Annäherungen, keine bestätigten REF-genauen Verpackungsreproduktionen. Authentische Herstellerabbildungen bleiben als Originalquellen verlinkt. Eigene Fotos werden nur bei ausdrücklicher Nutzungsfreigabe und gültiger HTTPS-URL eingebettet; fehlende/defekte Fotos erhalten ein Symbol.
+- Ein gemeinsamer öffentlicher, rein lesender Reader und Offline-Assets werden aus denselben Komponenten erzeugt; Service Worker v49 nimmt die Wissensdateien auf. Enthält ausschließlich öffentliche Wissensdaten, keine privaten Standards oder Patientendaten.
+
+## Korrekturen und Prüfung
+
+- Metadaten wie ref_spalte, Seiten, Marktstatus und Hinweise werden nicht als Größenwahl oder REF behandelt. Gültige Zeilen mit Hinweisen bleiben erhalten. CORAIL-Größe 8 behält die gedruckte **3L92507**, LINK-Schrägstriche bleiben Bestandteil der REF, SAP-/Item-Nummern werden gekennzeichnet; reine Längen-/REF-Zeilen sind eindeutig wählbar.
+- **41 gezielte Tests bestanden**: 38 Modell-/UI-Komponenten-/Backend-/Wissensprüfungen und drei gebündelt ausgeführte Loader-Tests. Lint und vollständiger Build grün. Der bestehende Loader-Test benötigte unter Node24 das esbuild-Bündeln wegen seines JSON-Imports ohne Import-Attribut.
+- Browser: angemeldete Builder-Vorschau öffnet den gemeinsamen Wissensdialog; 000 sichtbar, Wechsel zu 002, exakte REF-Suche und Einzelpackung samt Quelle erfolgreich. Öffentlicher Reader: 001 mit 83 Hinweisen, elf Systemdateien, CORAIL-Suche und Zuordnung der Größe 8 geprüft; 002 mit 18 Beispielen und Einzelansicht geprüft. Nach Publish dieselbe Medacta-Einzelansicht auf der Live-Domain verifiziert.
+- Keine App-Laufzeitfehler in der geprüften Reader-Ansicht; beobachtete Konsolenfehler betrafen ausschließlich die Browser-Erweiterung. Kein erneuter vollständiger klinischer Tablettablauf oder echter Geräte-/Offline-Netzabschaltungstest in diesem Block.
+
+## Sicherung und verbleibende Grenzen
+
+Vorheriger Checkpoint **6ac6c406a186459b2a7184dc**, Commit **0fe5634bba4c4d0cef8c81e572b98479d560ea94**. Veröffentlichter Code-Checkpoint **6ac6cb1943b1b753ee49cb28**, Commit **8f2eb2296cb722e07c43275b5ba40dc17554053e**.
+
+Klinisches Review von 000/001 und Paketabschluss 002 bleiben offen. Für 002 fehlen insbesondere vollständige aktuelle regionale Größen-/REF-Listen, IFU-Abgleich, Systemdaten und freigegebene Kombinationen. Originale REF-bezogene Verpackungsfotos sind weiter offen. Der bisherige Tischaufbau und die bestehenden Ansage-/Halteprüfungen wurden erhalten.
+
+---
+
 # 07.10.2026 – Live-Korrekturen und Veröffentlichung abgeschlossen
 
 Veröffentlicht: Kerlect, App 6aa3f64b0b23cc244ce7686d. Base44-Dashboard bestätigt „Ihre App ist live“. Live-Seite erreichbar unter https://kerlect.base44.app/login?returnTo=%2F. Paket 1 bleibt eingefroren.
