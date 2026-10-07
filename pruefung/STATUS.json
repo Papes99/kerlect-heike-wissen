@@ -1,6 +1,6 @@
 {
  "stand": "2026-10-07",
- "regeln": "Jede Datei bearbeitet nur ihr Ersteller. Claude: pakete/NNN-basis.json + .md, pakete/NNN-abschluss.md, implantate/*, pakete/NNN-quellen-auftrag.md, pruefung/STATUS.json, README.md. Grok: pruefung/NNN-grok.md. Astra: pruefung/NNN-astra.md. Julian: eingang/*. Dateinamen ohne Versionsnummer.",
+ "regeln": "Jede Datei bearbeitet nur ihr Ersteller. Claude: pakete/NNN-basis.json + .md, pakete/NNN-abschluss.md, implantate/*, pakete/NNN-quellen-auftrag.md, pruefung/STATUS.json, README.md. Grok: pruefung/NNN-grok.md. Astra: pruefung/NNN-astra.md. Perplexity: pruefung/NNN-perplexity.md. Julian: eingang/*. Dateinamen ohne Versionsnummer.",
  "ablauf": "Pro Paket EIN Lauf: 1 Claude schreibt NNN-basis („Zur Prüfung“) → 2 Grok prüft EINMAL (alles) → 3 Astra prüft EINMAL, bis 020 nur die Implantat-Punkte (Lauf ohne Implantate: entfällt) → 4 Claude liest alles, denkt kritisch mit, Änderungsliste an Julian (Entscheidungen als Multiple Choice) → 5 Julian ok → Claude baut ein. Keine zweite Prüfrunde. Nach dem Einbau: NNN-basis.json + .md werden zu EINER Datei pakete/NNN-abschluss.md (oben lesbar, unten JSON-Block); basis-Dateien entfernt. Neuer Lauf (nach „NNN los“) startet wieder mit NNN-basis aus der Abschlussdatei.",
  "pakete": {
   "000": {
@@ -67,7 +67,8 @@
     "sn_duokopf_etikett": "TANDEM Bipolar (häufigstes aktuelles S+N-Duokopfsystem; laut TANDEM-OP-Technik 29073 V2 PDF 17 mit SPECTRON EF kompatibel, Innenkopf OXINIUM/CoCr 22/28)",
     "enovis_ccb_profil": "beide (Low- und Full-profile)",
     "abnahme": "noch nicht einbauen – wartet auf Julian (ggf. Perplexity 001-perplexity-3)"
-   }
+   },
+   "perplexity_auftrag": "pakete/001-implantate-perplexity-auftrag.md"
   },
   "001-implantate-dach": {
    "name": "001-implantate-dach (Extra-Lauf, geplant)",
@@ -90,7 +91,7 @@
  "hinweis_start": "Neustart 07.10.2026: alte Prüf-/Arbeitsdateien gelöscht (Git-Verlauf). Kette beginnt mit 000.",
  "start_befehl": "Ein Paket startet nur, wenn Julian „NNN los“ sagt (z. B. „001 los“).",
  "zuordnung": "000 = allgemeines OP-Wissen (gilt für jeden Eingriff). Eingriffspakete (001 …) enthalten NUR Eingriffsspezifisches. Allgemeines aus Eingriffspaketen: ist es schon in 000 → im Eingriffspaket streichen; fehlt es in 000 → über die Kette (000-basis „Zur Prüfung“ → Grok → Astra → Julian) nach 000 verschieben, dann im Eingriffspaket streichen. Eingriffsspezifisches nie in 000.",
- "perplexity": "Perplexity läuft nicht automatisch (kein Lesen/Commit ohne Bestätigung). Grok sucht Quellen im Lauf selbst (pakete/NNN-quellen-auftrag.md). Am Laufende erstellt Claude für alles „nicht gefunden“ einen fertigen Perplexity-Prompt in der Änderungsliste; Perplexity antwortet im Chat, der Prompt wird Julian als Datei geschickt und verlangt die Antwort als Datei NNN-perplexity-X.md; Julian lädt sie hier im Chat hoch (Ablage eingang/, Hausangabe/Quelle Perplexity).",
+ "perplexity": "Perplexity liest das Repo selbst. Braucht ein Lauf Recherche, legt Claude pakete/NNN-perplexity-auftrag.md an. Perplexity schreibt nur pruefung/NNN-perplexity.md (eigene Datei; Commit mit Bestätigung) – oder, wenn das nicht geht, als Datei in den Chat → Julian lädt sie bei Claude hoch (Ablage eingang/). Ergebnisse sind Fundstellen, nie direkt Werte; Grok/Astra prüfen am Original.",
  "lauf_regel": "Liegt eine eigene Datei von VOR dem lauf_start des Pakets, überschreibt ihr Ersteller sie im neuen Lauf.",
  "systeme": "Systeme werden nicht aktiv gemischt (Julian 07.10.2026): jede Komponente nur zusammen mit dem, was der Hersteller im Dokument ausdrücklich dafür vorsieht. Keine eigenen Kombinationen – weder über Hersteller noch innerhalb eines Herstellers.",
  "haus_systeme": {
