@@ -86,6 +86,12 @@ Alle Bewegungen laufen über **Federn** (Masse-Feder-Dämpfer, x'' = −k·(x−
 - Heike-Satz in jedem Schritt: was jetzt passiert und worauf achten (Texte aus 001 `heike_hinweise`).
 - Fachbegriffe kurz erklärt per Tipp (z. B. „Offset = Halslänge des Kopfes“).
 
+## Ergänzung Julian (07.10.2026): System im Standard, eigene Systeme
+1. **Im Standard steht nie eine einzelne Implantatgröße** – die Größe ist bei jedem Patienten anders. Gespeichert wird nur das **System**: Hersteller, System, Fixation/Varianten, verfügbare Komponenten mit Größenbereichen, Konus, Probesets/Siebe, Quelle + Stand. Knopf im Abschnitt `implants`: **„System in Standard übernehmen“** (Auswahl aus `haus_systeme`/`implantate/*.json`). Das ist auch der System-Vorschlag beim Öffnen des Tabletts (Punkt 3 oben).
+2. **Größenwahl = nur in der OP** (Tablett, Schritte 3–7): auf Ansage, lokal für den laufenden Lauf, **nie** im Standard gespeichert; nach Abschluss zurücksetzen.
+3. **Eigene Systeme:** Nutzer können ein System selbst anlegen oder ergänzen (z. B. Lagerbestand, System, das Kerlect noch nicht kennt): Hersteller, System, Konus, Komponenten/Größen, REF, eigene Fotos (Rechte-Feld Pflicht). Immer sichtbar markiert **„eigene Angabe – nicht geprüft“**, privat oder für die eigene Gruppe teilbar (Rechte wie Standards, reader_ids nicht aufweichen). Geprüfte Kerlect-Daten bleiben schreibgeschützt; eigene Systeme werden nie mit geprüften gemischt (Filter-Logik gilt genauso: nur Teile derselben Quelle/Datei).
+4. Vorlage für beides (erfundene Daten): https://claude.ai/artifact/35gHvTH2bBA4mWasYUEwNA
+
 ## Abnahme (was fertig heißt)
 - [ ] Alle 7 Screens wie Mockups, Daten nur aus `implantate/*.json` + `haus_systeme`.
 - [ ] Kein Teil eines anderen Herstellers/Systems wählbar (Test: Isodur-CoCr-Kopf bei Stryker → Screen 6).
@@ -93,5 +99,7 @@ Alle Bewegungen laufen über **Federn** (Masse-Feder-Dämpfer, x'' = −k·(x−
 - [ ] „Steril anreichen“ erst nach vollständigem Ansage-Check.
 - [ ] Rückruf-Hinweis erscheint bei LFIT/BIOLOX delta V40 (Stryker), R3 (S+N), Vitelene (Aesculap) – nur als Hinweis.
 - [ ] Neue Werte aus Lauf 001-implantate erscheinen ohne Codeänderung, sobald die JSON-Dateien ergänzt sind.
+- [ ] Standard speichert nur das System (keine Größe); Größen nur im Tablett, nicht persistent am Standard.
+- [ ] Eigenes System anlegen/teilen funktioniert, Badge „eigene Angabe – nicht geprüft“, nie mit geprüften Daten gemischt.
 
 _Hinweis: Diese Datei gehört Claude. Astra legt Rückfragen/Vorschläge in `pruefung/app-astra.md` ab._
