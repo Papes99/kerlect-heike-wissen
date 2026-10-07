@@ -7,6 +7,25 @@
 
 **Ergebnis:** 7 übernehmen · 0 ablehnen · 3 keine Änderung nötig (schon so im Paket) · 4 Julian entscheidet
 
+## Das ändere ich in Paket 001 (v1.0 → v1.1)
+
+**Ändere ich nach „f“:**
+- pitfalls · Alkoholansammlungen vermeiden: Quelle HEBU → **KRINKO 2018** (HEBU nur ergänzend). Grund: HEBU belegt es nicht.
+- workflow · Anästhesie vor Zement informieren: „vor Zement“ → **„über jeden Zementierschritt“**. Grund: BCIS-Factsheet verlangt mehr.
+- Heike-Satz: „Sag der Anästhesie vor dem Einbringen Bescheid“ → **„Anästhesie über jeden Zementierschritt informieren“**. Grund: wie oben.
+- draping · Flüssigkeitsdichte Abdeckung: + **„bei erwartetem Durchfeuchten flüssigkeitsundurchlässig (Kat. IB)“**. Grund: KRINKO genauer.
+- position · NE-Kontakt kontrollieren: + Hinweis **„IFU der Haus-NE maßgeblich, HEBU nur Beispiel“**. Grund: Marken-IFU ist keine allgemeine Regel.
+- count · **neu: „Markraumstopper mitzählen“** (zementiert/hybrid, hausabhängig). Grund: belassenes Material dokumentieren.
+- implants · Mathys: alle Werte bleiben **„offen“**. Grund: kein Herstellerdokument lesbar.
+
+**Ändere ich erst nach deiner Antwort:**
+- implants · **neu: „EU: keine Hemi mit Accolade II“**. Frage: Auf welchen Schaft kommt der Stryker-Duokopf? Z. B. *Accolade II*, *Accolade TMZF*, *Exeter* (zementiert), oder Hemi mit *Mathys Bipolarkopf auf twinSys*?
+- implants · Stryker-Daten → neue Datei `implantate/stryker-accolade-ii.json` (Konus V40, 132°/127°, Köpfe je ⌀ mit Offsets, UHR 36–61 mm). Frage: Werte so freigeben?
+- implants · POLARSTEM → `implantate/smith-nephew-polarstem-r3.json`. Frage: Ist dein Schaft z. B. *POLARSTEM*, *SL-PLUS* oder *ANTHOLOGY*?
+- implants · Trident II / R3 / TANDEM: Größen bleiben offen. Frage: Was steht auf dem Etikett, z. B. *Trident II Clusterhole + X3* oder *R3 + XLPE + OXINIUM 32 mm*?
+
+**Abgelehnt:** nichts. **Keine Änderung nötig:** Naht, Materialmengen und LINK-DAA stehen schon so im Paket.
+
 ## A. Belegte Zeilen (Grok)
 11 bestätigt · 1 zu weit gefasst (Alkoholansammlungen, Quelle HEBU → Nr. 1) · 0 nicht gefunden.
 Kleine Abweichung: Grok nennt für die KRINKO-Abdeckung **S. 460**, im Paket steht **S. 461**. Beim Einbau bitte die Seite am PDF prüfen.
