@@ -1,0 +1,696 @@
+{
+ "hersteller": "Zimmer Biomet",
+ "system": "Avenir, Fitmore, CLS Spotorno, Alloclassic + Allofit / G7; zementiert M.E.M., MS-30 + Flachprofil",
+ "version": "1.0",
+ "quellen": [
+  {
+   "id": "fitmore",
+   "dokument": "Fitmore Hip Stem Surgical Technique",
+   "stand": "1013.3-GLBL-en, 2025-04",
+   "seiten": "S. 12–16 / PDF 14–18; Bestelltabellen S. 16 ff.",
+   "url": "https://www.zimmerbiomet.com/content/dam/zb-corporate/en/education-resources/surgical-techniques/specialties/hip/fitmore/1013.3-GLBL-en%20Fitmore%20Hip%20Stem%20Surg%20Tech%20A4%20DIGITAL.pdf",
+   "markt": "global",
+   "gelesen_von": "Grok/Astra 07.10.2026"
+  },
+  {
+   "id": "avenir",
+   "dokument": "Avenir Complete Surgical Technique",
+   "stand": "1624.4-GLBL-en, 2021-11-10",
+   "seiten": "PDF 7, 9 (12 Seiten, keine Bestelltabelle)",
+   "url": "https://assets.ctfassets.net/rc4arfpyhdpw/4PulT0mR4JdEX4f5n00BxC/88cc646adbb9dbc5309025ed0769cd3e/1624.4-GLBL-en_Avenir_SurgTech.pdf",
+   "markt": "global",
+   "gelesen_von": "Grok/Astra 07.10.2026"
+  },
+  {
+   "id": "g7",
+   "dokument": "G7 Acetabular System Surgical Technique",
+   "stand": "2336.6-GLBL-en, 2026-09-09",
+   "seiten": "S. 3–5 / PDF 6–8 (Thickness Guide); Keramik S. 7 / PDF 10",
+   "url": "https://www.zimmerbiomet.com/content/dam/zb-corporate/en/education-resources/surgical-techniques/specialties/hip/g7-acetabular-system/2336.6-GLBL-en%20G7%20Acetabular%20System%20Surgical%20Technique.pdf",
+   "markt": "global; lokale Verfügbarkeit prüfen",
+   "gelesen_von": "Grok/Astra 07.10.2026"
+  },
+  {
+   "id": "ms30",
+   "dokument": "MS-30 Cemented Hip Stem Surgical Technique",
+   "stand": "5087.1-GLBL-en, 2025-12",
+   "seiten": "S./PDF 25–26, 29–30",
+   "url": "https://assets.ctfassets.net/rc4arfpyhdpw/141dC8Nk3O5X6zFJkF1ba2/11cb417e096fc3f917a1cebfee73a33b/5087.1-GLBL-en_MS-30_Cemented_Hip_Stem_Upgraded_Instruments_Surg_Tech_A4_DIGITAL.pdf",
+   "markt": "global",
+   "gelesen_von": "Grok/Astra 07.10.2026"
+  },
+  {
+   "id": "ceramic",
+   "dokument": "Head and Stem Combinations: Ceramic Femoral Heads",
+   "stand": "Revised 5/6/2019",
+   "seiten": "PDF 1–3 (Zeilen Alloclassic/Avenir/CLS/Fitmore, Fußnoten)",
+   "url": "https://assets.ctfassets.net/rc4arfpyhdpw/6LuflsxnuxzS6yod8Wbg5c/75d5c277cb99658423118798f590191e/Ceramic_Femoral_Heads_NEW.pdf",
+   "markt": "EU-Seite; „funktionelle Kompatibilität ≠ regulatorische Zulassung“",
+   "gelesen_von": "Grok/Astra 07.10.2026"
+  },
+  {
+   "id": "cocr",
+   "dokument": "Head and Stem Combinations: CoCr Femoral Heads",
+   "stand": "Revised 7/15/2020",
+   "seiten": "PDF 1–3",
+   "url": "https://assets.ctfassets.net/rc4arfpyhdpw/iV1BfgVRHhLqYPmt2Zt2G/bc7ac72e2ad60e1eed7f7d9f5628fa51/CoCr-Femoral-Heads_NEW.pdf",
+   "markt": "EU-Seite",
+   "gelesen_von": "Grok/Astra 07.10.2026"
+  },
+  {
+   "id": "bipolar",
+   "dokument": "Head and Stem Combinations: Unipolar and Bipolar Femoral Heads",
+   "stand": "Revised 5/6/2019",
+   "seiten": "PDF 1–2 (Zeile MS-30, Fußnote 1)",
+   "url": "https://assets.ctfassets.net/rc4arfpyhdpw/32LNW4qj9EF9gZTbsgW3XK/aff2b857d83db63fa9441c1d96e1237d/Unipolar_and_Bipolar_Femoral_Heads_NEW.pdf",
+   "markt": "EU-Seite",
+   "gelesen_von": "Grok/Astra 07.10.2026"
+  },
+  {
+   "id": "liners",
+   "dokument": "Modular Liners and Cups (Allofit u. a.)",
+   "stand": "Revised 05/03/2019",
+   "seiten": "gesamt",
+   "url": "https://assets.ctfassets.net/rc4arfpyhdpw/4cFuQfD9ptPL2LNaoqXCYj/f032b9a0ac0920a7c3e2b2b65949fa47/Liners_and_Cups_Final.pdf",
+   "markt": "EU",
+   "gelesen_von": "Perplexity-Fundstelle – noch nicht gelesen"
+  }
+ ],
+ "komponenten": [
+  {
+   "id": "zb.avenir.zementfrei",
+   "typ": "schaft",
+   "bezeichnung": "Avenir (zementfrei)",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementfrei",
+    "hinweis": "Avenir ≠ Avenir Complete (eigene EPRD-Zeile Avenir Complete Collarless n=4.820)",
+    "werte": "Größen/REF offen"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "avenir",
+   "sicherheit": "offen"
+  },
+  {
+   "id": "zb.avenir.zementiert",
+   "typ": "schaft",
+   "bezeichnung": "Avenir zementiert",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementiert",
+    "werte": "offen; Duokopf in CH: Avenir zementiert + ZB bipolar (SIRIS 2024 n=151)"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": null,
+   "sicherheit": "offen"
+  },
+  {
+   "id": "zb.fitmore",
+   "typ": "schaft",
+   "bezeichnung": "Fitmore",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementfrei",
+    "konus": "12/14",
+    "material": "Protasul-64",
+    "familien": "A, B, B Extended Offset, C – je Größen 1–14",
+    "ccd_grad": "140 / 137 / 129 / 127 (Zuordnung je Familie laut Original S. 12–15)",
+    "hinweis": "A Größe 1 nicht USA; 13/14 auf Anfrage",
+    "konflikt": "B Extended Gr. 12 (REF 01.00551.312): Offset 50,0 mm (S. 14) vs. 50,75 mm (S. 16) – Wert offen"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "fitmore",
+   "sicherheit": "belegt",
+   "groessen": [
+    {
+     "familie": "A",
+     "groessen": "1–14"
+    },
+    {
+     "familie": "B",
+     "groessen": "1–14"
+    },
+    {
+     "familie": "B Extended Offset",
+     "groessen": "1–14"
+    },
+    {
+     "familie": "C",
+     "groessen": "1–14"
+    }
+   ]
+  },
+  {
+   "id": "zb.cls_spotorno",
+   "typ": "schaft",
+   "bezeichnung": "CLS Spotorno",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementfrei",
+    "werte": "EU-Größen offen (nur JP/US-Ausgaben gefunden)"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": null,
+   "sicherheit": "offen"
+  },
+  {
+   "id": "zb.alloclassic",
+   "typ": "schaft",
+   "bezeichnung": "Alloclassic Zweymüller",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementfrei",
+    "werte": "EU-Größen offen; Konus je Variante am Etikett (8/10 nicht pauschal)"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": null,
+   "sicherheit": "offen"
+  },
+  {
+   "id": "zb.mem",
+   "typ": "schaft",
+   "bezeichnung": "M.E.M. Geradschaft (zementiert)",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementiert",
+    "hinweis": "M.E.M. ≠ MS-30",
+    "werte": "offen – nur Registerbeleg (EPRD zementiert #1)"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": null,
+   "sicherheit": "offen"
+  },
+  {
+   "id": "zb.ms30",
+   "typ": "schaft",
+   "bezeichnung": "MS-30 (zementiert)",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementiert",
+    "konus": "12/14",
+    "varianten": {
+     "Standard": "CCD 130–135°, Offset 37,7–43,3 mm",
+     "Lateral": "CCD 124,3–128°, Offset 42,2–48,4 mm"
+    }
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "ms30",
+   "sicherheit": "belegt",
+   "groessen": [
+    {
+     "groesse": "6",
+     "ref_standard": "30.00.49-060",
+     "laenge_mm": 115,
+     "offset_mm": 37.7,
+     "ccd": 130,
+     "ref_lateral": "01.00351.001",
+     "laenge_lat_mm": 116,
+     "offset_lat_mm": 42.2,
+     "ccd_lat": 124.3
+    },
+    {
+     "groesse": "8",
+     "ref_standard": "30.00.49-080",
+     "laenge_mm": 132,
+     "offset_mm": 38.9,
+     "ccd": 131,
+     "ref_lateral": "01.00351.002",
+     "laenge_lat_mm": 133,
+     "offset_lat_mm": 43.6,
+     "ccd_lat": 125.3
+    },
+    {
+     "groesse": "10",
+     "ref_standard": "30.00.49-100",
+     "laenge_mm": 136,
+     "offset_mm": 40.1,
+     "ccd": 132,
+     "ref_lateral": "01.00351.003",
+     "laenge_lat_mm": 137,
+     "offset_lat_mm": 44.9,
+     "ccd_lat": 126.3
+    },
+    {
+     "groesse": "12",
+     "ref_standard": "30.00.49-120",
+     "laenge_mm": 140.5,
+     "offset_mm": 41.3,
+     "ccd": 133,
+     "ref_lateral": "01.00351.004",
+     "laenge_lat_mm": 140.5,
+     "offset_lat_mm": 46.2,
+     "ccd_lat": 127.3
+    },
+    {
+     "groesse": "14",
+     "ref_standard": "30.00.49-140",
+     "laenge_mm": 146,
+     "offset_mm": 42.3,
+     "ccd": 134,
+     "ref_lateral": "01.00351.005",
+     "laenge_lat_mm": 146,
+     "offset_lat_mm": 47.3,
+     "ccd_lat": 127.7
+    },
+    {
+     "groesse": "16",
+     "ref_standard": "30.00.49-160",
+     "laenge_mm": 152.5,
+     "offset_mm": 43.3,
+     "ccd": 135,
+     "ref_lateral": "01.00351.006",
+     "laenge_lat_mm": 152.5,
+     "offset_lat_mm": 48.4,
+     "ccd_lat": 128
+    }
+   ]
+  },
+  {
+   "id": "zb.allofit",
+   "typ": "pfanne",
+   "bezeichnung": "Allofit / Allofit-S",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementfrei",
+    "werte": "Größen/Liner/max. Kopf-Ø offen; Allofit, Allofit-S, Allofit IT getrennt führen"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "liners",
+   "sicherheit": "offen"
+  },
+  {
+   "id": "zb.g7",
+   "typ": "pfanne",
+   "bezeichnung": "G7",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementfrei",
+    "liner": "PE Neutral/High Wall/10°, +5 Lateralized, Keramik, Freedom, Dual Mobility – getrennt",
+    "hinweis": "70/72 und J nur OsseoTi Multi Hole"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "g7",
+   "sicherheit": "belegt"
+  },
+  {
+   "id": "zb.flachprofil",
+   "typ": "pfanne",
+   "bezeichnung": "Flachprofil (zementiert)",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementiert",
+    "werte": "offen – nur Registerbeleg (EPRD zementiert #1)"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": null,
+   "sicherheit": "offen"
+  },
+  {
+   "id": "zb.kopf.biolox_delta",
+   "typ": "kopf",
+   "bezeichnung": "BIOLOX delta 12/14 (ZB)",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "konus": "12/14",
+    "hinweis": "Chart markiert Avenir/CLS/Fitmore/Alloclassic-Zeilen; Ø/Offset je Zeile offen; BIOLOX OPTION eigene Familie"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "ceramic",
+   "sicherheit": "bedingt"
+  },
+  {
+   "id": "zb.kopf.cocr",
+   "typ": "kopf",
+   "bezeichnung": "CoCr 12/14 (ZB)",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "konus": "12/14",
+    "hinweis": "Protasul-S30 (Edelstahl) und Metasul getrennt führen"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "cocr",
+   "sicherheit": "offen"
+  },
+  {
+   "id": "zb.duokopf.bipolar",
+   "typ": "duokopf",
+   "bezeichnung": "Zimmer Biomet Bipolarkopf",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "chart": "MS-30-Zeile: AP 1946/1989 markiert, Multipolar nicht markiert; Fußnote 1 verlangt zusätzlich Artikulations- und Kopf/Schaft-Tabellen",
+    "registerbeleg": "SIRIS: Avenir zementiert + ZB bipolar 2024 n=151"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "bipolar",
+   "sicherheit": "bedingt"
+  }
+ ],
+ "tabellen": {
+  "G7_PE": {
+   "titel": "G7 Schale ↔ PE-Liner Kopf-Ø",
+   "quelle": "g7",
+   "seite": "4–5 / PDF 7–8",
+   "zeilen": [
+    {
+     "schale_mm": "42, 44",
+     "alpha": "A",
+     "neutral_highwall_10": "28",
+     "plus5_lateralized": "28"
+    },
+    {
+     "schale_mm": "46",
+     "alpha": "B",
+     "neutral_highwall_10": "28, 32",
+     "plus5_lateralized": "28, 32"
+    },
+    {
+     "schale_mm": "48",
+     "alpha": "C",
+     "neutral_highwall_10": "28, 32, 36",
+     "plus5_lateralized": "28, 32"
+    },
+    {
+     "schale_mm": "50",
+     "alpha": "D",
+     "neutral_highwall_10": "28, 32, 36",
+     "plus5_lateralized": "28, 32, 36"
+    },
+    {
+     "schale_mm": "52",
+     "alpha": "E",
+     "neutral_highwall_10": "28, 32, 36, 40",
+     "plus5_lateralized": "28, 32, 36"
+    },
+    {
+     "schale_mm": "54, 56",
+     "alpha": "F",
+     "neutral_highwall_10": "28, 32, 36, 40",
+     "plus5_lateralized": "28, 32, 36, 40"
+    },
+    {
+     "schale_mm": "58, 60",
+     "alpha": "G",
+     "neutral_highwall_10": "28, 32, 36, 40, 44",
+     "plus5_lateralized": "28, 32, 36, 40"
+    },
+    {
+     "schale_mm": "62, 64",
+     "alpha": "H",
+     "neutral_highwall_10": "32, 36, 40, 44",
+     "plus5_lateralized": "32, 36, 40, 44"
+    },
+    {
+     "schale_mm": "66, 68, 70*, 72*",
+     "alpha": "I",
+     "neutral_highwall_10": "36, 40, 44",
+     "plus5_lateralized": "36, 40, 44"
+    },
+    {
+     "schale_mm": "74*, 76*, 78*, 80*",
+     "alpha": "J",
+     "neutral_highwall_10": "36, 40, 44",
+     "plus5_lateralized": "36, 40, 44"
+    }
+   ],
+   "legende": "* nur OsseoTi Multi Hole; nicht auf Keramik/Freedom/Dual Mobility übertragen"
+  },
+  "G7_Keramik": {
+   "titel": "G7 Schale ↔ Keramikliner Kopf-Ø",
+   "quelle": "g7",
+   "seite": "7 / PDF 10",
+   "zeilen": [
+    {
+     "alpha": "A",
+     "kopf_mm": "–"
+    },
+    {
+     "alpha": "B",
+     "kopf_mm": "28"
+    },
+    {
+     "alpha": "C",
+     "kopf_mm": "32"
+    },
+    {
+     "alpha": "D",
+     "kopf_mm": "32"
+    },
+    {
+     "alpha": "E",
+     "kopf_mm": "32, 36"
+    },
+    {
+     "alpha": "F",
+     "kopf_mm": "32, 36"
+    },
+    {
+     "alpha": "G",
+     "kopf_mm": "32, 36, 40"
+    },
+    {
+     "alpha": "H",
+     "kopf_mm": "32, 36, 40"
+    },
+    {
+     "alpha": "I",
+     "kopf_mm": "32, 36, 40"
+    },
+    {
+     "alpha": "J",
+     "kopf_mm": "–"
+    }
+   ],
+   "legende": "keine Ableitung aus PE-Tabelle"
+  }
+ },
+ "passt_zu": [
+  {
+   "von": "zb.fitmore",
+   "zu": "zb.kopf.biolox_delta",
+   "status": "bedingt",
+   "bedingung": "nur markierte Chart-Zeile; Ø/Offset/Markt prüfen",
+   "quelle": "ceramic",
+   "seite": "PDF 1"
+  },
+  {
+   "von": "zb.avenir.zementfrei",
+   "zu": "zb.kopf.biolox_delta",
+   "status": "bedingt",
+   "bedingung": "nur markierte Chart-Zeile",
+   "quelle": "ceramic",
+   "seite": "PDF 1"
+  },
+  {
+   "von": "zb.cls_spotorno",
+   "zu": "zb.kopf.biolox_delta",
+   "status": "bedingt",
+   "bedingung": "nur markierte Chart-Zeile",
+   "quelle": "ceramic",
+   "seite": "PDF 1"
+  },
+  {
+   "von": "zb.alloclassic",
+   "zu": "zb.kopf.biolox_delta",
+   "status": "bedingt",
+   "bedingung": "nur markierte 12/14-Zeilen; OPTION 8/10 nicht markiert",
+   "quelle": "ceramic",
+   "seite": "PDF 1"
+  },
+  {
+   "von": "zb.g7",
+   "zu": "zb.kopf.biolox_delta",
+   "status": "bedingt",
+   "bedingung": "Kopf-Ø je Alpha und exaktem Liner laut G7-Tabellen",
+   "quelle": "g7",
+   "seite": "4–7",
+   "tabelle": "G7_PE"
+  },
+  {
+   "von": "zb.ms30",
+   "zu": "zb.duokopf.bipolar",
+   "status": "bedingt",
+   "bedingung": "AP 1946/1989 markiert; innere Kopfgröße, Kopf-Schaft-Paar und EU-IFU noch prüfen",
+   "quelle": "bipolar",
+   "seite": "PDF 2"
+  }
+ ],
+ "regeln": [
+  {
+   "wenn": "pfanne+inlay+kopf",
+   "pruefe": "Alpha + exakter Liner",
+   "text": "G7: Kopf-Ø hängt von Schale (Alpha) UND Liner ab – z. B. 48/C mit +5 kein 36 mm; Keramik eigene Tabelle.",
+   "quelle": "g7 S. 4–7"
+  },
+  {
+   "wenn": "kopf",
+   "pruefe": "Chart-Zeile",
+   "text": "Kopf nur über tatsächlich markierte Chart-Zeile plus Fußnoten/IFU – gleiche 12/14-Bezeichnung genügt nicht.",
+   "quelle": "ceramic, cocr"
+  },
+  {
+   "wenn": "kopf",
+   "pruefe": "nach Keramikbruch",
+   "text": "Nach Keramikbruch keine Metallkopf-Gleitpaarung der betroffenen Liste verwenden (Hersteller nennt Keramik/Keramik oder Keramik/PE).",
+   "quelle": "FA2016-10"
+  }
+ ],
+ "rueckrufe": [
+  {
+   "produkt": "Allofit-S Alloclassic shell mit Polschraube: Gr. 52/II (REF 4265, Lot 2984922); Gr. 54 (REF 4266, Lots 2984958, 2984959) – Größenbezeichnung laut Original",
+   "behoerde": "BfArM",
+   "kennung": "ZFA2019-00187 (10144-19), 30.07.2019",
+   "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/11/2019/10144-19_kundeninfo_en.pdf?__blob=publicationFile",
+   "hinweis": "nur diese Chargen; keine pauschale Allofit-Sperre",
+   "betrifft": [
+    "zb.allofit"
+   ],
+   "markt": "EU/DE"
+  },
+  {
+   "produkt": "Avenir Müller Gr. 1 (REF 01.06010.001, Lot 2955599) enthält Gr. 2",
+   "behoerde": "BfArM",
+   "kennung": "ZFA2018-00572 / FA2018-06 (13742-18), 31.10.2018",
+   "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/DE/11/2018/13742-18_kundeninfo_de.pdf?__blob=publicationFile",
+   "hinweis": "nicht Avenir Complete oder alle Avenir",
+   "betrifft": [],
+   "markt": "EU/DE"
+  },
+  {
+   "produkt": "Modulare CoCr-Köpfe, Protasul-S30, Metasul (nach Keramikbruch)",
+   "behoerde": "BfArM",
+   "kennung": "FA 2016-10 / ZFA 2016-150 (01461-17), 13.02.2017",
+   "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/DE/11/2017/01461-17_Kundeninfo_de.pdf?__blob=publicationFile&v=1",
+   "hinweis": "Sicherheitsinformation zu Revisionen nach Keramikbruch",
+   "betrifft": [
+    "zb.kopf.cocr"
+   ],
+   "markt": "EU/DE"
+  },
+  {
+   "produkt": "CPT-Schaft – erhöhtes Risiko periprothetischer Femurfraktur",
+   "behoerde": "BfArM",
+   "kennung": "ZFA2024-00121 (21393-24), 01.07.2024",
+   "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/DE/11/2024/21393-24_kundeninfo_de.pdf?__blob=publicationFile",
+   "hinweis": "CPT nicht in der Auswahl; nicht allein aus Katalog freigeben",
+   "betrifft": [],
+   "markt": "EU/DE"
+  }
+ ],
+ "offen": [
+  "Avenir (nicht Complete), CLS, Alloclassic, Allofit/Allofit-S: aktuelle EU-Größen/REF/Liner-Tabellen (Modular Liners and Cups 05/2019 lesen)",
+  "M.E.M. Geradschaft und Flachprofil: Dokumente",
+  "Kopf-REF/Ø/Offset je Schaft aus Charts",
+  "Bipolarkopf: Innenkopf und EU-IFU",
+  "Fitmore B Extended Gr. 12 Offset",
+  "Implantat-REF (außer MS-30)"
+ ],
+ "verified_hinweis": "Lauf 001-implantate-dach: Werte von Grok und Astra am Original gelesen (07.10.2026), Änderungsliste von Julian abgenommen. Aufnahme wegen Häufigkeit in DACH (EPRD/SIRIS) – Häufigkeit ist keine Kompatibilitätsfreigabe. Keine EU-IFU gelesen; keine klinische Freigabe.",
+ "region": "hüfte",
+ "verified": false,
+ "stand_extrakt": "2026-10-07",
+ "hinweise": [
+  "Vor dem Öffnen Komponente, Seite und Größe laut ansagen; Herstellerdokument und aktuelle EU-IFU maßgeblich.",
+  "Systeme nicht mischen: nur Komponenten, die der Hersteller ausdrücklich für dieses System vorsieht. Gleicher Konus oder gleiche Keramikmarke ist kein Kombinationsnachweis.",
+  "Werte nur aus dem genannten Original mit Seite; nicht dokumentierte Kombinationen bleiben „offen – Operateur fragen“ (ungeprüft ≠ verboten ≠ freigegeben).",
+  "Rückrufe sind chargenspezifisch: Betroffenheit nur über REF/Charge im Original und mit der/dem Medizinprodukte-Beauftragten klären – keine pauschale Sperre oder Freigabe."
+ ],
+ "aenderungsprotokoll": [
+  {
+   "version": "1.0",
+   "datum": "2026-10-07",
+   "lauf": "001-implantate-dach",
+   "text": "Neuanlage nach DACH-Ranking (EPRD 2025, SIRIS 2025); Werte nur soweit von Astra am Original bestätigt, Rest offen."
+  }
+ ]
+}

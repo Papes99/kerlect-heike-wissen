@@ -1,0 +1,431 @@
+{
+ "hersteller": "DePuy Synthes (Johnson & Johnson MedTech)",
+ "system": "CORAIL (zementfrei/zementiert) + PINNACLE",
+ "version": "1.0",
+ "quellen": [
+  {
+   "id": "corail",
+   "dokument": "CORAIL Total Hip System Surgical Technique",
+   "stand": "198918-211214 UK, ©2022",
+   "seiten": "S. 11, 13, 15, 20–26 / PDF 12, 14, 16, 21–27",
+   "url": "https://p1.aprimocdn.net/jjamp/en/depuy-synthes/ous-only-%E2%80%93-surgical-technique-guide-(stg)/198918-170655.pdf",
+   "markt": "EMEA (UK-Ausgabe)",
+   "gelesen_von": "Grok/Astra 07.10.2026"
+  },
+  {
+   "id": "pinnacle",
+   "dokument": "PINNACLE Hip Solutions Surgical Technique",
+   "stand": "142532-220805 EMEA, ©2022",
+   "seiten": "S. 8–10 / PDF 10–12; S. 16 / PDF 18",
+   "url": "https://p1.aprimocdn.net/jjamp/en/depuy-synthes/ous-only-%E2%80%93-surgical-technique-guide-(stg)/142532-149038.pdf",
+   "markt": "EMEA",
+   "gelesen_von": "Grok/Astra 07.10.2026"
+  },
+  {
+   "id": "actis",
+   "dokument": "ACTIS Total Hip System Surgical Technique (nur Ranking-Bezug)",
+   "stand": "190156-210922 NZ / AU 2020",
+   "seiten": "Warnung S. 8 / PDF 10; Technical Specifications S. 12 / PDF 14",
+   "url": "https://www.jnjmedtech.com/system/files/pdf/190156.210922%20NZ_134763.200315AU%20ACTIS%20Surgical%20Technique%20FINAL.pdf",
+   "markt": "AU/NZ – kein EU-Ersatz",
+   "gelesen_von": "Grok/Astra 07.10.2026"
+  },
+  {
+   "id": "scb",
+   "dokument": "SELF-CENTERING Bipolar and Modular Cathcart Unipolar Endo Heads – Surgical Technique",
+   "stand": "DSUS/JRC/0317/2044 Rev. B, ©2017/2022",
+   "seiten": "–",
+   "url": "http://synthes.vo.llnwd.net/o16/LLNWMB8/US%20Mobile/Synthes%20North%20America/Product%20Support%20Materials/Technique%20Guides/",
+   "markt": "US – kein EU-Ersatz",
+   "gelesen_von": "Perplexity-Fundstelle"
+  }
+ ],
+ "komponenten": [
+  {
+   "id": "depuy.corail.zementfrei",
+   "typ": "schaft",
+   "bezeichnung": "CORAIL zementfrei (HA)",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementfrei",
+    "konus": "12/14 ARTICUL/EZE Mini Taper (AMT)",
+    "varianten": {
+     "STD 135° ohne/mit Kragen": "8, 9, 10, 11, 12, 13, 14, 15, 16, 18, 20",
+     "HO 135° ohne/mit Kragen": "9, 10, 11, 12, 13, 14, 15, 16, 18, 20",
+     "KLA 125° mit Kragen": "9, 10, 11, 12, 13, 14, 15, 16, 18, 20",
+     "Dysplasie": "6A/6S (eigene Regeln)"
+    },
+    "hinweis": "STD125/SN135 nicht aus anderen Familien ableiten"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "corail",
+   "sicherheit": "belegt",
+   "groessen": [
+    {
+     "groesse": "8",
+     "STD_135": "ja",
+     "HO_135": "–",
+     "KLA_125": "–"
+    },
+    {
+     "groesse": "9",
+     "STD_135": "ja",
+     "HO_135": "ja",
+     "KLA_125": "ja"
+    },
+    {
+     "groesse": "10",
+     "STD_135": "ja",
+     "HO_135": "ja",
+     "KLA_125": "ja"
+    },
+    {
+     "groesse": "11",
+     "STD_135": "ja",
+     "HO_135": "ja",
+     "KLA_125": "ja"
+    },
+    {
+     "groesse": "12",
+     "STD_135": "ja",
+     "HO_135": "ja",
+     "KLA_125": "ja"
+    },
+    {
+     "groesse": "13",
+     "STD_135": "ja",
+     "HO_135": "ja",
+     "KLA_125": "ja"
+    },
+    {
+     "groesse": "14",
+     "STD_135": "ja",
+     "HO_135": "ja",
+     "KLA_125": "ja"
+    },
+    {
+     "groesse": "15",
+     "STD_135": "ja",
+     "HO_135": "ja",
+     "KLA_125": "ja"
+    },
+    {
+     "groesse": "16",
+     "STD_135": "ja",
+     "HO_135": "ja",
+     "KLA_125": "ja"
+    },
+    {
+     "groesse": "18",
+     "STD_135": "ja",
+     "HO_135": "ja",
+     "KLA_125": "ja"
+    },
+    {
+     "groesse": "20",
+     "STD_135": "ja",
+     "HO_135": "ja",
+     "KLA_125": "ja"
+    }
+   ]
+  },
+  {
+   "id": "depuy.corail.zementiert",
+   "typ": "schaft",
+   "bezeichnung": "CORAIL zementiert",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementiert",
+    "konus": "12/14 AMT",
+    "varianten": {
+     "STD": "8–16, 18, 20",
+     "HO": "9–16, 18, 20"
+    },
+    "hinweis": "HA-beschichtete Schäfte dürfen nicht zementiert werden"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "corail",
+   "sicherheit": "belegt"
+  },
+  {
+   "id": "depuy.pinnacle.schale",
+   "typ": "pfanne",
+   "bezeichnung": "PINNACLE Press Fit",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementfrei",
+    "werte": "aktuelle EMEA-Matrix Schale × Liner × max. Kopf-Ø offen"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "pinnacle",
+   "sicherheit": "offen"
+  },
+  {
+   "id": "depuy.pinnacle.liner",
+   "typ": "inlay",
+   "bezeichnung": "PINNACLE Liner",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "konfigurationen": "Neutral, +4 Neutral, +4 10° Face-Changing, Lipped (pinnacle S. 8–10)",
+    "material": "AltrX/Marathon PE, Keramik – je Schale/Kopf offen",
+    "hinweis": "Probeliner 28–44 mm sind keine Implantatfreigabe"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "pinnacle",
+   "sicherheit": "belegt"
+  },
+  {
+   "id": "depuy.triloc2.zementiert",
+   "typ": "pfanne",
+   "bezeichnung": "TRILOC II-PE (zementiert)",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementiert",
+    "werte": "offen – nur Registerbeleg (EPRD zementiert #5)"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": null,
+   "sicherheit": "offen"
+  },
+  {
+   "id": "depuy.kopf.biolox_delta",
+   "typ": "kopf",
+   "bezeichnung": "ARTICUL/EZE BIOLOX delta",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "konus": "12/14",
+    "werte": "Ø/Offsets offen"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "corail",
+   "sicherheit": "offen"
+  },
+  {
+   "id": "depuy.kopf.cocr",
+   "typ": "kopf",
+   "bezeichnung": "ARTICUL/EZE CoCr",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "konus": "12/14",
+    "werte": "Ø/Offsets offen"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "corail",
+   "sicherheit": "offen"
+  },
+  {
+   "id": "depuy.duokopf.self_centering",
+   "typ": "duokopf",
+   "bezeichnung": "SELF-CENTERING Bipolar",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "verwendung": "mit CORAIL zementiert (zu prüfen)",
+    "freigabe": "offen – nur US-Technik; in CH häufig: CORAIL zementiert + Cathcart (unipolar)"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "scb",
+   "sicherheit": "offen"
+  },
+  {
+   "id": "depuy.duokopf.cathcart",
+   "typ": "duokopf",
+   "bezeichnung": "Modular Cathcart Unipolar",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "art": "unipolar (Endokopf), kein bipolarer Duokopf",
+    "registerbeleg": "SIRIS Tab. 4.34: CORAIL zementiert / J&J Cathcart 2024 n=300"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "scb",
+   "sicherheit": "offen"
+  }
+ ],
+ "passt_zu": [
+  {
+   "von": "depuy.corail.zementfrei",
+   "zu": "depuy.kopf.biolox_delta",
+   "status": "bedingt",
+   "bedingung": "DePuy-12/14-Kopf laut konkreter Produktfreigabe; vollständige Ø/Offset-Matrix offen",
+   "quelle": "corail",
+   "seite": "13"
+  },
+  {
+   "von": "depuy.corail.zementfrei",
+   "zu": "depuy.kopf.cocr",
+   "status": "bedingt",
+   "bedingung": "wie oben",
+   "quelle": "corail",
+   "seite": "13"
+  },
+  {
+   "von": "depuy.pinnacle.schale",
+   "zu": "depuy.pinnacle.liner",
+   "status": "offen",
+   "bedingung": "Liner-Konfiguration belegt, Schale × Liner × Kopf offen",
+   "quelle": "pinnacle",
+   "seite": "8–10"
+  },
+  {
+   "von": "depuy.corail.zementiert",
+   "zu": "depuy.duokopf.self_centering",
+   "status": "offen",
+   "bedingung": "EU-Freigabe fehlt",
+   "quelle": "scb",
+   "seite": "–"
+  }
+ ],
+ "regeln": [
+  {
+   "wenn": "schaft",
+   "pruefe": "Dysplasie Gr. 6",
+   "text": "Kopf-Offset max. 13 mm gilt nur für den Dysplasie-Schaft Größe 6; dort keine Hemiarthroplastik und kein Patientengewicht > 60 kg. Keine allgemeine CORAIL-Grenze.",
+   "quelle": "corail S. 13"
+  },
+  {
+   "wenn": "schaft",
+   "pruefe": "HA nicht zementieren",
+   "text": "HA-beschichtete CORAIL-Schäfte nie zementieren.",
+   "quelle": "corail"
+  },
+  {
+   "wenn": "kopf",
+   "pruefe": "DePuy 12/14",
+   "text": "Nur DePuy-Synthes-12/14-Köpfe laut Produktfreigabe; keine markenübergreifende Freigabe aus 12/14.",
+   "quelle": "corail"
+  }
+ ],
+ "rueckrufe": [
+  {
+   "produkt": "CORAIL zementfrei HA 12/14 AMT 135° STD ohne Kragen Gr. 12 (REF 3L92512, Lot 5300693; enthält Gr. 11)",
+   "behoerde": "BfArM",
+   "kennung": "PIE-1104627 (02257-18), 02/2018",
+   "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/11/2018/02257-18_kundeninfo_en.pdf?__blob=publicationFile",
+   "hinweis": "nur diese Charge",
+   "betrifft": [
+    "depuy.corail.zementfrei"
+   ],
+   "markt": "EU/DE"
+  },
+  {
+   "produkt": "CORAIL KLA mit Kragen Gr. 9 (REF 3L93709, Lot 5291990) / HO ohne Kragen Gr. 14 (REF L20314, Lot 5292130) vertauscht",
+   "behoerde": "BfArM",
+   "kennung": "PIE-863755 (07375-17), 07/2017",
+   "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/DE/11/2017/07375-17_kundeninfo_de.pdf?__blob=publicationFile",
+   "hinweis": "nur diese Chargen",
+   "betrifft": [
+    "depuy.corail.zementfrei"
+   ],
+   "markt": "EU/DE"
+  },
+  {
+   "produkt": "CORAIL AMT Probehälse L94003–L94007 (Instrumente, alle Chargen)",
+   "behoerde": "BfArM",
+   "kennung": "PIE-1125109 (06669-18), 05/2018",
+   "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/DE/06/2018/06669-18_kundeninfo_de.pdf?__blob=publicationFile",
+   "hinweis": "Instrumentenkorrektur (Dichtungsringpartikel), kein Schaft-Rückruf",
+   "betrifft": [],
+   "markt": "EU/DE"
+  },
+  {
+   "produkt": "PINNACLE Pfannen bestimmter Chargen (Gewinde Apex-Loch)",
+   "behoerde": "BfArM",
+   "kennung": "Ref. 1896433 (22108-20), aktualisiert 18.02.2021",
+   "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/DE/11/2021/22108-20_kundeninfo_de.pdf?__blob=publicationFile",
+   "hinweis": "betrifft alle gelisteten Pfannen unabhängig von Apex-Schraube; Lot-Liste im Anhang",
+   "betrifft": [
+    "depuy.pinnacle.schale"
+   ],
+   "markt": "EU/DE",
+   "status": "kein Abschluss belegt"
+  }
+ ],
+ "offen": [
+  "PINNACLE EMEA: Schale × Liner (AltrX/Marathon/Keramik) × max. Kopf-Ø",
+  "ARTICUL/EZE-Köpfe Ø/Offsets je Material",
+  "SELF-CENTERING Bipolar EU-IFU + Freigabe mit CORAIL zementiert",
+  "TRILOC II-PE Dokument",
+  "Implantat-REF",
+  "ACTIS EU-Dokument (nur Ranking: EPRD n=3.993, SIRIS 2024 n=606)"
+ ],
+ "verified_hinweis": "Lauf 001-implantate-dach: Werte von Grok und Astra am Original gelesen (07.10.2026), Änderungsliste von Julian abgenommen. Aufnahme wegen Häufigkeit in DACH (EPRD/SIRIS) – Häufigkeit ist keine Kompatibilitätsfreigabe. Keine EU-IFU gelesen; keine klinische Freigabe.",
+ "region": "hüfte",
+ "verified": false,
+ "stand_extrakt": "2026-10-07",
+ "hinweise": [
+  "Vor dem Öffnen Komponente, Seite und Größe laut ansagen; Herstellerdokument und aktuelle EU-IFU maßgeblich.",
+  "Systeme nicht mischen: nur Komponenten, die der Hersteller ausdrücklich für dieses System vorsieht. Gleicher Konus oder gleiche Keramikmarke ist kein Kombinationsnachweis.",
+  "Werte nur aus dem genannten Original mit Seite; nicht dokumentierte Kombinationen bleiben „offen – Operateur fragen“ (ungeprüft ≠ verboten ≠ freigegeben).",
+  "Rückrufe sind chargenspezifisch: Betroffenheit nur über REF/Charge im Original und mit der/dem Medizinprodukte-Beauftragten klären – keine pauschale Sperre oder Freigabe."
+ ],
+ "aenderungsprotokoll": [
+  {
+   "version": "1.0",
+   "datum": "2026-10-07",
+   "lauf": "001-implantate-dach",
+   "text": "Neuanlage nach DACH-Ranking (EPRD 2025, SIRIS 2025); Werte nur soweit von Astra am Original bestätigt, Rest offen."
+  }
+ ]
+}

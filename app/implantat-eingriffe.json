@@ -6,12 +6,49 @@
    "paket": "001",
    "paket_datei": "pakete/001-abschluss.md",
    "eingriff": "Hüft-TEP (primär)",
-   "erkennung": ["hüft-tep", "hueft-tep", "h-tep", "hüfttotalendoprothese", "hüft-totalendoprothese", "hüftendoprothese", "hüftprothese", "duokopf", "hemiprothese hüfte", "bipolarkopf"],
-   "implantat_dateien": ["implantate/stryker-accolade-ii.json", "implantate/aesculap-excia.json", "implantate/smith-nephew-r3.json", "implantate/enovis-twinsys.json"],
+   "erkennung": [
+    "hüft-tep",
+    "hueft-tep",
+    "h-tep",
+    "hüfttotalendoprothese",
+    "hüft-totalendoprothese",
+    "hüftendoprothese",
+    "hüftprothese",
+    "duokopf",
+    "hemiprothese hüfte",
+    "bipolarkopf"
+   ],
+   "implantat_dateien": [
+    "implantate/stryker-accolade-ii.json",
+    "implantate/aesculap-excia.json",
+    "implantate/smith-nephew-r3.json",
+    "implantate/enovis-twinsys.json",
+    "implantate/enovis-optimys.json",
+    "implantate/depuy-corail-pinnacle.json",
+    "implantate/zimmer-biomet.json",
+    "implantate/medacta-quadra-amistem.json"
+   ],
    "varianten": {
-    "zementfrei": ["pfanne", "inlay", "schaft", "probekopf", "kopf"],
-    "zementiert": ["pfanne", "zement", "schaft", "probekopf", "kopf"],
-    "duokopf": ["schaft", "zement", "probekopf", "duokopf"]
+    "zementfrei": [
+     "pfanne",
+     "inlay",
+     "schaft",
+     "probekopf",
+     "kopf"
+    ],
+    "zementiert": [
+     "pfanne",
+     "zement",
+     "schaft",
+     "probekopf",
+     "kopf"
+    ],
+    "duokopf": [
+     "schaft",
+     "zement",
+     "probekopf",
+     "duokopf"
+    ]
    },
    "schritt_hinweis": {
     "zementiert": "Bei zementierter PE-Pfanne entfällt das Inlay. Zement-Schritt: Texte aus Paket 001 (Zementansage rückbestätigen, Mischen nur auf Ansage).",

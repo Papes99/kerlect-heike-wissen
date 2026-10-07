@@ -11,10 +11,14 @@ Auswahl nach Häufigkeit in DACH (EPRD, SIRIS, Österreich) – Erweiterung um D
 |---|---|---|---|---|---|---|---|
 | **Stryker** · Accolade – nur zementfrei | Accolade II | – | Trident II Tritanium | – | X3 Polyethylen | V40 BIOLOX delta, V40 CoCr (LFIT) | – |
 | **Aesculap (B. Braun)** · Excia | Excia T | Excia T zementiert | Plasmafit Plus, Plasmafit Poly | Aesculap PE-Pfanne zementiert (Name offen) | BIOLOX delta Inlay (nur Plus), PE-Inlay Standard (UHMWPE) | BIOLOX delta, Isodur CoCr | Bipolar Cup |
-| **Smith+Nephew** · R3 | SL-PLUS MIA | SPECTRON EF | R3, REFLECTION (zementfrei) | REFLECTION All-Poly (zementiert), Müller-PE-Pfanne (S+N) | R3 XLPE | OXINIUM, BIOLOX delta, CoCr | TANDEM Bipolar |
+| **Smith+Nephew** · R3 | SL-PLUS MIA, POLARSTEM | SPECTRON EF, POLARSTEM zementiert | R3, REFLECTION (zementfrei) | REFLECTION All-Poly (zementiert), Müller-PE-Pfanne (S+N) | R3 XLPE | OXINIUM, BIOLOX delta, CoCr | TANDEM Bipolar |
 | **Enovis (Mathys)** · twinSys | twinSys zementfrei | twinSys zementiert | RM Classic, seleXys PC | ccB-Pfanne (Low- und Full-profile) | seleXys PE Einsatz standard (nur seleXys PC; RM Classic = Monoblock) | ceramys, symarec, CoCr | Mathys Bipolarkopf |
+| **DePuy Synthes** · CORAIL/PINNACLE | CORAIL (STD/HO/KLA) | CORAIL zementiert | PINNACLE Press Fit | TRILOC II-PE | PINNACLE Liner | ARTICUL/EZE BIOLOX delta, CoCr | SELF-CENTERING Bipolar (offen) |
+| **Zimmer Biomet** | Avenir, Fitmore, CLS Spotorno, Alloclassic | M.E.M., MS-30, Avenir zementiert | Allofit/Allofit-S, G7 | Flachprofil | G7-Liner | BIOLOX delta, CoCr 12/14 | ZB Bipolarkopf |
+| **Enovis (Mathys)** · optimys | optimys | – | RM Pressfit vitamys (Monoblock) | – | – | ceramys, symarec | (twinSys-Datei) |
+| **Medacta** | Quadra-H, Quadra-P, Amistem-P | Quadra-C, Amistem-C | Versafitcup CC Trio | – | offen | offen | Medacta bipolar |
 
-**Dateien:** `stryker-accolade-ii`, `aesculap-excia`, `smith-nephew-r3`, `enovis-twinsys` (je .json + .md).
+**Dateien:** `stryker-accolade-ii`, `aesculap-excia`, `smith-nephew-r3`, `enovis-twinsys`, `enovis-optimys`, `depuy-corail-pinnacle`, `zimmer-biomet`, `medacta-quadra-amistem` (je .json + .md). Ranking: `auswahl-dach.md`.
 
 ## Schema je Datei
 ```json

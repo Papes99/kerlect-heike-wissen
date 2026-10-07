@@ -1,0 +1,200 @@
+{
+ "hersteller": "Medacta",
+ "system": "Quadra (H/P/C), Amistem (P/C) + Versafitcup CC Trio",
+ "version": "1.0",
+ "quellen": [
+  {
+   "id": "siris",
+   "dokument": "SIRIS Report Hip & Knee 2025",
+   "stand": "Dezember 2025",
+   "seiten": "Tab. 4.16 S. 95; 4.19 S. 103; 4.34 S. 129",
+   "url": "https://www.siris-implant.ch/images/content/download/20251204_SIRISReportHipandKnee2025_Final.pdf",
+   "markt": "CH (nur Ranking)",
+   "gelesen_von": "Grok/Astra 07.10.2026"
+  },
+  {
+   "id": "es",
+   "dokument": "EPRD Implantatergebnisse Hüftschäfte/-pfannen/-versorgungen",
+   "stand": "Jahresbericht 2025",
+   "seiten": "Excel-Tabellen",
+   "url": "https://www.eprd.de/de/downloads/tabellen/jahresbericht2025",
+   "markt": "DE (nur Ranking)",
+   "gelesen_von": "Grok/Astra 07.10.2026"
+  }
+ ],
+ "komponenten": [
+  {
+   "id": "medacta.quadra_h",
+   "typ": "schaft",
+   "bezeichnung": "QUADRA-H",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementfrei",
+    "registerbeleg": "EPRD zf-Schaft #13 (n=15.013); Kombi mit Versafitcup CC Trio #10"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "es",
+   "sicherheit": "offen"
+  },
+  {
+   "id": "medacta.quadra_p",
+   "typ": "schaft",
+   "bezeichnung": "Quadra-P",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementfrei",
+    "registerbeleg": "SIRIS 2024 #4 mit Versafitcup (n=1.179)"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "siris",
+   "sicherheit": "offen"
+  },
+  {
+   "id": "medacta.quadra_c",
+   "typ": "schaft",
+   "bezeichnung": "QUADRA-C",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementiert",
+    "registerbeleg": "EPRD zementiert #9 (n=3.400); Hybrid mit Versafitcup #7"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "es",
+   "sicherheit": "offen"
+  },
+  {
+   "id": "medacta.amistem_p",
+   "typ": "schaft",
+   "bezeichnung": "Amistem-P",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementfrei",
+    "registerbeleg": "SIRIS 2024 #6 mit Versafitcup (n=1.032)"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "siris",
+   "sicherheit": "offen"
+  },
+  {
+   "id": "medacta.amistem_c",
+   "typ": "schaft",
+   "bezeichnung": "Amistem-C",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementiert",
+    "registerbeleg": "SIRIS Hybrid 183; Hemi mit Medacta bipolar (221) / endohead (345)"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "siris",
+   "sicherheit": "offen"
+  },
+  {
+   "id": "medacta.versafitcup_cc_trio",
+   "typ": "pfanne",
+   "bezeichnung": "Versafitcup CC Trio",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementfrei",
+    "registerbeleg": "EPRD zf-Pfanne #6 (n=20.423)"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "es",
+   "sicherheit": "offen"
+  },
+  {
+   "id": "medacta.duokopf.bipolar",
+   "typ": "duokopf",
+   "bezeichnung": "Medacta bipolar head",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "registerbeleg": "SIRIS 2024: Amistem-C + Medacta bipolar n=221",
+    "freigabe": "offen"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "siris",
+   "sicherheit": "offen"
+  }
+ ],
+ "passt_zu": [],
+ "regeln": [
+  {
+   "wenn": "alle",
+   "pruefe": "Herstellerdokument",
+   "text": "Für Medacta liegen nur Registerbelege vor – keine Größen, Köpfe oder Kombinationen ohne gelesenes Herstellerdokument. Quadra H/P/C und Amistem P/C nicht zusammenlegen.",
+   "quelle": "Astra 07.10.2026"
+  }
+ ],
+ "rueckrufe": [],
+ "offen": [
+  "Medacta OP-Techniken/Kataloge (Quadra, Amistem, Versafitcup CC Trio): Größen, Liner, Kopf-Kompatibilität",
+  "Medacta bipolar/endohead: Freigabe mit Amistem-C",
+  "BfArM-Meldungen Medacta (10 Jahre)"
+ ],
+ "verified_hinweis": "Lauf 001-implantate-dach: Werte von Grok und Astra am Original gelesen (07.10.2026), Änderungsliste von Julian abgenommen. Aufnahme wegen Häufigkeit in DACH (EPRD/SIRIS) – Häufigkeit ist keine Kompatibilitätsfreigabe. Keine EU-IFU gelesen; keine klinische Freigabe.",
+ "region": "hüfte",
+ "verified": false,
+ "stand_extrakt": "2026-10-07",
+ "hinweise": [
+  "Vor dem Öffnen Komponente, Seite und Größe laut ansagen; Herstellerdokument und aktuelle EU-IFU maßgeblich.",
+  "Systeme nicht mischen: nur Komponenten, die der Hersteller ausdrücklich für dieses System vorsieht. Gleicher Konus oder gleiche Keramikmarke ist kein Kombinationsnachweis.",
+  "Werte nur aus dem genannten Original mit Seite; nicht dokumentierte Kombinationen bleiben „offen – Operateur fragen“ (ungeprüft ≠ verboten ≠ freigegeben).",
+  "Rückrufe sind chargenspezifisch: Betroffenheit nur über REF/Charge im Original und mit der/dem Medizinprodukte-Beauftragten klären – keine pauschale Sperre oder Freigabe."
+ ],
+ "aenderungsprotokoll": [
+  {
+   "version": "1.0",
+   "datum": "2026-10-07",
+   "lauf": "001-implantate-dach",
+   "text": "Neuanlage nach DACH-Ranking (EPRD 2025, SIRIS 2025); Werte nur soweit von Astra am Original bestätigt, Rest offen."
+  }
+ ]
+}

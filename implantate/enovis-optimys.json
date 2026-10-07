@@ -1,0 +1,186 @@
+{
+ "hersteller": "Enovis (Mathys)",
+ "system": "optimys + RM Pressfit vitamys",
+ "version": "1.0",
+ "quellen": [
+  {
+   "id": "optimys",
+   "dokument": "Enovis optimys – Produktseite",
+   "stand": "undatiert, Abruf 07.10.2026",
+   "seiten": "Product details",
+   "url": "https://enovis-surgical.com/en/products/325/optimys.html",
+   "markt": "international",
+   "gelesen_von": "Grok/Astra 07.10.2026"
+  },
+  {
+   "id": "rm",
+   "dokument": "RM Pressfit vitamys – Product Information",
+   "stand": "336.010.121 03-0123-01, 2023-01",
+   "seiten": "PDF 2–5 (Monoblock)",
+   "url": "https://enovis-surgical.com/repo/storage/4724/file/produktinformation_rm-pressfit_en_v3.0.pdf",
+   "markt": "EN/international",
+   "gelesen_von": "Grok/Astra 07.10.2026"
+  },
+  {
+   "id": "heads",
+   "dokument": "Mathys Ceramic Product Information",
+   "stand": "336.010.127 03-0319-01, 2019-03",
+   "seiten": "PDF 2–3",
+   "url": "https://enovis-surgical.com/repo/storage/4763/file/produktinformation_keramik_en_v3.0.pdf",
+   "markt": "international; keine Schaftmatrix",
+   "gelesen_von": "Grok/Astra 07.10.2026"
+  },
+  {
+   "id": "optimys-ot",
+   "dokument": "optimys Operationstechnik (DE)",
+   "stand": "Art. 316.010.109, 04-0920 (V04), 09/2020",
+   "seiten": "Implantate S. 18; Dimensionen S. 24",
+   "url": "https://www.mathysmedical.com/Storages/User/Dokumente/Operationstechnik/Huefte/OP-Technik_optimys_DE_V04.pdf",
+   "markt": "EU/CH",
+   "gelesen_von": "Perplexity-Fundstelle – alter Link leitet laut Astra um"
+  }
+ ],
+ "komponenten": [
+  {
+   "id": "enovis.optimys.schaft",
+   "typ": "schaft",
+   "bezeichnung": "optimys",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementfrei (Kurzschaft)",
+    "varianten": "Standard und Lateral, 12 Größen (Produktseite)",
+    "werte": "Größenbezeichnungen/REF offen"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "optimys",
+   "sicherheit": "belegt"
+  },
+  {
+   "id": "enovis.rm_pressfit_vitamys",
+   "typ": "pfanne",
+   "bezeichnung": "RM Pressfit vitamys",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementfrei",
+    "bauart": "Monoblock – kein separates modulares Inlay",
+    "werte": "Größen offen"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "rm",
+   "sicherheit": "belegt"
+  },
+  {
+   "id": "enovis.kopf.ceramys",
+   "typ": "kopf",
+   "bezeichnung": "ceramys",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "werte": "offen; keine named-stem-Matrix in der Broschüre"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "heads",
+   "sicherheit": "offen"
+  },
+  {
+   "id": "enovis.kopf.symarec",
+   "typ": "kopf",
+   "bezeichnung": "symarec",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "werte": "offen"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "heads",
+   "sicherheit": "offen"
+  }
+ ],
+ "passt_zu": [
+  {
+   "von": "enovis.optimys.schaft",
+   "zu": "enovis.kopf.ceramys",
+   "status": "offen",
+   "bedingung": "Kopf-Chart (aktuelle Enovis-Fassung) fehlt",
+   "quelle": "heads",
+   "seite": "–"
+  }
+ ],
+ "regeln": [
+  {
+   "wenn": "pfanne+inlay",
+   "pruefe": "Monoblock",
+   "text": "RM Pressfit vitamys ist Monoblock – kein Inlay anbieten.",
+   "quelle": "rm"
+  },
+  {
+   "wenn": "pfanne",
+   "pruefe": "nicht TH+/TPS",
+   "text": "seleXys TH+/TPS nicht in die Auswahl (historische TGA-Warnung 2015, Australien; seleXys PC nicht betroffen).",
+   "quelle": "TGA 16.09.2015"
+  }
+ ],
+ "rueckrufe": [
+  {
+   "produkt": "optimys lateral TAV Gr. 7 unzementiert (REF 52.34.0207, Lot 2240248) – Siegelnaht",
+   "behoerde": "BfArM",
+   "kennung": "FSCA 17/02 (07038-17), 18.07.2017",
+   "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/DE/11/2017/07038-17_kundeninfo_de.pdf?__blob=publicationFile",
+   "hinweis": "nur diese Charge",
+   "betrifft": [
+    "enovis.optimys.schaft"
+   ],
+   "markt": "EU/DE"
+  }
+ ],
+ "offen": [
+  "optimys-Größen/REF und Kopf-Freigaben (OP-Technik V04 2020 bzw. aktuelle Enovis-Fassung)",
+  "RM Pressfit vitamys Größen",
+  "aktuelles Enovis-Kopf-Chart",
+  "Duokopf: twinSys zementiert + Mathys bipolar (siehe enovis-twinsys)"
+ ],
+ "verified_hinweis": "Lauf 001-implantate-dach: Werte von Grok und Astra am Original gelesen (07.10.2026), Änderungsliste von Julian abgenommen. Aufnahme wegen Häufigkeit in DACH (EPRD/SIRIS) – Häufigkeit ist keine Kompatibilitätsfreigabe. Keine EU-IFU gelesen; keine klinische Freigabe.",
+ "region": "hüfte",
+ "verified": false,
+ "stand_extrakt": "2026-10-07",
+ "hinweise": [
+  "Vor dem Öffnen Komponente, Seite und Größe laut ansagen; Herstellerdokument und aktuelle EU-IFU maßgeblich.",
+  "Systeme nicht mischen: nur Komponenten, die der Hersteller ausdrücklich für dieses System vorsieht. Gleicher Konus oder gleiche Keramikmarke ist kein Kombinationsnachweis.",
+  "Werte nur aus dem genannten Original mit Seite; nicht dokumentierte Kombinationen bleiben „offen – Operateur fragen“ (ungeprüft ≠ verboten ≠ freigegeben).",
+  "Rückrufe sind chargenspezifisch: Betroffenheit nur über REF/Charge im Original und mit der/dem Medizinprodukte-Beauftragten klären – keine pauschale Sperre oder Freigabe."
+ ],
+ "aenderungsprotokoll": [
+  {
+   "version": "1.0",
+   "datum": "2026-10-07",
+   "lauf": "001-implantate-dach",
+   "text": "Neuanlage nach DACH-Ranking (EPRD 2025, SIRIS 2025); Werte nur soweit von Astra am Original bestätigt, Rest offen."
+  }
+ ]
+}

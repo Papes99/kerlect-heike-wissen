@@ -1,11 +1,13 @@
-# Smith+Nephew – SL-PLUS MIA, SPECTRON EF, R3, REFLECTION, TANDEM Bipolar
+# Smith+Nephew – SL-PLUS MIA, POLARSTEM, SPECTRON EF, R3, REFLECTION, TANDEM Bipolar
 
-_Version 1.1 · Stand 2026-10-07 · **verified: false** – Lauf 001-implantate: Werte von Grok und Astra am Original gelesen (07.10.2026), Claude-Änderungsliste von Julian abgenommen. Keine EU-IFU gelesen; keine klinische Freigabe. Hausbestand jeder Klinik am Etikett prüfen._
+_Version 1.2 · Stand 2026-10-07 · **verified: false** – Lauf 001-implantate: Werte von Grok und Astra am Original gelesen (07.10.2026), Claude-Änderungsliste von Julian abgenommen. Keine EU-IFU gelesen; keine klinische Freigabe. Hausbestand jeder Klinik am Etikett prüfen. v1.2: Lauf 001-implantate-dach._
 
 ## Komponenten (Auswahl häufiger DACH-Systeme)
 | ID | Typ | Bezeichnung | Angaben | Quelle | Sicherheit |
 |---|---|---|---|---|---|
-| `sn.slplus_mia.schaft` | schaft | SL-PLUS MIA | fixation: zementfrei; konus: 12/14; ccd_grad: {"standard": 131, "lateral": 123}; laengen_mm: offen – Widerspruch in 00884-en V4 (Gr. 1/2/6: 137/141/159 vs. 136/140/158); neuere Fassung 31156-en V2 noch nicht gelesen; hinweis: Größenbezeichnung als Text: „01“ ≠ „0“; 11/12 optionale Sondergrößen | s1 | belegt |
+| `sn.slplus_mia.schaft` | schaft | SL-PLUS MIA | fixation: zementfrei; konus: 12/14; ccd_grad: {"standard": 131, "lateral": 123}; laengen_mm: Stem length I / II laut 31156-en V2 S. 17 (Definition S. 18); alte Werte 00884-en nicht verwenden; hinweis: Größenbezeichnung als Text: „01“ ≠ „0“; 11/12 optionale Sondergrößen | slmia | belegt |
+| `sn.polarstem.zementfrei` | schaft | POLARSTEM zementfrei | fixation: zementfrei; konus: 12/14; ccd_varianten_us: Standard 135°, lateral 126°, valgus 145°; Standard/lateral auch mit Kragen (US-IFU); registerbeleg: EPRD zf-Schaft #7 (n=20.743); Kombi mit R3 DE #8, CH #3; werte: EU-Größen/REF offen | polar-us | Fundstelle (US) |
+| `sn.polarstem.zementiert` | schaft | POLARSTEM zementiert | fixation: zementiert; konus: 12/14; material: Edelstahl (US-IFU); registerbeleg: EPRD zementiert #8 (n=4.515); werte: EU offen | polar-us | Fundstelle (US) |
 | `sn.spectron_ef.schaft` | schaft | SPECTRON EF | fixation: zementiert; konus: 12/14; ccd_grad: 131 | s3 | belegt |
 | `sn.r3.schale` | pfanne | R3 | fixation: zementfrei; schalen_mm: 40–80 laut Grafik | s4 | belegt (1 Prüfer: Astra visuell) |
 | `sn.reflection.zementfrei` | pfanne | REFLECTION (zementfrei) | fixation: zementfrei; dokument: nur historische EN-Unterlage 00811 (2013); aktuelle EU-Unterlage offen | reflection | offen |
@@ -17,23 +19,23 @@ _Version 1.1 · Stand 2026-10-07 · **verified: false** – Lauf 001-implantate:
 | `sn.kopf.cocr` | kopf | CoCr | material: CoCrMo; konus: 12/14; hinweis: SAP Ø40/44: 71342640/71342644 (mit Ti-Hülse) | matrix | belegt |
 | `sn.duokopf.tandem_bipolar` | duokopf | TANDEM Bipolar (Bi-Polar Head (frühere Bezeichnung in dieser Datei)) | verwendung: mit SPECTRON EF; innenkopf: S+N OXINIUM/CoCr 12/14, Ø22/28 (tandem PDF 17); keine BIOLOX-delta-Bipolar-Freigabe; varianten: TANDEM Bipolar (XLPE) und TANDEM INTL Bipolar (UHMWPE) getrennt; fussnoten: * Kombination in EU nicht genehmigt; ** Größe 01 nicht mit +16 oder TANDEM INTL Bipolar; *** 10/12 nicht in EU verkauft – SPECTRON EF ohne Sperrstern | tandem | belegt; Auswahl Julian 07.10.2026 (DACH-häufig) |
 
-### Größen – SL-PLUS MIA (Quelle s1)
-| groesse | sap_standard | sap_lateral |
-|---|---|---|
-| 01 | 75000172 | – |
-| 0 | 75000173 | – |
-| 1 | 75000174 | 75000186 |
-| 2 | 75000175 | 75000187 |
-| 3 | 75000176 | 75000188 |
-| 4 | 75000177 | 75000189 |
-| 5 | 75000178 | 75000190 |
-| 6 | 75000179 | 75000191 |
-| 7 | 75000180 | 75000192 |
-| 8 | 75000181 | 75000193 |
-| 9 | 75000182 | 75000194 |
-| 10 | 75000183 | 75000195 |
-| 11 | 75000184 | 75000196 |
-| 12 | 75000185 | 75000197 |
+### Größen – SL-PLUS MIA (Quelle slmia)
+| groesse | sap_standard | sap_lateral | stem_length_I_mm | stem_length_II_mm |
+|---|---|---|---|---|
+| 01 | 75000172 | – | 128 | 109 |
+| 0 | 75000173 | – | 132 | 113 |
+| 1 | 75000174 | 75000186 | 137 | 117 |
+| 2 | 75000175 | 75000187 | 141 | 121 |
+| 3 | 75000176 | 75000188 | 145 | 124 |
+| 4 | 75000177 | 75000189 | 150 | 128 |
+| 5 | 75000178 | 75000190 | 154 | 132 |
+| 6 | 75000179 | 75000191 | 159 | 136 |
+| 7 | 75000180 | 75000192 | 163 | 140 |
+| 8 | 75000181 | 75000193 | 168 | 144 |
+| 9 | 75000182 | 75000194 | 173 | 148 |
+| 10 | 75000183 | 75000195 | 178 | 152 |
+| 11 | 75000184 | 75000196 | 183 | 157 |
+| 12 | 75000185 | 75000197 | 188 | 162 |
 
 ### Größen – SPECTRON EF (Quelle s3)
 | groesse | laenge_mm | ref_standard | ref_high_offset |
@@ -98,8 +100,8 @@ _aus Grafik visuell gelesen (Astra, 1 Prüfer); alte Keramik-Spalten nicht verwe
 | Produkt | Behörde | Kennung | Markt | Status | Hinweis | Betrifft | Link |
 |---|---|---|---|---|---|---|---|
 | R3 XLPE Acetabular Liner | BfArM | R-2013-10 (03050/13), 29.05.2013 | EU/DE | – | zwei Produktlose mit vertauschter Kennzeichnung | `sn.r3.xlpe` | https://www.bfarm.de/SharedDocs/Kundeninfos/DE/11/2013/03050-13_kundeninfo_de.pdf?__blob=publicationFile |
-| R3 – Schalen oder XLPE-Liner (widersprüchlich) | BfArM | R-2020-04 (05608/20) | EU/DE | kein behördlicher Abschluss gefunden | Perplexity (DE-Original 22.04.2020, S. 1/3): R3 Acetabular Shells; Astra (EN-Arztschreiben): R3 Acetabular Liners, Rücknahme laut Hersteller abgewickelt – am Original klären | `sn.r3.schale`, `sn.r3.xlpe` | https://www.bfarm.de/SharedDocs/Kundeninfos/DE/11/2020/05608-20_1_kundeninfo_de.pdf?__blob=publicationFile |
-| R3 – Schale 0-Hole oder XLPE 20° Liner (widersprüchlich) | BfArM | R-2023-13 (35762/23), 20.11.2023 | EU/DE | kein Abschluss gefunden | REF 71331854, Charge 23HM03659. Astra (PDF gelesen): „R3 XLPE 20 DEG ACET LNR“; Perplexity (Suchtext): 0-Hole-Schale – am Original klären | `sn.r3.schale`, `sn.r3.xlpe` | https://www.bfarm.de/SharedDocs/Kundeninfos/DE/11/2023/35762-23_kundeninfo_de.pdf?__blob=publicationFile |
+| R3 Acetabular Shells, bestimmte Chargen | BfArM | R-2020-04 (05608/20) | EU/DE | kein behördlicher Abschluss gefunden | Verriegelungsfehler kann Liner betreffen, Liner aber nicht Rückrufprodukt; Rücknahme laut Hersteller abgewickelt – kein behördlicher Abschluss | `sn.r3.schale` | https://www.bfarm.de/SharedDocs/Kundeninfos/DE/11/2020/05608-20_1_kundeninfo_de.pdf?__blob=publicationFile |
+| R3 0 HOLE ACET SHELL 54 mm (REF 71331854, Lot 23HM03659) – Verpackung enthält 3-HOLE-Schale | BfArM | R-2023-13 (35762/23), 20.11.2023 | EU/DE | kein Abschluss gefunden | betroffene Ware lokalisieren/quarantänisieren/zurücksenden (Astra: Original gelesen; Perplexity bestätigt Schale) | `sn.r3.schale` | https://www.bfarm.de/SharedDocs/Kundeninfos/DE/11/2023/35762-23_kundeninfo_de.pdf?__blob=publicationFile |
 
 ## Hinweise
 - Vor dem Öffnen Komponente, Seite und Größe laut ansagen; Herstellerdokument und aktuelle EU-IFU maßgeblich.
@@ -109,23 +111,25 @@ _aus Grafik visuell gelesen (Astra, 1 Prüfer); alte Keramik-Spalten nicht verwe
 
 ## Offen
 - [ ] EU-IFUs (ifu.smith-nephew.com, REF nötig)
-- [ ] SL-PLUS MIA Längen aus 31156-en V2 (11/2024) am Original übernehmen
 - [ ] REFLECTION zementfrei/All-Poly aktuelle EU-Unterlage; Müller-PE-Pfanne von S+N
 - [ ] TANDEM Bipolar: Größen/REF; EU-Verfügbarkeit XLPE- vs. INTL-Variante
-- [ ] R-2020-04/R-2023-13: Schale oder Liner?
 - [ ] GTIN
+- [ ] POLARSTEM: aktuelle EU-OP-Technik/IFU, Größen/REF, Matrix-Zeilen 04758
+- [ ] POLARCUP (zementiert, EPRD #11) – bei Bedarf
 
 ## Quellen
 - **s1** SL-PLUS MIA INTEGRATION-PLUS – Surgical Technique · 00884-en (1524) V4, 01/15 · S. gedr. 16–19/PDF 18–21 (CCD S. 16, Implantate S. 18–19); Kennung PDF 28 · Markt: EN international · gelesen: Grok/Astra 07.10.2026 · https://smith-nephew.stylelabs.cloud/api/public/content/6eef714e29534cdab814571b84d5d554?v=d8cda33b&download=true
-- **s1b** SL-PLUS MIA INTEGRATION-PLUS – Surgical Technique (neuere Fassung) · 31156-en V2, 11/2024 · S. Implantate S. 16; Dimensions S. 17; Maßzeichnung S. 18 · Markt: international · gelesen: Perplexity-Fundstelle 07.10.2026 – Werte noch nicht am Original übernommen · https://smith-nephew.stylelabs.cloud/api/public/content/c38ee11595e14dfdbdd7ade71a170ac9?v=3e0dbffa&download=true
 - **matrix** Hip implant compatibility matrix – Stem and Femoral Ball Head Combinations · Lit. No. 04758, Ed. 05/26 V12 · S. S. 2/7 (SL-PLUS MIA), 6/7 (SPECTRON) · Markt: international mit lokalen Zulassungsvorbehalten · gelesen: Grok/Astra 07.10.2026 · https://smith-nephew.stylelabs.cloud/api/public/content/18df5a64ab234b02acb3e147b753f771?v=2833a5de
 - **s3** SPECTRON EF – Surgical Technique · 21885 V3, 71380478 REVB 03/23, ©2023 · S. Specs gedr. 1/PDF 4; Katalog gedr. 12/PDF 15; TANDEM Unipolar gedr. 14/PDF 17; Kompatibilität gedr. 16/PDF 19; Kennung PDF 20 · Markt: EN · gelesen: Grok/Astra 07.10.2026 · https://smith-nephew.stylelabs.cloud/api/public/content/bc33e9a6123b4239b48d4df8c9d84aa9?v=1c492828&download=true
 - **s4** R3 Acetabulum-System – Operationstechnik · 7138-1560-de REVB 06/12, ©2017 · S. gedr.=PDF 13 Kombi-Grafik; 17–18 XLPE-Katalog; Kennung 32 · Markt: DE · gelesen: Grok/Astra 07.10.2026 · https://smith-nephew-delivery.stylelabs.cloud/api/public/content/1bd7a20b4fdf4a158b95aad5987f2686?v=e321be27&download=true
 - **tandem** TANDEM Bipolar and Unipolar Hip System – INTL Surgical Technique · 29073 V2, 71380925 REVA 02/23 · S. PDF 17 Implant Compatibility (unnummeriert); Kennung PDF 20 · Markt: INTL mit EU-Fußnoten · gelesen: Grok/Astra 07.10.2026 · https://smith-nephew.stylelabs.cloud/api/public/content/8af4fc46aafd4be4a8d289f62a72ee8e?download=true&v=bdf205cd
 - **reflection** REFLECTION – Surgical Technique (historisch) · 00811 V1, 10/13, ©2013 · S. Titelblatt/Impressum · Markt: historische EN-Unterlage, kein aktueller EU-Nachweis · gelesen: Astra 07.10.2026 · https://smith-nephew.stylelabs.cloud/api/public/content/7cada363f2224bc3957ac5e0fde018ad?download=true&v=eca89761
+- **slmia** SL-PLUS MIA Surgical Technique · 31156-en V2, 11/2024 · S. S. 17–18 / PDF 20–21; Warnungen S. 2 / PDF 5 · Markt: international · gelesen: Grok/Astra 07.10.2026 · https://smith-nephew.stylelabs.cloud/api/public/content/c38ee11595e14dfdbdd7ade71a170ac9?v=3e0dbffa&download=true
+- **polar-us** POLARSTEM Non-Cemented and Cemented Stem System – Instructions for Use 81098832 · Rev. 2, 06/2021 · S. S. 1 (nur USA), S. 4, S. 2/5 · Markt: USA – kein EU-Ersatz · gelesen: Grok Lauf 001 (US-IFU) · https://smith-nephew.stylelabs.cloud/api/public/content/dda3044cb508477195f9fb946f902eef?download=true&v=277c7283
 
 ## Änderungen
 - **v1.0** (2026-10-07, 001): Erstanlage in Lauf 001 (Fundstellen, Werte offen)
 - **v1.1** (2026-10-07, 001-implantate): Größen/REF/Kombinationstabellen aus Grok + Astra (Astra-Korrekturen), feste IDs, passt_zu mit Bedingungen, Rückrufe mit betrifft; Perplexity-Fundstellen (eingang/001-perplexity-2/-3) als Fundstellen.
+- **v1.2** (2026-10-07, 001-implantate-dach): POLARSTEM zementfrei/zementiert wieder aufgenommen (DACH-Regel; nur US-Fundstelle, EU offen); SL-PLUS MIA Längen I/II aus 31156-en V2; R3-Rückrufe R-2020-04/R-2023-13 = Schale (Liner-Zuordnung entfernt).
 
 Bilder: keine übernommen – Rechte beim Hersteller.

@@ -27,7 +27,12 @@
     "implantate/stryker-accolade-ii.json",
     "implantate/aesculap-excia.json",
     "implantate/smith-nephew-r3.json",
-    "implantate/enovis-twinsys.json"
+    "implantate/enovis-twinsys.json",
+    "implantate/enovis-optimys.json",
+    "implantate/depuy-corail-pinnacle.json",
+    "implantate/zimmer-biomet.json",
+    "implantate/medacta-quadra-amistem.json",
+    "implantate/auswahl-dach.md"
    ],
    "lauf_start": "2026-10-07T02:10Z",
    "letzte_runde": {
@@ -74,7 +79,7 @@
   },
   "001-implantate-dach": {
    "name": "001-implantate-dach (Extra-Lauf)",
-   "runde": "julian",
+   "runde": "abgeschlossen",
    "typ": "implantate",
    "gehoert_zu": "001",
    "auftrag": "Erst DACH-Ranking belegen (EPRD-Jahresbericht 2025 Tabellen Schäfte/Pfannen/Kombinationen, SIRIS Schweiz, Österreich-Register), dann die häufigsten Systeme je Hersteller als Implantat-Dateien anlegen.",
@@ -84,8 +89,7 @@
     "Mathys/Enovis zusätzlich (optimys, RM Pressfit vitamys, seleXys)",
     "Weitere laut Register (z. B. Lima, implantcast, Corin)"
    ],
-   "datei": "pakete/001-implantate-dach-basis.md",
-   "perplexity_auftrag": "pakete/001-implantate-dach-perplexity-auftrag.md",
+   "datei": "implantate/auswahl-dach.md + 4 neue Implantat-Dateien",
    "lauf_start": "2026-10-07T05:30Z",
    "dateien": {
     "grok": "pruefung/001-implantate-dach-grok.md",
@@ -97,7 +101,16 @@
     "datum": "2026-10-07",
     "astra_ergebnis": "ÄNDERN (34 Punkte)",
     "perplexity": "pruefung/001-implantate-dach-perplexity.md"
-   }
+   },
+   "abgeschlossen": "2026-10-07",
+   "julian": "Systeme: DePuy, Zimmer Biomet, optimys, Medacta; POLARSTEM wieder auf; einbauen (✅1–11, ✏️16–18, ❌12–15)"
+  },
+  "001-implantate-luecken": {
+   "name": "Perplexity-Recherche Lücken Hüft-Implantate",
+   "runde": "perplexity",
+   "perplexity_auftrag": "pakete/001-implantate-luecken-perplexity-auftrag.md",
+   "ergebnis": "pruefung/001-implantate-luecken-perplexity.md",
+   "weiter": "Funde fließen in den nächsten Implantat-Lauf (Grok/Astra lesen am Original)"
   }
  },
  "eingang_verarbeitet": [
@@ -131,8 +144,8 @@
   },
   "Smith+Nephew": {
    "system": "R3",
-   "Schaft zementfrei": "SL-PLUS MIA",
-   "Schaft zementiert": "SPECTRON EF",
+   "Schaft zementfrei": "SL-PLUS MIA, POLARSTEM",
+   "Schaft zementiert": "SPECTRON EF, POLARSTEM zementiert",
    "Pfanne zementfrei": "R3, REFLECTION (zementfrei)",
    "Pfanne zementiert": "REFLECTION All-Poly (zementiert), Müller-PE-Pfanne (S+N)",
    "Inlay": "R3 XLPE",
@@ -148,6 +161,39 @@
    "Inlay": "seleXys PE Einsatz standard (nur seleXys PC)",
    "Kopf": "ceramys, symarec, CoCr",
    "Duokopf (mit zementiertem Schaft)": "Mathys Bipolarkopf"
+  },
+  "DePuy Synthes": {
+   "system": "CORAIL/PINNACLE",
+   "Schaft zementfrei": "CORAIL (STD/HO/KLA)",
+   "Schaft zementiert": "CORAIL zementiert",
+   "Pfanne zementfrei": "PINNACLE Press Fit",
+   "Pfanne zementiert": "TRILOC II-PE",
+   "Inlay": "PINNACLE Liner",
+   "Kopf": "ARTICUL/EZE BIOLOX delta, CoCr",
+   "Duokopf (mit zementiertem Schaft)": "SELF-CENTERING Bipolar (offen)"
+  },
+  "Zimmer Biomet": {
+   "system": "Avenir/Fitmore/CLS/Alloclassic + Allofit/G7",
+   "Schaft zementfrei": "Avenir, Fitmore, CLS Spotorno, Alloclassic",
+   "Schaft zementiert": "M.E.M., MS-30, Avenir zementiert",
+   "Pfanne zementfrei": "Allofit/Allofit-S, G7",
+   "Pfanne zementiert": "Flachprofil",
+   "Inlay": "G7-Liner",
+   "Kopf": "BIOLOX delta, CoCr 12/14",
+   "Duokopf (mit zementiertem Schaft)": "ZB Bipolarkopf"
+  },
+  "Enovis (Mathys) optimys": {
+   "system": "optimys + RM Pressfit vitamys",
+   "Schaft zementfrei": "optimys",
+   "Pfanne zementfrei": "RM Pressfit vitamys (Monoblock)",
+   "Kopf": "ceramys, symarec"
+  },
+  "Medacta": {
+   "system": "Quadra/Amistem + Versafitcup",
+   "Schaft zementfrei": "Quadra-H, Quadra-P, Amistem-P",
+   "Schaft zementiert": "Quadra-C, Amistem-C",
+   "Pfanne zementfrei": "Versafitcup CC Trio",
+   "Duokopf (mit zementiertem Schaft)": "Medacta bipolar"
   }
  },
  "eingang_offen": [],

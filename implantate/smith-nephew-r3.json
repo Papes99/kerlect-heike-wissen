@@ -1,7 +1,7 @@
 {
  "hersteller": "Smith+Nephew",
- "system": "SL-PLUS MIA, SPECTRON EF, R3, REFLECTION, TANDEM Bipolar",
- "version": "1.1",
+ "system": "SL-PLUS MIA, POLARSTEM, SPECTRON EF, R3, REFLECTION, TANDEM Bipolar",
+ "version": "1.2",
  "quellen": [
   {
    "id": "s1",
@@ -11,15 +11,6 @@
    "url": "https://smith-nephew.stylelabs.cloud/api/public/content/6eef714e29534cdab814571b84d5d554?v=d8cda33b&download=true",
    "markt": "EN international",
    "gelesen_von": "Grok/Astra 07.10.2026"
-  },
-  {
-   "id": "s1b",
-   "dokument": "SL-PLUS MIA INTEGRATION-PLUS – Surgical Technique (neuere Fassung)",
-   "stand": "31156-en V2, 11/2024",
-   "seiten": "Implantate S. 16; Dimensions S. 17; Maßzeichnung S. 18",
-   "url": "https://smith-nephew.stylelabs.cloud/api/public/content/c38ee11595e14dfdbdd7ade71a170ac9?v=3e0dbffa&download=true",
-   "markt": "international",
-   "gelesen_von": "Perplexity-Fundstelle 07.10.2026 – Werte noch nicht am Original übernommen"
   },
   {
    "id": "matrix",
@@ -65,6 +56,24 @@
    "url": "https://smith-nephew.stylelabs.cloud/api/public/content/7cada363f2224bc3957ac5e0fde018ad?download=true&v=eca89761",
    "markt": "historische EN-Unterlage, kein aktueller EU-Nachweis",
    "gelesen_von": "Astra 07.10.2026"
+  },
+  {
+   "id": "slmia",
+   "dokument": "SL-PLUS MIA Surgical Technique",
+   "stand": "31156-en V2, 11/2024",
+   "seiten": "S. 17–18 / PDF 20–21; Warnungen S. 2 / PDF 5",
+   "url": "https://smith-nephew.stylelabs.cloud/api/public/content/c38ee11595e14dfdbdd7ade71a170ac9?v=3e0dbffa&download=true",
+   "markt": "international",
+   "gelesen_von": "Grok/Astra 07.10.2026"
+  },
+  {
+   "id": "polar-us",
+   "dokument": "POLARSTEM Non-Cemented and Cemented Stem System – Instructions for Use 81098832",
+   "stand": "Rev. 2, 06/2021",
+   "seiten": "S. 1 (nur USA), S. 4, S. 2/5",
+   "url": "https://smith-nephew.stylelabs.cloud/api/public/content/dda3044cb508477195f9fb946f902eef?download=true&v=277c7283",
+   "markt": "USA – kein EU-Ersatz",
+   "gelesen_von": "Grok Lauf 001 (US-IFU)"
   }
  ],
  "komponenten": [
@@ -83,7 +92,7 @@
      "standard": 131,
      "lateral": 123
     },
-    "laengen_mm": "offen – Widerspruch in 00884-en V4 (Gr. 1/2/6: 137/141/159 vs. 136/140/158); neuere Fassung 31156-en V2 noch nicht gelesen",
+    "laengen_mm": "Stem length I / II laut 31156-en V2 S. 17 (Definition S. 18); alte Werte 00884-en nicht verwenden",
     "hinweis": "Größenbezeichnung als Text: „01“ ≠ „0“; 11/12 optionale Sondergrößen"
    },
    "bild": {
@@ -91,80 +100,154 @@
     "datei": null,
     "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
    },
-   "quelle": "s1",
+   "quelle": "slmia",
    "sicherheit": "belegt",
    "groessen": [
     {
      "groesse": "01",
      "sap_standard": "75000172",
-     "sap_lateral": null
+     "sap_lateral": null,
+     "stem_length_I_mm": 128,
+     "stem_length_II_mm": 109
     },
     {
      "groesse": "0",
      "sap_standard": "75000173",
-     "sap_lateral": null
+     "sap_lateral": null,
+     "stem_length_I_mm": 132,
+     "stem_length_II_mm": 113
     },
     {
      "groesse": "1",
      "sap_standard": "75000174",
-     "sap_lateral": "75000186"
+     "sap_lateral": "75000186",
+     "stem_length_I_mm": 137,
+     "stem_length_II_mm": 117
     },
     {
      "groesse": "2",
      "sap_standard": "75000175",
-     "sap_lateral": "75000187"
+     "sap_lateral": "75000187",
+     "stem_length_I_mm": 141,
+     "stem_length_II_mm": 121
     },
     {
      "groesse": "3",
      "sap_standard": "75000176",
-     "sap_lateral": "75000188"
+     "sap_lateral": "75000188",
+     "stem_length_I_mm": 145,
+     "stem_length_II_mm": 124
     },
     {
      "groesse": "4",
      "sap_standard": "75000177",
-     "sap_lateral": "75000189"
+     "sap_lateral": "75000189",
+     "stem_length_I_mm": 150,
+     "stem_length_II_mm": 128
     },
     {
      "groesse": "5",
      "sap_standard": "75000178",
-     "sap_lateral": "75000190"
+     "sap_lateral": "75000190",
+     "stem_length_I_mm": 154,
+     "stem_length_II_mm": 132
     },
     {
      "groesse": "6",
      "sap_standard": "75000179",
-     "sap_lateral": "75000191"
+     "sap_lateral": "75000191",
+     "stem_length_I_mm": 159,
+     "stem_length_II_mm": 136
     },
     {
      "groesse": "7",
      "sap_standard": "75000180",
-     "sap_lateral": "75000192"
+     "sap_lateral": "75000192",
+     "stem_length_I_mm": 163,
+     "stem_length_II_mm": 140
     },
     {
      "groesse": "8",
      "sap_standard": "75000181",
-     "sap_lateral": "75000193"
+     "sap_lateral": "75000193",
+     "stem_length_I_mm": 168,
+     "stem_length_II_mm": 144
     },
     {
      "groesse": "9",
      "sap_standard": "75000182",
-     "sap_lateral": "75000194"
+     "sap_lateral": "75000194",
+     "stem_length_I_mm": 173,
+     "stem_length_II_mm": 148
     },
     {
      "groesse": "10",
      "sap_standard": "75000183",
-     "sap_lateral": "75000195"
+     "sap_lateral": "75000195",
+     "stem_length_I_mm": 178,
+     "stem_length_II_mm": 152
     },
     {
      "groesse": "11",
      "sap_standard": "75000184",
-     "sap_lateral": "75000196"
+     "sap_lateral": "75000196",
+     "stem_length_I_mm": 183,
+     "stem_length_II_mm": 157
     },
     {
      "groesse": "12",
      "sap_standard": "75000185",
-     "sap_lateral": "75000197"
+     "sap_lateral": "75000197",
+     "stem_length_I_mm": 188,
+     "stem_length_II_mm": 162
     }
    ]
+  },
+  {
+   "id": "sn.polarstem.zementfrei",
+   "typ": "schaft",
+   "bezeichnung": "POLARSTEM zementfrei",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementfrei",
+    "konus": "12/14",
+    "ccd_varianten_us": "Standard 135°, lateral 126°, valgus 145°; Standard/lateral auch mit Kragen (US-IFU)",
+    "registerbeleg": "EPRD zf-Schaft #7 (n=20.743); Kombi mit R3 DE #8, CH #3",
+    "werte": "EU-Größen/REF offen"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "polar-us",
+   "sicherheit": "Fundstelle (US)"
+  },
+  {
+   "id": "sn.polarstem.zementiert",
+   "typ": "schaft",
+   "bezeichnung": "POLARSTEM zementiert",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementiert",
+    "konus": "12/14",
+    "material": "Edelstahl (US-IFU)",
+    "registerbeleg": "EPRD zementiert #8 (n=4.515)",
+    "werte": "EU offen"
+   },
+   "bild": {
+    "typ": "keins",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+   },
+   "quelle": "polar-us",
+   "sicherheit": "Fundstelle (US)"
   },
   {
    "id": "sn.spectron_ef.schaft",
@@ -683,27 +766,25 @@
    "markt": "EU/DE"
   },
   {
-   "produkt": "R3 – Schalen oder XLPE-Liner (widersprüchlich)",
+   "produkt": "R3 Acetabular Shells, bestimmte Chargen",
    "behoerde": "BfArM",
    "kennung": "R-2020-04 (05608/20)",
    "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/DE/11/2020/05608-20_1_kundeninfo_de.pdf?__blob=publicationFile",
-   "hinweis": "Perplexity (DE-Original 22.04.2020, S. 1/3): R3 Acetabular Shells; Astra (EN-Arztschreiben): R3 Acetabular Liners, Rücknahme laut Hersteller abgewickelt – am Original klären",
+   "hinweis": "Verriegelungsfehler kann Liner betreffen, Liner aber nicht Rückrufprodukt; Rücknahme laut Hersteller abgewickelt – kein behördlicher Abschluss",
    "betrifft": [
-    "sn.r3.schale",
-    "sn.r3.xlpe"
+    "sn.r3.schale"
    ],
    "markt": "EU/DE",
    "status": "kein behördlicher Abschluss gefunden"
   },
   {
-   "produkt": "R3 – Schale 0-Hole oder XLPE 20° Liner (widersprüchlich)",
+   "produkt": "R3 0 HOLE ACET SHELL 54 mm (REF 71331854, Lot 23HM03659) – Verpackung enthält 3-HOLE-Schale",
    "behoerde": "BfArM",
    "kennung": "R-2023-13 (35762/23), 20.11.2023",
    "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/DE/11/2023/35762-23_kundeninfo_de.pdf?__blob=publicationFile",
-   "hinweis": "REF 71331854, Charge 23HM03659. Astra (PDF gelesen): „R3 XLPE 20 DEG ACET LNR“; Perplexity (Suchtext): 0-Hole-Schale – am Original klären",
+   "hinweis": "betroffene Ware lokalisieren/quarantänisieren/zurücksenden (Astra: Original gelesen; Perplexity bestätigt Schale)",
    "betrifft": [
-    "sn.r3.schale",
-    "sn.r3.xlpe"
+    "sn.r3.schale"
    ],
    "markt": "EU/DE",
    "status": "kein Abschluss gefunden"
@@ -711,15 +792,15 @@
  ],
  "offen": [
   "EU-IFUs (ifu.smith-nephew.com, REF nötig)",
-  "SL-PLUS MIA Längen aus 31156-en V2 (11/2024) am Original übernehmen",
   "REFLECTION zementfrei/All-Poly aktuelle EU-Unterlage; Müller-PE-Pfanne von S+N",
   "TANDEM Bipolar: Größen/REF; EU-Verfügbarkeit XLPE- vs. INTL-Variante",
-  "R-2020-04/R-2023-13: Schale oder Liner?",
-  "GTIN"
+  "GTIN",
+  "POLARSTEM: aktuelle EU-OP-Technik/IFU, Größen/REF, Matrix-Zeilen 04758",
+  "POLARCUP (zementiert, EPRD #11) – bei Bedarf"
  ],
  "region": "hüfte",
  "verified": false,
- "verified_hinweis": "Lauf 001-implantate: Werte von Grok und Astra am Original gelesen (07.10.2026), Claude-Änderungsliste von Julian abgenommen. Keine EU-IFU gelesen; keine klinische Freigabe. Hausbestand jeder Klinik am Etikett prüfen.",
+ "verified_hinweis": "Lauf 001-implantate: Werte von Grok und Astra am Original gelesen (07.10.2026), Claude-Änderungsliste von Julian abgenommen. Keine EU-IFU gelesen; keine klinische Freigabe. Hausbestand jeder Klinik am Etikett prüfen. v1.2: Lauf 001-implantate-dach.",
  "stand_extrakt": "2026-10-07",
  "hinweise": [
   "Vor dem Öffnen Komponente, Seite und Größe laut ansagen; Herstellerdokument und aktuelle EU-IFU maßgeblich.",
@@ -739,6 +820,12 @@
    "datum": "2026-10-07",
    "lauf": "001-implantate",
    "text": "Größen/REF/Kombinationstabellen aus Grok + Astra (Astra-Korrekturen), feste IDs, passt_zu mit Bedingungen, Rückrufe mit betrifft; Perplexity-Fundstellen (eingang/001-perplexity-2/-3) als Fundstellen."
+  },
+  {
+   "version": "1.2",
+   "datum": "2026-10-07",
+   "lauf": "001-implantate-dach",
+   "text": "POLARSTEM zementfrei/zementiert wieder aufgenommen (DACH-Regel; nur US-Fundstelle, EU offen); SL-PLUS MIA Längen I/II aus 31156-en V2; R3-Rückrufe R-2020-04/R-2023-13 = Schale (Liner-Zuordnung entfernt)."
   }
  ]
 }
