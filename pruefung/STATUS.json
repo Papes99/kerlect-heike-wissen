@@ -35,6 +35,26 @@
     "astra_ergebnis": "ÄNDERN",
     "julian": "eingebaut: alle ✅ + ✏️ 15–17; 20 Excia T zementiert, 21 Bipolar Cup, 22 Bi-Polar Head"
    }
+  },
+  "001-implantate": {
+   "datei": "pakete/001-implantate-basis.md",
+   "name": "001-implantate (Extra-Lauf)",
+   "runde": "grok",
+   "typ": "implantate",
+   "gehoert_zu": "001",
+   "betrifft": [
+    "implantate/stryker-accolade-ii.json",
+    "implantate/aesculap-excia.json",
+    "implantate/smith-nephew-r3.json",
+    "implantate/enovis-twinsys.json"
+   ],
+   "eingang": "eingang/001-perplexity-2.md",
+   "lauf_start": "2026-10-07T03:55Z",
+   "dateien": {
+    "grok": "pruefung/001-implantate-grok.md",
+    "astra": "pruefung/001-implantate-astra.md"
+   },
+   "abschluss": "Ergebnis direkt in implantate/*.json + .md (je Datei Änderungsprotokoll); basis-Datei wird danach entfernt – keine eigene Abschlussdatei"
   }
  },
  "eingang_verarbeitet": [
@@ -88,8 +108,8 @@
  "eingang_offen": [
   {
    "datei": "eingang/001-perplexity-2.md",
-   "betrifft": "implantate/* (001)",
-   "hinweis": "Nachtrag nach Abschluss 001 v1.3 – im nächsten Lauf mit Implantatbezug von Grok/Astra am Original prüfen, erst dann einbauen"
+   "betrifft": "Lauf 001-implantate",
+   "hinweis": "in Prüfung"
   }
  ]
 }
