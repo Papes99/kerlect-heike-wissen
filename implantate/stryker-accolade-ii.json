@@ -1,7 +1,7 @@
 {
  "hersteller": "Stryker",
  "system": "Accolade II (zementfrei) + Trident II Tritanium + X3 + V40-Köpfe",
- "version": "1.1",
+ "version": "1.2",
  "quellen": [
   {
    "id": "q1",
@@ -47,6 +47,60 @@
    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfres/res.cfm?id=191999",
    "markt": "US mit Länderhinweisen",
    "gelesen_von": "Grok/Astra 07.10.2026"
+  },
+  {
+   "id": "pg3",
+   "dokument": "Accolade® II Femoral Hip Stem – Design rationale",
+   "stand": "ACCII-PG-3_Rev-1_22894, Copyright © 2020",
+   "seiten": "PDF 12 (ohne gedr. Nr.) „Accolade II Implant catalog numbers“",
+   "url": "https://www.stryker.com/content/dam/stryker/joint-replacement/products/accoladeii/resources/Accolade%20II%20Design%20Rationale%20ACCII-PG-3_Rev-1_22894.pdf",
+   "markt": "im Dokument nicht als EU angegeben (Anschrift Mahwah, NJ; kein CE-Zeichen; Marktvorbehalt PDF 12)",
+   "gelesen_von": "Claude-Helfer 07.10.2026 (Original); OpenAI 07.10.2026"
+  },
+  {
+   "id": "eifu4424",
+   "dokument": "Howmedica Osteonics ACCOLADE® II FEMORAL STEMS – eIFU (mehrsprachiges WW-PDF, deutscher Teil gelesen)",
+   "stand": "QIN 4424 Rev AD (Portal: 2026-06-30; Deckblatt © 2026/04)",
+   "seiten": "dt. Teil gedr. 106–114 / PDF 109–117 (gedr. = PDF − 3); Glossar gedr. 102–105 / PDF 105–108",
+   "url": "https://labeling.stryker.com/hcp/ORT/DE/ptort?keycode=04546540664433",
+   "markt": "DE-Portal; Abschnitte EU/EMEA (CE)/Australien",
+   "gelesen_von": "Claude-Helfer 07.10.2026 (Original)"
+  },
+  {
+   "id": "eifu4451",
+   "dokument": "Howmedica Osteonics V40 COBALT-CHROME (COCR) FEMORAL HEADS – eIFU",
+   "stand": "QIN 4451 Rev AB (Portal: 2024-04-01; Deckblatt © 2024/04)",
+   "seiten": "dt. Teil ab gedr. 139 / PDF 143 (gedr. = PDF − 4)",
+   "url": "https://labeling.stryker.com/hcp/ORT/DE/ptort?keycode=07613327032307",
+   "markt": "DE-Portal; Abschnitte EU/EMEA (CE)/Australien",
+   "gelesen_von": "Claude-Helfer 07.10.2026 (Original)"
+  },
+  {
+   "id": "eifu4355",
+   "dokument": "Howmedica Osteonics Alumina and BIOLOX delta Ceramic Heads – eIFU (Portal-Name abweichend: „Trident Acetabular Component System MDR eIFU“)",
+   "stand": "QIN 4355 Rev AC (Portal: 2026-05-21; Deckblatt © 2026/01)",
+   "seiten": "dt. Teil ab gedr. 180 / PDF 183 (gedr. = PDF − 3)",
+   "url": "https://labeling.stryker.com/hcp/ORT/DE/ptort?keycode=04546540608512",
+   "markt": "DE-Portal; Abschnitte EU/EMEA/GB/Australien",
+   "gelesen_von": "Claude-Helfer 07.10.2026 (Original)"
+  },
+  {
+   "id": "eifu4450",
+   "dokument": "TRIDENT® II ACETABULAR COMPONENT SYSTEM – eIFU",
+   "stand": "QIN 4450 Rev AA (Portal: 2022-07-05; Deckblatt © 2022/04)",
+   "seiten": "dt. Teil ab gedr. 208 / PDF 211 (gedr. = PDF − 3)",
+   "url": "https://labeling.stryker.com/hcp/ORT/DE/ptort?keycode=07613327380859",
+   "markt": "DE-Portal; Abschnitte EU/EMEA/Australien",
+   "gelesen_von": "Claude-Helfer 07.10.2026 (Original)"
+  },
+  {
+   "id": "eifu4351",
+   "dokument": "HOWMEDICA OSTEONICS TRIDENT POLYETHYLENE INSERTS – eIFU",
+   "stand": "QIN 4351 Rev AD (Portal: 2025-09-12; Deckblatt © 2025/06)",
+   "seiten": "dt. Teil ab gedr. 137 / PDF 140 (gedr. = PDF − 3)",
+   "url": "https://labeling.stryker.com/hcp/ORT/DE/ptort?keycode=07613327039689",
+   "markt": "DE-Portal; Abschnitte EU/EMEA (CE)/Australien",
+   "gelesen_von": "Claude-Helfer 07.10.2026 (Original)"
   }
  ],
  "komponenten": [
@@ -65,7 +119,7 @@
      "standard": 132,
      "high_offset": 127
     },
-    "indikation_eu": "nur Hüft-TEP – in EU/EMEA (CE) und Australien NICHT für Hemiarthroplastik (q1 S. 3)",
+    "indikation_eu": "nur Hüft-TEP – in EU/EMEA (CE) und Australien NICHT für Hemiarthroplastik (q1 S. 3); eIFU: „nur zur zementfreien Verankerung und als Hüfttotalendoprothesen vorgesehen“ (eifu4424 gedr. 107 / PDF 110)",
     "probe_hals": [
      {
       "groessen": "0–1",
@@ -94,111 +148,214 @@
      }
     ],
     "raspel_ref": "1020-5200 bis 1020-5211 (Raspeln Gr. 0–11, q1 S. 22/24) – keine Implantat-REF",
-    "implantat_ref": "offen (nicht in ACCII-SP-1)"
+    "implantat_ref": "6720-XXXX (132°) / 6721-XXXX (127°), Größe 0–11 laut pg3 PDF 12 – siehe Größenzeilen",
+    "markt_pg3": "pg3 PDF 12 (wörtlich): „Products may not be available in all markets because product availability is subject to the regulatory and/or medical practices in individual markets. Please contact your sales representative if you have questions about the availability of any of Stryker’s products in your area.“ – kein EU-Nachweis aus diesem PDF",
+    "material_eu_ifu": "Ti-6Al-4V-ELI (ASTM F136); Cp Ti unlegiertes Titanpulver (ASTM F1580); HA (ISO 13779-2); „* Cp Ti Titanschwamm (ASTM F1580)“ laut Fußnote nicht erhältlich in EU/UK/EMEA mit CE-Pflicht und Australien (eifu4424 gedr. 106 / PDF 109)",
+    "basis_udi_di": "6720-XXXX / 6721-XXXX → 08858251004330SQ (eifu4424 gedr. 113 / PDF 116)",
+    "mrt": "MR-bedingt sicher 1,5 T / 3,0 T (eifu4424 gedr. 109 / PDF 112)"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Deckblatt (wörtlich): „Refer to product label for CE mark status and Legal Manufacturer. The CE mark is only valid if also found on the product label.“ Etikett laut eifu4424: Sterilisationsverfahren und Verfallsdatum „auf dem Verpackungsetikett“ (gedr. 112 / PDF 115); Symbole nach ISO 15223-1 (Hersteller, EC REP, Herstelldatum, Verfallsdatum, LOT, REF, Seriennummer, Sterilisationsart, Einmalgebrauch, eIFU-Hinweis, MR-Symbole, MD, UDI, QTY) Glossar gedr. 102–105 / PDF 105–108; Etikett-Abkürzungen (z. B. „ALPH CDE“, „SZE“, „TPR“, „OFFST“) gedr. 113 / PDF 116. Keine Etikettabbildung in pg3 oder eIFU."
    },
    "quelle": "q1",
-   "sicherheit": "belegt",
+   "sicherheit": "Größen/CCD belegt (q1); REF belegt (Original, 2 Prüfer) – Markt im Dokument nicht als EU angegeben; eIFU-Angaben belegt (Original, 1 Prüfer)",
    "groessen": [
     {
      "groesse": "0",
-     "varianten": [
-      "132° Standard",
-      "127° High Offset"
-     ],
-     "ref": null
+     "ccd": "132°",
+     "variante_q1": "Standard",
+     "ref": "6720-0027",
+     "quelle": "pg3",
+     "seite": "PDF 12",
+     "gtin": "04546540664433",
+     "gtin_hinweis": "nur Portal-Metadaten (Keycode eifu4424), 1 Prüfer"
+    },
+    {
+     "groesse": "0",
+     "ccd": "127°",
+     "variante_q1": "High Offset",
+     "ref": "6721-0027",
+     "quelle": "pg3",
+     "seite": "PDF 12"
     },
     {
      "groesse": "1",
-     "varianten": [
-      "132° Standard",
-      "127° High Offset"
-     ],
-     "ref": null
+     "ccd": "132°",
+     "variante_q1": "Standard",
+     "ref": "6720-0127",
+     "quelle": "pg3",
+     "seite": "PDF 12"
+    },
+    {
+     "groesse": "1",
+     "ccd": "127°",
+     "variante_q1": "High Offset",
+     "ref": "6721-0127",
+     "quelle": "pg3",
+     "seite": "PDF 12"
     },
     {
      "groesse": "2",
-     "varianten": [
-      "132° Standard",
-      "127° High Offset"
-     ],
-     "ref": null
+     "ccd": "132°",
+     "variante_q1": "Standard",
+     "ref": "6720-0230",
+     "quelle": "pg3",
+     "seite": "PDF 12"
+    },
+    {
+     "groesse": "2",
+     "ccd": "127°",
+     "variante_q1": "High Offset",
+     "ref": "6721-0230",
+     "quelle": "pg3",
+     "seite": "PDF 12"
     },
     {
      "groesse": "3",
-     "varianten": [
-      "132° Standard",
-      "127° High Offset"
-     ],
-     "ref": null
+     "ccd": "132°",
+     "variante_q1": "Standard",
+     "ref": "6720-0330",
+     "quelle": "pg3",
+     "seite": "PDF 12"
+    },
+    {
+     "groesse": "3",
+     "ccd": "127°",
+     "variante_q1": "High Offset",
+     "ref": "6721-0330",
+     "quelle": "pg3",
+     "seite": "PDF 12"
     },
     {
      "groesse": "4",
-     "varianten": [
-      "132° Standard",
-      "127° High Offset"
-     ],
-     "ref": null
+     "ccd": "132°",
+     "variante_q1": "Standard",
+     "ref": "6720-0435",
+     "quelle": "pg3",
+     "seite": "PDF 12"
+    },
+    {
+     "groesse": "4",
+     "ccd": "127°",
+     "variante_q1": "High Offset",
+     "ref": "6721-0435",
+     "quelle": "pg3",
+     "seite": "PDF 12"
     },
     {
      "groesse": "5",
-     "varianten": [
-      "132° Standard",
-      "127° High Offset"
-     ],
-     "ref": null
+     "ccd": "132°",
+     "variante_q1": "Standard",
+     "ref": "6720-0535",
+     "quelle": "pg3",
+     "seite": "PDF 12"
+    },
+    {
+     "groesse": "5",
+     "ccd": "127°",
+     "variante_q1": "High Offset",
+     "ref": "6721-0535",
+     "quelle": "pg3",
+     "seite": "PDF 12"
     },
     {
      "groesse": "6",
-     "varianten": [
-      "132° Standard",
-      "127° High Offset"
-     ],
-     "ref": null
+     "ccd": "132°",
+     "variante_q1": "Standard",
+     "ref": "6720-0635",
+     "quelle": "pg3",
+     "seite": "PDF 12"
+    },
+    {
+     "groesse": "6",
+     "ccd": "127°",
+     "variante_q1": "High Offset",
+     "ref": "6721-0635",
+     "quelle": "pg3",
+     "seite": "PDF 12"
     },
     {
      "groesse": "7",
-     "varianten": [
-      "132° Standard",
-      "127° High Offset"
-     ],
-     "ref": null
+     "ccd": "132°",
+     "variante_q1": "Standard",
+     "ref": "6720-0737",
+     "quelle": "pg3",
+     "seite": "PDF 12"
+    },
+    {
+     "groesse": "7",
+     "ccd": "127°",
+     "variante_q1": "High Offset",
+     "ref": "6721-0737",
+     "quelle": "pg3",
+     "seite": "PDF 12"
     },
     {
      "groesse": "8",
-     "varianten": [
-      "132° Standard",
-      "127° High Offset"
-     ],
-     "ref": null
+     "ccd": "132°",
+     "variante_q1": "Standard",
+     "ref": "6720-0837",
+     "quelle": "pg3",
+     "seite": "PDF 12"
+    },
+    {
+     "groesse": "8",
+     "ccd": "127°",
+     "variante_q1": "High Offset",
+     "ref": "6721-0837",
+     "quelle": "pg3",
+     "seite": "PDF 12"
     },
     {
      "groesse": "9",
-     "varianten": [
-      "132° Standard",
-      "127° High Offset"
-     ],
-     "ref": null
+     "ccd": "132°",
+     "variante_q1": "Standard",
+     "ref": "6720-0937",
+     "quelle": "pg3",
+     "seite": "PDF 12"
+    },
+    {
+     "groesse": "9",
+     "ccd": "127°",
+     "variante_q1": "High Offset",
+     "ref": "6721-0937",
+     "quelle": "pg3",
+     "seite": "PDF 12"
     },
     {
      "groesse": "10",
-     "varianten": [
-      "132° Standard",
-      "127° High Offset"
-     ],
-     "ref": null
+     "ccd": "132°",
+     "variante_q1": "Standard",
+     "ref": "6720-1040",
+     "quelle": "pg3",
+     "seite": "PDF 12"
+    },
+    {
+     "groesse": "10",
+     "ccd": "127°",
+     "variante_q1": "High Offset",
+     "ref": "6721-1040",
+     "quelle": "pg3",
+     "seite": "PDF 12"
     },
     {
      "groesse": "11",
-     "varianten": [
-      "132° Standard",
-      "127° High Offset"
-     ],
-     "ref": null
+     "ccd": "132°",
+     "variante_q1": "Standard",
+     "ref": "6720-1140",
+     "quelle": "pg3",
+     "seite": "PDF 12"
+    },
+    {
+     "groesse": "11",
+     "ccd": "127°",
+     "variante_q1": "High Offset",
+     "ref": "6721-1140",
+     "quelle": "pg3",
+     "seite": "PDF 12"
     }
    ]
   },
@@ -234,15 +391,18 @@
       5,
       7.5
      ]
-    }
+    },
+    "eu_ifu": "eifu4355: „V40 BIOLOX delta Femurköpfe (6570-0-XXX)“; V40 BIOLOX delta mit V40 Titan-, CoCr- oder Edelstahlschäften; Universal-Keramikköpfe nur mit Universal-Adapterhülsen 6519-T-XXX oder 19-0XXXT (gedr. 182–184 / PDF 185–187)",
+    "portal_beispiel": "REF 6570-0-136 „Ceramic V40 Femoral Head“, GTIN 04546540608512 (nur Portal-Metadaten)"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Deckblatt (wörtlich): „Refer to product label for CE mark status and Legal Manufacturer. The CE mark is only valid if also found on the product label.“ (eifu4355). Keine Etikettabbildung in der eIFU."
    },
    "quelle": "q1",
-   "sicherheit": "belegt"
+   "sicherheit": "belegt (q1); eIFU-Angaben belegt (Original, 1 Prüfer)"
   },
   {
    "id": "stryker.v40.lfit_cocr",
@@ -304,15 +464,18 @@
       8,
       12
      ]
-    }
+    },
+    "eu_ifu": "eifu4451: Familie „CoCr V40 Vitallium“ 6260-X-XXX; Ø 22–32 mm (6260-4-XXX, 6260-5-XXX), 22–44 mm (6260-9-XXX); Offsets −4…+12 (6260-4/-5), −5…+12 (6260-9); 6260-9-XXX = LFIT (Stickstoffionen); Material CoCr ASTM F1537 (gedr. 139–140 / PDF 143–144)",
+    "portal_beispiel": "REF 6260-9-136 „V40 COCR LFIT HEAD 36mm/0“, GTIN 07613327032307 (nur Portal-Metadaten)"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Deckblatt (wörtlich): „Refer to product label for CE mark status and Legal Manufacturer. The CE mark is only valid if also found on the product label.“ (eifu4451). Keine Etikettabbildung in der eIFU."
    },
    "quelle": "q1",
-   "sicherheit": "belegt"
+   "sicherheit": "belegt (q1); eIFU-Angaben belegt (Original, 1 Prüfer)"
   },
   {
    "id": "stryker.v40.probekopf",
@@ -332,9 +495,10 @@
     "hinweis": "Probekopfwerte nicht auf Implantatköpfe übertragen"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": null
    },
    "quelle": "q2",
    "sicherheit": "belegt"
@@ -353,15 +517,19 @@
     "varianten": {
      "Solidback/Clusterhole": "42–66 mm, 2-mm-Schritte",
      "Multihole": "42–72 mm, 2-mm-Schritte (I/J nur Multihole)"
-    }
+    },
+    "eu_ifu": "eifu4450: Pfannenfamilien 700-04-XXY (Tritanium 0-Loch), 702-04-XXY (Tritanium 3-/5-Loch), 709-04-XXY (Tritanium Mehrloch), 702-11-XXY (3-/5-Loch-HA), 742-11-XXY (PSL 3-/5-Loch-HA); „ausschließlich für die zementfreie Implantation vorgesehen“ (gedr. 214 / PDF 217)",
+    "schrauben": "6,5-mm-Innensechskantschrauben mit Flachprofil Art.-Nr. 7030-65XX; Domverschlussschraube 7060-0000 (2060-0000-1 nur USA) (eifu4450 gedr. 208 / PDF 211)",
+    "portal_beispiel": "REF 702-11-52E „Trident II Clusterhole HA Acetabular shell 52E“, GTIN 07613327380859 (nur Portal-Metadaten)"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Deckblatt (wörtlich): „Refer to product label for CE mark status and Legal Manufacturer. The CE mark is only valid if also found on the product label.“ (eifu4450). Keine Etikettabbildung in der eIFU."
    },
    "quelle": "q5",
-   "sicherheit": "belegt",
+   "sicherheit": "belegt (q5); eIFU-Angaben belegt (Original, 1 Prüfer)",
    "groessen": [
     {
      "groesse": "42",
@@ -461,15 +629,17 @@
      "X3 Elevated Rim": "C/D: Ø28; E–J: Ø28/32/36",
      "X3 Eccentric 0°": "nicht CE-gekennzeichnet / nicht EU-vermarktet (q5 S. 4/21)"
     },
-    "konflikt_26mm": "Tabelle 1 ohne 26 mm, Katalog S. 21 listet X3 10° 26C–26J (REF 623-10-26C bzw. 723-10-26C) – offen, Hersteller klären"
+    "konflikt_26mm": "offen: Tabelle 1 (q5 S. 4) ohne 26 mm, Katalog q5 S. 21 listet X3 10° 26C–26J; eifu4351 nennt weder „26 mm“ noch eine Schalen-/Alpha-Zuordnung („ALPH CDE“ nur in der Abkürzungsliste). REF 623-10-26C („TRIDENT X3 10° INSERT 26C“, GTIN 07613327039689) und 723-10-26C („Trident® X3® 10° Polyethylene Insert 26 mm“, GTIN 07613327339369) nur aus Portal-Metadaten – keiner Schale zugeordnet, Hersteller klären",
+    "eu_ifu": "eifu4351: „Trident® X3® 10° Polyethyleneinsatz (623-10-2XX, 623-10-3XX)“ und „(723-10-2XX, 723-10-3XX)“; X3 0° 623-00-/723-00-2XX/-3XX/-4XX; X3 mit erhöhtem Rand 643-00-/743-00-; X3 10° Exzentrisch 663-10-/763-10-; Material „X3® UHMWPE (Typ 1) (ASTM F648, ISO 5834-1, ISO 5834-2)“ (gedr. 137–139 / PDF 140–142)"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Deckblatt (wörtlich): „Refer to product label for CE mark status and Legal Manufacturer. The CE mark is only valid if also found on the product label.“ (eifu4351). Keine Etikettabbildung in der eIFU."
    },
    "quelle": "q5",
-   "sicherheit": "belegt"
+   "sicherheit": "belegt (q5); eIFU-Angaben belegt (Original, 1 Prüfer)"
   }
  ],
  "tabellen": {
@@ -630,7 +800,7 @@
    "von": "stryker.accolade2.schaft",
    "zu": "stryker.v40.biolox_delta",
    "status": "ja",
-   "bedingung": "Konus V40; Ø/Offset laut Tabelle",
+   "bedingung": "Konus V40; Ø/Offset laut Tabelle; eIFU: kein Kopf mit Offset > +12 mm (eifu4424 gedr. 106 / PDF 109)",
    "quelle": "q1",
    "seite": "12"
   },
@@ -638,7 +808,7 @@
    "von": "stryker.accolade2.schaft",
    "zu": "stryker.v40.lfit_cocr",
    "status": "ja",
-   "bedingung": "Konus V40; Ø/Offset laut Tabelle",
+   "bedingung": "Konus V40; Ø/Offset laut Tabelle; eIFU: kein Kopf mit Offset > +12 mm (eifu4424 gedr. 106 / PDF 109)",
    "quelle": "q1",
    "seite": "12"
   },
@@ -655,7 +825,7 @@
    "von": "stryker.x3.inlay",
    "zu": "stryker.v40.biolox_delta",
    "status": "bedingt",
-   "bedingung": "Kopf-Ø ≤ max. Ø der Schale (T3); Kopf-Ø-Freigabe ist keine Freigabe jeder Kopffamilie – Familie am Etikett/IFU prüfen",
+   "bedingung": "Kopf-Ø ≤ max. Ø der Schale (T3); Kopf-Ø-Freigabe ist keine Freigabe jeder Kopffamilie – Familie am Etikett/IFU prüfen; eIFU: mit HO Metall- oder Keramikköpfen „vergleichbarer Größe“ (eifu4351 gedr. 139 / PDF 142)",
    "quelle": "q5",
    "seite": "4",
    "tabelle": "T3_trident_x3"
@@ -664,7 +834,7 @@
    "von": "stryker.x3.inlay",
    "zu": "stryker.v40.lfit_cocr",
    "status": "bedingt",
-   "bedingung": "Kopf-Ø ≤ max. Ø der Schale (T3); 26 mm offen; Familie am Etikett/IFU prüfen",
+   "bedingung": "Kopf-Ø ≤ max. Ø der Schale (T3); 26 mm offen; Familie am Etikett/IFU prüfen; eIFU: mit HO Metall- oder Keramikköpfen „vergleichbarer Größe“ (eifu4351 gedr. 139 / PDF 142)",
    "quelle": "q5",
    "seite": "4",
    "tabelle": "T3_trident_x3"
@@ -687,7 +857,7 @@
    "wenn": "duokopf+schaft",
    "pruefe": "kein duokopf",
    "text": "Kein Duokopf/Hemi auf Accolade II in der EU.",
-   "quelle": "q1 S. 3"
+   "quelle": "q1 S. 3; eifu4424 gedr. 107 / PDF 110"
   },
   {
    "wenn": "inlay",
@@ -700,6 +870,36 @@
    "pruefe": "kopf_mm <= max_kopf_mm(schale)",
    "text": "Kopf-Ø nie größer als das Maximum der Schale laut Tabelle 1 (z. B. Schale 52 → max. 40, und 40 nur mit 0°-Inlay).",
    "quelle": "q5 S. 4"
+  },
+  {
+   "wenn": "kopf",
+   "pruefe": "kopf.konus == 'V40' und Adapter laut eIFU",
+   "text": "Accolade II eIFU: V40-Taper-Köpfe aus CoCr, LFIT CoCr, Alumina, BIOLOX delta; C-Taper-Köpfe (Alumina, BIOLOX delta) nur mit V40-Taper-Adapterhülse; BIOLOX-delta-Universal-Köpfe nur mit V40-Taper-Universal-Adapterhülse; Unitrax nur mit Unitrax-V40-Adapter.",
+   "quelle": "eifu4424 gedr. 106 / PDF 109"
+  },
+  {
+   "wenn": "kopf",
+   "pruefe": "kopf.offset <= +12",
+   "text": "Kein Femurkopf mit Offset > +12 mm auf Accolade II (Häkchen √ am Schaftkonus); V40-Köpfe nur auf V40-Taper-Schäften, nicht über +12 mm Halslänge.",
+   "quelle": "eifu4424 gedr. 106 / PDF 109; eifu4451 gedr. 139–140 / PDF 143–144"
+  },
+  {
+   "wenn": "kopf (Keramik)",
+   "pruefe": "schaftkonus unbenutzt",
+   "text": "Keramikkopf darf nur auf einen unbenutzten Schaftkonus montiert werden.",
+   "quelle": "eifu4355 gedr. 185 / PDF 188"
+  },
+  {
+   "wenn": "schaft",
+   "pruefe": "indikation EU",
+   "text": "Accolade II EU/EMEA (CE)/Australien: nicht entzündliche degenerative Gelenkerkrankung inkl. Osteoarthrose und avaskulärer Nekrose; Korrektur funktioneller Deformität; mit kompatiblen bipolaren Inlays: hohes Luxationsrisiko. Nur zementfrei, nur TEP. Kontraindikationen: aktive/vermutete latente Infektion, unzureichende Knochensubstanz, nicht abgeschlossenes Skelettwachstum, psychische/neuromuskuläre Störung mit untragbarem Risiko, Adipositas, Überempfindlichkeit/Allergie.",
+   "quelle": "eifu4424 gedr. 107–108 / PDF 110–111"
+  },
+  {
+   "wenn": "pfanne+inlay",
+   "pruefe": "inlay-familie laut eIFU",
+   "text": "Trident II mit TRIDENT PE-Inlays, TRIDENT bipolaren Inlays und MDM-CoCr-Inlays; TRIDENT Keramik-Inlays in EU und Australien zugelassen, in den USA nicht. X3-Inlays passen in Trident, Trident Tritanium, Trident II und Restoration anatomische Pfannen.",
+   "quelle": "eifu4450 gedr. 208 / PDF 211; eifu4351 gedr. 139 / PDF 142"
   }
  ],
  "rueckrufe": [
@@ -775,21 +975,28 @@
   }
  ],
  "offen": [
-  "EU-IFU Accolade II, V40-Köpfe, Trident II, X3 – Suchschlüssel Stryker-eIFU: QIN 4351 (X3), QIN 0095-3-200 (V40 CoCr), QIN 4350 (BIOLOX delta V40) (Fundstelle Perplexity, Trident-Tritanium-Protokoll S. 3)",
-  "Implantat-REF Accolade II (nicht in ACCII-SP-1)",
-  "X3 26 mm: Tabelle 1 vs. Katalog S. 21",
+  "X3 26 mm: q5 Tabelle 1 vs. Katalog S. 21; eIFU QIN 4351 ordnet 26 mm keiner Schale zu; REF 623-10-26C / 723-10-26C nur Portal-Metadaten – Hersteller klären",
+  "Accolade-II-REF: EU-Marktstatus der Einzel-REF (pg3 ohne EU-Angabe) – am Etikett/Hersteller bestätigen",
+  "Stryker SLI0004 (Fremdhersteller-Kompatibilität), ePIL und Patientenimplantatkarte nicht gelesen",
+  "Portal-Name QIN 4355 („Trident Acetabular Component System MDR eIFU“) ≠ Deckblatt-Titel (Keramikköpfe) – bei Stryker klären",
   "EU-Abschluss RA2018-1757583 und RA2022-2911584",
-  "REF/GTIN der Köpfe (nur Katalogmuster XXX)"
+  "REF/GTIN der Köpfe je Ø/Offset (nur Katalogmuster XXX; Einzel-GTIN nur als Portal-Beispiel)"
  ],
  "region": "hüfte",
  "verified": false,
- "verified_hinweis": "Lauf 001-implantate: Werte von Grok und Astra am Original gelesen (07.10.2026), Claude-Änderungsliste von Julian abgenommen. Keine EU-IFU gelesen; keine klinische Freigabe. Hausbestand jeder Klinik am Etikett prüfen.",
+ "verified_hinweis": "Lauf 001-implantate: Werte von Grok und Astra am Original gelesen (07.10.2026), Claude-Änderungsliste von Julian abgenommen. Keine EU-IFU gelesen; keine klinische Freigabe. Hausbestand jeder Klinik am Etikett prüfen. Lauf 001-implantate-luecken: Accolade-II-REF aus ACCII-PG-3 (Claude-Helfer + OpenAI) und fünf Stryker-eIFU (QIN 4424/4451/4355/4450/4351, nur Claude-Helfer, deutscher Teil) eingebaut; X3 26 mm bleibt offen.",
  "stand_extrakt": "2026-10-07",
  "hinweise": [
   "Vor dem Öffnen Komponente, Seite und Größe laut ansagen; Herstellerdokument und aktuelle EU-IFU maßgeblich.",
   "Systeme nicht mischen: nur Komponenten, die der Hersteller ausdrücklich für dieses System vorsieht. Gleicher Konus oder gleiche Keramikmarke ist kein Kombinationsnachweis.",
   "Werte nur aus dem genannten Original mit Seite; nicht dokumentierte Kombinationen bleiben „offen – Operateur fragen“ (ungeprüft ≠ verboten ≠ freigegeben).",
-  "Rückrufe sind chargenspezifisch: Betroffenheit nur über REF/Charge im Original und mit der/dem Medizinprodukte-Beauftragten klären – keine pauschale Sperre oder Freigabe."
+  "Rückrufe sind chargenspezifisch: Betroffenheit nur über REF/Charge im Original und mit der/dem Medizinprodukte-Beauftragten klären – keine pauschale Sperre oder Freigabe.",
+  "Stryker-eIFU (07.10.2026 über labeling.stryker.com geladen, nur deutscher Teil gelesen): CE-Status und Legal Manufacturer stehen auf dem Produktetikett – „The CE mark is only valid if also found on the product label.“ (Deckblätter QIN 4424/4451/4355/4450/4351).",
+  "Fremdhersteller-Kombinationen: Stryker-eIFU „SLI0004“ unter ifu.stryker.com (eifu4424 gedr. 106 / PDF 109) – nicht gelesen.",
+  "V40 CoCr/LFIT-Köpfe EU-Indikation: degenerative Gelenkerkrankung inkl. Osteoarthrose/avaskulärer Nekrose, rheumatoide Arthritis, funktionelle Deformität, Revision, dislozierte intrakapsuläre Schenkelhalsfraktur; Kontraindikationen: Infektion, unzureichende Knochensubstanz, offenes Skelettwachstum, psychische/neuromuskuläre Störung (eifu4451 gedr. 140–141 / PDF 144–145). Warnhinweis: kann Kobalt (CMR 1B, > 0,1 Gew.-%) enthalten (gedr. 142 / PDF 146).",
+  "V40 BIOLOX delta EU-Indikation: schmerzhafte, funktionsbeeinträchtigende Hüfterkrankung (degenerative/rheumatoide Arthritis, avaskuläre Nekrose Spätstadium), Revision, Behandlungsprobleme; Kontraindikationen: Infektion, psychische/neuromuskuläre Störung, beeinträchtigte Knochensubstanz, offenes Skelettwachstum, Überempfindlichkeit/Allergie (eifu4355 gedr. 184–185 / PDF 187–188).",
+  "Trident II EU-Indikation u. a. degenerative/rheumatoide/posttraumatische Arthrose, avaskuläre Nekrose, Revision, schlechte Knochenqualität; Kontraindikationen: Infektion, psychische/neuromuskuläre Störung, beeinträchtigte Knochensubstanz, offenes Skelettwachstum (eifu4450 gedr. 214–215 / PDF 217–218). X3-Inlays: Indikation degenerative/rheumatoide Arthritis, Revision; Kontraindikationen wie oben plus Empfindlichkeit/Allergie (eifu4351 gedr. 140 / PDF 143).",
+  "Accolade-II-REF (6720-/6721-) stammen aus einem US-adressierten Dokument von 2020 ohne EU-Marktangabe; die eIFU nennt nur 6720-XXXX / 6721-XXXX. Am Etikett prüfen."
  ],
  "aenderungsprotokoll": [
   {
@@ -803,6 +1010,12 @@
    "datum": "2026-10-07",
    "lauf": "001-implantate",
    "text": "Größen/REF/Kombinationstabellen aus Grok + Astra (Astra-Korrekturen), feste IDs, passt_zu mit Bedingungen, Rückrufe mit betrifft; Perplexity-Fundstellen (eingang/001-perplexity-2/-3) als Fundstellen."
+  },
+  {
+   "version": "1.2",
+   "datum": "2026-10-07",
+   "lauf": "001-implantate-luecken",
+   "text": "Accolade-II-Implantat-REF Gr. 0–11 je 132° (6720-) und 127° (6721-) aus ACCII-PG-3 Rev-1 PDF 12 (Markt nicht EU angegeben); EU-eIFU QIN 4424 Rev AD, 4451 Rev AB, 4355 Rev AC, 4450 Rev AA, 4351 Rev AD als Quellen mit Indikationen/Kontraindikationen/Kombinationsvorgaben (regeln/hinweise); bild-Schema je Komponente; X3 26 mm weiter offen; Perplexity-Suchschlüssel (QIN 0095-3-200/4350) durch Portal-Zuordnung ersetzt."
   }
  ]
 }
