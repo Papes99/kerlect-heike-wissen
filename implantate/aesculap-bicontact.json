@@ -1,16 +1,16 @@
 {
  "hersteller": "Aesculap (B. Braun)",
  "system": "Bicontact – zementfrei/zementiert (S/H/SD/N); Revision getrennt",
- "version": "1.0",
+ "version": "1.1",
  "quellen": [
   {
    "id": "bc1",
    "dokument": "Aesculap Bicontact System – Hip Endoprosthesis System (OP-Technik / Implantatübersicht)",
-   "stand": "O10702 0113/1/1",
-   "seiten": "Schafttypen S.6; zf/zem S.4–5; Implantate S.34–37; Köpfe 12/14 S.38; Probeköpfe 12/14 S.30",
+   "stand": "O10702 0113/1/1 (2013, historische Ausgabe)",
+   "seiten": "Schafttypen S.6; zf/zem S.4–5; Implantate S.34–37; Köpfe 12/14 S.38; Probeköpfe 12/14 S.30; gedr.=PDF 34–35 und 38 von OpenAI geprüft",
    "url": "https://knoglemekanik.dk/Vejledninger/O10702%20Bicontact%202013.pdf",
-   "markt": "EN-Broschüre Aesculap (Dok-Nr. O10702)",
-   "gelesen_von": "Grok 07.10.2026"
+   "markt": "EN-Herstellerdokument Aesculap auf Fremdhost (knoglemekanik.dk) – historisch, kein aktueller DE-IFU-Download",
+   "gelesen_von": "Grok 07.10.2026; OpenAI 07.10.2026"
   },
   {
    "id": "bc-web",
@@ -58,12 +58,13 @@
     "offset_hinweis": "linear von 39,1 mm (Größe 10) bis 50,1 mm (Größe 21) laut bc1"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-/Packungsangaben in den Quellen dieses Laufs nicht geprüft."
    },
    "quelle": "bc1",
-   "sicherheit": "belegt",
+   "sicherheit": "belegt (Original, 2 Prüfer)",
    "groessen": [
     {
      "groesse": "10",
@@ -127,12 +128,13 @@
     "offset_hinweis": "+6 mm Offset gegenüber Bicontact S laut bc1"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-/Packungsangaben in den Quellen dieses Laufs nicht geprüft."
    },
    "quelle": "bc1",
-   "sicherheit": "belegt",
+   "sicherheit": "belegt (Original, 2 Prüfer)",
    "groessen": [
     {
      "groesse": "10",
@@ -195,12 +197,13 @@
     "ccd_grad": 135
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-/Packungsangaben in den Quellen dieses Laufs nicht geprüft."
    },
    "quelle": "bc1",
-   "sicherheit": "belegt",
+   "sicherheit": "belegt (Original, 2 Prüfer)",
    "groessen": [
     {
      "groesse": "10",
@@ -237,15 +240,17 @@
     "fixation": "zementiert",
     "material": "ISODUR F (CoCrMo)",
     "konus": "12/14",
-    "ccd_grad": 128
+    "ccd_grad": 128,
+    "hinweis": "kein H10 zementiert – NK310K steht nur in einer nachfolgenden Centralizer-Zeile, nicht in der Implantattabelle; nicht ergänzen"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-/Packungsangaben in den Quellen dieses Laufs nicht geprüft."
    },
    "quelle": "bc1",
-   "sicherheit": "belegt",
+   "sicherheit": "belegt (Original, 2 Prüfer)",
    "groessen": [
     {
      "groesse": "12",
@@ -280,9 +285,10 @@
     "indikation_kurz": "enge / dysplastische Markraumverhältnisse laut bc1/bc-web"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-/Packungsangaben in den Quellen dieses Laufs nicht geprüft."
    },
    "quelle": "bc1",
    "sicherheit": "belegt",
@@ -290,12 +296,12 @@
     {
      "groesse": "9",
      "ref": "NK709T",
-     "hinweis": "Gewichtsbeschränkung – IFU prüfen"
+     "hinweis": "Gewichtsbeschränkung laut IFU – Zahlenwert nicht bestätigt; IFU prüfen"
     },
     {
      "groesse": "10",
      "ref": "NK710T",
-     "hinweis": "Gewichtsbeschränkung – IFU prüfen"
+     "hinweis": "Gewichtsbeschränkung laut IFU – Zahlenwert nicht bestätigt; IFU prüfen"
     },
     {
      "groesse": "11",
@@ -326,7 +332,7 @@
   {
    "id": "aesculap.bicontact.n",
    "typ": "schaft",
-   "bezeichnung": "Bicontact N (enge Markräume)",
+   "bezeichnung": "Bicontact N (Konus 8/10)",
    "auswahl_dach": false,
    "groesse": null,
    "ref": null,
@@ -334,15 +340,37 @@
    "attribute": {
     "fixation": "zementfrei und zementiert (REF-Listen in bc1)",
     "konus": "8/10",
-    "hinweis": "anderer Konus als S/H/SD – Köpfe 12/14 nicht verwenden"
+    "hinweis": "N-8/10-Ausführung – Köpfe 12/14 nicht verwenden; N-12/14 ist eine getrennte Ausführung (aesculap.bicontact.n_1214)"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-/Packungsangaben in den Quellen dieses Laufs nicht geprüft."
    },
    "quelle": "bc1",
    "sicherheit": "belegt"
+  },
+  {
+   "id": "aesculap.bicontact.n_1214",
+   "typ": "schaft",
+   "bezeichnung": "Bicontact N (Konus 12/14)",
+   "auswahl_dach": false,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "konus": "12/14",
+    "hinweis": "getrennte N-Ausführung laut OpenAI-Prüfung von bc1; REF in diesem Lauf nicht übernommen – nicht mit N-8/10 verwechseln"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-/Packungsangaben in den Quellen dieses Laufs nicht geprüft."
+   },
+   "quelle": "bc1",
+   "sicherheit": "belegt (Original, 1 Prüfer)"
   },
   {
    "id": "aesculap.bicontact.revision",
@@ -358,9 +386,10 @@
     "hinweis": "Längen/Verriegelung laut bc1 Revisionskapitel – Details nicht voll übernommen"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-/Packungsangaben in den Quellen dieses Laufs nicht geprüft."
    },
    "quelle": "bc1",
    "sicherheit": "offen"
@@ -380,9 +409,10 @@
     "freigabe": "offen – Register ≠ Herstellerfreigabe"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-/Packungsangaben in den Quellen dieses Laufs nicht geprüft."
    },
    "quelle": "es",
    "sicherheit": "offen"
@@ -401,9 +431,10 @@
     "freigabe": "offen für Kombination mit Bicontact-Schaft"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-/Packungsangaben in den Quellen dieses Laufs nicht geprüft."
    },
    "quelle": "pf",
    "sicherheit": "offen"
@@ -422,9 +453,10 @@
     "freigabe": "offen – keine IFU-Freigabetabelle gelesen"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-/Packungsangaben in den Quellen dieses Laufs nicht geprüft."
    },
    "quelle": "es",
    "sicherheit": "offen"
@@ -440,15 +472,17 @@
    "attribute": {
     "material": "Keramik BIOLOX delta",
     "konus": "12/14",
-    "nicht_fuer": "Bicontact N (8/10)"
+    "nicht_fuer": "Bicontact N (8/10)",
+    "stand_hinweis": "Kopfkatalog der historischen Ausgabe 2013 – keine Aussage zur aktuellen Lieferbarkeit"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-/Packungsangaben in den Quellen dieses Laufs nicht geprüft."
    },
    "quelle": "bc1",
-   "sicherheit": "belegt",
+   "sicherheit": "belegt (Original, 2 Prüfer)",
    "groessen": [
     {
      "durchmesser_mm": "28",
@@ -482,15 +516,17 @@
    "gtin": null,
    "attribute": {
     "material": "CoCrMo ISODUR F",
-    "konus": "12/14"
+    "konus": "12/14",
+    "stand_hinweis": "Kopfkatalog der historischen Ausgabe 2013 – keine Aussage zur aktuellen Lieferbarkeit"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-/Packungsangaben in den Quellen dieses Laufs nicht geprüft."
    },
    "quelle": "bc1",
-   "sicherheit": "belegt",
+   "sicherheit": "belegt (Original, 2 Prüfer)",
    "groessen": [
     {
      "durchmesser_mm": "28",
@@ -552,7 +588,7 @@
    "von": "aesculap.bicontact.n",
    "zu": "aesculap.kopf.biolox_delta.bicontact_1214",
    "status": "nein",
-   "bedingung": "N = Konus 8/10; eigene Kopfserie",
+   "bedingung": "N-8/10 = Konus 8/10; eigene Kopfserie (gilt nicht für die getrennte N-12/14-Ausführung)",
    "quelle": "bc1",
    "seite": "35, 39"
   },
@@ -571,13 +607,21 @@
    "bedingung": "EPRD beobachtet; All-POLY-IFU nicht gelesen",
    "quelle": "es",
    "seite": "Kombi-Tabellen"
+  },
+  {
+   "von": "aesculap.bicontact.n_1214",
+   "zu": "aesculap.kopf.biolox_delta.bicontact_1214",
+   "status": "offen",
+   "bedingung": "Konus 12/14; Kopf-Paarung für N-12/14 in diesem Lauf nicht geprüft",
+   "quelle": "bc1",
+   "seite": "35, 38"
   }
  ],
  "regeln": [
   {
    "wenn": "schaft",
-   "pruefe": "S/H/SD ≠ N",
-   "text": "Bicontact N hat Konus 8/10 – nicht mit Köpfen 12/14 kombinieren. S/H/SD nutzen 12/14.",
+   "pruefe": "N-8/10 ≠ N-12/14",
+   "text": "Bicontact N gibt es als N-8/10 und N-12/14 – getrennt halten; N-8/10 nicht mit Köpfen 12/14 kombinieren. S/H/SD nutzen 12/14.",
    "quelle": "bc1 S. 30–39"
   },
   {
@@ -591,6 +635,12 @@
    "pruefe": "Excia T ≠ Bicontact",
    "text": "Excia T und Bicontact sind getrennte Schaftlinien – REF und Instrumente nicht mischen.",
    "quelle": "bc-web / Excia-Datei"
+  },
+  {
+   "wenn": "quelle",
+   "pruefe": "historisch",
+   "text": "Bicontact-Werte stammen aus der historischen Herstellerbroschüre O10702 (2013) auf einem Fremdhost – keine Aussage zur aktuellen Lieferbarkeit; aktuelle DE-IFU maßgeblich.",
+   "quelle": "bc1"
   }
  ],
  "rueckrufe": [],
@@ -600,9 +650,11 @@
   "All POLY: Produktname/REF/IFU und Freigabe mit Bicontact zementiert",
   "Plasmacup (älter) vs. Plasmafit – Abgrenzung für Bestand",
   "Bicontact Revision: vollständige Längen-/Verriegelungs-REF",
-  "BfArM-Meldungen Bicontact (10 Jahre)"
+  "BfArM-Meldungen Bicontact (10 Jahre)",
+  "Bicontact N-12/14: REF und Kopf-Paarung",
+  "SD 9/10: Zahlenwert der Gewichtsbeschränkung (IFU)"
  ],
- "verified_hinweis": "Neuanlage P1 07.10.2026: Werte aus O10702 0113/1/1 und B.Braun-Produktseite. verified: false. Plasmafit/All POLY nur als Kontext/Ranking, Freigabe offen. Keine klinische Freigabe.",
+ "verified_hinweis": "Neuanlage P1 07.10.2026: Werte aus O10702 0113/1/1 und B.Braun-Produktseite. verified: false. Plasmafit/All POLY nur als Kontext/Ranking, Freigabe offen. Keine klinische Freigabe. Lauf 001-implantate-luecken (07.10.2026): von OpenAI gegengeprüft (O10702, historisch); Korrekturen von Julian freigegeben.",
  "region": "hüfte",
  "verified": false,
  "stand_extrakt": "2026-10-07",
@@ -618,6 +670,12 @@
    "datum": "2026-10-07",
    "lauf": "p1-fehlende-systeme",
    "text": "Neuanlage Bicontact S/H/SD/N + Köpfe 12/14 aus O10702; Plasmafit/All POLY als offene Kontext-Komponenten (EPRD)."
+  },
+  {
+   "version": "1.1",
+   "datum": "2026-10-07",
+   "lauf": "001-implantate-luecken",
+   "text": "OpenAI-Prüfung 8.1 eingearbeitet: bc1 als historisches Herstellerdokument (2013) auf Fremdhost gekennzeichnet; S/H zementfrei und S10–18/H12–18 zementiert sowie Köpfe bestätigt (2 Prüfer), kein H10 zementiert; N-8/10 und N-12/14 getrennt; SD 9/10 Gewichtsgrenze ohne bestätigten Zahlenwert."
   }
  ]
 }

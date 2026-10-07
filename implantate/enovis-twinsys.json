@@ -1,7 +1,7 @@
 {
  "hersteller": "Enovis (Mathys)",
  "system": "twinSys – zementfrei, zementiert, Duokopf; RM Classic, seleXys PC, ccB",
- "version": "1.1",
+ "version": "1.2",
  "quellen": [
   {
    "id": "twinsys",
@@ -41,12 +41,13 @@
   },
   {
    "id": "selexys",
-   "dokument": "seleXys PC – Modulares zementfreies Pressfit-Pfannensystem (OP-Technik)",
-   "stand": "Art. Nr. 316.010.123; 04-1019-01; V04, 2019-10",
-   "seiten": "S. 11–12 Zuordnung; S. 18 vitamys-Einsatz; S. 19 seleXys PE Einsatz standard/überhöht",
-   "url": "https://www.mathysmedical.com/Storages/User/Dokumente/Operationstechnik/Huefte/OP-Technik_seleXys_PC_DE_V04.pdf",
-   "markt": "DE",
-   "gelesen_von": "Perplexity-Fundstelle 07.10.2026; Astra: Altlink leitet um – Original noch nicht von Grok/Astra gelesen"
+   "dokument": "Mathys OPERATIONSTECHNIK seleXys PC (DE; Dateiname OP-Technik_seleXys_PC_DE_V04.pdf) – archiviert",
+   "stand": "Art. Nr. 316.010.123 · 04-1019-01 · 2019-10 (PDF erstellt 2019-10-07); Internet-Archive-Kopie vom 2021-11-02",
+   "seiten": "gedr.=PDF 5 Hinweise/Kontraindikationen; 7 Fräsen/Pressfit; 11 Buchstabencode; 13 Keramik-Einsatz; 16 Schalen/Schrauben; 17 ceramys-Einsatz; 18 vitamys-Einsätze; 19 PE-Einsätze",
+   "url": "https://web.archive.org/web/20211102143048id_/https://www.mathysmedical.com/Storages/User/Dokumente/Operationstechnik/Huefte/OP-Technik_seleXys_PC_DE_V04.pdf",
+   "markt": "nicht angegeben (DE-Sprachfassung, Mathys AG Bettlach); seleXys nicht im aktuellen Mathys-e-IFU",
+   "gelesen_von": "Claude-Helfer 07.10.2026 (Original); Fundstelle zuvor Perplexity",
+   "url_original": "https://www.mathysmedical.com/Storages/User/Dokumente/Operationstechnik/Huefte/OP-Technik_seleXys_PC_DE_V04.pdf (heute 301 → enovis-surgical.com)"
   },
   {
    "id": "enovis-bipolar",
@@ -64,7 +65,61 @@
    "seiten": "–",
    "url": "https://www.mathysmedical.com/Storages/User/Dokumente/Operationstechnik/Huefte/Kompatibilitaets-Chart/Kompatibilit%C3%A4ts-Chart_OPT_Hipheads_Mathys_EN_V01.pdf",
    "markt": "Altlink leitet laut Astra um",
-   "gelesen_von": "Fundstelle"
+   "gelesen_von": "Fundstelle – nicht gefunden; ersetzt durch mx-heads-ifu (Tab. 3/4, 2024-06)"
+  },
+  {
+   "id": "mx-twinsys-ot",
+   "dokument": "Mathys OPERATIONSTECHNIK twinSys (DE)",
+   "stand": "Art. Nr. 316.010.095 · 06-0324-01 · 2024-03; e-IFU valid_from 18.03.2024, Version 1 (Versions-ID 906353aa-be1d-4946-9c99-06185cd60579)",
+   "seiten": "gedr.=PDF 5–6 Indikationen; 25 Technische Daten; 27 Implantateliste; 28–32 Köpfe/Bipolar/Hemi; Kennung 44",
+   "url": "https://ifu.mathysmedical.com/products/be972725-577f-4bc9-b4fd-f2fa3a454d89",
+   "markt": "Mathys-e-IFU (inkl. DE/AT/CH)",
+   "gelesen_von": "Claude-Helfer 07.10.2026 (Original)"
+  },
+  {
+   "id": "mx-twinsys-ifu-unz",
+   "dokument": "Mathys Gebrauchsanweisung twinSys unzementiert (DE)",
+   "stand": "Art. Nr. 78931 · 01-0324-DV · 2024-03 (Versions-ID cf05b19b-80b0-44d6-b416-87632d51b4b5)",
+   "seiten": "S. 4 Abb. 1; Abschnitt 8",
+   "url": "https://ifu.mathysmedical.com/products/be972725-577f-4bc9-b4fd-f2fa3a454d89",
+   "markt": "Mathys-e-IFU (inkl. DE/AT/CH)",
+   "gelesen_von": "Claude-Helfer 07.10.2026 (Original)"
+  },
+  {
+   "id": "mx-twinsys-ifu-zem",
+   "dokument": "Mathys Gebrauchsanweisung twinSys zementiert (DE)",
+   "stand": "Art. Nr. 78932 · 01-0324-DV · 2024-03 (Versions-ID 9f26e523-349c-46e4-9bff-70fdd24549c5)",
+   "seiten": "S. 3 Abb. 1; Abschnitt 7",
+   "url": "https://ifu.mathysmedical.com/products/be972725-577f-4bc9-b4fd-f2fa3a454d89",
+   "markt": "Mathys-e-IFU (inkl. DE/AT/CH)",
+   "gelesen_von": "Claude-Helfer 07.10.2026 (Original)"
+  },
+  {
+   "id": "mx-heads-ifu",
+   "dokument": "Mathys E-LEAFLET Gebrauchsanweisung Hüftköpfe (DE) – Kombinationstabellen 3 und 4",
+   "stand": "Art. Nr. 79490 · 01-0624-DV · 2024-06; e-IFU valid_from 25.06.2024 (Versions-ID 939a531f-7148-4db1-b652-94b0ad599c1f)",
+   "seiten": "S. 1 Symbole; Kap. 4.3 Kontraindikationen; Abschnitt 8 S. 4–6; Tab. 3 S. 5; Tab. 4 S. 6",
+   "url": "https://ifu.mathysmedical.com/products/cce16579-f64e-4ea0-93a0-1fc8044b1822",
+   "markt": "Mathys-e-IFU (EU-Länderliste inkl. DE/AT/CH)",
+   "gelesen_von": "Claude-Helfer 07.10.2026 (Original)"
+  },
+  {
+   "id": "mx-bh-ot",
+   "dokument": "Mathys OPERATIONSTECHNIK Bipolar- und Hemiköpfe (DE)",
+   "stand": "Art. Nr. 316.010.147 · 02-0624-01 · 2024-06; e-IFU valid_from 11.06.2024 (Versions-ID b7c49293-6abc-4f3d-9996-0e4a46702a12)",
+   "seiten": "gedr.=PDF 5 Indikation; 7–8 Hinweise; 11 Bipolarkopf Stahl; 12–13 Innenköpfe; 14 Hemikopf; 15–16 Instrumente; Kennung 20",
+   "url": "https://ifu.mathysmedical.com/products/cce16579-f64e-4ea0-93a0-1fc8044b1822",
+   "markt": "Mathys-e-IFU (inkl. DE/AT/CH)",
+   "gelesen_von": "Claude-Helfer 07.10.2026 (Original)"
+  },
+  {
+   "id": "mx-bh-ifu",
+   "dokument": "Mathys Gebrauchsanweisung Bipolarköpfe und Hemiköpfe (DE)",
+   "stand": "Art. Nr. 79437 · 01-0624-DV · 2024-06 (Erste Fassung 2024-06); e-IFU valid_from 06.06.2024 (Versions-ID 2c832159-c028-4eb7-9249-3687e7cbee3c)",
+   "seiten": "Tab. 1–2; Tab. 4 Hemikopf × Schaft, Tab. 5/6 Bipolarkopf × Innenkopf (S. 5); Kap. 12 Patientenetiketten",
+   "url": "https://ifu.mathysmedical.com/products/cce16579-f64e-4ea0-93a0-1fc8044b1822",
+   "markt": "Mathys-e-IFU (inkl. DE/AT/CH)",
+   "gelesen_von": "Claude-Helfer 07.10.2026 (Original)"
   }
  ],
  "komponenten": [
@@ -78,111 +133,378 @@
    "gtin": null,
    "attribute": {
     "fixation": "zementfrei",
+    "material": "Ti6Al4V, Ca5 (OH) (PO 4)3",
+    "konus": "12 / 14 mm",
+    "ccd": "134°",
     "varianten": {
      "Standard": "7–18",
      "Lateral": "7–18",
      "XS": "7–12",
-     "Long": "12–15"
+     "Lang": "12–15"
     },
-    "hinweis": "nur aufgeführte Einzel-REF; XS/Long sind dokumentierte Varianten, kein Bestandsnachweis"
+    "seite": "Implantateliste gedr./PDF 27; Technische Daten gedr./PDF 25 (gerendert geprüft)",
+    "masse": "Abmessungen in mm; Glossar „O Offset · W Breite · L Schaftlänge · R Resektionslinie · N Halslänge“; Skizze „Zentrum Kopfgrösse M“",
+    "lang_groesse_11": "Zelle in der Implantateliste leer gedruckt – keine REF",
+    "indikation": "Standard/Lateral/XS: „Primäre oder sekundäre Coxarthrose · Femurkopf und -halsfrakturen · Nekrose des Hüftkopfs“; Lang zusätzlich „Revisionsoperation“ (gedr./PDF 5–6)"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Kein Packungs-/Etikettbild in den gelesenen Mathys-OP-Techniken/IFUs. Verpackung laut IFU Kap. 9: doppeltes Sterilbarrieresystem (Doppelbeutel/Doppelblister), äußere Schicht von unsterilem, innere von sterilem OP-Personal öffnen. Farbcodes nur für Instrumente belegt, nicht für Implantatverpackungen."
    },
-   "quelle": "twinsys",
-   "sicherheit": "belegt",
+   "quelle": "mx-twinsys-ot",
+   "sicherheit": "belegt (Original, 1 Prüfer)",
    "groessen": [
     {
      "variante": "Standard",
      "groesse": "7",
-     "ref": "52.34.1157"
+     "ref": "52.34.1157",
+     "laenge_mm": "125",
+     "breite_mm": "9,6",
+     "offset_mm": "39,3",
+     "halslaenge_mm": "39,4",
+     "ccd": "134°"
     },
     {
      "variante": "Standard",
      "groesse": "8",
-     "ref": "52.34.1158"
+     "ref": "52.34.1158",
+     "laenge_mm": "130",
+     "breite_mm": "10,6",
+     "offset_mm": "39,8",
+     "halslaenge_mm": "39,4",
+     "ccd": "134°"
     },
     {
      "variante": "Standard",
      "groesse": "9",
-     "ref": "56.11.1000"
+     "ref": "56.11.1000",
+     "laenge_mm": "135",
+     "breite_mm": "11,6",
+     "offset_mm": "40,3",
+     "halslaenge_mm": "39,4",
+     "ccd": "134°"
+    },
+    {
+     "variante": "Standard",
+     "groesse": "10",
+     "ref": "56.11.1001",
+     "laenge_mm": "140",
+     "breite_mm": "12,6",
+     "offset_mm": "40,8",
+     "halslaenge_mm": "39,4",
+     "ccd": "134°"
+    },
+    {
+     "variante": "Standard",
+     "groesse": "11",
+     "ref": "56.11.1002",
+     "laenge_mm": "145",
+     "breite_mm": "13,6",
+     "offset_mm": "41,3",
+     "halslaenge_mm": "39,4",
+     "ccd": "134°"
+    },
+    {
+     "variante": "Standard",
+     "groesse": "12",
+     "ref": "56.11.1003",
+     "laenge_mm": "150",
+     "breite_mm": "14,6",
+     "offset_mm": "41,8",
+     "halslaenge_mm": "39,4",
+     "ccd": "134°"
+    },
+    {
+     "variante": "Standard",
+     "groesse": "13",
+     "ref": "56.11.1004",
+     "laenge_mm": "155",
+     "breite_mm": "15,6",
+     "offset_mm": "42,3",
+     "halslaenge_mm": "39,4",
+     "ccd": "134°"
+    },
+    {
+     "variante": "Standard",
+     "groesse": "14",
+     "ref": "56.11.1005",
+     "laenge_mm": "160",
+     "breite_mm": "16,6",
+     "offset_mm": "42,8",
+     "halslaenge_mm": "39,4",
+     "ccd": "134°"
+    },
+    {
+     "variante": "Standard",
+     "groesse": "15",
+     "ref": "56.11.1006",
+     "laenge_mm": "165",
+     "breite_mm": "17,6",
+     "offset_mm": "43,3",
+     "halslaenge_mm": "39,4",
+     "ccd": "134°"
+    },
+    {
+     "variante": "Standard",
+     "groesse": "16",
+     "ref": "56.11.1007",
+     "laenge_mm": "170",
+     "breite_mm": "18,6",
+     "offset_mm": "43,8",
+     "halslaenge_mm": "39,4",
+     "ccd": "134°"
+    },
+    {
+     "variante": "Standard",
+     "groesse": "17",
+     "ref": "56.11.1008",
+     "laenge_mm": "175",
+     "breite_mm": "19,6",
+     "offset_mm": "44,2",
+     "halslaenge_mm": "39,4",
+     "ccd": "134°"
     },
     {
      "variante": "Standard",
      "groesse": "18",
-     "ref": "56.11.1009"
+     "ref": "56.11.1009",
+     "laenge_mm": "180",
+     "breite_mm": "20,6",
+     "offset_mm": "44,7",
+     "halslaenge_mm": "39,4",
+     "ccd": "134°"
     },
     {
      "variante": "Lateral",
      "groesse": "7",
-     "ref": "52.34.1159"
+     "ref": "52.34.1159",
+     "laenge_mm": "125",
+     "breite_mm": "9,6",
+     "offset_mm": "45,1",
+     "halslaenge_mm": "43,6",
+     "ccd": "134°"
     },
     {
      "variante": "Lateral",
      "groesse": "8",
-     "ref": "52.34.1160"
+     "ref": "52.34.1160",
+     "laenge_mm": "130",
+     "breite_mm": "10,6",
+     "offset_mm": "45,6",
+     "halslaenge_mm": "43,6",
+     "ccd": "134°"
     },
     {
      "variante": "Lateral",
      "groesse": "9",
-     "ref": "56.11.1010"
+     "ref": "56.11.1010",
+     "laenge_mm": "135",
+     "breite_mm": "11,6",
+     "offset_mm": "46,1",
+     "halslaenge_mm": "43,6",
+     "ccd": "134°"
+    },
+    {
+     "variante": "Lateral",
+     "groesse": "10",
+     "ref": "56.11.1011",
+     "laenge_mm": "140",
+     "breite_mm": "12,6",
+     "offset_mm": "46,6",
+     "halslaenge_mm": "43,6",
+     "ccd": "134°"
+    },
+    {
+     "variante": "Lateral",
+     "groesse": "11",
+     "ref": "56.11.1012",
+     "laenge_mm": "145",
+     "breite_mm": "13,6",
+     "offset_mm": "47,1",
+     "halslaenge_mm": "43,6",
+     "ccd": "134°"
+    },
+    {
+     "variante": "Lateral",
+     "groesse": "12",
+     "ref": "56.11.1013",
+     "laenge_mm": "150",
+     "breite_mm": "14,6",
+     "offset_mm": "47,6",
+     "halslaenge_mm": "43,6",
+     "ccd": "134°"
+    },
+    {
+     "variante": "Lateral",
+     "groesse": "13",
+     "ref": "56.11.1014",
+     "laenge_mm": "155",
+     "breite_mm": "15,6",
+     "offset_mm": "48,1",
+     "halslaenge_mm": "43,6",
+     "ccd": "134°"
+    },
+    {
+     "variante": "Lateral",
+     "groesse": "14",
+     "ref": "56.11.1015",
+     "laenge_mm": "160",
+     "breite_mm": "16,6",
+     "offset_mm": "48,6",
+     "halslaenge_mm": "43,6",
+     "ccd": "134°"
+    },
+    {
+     "variante": "Lateral",
+     "groesse": "15",
+     "ref": "56.11.1016",
+     "laenge_mm": "165",
+     "breite_mm": "17,6",
+     "offset_mm": "49,2",
+     "halslaenge_mm": "43,6",
+     "ccd": "134°"
+    },
+    {
+     "variante": "Lateral",
+     "groesse": "16",
+     "ref": "56.11.1017",
+     "laenge_mm": "170",
+     "breite_mm": "18,6",
+     "offset_mm": "49,6",
+     "halslaenge_mm": "43,6",
+     "ccd": "134°"
+    },
+    {
+     "variante": "Lateral",
+     "groesse": "17",
+     "ref": "56.11.1018",
+     "laenge_mm": "175",
+     "breite_mm": "19,6",
+     "offset_mm": "50,0",
+     "halslaenge_mm": "43,6",
+     "ccd": "134°"
     },
     {
      "variante": "Lateral",
      "groesse": "18",
-     "ref": "56.11.1019"
+     "ref": "56.11.1019",
+     "laenge_mm": "180",
+     "breite_mm": "20,6",
+     "offset_mm": "50,5",
+     "halslaenge_mm": "43,6",
+     "ccd": "134°"
     },
     {
      "variante": "XS",
      "groesse": "7",
-     "ref": "56.11.1068"
+     "ref": "56.11.1068",
+     "laenge_mm": "125",
+     "breite_mm": "9,6",
+     "offset_mm": "35,7",
+     "halslaenge_mm": "34,4",
+     "ccd": "134°",
+     "hinweis": "O/N in der Tabelle über die Spalten Standard und Lateral gedruckt"
     },
     {
      "variante": "XS",
      "groesse": "8",
-     "ref": "56.11.1069"
+     "ref": "56.11.1069",
+     "laenge_mm": "130",
+     "breite_mm": "10,6",
+     "offset_mm": "36,2",
+     "halslaenge_mm": "34,4",
+     "ccd": "134°",
+     "hinweis": "O/N in der Tabelle über die Spalten Standard und Lateral gedruckt"
     },
     {
      "variante": "XS",
      "groesse": "9",
-     "ref": "56.11.1070"
+     "ref": "56.11.1070",
+     "laenge_mm": "135",
+     "breite_mm": "11,6",
+     "offset_mm": "36,7",
+     "halslaenge_mm": "34,4",
+     "ccd": "134°",
+     "hinweis": "O/N in der Tabelle über die Spalten Standard und Lateral gedruckt"
     },
     {
      "variante": "XS",
      "groesse": "10",
-     "ref": "56.11.1071"
+     "ref": "56.11.1071",
+     "laenge_mm": "140",
+     "breite_mm": "12,6",
+     "offset_mm": "37,2",
+     "halslaenge_mm": "34,4",
+     "ccd": "134°",
+     "hinweis": "O/N in der Tabelle über die Spalten Standard und Lateral gedruckt"
     },
     {
      "variante": "XS",
      "groesse": "11",
-     "ref": "52.34.1161"
+     "ref": "52.34.1161",
+     "laenge_mm": "145",
+     "breite_mm": "13,6",
+     "offset_mm": "37,7",
+     "halslaenge_mm": "34,4",
+     "ccd": "134°",
+     "hinweis": "O/N in der Tabelle über die Spalten Standard und Lateral gedruckt"
     },
     {
      "variante": "XS",
      "groesse": "12",
-     "ref": "52.34.1162"
+     "ref": "52.34.1162",
+     "laenge_mm": "150",
+     "breite_mm": "14,6",
+     "offset_mm": "38,2",
+     "halslaenge_mm": "34,4",
+     "ccd": "134°",
+     "hinweis": "O/N in der Tabelle über die Spalten Standard und Lateral gedruckt"
     },
     {
-     "variante": "Long",
+     "variante": "Lang",
      "groesse": "12",
-     "ref": "56.11.3003"
+     "ref": "56.11.3003",
+     "laenge_mm": "180",
+     "breite_mm": "14,6",
+     "offset_mm": "47,6",
+     "halslaenge_mm": "46,7",
+     "ccd": "134°",
+     "hinweis": "O/N über beide Spalten gedruckt; laut e-IFU lateral-Variante („twinSys HA Long Stem lateral“)"
     },
     {
-     "variante": "Long",
+     "variante": "Lang",
      "groesse": "13",
-     "ref": "56.11.3004"
+     "ref": "56.11.3004",
+     "laenge_mm": "190",
+     "breite_mm": "15,6",
+     "offset_mm": "48,1",
+     "halslaenge_mm": "46,7",
+     "ccd": "134°",
+     "hinweis": "O/N über beide Spalten gedruckt; laut e-IFU lateral-Variante („twinSys HA Long Stem lateral“)"
     },
     {
-     "variante": "Long",
+     "variante": "Lang",
      "groesse": "14",
-     "ref": "56.11.3005"
+     "ref": "56.11.3005",
+     "laenge_mm": "200",
+     "breite_mm": "16,6",
+     "offset_mm": "48,6",
+     "halslaenge_mm": "46,7",
+     "ccd": "134°",
+     "hinweis": "O/N über beide Spalten gedruckt; laut e-IFU lateral-Variante („twinSys HA Long Stem lateral“)"
     },
     {
-     "variante": "Long",
+     "variante": "Lang",
      "groesse": "15",
-     "ref": "56.11.3006"
+     "ref": "56.11.3006",
+     "laenge_mm": "210",
+     "breite_mm": "17,6",
+     "offset_mm": "49,2",
+     "halslaenge_mm": "46,7",
+     "ccd": "134°",
+     "hinweis": "O/N über beide Spalten gedruckt; laut e-IFU lateral-Variante („twinSys HA Long Stem lateral“)"
     }
    ]
   },
@@ -196,38 +518,187 @@
    "gtin": null,
    "attribute": {
     "fixation": "zementiert",
+    "material": "FeCrNiMnMoNbN",
+    "konus": "12 / 14 mm",
+    "ccd": "134°",
     "varianten": {
      "Standard": "9–16",
      "Lateral": "9–16"
-    }
+    },
+    "seite": "Implantateliste gedr./PDF 27; Technische Daten gedr./PDF 25",
+    "NG": "„NG = Das Implantat besitzt kein Gewinde und kann somit nicht mit dem Schaftsetzinstrument mit Schraubhalterung (56.02.6204) eingesetzt werden. Stattdessen kann ein geeignetes Instrument wie der twinSys Einschläger mit Offset (51.34.0446) verwendet werden.“",
+    "offset_hinweis": "O/N-Spalten der Tabelle ohne Trennung unzementiert/zementiert",
+    "zubehoer": "IFU Abb. 1: „Knochenzement auf Acrylbasis“, „Markraumsperre PE“; Instrumente für die Zementsperre separat",
+    "indikation": "„Primäre oder sekundäre Coxarthrose · Femurkopf und -halsfrakturen · Nekrose des Hüftkopfs“ (gedr./PDF 5–6)"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Kein Packungs-/Etikettbild in den gelesenen Mathys-OP-Techniken/IFUs. Verpackung laut IFU Kap. 9: doppeltes Sterilbarrieresystem (Doppelbeutel/Doppelblister), äußere Schicht von unsterilem, innere von sterilem OP-Personal öffnen. Farbcodes nur für Instrumente belegt, nicht für Implantatverpackungen."
    },
-   "quelle": "twinsys",
-   "sicherheit": "belegt",
+   "quelle": "mx-twinsys-ot",
+   "sicherheit": "belegt (Original, 1 Prüfer)",
    "groessen": [
     {
      "variante": "Standard",
      "groesse": "9",
-     "ref": "56.11.2000NG"
+     "ref": "56.11.2000NG",
+     "laenge_mm": "134",
+     "breite_mm": "9,8",
+     "offset_mm": "40,3",
+     "halslaenge_mm": "39,4",
+     "ccd": "134°"
+    },
+    {
+     "variante": "Standard",
+     "groesse": "10",
+     "ref": "56.11.2001NG",
+     "laenge_mm": "139",
+     "breite_mm": "10,8",
+     "offset_mm": "40,8",
+     "halslaenge_mm": "39,4",
+     "ccd": "134°"
+    },
+    {
+     "variante": "Standard",
+     "groesse": "11",
+     "ref": "56.11.2002NG",
+     "laenge_mm": "144",
+     "breite_mm": "11,8",
+     "offset_mm": "41,3",
+     "halslaenge_mm": "39,4",
+     "ccd": "134°"
+    },
+    {
+     "variante": "Standard",
+     "groesse": "12",
+     "ref": "56.11.2003NG",
+     "laenge_mm": "149",
+     "breite_mm": "12,8",
+     "offset_mm": "41,8",
+     "halslaenge_mm": "39,4",
+     "ccd": "134°"
+    },
+    {
+     "variante": "Standard",
+     "groesse": "13",
+     "ref": "56.11.2004NG",
+     "laenge_mm": "154",
+     "breite_mm": "13,8",
+     "offset_mm": "42,3",
+     "halslaenge_mm": "39,4",
+     "ccd": "134°"
+    },
+    {
+     "variante": "Standard",
+     "groesse": "14",
+     "ref": "56.11.2005NG",
+     "laenge_mm": "159",
+     "breite_mm": "14,8",
+     "offset_mm": "42,8",
+     "halslaenge_mm": "39,4",
+     "ccd": "134°"
+    },
+    {
+     "variante": "Standard",
+     "groesse": "15",
+     "ref": "56.11.2006NG",
+     "laenge_mm": "164",
+     "breite_mm": "15,8",
+     "offset_mm": "43,3",
+     "halslaenge_mm": "39,4",
+     "ccd": "134°"
     },
     {
      "variante": "Standard",
      "groesse": "16",
-     "ref": "56.11.2007NG"
+     "ref": "56.11.2007NG",
+     "laenge_mm": "169",
+     "breite_mm": "16,8",
+     "offset_mm": "43,8",
+     "halslaenge_mm": "39,4",
+     "ccd": "134°"
     },
     {
      "variante": "Lateral",
      "groesse": "9",
-     "ref": "56.11.2010NG"
+     "ref": "56.11.2010NG",
+     "laenge_mm": "134",
+     "breite_mm": "9,8",
+     "offset_mm": "46,1",
+     "halslaenge_mm": "43,6",
+     "ccd": "134°"
+    },
+    {
+     "variante": "Lateral",
+     "groesse": "10",
+     "ref": "56.11.2011NG",
+     "laenge_mm": "139",
+     "breite_mm": "10,8",
+     "offset_mm": "46,6",
+     "halslaenge_mm": "43,6",
+     "ccd": "134°"
+    },
+    {
+     "variante": "Lateral",
+     "groesse": "11",
+     "ref": "56.11.2012NG",
+     "laenge_mm": "144",
+     "breite_mm": "11,8",
+     "offset_mm": "47,1",
+     "halslaenge_mm": "43,6",
+     "ccd": "134°"
+    },
+    {
+     "variante": "Lateral",
+     "groesse": "12",
+     "ref": "56.11.2013NG",
+     "laenge_mm": "149",
+     "breite_mm": "12,8",
+     "offset_mm": "47,6",
+     "halslaenge_mm": "43,6",
+     "ccd": "134°"
+    },
+    {
+     "variante": "Lateral",
+     "groesse": "13",
+     "ref": "56.11.2014NG",
+     "laenge_mm": "154",
+     "breite_mm": "13,8",
+     "offset_mm": "48,1",
+     "halslaenge_mm": "43,6",
+     "ccd": "134°"
+    },
+    {
+     "variante": "Lateral",
+     "groesse": "14",
+     "ref": "56.11.2015NG",
+     "laenge_mm": "159",
+     "breite_mm": "14,8",
+     "offset_mm": "48,6",
+     "halslaenge_mm": "43,6",
+     "ccd": "134°"
+    },
+    {
+     "variante": "Lateral",
+     "groesse": "15",
+     "ref": "56.11.2016NG",
+     "laenge_mm": "164",
+     "breite_mm": "15,8",
+     "offset_mm": "49,2",
+     "halslaenge_mm": "43,6",
+     "ccd": "134°"
     },
     {
      "variante": "Lateral",
      "groesse": "16",
-     "ref": "56.11.2017NG"
+     "ref": "56.11.2017NG",
+     "laenge_mm": "169",
+     "breite_mm": "16,8",
+     "offset_mm": "49,6",
+     "halslaenge_mm": "43,6",
+     "ccd": "134°"
     }
    ]
   },
@@ -241,12 +712,14 @@
    "gtin": null,
    "attribute": {
     "fixation": "zementfrei",
-    "bauart": "Monoblock – kein modulares Inlay"
+    "bauart": "Monoblock – kein modulares Inlay",
+    "varianten_kopf_ifu": "Kopf-IFU Tab. 3 unterscheidet RM Classic Vollprofil, angeschrägt und Revisionspfanne (unterschiedliche Kopf-Freigaben)"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Kein Packungs-/Etikettbild in den gelesenen Mathys-OP-Techniken/IFUs. Verpackung laut IFU Kap. 9: doppeltes Sterilbarrieresystem (Doppelbeutel/Doppelblister), äußere Schicht von unsterilem, innere von sterilem OP-Personal öffnen. Farbcodes nur für Instrumente belegt, nicht für Implantatverpackungen."
    },
    "quelle": "rm-classic",
    "sicherheit": "belegt"
@@ -261,15 +734,94 @@
    "gtin": null,
    "attribute": {
     "fixation": "zementfrei",
-    "inlay": "seleXys PE Einsatz (standard/überhöht) oder vitamys-Einsatz (S. 18/19)"
+    "material": "Ti6AI7Nb; TiCP-beschichtet; Polkappe und Schraubenlochverschlüsse Ti6Al4V",
+    "seite": "gedr./PDF 16",
+    "groesse_hinweis": "„Die tatsächliche Implantatgrösse liegt 2 mm über der beschrifteten Grösse.“ Meist letzte Fräsung ungerade, Schale 1 mm kleiner beschriftet als letzter Fräser (1 mm Pressfit) (gedr./PDF 7)",
+    "inlay": "seleXys ceramys-, vitamys- (standard/überhöht) und PE-Einsätze (standard/überhöht); Buchstabencode muss übereinstimmen (gedr./PDF 11)",
+    "hinweis": "Lieferbarkeit offen (archiviertes Dokument / nicht im aktuellen Portal): OP-Technik 2019-10 nur im Internet Archive; seleXys im Mathys-e-IFU nicht vorhanden (keine REF 55.41/55.43/55.44/55.47.28xx im Index). Werte am Original gelesen (1 Prüfer)."
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Archivierte OP-Technik 2019-10: kein Packungs-/Etikettbild. Kennzeichnung (gedr./PDF 11): Schale mit Außengröße und Zweibuchstabencode (z. B. 50 / EE), Einsatz mit Kopfdurchmesser und Buchstabencode (z. B. 28 / EE)."
    },
    "quelle": "selexys",
-   "sicherheit": "Fundstelle"
+   "sicherheit": "Lieferbarkeit offen (archiviertes Dokument / nicht im aktuellen Portal)",
+   "groessen": [
+    {
+     "groesse": "42",
+     "einsatz_code": "AA",
+     "ref": "55.41.0042",
+     "schraubenloecher": "3"
+    },
+    {
+     "groesse": "44",
+     "einsatz_code": "BB",
+     "ref": "55.41.0044",
+     "schraubenloecher": "3"
+    },
+    {
+     "groesse": "46",
+     "einsatz_code": "CC",
+     "ref": "55.41.0046",
+     "schraubenloecher": "3"
+    },
+    {
+     "groesse": "48",
+     "einsatz_code": "DD",
+     "ref": "55.41.0048",
+     "schraubenloecher": "3"
+    },
+    {
+     "groesse": "50",
+     "einsatz_code": "EE",
+     "ref": "55.41.0050",
+     "schraubenloecher": "5"
+    },
+    {
+     "groesse": "52",
+     "einsatz_code": "FF",
+     "ref": "55.41.0052",
+     "schraubenloecher": "5"
+    },
+    {
+     "groesse": "54",
+     "einsatz_code": "GG",
+     "ref": "55.41.0054",
+     "schraubenloecher": "5"
+    },
+    {
+     "groesse": "56",
+     "einsatz_code": "HH",
+     "ref": "55.41.0056",
+     "schraubenloecher": "5"
+    },
+    {
+     "groesse": "58",
+     "einsatz_code": "II",
+     "ref": "55.41.0058",
+     "schraubenloecher": "5"
+    },
+    {
+     "groesse": "60",
+     "einsatz_code": "JJ",
+     "ref": "55.41.0060",
+     "schraubenloecher": "5"
+    },
+    {
+     "groesse": "62",
+     "einsatz_code": "KK",
+     "ref": "55.41.0062",
+     "schraubenloecher": "5"
+    },
+    {
+     "groesse": "64",
+     "einsatz_code": "KK",
+     "ref": "55.41.0064",
+     "schraubenloecher": "5"
+    }
+   ]
   },
   {
    "id": "enovis.ccb",
@@ -285,9 +837,10 @@
     "hinweis": "für 60–64 keine CCE-Ringe verfügbar"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Kein Packungs-/Etikettbild in den gelesenen Mathys-OP-Techniken/IFUs. Verpackung laut IFU Kap. 9: doppeltes Sterilbarrieresystem (Doppelbeutel/Doppelblister), äußere Schicht von unsterilem, innere von sterilem OP-Personal öffnen. Farbcodes nur für Instrumente belegt, nicht für Implantatverpackungen."
    },
    "quelle": "ccb",
    "sicherheit": "belegt"
@@ -301,20 +854,680 @@
    "ref": null,
    "gtin": null,
    "attribute": {
-    "material": "PE",
+    "material": "UHMWPE",
     "nur_fuer": "seleXys PC",
-    "varianten": "standard / überhöht",
-    "hinweis": "entspricht vermutlich „PE-Inlay Standard“; RM Classic hat kein Inlay"
+    "variante": "standard",
+    "seite": "gedr./PDF 19",
+    "kopf_ifu": "= „seleXys UHMWPE Inlay“ in Kopf-IFU Tab. 3 (Tab. 3 unterscheidet nicht standard/überhöht)",
+    "hinweis": "Lieferbarkeit offen (archiviertes Dokument / nicht im aktuellen Portal): nur archivierte OP-Technik 2019-10; nicht im aktuellen Mathys-e-IFU. Werte am Original gelesen (1 Prüfer).",
+    "aliase_hinweis": "Hausbezeichnung „PE-Inlay Standard“ (Auswahl Julian)"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Archivierte OP-Technik 2019-10: kein Packungs-/Etikettbild. Kennzeichnung (gedr./PDF 11): Schale mit Außengröße und Zweibuchstabencode (z. B. 50 / EE), Einsatz mit Kopfdurchmesser und Buchstabencode (z. B. 28 / EE)."
    },
    "quelle": "selexys",
-   "sicherheit": "Fundstelle",
+   "sicherheit": "Lieferbarkeit offen (archiviertes Dokument / nicht im aktuellen Portal)",
    "aliase": [
     "PE-Inlay Standard"
+   ],
+   "groessen": [
+    {
+     "schale_mm": "42",
+     "einsatz_code": "AA",
+     "kopf_mm": "28",
+     "ref": "55.43.2801"
+    },
+    {
+     "schale_mm": "44",
+     "einsatz_code": "BB",
+     "kopf_mm": "28",
+     "ref": "55.43.2802"
+    },
+    {
+     "schale_mm": "46",
+     "einsatz_code": "CC",
+     "kopf_mm": "28",
+     "ref": "55.43.2803"
+    },
+    {
+     "schale_mm": "48",
+     "einsatz_code": "DD",
+     "kopf_mm": "28",
+     "ref": "55.43.2804"
+    },
+    {
+     "schale_mm": "50",
+     "einsatz_code": "EE",
+     "kopf_mm": "28",
+     "ref": "55.43.2805"
+    },
+    {
+     "schale_mm": "52",
+     "einsatz_code": "FF",
+     "kopf_mm": "28",
+     "ref": "55.43.2806"
+    },
+    {
+     "schale_mm": "54",
+     "einsatz_code": "GG",
+     "kopf_mm": "28",
+     "ref": "55.43.2807"
+    },
+    {
+     "schale_mm": "56",
+     "einsatz_code": "HH",
+     "kopf_mm": "28",
+     "ref": "55.43.2808"
+    },
+    {
+     "schale_mm": "58",
+     "einsatz_code": "II",
+     "kopf_mm": "28",
+     "ref": "55.43.2809"
+    },
+    {
+     "schale_mm": "60",
+     "einsatz_code": "JJ",
+     "kopf_mm": "28",
+     "ref": "55.43.2810"
+    },
+    {
+     "schale_mm": "62 / 64",
+     "einsatz_code": "KK",
+     "kopf_mm": "28",
+     "ref": "55.43.2811"
+    },
+    {
+     "schale_mm": "50",
+     "einsatz_code": "EE",
+     "kopf_mm": "32",
+     "ref": "55.43.3205"
+    },
+    {
+     "schale_mm": "52",
+     "einsatz_code": "FF",
+     "kopf_mm": "32",
+     "ref": "55.43.3206"
+    },
+    {
+     "schale_mm": "54",
+     "einsatz_code": "GG",
+     "kopf_mm": "32",
+     "ref": "55.43.3207"
+    },
+    {
+     "schale_mm": "56",
+     "einsatz_code": "HH",
+     "kopf_mm": "32",
+     "ref": "55.43.3208"
+    },
+    {
+     "schale_mm": "58",
+     "einsatz_code": "II",
+     "kopf_mm": "32",
+     "ref": "55.43.3209"
+    },
+    {
+     "schale_mm": "60",
+     "einsatz_code": "JJ",
+     "kopf_mm": "32",
+     "ref": "55.43.3210"
+    },
+    {
+     "schale_mm": "62 / 64",
+     "einsatz_code": "KK",
+     "kopf_mm": "32",
+     "ref": "55.43.3211"
+    }
+   ]
+  },
+  {
+   "id": "enovis.selexys_pe_einsatz_ueberhoeht",
+   "typ": "inlay",
+   "bezeichnung": "seleXys PE Einsatz (überhöht)",
+   "auswahl_dach": false,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "material": "UHMWPE",
+    "nur_fuer": "seleXys PC",
+    "variante": "überhöht",
+    "seite": "gedr./PDF 19",
+    "kopf_ifu": "= „seleXys UHMWPE Inlay“ in Kopf-IFU Tab. 3",
+    "hinweis": "Lieferbarkeit offen (archiviertes Dokument / nicht im aktuellen Portal): nur archivierte OP-Technik 2019-10; nicht im aktuellen Mathys-e-IFU. Werte am Original gelesen (1 Prüfer)."
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Archivierte OP-Technik 2019-10: kein Packungs-/Etikettbild. Kennzeichnung (gedr./PDF 11): Schale mit Außengröße und Zweibuchstabencode (z. B. 50 / EE), Einsatz mit Kopfdurchmesser und Buchstabencode (z. B. 28 / EE)."
+   },
+   "quelle": "selexys",
+   "sicherheit": "Lieferbarkeit offen (archiviertes Dokument / nicht im aktuellen Portal)",
+   "groessen": [
+    {
+     "schale_mm": "42",
+     "einsatz_code": "AA",
+     "kopf_mm": "28",
+     "ref": "55.44.2801"
+    },
+    {
+     "schale_mm": "44",
+     "einsatz_code": "BB",
+     "kopf_mm": "28",
+     "ref": "55.44.2802"
+    },
+    {
+     "schale_mm": "46",
+     "einsatz_code": "CC",
+     "kopf_mm": "28",
+     "ref": "55.44.2803"
+    },
+    {
+     "schale_mm": "48",
+     "einsatz_code": "DD",
+     "kopf_mm": "28",
+     "ref": "55.44.2804"
+    },
+    {
+     "schale_mm": "50",
+     "einsatz_code": "EE",
+     "kopf_mm": "28",
+     "ref": "55.44.2805"
+    },
+    {
+     "schale_mm": "52",
+     "einsatz_code": "FF",
+     "kopf_mm": "28",
+     "ref": "55.44.2806"
+    },
+    {
+     "schale_mm": "54",
+     "einsatz_code": "GG",
+     "kopf_mm": "28",
+     "ref": "55.44.2807"
+    },
+    {
+     "schale_mm": "56",
+     "einsatz_code": "HH",
+     "kopf_mm": "28",
+     "ref": "55.44.2808"
+    },
+    {
+     "schale_mm": "58",
+     "einsatz_code": "II",
+     "kopf_mm": "28",
+     "ref": "55.44.2809"
+    },
+    {
+     "schale_mm": "60",
+     "einsatz_code": "JJ",
+     "kopf_mm": "28",
+     "ref": "55.44.2810"
+    },
+    {
+     "schale_mm": "62 / 64",
+     "einsatz_code": "KK",
+     "kopf_mm": "28",
+     "ref": "55.44.2811"
+    },
+    {
+     "schale_mm": "50",
+     "einsatz_code": "EE",
+     "kopf_mm": "32",
+     "ref": "55.44.3205"
+    },
+    {
+     "schale_mm": "52",
+     "einsatz_code": "FF",
+     "kopf_mm": "32",
+     "ref": "55.44.3206"
+    },
+    {
+     "schale_mm": "54",
+     "einsatz_code": "GG",
+     "kopf_mm": "32",
+     "ref": "55.44.3207"
+    },
+    {
+     "schale_mm": "56",
+     "einsatz_code": "HH",
+     "kopf_mm": "32",
+     "ref": "55.44.3208"
+    },
+    {
+     "schale_mm": "58",
+     "einsatz_code": "II",
+     "kopf_mm": "32",
+     "ref": "55.44.3209"
+    },
+    {
+     "schale_mm": "60",
+     "einsatz_code": "JJ",
+     "kopf_mm": "32",
+     "ref": "55.44.3210"
+    },
+    {
+     "schale_mm": "62 / 64",
+     "einsatz_code": "KK",
+     "kopf_mm": "32",
+     "ref": "55.44.3211"
+    }
+   ]
+  },
+  {
+   "id": "enovis.selexys_vitamys_einsatz",
+   "typ": "inlay",
+   "bezeichnung": "seleXys vitamys Einsatz (standard)",
+   "auswahl_dach": false,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "material": "vitamys (mit Vitamin E stabilisiertes, hochvernetztes UHMWPE)",
+    "nur_fuer": "seleXys PC",
+    "variante": "standard",
+    "seite": "gedr./PDF 18 (gerendert geprüft)",
+    "kopf_ifu": "nicht in Kopf-IFU Tab. 3 aufgeführt",
+    "hinweis": "Lieferbarkeit offen (archiviertes Dokument / nicht im aktuellen Portal): nur archivierte OP-Technik 2019-10; nicht im aktuellen Mathys-e-IFU. Werte am Original gelesen (1 Prüfer)."
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Archivierte OP-Technik 2019-10: kein Packungs-/Etikettbild. Kennzeichnung (gedr./PDF 11): Schale mit Außengröße und Zweibuchstabencode (z. B. 50 / EE), Einsatz mit Kopfdurchmesser und Buchstabencode (z. B. 28 / EE)."
+   },
+   "quelle": "selexys",
+   "sicherheit": "Lieferbarkeit offen (archiviertes Dokument / nicht im aktuellen Portal)",
+   "groessen": [
+    {
+     "schale_mm": "42",
+     "einsatz_code": "AA",
+     "kopf_mm": "28",
+     "ref": "52.34.0130"
+    },
+    {
+     "schale_mm": "44",
+     "einsatz_code": "BB",
+     "kopf_mm": "28",
+     "ref": "52.34.0131"
+    },
+    {
+     "schale_mm": "46",
+     "einsatz_code": "CC",
+     "kopf_mm": "28",
+     "ref": "52.34.0132"
+    },
+    {
+     "schale_mm": "48",
+     "einsatz_code": "DD",
+     "kopf_mm": "28",
+     "ref": "52.34.0133"
+    },
+    {
+     "schale_mm": "50",
+     "einsatz_code": "EE",
+     "kopf_mm": "28",
+     "ref": "52.34.0134"
+    },
+    {
+     "schale_mm": "52",
+     "einsatz_code": "FF",
+     "kopf_mm": "28",
+     "ref": "52.34.0135"
+    },
+    {
+     "schale_mm": "54",
+     "einsatz_code": "GG",
+     "kopf_mm": "28",
+     "ref": "52.34.0136"
+    },
+    {
+     "schale_mm": "56",
+     "einsatz_code": "HH",
+     "kopf_mm": "28",
+     "ref": "52.34.0137"
+    },
+    {
+     "schale_mm": "58",
+     "einsatz_code": "II",
+     "kopf_mm": "28",
+     "ref": "52.34.0138"
+    },
+    {
+     "schale_mm": "48",
+     "einsatz_code": "DD",
+     "kopf_mm": "32",
+     "ref": "52.34.0150"
+    },
+    {
+     "schale_mm": "50",
+     "einsatz_code": "EE",
+     "kopf_mm": "32",
+     "ref": "52.34.0151"
+    },
+    {
+     "schale_mm": "52",
+     "einsatz_code": "FF",
+     "kopf_mm": "32",
+     "ref": "52.34.0152"
+    },
+    {
+     "schale_mm": "52",
+     "einsatz_code": "FF",
+     "kopf_mm": "36",
+     "ref": "52.34.0165"
+    },
+    {
+     "schale_mm": "54",
+     "einsatz_code": "GG",
+     "kopf_mm": "36",
+     "ref": "52.34.0166"
+    },
+    {
+     "schale_mm": "56",
+     "einsatz_code": "HH",
+     "kopf_mm": "36",
+     "ref": "52.34.0167"
+    },
+    {
+     "schale_mm": "58",
+     "einsatz_code": "II",
+     "kopf_mm": "36",
+     "ref": "52.34.0168"
+    },
+    {
+     "schale_mm": "60",
+     "einsatz_code": "JJ",
+     "kopf_mm": "36",
+     "ref": "52.34.0169"
+    },
+    {
+     "schale_mm": "62 / 64",
+     "einsatz_code": "KK",
+     "kopf_mm": "36",
+     "ref": "52.34.0170"
+    }
+   ]
+  },
+  {
+   "id": "enovis.selexys_vitamys_einsatz_ueberhoeht",
+   "typ": "inlay",
+   "bezeichnung": "seleXys vitamys Einsatz (überhöht)",
+   "auswahl_dach": false,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "material": "vitamys (mit Vitamin E stabilisiertes, hochvernetztes UHMWPE)",
+    "nur_fuer": "seleXys PC",
+    "variante": "überhöht",
+    "seite": "gedr./PDF 18 (gerendert geprüft)",
+    "kopf_ifu": "nicht in Kopf-IFU Tab. 3 aufgeführt",
+    "hinweis": "Lieferbarkeit offen (archiviertes Dokument / nicht im aktuellen Portal): nur archivierte OP-Technik 2019-10; nicht im aktuellen Mathys-e-IFU. Werte am Original gelesen (1 Prüfer). Schale 62/64 (KK): keine REF gedruckt."
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Archivierte OP-Technik 2019-10: kein Packungs-/Etikettbild. Kennzeichnung (gedr./PDF 11): Schale mit Außengröße und Zweibuchstabencode (z. B. 50 / EE), Einsatz mit Kopfdurchmesser und Buchstabencode (z. B. 28 / EE)."
+   },
+   "quelle": "selexys",
+   "sicherheit": "Lieferbarkeit offen (archiviertes Dokument / nicht im aktuellen Portal)",
+   "groessen": [
+    {
+     "schale_mm": "42",
+     "einsatz_code": "AA",
+     "kopf_mm": "28",
+     "ref": "52.34.0240"
+    },
+    {
+     "schale_mm": "44",
+     "einsatz_code": "BB",
+     "kopf_mm": "28",
+     "ref": "52.34.0241"
+    },
+    {
+     "schale_mm": "46",
+     "einsatz_code": "CC",
+     "kopf_mm": "28",
+     "ref": "52.34.0242"
+    },
+    {
+     "schale_mm": "48",
+     "einsatz_code": "DD",
+     "kopf_mm": "28",
+     "ref": "52.34.0243"
+    },
+    {
+     "schale_mm": "50",
+     "einsatz_code": "EE",
+     "kopf_mm": "28",
+     "ref": "52.34.0244"
+    },
+    {
+     "schale_mm": "52",
+     "einsatz_code": "FF",
+     "kopf_mm": "28",
+     "ref": "52.34.0245"
+    },
+    {
+     "schale_mm": "54",
+     "einsatz_code": "GG",
+     "kopf_mm": "28",
+     "ref": "52.34.0246"
+    },
+    {
+     "schale_mm": "56",
+     "einsatz_code": "HH",
+     "kopf_mm": "28",
+     "ref": "52.34.0247"
+    },
+    {
+     "schale_mm": "58",
+     "einsatz_code": "II",
+     "kopf_mm": "28",
+     "ref": "52.34.0248"
+    },
+    {
+     "schale_mm": "48",
+     "einsatz_code": "DD",
+     "kopf_mm": "32",
+     "ref": "52.34.0260"
+    },
+    {
+     "schale_mm": "50",
+     "einsatz_code": "EE",
+     "kopf_mm": "32",
+     "ref": "52.34.0261"
+    },
+    {
+     "schale_mm": "52",
+     "einsatz_code": "FF",
+     "kopf_mm": "32",
+     "ref": "52.34.0262"
+    },
+    {
+     "schale_mm": "52",
+     "einsatz_code": "FF",
+     "kopf_mm": "36",
+     "ref": "52.34.0275"
+    },
+    {
+     "schale_mm": "54",
+     "einsatz_code": "GG",
+     "kopf_mm": "36",
+     "ref": "52.34.0276"
+    },
+    {
+     "schale_mm": "56",
+     "einsatz_code": "HH",
+     "kopf_mm": "36",
+     "ref": "52.34.0277"
+    },
+    {
+     "schale_mm": "58",
+     "einsatz_code": "II",
+     "kopf_mm": "36",
+     "ref": "52.34.0278"
+    },
+    {
+     "schale_mm": "60",
+     "einsatz_code": "JJ",
+     "kopf_mm": "36",
+     "ref": "52.34.0279"
+    }
+   ]
+  },
+  {
+   "id": "enovis.selexys_ceramys_einsatz",
+   "typ": "inlay",
+   "bezeichnung": "seleXys ceramys Einsatz",
+   "auswahl_dach": false,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "material": "ZrO2 – Al2O3",
+    "nur_fuer": "seleXys PC (nur neue Schalen; kein Keramik-Einsatz, wenn bereits ein anderer Einsatz eingeschlagen war, gedr./PDF 13)",
+    "seite": "gedr./PDF 17 (gerendert geprüft)",
+    "original_hinweis": "„* Darf nur mit Mathys Keramikköpfen kombiniert werden.“",
+    "position": "nur bei 40°–50° Neigung und 10°–20° Anteversion (gedr./PDF 13)",
+    "kopf_ifu": "nicht in Kopf-IFU Tab. 3 aufgeführt",
+    "hinweis": "Lieferbarkeit offen (archiviertes Dokument / nicht im aktuellen Portal): nur archivierte OP-Technik 2019-10; nicht im aktuellen Mathys-e-IFU. Werte am Original gelesen (1 Prüfer). Schale 42 (AA): keine REF gedruckt."
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Archivierte OP-Technik 2019-10: kein Packungs-/Etikettbild. Kennzeichnung (gedr./PDF 11): Schale mit Außengröße und Zweibuchstabencode (z. B. 50 / EE), Einsatz mit Kopfdurchmesser und Buchstabencode (z. B. 28 / EE)."
+   },
+   "quelle": "selexys",
+   "sicherheit": "Lieferbarkeit offen (archiviertes Dokument / nicht im aktuellen Portal)",
+   "groessen": [
+    {
+     "schale_mm": "44",
+     "einsatz_code": "BB",
+     "kopf_mm": "28",
+     "ref": "55.47.2802"
+    },
+    {
+     "schale_mm": "46",
+     "einsatz_code": "CC",
+     "kopf_mm": "28",
+     "ref": "55.47.2803"
+    },
+    {
+     "schale_mm": "48",
+     "einsatz_code": "DD",
+     "kopf_mm": "32",
+     "ref": "55.47.3204"
+    },
+    {
+     "schale_mm": "50",
+     "einsatz_code": "EE",
+     "kopf_mm": "32",
+     "ref": "55.47.3205"
+    },
+    {
+     "schale_mm": "52",
+     "einsatz_code": "FF",
+     "kopf_mm": "32",
+     "ref": "55.47.3206"
+    },
+    {
+     "schale_mm": "52",
+     "einsatz_code": "FF",
+     "kopf_mm": "36",
+     "ref": "55.47.3606"
+    },
+    {
+     "schale_mm": "54",
+     "einsatz_code": "GG",
+     "kopf_mm": "36",
+     "ref": "55.47.3607"
+    },
+    {
+     "schale_mm": "56",
+     "einsatz_code": "HH",
+     "kopf_mm": "36",
+     "ref": "55.47.3608"
+    },
+    {
+     "schale_mm": "58",
+     "einsatz_code": "II",
+     "kopf_mm": "36",
+     "ref": "55.47.3609"
+    },
+    {
+     "schale_mm": "60",
+     "einsatz_code": "JJ",
+     "kopf_mm": "36",
+     "ref": "55.47.3610"
+    },
+    {
+     "schale_mm": "62 / 64",
+     "einsatz_code": "KK",
+     "kopf_mm": "36",
+     "ref": "55.47.3611"
+    }
+   ]
+  },
+  {
+   "id": "enovis.selexys_schraube",
+   "typ": "schraube",
+   "bezeichnung": "Spongiosaschraube steril (seleXys PC)",
+   "auswahl_dach": false,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "durchmesser_mm": "5,7",
+    "material": "„Ti6Al7V“ (so gedruckt)",
+    "seite": "gedr./PDF 16",
+    "hinweis": "Lieferbarkeit offen (archiviertes Dokument / nicht im aktuellen Portal): nur archivierte OP-Technik 2019-10; nicht im aktuellen Mathys-e-IFU. Werte am Original gelesen (1 Prüfer)."
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Archivierte OP-Technik 2019-10: kein Packungs-/Etikettbild. Kennzeichnung (gedr./PDF 11): Schale mit Außengröße und Zweibuchstabencode (z. B. 50 / EE), Einsatz mit Kopfdurchmesser und Buchstabencode (z. B. 28 / EE)."
+   },
+   "quelle": "selexys",
+   "sicherheit": "Lieferbarkeit offen (archiviertes Dokument / nicht im aktuellen Portal)",
+   "groessen": [
+    {
+     "laenge_mm": "15",
+     "ref": "101.05.57.15.0"
+    },
+    {
+     "laenge_mm": "20",
+     "ref": "101.05.57.20.0"
+    },
+    {
+     "laenge_mm": "25",
+     "ref": "101.05.57.25.0"
+    },
+    {
+     "laenge_mm": "30",
+     "ref": "101.05.57.30.0"
+    },
+    {
+     "laenge_mm": "35",
+     "ref": "101.05.57.35.0"
+    },
+    {
+     "laenge_mm": "40",
+     "ref": "101.05.57.40.0"
+    },
+    {
+     "laenge_mm": "45",
+     "ref": "101.05.57.45.0"
+    }
    ]
   },
   {
@@ -326,15 +1539,77 @@
    "ref": null,
    "gtin": null,
    "attribute": {
-    "werte": "offen; keine twinSys-Paarung aus Keramik-Flyer"
+    "material": "ZrO2-AI2O3",
+    "konus": "12 / 14 mm",
+    "hinweis_original": "Für die Keramik-Keramik-Paarung sind nur Keramik-Köpfe mit Keramik-Einsätzen der Firma Mathys zu verwenden. ceramys kann mit Mathys Polyethylenen und allen Mathys Keramiken kombiniert werden.",
+    "seite": "twinSys-OP-Technik gedr./PDF 29",
+    "e_ifu": "alle REF im Mathys-e-IFU-REF-Index gefunden (07.10.2026)"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Kein Packungs-/Etikettbild in den gelesenen Mathys-OP-Techniken/IFUs. Verpackung laut IFU Kap. 9: doppeltes Sterilbarrieresystem (Doppelbeutel/Doppelblister), äußere Schicht von unsterilem, innere von sterilem OP-Personal öffnen. Farbcodes nur für Instrumente belegt, nicht für Implantatverpackungen. Etikettsymbole laut IFU Hüftköpfe (79490) S. 1 (sinngemäß, nicht kopiert): Hersteller, Herstellungsdatum, Verwendbar bis, Chargencode, Artikelnummer, UDI, Steril/Ethylenoxid, Nicht erneut sterilisieren, Nicht wiederverwenden, doppeltes Sterilbarrieresystem, Bei beschädigter Verpackung nicht verwenden, Trocken/vor Sonnenlicht schützen, MR-sicher, CE mit Nummer der Benannten Stelle, Bevollmächtigter EU, Importeur, Patientenname, Enthält Gefahrstoffe (Kobalt)."
    },
-   "quelle": "ceramics",
-   "sicherheit": "offen"
+   "quelle": "mx-twinsys-ot",
+   "sicherheit": "belegt (Original, 1 Prüfer)",
+   "groessen": [
+    {
+     "durchmesser_mm": "28",
+     "halslaenge": "S - 3,5 mm",
+     "ref": "54.47.0010"
+    },
+    {
+     "durchmesser_mm": "28",
+     "halslaenge": "M 0 mm",
+     "ref": "54.47.0011"
+    },
+    {
+     "durchmesser_mm": "28",
+     "halslaenge": "L + 3,5 mm",
+     "ref": "54.47.0012"
+    },
+    {
+     "durchmesser_mm": "32",
+     "halslaenge": "S - 4 mm",
+     "ref": "54.47.0110"
+    },
+    {
+     "durchmesser_mm": "32",
+     "halslaenge": "M 0 mm",
+     "ref": "54.47.0111"
+    },
+    {
+     "durchmesser_mm": "32",
+     "halslaenge": "L + 4 mm",
+     "ref": "54.47.0112"
+    },
+    {
+     "durchmesser_mm": "32",
+     "halslaenge": "XL + 8 mm",
+     "ref": "54.47.0113"
+    },
+    {
+     "durchmesser_mm": "36",
+     "halslaenge": "S - 4 mm",
+     "ref": "54.47.0210"
+    },
+    {
+     "durchmesser_mm": "36",
+     "halslaenge": "M 0 mm",
+     "ref": "54.47.0211"
+    },
+    {
+     "durchmesser_mm": "36",
+     "halslaenge": "L + 4 mm",
+     "ref": "54.47.0212"
+    },
+    {
+     "durchmesser_mm": "36",
+     "halslaenge": "XL + 8 mm",
+     "ref": "54.47.0213"
+    }
+   ]
   },
   {
    "id": "enovis.kopf.symarec",
@@ -345,54 +1620,725 @@
    "ref": null,
    "gtin": null,
    "attribute": {
-    "werte": "offen"
+    "material": "AI2O3-ZrO2",
+    "konus": "12 / 14 mm",
+    "hinweis_original": "Für die Keramik-Keramik-Paarung sind nur Keramik-Köpfe mit Keramik-Einsätzen der Firma Mathys zu verwenden. symarec kann mit Mathys Polyethylenen und allen Mathys Keramiken kombiniert werden.",
+    "seite": "twinSys-OP-Technik gedr./PDF 29",
+    "e_ifu": "alle REF im Mathys-e-IFU-REF-Index gefunden (07.10.2026)"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Kein Packungs-/Etikettbild in den gelesenen Mathys-OP-Techniken/IFUs. Verpackung laut IFU Kap. 9: doppeltes Sterilbarrieresystem (Doppelbeutel/Doppelblister), äußere Schicht von unsterilem, innere von sterilem OP-Personal öffnen. Farbcodes nur für Instrumente belegt, nicht für Implantatverpackungen. Etikettsymbole laut IFU Hüftköpfe (79490) S. 1 (sinngemäß, nicht kopiert): Hersteller, Herstellungsdatum, Verwendbar bis, Chargencode, Artikelnummer, UDI, Steril/Ethylenoxid, Nicht erneut sterilisieren, Nicht wiederverwenden, doppeltes Sterilbarrieresystem, Bei beschädigter Verpackung nicht verwenden, Trocken/vor Sonnenlicht schützen, MR-sicher, CE mit Nummer der Benannten Stelle, Bevollmächtigter EU, Importeur, Patientenname, Enthält Gefahrstoffe (Kobalt)."
    },
-   "quelle": "ceramics",
-   "sicherheit": "offen"
+   "quelle": "mx-twinsys-ot",
+   "sicherheit": "belegt (Original, 1 Prüfer)",
+   "groessen": [
+    {
+     "durchmesser_mm": "28",
+     "halslaenge": "S - 3,5 mm",
+     "ref": "54.48.0010"
+    },
+    {
+     "durchmesser_mm": "28",
+     "halslaenge": "M 0 mm",
+     "ref": "54.48.0011"
+    },
+    {
+     "durchmesser_mm": "28",
+     "halslaenge": "L + 3,5 mm",
+     "ref": "54.48.0012"
+    },
+    {
+     "durchmesser_mm": "32",
+     "halslaenge": "S - 4 mm",
+     "ref": "54.48.0110"
+    },
+    {
+     "durchmesser_mm": "32",
+     "halslaenge": "M 0 mm",
+     "ref": "54.48.0111"
+    },
+    {
+     "durchmesser_mm": "32",
+     "halslaenge": "L + 4 mm",
+     "ref": "54.48.0112"
+    },
+    {
+     "durchmesser_mm": "32",
+     "halslaenge": "XL + 8 mm",
+     "ref": "54.48.0113"
+    },
+    {
+     "durchmesser_mm": "36",
+     "halslaenge": "S - 4 mm",
+     "ref": "54.48.0210"
+    },
+    {
+     "durchmesser_mm": "36",
+     "halslaenge": "M 0 mm",
+     "ref": "54.48.0211"
+    },
+    {
+     "durchmesser_mm": "36",
+     "halslaenge": "L + 4 mm",
+     "ref": "54.48.0212"
+    },
+    {
+     "durchmesser_mm": "36",
+     "halslaenge": "XL + 8 mm",
+     "ref": "54.48.0213"
+    }
+   ]
+  },
+  {
+   "id": "enovis.kopf.ceramys_revision",
+   "typ": "kopf",
+   "bezeichnung": "ceramys Revisionskopf",
+   "auswahl_dach": false,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "material": "ZrO2-AI2O3, TiAI6V4",
+    "konus": "12 / 14 mm",
+    "hinweis_original": "Die ceramys Revisionsköpfe können mit allen Mathys Schaftsystemen mit einem «12 / 14 Konus» verwendet werden. Die ceramys Revisionsköpfe können mit Pfannen oder Einsätzen aus Mathys Keramiken oder Mathys Polyethylenen kombiniert werden.",
+    "seite": "twinSys-OP-Technik gedr./PDF 30",
+    "e_ifu": "alle REF im Mathys-e-IFU-REF-Index gefunden (07.10.2026)",
+    "geltungsbereich": "nicht in Kopf-IFU Tab. 3/4 (Geltungsbereich dort: Stahl, CoCrMo, ceramys, symarec)"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Kein Packungs-/Etikettbild in den gelesenen Mathys-OP-Techniken/IFUs. Verpackung laut IFU Kap. 9: doppeltes Sterilbarrieresystem (Doppelbeutel/Doppelblister), äußere Schicht von unsterilem, innere von sterilem OP-Personal öffnen. Farbcodes nur für Instrumente belegt, nicht für Implantatverpackungen. Etikettsymbole laut IFU Hüftköpfe (79490) S. 1 (sinngemäß, nicht kopiert): Hersteller, Herstellungsdatum, Verwendbar bis, Chargencode, Artikelnummer, UDI, Steril/Ethylenoxid, Nicht erneut sterilisieren, Nicht wiederverwenden, doppeltes Sterilbarrieresystem, Bei beschädigter Verpackung nicht verwenden, Trocken/vor Sonnenlicht schützen, MR-sicher, CE mit Nummer der Benannten Stelle, Bevollmächtigter EU, Importeur, Patientenname, Enthält Gefahrstoffe (Kobalt)."
+   },
+   "quelle": "mx-twinsys-ot",
+   "sicherheit": "belegt (Original, 1 Prüfer)",
+   "groessen": [
+    {
+     "durchmesser_mm": "28",
+     "halslaenge": "S - 3,5 mm",
+     "ref": "54.47.2010"
+    },
+    {
+     "durchmesser_mm": "28",
+     "halslaenge": "M 0 mm",
+     "ref": "54.47.2020"
+    },
+    {
+     "durchmesser_mm": "28",
+     "halslaenge": "L + 3,5 mm",
+     "ref": "54.47.2030"
+    },
+    {
+     "durchmesser_mm": "28",
+     "halslaenge": "XL + 7 mm",
+     "ref": "54.47.2040"
+    },
+    {
+     "durchmesser_mm": "32",
+     "halslaenge": "S - 3,5 mm",
+     "ref": "54.47.2110"
+    },
+    {
+     "durchmesser_mm": "32",
+     "halslaenge": "M 0 mm",
+     "ref": "54.47.2120"
+    },
+    {
+     "durchmesser_mm": "32",
+     "halslaenge": "L + 3,5 mm",
+     "ref": "54.47.2130"
+    },
+    {
+     "durchmesser_mm": "32",
+     "halslaenge": "XL + 7 mm",
+     "ref": "54.47.2140"
+    },
+    {
+     "durchmesser_mm": "36",
+     "halslaenge": "S - 3,5 mm",
+     "ref": "54.47.2210"
+    },
+    {
+     "durchmesser_mm": "36",
+     "halslaenge": "M 0 mm",
+     "ref": "54.47.2220"
+    },
+    {
+     "durchmesser_mm": "36",
+     "halslaenge": "L + 3,5 mm",
+     "ref": "54.47.2230"
+    },
+    {
+     "durchmesser_mm": "36",
+     "halslaenge": "XL + 7 mm",
+     "ref": "54.47.2240"
+    }
+   ]
   },
   {
    "id": "enovis.kopf.cocr",
    "typ": "kopf",
-   "bezeichnung": "CoCr",
+   "bezeichnung": "Hüftkopf CoCrMo",
    "auswahl_dach": true,
    "groesse": null,
    "ref": null,
    "gtin": null,
    "attribute": {
-    "werte": "offen"
+    "material": "CoCrMo",
+    "konus": "12 / 14 mm",
+    "hinweis_original": "CoCrMo-Hüftköpfe dürfen nur mit Mathys Polyethylen-Pfannen oder -Einsätzen kombiniert werden.",
+    "seite": "twinSys-OP-Technik gedr./PDF 28",
+    "e_ifu": "alle REF im Mathys-e-IFU-REF-Index gefunden (07.10.2026)"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Kein Packungs-/Etikettbild in den gelesenen Mathys-OP-Techniken/IFUs. Verpackung laut IFU Kap. 9: doppeltes Sterilbarrieresystem (Doppelbeutel/Doppelblister), äußere Schicht von unsterilem, innere von sterilem OP-Personal öffnen. Farbcodes nur für Instrumente belegt, nicht für Implantatverpackungen. Etikettsymbole laut IFU Hüftköpfe (79490) S. 1 (sinngemäß, nicht kopiert): Hersteller, Herstellungsdatum, Verwendbar bis, Chargencode, Artikelnummer, UDI, Steril/Ethylenoxid, Nicht erneut sterilisieren, Nicht wiederverwenden, doppeltes Sterilbarrieresystem, Bei beschädigter Verpackung nicht verwenden, Trocken/vor Sonnenlicht schützen, MR-sicher, CE mit Nummer der Benannten Stelle, Bevollmächtigter EU, Importeur, Patientenname, Enthält Gefahrstoffe (Kobalt)."
    },
-   "quelle": null,
-   "sicherheit": "offen"
+   "quelle": "mx-twinsys-ot",
+   "sicherheit": "belegt (Original, 1 Prüfer)",
+   "groessen": [
+    {
+     "durchmesser_mm": "22,2",
+     "halslaenge": "S - 3 mm",
+     "ref": "52.34.0125"
+    },
+    {
+     "durchmesser_mm": "22,2",
+     "halslaenge": "M 0 mm",
+     "ref": "52.34.0126"
+    },
+    {
+     "durchmesser_mm": "22,2",
+     "halslaenge": "L + 3 mm",
+     "ref": "52.34.0127"
+    },
+    {
+     "durchmesser_mm": "28",
+     "halslaenge": "S - 4 mm",
+     "ref": "2.30.010"
+    },
+    {
+     "durchmesser_mm": "28",
+     "halslaenge": "M 0 mm",
+     "ref": "2.30.011"
+    },
+    {
+     "durchmesser_mm": "28",
+     "halslaenge": "L + 4 mm",
+     "ref": "2.30.012"
+    },
+    {
+     "durchmesser_mm": "28",
+     "halslaenge": "XL + 8 mm",
+     "ref": "2.30.013"
+    },
+    {
+     "durchmesser_mm": "28",
+     "halslaenge": "XXL +12 mm",
+     "ref": "2.30.014"
+    },
+    {
+     "durchmesser_mm": "32",
+     "halslaenge": "S - 4 mm",
+     "ref": "2.30.020"
+    },
+    {
+     "durchmesser_mm": "32",
+     "halslaenge": "M 0 mm",
+     "ref": "2.30.021"
+    },
+    {
+     "durchmesser_mm": "32",
+     "halslaenge": "L + 4 mm",
+     "ref": "2.30.022"
+    },
+    {
+     "durchmesser_mm": "32",
+     "halslaenge": "XL + 8 mm",
+     "ref": "2.30.023"
+    },
+    {
+     "durchmesser_mm": "32",
+     "halslaenge": "XXL +12 mm",
+     "ref": "2.30.024"
+    },
+    {
+     "durchmesser_mm": "36",
+     "halslaenge": "S - 4 mm",
+     "ref": "52.34.0686"
+    },
+    {
+     "durchmesser_mm": "36",
+     "halslaenge": "M 0 mm",
+     "ref": "52.34.0687"
+    },
+    {
+     "durchmesser_mm": "36",
+     "halslaenge": "L + 4 mm",
+     "ref": "52.34.0688"
+    },
+    {
+     "durchmesser_mm": "36",
+     "halslaenge": "XL + 8 mm",
+     "ref": "52.34.0689"
+    },
+    {
+     "durchmesser_mm": "36",
+     "halslaenge": "XXL + 12 mm",
+     "ref": "52.34.0690"
+    }
+   ]
+  },
+  {
+   "id": "enovis.kopf.stahl",
+   "typ": "kopf",
+   "bezeichnung": "Hüftkopf Stahl",
+   "auswahl_dach": false,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "material": "FeCrNiMnMoNbN",
+    "konus": "12 / 14 mm",
+    "hinweis_original": "Stahl-Hüftköpfe dürfen nur mit Mathys Polyethylen-Pfannen oder -Einsätzen kombiniert werden.",
+    "seite": "twinSys-OP-Technik gedr./PDF 28",
+    "e_ifu": "alle REF im Mathys-e-IFU-REF-Index gefunden (07.10.2026)"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Kein Packungs-/Etikettbild in den gelesenen Mathys-OP-Techniken/IFUs. Verpackung laut IFU Kap. 9: doppeltes Sterilbarrieresystem (Doppelbeutel/Doppelblister), äußere Schicht von unsterilem, innere von sterilem OP-Personal öffnen. Farbcodes nur für Instrumente belegt, nicht für Implantatverpackungen. Etikettsymbole laut IFU Hüftköpfe (79490) S. 1 (sinngemäß, nicht kopiert): Hersteller, Herstellungsdatum, Verwendbar bis, Chargencode, Artikelnummer, UDI, Steril/Ethylenoxid, Nicht erneut sterilisieren, Nicht wiederverwenden, doppeltes Sterilbarrieresystem, Bei beschädigter Verpackung nicht verwenden, Trocken/vor Sonnenlicht schützen, MR-sicher, CE mit Nummer der Benannten Stelle, Bevollmächtigter EU, Importeur, Patientenname, Enthält Gefahrstoffe (Kobalt)."
+   },
+   "quelle": "mx-twinsys-ot",
+   "sicherheit": "belegt (Original, 1 Prüfer)",
+   "groessen": [
+    {
+     "durchmesser_mm": "22,2",
+     "halslaenge": "S - 3 mm",
+     "ref": "54.11.1031"
+    },
+    {
+     "durchmesser_mm": "22,2",
+     "halslaenge": "M 0 mm",
+     "ref": "54.11.1032"
+    },
+    {
+     "durchmesser_mm": "22,2",
+     "halslaenge": "L + 3 mm",
+     "ref": "54.11.1033"
+    },
+    {
+     "durchmesser_mm": "28",
+     "halslaenge": "S - 4 mm",
+     "ref": "2.30.410"
+    },
+    {
+     "durchmesser_mm": "28",
+     "halslaenge": "M 0 mm",
+     "ref": "2.30.411"
+    },
+    {
+     "durchmesser_mm": "28",
+     "halslaenge": "L + 4 mm",
+     "ref": "2.30.412"
+    },
+    {
+     "durchmesser_mm": "28",
+     "halslaenge": "XL + 8 mm",
+     "ref": "2.30.413"
+    },
+    {
+     "durchmesser_mm": "28",
+     "halslaenge": "XXL + 12 mm",
+     "ref": "2.30.414"
+    },
+    {
+     "durchmesser_mm": "32",
+     "halslaenge": "S - 4 mm",
+     "ref": "2.30.400"
+    },
+    {
+     "durchmesser_mm": "32",
+     "halslaenge": "M 0 mm",
+     "ref": "2.30.401"
+    },
+    {
+     "durchmesser_mm": "32",
+     "halslaenge": "L + 4 mm",
+     "ref": "2.30.402"
+    },
+    {
+     "durchmesser_mm": "32",
+     "halslaenge": "XL + 8 mm",
+     "ref": "2.30.403"
+    },
+    {
+     "durchmesser_mm": "32",
+     "halslaenge": "XXL + 12 mm",
+     "ref": "2.30.404"
+    }
+   ]
   },
   {
    "id": "enovis.duokopf.bipolar",
    "typ": "duokopf",
-   "bezeichnung": "Mathys Bipolarkopf",
+   "bezeichnung": "Mathys Bipolarkopf Stahl",
    "auswahl_dach": true,
    "groesse": null,
    "ref": null,
    "gtin": null,
    "attribute": {
-    "verwendung": "mit twinSys zementiert",
-    "freigabe": "offen – Produktseite ohne Schaft-Paarung"
+    "material": "FeCrNiMnMoNbN; UHMWPE",
+    "innenkopf_mm": "28",
+    "verwendung": "Hemiendoprothetik (Indikation „Frakturen des Femurhalses“)",
+    "lieferung": "„Der Bipolarkopf wird zusammen mit dem Ring als Ganzes geliefert.“ (gedr./PDF 8)",
+    "original_hinweis": "„Bipolarköpfe können mit Keramik-, Stahl- und CoCrMo-Hüftköpfen sowie Keramik-Revisionsköpfen von Mathys kombiniert werden.“ – Größen laut Tab. 5/6: nur 28 mm",
+    "acetabulum": "„Das Acetabulum darf nicht mit Fräsern bearbeitet werden.“ (gedr./PDF 7)",
+    "seite": "Bipolar-/Hemi-OP-Technik gedr./PDF 11; twinSys-OP-Technik gedr./PDF 31 (Spalte Stahl)",
+    "schaft_freigabe": "keine eigene Schaft×Bipolar-Tabelle; twinSys-IFU Abb. 1 zeigt keinen Bipolarkopf",
+    "e_ifu": "z. B. „Bipolar head SS 58/28“ = 54.11.0058",
+    "instrumente": "Set 54.01.0001A; Bipolar-Testköpfe 54.02.0142 … 54.02.0158 (nicht übernommen)"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Kein Packungs-/Etikettbild in den gelesenen Mathys-OP-Techniken/IFUs. Verpackung laut IFU Kap. 9: doppeltes Sterilbarrieresystem (Doppelbeutel/Doppelblister), äußere Schicht von unsterilem, innere von sterilem OP-Personal öffnen. Farbcodes nur für Instrumente belegt, nicht für Implantatverpackungen. Patientenetiketten liegen bei (Bipolar-IFU Kap. 12: in Patientenakte und Implantatkarte kleben)."
    },
-   "quelle": "enovis-bipolar",
-   "sicherheit": "offen"
+   "quelle": "mx-bh-ot",
+   "sicherheit": "belegt (Original, 1 Prüfer)",
+   "groessen": [
+    {
+     "aussen_mm": "42",
+     "innenkopf_mm": "28",
+     "ref": "54.11.0042"
+    },
+    {
+     "aussen_mm": "44",
+     "innenkopf_mm": "28",
+     "ref": "54.11.0044"
+    },
+    {
+     "aussen_mm": "46",
+     "innenkopf_mm": "28",
+     "ref": "54.11.0046"
+    },
+    {
+     "aussen_mm": "48",
+     "innenkopf_mm": "28",
+     "ref": "54.11.0048"
+    },
+    {
+     "aussen_mm": "50",
+     "innenkopf_mm": "28",
+     "ref": "54.11.0050"
+    },
+    {
+     "aussen_mm": "52",
+     "innenkopf_mm": "28",
+     "ref": "54.11.0052"
+    },
+    {
+     "aussen_mm": "54",
+     "innenkopf_mm": "28",
+     "ref": "54.11.0054"
+    },
+    {
+     "aussen_mm": "56",
+     "innenkopf_mm": "28",
+     "ref": "54.11.0056"
+    },
+    {
+     "aussen_mm": "58",
+     "innenkopf_mm": "28",
+     "ref": "54.11.0058"
+    }
+   ]
+  },
+  {
+   "id": "enovis.duokopf.bipolar_cocrmo",
+   "typ": "duokopf",
+   "bezeichnung": "Mathys Bipolarkopf CoCrMo",
+   "auswahl_dach": false,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "material": "CoCrMo; UHMWPE",
+    "seite": "twinSys-OP-Technik gedr./PDF 31; optimys-OP-Technik gedr./PDF 22",
+    "hinweis": "Lieferbarkeit offen (archiviertes Dokument / nicht im aktuellen Portal): steht in optimys- (2023-06) und twinSys-OP-Technik (2024-03), fehlt aber in der neueren Bipolar-OP-Technik 2024-06, in der Bipolar-IFU 2024-06 („Bipolarköpfe sind in Stahl erhältlich“) und im e-IFU-REF-Index. Werte am Original gelesen (1 Prüfer)."
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Kein Packungs-/Etikettbild in den gelesenen Mathys-OP-Techniken/IFUs. Verpackung laut IFU Kap. 9: doppeltes Sterilbarrieresystem (Doppelbeutel/Doppelblister), äußere Schicht von unsterilem, innere von sterilem OP-Personal öffnen. Farbcodes nur für Instrumente belegt, nicht für Implantatverpackungen."
+   },
+   "quelle": "mx-twinsys-ot",
+   "sicherheit": "Lieferbarkeit offen (archiviertes Dokument / nicht im aktuellen Portal)",
+   "groessen": [
+    {
+     "aussen_mm": "39",
+     "innenkopf_mm": "22,2",
+     "ref": "52.34.0090"
+    },
+    {
+     "aussen_mm": "40",
+     "innenkopf_mm": "22,2",
+     "ref": "52.34.0091"
+    },
+    {
+     "aussen_mm": "41",
+     "innenkopf_mm": "22,2",
+     "ref": "52.34.0092"
+    },
+    {
+     "aussen_mm": "42",
+     "innenkopf_mm": "22,2",
+     "ref": "52.34.0093"
+    },
+    {
+     "aussen_mm": "43",
+     "innenkopf_mm": "22,2",
+     "ref": "52.34.0094"
+    },
+    {
+     "aussen_mm": "42",
+     "innenkopf_mm": "28",
+     "ref": "52.34.0100"
+    },
+    {
+     "aussen_mm": "43",
+     "innenkopf_mm": "28",
+     "ref": "52.34.0101"
+    },
+    {
+     "aussen_mm": "44",
+     "innenkopf_mm": "28",
+     "ref": "52.34.0102"
+    },
+    {
+     "aussen_mm": "45",
+     "innenkopf_mm": "28",
+     "ref": "52.34.0103"
+    },
+    {
+     "aussen_mm": "46",
+     "innenkopf_mm": "28",
+     "ref": "52.34.0104"
+    },
+    {
+     "aussen_mm": "47",
+     "innenkopf_mm": "28",
+     "ref": "52.34.0105"
+    },
+    {
+     "aussen_mm": "48",
+     "innenkopf_mm": "28",
+     "ref": "52.34.0106"
+    },
+    {
+     "aussen_mm": "49",
+     "innenkopf_mm": "28",
+     "ref": "52.34.0107"
+    },
+    {
+     "aussen_mm": "50",
+     "innenkopf_mm": "28",
+     "ref": "52.34.0108"
+    },
+    {
+     "aussen_mm": "51",
+     "innenkopf_mm": "28",
+     "ref": "52.34.0109"
+    },
+    {
+     "aussen_mm": "52",
+     "innenkopf_mm": "28",
+     "ref": "52.34.0110"
+    },
+    {
+     "aussen_mm": "53",
+     "innenkopf_mm": "28",
+     "ref": "52.34.0111"
+    },
+    {
+     "aussen_mm": "54",
+     "innenkopf_mm": "28",
+     "ref": "52.34.0112"
+    },
+    {
+     "aussen_mm": "55",
+     "innenkopf_mm": "28",
+     "ref": "52.34.0113"
+    },
+    {
+     "aussen_mm": "56",
+     "innenkopf_mm": "28",
+     "ref": "52.34.0114"
+    },
+    {
+     "aussen_mm": "57",
+     "innenkopf_mm": "28",
+     "ref": "52.34.0115"
+    },
+    {
+     "aussen_mm": "58",
+     "innenkopf_mm": "28",
+     "ref": "52.34.0116"
+    },
+    {
+     "aussen_mm": "59",
+     "innenkopf_mm": "28",
+     "ref": "52.34.0117"
+    }
+   ]
+  },
+  {
+   "id": "enovis.hemikopf.stahl",
+   "typ": "hemikopf",
+   "bezeichnung": "Hemikopf Stahl",
+   "auswahl_dach": false,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "material": "FeCrNiMnMoNbN",
+    "konus": "12 / 14 mm",
+    "seite": "twinSys-OP-Technik gedr./PDF 32; Bipolar-/Hemi-OP-Technik gedr./PDF 14",
+    "halslaenge": "nur S und M freigegeben (Bipolar-/Hemi-IFU Tab. 4)",
+    "schaefte": "CCA Stahl / CoCrMo, optimys, twinSys zementiert / unzementiert, stellaris (IFU Tab. 4)",
+    "indikation": "„Frakturen des Femurhalses“; Kontraindikation u. a. „Primäre oder sekundäre Arthrose der Hüfte“ (Bipolar-/Hemi-OP-Technik gedr./PDF 5)",
+    "gedruckt": "zwei Teiltabellen „Grössen 38 – 44 mm“ und „Grössen 46 – 58 mm“",
+    "e_ifu": "z. B. „Hemihead SS 58 M“ = 67102"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Kein Packungs-/Etikettbild in den gelesenen Mathys-OP-Techniken/IFUs. Verpackung laut IFU Kap. 9: doppeltes Sterilbarrieresystem (Doppelbeutel/Doppelblister), äußere Schicht von unsterilem, innere von sterilem OP-Personal öffnen. Farbcodes nur für Instrumente belegt, nicht für Implantatverpackungen. Patientenetiketten liegen bei (Bipolar-IFU Kap. 12: in Patientenakte und Implantatkarte kleben)."
+   },
+   "quelle": "mx-twinsys-ot",
+   "sicherheit": "belegt (Original, 1 Prüfer)",
+   "groessen": [
+    {
+     "aussen_mm": "38",
+     "halslaenge": "S - 4 mm",
+     "ref": "2.30.420"
+    },
+    {
+     "aussen_mm": "38",
+     "halslaenge": "M 0 mm",
+     "ref": "67092"
+    },
+    {
+     "aussen_mm": "40",
+     "halslaenge": "S - 4 mm",
+     "ref": "2.30.421"
+    },
+    {
+     "aussen_mm": "40",
+     "halslaenge": "M 0 mm",
+     "ref": "67093"
+    },
+    {
+     "aussen_mm": "42",
+     "halslaenge": "S - 4 mm",
+     "ref": "2.30.422"
+    },
+    {
+     "aussen_mm": "42",
+     "halslaenge": "M 0 mm",
+     "ref": "67094"
+    },
+    {
+     "aussen_mm": "44",
+     "halslaenge": "S - 4 mm",
+     "ref": "2.30.423"
+    },
+    {
+     "aussen_mm": "44",
+     "halslaenge": "M 0 mm",
+     "ref": "67095"
+    },
+    {
+     "aussen_mm": "46",
+     "halslaenge": "S - 4 mm",
+     "ref": "2.30.424"
+    },
+    {
+     "aussen_mm": "46",
+     "halslaenge": "M 0 mm",
+     "ref": "67096"
+    },
+    {
+     "aussen_mm": "48",
+     "halslaenge": "S - 4 mm",
+     "ref": "2.30.425"
+    },
+    {
+     "aussen_mm": "48",
+     "halslaenge": "M 0 mm",
+     "ref": "67097"
+    },
+    {
+     "aussen_mm": "50",
+     "halslaenge": "S - 4 mm",
+     "ref": "2.30.426"
+    },
+    {
+     "aussen_mm": "50",
+     "halslaenge": "M 0 mm",
+     "ref": "67098"
+    },
+    {
+     "aussen_mm": "52",
+     "halslaenge": "S - 4 mm",
+     "ref": "2.30.427"
+    },
+    {
+     "aussen_mm": "52",
+     "halslaenge": "M 0 mm",
+     "ref": "67099"
+    },
+    {
+     "aussen_mm": "54",
+     "halslaenge": "S - 4 mm",
+     "ref": "2.30.428"
+    },
+    {
+     "aussen_mm": "54",
+     "halslaenge": "M 0 mm",
+     "ref": "67100"
+    },
+    {
+     "aussen_mm": "56",
+     "halslaenge": "S - 4 mm",
+     "ref": "2.30.429"
+    },
+    {
+     "aussen_mm": "56",
+     "halslaenge": "M 0 mm",
+     "ref": "67101"
+    },
+    {
+     "aussen_mm": "58",
+     "halslaenge": "S - 4 mm",
+     "ref": "2.30.430"
+    },
+    {
+     "aussen_mm": "58",
+     "halslaenge": "M 0 mm",
+     "ref": "67102"
+    }
+   ]
   }
  ],
  "tabellen": {
@@ -427,24 +2373,827 @@
     }
    ],
    "legende": "jeweils 2-mm-Schritte"
+  },
+  "T3_kopf_pfanne": {
+   "titel": "Tabelle 3: Kombination von Keramik-Hüftköpfen (ceramys / symarec) oder Metall-Hüftköpfen (Stahl / CoCrMo) mit den entsprechenden Pfannen oder Inlays – Spalten CCB, RM Classic, seleXys",
+   "quelle": "mx-heads-ifu",
+   "seite": "5 (gerendert geprüft)",
+   "zeilen": [
+    {
+     "produkt": "Keramik-Hüftkopf ceramys",
+     "groesse_mm": "28",
+     "halslaenge": "S, M, L",
+     "ccb": "ja",
+     "rm_classic_vollprofil": "nein",
+     "rm_classic_angeschraegt": "ja",
+     "rm_classic_revisionspfanne": "nein",
+     "selexys_uhmwpe_inlay": "ja"
+    },
+    {
+     "produkt": "Keramik-Hüftkopf ceramys",
+     "groesse_mm": "32",
+     "halslaenge": "S, M, L, XL",
+     "ccb": "ja",
+     "rm_classic_vollprofil": "ja",
+     "rm_classic_angeschraegt": "ja",
+     "rm_classic_revisionspfanne": "ja",
+     "selexys_uhmwpe_inlay": "ja"
+    },
+    {
+     "produkt": "Keramik-Hüftkopf ceramys",
+     "groesse_mm": "36",
+     "halslaenge": "S, M, L, XL",
+     "ccb": "nein",
+     "rm_classic_vollprofil": "nein",
+     "rm_classic_angeschraegt": "nein",
+     "rm_classic_revisionspfanne": "nein",
+     "selexys_uhmwpe_inlay": "nein"
+    },
+    {
+     "produkt": "Keramik-Hüftkopf symarec",
+     "groesse_mm": "28",
+     "halslaenge": "S, M, L",
+     "ccb": "ja",
+     "rm_classic_vollprofil": "nein",
+     "rm_classic_angeschraegt": "ja",
+     "rm_classic_revisionspfanne": "nein",
+     "selexys_uhmwpe_inlay": "ja"
+    },
+    {
+     "produkt": "Keramik-Hüftkopf symarec",
+     "groesse_mm": "32",
+     "halslaenge": "S, M, L, XL",
+     "ccb": "ja",
+     "rm_classic_vollprofil": "ja",
+     "rm_classic_angeschraegt": "ja",
+     "rm_classic_revisionspfanne": "ja",
+     "selexys_uhmwpe_inlay": "ja"
+    },
+    {
+     "produkt": "Keramik-Hüftkopf symarec",
+     "groesse_mm": "36",
+     "halslaenge": "S, M, L, XL",
+     "ccb": "nein",
+     "rm_classic_vollprofil": "nein",
+     "rm_classic_angeschraegt": "nein",
+     "rm_classic_revisionspfanne": "nein",
+     "selexys_uhmwpe_inlay": "nein"
+    },
+    {
+     "produkt": "Metall-Hüftkopf Stahl",
+     "groesse_mm": "22,2",
+     "halslaenge": "S, M, L",
+     "ccb": "nein",
+     "rm_classic_vollprofil": "nein",
+     "rm_classic_angeschraegt": "nein",
+     "rm_classic_revisionspfanne": "nein",
+     "selexys_uhmwpe_inlay": "nein"
+    },
+    {
+     "produkt": "Metall-Hüftkopf Stahl",
+     "groesse_mm": "28",
+     "halslaenge": "S, M, L, XL, XXL",
+     "ccb": "ja",
+     "rm_classic_vollprofil": "nein",
+     "rm_classic_angeschraegt": "ja",
+     "rm_classic_revisionspfanne": "nein",
+     "selexys_uhmwpe_inlay": "ja"
+    },
+    {
+     "produkt": "Metall-Hüftkopf Stahl",
+     "groesse_mm": "32",
+     "halslaenge": "S, M, L, XL, XXL",
+     "ccb": "ja",
+     "rm_classic_vollprofil": "ja",
+     "rm_classic_angeschraegt": "ja",
+     "rm_classic_revisionspfanne": "ja",
+     "selexys_uhmwpe_inlay": "ja"
+    },
+    {
+     "produkt": "Metall-Hüftkopf CoCrMo",
+     "groesse_mm": "22,2",
+     "halslaenge": "S, M, L",
+     "ccb": "nein",
+     "rm_classic_vollprofil": "nein",
+     "rm_classic_angeschraegt": "nein",
+     "rm_classic_revisionspfanne": "nein",
+     "selexys_uhmwpe_inlay": "nein"
+    },
+    {
+     "produkt": "Metall-Hüftkopf CoCrMo",
+     "groesse_mm": "28",
+     "halslaenge": "S, M, L, XL, XXL",
+     "ccb": "ja",
+     "rm_classic_vollprofil": "nein",
+     "rm_classic_angeschraegt": "ja",
+     "rm_classic_revisionspfanne": "nein",
+     "selexys_uhmwpe_inlay": "ja"
+    },
+    {
+     "produkt": "Metall-Hüftkopf CoCrMo",
+     "groesse_mm": "32",
+     "halslaenge": "S, M, L, XL, XXL",
+     "ccb": "ja",
+     "rm_classic_vollprofil": "ja",
+     "rm_classic_angeschraegt": "ja",
+     "rm_classic_revisionspfanne": "ja",
+     "selexys_uhmwpe_inlay": "ja"
+    },
+    {
+     "produkt": "Metall-Hüftkopf CoCrMo",
+     "groesse_mm": "36",
+     "halslaenge": "S, M, L, XL, XXL",
+     "ccb": "nein",
+     "rm_classic_vollprofil": "nein",
+     "rm_classic_angeschraegt": "nein",
+     "rm_classic_revisionspfanne": "nein",
+     "selexys_uhmwpe_inlay": "nein"
+    }
+   ],
+   "legende": "Kopf-IFU Abschnitt 8: „Eine Kombination ist nicht zulässig, wenn dies mit «nein» gekennzeichnet ist. Eine Kombination mit einem Produkt, das nicht aufgeführt ist, ist nicht zulässig.“ Nur die Spalten der Pfannen/Inlays dieser Datei; übrige Spalten der Originaltabelle: RM Pressfit vitamys/überhöht, RM Pressfit UHMWPE (siehe enovis-optimys), aneXys vitamys/ceramys (nicht erfasst). seleXys vitamys- und ceramys-Einsätze stehen nicht in Tab. 3."
+  },
+  "T4_kopf_schaft": {
+   "titel": "Tabelle 4: Kombination von Keramik-Hüftköpfen (ceramys / symarec) oder Metall-Hüftköpfen (Stahl / CoCrMo) mit den entsprechenden Hüftschäften oder Bipolarköpfen Stahl – Spalten twinSys und Bipolarkopf Stahl",
+   "quelle": "mx-heads-ifu",
+   "seite": "6 (bei 150 dpi gerendert geprüft)",
+   "zeilen": [
+    {
+     "produkt": "Keramik-Hüftkopf ceramys",
+     "groesse_mm": "28",
+     "halslaenge": "S, M, L",
+     "twinsys_zementiert_unzementiert": "ja",
+     "bipolarkopf_stahl": "ja"
+    },
+    {
+     "produkt": "Keramik-Hüftkopf ceramys",
+     "groesse_mm": "32",
+     "halslaenge": "S, M, L, XL",
+     "twinsys_zementiert_unzementiert": "ja",
+     "bipolarkopf_stahl": "nein"
+    },
+    {
+     "produkt": "Keramik-Hüftkopf ceramys",
+     "groesse_mm": "36",
+     "halslaenge": "S, M, L, XL",
+     "twinsys_zementiert_unzementiert": "ja",
+     "bipolarkopf_stahl": "nein"
+    },
+    {
+     "produkt": "Keramik-Hüftkopf symarec",
+     "groesse_mm": "28",
+     "halslaenge": "S, M, L",
+     "twinsys_zementiert_unzementiert": "ja",
+     "bipolarkopf_stahl": "ja"
+    },
+    {
+     "produkt": "Keramik-Hüftkopf symarec",
+     "groesse_mm": "32",
+     "halslaenge": "S, M, L, XL",
+     "twinsys_zementiert_unzementiert": "ja",
+     "bipolarkopf_stahl": "nein"
+    },
+    {
+     "produkt": "Keramik-Hüftkopf symarec",
+     "groesse_mm": "36",
+     "halslaenge": "S, M, L, XL",
+     "twinsys_zementiert_unzementiert": "ja",
+     "bipolarkopf_stahl": "nein"
+    },
+    {
+     "produkt": "Metall-Hüftkopf CoCrMo",
+     "groesse_mm": "22,2",
+     "halslaenge": "S, M, L",
+     "twinsys_zementiert_unzementiert": "ja",
+     "bipolarkopf_stahl": "nein"
+    },
+    {
+     "produkt": "Metall-Hüftkopf CoCrMo",
+     "groesse_mm": "28",
+     "halslaenge": "S, M, L, XL, XXL",
+     "twinsys_zementiert_unzementiert": "ja",
+     "bipolarkopf_stahl": "ja"
+    },
+    {
+     "produkt": "Metall-Hüftkopf CoCrMo",
+     "groesse_mm": "32",
+     "halslaenge": "S, M, L, XL, XXL",
+     "twinsys_zementiert_unzementiert": "ja",
+     "bipolarkopf_stahl": "nein"
+    },
+    {
+     "produkt": "Metall-Hüftkopf CoCrMo",
+     "groesse_mm": "36",
+     "halslaenge": "S, M, L, XL, XXL",
+     "twinsys_zementiert_unzementiert": "ja",
+     "bipolarkopf_stahl": "nein"
+    }
+   ],
+   "legende": "Auffälligkeit im Original: Die Überschrift nennt Metall-Hüftköpfe Stahl, die Tabelle enthält aber keine Stahl-Zeilen – daraus nichts abgeleitet. ceramys-Revisionsköpfe sind nicht Teil dieser Tabelle. Nur die Spalten dieser Datei; übrige Spalten: CCA Stahl / CoCrMo, optimys (siehe enovis-optimys), stellaris."
+  },
+  "T4_hemi_schaft": {
+   "titel": "Bipolar-/Hemi-IFU Tabelle 4: Kombination von Hemiköpfen Stahl mit entsprechenden Hüftschäften – Spalte twinSys",
+   "quelle": "mx-bh-ifu",
+   "seite": "5 (gerendert geprüft)",
+   "zeilen": [
+    {
+     "produkt": "Hemikopf Stahl",
+     "groesse_mm": "38 – 58",
+     "halslaenge": "S, M",
+     "twinsys_zementiert_unzementiert": "ja"
+    }
+   ],
+   "legende": "übrige Spalten im Original: CCA Stahl / CoCrMo, optimys, stellaris (alle ja)."
+  },
+  "T5_T6_bipolar_innenkopf": {
+   "titel": "Bipolar-/Hemi-IFU Tabelle 5 (Keramik-/Revisionsköpfe) und Tabelle 6 (Metallköpfe Stahl/CoCrMo): Kombination mit Bipolarköpfen Stahl",
+   "quelle": "mx-bh-ifu",
+   "seite": "5 (gerendert geprüft)",
+   "zeilen": [
+    {
+     "tabelle": "5",
+     "innenkopf": "ceramys",
+     "groesse_mm": "28",
+     "halslaenge": "S, M, L",
+     "bipolarkopf_stahl_42_58_innen_28": "ja"
+    },
+    {
+     "tabelle": "5",
+     "innenkopf": "ceramys",
+     "groesse_mm": "32",
+     "halslaenge": "S, M, L, XL",
+     "bipolarkopf_stahl_42_58_innen_28": "nein"
+    },
+    {
+     "tabelle": "5",
+     "innenkopf": "ceramys",
+     "groesse_mm": "36",
+     "halslaenge": "S, M, L, XL",
+     "bipolarkopf_stahl_42_58_innen_28": "nein"
+    },
+    {
+     "tabelle": "5",
+     "innenkopf": "symarec",
+     "groesse_mm": "28",
+     "halslaenge": "S, M, L",
+     "bipolarkopf_stahl_42_58_innen_28": "ja"
+    },
+    {
+     "tabelle": "5",
+     "innenkopf": "symarec",
+     "groesse_mm": "32",
+     "halslaenge": "S, M, L, XL",
+     "bipolarkopf_stahl_42_58_innen_28": "nein"
+    },
+    {
+     "tabelle": "5",
+     "innenkopf": "symarec",
+     "groesse_mm": "36",
+     "halslaenge": "S, M, L, XL",
+     "bipolarkopf_stahl_42_58_innen_28": "nein"
+    },
+    {
+     "tabelle": "5",
+     "innenkopf": "ceramys Revisionskopf",
+     "groesse_mm": "28",
+     "halslaenge": "S, M, L, XL",
+     "bipolarkopf_stahl_42_58_innen_28": "ja"
+    },
+    {
+     "tabelle": "5",
+     "innenkopf": "ceramys Revisionskopf",
+     "groesse_mm": "32",
+     "halslaenge": "S, M, L, XL",
+     "bipolarkopf_stahl_42_58_innen_28": "nein"
+    },
+    {
+     "tabelle": "5",
+     "innenkopf": "ceramys Revisionskopf",
+     "groesse_mm": "36",
+     "halslaenge": "S, M, L, XL",
+     "bipolarkopf_stahl_42_58_innen_28": "nein"
+    },
+    {
+     "tabelle": "6",
+     "innenkopf": "Metal femoral head SS",
+     "groesse_mm": "22,2",
+     "halslaenge": "S, M, L",
+     "bipolarkopf_stahl_42_58_innen_28": "nein"
+    },
+    {
+     "tabelle": "6",
+     "innenkopf": "Metal femoral head SS",
+     "groesse_mm": "28",
+     "halslaenge": "S, M, L, XL, XXL",
+     "bipolarkopf_stahl_42_58_innen_28": "ja"
+    },
+    {
+     "tabelle": "6",
+     "innenkopf": "Metal femoral head SS",
+     "groesse_mm": "32",
+     "halslaenge": "S, M, L, XL, XXL",
+     "bipolarkopf_stahl_42_58_innen_28": "nein"
+    },
+    {
+     "tabelle": "6",
+     "innenkopf": "Metal femoral head CoCrMo",
+     "groesse_mm": "22,2",
+     "halslaenge": "S, M, L",
+     "bipolarkopf_stahl_42_58_innen_28": "nein"
+    },
+    {
+     "tabelle": "6",
+     "innenkopf": "Metal femoral head CoCrMo",
+     "groesse_mm": "28",
+     "halslaenge": "S, M, L, XL, XXL",
+     "bipolarkopf_stahl_42_58_innen_28": "ja"
+    },
+    {
+     "tabelle": "6",
+     "innenkopf": "Metal femoral head CoCrMo",
+     "groesse_mm": "32",
+     "halslaenge": "S, M, L, XL, XXL",
+     "bipolarkopf_stahl_42_58_innen_28": "nein"
+    },
+    {
+     "tabelle": "6",
+     "innenkopf": "Metal femoral head CoCrMo",
+     "groesse_mm": "36",
+     "halslaenge": "S, M, L, XL, XXL",
+     "bipolarkopf_stahl_42_58_innen_28": "nein"
+    }
+   ],
+   "legende": "Bipolarkopf Stahl Grösse 42 – 58, Innendurchmesser 28. Spaltenköpfe von Tab. 6 im Original englisch gedruckt."
   }
  },
  "passt_zu": [
   {
+   "von": "enovis.twinsys.zementfrei",
+   "zu": "enovis.kopf.ceramys",
+   "status": "ja",
+   "bedingung": "Kopf-Ø 28, 32, 36 mm laut Tabelle ja; Halslängen je Zeile laut Tabelle",
+   "quelle": "mx-heads-ifu",
+   "seite": "6",
+   "tabelle": "T4_kopf_schaft"
+  },
+  {
+   "von": "enovis.twinsys.zementfrei",
+   "zu": "enovis.kopf.symarec",
+   "status": "ja",
+   "bedingung": "Kopf-Ø 28, 32, 36 mm laut Tabelle ja; Halslängen je Zeile laut Tabelle",
+   "quelle": "mx-heads-ifu",
+   "seite": "6",
+   "tabelle": "T4_kopf_schaft"
+  },
+  {
+   "von": "enovis.twinsys.zementfrei",
+   "zu": "enovis.kopf.cocr",
+   "status": "ja",
+   "bedingung": "Kopf-Ø 22,2, 28, 32, 36 mm laut Tabelle ja; Halslängen je Zeile laut Tabelle",
+   "quelle": "mx-heads-ifu",
+   "seite": "6",
+   "tabelle": "T4_kopf_schaft"
+  },
+  {
+   "von": "enovis.twinsys.zementfrei",
+   "zu": "enovis.kopf.stahl",
+   "status": "bedingt",
+   "bedingung": "twinSys-IFU Abb. 1 nennt „Metallköpfe Edelstahl, CoCrMo“, ohne Größen; Kopf-IFU Tab. 4 hat trotz Überschrift keine Stahl-Zeilen – Größen offen",
+   "quelle": "mx-twinsys-ifu-unz",
+   "seite": "4 (Abb. 1)"
+  },
+  {
+   "von": "enovis.twinsys.zementfrei",
+   "zu": "enovis.kopf.ceramys_revision",
+   "status": "ja",
+   "bedingung": "twinSys-IFU Abb. 1 „ceramys Revisionskopf“; OP-Technik: Revisionsköpfe mit allen Mathys-Schaftsystemen mit 12/14-Konus; nicht in Kopf-IFU Tab. 4",
+   "quelle": "mx-twinsys-ifu-unz",
+   "seite": "4 (Abb. 1); OP-Technik gedr./PDF 30"
+  },
+  {
+   "von": "enovis.twinsys.zementfrei",
+   "zu": "enovis.hemikopf.stahl",
+   "status": "bedingt",
+   "bedingung": "nur Halslänge S und M; Hemikopf 38–58 mm",
+   "quelle": "mx-bh-ifu",
+   "seite": "5",
+   "tabelle": "T4_hemi_schaft"
+  },
+  {
+   "von": "enovis.twinsys.zementiert",
+   "zu": "enovis.kopf.ceramys",
+   "status": "ja",
+   "bedingung": "Kopf-Ø 28, 32, 36 mm laut Tabelle ja; Halslängen je Zeile laut Tabelle",
+   "quelle": "mx-heads-ifu",
+   "seite": "6",
+   "tabelle": "T4_kopf_schaft"
+  },
+  {
+   "von": "enovis.twinsys.zementiert",
+   "zu": "enovis.kopf.symarec",
+   "status": "ja",
+   "bedingung": "Kopf-Ø 28, 32, 36 mm laut Tabelle ja; Halslängen je Zeile laut Tabelle",
+   "quelle": "mx-heads-ifu",
+   "seite": "6",
+   "tabelle": "T4_kopf_schaft"
+  },
+  {
+   "von": "enovis.twinsys.zementiert",
+   "zu": "enovis.kopf.cocr",
+   "status": "ja",
+   "bedingung": "Kopf-Ø 22,2, 28, 32, 36 mm laut Tabelle ja; Halslängen je Zeile laut Tabelle",
+   "quelle": "mx-heads-ifu",
+   "seite": "6",
+   "tabelle": "T4_kopf_schaft"
+  },
+  {
+   "von": "enovis.twinsys.zementiert",
+   "zu": "enovis.kopf.stahl",
+   "status": "bedingt",
+   "bedingung": "twinSys-IFU Abb. 1 nennt „Metallköpfe Edelstahl, CoCrMo“, ohne Größen; Kopf-IFU Tab. 4 hat trotz Überschrift keine Stahl-Zeilen – Größen offen",
+   "quelle": "mx-twinsys-ifu-zem",
+   "seite": "3 (Abb. 1)"
+  },
+  {
+   "von": "enovis.twinsys.zementiert",
+   "zu": "enovis.kopf.ceramys_revision",
+   "status": "ja",
+   "bedingung": "twinSys-IFU Abb. 1 „ceramys Revisionskopf“; OP-Technik: Revisionsköpfe mit allen Mathys-Schaftsystemen mit 12/14-Konus; nicht in Kopf-IFU Tab. 4",
+   "quelle": "mx-twinsys-ifu-zem",
+   "seite": "3 (Abb. 1); OP-Technik gedr./PDF 30"
+  },
+  {
+   "von": "enovis.twinsys.zementiert",
+   "zu": "enovis.hemikopf.stahl",
+   "status": "bedingt",
+   "bedingung": "nur Halslänge S und M; Hemikopf 38–58 mm",
+   "quelle": "mx-bh-ifu",
+   "seite": "5",
+   "tabelle": "T4_hemi_schaft"
+  },
+  {
+   "von": "enovis.twinsys.zementiert",
+   "zu": "enovis.duokopf.bipolar",
+   "status": "offen",
+   "bedingung": "Bipolarkopf in twinSys-OP-Technik S. 31 gelistet, aber keine Schaft×Bipolar-Tabelle; twinSys-IFU Abb. 1 ohne Bipolarkopf; Verbindung nur indirekt über 28-mm-Innenkopf (Kopf-IFU Tab. 4) – keine transitive Freigabe; Halslängen-Beschränkungen laut Schaft-OP-Technik/IFU",
+   "quelle": "mx-twinsys-ot; mx-bh-ot",
+   "seite": "31; 7"
+  },
+  {
+   "von": "enovis.twinsys.zementiert",
+   "zu": "enovis.duokopf.bipolar_cocrmo",
+   "status": "offen",
+   "bedingung": "Lieferbarkeit offen (archiviertes Dokument / nicht im aktuellen Portal); keine Schaft×Bipolar-Tabelle",
+   "quelle": "mx-twinsys-ot",
+   "seite": "31"
+  },
+  {
+   "von": "enovis.duokopf.bipolar",
+   "zu": "enovis.kopf.ceramys",
+   "status": "bedingt",
+   "bedingung": "nur Kopf-Ø 28 mm (ja); Kopf-Ø 32, 36 mm: nein; Innendurchmesser 28 (auch Bipolar-IFU Tab. 5/6)",
+   "quelle": "mx-heads-ifu",
+   "seite": "6",
+   "tabelle": "T4_kopf_schaft"
+  },
+  {
+   "von": "enovis.duokopf.bipolar",
+   "zu": "enovis.kopf.symarec",
+   "status": "bedingt",
+   "bedingung": "nur Kopf-Ø 28 mm (ja); Kopf-Ø 32, 36 mm: nein; Innendurchmesser 28 (auch Bipolar-IFU Tab. 5/6)",
+   "quelle": "mx-heads-ifu",
+   "seite": "6",
+   "tabelle": "T4_kopf_schaft"
+  },
+  {
+   "von": "enovis.duokopf.bipolar",
+   "zu": "enovis.kopf.cocr",
+   "status": "bedingt",
+   "bedingung": "nur Kopf-Ø 28 mm (ja); Kopf-Ø 22,2, 32, 36 mm: nein; Innendurchmesser 28 (auch Bipolar-IFU Tab. 5/6)",
+   "quelle": "mx-heads-ifu",
+   "seite": "6",
+   "tabelle": "T4_kopf_schaft"
+  },
+  {
+   "von": "enovis.duokopf.bipolar",
+   "zu": "enovis.kopf.stahl",
+   "status": "bedingt",
+   "bedingung": "nur Kopf-Ø 28 mm (S, M, L, XL, XXL) ja; 22,2 und 32 mm: nein",
+   "quelle": "mx-bh-ifu",
+   "seite": "5",
+   "tabelle": "T5_T6_bipolar_innenkopf"
+  },
+  {
+   "von": "enovis.duokopf.bipolar",
+   "zu": "enovis.kopf.ceramys_revision",
+   "status": "bedingt",
+   "bedingung": "nur Kopf-Ø 28 mm (S, M, L, XL) ja; 32 und 36 mm: nein",
+   "quelle": "mx-bh-ifu",
+   "seite": "5",
+   "tabelle": "T5_T6_bipolar_innenkopf"
+  },
+  {
+   "von": "enovis.duokopf.bipolar_cocrmo",
+   "zu": "enovis.kopf.cocr",
+   "status": "offen",
+   "bedingung": "Lieferbarkeit offen (archiviertes Dokument / nicht im aktuellen Portal); keine Innenkopf-Tabelle für CoCrMo-Bipolarköpfe",
+   "quelle": "mx-twinsys-ot",
+   "seite": "31"
+  },
+  {
+   "von": "enovis.kopf.ceramys",
+   "zu": "enovis.ccb",
+   "status": "bedingt",
+   "bedingung": "nur Kopf-Ø 28, 32 mm (ja); Kopf-Ø 36 mm: nein; Pfannengröße/Profil laut T19b_ccb",
+   "quelle": "mx-heads-ifu",
+   "seite": "5",
+   "tabelle": "T3_kopf_pfanne"
+  },
+  {
+   "von": "enovis.kopf.symarec",
+   "zu": "enovis.ccb",
+   "status": "bedingt",
+   "bedingung": "nur Kopf-Ø 28, 32 mm (ja); Kopf-Ø 36 mm: nein; Pfannengröße/Profil laut T19b_ccb",
+   "quelle": "mx-heads-ifu",
+   "seite": "5",
+   "tabelle": "T3_kopf_pfanne"
+  },
+  {
+   "von": "enovis.kopf.stahl",
+   "zu": "enovis.ccb",
+   "status": "bedingt",
+   "bedingung": "nur Kopf-Ø 28, 32 mm (ja); Kopf-Ø 22,2 mm: nein; Pfannengröße/Profil laut T19b_ccb",
+   "quelle": "mx-heads-ifu",
+   "seite": "5",
+   "tabelle": "T3_kopf_pfanne"
+  },
+  {
+   "von": "enovis.kopf.cocr",
+   "zu": "enovis.ccb",
+   "status": "bedingt",
+   "bedingung": "nur Kopf-Ø 28, 32 mm (ja); Kopf-Ø 22,2, 36 mm: nein; Pfannengröße/Profil laut T19b_ccb",
+   "quelle": "mx-heads-ifu",
+   "seite": "5",
+   "tabelle": "T3_kopf_pfanne"
+  },
+  {
+   "von": "enovis.kopf.ceramys",
+   "zu": "enovis.rm_classic",
+   "status": "bedingt",
+   "bedingung": "Vollprofil: ja für Ø 32; angeschrägt: ja für Ø 28, 32; Revisionspfanne: ja für Ø 32 (übrige Ø: nein)",
+   "quelle": "mx-heads-ifu",
+   "seite": "5",
+   "tabelle": "T3_kopf_pfanne"
+  },
+  {
+   "von": "enovis.kopf.symarec",
+   "zu": "enovis.rm_classic",
+   "status": "bedingt",
+   "bedingung": "Vollprofil: ja für Ø 32; angeschrägt: ja für Ø 28, 32; Revisionspfanne: ja für Ø 32 (übrige Ø: nein)",
+   "quelle": "mx-heads-ifu",
+   "seite": "5",
+   "tabelle": "T3_kopf_pfanne"
+  },
+  {
+   "von": "enovis.kopf.stahl",
+   "zu": "enovis.rm_classic",
+   "status": "bedingt",
+   "bedingung": "Vollprofil: ja für Ø 32; angeschrägt: ja für Ø 28, 32; Revisionspfanne: ja für Ø 32 (übrige Ø: nein)",
+   "quelle": "mx-heads-ifu",
+   "seite": "5",
+   "tabelle": "T3_kopf_pfanne"
+  },
+  {
+   "von": "enovis.kopf.cocr",
+   "zu": "enovis.rm_classic",
+   "status": "bedingt",
+   "bedingung": "Vollprofil: ja für Ø 32; angeschrägt: ja für Ø 28, 32; Revisionspfanne: ja für Ø 32 (übrige Ø: nein)",
+   "quelle": "mx-heads-ifu",
+   "seite": "5",
+   "tabelle": "T3_kopf_pfanne"
+  },
+  {
+   "von": "enovis.kopf.ceramys",
+   "zu": "enovis.selexys_pe_einsatz",
+   "status": "bedingt",
+   "bedingung": "nur Kopf-Ø 28, 32 mm (ja); Kopf-Ø 36 mm: nein; Spalte „seleXys UHMWPE Inlay“ (standard/überhöht nicht unterschieden); Einsatz nur 28/32 mm gedruckt; Lieferbarkeit offen (archiviertes Dokument / nicht im aktuellen Portal)",
+   "quelle": "mx-heads-ifu",
+   "seite": "5",
+   "tabelle": "T3_kopf_pfanne"
+  },
+  {
+   "von": "enovis.kopf.symarec",
+   "zu": "enovis.selexys_pe_einsatz",
+   "status": "bedingt",
+   "bedingung": "nur Kopf-Ø 28, 32 mm (ja); Kopf-Ø 36 mm: nein; Spalte „seleXys UHMWPE Inlay“ (standard/überhöht nicht unterschieden); Einsatz nur 28/32 mm gedruckt; Lieferbarkeit offen (archiviertes Dokument / nicht im aktuellen Portal)",
+   "quelle": "mx-heads-ifu",
+   "seite": "5",
+   "tabelle": "T3_kopf_pfanne"
+  },
+  {
+   "von": "enovis.kopf.stahl",
+   "zu": "enovis.selexys_pe_einsatz",
+   "status": "bedingt",
+   "bedingung": "nur Kopf-Ø 28, 32 mm (ja); Kopf-Ø 22,2 mm: nein; Spalte „seleXys UHMWPE Inlay“ (standard/überhöht nicht unterschieden); Einsatz nur 28/32 mm gedruckt; Lieferbarkeit offen (archiviertes Dokument / nicht im aktuellen Portal)",
+   "quelle": "mx-heads-ifu",
+   "seite": "5",
+   "tabelle": "T3_kopf_pfanne"
+  },
+  {
+   "von": "enovis.kopf.cocr",
+   "zu": "enovis.selexys_pe_einsatz",
+   "status": "bedingt",
+   "bedingung": "nur Kopf-Ø 28, 32 mm (ja); Kopf-Ø 22,2, 36 mm: nein; Spalte „seleXys UHMWPE Inlay“ (standard/überhöht nicht unterschieden); Einsatz nur 28/32 mm gedruckt; Lieferbarkeit offen (archiviertes Dokument / nicht im aktuellen Portal)",
+   "quelle": "mx-heads-ifu",
+   "seite": "5",
+   "tabelle": "T3_kopf_pfanne"
+  },
+  {
+   "von": "enovis.kopf.ceramys",
+   "zu": "enovis.selexys_pe_einsatz_ueberhoeht",
+   "status": "bedingt",
+   "bedingung": "nur Kopf-Ø 28, 32 mm (ja); Kopf-Ø 36 mm: nein; Spalte „seleXys UHMWPE Inlay“ (standard/überhöht nicht unterschieden); Einsatz nur 28/32 mm gedruckt; Lieferbarkeit offen (archiviertes Dokument / nicht im aktuellen Portal)",
+   "quelle": "mx-heads-ifu",
+   "seite": "5",
+   "tabelle": "T3_kopf_pfanne"
+  },
+  {
+   "von": "enovis.kopf.symarec",
+   "zu": "enovis.selexys_pe_einsatz_ueberhoeht",
+   "status": "bedingt",
+   "bedingung": "nur Kopf-Ø 28, 32 mm (ja); Kopf-Ø 36 mm: nein; Spalte „seleXys UHMWPE Inlay“ (standard/überhöht nicht unterschieden); Einsatz nur 28/32 mm gedruckt; Lieferbarkeit offen (archiviertes Dokument / nicht im aktuellen Portal)",
+   "quelle": "mx-heads-ifu",
+   "seite": "5",
+   "tabelle": "T3_kopf_pfanne"
+  },
+  {
+   "von": "enovis.kopf.stahl",
+   "zu": "enovis.selexys_pe_einsatz_ueberhoeht",
+   "status": "bedingt",
+   "bedingung": "nur Kopf-Ø 28, 32 mm (ja); Kopf-Ø 22,2 mm: nein; Spalte „seleXys UHMWPE Inlay“ (standard/überhöht nicht unterschieden); Einsatz nur 28/32 mm gedruckt; Lieferbarkeit offen (archiviertes Dokument / nicht im aktuellen Portal)",
+   "quelle": "mx-heads-ifu",
+   "seite": "5",
+   "tabelle": "T3_kopf_pfanne"
+  },
+  {
+   "von": "enovis.kopf.cocr",
+   "zu": "enovis.selexys_pe_einsatz_ueberhoeht",
+   "status": "bedingt",
+   "bedingung": "nur Kopf-Ø 28, 32 mm (ja); Kopf-Ø 22,2, 36 mm: nein; Spalte „seleXys UHMWPE Inlay“ (standard/überhöht nicht unterschieden); Einsatz nur 28/32 mm gedruckt; Lieferbarkeit offen (archiviertes Dokument / nicht im aktuellen Portal)",
+   "quelle": "mx-heads-ifu",
+   "seite": "5",
+   "tabelle": "T3_kopf_pfanne"
+  },
+  {
    "von": "enovis.selexys_pc",
    "zu": "enovis.selexys_pe_einsatz",
    "status": "bedingt",
-   "bedingung": "Zuordnung laut seleXys-PC-OP-Technik S. 11–12/19 – noch nicht am Original gelesen",
+   "bedingung": "Buchstabencode von Schale und Einsatz muss übereinstimmen (z. B. 50 / EE ↔ 28 / EE); Lieferbarkeit offen (archiviertes Dokument / nicht im aktuellen Portal)",
    "quelle": "selexys",
-   "seite": "11–12, 19"
+   "seite": "11, 16–19"
+  },
+  {
+   "von": "enovis.selexys_pc",
+   "zu": "enovis.selexys_pe_einsatz_ueberhoeht",
+   "status": "bedingt",
+   "bedingung": "Buchstabencode von Schale und Einsatz muss übereinstimmen (z. B. 50 / EE ↔ 28 / EE); Lieferbarkeit offen (archiviertes Dokument / nicht im aktuellen Portal)",
+   "quelle": "selexys",
+   "seite": "11, 16–19"
+  },
+  {
+   "von": "enovis.selexys_pc",
+   "zu": "enovis.selexys_vitamys_einsatz",
+   "status": "bedingt",
+   "bedingung": "Buchstabencode von Schale und Einsatz muss übereinstimmen (z. B. 50 / EE ↔ 28 / EE); Lieferbarkeit offen (archiviertes Dokument / nicht im aktuellen Portal)",
+   "quelle": "selexys",
+   "seite": "11, 16–19"
+  },
+  {
+   "von": "enovis.selexys_pc",
+   "zu": "enovis.selexys_vitamys_einsatz_ueberhoeht",
+   "status": "bedingt",
+   "bedingung": "Buchstabencode von Schale und Einsatz muss übereinstimmen (z. B. 50 / EE ↔ 28 / EE); Lieferbarkeit offen (archiviertes Dokument / nicht im aktuellen Portal)",
+   "quelle": "selexys",
+   "seite": "11, 16–19"
+  },
+  {
+   "von": "enovis.selexys_pc",
+   "zu": "enovis.selexys_ceramys_einsatz",
+   "status": "bedingt",
+   "bedingung": "Buchstabencode von Schale und Einsatz muss übereinstimmen (z. B. 50 / EE ↔ 28 / EE); Lieferbarkeit offen (archiviertes Dokument / nicht im aktuellen Portal)",
+   "quelle": "selexys",
+   "seite": "11, 16–19"
+  },
+  {
+   "von": "enovis.kopf.ceramys",
+   "zu": "enovis.selexys_ceramys_einsatz",
+   "status": "offen",
+   "bedingung": "Widerspruch zwischen Dokumenten, nicht aufgelöst: seleXys-OP-Technik 2019-10 (gedr./PDF 5, 17): Keramikeinsatz „nur mit Mathys Keramikköpfen“; Kopf-IFU 2024-06 Tab. 3 führt seleXys ceramys nicht auf („Kombination mit einem Produkt, das nicht aufgeführt ist, ist nicht zulässig“); Lieferbarkeit offen (archiviertes Dokument / nicht im aktuellen Portal)",
+   "quelle": "selexys; mx-heads-ifu",
+   "seite": "selexys 5, 17; Kopf-IFU S. 4–5"
+  },
+  {
+   "von": "enovis.kopf.ceramys",
+   "zu": "enovis.selexys_vitamys_einsatz",
+   "status": "offen",
+   "bedingung": "Widerspruch zwischen Dokumenten, nicht aufgelöst: seleXys-OP-Technik 2019-10 (gedr./PDF 18) führt vitamys-Einsätze für 28/32/36; Kopf-IFU 2024-06 Tab. 3 führt seleXys vitamys nicht auf (nicht aufgeführte Produkte nicht zulässig); Lieferbarkeit offen (archiviertes Dokument / nicht im aktuellen Portal)",
+   "quelle": "selexys; mx-heads-ifu",
+   "seite": "selexys 18; Kopf-IFU S. 4–5"
+  },
+  {
+   "von": "enovis.kopf.ceramys",
+   "zu": "enovis.selexys_vitamys_einsatz_ueberhoeht",
+   "status": "offen",
+   "bedingung": "Widerspruch zwischen Dokumenten, nicht aufgelöst: seleXys-OP-Technik 2019-10 (gedr./PDF 18) führt vitamys-Einsätze für 28/32/36; Kopf-IFU 2024-06 Tab. 3 führt seleXys vitamys nicht auf (nicht aufgeführte Produkte nicht zulässig); Lieferbarkeit offen (archiviertes Dokument / nicht im aktuellen Portal)",
+   "quelle": "selexys; mx-heads-ifu",
+   "seite": "selexys 18; Kopf-IFU S. 4–5"
+  },
+  {
+   "von": "enovis.kopf.symarec",
+   "zu": "enovis.selexys_ceramys_einsatz",
+   "status": "offen",
+   "bedingung": "Widerspruch zwischen Dokumenten, nicht aufgelöst: seleXys-OP-Technik 2019-10 (gedr./PDF 5, 17): Keramikeinsatz „nur mit Mathys Keramikköpfen“; Kopf-IFU 2024-06 Tab. 3 führt seleXys ceramys nicht auf („Kombination mit einem Produkt, das nicht aufgeführt ist, ist nicht zulässig“); Lieferbarkeit offen (archiviertes Dokument / nicht im aktuellen Portal)",
+   "quelle": "selexys; mx-heads-ifu",
+   "seite": "selexys 5, 17; Kopf-IFU S. 4–5"
+  },
+  {
+   "von": "enovis.kopf.symarec",
+   "zu": "enovis.selexys_vitamys_einsatz",
+   "status": "offen",
+   "bedingung": "Widerspruch zwischen Dokumenten, nicht aufgelöst: seleXys-OP-Technik 2019-10 (gedr./PDF 18) führt vitamys-Einsätze für 28/32/36; Kopf-IFU 2024-06 Tab. 3 führt seleXys vitamys nicht auf (nicht aufgeführte Produkte nicht zulässig); Lieferbarkeit offen (archiviertes Dokument / nicht im aktuellen Portal)",
+   "quelle": "selexys; mx-heads-ifu",
+   "seite": "selexys 18; Kopf-IFU S. 4–5"
+  },
+  {
+   "von": "enovis.kopf.symarec",
+   "zu": "enovis.selexys_vitamys_einsatz_ueberhoeht",
+   "status": "offen",
+   "bedingung": "Widerspruch zwischen Dokumenten, nicht aufgelöst: seleXys-OP-Technik 2019-10 (gedr./PDF 18) führt vitamys-Einsätze für 28/32/36; Kopf-IFU 2024-06 Tab. 3 führt seleXys vitamys nicht auf (nicht aufgeführte Produkte nicht zulässig); Lieferbarkeit offen (archiviertes Dokument / nicht im aktuellen Portal)",
+   "quelle": "selexys; mx-heads-ifu",
+   "seite": "selexys 18; Kopf-IFU S. 4–5"
+  },
+  {
+   "von": "enovis.kopf.stahl",
+   "zu": "enovis.selexys_ceramys_einsatz",
+   "status": "nein",
+   "bedingung": "Kontraindikation „Keramikinlay in Kombination mit Metallkopf“ (seleXys) bzw. „Metallkopf in Kombination mit einem Keramik-Inlay“ (Kopf-IFU Kap. 4.3)",
+   "quelle": "selexys; mx-heads-ifu",
+   "seite": "selexys 5; Kopf-IFU Kap. 4.3"
+  },
+  {
+   "von": "enovis.kopf.stahl",
+   "zu": "enovis.selexys_vitamys_einsatz",
+   "status": "offen",
+   "bedingung": "seleXys vitamys nicht in Kopf-IFU Tab. 3 (nicht aufgeführte Produkte nicht zulässig); OP-Technik 2019 ohne Kopf-Material-Tabelle; Lieferbarkeit offen (archiviertes Dokument / nicht im aktuellen Portal)",
+   "quelle": "selexys; mx-heads-ifu",
+   "seite": "selexys 18; Kopf-IFU S. 4–5"
+  },
+  {
+   "von": "enovis.kopf.stahl",
+   "zu": "enovis.selexys_vitamys_einsatz_ueberhoeht",
+   "status": "offen",
+   "bedingung": "seleXys vitamys nicht in Kopf-IFU Tab. 3 (nicht aufgeführte Produkte nicht zulässig); OP-Technik 2019 ohne Kopf-Material-Tabelle; Lieferbarkeit offen (archiviertes Dokument / nicht im aktuellen Portal)",
+   "quelle": "selexys; mx-heads-ifu",
+   "seite": "selexys 18; Kopf-IFU S. 4–5"
+  },
+  {
+   "von": "enovis.kopf.cocr",
+   "zu": "enovis.selexys_ceramys_einsatz",
+   "status": "nein",
+   "bedingung": "Kontraindikation „Keramikinlay in Kombination mit Metallkopf“ (seleXys) bzw. „Metallkopf in Kombination mit einem Keramik-Inlay“ (Kopf-IFU Kap. 4.3)",
+   "quelle": "selexys; mx-heads-ifu",
+   "seite": "selexys 5; Kopf-IFU Kap. 4.3"
+  },
+  {
+   "von": "enovis.kopf.cocr",
+   "zu": "enovis.selexys_vitamys_einsatz",
+   "status": "offen",
+   "bedingung": "seleXys vitamys nicht in Kopf-IFU Tab. 3 (nicht aufgeführte Produkte nicht zulässig); OP-Technik 2019 ohne Kopf-Material-Tabelle; Lieferbarkeit offen (archiviertes Dokument / nicht im aktuellen Portal)",
+   "quelle": "selexys; mx-heads-ifu",
+   "seite": "selexys 18; Kopf-IFU S. 4–5"
+  },
+  {
+   "von": "enovis.kopf.cocr",
+   "zu": "enovis.selexys_vitamys_einsatz_ueberhoeht",
+   "status": "offen",
+   "bedingung": "seleXys vitamys nicht in Kopf-IFU Tab. 3 (nicht aufgeführte Produkte nicht zulässig); OP-Technik 2019 ohne Kopf-Material-Tabelle; Lieferbarkeit offen (archiviertes Dokument / nicht im aktuellen Portal)",
+   "quelle": "selexys; mx-heads-ifu",
+   "seite": "selexys 18; Kopf-IFU S. 4–5"
+  },
+  {
+   "von": "enovis.selexys_pc",
+   "zu": "enovis.selexys_schraube",
+   "status": "bedingt",
+   "bedingung": "Spongiosaschraube 5,7 mm laut seleXys-OP-Technik; Lieferbarkeit offen (archiviertes Dokument / nicht im aktuellen Portal)",
+   "quelle": "selexys",
+   "seite": "16"
   }
  ],
  "regeln": [
   {
    "wenn": "alle",
    "pruefe": "Paarung mit Quelle",
-   "text": "Keine Kopf-/Schaft-/Pfannen-Paarung ohne lesbares Original; Flyer und Produktseiten nennen keine twinSys-Kopffreigabe.",
-   "quelle": "Astra 07.10.2026"
+   "text": "Kopf-Paarungen nur laut Mathys-Kopf-IFU Tab. 3/4 (2024-06), Bipolar-/Hemi-IFU Tab. 4–6 und Schaft-IFU Abb. 1; nicht aufgeführte Produkte sind laut Kopf-IFU nicht zulässig. Flyer/Produktseiten nennen keine Freigaben.",
+   "quelle": "mx-heads-ifu S. 4–6; mx-bh-ifu S. 5"
   },
   {
    "wenn": "pfanne",
@@ -457,6 +3206,54 @@
    "pruefe": "RM Classic ohne Inlay",
    "text": "RM Classic ist Monoblock – kein zusätzliches Inlay anbieten.",
    "quelle": "rm-classic"
+  },
+  {
+   "wenn": "kopf",
+   "pruefe": "metall → nur Mathys-PE",
+   "text": "Stahl- und CoCrMo-Hüftköpfe nur mit Mathys Polyethylen-Pfannen oder -Einsätzen; kein Metallkopf mit Keramik-Inlay.",
+   "quelle": "mx-twinsys-ot S. 28; mx-heads-ifu Kap. 4.3"
+  },
+  {
+   "wenn": "kopf+inlay",
+   "pruefe": "keramik-keramik nur Mathys",
+   "text": "Keramik-Keramik nur Mathys-Köpfe mit Mathys-Keramikeinsätzen; keine Hart-Hart-Paarung bei Pfanneninklination < 40° oder > 50° oder Impingement-Gefahr.",
+   "quelle": "mx-twinsys-ot S. 29; mx-heads-ifu Kap. 4.3"
+  },
+  {
+   "wenn": "kopf",
+   "pruefe": "keramik auf neuem Konus",
+   "text": "Keramikköpfe nur auf neuen und unbeschädigten Schaftkonen; nach Keramikbruch keine Metallkomponenten zur Artikulation.",
+   "quelle": "mx-heads-ifu Kap. 4.3"
+  },
+  {
+   "wenn": "pfanne+inlay",
+   "pruefe": "seleXys Buchstabencode",
+   "text": "seleXys PC: Buchstabencode von Schale und Einsatz muss übereinstimmen; Keramik-Einsatz nur in neuer Schale. seleXys Lieferbarkeit offen.",
+   "quelle": "selexys S. 11, 13"
+  },
+  {
+   "wenn": "duokopf",
+   "pruefe": "innenkopf == 28",
+   "text": "Bipolarkopf Stahl (42–58) nur mit 28-mm-Innenkopf (Stahl, CoCrMo, ceramys, symarec, ceramys-Revision); Durchmesser des Hüftkopfes muss zum Innendurchmesser passen; Acetabulum nicht fräsen.",
+   "quelle": "mx-bh-ifu Tab. 5/6; mx-bh-ot S. 7–8"
+  },
+  {
+   "wenn": "hemikopf",
+   "pruefe": "halslaenge in {S, M}",
+   "text": "Hemikopf Stahl nur mit Halslänge S oder M (freigegeben für CCA, optimys, twinSys, stellaris).",
+   "quelle": "mx-bh-ifu Tab. 4"
+  },
+  {
+   "wenn": "schaft",
+   "pruefe": "NG → Einschläger mit Offset",
+   "text": "twinSys zementiert (NG) hat kein Gewinde – nicht mit Schaftsetzinstrument mit Schraubhalterung 56.02.6204, sondern z. B. Einschläger mit Offset 51.34.0446.",
+   "quelle": "mx-twinsys-ot S. 27"
+  },
+  {
+   "wenn": "fremd",
+   "pruefe": "nicht mischen",
+   "text": "„Mathys AG Bettlach empfiehlt dringend, ihre Produkte nicht mit Implantatsystemen anderer Hersteller zu kombinieren.“",
+   "quelle": "mx-heads-ifu S. 6"
   }
  ],
  "rueckrufe": [
@@ -466,27 +3263,35 @@
    "kennung": "FSCA 12/04 (01107/12), 16.02.2012",
    "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/11/2012/01107-12_kundeninfo_en.pdf?__blob=publicationFile",
    "hinweis": "IFU-Ergänzung zum Öffnen der Verpackung; nur bei vitamys-Einsätzen relevant",
-   "betrifft": [],
+   "betrifft": [
+    "enovis.selexys_vitamys_einsatz",
+    "enovis.selexys_vitamys_einsatz_ueberhoeht"
+   ],
    "markt": "EU/DE"
   }
  ],
  "offen": [
-  "seleXys PC Original (V04 2019-10) von Grok/Astra lesen; aktuelle Enovis-Fassung",
-  "Kopf-Kompatibilität twinSys (aktuelles Enovis-Chart)",
-  "Mathys Bipolarkopf + twinSys zementiert Freigabe",
-  "twinSys: nicht aufgeführte Einzel-REF",
-  "EU-IFUs",
-  "GTIN"
+  "seleXys PC: aktuelle Lieferbarkeit/Fassung beim Hersteller klären (nur archivierte OP-Technik 2019-10, nicht im e-IFU)",
+  "seleXys vitamys- und ceramys-Einsätze × Köpfe: Widerspruch OP-Technik 2019 ↔ Kopf-IFU 2024 Tab. 3 (nicht aufgeführt)",
+  "CoCrMo-Bipolarköpfe 52.34.0090–0117: Lieferbarkeit offen (nicht in Bipolar-IFU/-OP-Technik 2024-06 und e-IFU-Index)",
+  "Bipolarkopf × twinSys zementiert: keine Schaft×Bipolar-Tabelle (nur indirekt über 28-mm-Innenkopf)",
+  "Stahl-Köpfe × twinSys: Kopf-IFU Tab. 4 ohne Stahl-Zeilen; twinSys-IFU Abb. 1 nennt Edelstahl ohne Größen",
+  "twinSys Lang Größe 11: Zelle leer gedruckt",
+  "RM Classic / ccB: Größen-REF nicht in diesem Lauf",
+  "Packungs-/Etikettbilder: in keinem gelesenen Mathys-Dokument abgebildet",
+  "Zweitprüfung der Mathys-Werte (OpenAI kam nicht an die Dokumente – Fachkreis-Gate)",
+  "GTIN/UDI-DI"
  ],
  "region": "hüfte",
  "verified": false,
- "verified_hinweis": "Lauf 001-implantate: Werte von Grok und Astra am Original gelesen (07.10.2026), Claude-Änderungsliste von Julian abgenommen. Keine EU-IFU gelesen; keine klinische Freigabe. Hausbestand jeder Klinik am Etikett prüfen.",
+ "verified_hinweis": "Lauf 001-implantate: Werte von Grok und Astra am Original gelesen (07.10.2026), Claude-Änderungsliste von Julian abgenommen. Keine EU-IFU gelesen; keine klinische Freigabe. Hausbestand jeder Klinik am Etikett prüfen. Lauf 001-implantate-luecken (07.10.2026): Größen/REF/Kombinationen aus dem Mathys-e-IFU (OP-Techniken 2024-03/2024-06, Gebrauchsanweisungen) und seleXys PC aus archivierter OP-Technik 2019 von einem Claude-Helfer am Original gelesen; OpenAI konnte die Dokumente nicht öffnen – daher nur 1 Prüfer.",
  "stand_extrakt": "2026-10-07",
  "hinweise": [
   "Vor dem Öffnen Komponente, Seite und Größe laut ansagen; Herstellerdokument und aktuelle EU-IFU maßgeblich.",
   "Systeme nicht mischen: nur Komponenten, die der Hersteller ausdrücklich für dieses System vorsieht. Gleicher Konus oder gleiche Keramikmarke ist kein Kombinationsnachweis.",
   "Werte nur aus dem genannten Original mit Seite; nicht dokumentierte Kombinationen bleiben „offen – Operateur fragen“ (ungeprüft ≠ verboten ≠ freigegeben).",
-  "Rückrufe sind chargenspezifisch: Betroffenheit nur über REF/Charge im Original und mit der/dem Medizinprodukte-Beauftragten klären – keine pauschale Sperre oder Freigabe."
+  "Rückrufe sind chargenspezifisch: Betroffenheit nur über REF/Charge im Original und mit der/dem Medizinprodukte-Beauftragten klären – keine pauschale Sperre oder Freigabe.",
+  "Mathys-Werte (Lauf 001-implantate-luecken) aus dem öffentlichen Mathys-e-IFU-Portal ifu.mathysmedical.com (aktuelle DE-OP-Techniken/IFUs) – nur ein Prüfer am Original; seleXys PC nur aus archivierter OP-Technik 2019."
  ],
  "aenderungsprotokoll": [
   {
@@ -500,6 +3305,12 @@
    "datum": "2026-10-07",
    "lauf": "001-implantate",
    "text": "Größen/REF/Kombinationstabellen aus Grok + Astra (Astra-Korrekturen), feste IDs, passt_zu mit Bedingungen, Rückrufe mit betrifft; Perplexity-Fundstellen (eingang/001-perplexity-2/-3) als Fundstellen."
+  },
+  {
+   "version": "1.2",
+   "datum": "2026-10-07",
+   "lauf": "001-implantate-luecken",
+   "text": "Mathys-e-IFU (DE): twinSys zementfrei Standard/Lateral 7–18, XS 7–12, Lang 12–15 und zementiert Standard/Lateral 9–16 (NG) vollständig mit REF und Maßen (L/W/O/N), CCD 134°; Hüftköpfe Stahl/CoCrMo/ceramys/symarec/ceramys-Revision mit REF; Bipolarkopf Stahl 42–58 (Innenkopf 28) aktuell, CoCrMo-Bipolar 52.34.0090–0117 Lieferbarkeit offen; Hemikopf 38–58 (S/M); Kopf-IFU Tab. 3/4, Hemi-Tab. 4 und Bipolar-Tab. 5/6 als tabellen + passt_zu; seleXys PC Schalen/Einsätze (ceramys, vitamys std/überhöht, PE std/überhöht)/Schrauben aus archivierter OP-Technik 2019-10 mit „Lieferbarkeit offen“."
   }
  ]
 }

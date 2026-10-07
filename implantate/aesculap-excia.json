@@ -1,7 +1,7 @@
 {
  "hersteller": "Aesculap (B. Braun)",
  "system": "Excia T – zementfrei, zementiert, Duokopf; Plasmafit",
- "version": "1.1",
+ "version": "1.2",
  "quellen": [
   {
    "id": "e1",
@@ -16,10 +16,11 @@
    "id": "e2",
    "dokument": "AESCULAP Plasmafit – Acetabular Cup System",
    "stand": "O45502 0718/1/4, 07/2018",
-   "seiten": "gedr.=PDF 5–7 Konzept; 18–21 Implantate/Liner; 24 Köpfe; Kennung 34",
+   "seiten": "gedr.=PDF 5–7 Konzept; 12 Vitelene; 18–19 Plasmafit Poly Implantate (Bild geprüft); 20–21 Plus; 24 Köpfe/Materialien; Kennung 34",
    "url": "https://www.bbraun.de/content/dam/catalog/bbraun/bbraunProductCatalog/S/AEM2015/de-de/b307/aesculap-plasmafit.pdf",
    "markt": "EN auf DE-Herstellerseite",
-   "gelesen_von": "Grok/Astra 07.10.2026"
+   "gelesen_von": "Grok/Astra 07.10.2026; Claude-Helfer 07.10.2026 (Original); OpenAI 07.10.2026",
+   "hinweis": "Stand 0718/1/4 (PDF-Metadaten: erstellt 2018-07-16, geändert 2020-10-27); Fußzeile „Manufacturer acc. to MDD 93/42/EEC“; Aktualität unbekannt"
   },
   {
    "id": "e3",
@@ -56,6 +57,15 @@
    "url": "https://www.bbraun.de/content/dam/catalog/bbraun/bbraunProductCatalog/S/AEM2015/de-de/b306/aesculap-excia-1214.pdf",
    "markt": "DE",
    "gelesen_von": "Grok/Astra 07.10.2026"
+  },
+  {
+   "id": "e5",
+   "dokument": "AESCULAP Excia T Hip Endoprosthesis System (EN)",
+   "stand": "O56002 0920/PDF/5, 09/2020",
+   "seiten": "Gesamtdokument geöffnet; kein positiver Paarungsbeleg Bipolar Cup × Excia T zementiert",
+   "url": "https://www.bbraun.de/content/dam/catalog/bbraun/bbraunProductCatalog/S/AEM2015/de-de/b306/aesculap-excia-t.pdf",
+   "markt": "EN auf DE-Herstellerseite; anderer Dokumentstand als e1 (Nr. 4008516, 01/2026)",
+   "gelesen_von": "OpenAI 07.10.2026"
   }
  ],
  "komponenten": [
@@ -77,9 +87,10 @@
     }
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-/Packungsangaben in den Quellen dieses Laufs nicht geprüft."
    },
    "quelle": "e1",
    "sicherheit": "belegt",
@@ -169,9 +180,10 @@
     }
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-/Packungsangaben in den Quellen dieses Laufs nicht geprüft."
    },
    "quelle": "e1",
    "sicherheit": "belegt",
@@ -222,9 +234,10 @@
     "liner": "Keramik oder PE (e2 S. 5)"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Keine Verpackungs-/Etikettabbildung im Dokument O45502 (alle 34 Seiten gesichtet). Produktabbildungen nur als Fundstelle: PDF 1–4, 6–7, 20–23."
    },
    "quelle": "e2",
    "sicherheit": "belegt",
@@ -305,63 +318,80 @@
    "gtin": null,
    "attribute": {
     "fixation": "zementfrei",
-    "liner": "nur PE (e2 S. 5: „Only for polyethylene liners“)"
+    "liner": "nur PE (e2 S. 5: „Only for polyethylene liners“)",
+    "material": "ISOTAN F (Plasmafit Poly ISOTAN®F)",
+    "seite": "gedr./PDF 18–19 (Bild geprüft)",
+    "systemtext": "„Plasmafit® Poly is a dedicated cup implant line exclusively for the use with polyethylene liners.“ … 36-mm-Vitelene ab Schale 50, bis 40 mm Artikulation ab Schale 54 (gedr./PDF 6)",
+    "verschlussstopfen": "„Plasmafit® Poly no screw holes, with closing plug“ – zentraler Verschlussstopfen bei Schalen ohne Schraubenlöcher automatisch mitgeliefert; NV001T einzeln bestellbar (gedr./PDF 19)"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Keine Verpackungs-/Etikettabbildung im Dokument O45502 (alle 34 Seiten gesichtet). Produktabbildungen nur als Fundstelle: gedr./PDF 19 Schale mit Verschlussstopfen und NV001T; PDF 1–4 Schalenvarianten."
    },
    "quelle": "e2",
-   "sicherheit": "belegt",
+   "sicherheit": "belegt (Original, 2 Prüfer)",
    "groessen": [
     {
      "groesse": "40",
-     "liner_code": "B"
+     "liner_code": "B",
+     "ref": "NV040T"
     },
     {
      "groesse": "42",
-     "liner_code": "C"
+     "liner_code": "C",
+     "ref": "NV042T"
     },
     {
      "groesse": "44",
-     "liner_code": "D"
+     "liner_code": "D",
+     "ref": "NV044T"
     },
     {
      "groesse": "46",
-     "liner_code": "E"
+     "liner_code": "E",
+     "ref": "NV046T"
     },
     {
      "groesse": "48",
-     "liner_code": "F"
+     "liner_code": "F",
+     "ref": "NV048T"
     },
     {
      "groesse": "50",
-     "liner_code": "G"
+     "liner_code": "G",
+     "ref": "NV050T"
     },
     {
      "groesse": "52",
-     "liner_code": "H"
+     "liner_code": "H",
+     "ref": "NV052T"
     },
     {
      "groesse": "54",
-     "liner_code": "I"
+     "liner_code": "I",
+     "ref": "NV054T"
     },
     {
      "groesse": "56",
-     "liner_code": "J"
+     "liner_code": "J",
+     "ref": "NV056T"
     },
     {
      "groesse": "58",
-     "liner_code": "K"
+     "liner_code": "K",
+     "ref": "NV058T"
     },
     {
      "groesse": "60",
-     "liner_code": "L"
+     "liner_code": "L",
+     "ref": "NV060T"
     },
     {
      "groesse": "62",
-     "liner_code": "M"
+     "liner_code": "M",
+     "ref": "NV062T"
     }
    ]
   },
@@ -379,9 +409,10 @@
     "hinweis": "nicht als Müller-Pfanne umbenennen"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-/Packungsangaben in den Quellen dieses Laufs nicht geprüft."
    },
    "quelle": "e4",
    "sicherheit": "offen"
@@ -401,9 +432,10 @@
     "beispiel_ref_36": "Plus 52=NV113D, 54=NV114D, 56=NV115D, 58/60/62=NV116D, 64–70=NV117D (e2 S. 20–21)"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Keine Verpackungs-/Etikettabbildung im Dokument O45502 (alle 34 Seiten gesichtet). Produktabbildungen nur als Fundstelle: PDF 1–4, 6–7, 20–23."
    },
    "quelle": "e2",
    "sicherheit": "belegt",
@@ -435,17 +467,673 @@
    "ref": null,
    "gtin": null,
    "attribute": {
-    "material": "UHMWPE",
-    "fuer": "Plasmafit Poly (Auswahl Julian 07.10.2026); Plasmafit Plus ebenfalls PE möglich",
-    "werte": "symmetrische UHMWPE-Zeilen in e2 noch nicht übernommen – Größe vom Etikett"
+    "material": "UHMWPE (ISO 5834-2) – konventionelles PE, REF ohne „E“",
+    "fuer": "Plasmafit Poly (Auswahl Julian 07.10.2026); Plasmafit Plus ebenfalls PE möglich (Plus-REF nicht in diesem Lauf)",
+    "seite": "gedr./PDF 18–19 (Bild geprüft); Materialliste gedr./PDF 24",
+    "bereich": "symmetrisch 32 bei 46–62; mit Schulter 28 bei 42/44; mit Schulter 32 bei 46–62; Schale 40/B ohne UHMWPE-Liner; keine UHMWPE-Liner 22,2/36/40",
+    "hinweis": "Standard-UHMWPE deutlich enger als Vitelene – keine 36-/40-mm-Zeilen aus Vitelene ableiten; NV201 ≠ NV201E. „with shoulder“ (UHMWPE) und „posterior wall“ (Vitelene) haben dieselben Ziffern – ob dasselbe Design, sagt das Dokument nicht."
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Keine Verpackungs-/Etikettabbildung im Dokument O45502 (alle 34 Seiten gesichtet). Produktabbildungen nur als Fundstelle: gedr./PDF 18 kleine Freisteller der Inlay-Typen."
    },
    "quelle": "e2",
-   "sicherheit": "hausabhängig"
+   "sicherheit": "belegt (Original, 2 Prüfer)",
+   "groessen": [
+    {
+     "variante": "symmetrical UHMWPE",
+     "innen_mm": "32",
+     "schale_poly_mm": "46",
+     "liner_code": "E",
+     "ref": "NV201"
+    },
+    {
+     "variante": "symmetrical UHMWPE",
+     "innen_mm": "32",
+     "schale_poly_mm": "48",
+     "liner_code": "F",
+     "ref": "NV202"
+    },
+    {
+     "variante": "symmetrical UHMWPE",
+     "innen_mm": "32",
+     "schale_poly_mm": "50",
+     "liner_code": "G",
+     "ref": "NV203"
+    },
+    {
+     "variante": "symmetrical UHMWPE",
+     "innen_mm": "32",
+     "schale_poly_mm": "52",
+     "liner_code": "H",
+     "ref": "NV204"
+    },
+    {
+     "variante": "symmetrical UHMWPE",
+     "innen_mm": "32",
+     "schale_poly_mm": "54",
+     "liner_code": "I",
+     "ref": "NV205"
+    },
+    {
+     "variante": "symmetrical UHMWPE",
+     "innen_mm": "32",
+     "schale_poly_mm": "56",
+     "liner_code": "J",
+     "ref": "NV206"
+    },
+    {
+     "variante": "symmetrical UHMWPE",
+     "innen_mm": "32",
+     "schale_poly_mm": "58",
+     "liner_code": "K",
+     "ref": "NV207"
+    },
+    {
+     "variante": "symmetrical UHMWPE",
+     "innen_mm": "32",
+     "schale_poly_mm": "60",
+     "liner_code": "L",
+     "ref": "NV208"
+    },
+    {
+     "variante": "symmetrical UHMWPE",
+     "innen_mm": "32",
+     "schale_poly_mm": "62",
+     "liner_code": "M",
+     "ref": "NV209"
+    },
+    {
+     "variante": "with shoulder UHMWPE",
+     "innen_mm": "28",
+     "schale_poly_mm": "42",
+     "liner_code": "C",
+     "ref": "NV289"
+    },
+    {
+     "variante": "with shoulder UHMWPE",
+     "innen_mm": "28",
+     "schale_poly_mm": "44",
+     "liner_code": "D",
+     "ref": "NV290"
+    },
+    {
+     "variante": "with shoulder UHMWPE",
+     "innen_mm": "32",
+     "schale_poly_mm": "46",
+     "liner_code": "E",
+     "ref": "NV301"
+    },
+    {
+     "variante": "with shoulder UHMWPE",
+     "innen_mm": "32",
+     "schale_poly_mm": "48",
+     "liner_code": "F",
+     "ref": "NV302"
+    },
+    {
+     "variante": "with shoulder UHMWPE",
+     "innen_mm": "32",
+     "schale_poly_mm": "50",
+     "liner_code": "G",
+     "ref": "NV303"
+    },
+    {
+     "variante": "with shoulder UHMWPE",
+     "innen_mm": "32",
+     "schale_poly_mm": "52",
+     "liner_code": "H",
+     "ref": "NV304"
+    },
+    {
+     "variante": "with shoulder UHMWPE",
+     "innen_mm": "32",
+     "schale_poly_mm": "54",
+     "liner_code": "I",
+     "ref": "NV305"
+    },
+    {
+     "variante": "with shoulder UHMWPE",
+     "innen_mm": "32",
+     "schale_poly_mm": "56",
+     "liner_code": "J",
+     "ref": "NV306"
+    },
+    {
+     "variante": "with shoulder UHMWPE",
+     "innen_mm": "32",
+     "schale_poly_mm": "58",
+     "liner_code": "K",
+     "ref": "NV307"
+    },
+    {
+     "variante": "with shoulder UHMWPE",
+     "innen_mm": "32",
+     "schale_poly_mm": "60",
+     "liner_code": "L",
+     "ref": "NV308"
+    },
+    {
+     "variante": "with shoulder UHMWPE",
+     "innen_mm": "32",
+     "schale_poly_mm": "62",
+     "liner_code": "M",
+     "ref": "NV309"
+    }
+   ]
+  },
+  {
+   "id": "aesculap.inlay.vitelene",
+   "typ": "inlay",
+   "bezeichnung": "Vitelene-Liner (Plasmafit Poly)",
+   "auswahl_dach": false,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "material": "Vitelene® – UHMWPE-XE vitamin E stabilized highly crosslinked polyethylene (REF mit Endung „E“)",
+    "fuer": "Plasmafit Poly (REF-Tabelle gedr./PDF 18–19); Plus-Zuordnung siehe T8 (REF für Plus nicht in diesem Lauf)",
+    "seite": "gedr./PDF 18–19 (Bild geprüft); Beschreibung gedr./PDF 12; Materialliste gedr./PDF 24",
+    "bereich": "symmetrisch: 22,2 bei 40/42; 28 bei 42–54; 32 bei 46–62; 36 bei 50–62; 40 bei 54–62. posterior wall: wie symmetrisch, ohne 40 mm. asymmetrisch: 22,2 bei 40/42; 28 bei 42/44/46; 32 bei 46–62",
+    "pruefung": "Schalenbereiche je Variante/Innen-Ø von OpenAI bestätigt (2 Prüfer); Einzel-REF nur vom Claude-Helfer gelesen",
+    "beschreibung": "80 kGy Elektronenstrahl, 0,1 % α-Tocopherol, EO-sterilisiert, keine thermische Nachbehandlung (gedr./PDF 12)",
+    "hinweis": "nicht die von Julian gewählte Standard-PE-Familie – nicht gegen UHMWPE austauschen; NV201E ≠ NV201"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Keine Verpackungs-/Etikettabbildung im Dokument O45502 (alle 34 Seiten gesichtet). Produktabbildungen nur als Fundstelle: gedr./PDF 18 kleine Freisteller (symmetrical, posterior wall, asymmetrical); PDF 6–7 Schnittbild Poly mit Vitelene."
+   },
+   "quelle": "e2",
+   "sicherheit": "belegt (Original, 1 Prüfer)",
+   "groessen": [
+    {
+     "variante": "symmetrical Vitelene",
+     "innen_mm": "22,2",
+     "schale_poly_mm": "40",
+     "liner_code": "B",
+     "ref": "NV183E"
+    },
+    {
+     "variante": "symmetrical Vitelene",
+     "innen_mm": "22,2",
+     "schale_poly_mm": "42",
+     "liner_code": "C",
+     "ref": "NV184E"
+    },
+    {
+     "variante": "symmetrical Vitelene",
+     "innen_mm": "28",
+     "schale_poly_mm": "42",
+     "liner_code": "C",
+     "ref": "NV189E"
+    },
+    {
+     "variante": "symmetrical Vitelene",
+     "innen_mm": "28",
+     "schale_poly_mm": "44",
+     "liner_code": "D",
+     "ref": "NV190E"
+    },
+    {
+     "variante": "symmetrical Vitelene",
+     "innen_mm": "28",
+     "schale_poly_mm": "46",
+     "liner_code": "E",
+     "ref": "NV191E"
+    },
+    {
+     "variante": "symmetrical Vitelene",
+     "innen_mm": "28",
+     "schale_poly_mm": "48",
+     "liner_code": "F",
+     "ref": "NV192E"
+    },
+    {
+     "variante": "symmetrical Vitelene",
+     "innen_mm": "28",
+     "schale_poly_mm": "50",
+     "liner_code": "G",
+     "ref": "NV193E"
+    },
+    {
+     "variante": "symmetrical Vitelene",
+     "innen_mm": "28",
+     "schale_poly_mm": "52",
+     "liner_code": "H",
+     "ref": "NV194E"
+    },
+    {
+     "variante": "symmetrical Vitelene",
+     "innen_mm": "28",
+     "schale_poly_mm": "54",
+     "liner_code": "I",
+     "ref": "NV195E"
+    },
+    {
+     "variante": "symmetrical Vitelene",
+     "innen_mm": "32",
+     "schale_poly_mm": "46",
+     "liner_code": "E",
+     "ref": "NV201E"
+    },
+    {
+     "variante": "symmetrical Vitelene",
+     "innen_mm": "32",
+     "schale_poly_mm": "48",
+     "liner_code": "F",
+     "ref": "NV202E"
+    },
+    {
+     "variante": "symmetrical Vitelene",
+     "innen_mm": "32",
+     "schale_poly_mm": "50",
+     "liner_code": "G",
+     "ref": "NV203E"
+    },
+    {
+     "variante": "symmetrical Vitelene",
+     "innen_mm": "32",
+     "schale_poly_mm": "52",
+     "liner_code": "H",
+     "ref": "NV204E"
+    },
+    {
+     "variante": "symmetrical Vitelene",
+     "innen_mm": "32",
+     "schale_poly_mm": "54",
+     "liner_code": "I",
+     "ref": "NV205E"
+    },
+    {
+     "variante": "symmetrical Vitelene",
+     "innen_mm": "32",
+     "schale_poly_mm": "56",
+     "liner_code": "J",
+     "ref": "NV206E"
+    },
+    {
+     "variante": "symmetrical Vitelene",
+     "innen_mm": "32",
+     "schale_poly_mm": "58",
+     "liner_code": "K",
+     "ref": "NV207E"
+    },
+    {
+     "variante": "symmetrical Vitelene",
+     "innen_mm": "32",
+     "schale_poly_mm": "60",
+     "liner_code": "L",
+     "ref": "NV208E"
+    },
+    {
+     "variante": "symmetrical Vitelene",
+     "innen_mm": "32",
+     "schale_poly_mm": "62",
+     "liner_code": "M",
+     "ref": "NV209E"
+    },
+    {
+     "variante": "symmetrical Vitelene",
+     "innen_mm": "36",
+     "schale_poly_mm": "50",
+     "liner_code": "G",
+     "ref": "NV213E"
+    },
+    {
+     "variante": "symmetrical Vitelene",
+     "innen_mm": "36",
+     "schale_poly_mm": "52",
+     "liner_code": "H",
+     "ref": "NV214E"
+    },
+    {
+     "variante": "symmetrical Vitelene",
+     "innen_mm": "36",
+     "schale_poly_mm": "54",
+     "liner_code": "I",
+     "ref": "NV215E"
+    },
+    {
+     "variante": "symmetrical Vitelene",
+     "innen_mm": "36",
+     "schale_poly_mm": "56",
+     "liner_code": "J",
+     "ref": "NV216E"
+    },
+    {
+     "variante": "symmetrical Vitelene",
+     "innen_mm": "36",
+     "schale_poly_mm": "58",
+     "liner_code": "K",
+     "ref": "NV217E"
+    },
+    {
+     "variante": "symmetrical Vitelene",
+     "innen_mm": "36",
+     "schale_poly_mm": "60",
+     "liner_code": "L",
+     "ref": "NV218E"
+    },
+    {
+     "variante": "symmetrical Vitelene",
+     "innen_mm": "36",
+     "schale_poly_mm": "62",
+     "liner_code": "M",
+     "ref": "NV219E"
+    },
+    {
+     "variante": "symmetrical Vitelene",
+     "innen_mm": "40",
+     "schale_poly_mm": "54",
+     "liner_code": "I",
+     "ref": "NV225E"
+    },
+    {
+     "variante": "symmetrical Vitelene",
+     "innen_mm": "40",
+     "schale_poly_mm": "56",
+     "liner_code": "J",
+     "ref": "NV226E"
+    },
+    {
+     "variante": "symmetrical Vitelene",
+     "innen_mm": "40",
+     "schale_poly_mm": "58",
+     "liner_code": "K",
+     "ref": "NV227E"
+    },
+    {
+     "variante": "symmetrical Vitelene",
+     "innen_mm": "40",
+     "schale_poly_mm": "60",
+     "liner_code": "L",
+     "ref": "NV228E"
+    },
+    {
+     "variante": "symmetrical Vitelene",
+     "innen_mm": "40",
+     "schale_poly_mm": "62",
+     "liner_code": "M",
+     "ref": "NV229E"
+    },
+    {
+     "variante": "posterior wall Vitelene",
+     "innen_mm": "22,2",
+     "schale_poly_mm": "40",
+     "liner_code": "B",
+     "ref": "NV283E"
+    },
+    {
+     "variante": "posterior wall Vitelene",
+     "innen_mm": "22,2",
+     "schale_poly_mm": "42",
+     "liner_code": "C",
+     "ref": "NV284E"
+    },
+    {
+     "variante": "posterior wall Vitelene",
+     "innen_mm": "28",
+     "schale_poly_mm": "42",
+     "liner_code": "C",
+     "ref": "NV289E"
+    },
+    {
+     "variante": "posterior wall Vitelene",
+     "innen_mm": "28",
+     "schale_poly_mm": "44",
+     "liner_code": "D",
+     "ref": "NV290E"
+    },
+    {
+     "variante": "posterior wall Vitelene",
+     "innen_mm": "28",
+     "schale_poly_mm": "46",
+     "liner_code": "E",
+     "ref": "NV291E"
+    },
+    {
+     "variante": "posterior wall Vitelene",
+     "innen_mm": "28",
+     "schale_poly_mm": "48",
+     "liner_code": "F",
+     "ref": "NV292E"
+    },
+    {
+     "variante": "posterior wall Vitelene",
+     "innen_mm": "28",
+     "schale_poly_mm": "50",
+     "liner_code": "G",
+     "ref": "NV293E"
+    },
+    {
+     "variante": "posterior wall Vitelene",
+     "innen_mm": "28",
+     "schale_poly_mm": "52",
+     "liner_code": "H",
+     "ref": "NV294E"
+    },
+    {
+     "variante": "posterior wall Vitelene",
+     "innen_mm": "28",
+     "schale_poly_mm": "54",
+     "liner_code": "I",
+     "ref": "NV295E"
+    },
+    {
+     "variante": "posterior wall Vitelene",
+     "innen_mm": "32",
+     "schale_poly_mm": "46",
+     "liner_code": "E",
+     "ref": "NV301E"
+    },
+    {
+     "variante": "posterior wall Vitelene",
+     "innen_mm": "32",
+     "schale_poly_mm": "48",
+     "liner_code": "F",
+     "ref": "NV302E"
+    },
+    {
+     "variante": "posterior wall Vitelene",
+     "innen_mm": "32",
+     "schale_poly_mm": "50",
+     "liner_code": "G",
+     "ref": "NV303E"
+    },
+    {
+     "variante": "posterior wall Vitelene",
+     "innen_mm": "32",
+     "schale_poly_mm": "52",
+     "liner_code": "H",
+     "ref": "NV304E"
+    },
+    {
+     "variante": "posterior wall Vitelene",
+     "innen_mm": "32",
+     "schale_poly_mm": "54",
+     "liner_code": "I",
+     "ref": "NV305E"
+    },
+    {
+     "variante": "posterior wall Vitelene",
+     "innen_mm": "32",
+     "schale_poly_mm": "56",
+     "liner_code": "J",
+     "ref": "NV306E"
+    },
+    {
+     "variante": "posterior wall Vitelene",
+     "innen_mm": "32",
+     "schale_poly_mm": "58",
+     "liner_code": "K",
+     "ref": "NV307E"
+    },
+    {
+     "variante": "posterior wall Vitelene",
+     "innen_mm": "32",
+     "schale_poly_mm": "60",
+     "liner_code": "L",
+     "ref": "NV308E"
+    },
+    {
+     "variante": "posterior wall Vitelene",
+     "innen_mm": "32",
+     "schale_poly_mm": "62",
+     "liner_code": "M",
+     "ref": "NV309E"
+    },
+    {
+     "variante": "posterior wall Vitelene",
+     "innen_mm": "36",
+     "schale_poly_mm": "50",
+     "liner_code": "G",
+     "ref": "NV313E"
+    },
+    {
+     "variante": "posterior wall Vitelene",
+     "innen_mm": "36",
+     "schale_poly_mm": "52",
+     "liner_code": "H",
+     "ref": "NV314E"
+    },
+    {
+     "variante": "posterior wall Vitelene",
+     "innen_mm": "36",
+     "schale_poly_mm": "54",
+     "liner_code": "I",
+     "ref": "NV315E"
+    },
+    {
+     "variante": "posterior wall Vitelene",
+     "innen_mm": "36",
+     "schale_poly_mm": "56",
+     "liner_code": "J",
+     "ref": "NV316E"
+    },
+    {
+     "variante": "posterior wall Vitelene",
+     "innen_mm": "36",
+     "schale_poly_mm": "58",
+     "liner_code": "K",
+     "ref": "NV317E"
+    },
+    {
+     "variante": "posterior wall Vitelene",
+     "innen_mm": "36",
+     "schale_poly_mm": "60",
+     "liner_code": "L",
+     "ref": "NV318E"
+    },
+    {
+     "variante": "posterior wall Vitelene",
+     "innen_mm": "36",
+     "schale_poly_mm": "62",
+     "liner_code": "M",
+     "ref": "NV319E"
+    },
+    {
+     "variante": "asymmetrical Vitelene",
+     "innen_mm": "22,2",
+     "schale_poly_mm": "40",
+     "liner_code": "B",
+     "ref": "NV383E"
+    },
+    {
+     "variante": "asymmetrical Vitelene",
+     "innen_mm": "22,2",
+     "schale_poly_mm": "42",
+     "liner_code": "C",
+     "ref": "NV384E"
+    },
+    {
+     "variante": "asymmetrical Vitelene",
+     "innen_mm": "28",
+     "schale_poly_mm": "42",
+     "liner_code": "C",
+     "ref": "NV389E"
+    },
+    {
+     "variante": "asymmetrical Vitelene",
+     "innen_mm": "28",
+     "schale_poly_mm": "44",
+     "liner_code": "D",
+     "ref": "NV390E"
+    },
+    {
+     "variante": "asymmetrical Vitelene",
+     "innen_mm": "28",
+     "schale_poly_mm": "46",
+     "liner_code": "E",
+     "ref": "NV391E"
+    },
+    {
+     "variante": "asymmetrical Vitelene",
+     "innen_mm": "32",
+     "schale_poly_mm": "46",
+     "liner_code": "E",
+     "ref": "NV401E"
+    },
+    {
+     "variante": "asymmetrical Vitelene",
+     "innen_mm": "32",
+     "schale_poly_mm": "48",
+     "liner_code": "F",
+     "ref": "NV402E"
+    },
+    {
+     "variante": "asymmetrical Vitelene",
+     "innen_mm": "32",
+     "schale_poly_mm": "50",
+     "liner_code": "G",
+     "ref": "NV403E"
+    },
+    {
+     "variante": "asymmetrical Vitelene",
+     "innen_mm": "32",
+     "schale_poly_mm": "52",
+     "liner_code": "H",
+     "ref": "NV404E"
+    },
+    {
+     "variante": "asymmetrical Vitelene",
+     "innen_mm": "32",
+     "schale_poly_mm": "54",
+     "liner_code": "I",
+     "ref": "NV405E"
+    },
+    {
+     "variante": "asymmetrical Vitelene",
+     "innen_mm": "32",
+     "schale_poly_mm": "56",
+     "liner_code": "J",
+     "ref": "NV406E"
+    },
+    {
+     "variante": "asymmetrical Vitelene",
+     "innen_mm": "32",
+     "schale_poly_mm": "58",
+     "liner_code": "K",
+     "ref": "NV407E"
+    },
+    {
+     "variante": "asymmetrical Vitelene",
+     "innen_mm": "32",
+     "schale_poly_mm": "60",
+     "liner_code": "L",
+     "ref": "NV408E"
+    },
+    {
+     "variante": "asymmetrical Vitelene",
+     "innen_mm": "32",
+     "schale_poly_mm": "62",
+     "liner_code": "M",
+     "ref": "NV409E"
+    }
+   ]
   },
   {
    "id": "aesculap.kopf.biolox_delta",
@@ -464,9 +1152,10 @@
     }
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Keine Verpackungs-/Etikettabbildung im Dokument O45502 (alle 34 Seiten gesichtet). Produktabbildungen nur als Fundstelle: gedr./PDF 24 Fotos (rosa Biolox-delta-Kopf, Metallkopf ISODUR F)."
    },
    "quelle": "e1",
    "sicherheit": "belegt",
@@ -511,9 +1200,10 @@
     "hinweis": "Ø22,2 (nur M/L, NK330K/NK331K) steht nicht in der Excia-T-Kopfübersicht – nicht für Excia T anbieten"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Keine Verpackungs-/Etikettabbildung im Dokument O45502 (alle 34 Seiten gesichtet). Produktabbildungen nur als Fundstelle: gedr./PDF 24 Fotos (rosa Biolox-delta-Kopf, Metallkopf ISODUR F)."
    },
    "quelle": "e1",
    "sicherheit": "belegt",
@@ -557,9 +1247,10 @@
     "freigabe": "offen – nur Anwendungsfall bb-web, keine Kopf-/Größen-Freigabetabelle"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-/Packungsangaben in den Quellen dieses Laufs nicht geprüft."
    },
    "quelle": "e3",
    "sicherheit": "hausabhängig"
@@ -627,6 +1318,110 @@
     }
    ],
    "legende": "jeweils 2-mm-Schritte; gilt nur für symmetrische Liner; gleicher Liner-Buchstabe allein genügt nicht (Poly und Plus ordnen gleiche Schalen-Ø verschiedenen Codes zu)"
+  },
+  "T18_poly_uhmwpe": {
+   "titel": "Plasmafit Poly Schale ↔ Liner-Code ↔ Schalen-REF ↔ Standard-UHMWPE-Liner",
+   "quelle": "e2",
+   "seite": "18–19 (Bild geprüft)",
+   "zeilen": [
+    {
+     "schale": "40",
+     "code": "B",
+     "ref_schale": "NV040T",
+     "uhmwpe_symmetrisch_32": "—",
+     "uhmwpe_schulter_28": "—",
+     "uhmwpe_schulter_32": "—"
+    },
+    {
+     "schale": "42",
+     "code": "C",
+     "ref_schale": "NV042T",
+     "uhmwpe_symmetrisch_32": "—",
+     "uhmwpe_schulter_28": "NV289",
+     "uhmwpe_schulter_32": "—"
+    },
+    {
+     "schale": "44",
+     "code": "D",
+     "ref_schale": "NV044T",
+     "uhmwpe_symmetrisch_32": "—",
+     "uhmwpe_schulter_28": "NV290",
+     "uhmwpe_schulter_32": "—"
+    },
+    {
+     "schale": "46",
+     "code": "E",
+     "ref_schale": "NV046T",
+     "uhmwpe_symmetrisch_32": "NV201",
+     "uhmwpe_schulter_28": "—",
+     "uhmwpe_schulter_32": "NV301"
+    },
+    {
+     "schale": "48",
+     "code": "F",
+     "ref_schale": "NV048T",
+     "uhmwpe_symmetrisch_32": "NV202",
+     "uhmwpe_schulter_28": "—",
+     "uhmwpe_schulter_32": "NV302"
+    },
+    {
+     "schale": "50",
+     "code": "G",
+     "ref_schale": "NV050T",
+     "uhmwpe_symmetrisch_32": "NV203",
+     "uhmwpe_schulter_28": "—",
+     "uhmwpe_schulter_32": "NV303"
+    },
+    {
+     "schale": "52",
+     "code": "H",
+     "ref_schale": "NV052T",
+     "uhmwpe_symmetrisch_32": "NV204",
+     "uhmwpe_schulter_28": "—",
+     "uhmwpe_schulter_32": "NV304"
+    },
+    {
+     "schale": "54",
+     "code": "I",
+     "ref_schale": "NV054T",
+     "uhmwpe_symmetrisch_32": "NV205",
+     "uhmwpe_schulter_28": "—",
+     "uhmwpe_schulter_32": "NV305"
+    },
+    {
+     "schale": "56",
+     "code": "J",
+     "ref_schale": "NV056T",
+     "uhmwpe_symmetrisch_32": "NV206",
+     "uhmwpe_schulter_28": "—",
+     "uhmwpe_schulter_32": "NV306"
+    },
+    {
+     "schale": "58",
+     "code": "K",
+     "ref_schale": "NV058T",
+     "uhmwpe_symmetrisch_32": "NV207",
+     "uhmwpe_schulter_28": "—",
+     "uhmwpe_schulter_32": "NV307"
+    },
+    {
+     "schale": "60",
+     "code": "L",
+     "ref_schale": "NV060T",
+     "uhmwpe_symmetrisch_32": "NV208",
+     "uhmwpe_schulter_28": "—",
+     "uhmwpe_schulter_32": "NV308"
+    },
+    {
+     "schale": "62",
+     "code": "M",
+     "ref_schale": "NV062T",
+     "uhmwpe_symmetrisch_32": "NV209",
+     "uhmwpe_schulter_28": "—",
+     "uhmwpe_schulter_32": "NV309"
+    }
+   ],
+   "legende": "„—“ = im Original Strich, keine REF. Standard-UHMWPE (REF ohne E) nicht durch Vitelene (REF mit E) ersetzen; keine 22,2-/36-/40-mm-UHMWPE-Zeilen."
   }
  },
  "passt_zu": [
@@ -651,9 +1446,10 @@
    "von": "aesculap.plasmafit.poly",
    "zu": "aesculap.inlay.pe_standard",
    "status": "bedingt",
-   "bedingung": "nur PE; Größe vom Etikett (UHMWPE-Zeilen noch nicht übernommen)",
+   "bedingung": "nur Schale/Innen-Ø laut T18: symmetrisch 32 bei 46–62; mit Schulter 28 bei 42/44; mit Schulter 32 bei 46–62; 40/B ohne UHMWPE-Liner",
    "quelle": "e2",
-   "seite": "5"
+   "seite": "18–19",
+   "tabelle": "T18_poly_uhmwpe"
   },
   {
    "von": "aesculap.excia_t.zementfrei",
@@ -699,9 +1495,26 @@
    "von": "aesculap.excia_t.zementiert",
    "zu": "aesculap.duokopf.bipolar_cup",
    "status": "offen",
-   "bedingung": "nur Anwendungsfall; Freigabetabelle fehlt",
-   "quelle": "bb-web",
+   "bedingung": "nur Anwendungsfall (bb-web); weder Excia-T-DE-Broschüre Nr. 4008516 (01/2026) noch EN O56002 (09/2020) noch Bipolar-Cup-Katalog belegen die Paarung ausdrücklich; gemeinsamer Hersteller/12/14 ist kein Nachweis",
+   "quelle": "bb-web; e1; e5; e3",
    "seite": "Operationstechniken"
+  },
+  {
+   "von": "aesculap.plasmafit.poly",
+   "zu": "aesculap.inlay.vitelene",
+   "status": "bedingt",
+   "bedingung": "nur Variante/Innen-Ø in den Schalen laut REF-Tabelle (Komponente aesculap.inlay.vitelene); Code-Buchstabe laut Poly-Tabelle",
+   "quelle": "e2",
+   "seite": "18–19"
+  },
+  {
+   "von": "aesculap.plasmafit.plus",
+   "zu": "aesculap.inlay.vitelene",
+   "status": "bedingt",
+   "bedingung": "Schalenbereiche Plus laut T8 (Lauf 001-implantate); Plus-REF in diesem Lauf nicht gelesen – Poly-REF nicht auf Plus übertragen",
+   "quelle": "e2",
+   "seite": "18–21",
+   "tabelle": "T8_plasmafit_liner"
   }
  ],
  "regeln": [
@@ -728,6 +1541,12 @@
    "pruefe": "Herstellerfreigabe vorhanden",
    "text": "Bipolar Cup nur mit freigegebenem zementiertem Schaft; Freigabetabelle mit Excia T zementiert fehlt.",
    "quelle": "bb-web, e3"
+  },
+  {
+   "wenn": "inlay",
+   "pruefe": "UHMWPE ≠ Vitelene",
+   "text": "Standard-UHMWPE (REF ohne E) und Vitelene (REF mit E) strikt trennen: gleiche Ziffern, anderes Material und anderer Größenbereich (UHMWPE nur 28/32).",
+   "quelle": "e2 S. 18–19"
   }
  ],
  "rueckrufe": [
@@ -737,19 +1556,23 @@
    "kennung": "FSCA 279 (12190/24), 17.04.2024",
    "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/DE/11/2024/12190-24_kundeninfo_de.pdf?__blob=publicationFile",
    "hinweis": "nur relevant, falls Vitelene-Liner verwendet werden",
-   "betrifft": [],
+   "betrifft": [
+    "aesculap.inlay.vitelene"
+   ],
    "markt": "EU/DE"
   }
  ],
  "offen": [
-  "EU-IFU Excia T zementiert / Bipolar Cup (Freigabetabelle)",
+  "EU-IFU Excia T zementiert / Bipolar Cup (Freigabetabelle) – auch in Nr. 4008516 01/2026 und O56002 09/2020 nicht belegt",
   "Einzelprodukt/Profil/REF der zementierten PE-Pfanne",
-  "UHMWPE-Liner (symmetrisch) Plasmafit: Zeilen aus e2 übernehmen",
-  "GTIN"
+  "GTIN",
+  "UHMWPE „with shoulder“ vs. Vitelene „posterior wall“: gleiche Ziffern, Design-Identität im Dokument nicht angegeben",
+  "Plasmafit Plus: PE-/Vitelene-REF (gedr./PDF 20–23) nicht in diesem Lauf",
+  "Plasmafit-Dokument O45502 0718 (EN): Aktualität unbekannt"
  ],
  "region": "hüfte",
  "verified": false,
- "verified_hinweis": "Lauf 001-implantate: Werte von Grok und Astra am Original gelesen (07.10.2026), Claude-Änderungsliste von Julian abgenommen. Keine EU-IFU gelesen; keine klinische Freigabe. Hausbestand jeder Klinik am Etikett prüfen.",
+ "verified_hinweis": "Lauf 001-implantate: Werte von Grok und Astra am Original gelesen (07.10.2026), Claude-Änderungsliste von Julian abgenommen. Keine EU-IFU gelesen; keine klinische Freigabe. Hausbestand jeder Klinik am Etikett prüfen. Lauf 001-implantate-luecken (07.10.2026): Plasmafit-Poly-Tabelle von Claude-Helfer und OpenAI am Original gelesen; Bipolar-Paarung weiter offen.",
  "stand_extrakt": "2026-10-07",
  "hinweise": [
   "Vor dem Öffnen Komponente, Seite und Größe laut ansagen; Herstellerdokument und aktuelle EU-IFU maßgeblich.",
@@ -769,6 +1592,12 @@
    "datum": "2026-10-07",
    "lauf": "001-implantate",
    "text": "Größen/REF/Kombinationstabellen aus Grok + Astra (Astra-Korrekturen), feste IDs, passt_zu mit Bedingungen, Rückrufe mit betrifft; Perplexity-Fundstellen (eingang/001-perplexity-2/-3) als Fundstellen."
+  },
+  {
+   "version": "1.2",
+   "datum": "2026-10-07",
+   "lauf": "001-implantate-luecken",
+   "text": "Plasmafit Poly: Schalen-REF NV040T–NV062T je Liner-Code B–M; Standard-UHMWPE-Liner (symmetrisch 32, mit Schulter 28/32) mit REF und Schalenbereich (T18, 2 Prüfer); Vitelene-Liner (symmetrisch/posterior wall/asymmetrisch je Innen-Ø) als eigene Komponente mit REF, Rückruf FSCA 279 verknüpft; Bipolar Cup × Excia T zementiert bleibt offen (Excia-T DE 01/2026 und EN O56002 ohne Paarung)."
   }
  ]
 }

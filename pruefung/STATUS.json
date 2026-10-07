@@ -110,20 +110,20 @@
   },
   "001-implantate-luecken": {
    "name": "001 vervollständigen – Implantat-Lücken (gehört zu 001, nicht zu 002)",
-   "runde": "openai",
-   "perplexity_auftrag": "pakete/001-implantate-luecken-perplexity-auftrag.md",
-   "ergebnis": "pruefung/001-implantate-luecken-perplexity.md",
+   "runde": "astra-bau",
+   "ergebnis": "11 Implantat-Dateien aktualisiert (Größen + REF am Original; Quellen implantate/quellen-originale-2026-10-07.md)",
    "weiter": "Funde fließen in den nächsten Implantat-Lauf (Grok/Astra lesen am Original)",
    "perplexity_fertig": "2026-10-07, pruefung/001-implantate-luecken-perplexity.md (Repo-Stand 9ad0cb1)",
    "typ": "implantate",
-   "datei": "pakete/001-implantate-luecken-basis.md",
    "lauf_start": "2026-10-07T18:45Z",
    "dateien": {
     "perplexity": "pruefung/001-implantate-luecken-perplexity.md",
     "grok": "pruefung/001-implantate-luecken-grok.md",
     "openai": "pruefung/001-implantate-luecken-openai.md"
    },
-   "abschluss": "Werte direkt in implantate/*.json + .md (Version +0.1), basis + perplexity-auftrag danach entfernen"
+   "abschluss": "Werte direkt in implantate/*.json + .md (Version +0.1), basis + perplexity-auftrag danach entfernen",
+   "abgeschlossen_daten": "2026-10-07",
+   "julian": "alle ✅ einbauen; US-Daten markiert; archivierte Mathys-Daten mit Lieferbarkeit offen"
   },
   "002": {
    "name": "002-knie-tep",

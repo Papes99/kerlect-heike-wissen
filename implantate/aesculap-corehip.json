@@ -1,16 +1,16 @@
 {
  "hersteller": "Aesculap (B. Braun)",
  "system": "CoreHip Primary (zf/zem/AS) + Extended zementfrei",
- "version": "1.0",
+ "version": "1.1",
  "quellen": [
   {
    "id": "ch-de",
    "dokument": "AESCULAP CoreHip System (deutsche Broschüre)",
    "stand": "Nr. 4008487, 02/2024",
-   "seiten": "Indikationslinien; CCD/Offset; Implantatübersicht REF; Extraktionsadapter 12/14; Köpfe",
+   "seiten": "gedr. 16–17/PDF 9 (CCD); gedr. 24–25/PDF 13 (Offsetgruppen); gedr. 32–35/PDF 17–18 (Implantatübersicht REF, Fußnoten visuell geprüft, Isocer); Extraktionsadapter 12/14; Köpfe",
    "url": "https://www.bbraun.de/content/dam/catalog/bbraun/bbraunProductCatalog/S/AEM2015/de-de/b307/corehip-broschuere.pdf",
    "markt": "DE",
-   "gelesen_von": "Grok 07.10.2026"
+   "gelesen_von": "Grok 07.10.2026; OpenAI 07.10.2026 (Fußnoten visuell geprüft)"
   },
   {
    "id": "ch-en",
@@ -70,14 +70,18 @@
      "dysplasie_DYS": {
       "ccd_grad": 142,
       "offset_mm": "30,5–38,0",
-      "hinweis": "10 mm weniger Beinlänge vs. VLG; ASIA-Raspel NT1154"
+      "hinweis": "10 mm kürzer (Maß Kopfmittelpunkt bis Schaftspitze; ch-de gedr. 32–35/PDF 17–18); ASIA-Raspel NT1154"
      }
-    }
+    },
+    "ccd_seite": "VLG/DYS 142°, STD 132°, VAR 122°: gedr. 16–17/PDF 9; Offsetgruppen gedr. 24–25/PDF 13",
+    "schaftlaenge_hinweis": "schaftlaenge_mm = gedruckter Tabellenwert, gilt für VLG/STD/VAR (Kopfmittelpunkt bis Schaftspitze). DYS laut Fußnote 10 mm kürzer: schaftlaenge_dys_mm_berechnet ist berechnet aus Tabellenwert und Fußnote – keine gedruckte Tabellenzelle.",
+    "gewicht": "max. 60 kg nur für Primary Größe 0 aller vier Linien (VLG/STD/VAR/DYS) und ausschließlich DYS Größe 1 (ch-de)"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-/Packungsangaben in den Quellen dieses Laufs nicht geprüft."
    },
    "quelle": "ch-de",
    "sicherheit": "belegt",
@@ -90,7 +94,8 @@
      "ref_varus": "NK1040T",
      "schaftlaenge_mm": 119.5,
      "gewicht_max_kg": 60,
-     "gewicht_hinweis": "Primary Größe 0 alle Linien: max. 60 kg (ch-de)"
+     "schaftlaenge_dys_mm_berechnet": 109.5,
+     "gewicht_gilt_fuer": "VLG, STD, VAR, DYS"
     },
     {
      "groesse": "1",
@@ -99,8 +104,9 @@
      "ref_standard": "NK1001T",
      "ref_varus": "NK1041T",
      "schaftlaenge_mm": 121.5,
-     "gewicht_hinweis": "Primary Größe 0 alle Linien und Dysplasie Größe 1: 60 kg (DE-Broschüre / O61502)",
-     "gewicht_hinweis_dysplasie": "Nur Dysplasie Größe 1: max. 60 kg (ch-de); andere Linien Größe 1 ohne diese Beschränkung in der Broschüre"
+     "schaftlaenge_dys_mm_berechnet": 111.5,
+     "gewicht_max_kg_nur_dys": 60,
+     "gewicht_gilt_fuer": "nur DYS (VLG/STD/VAR Größe 1 ohne diese Grenze)"
     },
     {
      "groesse": "2",
@@ -108,7 +114,8 @@
      "ref_valgus": "NK1022T",
      "ref_standard": "NK1002T",
      "ref_varus": "NK1042T",
-     "schaftlaenge_mm": 123.5
+     "schaftlaenge_mm": 123.5,
+     "schaftlaenge_dys_mm_berechnet": 113.5
     },
     {
      "groesse": "3",
@@ -116,7 +123,8 @@
      "ref_valgus": "NK1023T",
      "ref_standard": "NK1003T",
      "ref_varus": "NK1043T",
-     "schaftlaenge_mm": 125.5
+     "schaftlaenge_mm": 125.5,
+     "schaftlaenge_dys_mm_berechnet": 115.5
     },
     {
      "groesse": "4",
@@ -124,7 +132,8 @@
      "ref_valgus": "NK1024T",
      "ref_standard": "NK1004T",
      "ref_varus": "NK1044T",
-     "schaftlaenge_mm": 127.5
+     "schaftlaenge_mm": 127.5,
+     "schaftlaenge_dys_mm_berechnet": 117.5
     },
     {
      "groesse": "5",
@@ -132,7 +141,8 @@
      "ref_valgus": "NK1025T",
      "ref_standard": "NK1005T",
      "ref_varus": "NK1045T",
-     "schaftlaenge_mm": 129.5
+     "schaftlaenge_mm": 129.5,
+     "schaftlaenge_dys_mm_berechnet": 119.5
     },
     {
      "groesse": "6",
@@ -140,7 +150,8 @@
      "ref_valgus": "NK1026T",
      "ref_standard": "NK1006T",
      "ref_varus": "NK1046T",
-     "schaftlaenge_mm": 131.5
+     "schaftlaenge_mm": 131.5,
+     "schaftlaenge_dys_mm_berechnet": 121.5
     },
     {
      "groesse": "7",
@@ -148,7 +159,8 @@
      "ref_valgus": "NK1027T",
      "ref_standard": "NK1007T",
      "ref_varus": "NK1047T",
-     "schaftlaenge_mm": 133.5
+     "schaftlaenge_mm": 133.5,
+     "schaftlaenge_dys_mm_berechnet": 123.5
     },
     {
      "groesse": "8",
@@ -156,7 +168,8 @@
      "ref_valgus": "NK1028T",
      "ref_standard": "NK1008T",
      "ref_varus": "NK1048T",
-     "schaftlaenge_mm": 135.5
+     "schaftlaenge_mm": 135.5,
+     "schaftlaenge_dys_mm_berechnet": 125.5
     },
     {
      "groesse": "9",
@@ -164,7 +177,8 @@
      "ref_valgus": "NK1029T",
      "ref_standard": "NK1009T",
      "ref_varus": "NK1049T",
-     "schaftlaenge_mm": 137.5
+     "schaftlaenge_mm": 137.5,
+     "schaftlaenge_dys_mm_berechnet": 127.5
     },
     {
      "groesse": "10",
@@ -172,7 +186,8 @@
      "ref_valgus": "NK1030T",
      "ref_standard": "NK1010T",
      "ref_varus": "NK1050T",
-     "schaftlaenge_mm": 139.5
+     "schaftlaenge_mm": 139.5,
+     "schaftlaenge_dys_mm_berechnet": 129.5
     },
     {
      "groesse": "11",
@@ -180,7 +195,8 @@
      "ref_valgus": "NK1031T",
      "ref_standard": "NK1011T",
      "ref_varus": "NK1051T",
-     "schaftlaenge_mm": 141.5
+     "schaftlaenge_mm": 141.5,
+     "schaftlaenge_dys_mm_berechnet": 131.5
     }
    ]
   },
@@ -194,19 +210,21 @@
    "gtin": null,
    "attribute": {
     "fixation": "zementiert",
-    "material": "ISODUR F CoCrMo; AS = Multilayer ZrN-System",
+    "material": "ISODUR F CoCrMo; AS = mehrlagiges CrN/CrCN/ZrN-Beschichtungssystem (nicht als bloßes ZrN vereinfachen)",
     "konus": "12/14",
     "linien": "Valgus / Standard / Varus (keine Dysplasie in zementierter Übersicht)",
     "zementmantel_mm": 1.0,
-    "centralizer": "NK1281/83/85/87/89 zu Größen 1/3/5/7/9"
+    "centralizer": "NK1281/83/85/87/89 zu Größen 1/3/5/7/9",
+    "pruefung": "Größen 1/3/5/7/9 samt K/Z-REF und Centralizer von OpenAI gegen die Übersicht bestätigt"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-/Packungsangaben in den Quellen dieses Laufs nicht geprüft."
    },
    "quelle": "ch-de",
-   "sicherheit": "belegt",
+   "sicherheit": "belegt (Original, 2 Prüfer)",
    "groessen": [
     {
      "groesse": "1",
@@ -277,15 +295,17 @@
     "fixation": "zementfrei",
     "material": "ISOTAN F + PLASMAPORE",
     "konus": "12/14",
-    "linien": "Valgus / Standard / Varus"
+    "linien": "Valgus / Standard / Varus",
+    "pruefung": "Extended 0–11 mit REF-/Längenreihen von OpenAI gegen die Übersicht bestätigt – Tabelle vollständig"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-/Packungsangaben in den Quellen dieses Laufs nicht geprüft."
    },
    "quelle": "ch-de",
-   "sicherheit": "belegt",
+   "sicherheit": "belegt (Original, 2 Prüfer)",
    "groessen": [
     {
      "groesse": "0",
@@ -388,9 +408,10 @@
     "freigabe": "offen"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-/Packungsangaben in den Quellen dieses Laufs nicht geprüft."
    },
    "quelle": "es",
    "sicherheit": "offen"
@@ -409,9 +430,10 @@
     "freigabe": "offen"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-/Packungsangaben in den Quellen dieses Laufs nicht geprüft."
    },
    "quelle": "es",
    "sicherheit": "offen"
@@ -429,9 +451,10 @@
     "konus": "12/14"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-/Packungsangaben in den Quellen dieses Laufs nicht geprüft."
    },
    "quelle": "ch-de",
    "sicherheit": "belegt",
@@ -466,9 +489,10 @@
     "konus": "12/14"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-/Packungsangaben in den Quellen dieses Laufs nicht geprüft."
    },
    "quelle": "ch-de",
    "sicherheit": "belegt",
@@ -551,16 +575,34 @@
    "pruefe": "Register ≠ Freigabe",
    "text": "Plasmafit/All POLY mit CoreHip in EPRD ≠ Herstellerfreigabe.",
    "quelle": "es"
+  },
+  {
+   "wenn": "kopf",
+   "pruefe": "Isocer → nur PE/XLPE",
+   "text": "Isocer-Köpfe dürfen nur gegen PE/XLPE artikulieren; Keramik/Keramik ausdrücklich ausgeschlossen (Isocer-Familie hier ohne REF).",
+   "quelle": "ch-de gedr. 35/PDF 18"
+  },
+  {
+   "wenn": "schaft",
+   "pruefe": "DYS-Länge",
+   "text": "Dysplasie-Schaft ist 10 mm kürzer als die gedruckte Primary-Länge (VLG/STD/VAR); DYS-Längen sind berechnet, nicht gedruckt.",
+   "quelle": "ch-de gedr. 32–35/PDF 17–18"
+  },
+  {
+   "wenn": "schaft",
+   "pruefe": "Gewicht ≤ 60 kg",
+   "text": "Max. 60 kg: Primary Größe 0 (alle vier Linien) und nur DYS Größe 1.",
+   "quelle": "ch-de gedr. 32–35/PDF 17–18"
   }
  ],
  "rueckrufe": [],
  "offen": [
-  "Isocer-Köpfe: nur PE/XLPE laut Broschüre – Keramik-Keramik nein; vollständige REF",
+  "Isocer-Köpfe: vollständige REF (Regel nur PE/XLPE, Keramik/Keramik nein ist eingetragen)",
   "Explizite Freigabe CoreHip ↔ Plasmafit / All POLY",
-  "Extended-REF-Tabelle in App-Form (derzeit in Broschüre, hier teilweise nachziehen)",
-  "BfArM CoreHip"
+  "BfArM CoreHip",
+  "DYS-Längen: nur berechnet (Tabellenwert − 10 mm laut Fußnote) – bei Bedarf gedruckte DYS-Längen beim Hersteller erfragen"
  ],
- "verified_hinweis": "Neuanlage P1 07.10.2026 aus CoreHip-Broschüre DE 02/2024 und O61502. verified: false. Plasmafit/All POLY nur Kontext.",
+ "verified_hinweis": "Neuanlage P1 07.10.2026 aus CoreHip-Broschüre DE 02/2024 und O61502. verified: false. Plasmafit/All POLY nur Kontext. Lauf 001-implantate-luecken (07.10.2026): Korrekturen nach OpenAI-Gegenprüfung (CoreHip-Broschüre Nr. 4008487, gedr. 32–35/PDF 17–18), von Julian freigegeben.",
  "region": "hüfte",
  "verified": false,
  "stand_extrakt": "2026-10-07",
@@ -575,6 +617,12 @@
    "datum": "2026-10-07",
    "lauf": "p1-fehlende-systeme",
    "text": "Neuanlage CoreHip Primary zf/zem + Köpfe; Extended und Plasmafit/All POLY als Kontext/offen."
+  },
+  {
+   "version": "1.1",
+   "datum": "2026-10-07",
+   "lauf": "001-implantate-luecken",
+   "text": "OpenAI-Korrektur 8.2: Dysplasie-Schaft 10 mm kürzer (schaftlaenge_dys_mm_berechnet, als berechnet aus Tabelle + Fußnote gekennzeichnet); 60-kg-Grenze maschinenlesbar nur Primary Größe 0 (alle vier Linien) und DYS Größe 1; CCD-/Offset-Fundstellen; AS-Beschichtung mehrlagig CrN/CrCN/ZrN; Regel Isocer nur gegen PE/XLPE; Extended-Tabelle als vollständig bestätigt."
   }
  ]
 }

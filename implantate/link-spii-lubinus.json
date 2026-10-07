@@ -1,7 +1,7 @@
 {
  "hersteller": "Waldemar Link",
  "system": "SP II Modell Lubinus (zementiert) + zementierte Pfannen Lubinus/IP; CombiCup Kontext offen",
- "version": "1.0",
+ "version": "1.1",
  "quellen": [
   {
    "id": "sp1",
@@ -9,8 +9,8 @@
    "stand": "6431_SP_II_OP-Impl-Instr_us_2020-05_001 MAR-01247 1.0",
    "seiten": "CCD/Planung S.1; Implantate S.12–15; Konus 12/14 Probeköpfe S.19; Indikationen S.28; Hinweis cemented use / heads +4 mm",
    "url": "https://www.link-ortho.com/fileadmin/user_upload/Fuer_den_Arzt/Produkte/Downloads/US/6431_SP_II_OP-Impl-Instr_us_2020-05_001_MAR-01247_1.0_final.pdf",
-   "markt": "US-Fassung (Link Orthopaedics)",
-   "gelesen_von": "Grok 07.10.2026"
+   "markt": "US-Fassung 2020 (Link Orthopaedics) – kein EU-Ersatz",
+   "gelesen_von": "Grok 07.10.2026; OpenAI 07.10.2026 (gedr. 28/PDF 30: +4-Regel)"
   },
   {
    "id": "sp-web",
@@ -48,6 +48,25 @@
    "url": "https://www.eprd.de/de/downloads/tabellen/jahresbericht2025",
    "markt": "DE (Ranking)",
    "gelesen_von": "Grok 07.10.2026"
+  },
+  {
+   "id": "lk26",
+   "dokument": "LINK SPII Model Lubinus Surgical Technique (EN)",
+   "stand": "Impressum im PDF: 6430_SPII_SurgTech_EN_2026-04_009 B, MAR-00799 15.0, 04/2026; URL-/Dateiname abweichend: 6431_SPII_SurgTech_EN_2026-04_002_MAR-02619",
+   "seiten": "gedr. 12–15/PDF 14–17 (Implantate); Impressum PDF 32",
+   "url": "https://www.link-ortho.com/fileadmin_atl/user_upload/Global_LINK_Website/Products/PDFs/EN/6431_SPII_SurgTech_EN_2026-04_002_MAR-02619.pdf",
+   "markt": "Global EN; lokale DE-Verfügbarkeit/IFU gesondert",
+   "gelesen_von": "OpenAI 07.10.2026",
+   "hinweis": "Identität/Revision nur aus dem Impressum, nicht aus dem URL-Namen übernehmen"
+  },
+  {
+   "id": "lk-h",
+   "dokument": "LINK Prosthesis Heads (EN)",
+   "stand": "Impressum: 9001_Prosthesis Heads_OP_EN_2026-06_007, MAR-01359 7.0, 06/2026",
+   "seiten": "gedr. 4–6/PDF 6–8; Impressum PDF 12",
+   "url": "https://www.link-ortho.com/fileadmin_atl/user_upload/Global_LINK_Website/Products/PDFs/EN/9001_Prosthesis_Heads_SurgTech_EN_2026-06_007_MAR-01359.pdf",
+   "markt": "Global EN; Kopfangebot ist keine pauschale Schaftfreigabe",
+   "gelesen_von": "OpenAI 07.10.2026"
   }
  ],
  "komponenten": [
@@ -61,7 +80,7 @@
    "gtin": null,
    "attribute": {
     "fixation": "zementiert",
-    "material": "CoCrMo",
+    "material": "EndoDur CoCrMo",
     "konus": "12/14",
     "ccd_grad": [
      117,
@@ -74,21 +93,26 @@
      170
     ],
     "seiten": "rechts/links anatomisch",
-    "hinweis_zementmantel": "Raspel ca. +0,75 mm; Schaft eine Größe kleiner als letzte Raspel für ~2–3 mm Zementmantel (sp1)"
+    "hinweis_zementmantel": "Raspel ca. +0,75 mm; Schaft eine Größe kleiner als letzte Raspel für ~2–3 mm Zementmantel (sp1)",
+    "ccd_quelle": "CCD 117/126/135, Konus 12/14 in EN 2026-04 (lk26 gedr. 12–15/PDF 14–17) bestätigt",
+    "matrix_hinweis": "EN-2026-04-Standardtabelle enthält auch 117°/170-mm-Zeilen (z. B. rechts R01 127-710/17) – die US-2020-Matrix (sp1) nicht als EU-Matrix kopieren; vollständige EN-Matrix hier nicht übernommen"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-/Packungsangaben in den Quellen dieses Laufs nicht geprüft."
    },
-   "quelle": "sp1",
-   "sicherheit": "belegt",
+   "quelle": "lk26",
+   "sicherheit": "belegt (Original, 2 Prüfer)",
    "groessen": [
     {
      "marking": "R/L 01",
      "breite": "extra narrow",
      "laengen_mm": "130/150/170",
-     "beispiel_ref_rechts_130_ccd126": "127-610/26"
+     "beispiel_ref_rechts_130_ccd126": "127-610/26",
+     "beispiel_ref_rechts_170_ccd117": "127-710/17",
+     "beispiel_hinweis": "Beispiel-REF 127-610/26, 127-612/35, 127-614/26 passen zur EN-Tabelle (OpenAI); 127-710/17 nur aus EN 2026-04 (1 Prüfer)"
     },
     {
      "marking": "R/L 1",
@@ -117,7 +141,7 @@
      "breite": "super large"
     },
     {
-     "hinweis": "Vollständige REF-Matrix (CCD × Länge × Seite × Breite) in sp1 S.12–13 – vor Entnahme Etikett/Katalog"
+     "hinweis": "Vollständige REF-Matrix (CCD × Länge × Seite × Breite) in lk26 gedr. 12–15/PDF 14–17 (EN 2026-04) bzw. sp1 S. 12–13 (US 2020) – nicht übernommen; vor Entnahme Etikett/Katalog"
     }
    ]
   },
@@ -138,15 +162,18 @@
      126
     ],
     "hals_plus_mm": 10.5,
-    "hinweis": "Hals-/Konusabschnitt 10,5 mm länger als Standard; CCD 135° in XL-Tabelle sp1 nicht geführt"
+    "hinweis": "Hals-/Konusabschnitt 10,5 mm länger als Standard; XL nur 117°/126° (lk26 gedr. 12–15/PDF 14–17)",
+    "max_zusatz_hals_mm": 4,
+    "max_zusatz_hals_quelle": "lk26 gedr. 15/PDF 17: Köpfe bis +4 mm Zusatzhalslänge ausdrücklich für XL Neck"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-/Packungsangaben in den Quellen dieses Laufs nicht geprüft."
    },
-   "quelle": "sp1",
-   "sicherheit": "belegt"
+   "quelle": "lk26",
+   "sicherheit": "belegt (Original, 2 Prüfer)"
   },
   {
    "id": "link.pfanne.lubinus",
@@ -163,9 +190,10 @@
     "herstellerfreigabe_schaft": "Produktseite: Kombination mit SPII Model Lubinus"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-/Packungsangaben in den Quellen dieses Laufs nicht geprüft."
    },
    "quelle": "cup-web",
    "sicherheit": "belegt"
@@ -186,9 +214,10 @@
     "freigabe_mit_spii": "offen – auf Produktseite keine gleich explizite Paarungsformel wie bei Lubinus Cup"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-/Packungsangaben in den Quellen dieses Laufs nicht geprüft."
    },
    "quelle": "cup-web",
    "sicherheit": "offen"
@@ -207,9 +236,10 @@
     "freigabe_mit_spii": "offen – CombiCup ist eigenes System (combi); keine Schaft-Tabelle in diesem Extrakt"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-/Packungsangaben in den Quellen dieses Laufs nicht geprüft."
    },
    "quelle": "combi",
    "sicherheit": "offen"
@@ -224,17 +254,122 @@
    "gtin": null,
    "attribute": {
     "konus": "12/14",
-    "max_zusatz_hals_mm": 4,
-    "hinweis": "sp1: SP II nur mit Köpfen bis +4 mm zusätzliche Halslänge; Probeköpfe Ø28/32/36 (40 optional) dokumentiert",
-    "material_kopf": "offen – Keramik/CoCrMo laut cup-web für Pfannen geeignet, konkrete Kopfreferenzen nicht aus sp1 übernommen"
+    "max_zusatz_hals_mm": null,
+    "hals_grenze": {
+     "US 2020 (sp1 gedr. 28/PDF 30)": "alle SP II: nur Köpfe bis +4 mm Zusatzhalslänge – US-Nachweis",
+     "EN 2026-04 (lk26 gedr. 15/PDF 17)": "+4-mm-Grenze ausdrücklich für XL Neck",
+     "Standard EU/DE": "offen – aus dem engeren EN-Wortlaut keine Erlaubnis längerer Köpfe für Standard ableiten; bis zur passenden IFU klären"
+    },
+    "hinweis": "Probeköpfe Ø28/32/36 (40 optional) dokumentiert (sp1); konkrete Kopf-REF siehe link.kopf.ceradur / link.kopf.biolox_delta / link.kopf.cocr (lk-h)"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-/Packungsangaben in den Quellen dieses Laufs nicht geprüft."
    },
    "quelle": "sp1",
    "sicherheit": "hausabhängig"
+  },
+  {
+   "id": "link.kopf.ceradur",
+   "typ": "kopf",
+   "bezeichnung": "LINK CeraDur Prothesenkopf 12/14",
+   "auswahl_dach": false,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "konus": "12/14",
+    "seite": "lk-h gedr. 4–6/PDF 6–8",
+    "xl_36_40": "CeraDur 36 und 40: XL jeweils +8 mm (REF im Prüfbericht nicht genannt)",
+    "inlay_regel": "CeraDur-Inlays nur mit CeraDur-Köpfen (Kataloghinweis)",
+    "hinweis": "Kopfkatalog – keine pauschale Freigabe aller Köpfe für SP II; Suffixe nicht familienübergreifend umdeuten (32/+7 = /04 nur bei CeraDur)"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-/Packungsangaben in den Quellen dieses Laufs nicht geprüft."
+   },
+   "quelle": "lk-h",
+   "sicherheit": "belegt (Original, 1 Prüfer)",
+   "groessen": [
+    {
+     "durchmesser_mm": "32",
+     "halslaenge_mm": "-4",
+     "ref": "198-792/01"
+    },
+    {
+     "durchmesser_mm": "32",
+     "halslaenge_mm": "0",
+     "ref": "198-792/02"
+    },
+    {
+     "durchmesser_mm": "32",
+     "halslaenge_mm": "+4",
+     "ref": "198-792/03"
+    },
+    {
+     "durchmesser_mm": "32",
+     "halslaenge_mm": "+7",
+     "ref": "198-792/04"
+    }
+   ]
+  },
+  {
+   "id": "link.kopf.biolox_delta",
+   "typ": "kopf",
+   "bezeichnung": "LINK BIOLOX delta Prothesenkopf 12/14",
+   "auswahl_dach": false,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "konus": "12/14",
+    "seite": "lk-h gedr. 4–6/PDF 6–8",
+    "ref_familie": "128-79… (eigene REF-Familie, getrennt von CeraDur) – Einzel-REF im Prüfbericht nicht aufgeführt",
+    "inlay_regel": "BIOLOX-delta-Inlays nur mit entsprechenden delta-Köpfen (Kataloghinweis)"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-/Packungsangaben in den Quellen dieses Laufs nicht geprüft."
+   },
+   "quelle": "lk-h",
+   "sicherheit": "belegt (Original, 1 Prüfer)",
+   "groessen": []
+  },
+  {
+   "id": "link.kopf.cocr",
+   "typ": "kopf",
+   "bezeichnung": "LINK CoCr Prothesenkopf 12/14",
+   "auswahl_dach": false,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "konus": "12/14",
+    "seite": "lk-h gedr. 4–6/PDF 6–8",
+    "suffix_warnung": "128-828/04 = 28/+10,5, aber 198-828/04 = 28/+7 (Familie des Präfixes 198 im Prüfbericht nicht benannt) – Suffixe nicht familienübergreifend umdeuten",
+    "vollstaendig": "nein – nur Beispiel-REF"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Etikett-/Packungsangaben in den Quellen dieses Laufs nicht geprüft."
+   },
+   "quelle": "lk-h",
+   "sicherheit": "belegt (Original, 1 Prüfer)",
+   "groessen": [
+    {
+     "durchmesser_mm": "28",
+     "halslaenge_mm": "+10,5",
+     "ref": "128-828/04"
+    }
+   ]
   }
  ],
  "passt_zu": [
@@ -242,15 +377,15 @@
    "von": "link.spii.standard",
    "zu": "link.kopf.modular_1214",
    "status": "bedingt",
-   "bedingung": "Konus 12/14; Halszusatz max. +4 mm laut sp1",
-   "quelle": "sp1",
-   "seite": "28"
+   "bedingung": "Konus 12/14; Halszusatz-Grenze: US 2020 +4 mm für alle SP II (US-Nachweis); EN 2026-04 +4 mm ausdrücklich nur für XL Neck; Grenze für Standard in EU/DE offen",
+   "quelle": "sp1; lk26",
+   "seite": "sp1 gedr. 28/PDF 30; lk26 gedr. 15/PDF 17"
   },
   {
    "von": "link.spii.standard",
    "zu": "link.pfanne.lubinus",
    "status": "ja",
-   "bedingung": "Hersteller-Produktseite nennt Kombination SPII + Lubinus Cup; Größen/Inlay vom Etikett",
+   "bedingung": "nur Produktebene: Hersteller-Produktseite nennt Kombination SPII + Lubinus Cup; keine Größenpaarung belegt – Größen/Inlay vom Etikett",
    "quelle": "cup-web",
    "seite": "Lubinus Cup"
   },
@@ -269,6 +404,38 @@
    "bedingung": "EPRD Hybrid; CombiCup-IFU ohne SP-II-Schaftfreigabe in diesem Extrakt",
    "quelle": "combi; es",
    "seite": "–"
+  },
+  {
+   "von": "link.spii.xl",
+   "zu": "link.kopf.modular_1214",
+   "status": "bedingt",
+   "bedingung": "Konus 12/14; nur Köpfe bis +4 mm Zusatzhalslänge (XL Neck)",
+   "quelle": "lk26",
+   "seite": "gedr. 15/PDF 17"
+  },
+  {
+   "von": "link.spii.standard",
+   "zu": "link.kopf.ceradur",
+   "status": "offen",
+   "bedingung": "Prosthesis Heads 9001 ist Kopfkatalog, keine Schaftfreigabe für SP II; Halsgrenze Standard EU offen",
+   "quelle": "lk-h",
+   "seite": "gedr. 4–6/PDF 6–8"
+  },
+  {
+   "von": "link.spii.standard",
+   "zu": "link.kopf.biolox_delta",
+   "status": "offen",
+   "bedingung": "Kopfkatalog, keine Schaftfreigabe; Einzel-REF fehlen",
+   "quelle": "lk-h",
+   "seite": "gedr. 4–6/PDF 6–8"
+  },
+  {
+   "von": "link.spii.standard",
+   "zu": "link.kopf.cocr",
+   "status": "offen",
+   "bedingung": "Kopfkatalog, keine Schaftfreigabe; nur Beispiel-REF",
+   "quelle": "lk-h",
+   "seite": "gedr. 4–6/PDF 6–8"
   }
  ],
  "regeln": [
@@ -279,28 +446,42 @@
    "quelle": "sp1 S. 28"
   },
   {
-   "wenn": "kopf",
-   "pruefe": "hals <= +4",
-   "text": "LINK Lubinus SP II nur mit Prothesenköpfen bis +4 mm zusätzliche Halslänge.",
-   "quelle": "sp1 S. 28"
-  },
-  {
    "wenn": "fremd",
    "pruefe": "nicht mischen",
    "text": "Implantate anderer Hersteller nicht kombinieren (sp1 Important Information). EPRD-Hybrid SPII+Allofit ⚠ ist keine Freigabe.",
    "quelle": "sp1; es"
+  },
+  {
+   "wenn": "kopf",
+   "pruefe": "hals <= +4 (marktabhängig)",
+   "text": "Halszusatz bis +4 mm: in US 2020 für alle SP II; in EN 2026-04 ausdrücklich für XL Neck. Für SP II Standard in EU/DE ist die Grenze offen – längere Köpfe nicht als erlaubt ableiten.",
+   "quelle": "sp1 gedr. 28/PDF 30; lk26 gedr. 15/PDF 17"
+  },
+  {
+   "wenn": "kopf+inlay",
+   "pruefe": "CeraDur ↔ CeraDur, delta ↔ delta",
+   "text": "CeraDur-Inlays nur mit CeraDur-Köpfen, BIOLOX-delta-Inlays nur mit delta-Köpfen; REF-Suffixe nicht familienübergreifend deuten (z. B. /04).",
+   "quelle": "lk-h gedr. 4–6/PDF 6–8"
+  },
+  {
+   "wenn": "quelle",
+   "pruefe": "Impressum vor Dateiname",
+   "text": "SP-II-EN-2026-04: Dateiname 6431_…_002 MAR-02619, Impressum 6430_…_009 B MAR-00799 15.0 – Revision nur aus dem Impressum.",
+   "quelle": "lk26"
   }
  ],
  "rueckrufe": [],
  "offen": [
-  "EU/DE-Fassung der SP-II-OP-Technik (neuere EN 2026-04) gegen US-Dok abgleichen",
-  "Vollständige REF-Matrix aller CCD/Längen/Seiten in App-taugliche Tabelle",
-  "Kopf-REF (Keramik/CoCr) Katalog nachziehen",
+  "Lokale DE/EU-IFU SP II (EN 2026-04 ist globale Fassung; US 2020 kein EU-Ersatz)",
+  "Vollständige REF-Matrix aus EN 2026-04 (inkl. 117°/170 mm) in App-taugliche Tabelle",
+  "Halszusatz-Grenze für SP II Standard in EU/DE",
+  "Kopf-REF vollständig aus Prosthesis Heads 9001 (CeraDur 36/40, BIOLOX delta 128-79…, CoCr); Kopf-Freigabe für SP II",
   "IP Cup / FAL / FC: Größeninnen-Ø und explizite Freigabe mit SP II",
+  "Lubinus Cup: Größenpaarung (bisher nur Produktebene)",
   "CombiCup PF/SC: Schaft-Freigabe oder bewusst getrennt dokumentieren",
   "BfArM / Field Safety Notice SP II Label (falls relevant) prüfen"
  ],
- "verified_hinweis": "Neuanlage P1 07.10.2026 aus Link SP-II-OP-Technik US 2020-05 und Produktseiten. verified: false. Lubinus Cup als Hersteller-Paarung; IP/CombiCup offen.",
+ "verified_hinweis": "Neuanlage P1 07.10.2026 aus Link SP-II-OP-Technik US 2020-05 und Produktseiten. verified: false. Lubinus Cup als Hersteller-Paarung; IP/CombiCup offen. Lauf 001-implantate-luecken (07.10.2026): Korrekturen nach OpenAI-Gegenprüfung (EN 2026-04, Prosthesis Heads 2026-06), von Julian freigegeben.",
  "region": "hüfte",
  "verified": false,
  "stand_extrakt": "2026-10-07",
@@ -315,6 +496,12 @@
    "datum": "2026-10-07",
    "lauf": "p1-fehlende-systeme",
    "text": "Neuanlage SP II Lubinus zementiert + Lubinus/IP/CombiCup-Kontext aus Link-Originalen und EPRD-Ranking."
+  },
+  {
+   "version": "1.1",
+   "datum": "2026-10-07",
+   "lauf": "001-implantate-luecken",
+   "text": "OpenAI-Korrektur 8.3: neue Quellen SP II EN 2026-04 (Impressum 6430_…_009 B MAR-00799 15.0, URL-Name 6431_…_002 MAR-02619) und Prosthesis Heads 9001 (2026-06); 117°/170-mm-Zeile (127-710/17); +4-mm-Regel nur US 2020 bzw. XL Neck laut EN, Standard EU offen; Kopf-REF CeraDur 32 und CoCr-Beispiel getrennt nach Familie, BIOLOX delta eigene Familie; Lubinus Cup nur Produktebene."
   }
  ]
 }
