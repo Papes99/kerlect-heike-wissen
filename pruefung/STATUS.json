@@ -74,7 +74,7 @@
   },
   "001-implantate-dach": {
    "name": "001-implantate-dach (Extra-Lauf)",
-   "runde": "astra",
+   "runde": "julian",
    "typ": "implantate",
    "gehoert_zu": "001",
    "auftrag": "Erst DACH-Ranking belegen (EPRD-Jahresbericht 2025 Tabellen Schäfte/Pfannen/Kombinationen, SIRIS Schweiz, Österreich-Register), dann die häufigsten Systeme je Hersteller als Implantat-Dateien anlegen.",
@@ -92,7 +92,12 @@
     "astra": "pruefung/001-implantate-dach-astra.md",
     "perplexity": "pruefung/001-implantate-dach-perplexity.md"
    },
-   "abschluss": "neue Dateien implantate/<hersteller>-<system>.json + .md (Schema v1.1); basis + perplexity-auftrag danach entfernen"
+   "abschluss": "neue Dateien implantate/<hersteller>-<system>.json + .md (Schema v1.1); basis + perplexity-auftrag danach entfernen",
+   "letzte_runde": {
+    "datum": "2026-10-07",
+    "astra_ergebnis": "ÄNDERN (34 Punkte)",
+    "perplexity": "pruefung/001-implantate-dach-perplexity.md"
+   }
   }
  },
  "eingang_verarbeitet": [
