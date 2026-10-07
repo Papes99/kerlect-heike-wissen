@@ -20,7 +20,7 @@
    "datei": "pakete/001-basis.json",
    "name": "001-hueft-tep",
    "version": "1.2",
-   "runde": "grok",
+   "runde": "astra",
    "typ": "eingriff",
    "basis": "000",
    "gehoert_dazu": [
