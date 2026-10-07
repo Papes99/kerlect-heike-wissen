@@ -1,7 +1,7 @@
 {
  "stand": "2026-10-07",
- "regeln": "Jede Datei bearbeitet nur ihr Ersteller. Claude: pakete/*, implantate/*, app/*.md+json, pruefung/STATUS.json, README.md. Grok: pruefung/NNN-grok.md. OpenAI: pruefung/NNN-openai.md. Perplexity: pruefung/NNN-perplexity.md. Astra: Kerlect-Code + pruefung/app-astra.md. Julian: eingang/* und alles auf ausdrücklichen Wunsch. Dateinamen ohne Versionsnummer.",
- "ablauf": "Prüf-Pipeline NEU (Julian 07.10.2026, pruefung/PIPELINE-NEU.md): Julian nennt Paket → Perplexity Quellen (pruefung/NNN-perplexity.md) → Claude/Cloud startet (pakete/NNN-basis, Zur Prüfung) → Grok ganze Paketversion (pruefung/NNN-grok.md) → nur Implantate: OpenAI (pruefung/NNN-openai.md; Herstellerangaben/Kompatibilität/Indikationsgrenzen, keine Instrumente) → Claude letzter Check + Änderungsliste (Multiple Choice) → Julian okay → Claude baut Daten ein → Astra implementiert in Kerlect → abgeschlossen; Grok/OpenAI/Perplexity/Astra löschen eigene Prüfdateien.",
+ "regeln": "Jede Datei bearbeitet nur ihr Ersteller. Claude: pakete/*, implantate/*, app/*.md+json, pruefung/STATUS.json, README.md. Grok: pruefung/NNN-grok.md. OpenAI: pruefung/NNN-openai.md. Astra: Kerlect-Code + pruefung/app-astra.md. Julian: eingang/* und alles auf ausdrücklichen Wunsch. Dateinamen ohne Versionsnummer.",
+ "ablauf": "Prüf-Pipeline (Stand 07.10.2026, ohne Perplexity): Julian nennt Paket → Claude recherchiert und liest die Quellen selbst am Original, legt pakete/NNN-basis (+ Zur Prüfung) und ggf. implantate/* an → Grok prüft ganze Paketversion (pruefung/NNN-grok.md) → nur Implantate: OpenAI (pruefung/NNN-openai.md) → Claude letzter Check + Änderungsliste (Multiple Choice) → Julian okay → Claude baut ein → Astra implementiert in Kerlect → abgeschlossen; Grok/OpenAI/Astra löschen eigene Prüfdateien.",
  "pakete": {
   "000": {
    "datei": "pakete/000-abschluss.md",
@@ -129,11 +129,9 @@
    "name": "002-knie-tep",
    "typ": "eingriff",
    "basis": "000",
-   "runde": "perplexity",
+   "runde": "cloud",
    "lauf_start": "2026-10-07T21:00Z",
-   "perplexity_auftrag": "pakete/002-perplexity-auftrag.md",
    "dateien": {
-    "perplexity": "pruefung/002-perplexity.md",
     "grok": "pruefung/002-grok.md",
     "openai": "pruefung/002-openai.md"
    },
@@ -148,7 +146,7 @@
  "hinweis_start": "Neustart 07.10.2026: alte Prüf-/Arbeitsdateien gelöscht (Git-Verlauf). Kette beginnt mit 000.",
  "start_befehl": "Ein Paket startet nur, wenn Julian „NNN los“ sagt (z. B. „001 los“).",
  "zuordnung": "000 = allgemeines OP-Wissen (gilt für jeden Eingriff). Eingriffspakete (001 …) enthalten NUR Eingriffsspezifisches. Allgemeines aus Eingriffspaketen: ist es schon in 000 → im Eingriffspaket streichen; fehlt es in 000 → über die Kette (000-basis „Zur Prüfung“ → Grok → Astra → Julian) nach 000 verschieben, dann im Eingriffspaket streichen. Eingriffsspezifisches nie in 000.",
- "perplexity": "Perplexity liest das Repo selbst. Braucht ein Lauf Recherche, legt Claude pakete/NNN-perplexity-auftrag.md an. Perplexity schreibt nur pruefung/NNN-perplexity.md (eigene Datei; Commit mit Bestätigung) – oder, wenn das nicht geht, als Datei in den Chat → Julian lädt sie bei Claude hoch (Ablage eingang/). Ergebnisse sind Fundstellen, nie direkt Werte; Grok/Astra prüfen am Original.",
+ "perplexity": "Julian 07.10.2026: Perplexity wird nicht mehr eingesetzt. Quellen recherchiert und liest Claude selbst (Hersteller-/Behörden-/Registerdokumente am Original, mit Seite).",
  "lauf_regel": "Liegt eine eigene Datei von VOR dem lauf_start des Pakets, überschreibt ihr Ersteller sie im neuen Lauf.",
  "systeme": "Systeme werden nicht aktiv gemischt (Julian 07.10.2026): jede Komponente nur zusammen mit dem, was der Hersteller im Dokument ausdrücklich dafür vorsieht. Keine eigenen Kombinationen – weder über Hersteller noch innerhalb eines Herstellers.",
  "haus_systeme": {
@@ -245,6 +243,6 @@
   "astra_ergebnis": "pruefung/app-astra.md"
  },
  "auswahl_regel": "Julian 07.10.2026: Implantat-Systeme werden nach Häufigkeit in DACH ausgewählt (Register: EPRD Deutschland, SIRIS Schweiz, Österreich), nicht nach einer einzelnen Klinik. „haus_systeme“ = aktuelle Auswahl häufiger DACH-Systeme; Hausbestand prüft jede Klinik selbst am Etikett.",
- "runde_schema": "pruefung/runde-schema-v2.json (wartet → perplexity → cloud → grok → openai [nur Implantate] → cloud-final → julian → astra-bau → abgeschlossen)",
+ "runde_schema": "wartet → cloud (Claude recherchiert + Basis) → grok → openai (nur Implantate) → cloud-final → julian → astra-bau → abgeschlossen (Perplexity entfällt)",
  "prompt_regel": "Julian 07.10.2026: Bei jedem Prompt für Astra steht der empfohlene Aufwand dabei (niedrig / mittel / hoch / sehr hoch) mit kurzem Grund."
 }

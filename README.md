@@ -26,17 +26,16 @@ Nach Häufigkeit in DACH (Register EPRD, SIRIS, Österreich) – nicht nach eine
 - **002-knie-tep** folgt (Start auf „002 los“); danach 003 ff.
 
 Ablauf – **Prüf-Pipeline NEU** (Julian, 07.10.2026; Details `pruefung/PIPELINE-NEU.md`, `pruefung/runde-schema-v2.json`). **Jede Datei bearbeitet nur ihr Ersteller – keiner verändert fremde Dateien.** Dateinamen ohne Versionsnummer. „Cloud“ = Claude.
-1. **Julian** nennt das Paket (z. B. „003 los“) → `runde: perplexity`.
-2. **Perplexity** liefert zuerst die Quellenangaben (Titel, Stand, Seite, URL) → `pruefung/NNN-perplexity.md` (Auftrag: `pakete/NNN-perplexity-auftrag.md`).
-3. **Claude** startet die Prüfung: `pakete/NNN-basis` (+ „Zur Prüfung in diesem Lauf“) → `runde: grok`.
-4. **Grok** prüft die ganze Paketversion gründlich → `pruefung/NNN-grok.md`.
-5. **Nur bei Implantaten: OpenAI** prüft ausschließlich Implantate (Herstellerangaben, Kompatibilitätstabellen, Indikationsgrenzen – keine Instrumente) → `pruefung/NNN-openai.md` → zurück an Claude.
-6. **Claude** macht den letzten Check, denkt kritisch mit und schickt Julian die Änderungsliste (✅/❌/✏️/❓ als Multiple Choice, 🔎 Perplexity-Prompt) → `runde: julian`.
-7. **Julian** gibt das Okay → Claude baut die Daten ein (`pakete/NNN-abschluss.md` bzw. `implantate/*`) → `runde: astra-bau`.
-8. **Astra implementiert** in Kerlect (nur dort) → `runde: abgeschlossen`.
-9. **Grok, OpenAI, Perplexity und Astra** löschen danach nur ihre eigenen Prüfdateien.
+1. **Julian** nennt das Paket (z. B. „003 los“).
+2. **Claude** recherchiert die Quellen selbst und liest sie am Original (Hersteller, Behörden, Register, Leitlinien – mit Seite), legt `pakete/NNN-basis` (+ „Zur Prüfung in diesem Lauf“) und ggf. `implantate/*` an → `runde: grok`. *(Perplexity entfällt seit 07.10.2026.)*
+3. **Grok** prüft die ganze Paketversion gründlich → `pruefung/NNN-grok.md`.
+4. **Nur bei Implantaten: OpenAI** prüft ausschließlich Implantate (Herstellerangaben, Kompatibilitätstabellen, Indikationsgrenzen – keine Instrumente) → `pruefung/NNN-openai.md` → zurück an Claude.
+5. **Claude** macht den letzten Check, denkt kritisch mit und schickt Julian die Änderungsliste (✅/❌/✏️/❓ als Multiple Choice, 🔎 Perplexity-Prompt) → `runde: julian`.
+6. **Julian** gibt das Okay → Claude baut die Daten ein (`pakete/NNN-abschluss.md` bzw. `implantate/*`) → `runde: astra-bau`.
+7. **Astra implementiert** in Kerlect (nur dort) → `runde: abgeschlossen`.
+8. **Grok, OpenAI und Astra** löschen danach nur ihre eigenen Prüfdateien.
 
-`runde`-Kette: `wartet → perplexity → cloud → grok → (openai nur Implantate) → cloud-final → julian → astra-bau → abgeschlossen`. Ereignisgesteuert über GitHub-Action (`pruefung/github-action-pruef-pipeline.yml`, einmalig nach `.github/workflows/` kopieren).
+`runde`-Kette: `wartet → cloud → grok → (openai nur Implantate) → cloud-final → julian → astra-bau → abgeschlossen`. Ereignisgesteuert über GitHub-Action (`pruefung/github-action-pruef-pipeline.yml`, einmalig nach `.github/workflows/` kopieren).
 
 ## Gegenprüfung
 
