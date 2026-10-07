@@ -86,6 +86,19 @@ Alle Bewegungen laufen über **Federn** (Masse-Feder-Dämpfer, x'' = −k·(x−
 - Heike-Satz in jedem Schritt: was jetzt passiert und worauf achten (Texte aus 001 `heike_hinweise`).
 - Fachbegriffe kurz erklärt per Tipp (z. B. „Offset = Halslänge des Kopfes“).
 
+## Sehr spielerisch, physikalisch, „satisfying“ (Julian, 07.10.2026)
+Das Tablett soll sich anfühlen wie ein gutes Spiel – jedes Teil hat Gewicht, alles federt, rastet hörbar/fühlbar ein. Ergänzt die Feder-Tabelle oben:
+- **Teile greifen und ziehen:** Gewählte Komponente kann man mit dem Finger aus der Liste in die Hüft-Bühne **ziehen**; in der Nähe des Ziels zieht ein **Magnet** sie an (Federzug), sie rastet mit Überschwingen ein (Ring-Welle + `success`). Antippen bleibt als schneller Weg erhalten.
+- **Gewicht und Trägheit:** Teile folgen dem Finger leicht verzögert (Masse), kippen beim schnellen Ziehen etwas in Zugrichtung, pendeln beim Loslassen aus.
+- **Falsches Teil:** prallt wie Gummi von der Bühne ab und **springt zurück** in die Liste (Schütteln + `error`), Karte „Nicht in diesem System“.
+- **Kopf auf Konus:** fällt mit kleinem Aufprall auf den Schaft, kurzer „Klick“ (`toggle`), Kopf glänzt einmal im Material-Look (BIOLOX rosa Glanz, CoCr Spiegelreflex).
+- **Pfanne:** dreht sich beim Einsetzen eine Vierteldrehung ein (Federrotation), Inlay „ploppt“ hinein.
+- **Größen-Rad:** Schwung mit Trägheit, jede Zahl ein Tick, am Ende weiches Einrasten; über den Rand gezogen → Gummiwiderstand.
+- **Fortschritt:** Jede erledigte Stufe füllt ein Segment mit Feder; die Hüfte in der Bühne wird Teil für Teil vollständig.
+- **Abschluss:** Fertige Hüfte dreht sich einmal langsam (Trägheit, auslaufend), dezenter Glanz-Sweep über alle Teile, `complete`-Haptik, Übersicht federt von unten herein. Kein Konfetti im OP-Ablauf.
+- **Grenzen:** Spielerisch heißt nie langsamer: jede Animation unterbrechbar, Eingaben sofort möglich, nichts wird durch eine Geste versehentlich bestätigt („Steril anreichen“ bleibt Halten 1,1 s). `prefers-reduced-motion`: alles springt sofort ans Ziel, Ziehen bleibt nutzbar. Haptik/Ton nur laut Profil-Einstellung.
+- Abnahme zusätzlich: kurzes Bildschirmvideo (≤ 30 s) mit Ziehen + Magnet, falschem Teil (Rückprall), Kopf-Klick und Abschluss-Drehung.
+
 ## Ergänzung Julian (07.10.2026): System im Standard, eigene Systeme
 1. **Im Standard steht nie eine einzelne Implantatgröße** – die Größe ist bei jedem Patienten anders. Gespeichert wird nur das **System**: Hersteller, System, Fixation/Varianten, verfügbare Komponenten mit Größenbereichen, Konus, Probesets/Siebe, Quelle + Stand. Knopf im Abschnitt `implants`: **„System in Standard übernehmen“** (Auswahl aus `haus_systeme`/`implantate/*.json`). Das ist auch der System-Vorschlag beim Öffnen des Tabletts (Punkt 3 oben).
 2. **Größenwahl = nur in der OP** (Tablett, Schritte 3–7): auf Ansage, lokal für den laufenden Lauf, **nie** im Standard gespeichert; nach Abschluss zurücksetzen.
