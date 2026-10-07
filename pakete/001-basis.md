@@ -312,10 +312,18 @@ Bitte prüfen: Deckt der 000-Eintrag den 001-Eintrag wirklich ab? Wo 001 Hüft-S
 ### Teil C – Implantat-Quellen (Perplexity-Auftrag: `pruefung/001-perplexity-auftrag.md`)
 Offen: EU-Dokumente und Größen/Kompatibilität für Stryker Accolade II / Trident II / UHR, Smith+Nephew POLARSTEM (EU-IFU) / R3 / TANDEM, Mathys twinSys / Pfannen / Bipolarkopf. Werte nur aus dem Original mit Seite; Perplexity liefert nur Fundstellen.
 
-### Teil D – Hausangaben Julian (07.10.2026)
-- Stryker im Haus: **Accolade (V40, vermutlich Accolade II) zementfrei**, **Exeter (zementierter Schaft)** und das **Duokopf-System**.
-- **Systeme werden NICHT aktiv gemischt** (Julian): Jedes System nur mit den Komponenten, die der Hersteller im Dokument ausdrücklich dafür vorsieht. Keine eigenen Kombinationen, auch nicht innerhalb eines Herstellers. Bitte nur prüfen: Welche Komponenten gehören laut Stryker-EU-Dokument zum Duokopf-System?
-- Smith+Nephew: R3 (Pfanne).
+### Teil D – Hausangaben Julian (07.10.2026, korrigiert)
+| Hersteller | System | Im Haus |
+|---|---|---|
+| Stryker | Accolade (V40, vermutl. Accolade II) | **nur zementfreies Hüftsystem** (alle Komponenten) |
+| Aesculap (B. Braun) | Excia | zementfrei + zementiert + **Duokopf mit zementiertem Schaft** |
+| Smith+Nephew | R3 | zementfrei + zementiert + **Duokopf mit zementiertem Schaft** |
+| Enovis (Mathys) | twinSys | zementfrei + zementiert + **Duokopf mit zementiertem Schaft** |
+
+- **Systeme werden NICHT gemischt:** je System nur Komponenten, die der Hersteller ausdrücklich dafür vorsieht.
+- Folge für Implantat-Dateien (bitte prüfen): **Stryker hat im Haus keinen Duokopf** → UHR-Eintrag in `implantate/stryker-accolade-ii` streichen. Exeter ist **nicht** im Haus (frühere Notiz war ein Lesefehler: gemeint war Aesculap **Excia**).
+- Neue Implantat-Dateien nötig: Aesculap Excia, Enovis twinSys (Mathys), S+N R3-System – Werte nur aus Herstellerdokument mit Seite (Quellen: Perplexity).
 
 ### Teil E – Wartet auf Julian (nicht prüfen)
-- Smith+Nephew-Schaft: *POLARSTEM*, *SL-PLUS* oder *ANTHOLOGY*? EU-IFU vorhanden?
+- Smith+Nephew: Welche Schäfte nutzt ihr im R3-System? z. B. zementfrei *POLARSTEM* / *SL-PLUS* / *ANTHOLOGY*, zementiert *POLARSTEM zementiert* / *CPCS*?
+- Aesculap: Welche Excia-Pfannen? z. B. *Plasmafit* (zementfrei) und zementierte PE-Pfanne?

@@ -2,12 +2,15 @@
 
 Pro System eine Datei `implantate/<hersteller>-<system>.json` + `.md`. **Nur exakte Herstellerdaten** (Kompatibilitätstabelle, OP-Technik, IFU, Katalog) mit Dokument, Stand und Link. Nichts schätzen. Firma **und** System müssen passen.
 
-## Systeme im Haus (Julian, 07.10.2026)
-| Hersteller | Im Haus | Noch zu klären |
+## Systeme im Haus (Julian, 07.10.2026 – korrigiert)
+**Systeme werden nicht gemischt** – je System nur Komponenten, die der Hersteller ausdrücklich dafür vorsieht. Der Duokopf wird mit dem zementierten Schaft desselben Systems verwendet.
+
+| Hersteller | System | Im Haus |
 |---|---|---|
-| **Stryker** | Accolade-Schaft zementfrei (Konus **V40**, vermutl. Accolade II), **Exeter zementiert** (Julian 07.10.), zementfreie Pfanne, Duokopf-System (bipolar) | Accolade II oder Accolade TMZF (beide V40)? Name der Pfanne (z. B. Trident/Trident II)? Name des Duokopfs? |
-| **Mathys** | **alles**: twinSys zementfrei + zementiert, Pfanne zementfrei + zementiert, Duokopf | Namen der Pfannen und des Duokopfs |
-| **Smith & Nephew** | **alles**: Schaft zementfrei + zementiert, Pfanne zementfrei + zementiert, Duokopf | Systemnamen (Schaft, Pfannen, Duokopf) |
+| **Stryker** | Accolade (V40, vermutl. Accolade II) | nur zementfreies Hüftsystem (alle Komponenten) |
+| **Aesculap (B. Braun)** | Excia | zementfrei + zementiert + Duokopf (mit zementiertem Schaft) |
+| **Smith+Nephew** | R3 | zementfrei + zementiert + Duokopf (mit zementiertem Schaft) |
+| **Enovis (Mathys)** | twinSys | zementfrei + zementiert + Duokopf (mit zementiertem Schaft) |
 
 ## Schema je Datei
 ```json
