@@ -21,6 +21,8 @@ Gegenprüfung Grok · Quellen selbst geöffnet (WebFetch/curl + pdftotext) · ni
 
 **Sum A:** 11× bestätigt · 1× zu weit · 0× nicht gefunden. AMBOSS-Inhalt war ohne Login lesbar (Kapiteltext vollständig im Abruf).
 
+Zusatz: In `pakete/001-hueft-tep.json` gibt es genau **10** Einträge mit `"sicherheit":"belegt"` – deckungsgleich mit den 📖-Zeilen in A (ohne die zwei Heike-Sätze, die nur im Markdown 📖 tragen). Alle 10 wurden oben mitgeprüft.
+
 #### B. Änderungsvorschläge
 
 | Nr | Abschnitt | Betroffener Eintrag (oder „neu“) | Art (Korrektur / Ergänzung / Streichung / Präzisierung) | Vorschlag (konkret, Schema-Felder) | Begründung | Quelle (Titel, Stand, Seite, URL) | Priorität (hoch = Sicherheit / mittel / niedrig) |
@@ -40,26 +42,28 @@ Gegenprüfung Grok · Quellen selbst geöffnet (WebFetch/curl + pdftotext) · ni
 
 Nur Zeilen mit selbst gelesenem Herstellerdokument + Seite; sonst „offen“. ClinicalTrials.gov / Pressemitteilungen / GUDID allein = nicht ausreichend.
 
-| Hersteller | System | Angabe | Wert | Dokument / Stand / Seite / URL |
-|---|---|---|---|---|
-| Stryker | Accolade II | Fixation | zementfrei (cementless / press-fit) | ACCII-SP-1 Rev-4, ©2022, S. 3–4 · Azure CDN ACCII_SP_1.pdf |
-| Stryker | Accolade II | Konus | V40 (designed for use with Stryker V40 femoral heads) | ACCII-SP-1 Rev-4, S. 4 |
-| Stryker | Accolade II | EU-Indikation Hemi | **nicht** für Hemiarthroplastik in EU/EMEA (CE) und Australia; dort nur total hip arthroplasty / cementless | ACCII-SP-1 Rev-4, S. 3 und Footnote S. 12 |
-| Stryker | Accolade II | Halswinkel/Offset-Optionen | 132° standard offset; 127° high offset | ACCII-SP-1 Rev-4, S. 4 / Trialing |
-| Stryker | V40 BIOLOX delta Kopf | Durchmesser / Offset | Ø 28: −4/−2,7/0/+4; Ø 32: −4/0/+4; Ø 36: −5/−2,5/0/+2,5/+5/+7,5 mm (nicht ein gemeinsames Intervall „−5 bis +7,5“ für alle Ø) | ACCII-SP-1 Rev-4, S. 12 |
-| Stryker | Universal Taper BIOLOX delta | Durchmesser / Offset / Adapter | Ø 28/32/36/40/44; Offset −2,5/0/+4 (nicht nur 0); nur mit Universal Taper Sleeve #6519-T-XX | ACCII-SP-1 Rev-4, S. 12 |
-| Stryker | Accolade II Probeköpfe V40 | Tray-Beispiel | V40 Head Trials u. a. 28/32/36 mm (weitere Offsets im Tray) | Accolade II Tray Layout ACCII-TL-1 (PDF gelesen) |
-| Stryker | Trident II Tritanium | Existenz / Bauarten | Tritanium Solidback / Clusterhole / Multihole u. a. auf Produktseite genannt | Produktseite DE gelesen; **Außen-Ø 42–72, Kopf 22–44, max. 44 mm: offen** (keine gelesene OP-Technik/Größentabelle) |
-| Stryker | UHR Bipolar | Außen-Ø-Reihe | 36–61 mm (Katalog UH1-…; Innenköpfe 22/26/28 mm je Größe) | UHR Broschüre Japan HE01-160 Rev1 (PDF gelesen) |
-| Stryker | UHR + Accolade II (EU) | Kompatibilität / Freigabe | **offen / für EU-Hemi nicht freigegeben** (Accolade II EU ohne Hemi-Indikation; UHR-PDF nennt keinen V40/Accolade-II-Bezug) | ACCII-SP-1 + UHR HE01-160 |
-| Mathys | twinSys / RM / seleXys / Bipolar | alle Entwurfswerte | **offen** | mathysmedical.com PDFs HTTP 415; Enovis/eIFU HCP-Login – Dokumente nicht lesbar |
-| Smith+Nephew | POLARSTEM zementfrei | Material / Oberfläche | Titanlegierung mit poröser Titanplasma-/HA-Beschichtung (Ti/HA); single use, ohne Zement | POLARSTEM IFU 81098832 Rev. 2, Product-specific Information |
-| Smith+Nephew | POLARSTEM zementiert | Material | Edelstahl (stainless steel); mit Knochenzement; Köpfe laut IFU nur OXINIUM oder BIOLOX delta | IFU 81098832 Rev. 2 |
-| Smith+Nephew | POLARSTEM | Konus | 12/14 taper | IFU 81098832 Rev. 2 |
-| Smith+Nephew | POLARSTEM zementfrei | Offset-Varianten | Standard CCD 135°; lateral 126°; valgus 145°; teilweise mit Collar | IFU 81098832 Rev. 2 |
-| Smith+Nephew | R3 | Größen / Inlays / max. Kopf | **offen** | Produktseite ohne belastbare Größentabelle; keine gelesene OP-Technik |
-| Smith+Nephew | OXINIUM Kopf | Existenz | Hersteller nennt OXINIUM-Köpfe; Größen/Offset **offen** | IFU (Kombinationshinweis) + Produktkommunikation; keine Größentabelle gelesen |
-| Smith+Nephew | TANDEM Bipolar | Bau / Größen / Taper-Sleeve | **offen** (Produktseite); FDA-Recall-Hinweis im Entwurf = Behördenmeldung, keine Größenquelle | Produktseite; Recall ≠ IFU-Größen |
+| Hersteller | System | Komponente | Angabe | Wert | Dokument/Stand/Seite/URL |
+|---|---|---|---|---|---|
+| Stryker | Accolade II | Schaft | Fixation | zementfrei (cementless / press-fit) | Accolade II Surgical Protocol ACCII-SP-1 Rev-4 ©2022, S. 3–4 · https://az621074-1-cugdarb7eqgsg5g5.a01.azurefd.net/syk-mobile-content-cdn/global-content-system/SYKGCSDOC-2-45343/OrTQyxQIqD2-WhrxKy8f3JDuPuEV4Q/ACCII_SP_1.pdf |
+| Stryker | Accolade II | Schaft | Konus | V40 (designed for use with Stryker V40 femoral heads) | ACCII-SP-1 Rev-4, S. 4 · gleiche URL |
+| Stryker | Accolade II | Schaft | EU-Indikation Hemi | **nicht** für Hemiarthroplastik in EU/EMEA (CE) und Australia; dort nur total hip arthroplasty / cementless | ACCII-SP-1 Rev-4, S. 3 und Footnote S. 12 · gleiche URL |
+| Stryker | Accolade II | Schaft | Halswinkel/Offset-Optionen | 132° standard offset; 127° high offset | ACCII-SP-1 Rev-4, S. 4 / Trialing · gleiche URL |
+| Stryker | Accolade II | Kopf V40 BIOLOX delta | Durchmesser / Offset | Ø 28: −4/−2,7/0/+4; Ø 32: −4/0/+4; Ø 36: −5/−2,5/0/+2,5/+5/+7,5 mm (nicht pauschal −5…+7,5 für alle Ø) | ACCII-SP-1 Rev-4, S. 12 · gleiche URL |
+| Stryker | Accolade II | Kopf Universal Taper BIOLOX delta | Durchmesser / Offset / Adapter | Ø 28/32/36/40/44; Offset −2,5/0/+4 (nicht nur 0); nur mit Universal Taper Sleeve #6519-T-XX | ACCII-SP-1 Rev-4, S. 12 · gleiche URL |
+| Stryker | Accolade II | Probekopf V40 | Tray-Beispiel | V40 Head Trials u. a. 28/32/36 mm (weitere Offsets im Tray) | Accolade II Tray Layout ACCII-TL-1 (PDF gelesen) |
+| Stryker | Trident II Tritanium | Pfanne | Existenz / Bauarten | Tritanium Solidback / Clusterhole / Multihole u. a. auf Produktseite genannt; **Außen-Ø / max. Kopf / Inlay-Innen-⌀: offen** | Produktseite DE gelesen; keine gelesene OP-Technik/Größentabelle · https://www.stryker.com/de/de/joint-replacement/products/trident-ii.html |
+| Stryker | UHR Universal Head | Duokopf | Außen-Ø-Reihe | 36–61 mm (Katalog UH1-…; Innenköpfe 22/26/28 mm je Größe) | UHR Broschüre Japan HE01-160 Rev1 (PDF gelesen) · https://www.stryker.com/content/dam/stryker/ja/ja/portfolios/orthopaedics/joint-replacement/HE01-160_Rev1_UHR_BipolarSystem_s.pdf |
+| Stryker | UHR + Accolade II (EU) | Duokopf+Schaft | Kompatibilität / Freigabe | **offen / für EU-Hemi nicht freigegeben** (Accolade II EU ohne Hemi-Indikation; UHR-PDF nennt keinen V40/Accolade-II-Bezug) | ACCII-SP-1 + UHR HE01-160 |
+| Mathys | twinSys / RM Pressfit vitamys / seleXys PC / RM Classic / Bipolarkopf | Schaft/Pfanne/Duokopf | alle Entwurfswerte | **offen** | mathysmedical.com PDFs HTTP 415; Enovis/eIFU HCP-Login – Dokumente nicht lesbar |
+| Mathys | zementierte Pfanne | Pfanne | Name / Größen / REF | **offen** | kein gelesenes Herstellerdokument |
+| Smith+Nephew | POLARSTEM zementfrei | Schaft | Material / Oberfläche | Titanlegierung mit poröser Titanplasma-/HA-Beschichtung (Ti/HA); single use, ohne Zement | POLARSTEM IFU 81098832 Rev. 2 · https://smith-nephew.stylelabs.cloud/api/public/content/dda3044cb508477195f9fb946f902eef?download=true&v=277c7283 |
+| Smith+Nephew | POLARSTEM zementiert | Schaft | Material / Köpfe | Edelstahl; mit Knochenzement; Köpfe laut IFU nur OXINIUM oder BIOLOX delta | IFU 81098832 Rev. 2 · gleiche URL |
+| Smith+Nephew | POLARSTEM | Schaft | Konus | 12/14 taper | IFU 81098832 Rev. 2 · gleiche URL |
+| Smith+Nephew | POLARSTEM zementfrei | Schaft | Offset-Varianten | Standard CCD 135°; lateral 126°; valgus 145°; teilweise mit Collar | IFU 81098832 Rev. 2 · gleiche URL |
+| Smith+Nephew | R3 Acetabular System | Pfanne | Größen / Inlays / max. Kopf | **offen** (Julian: R3 bestätigt im Haus) | Produktseite ohne belastbare Größentabelle; keine gelesene OP-Technik |
+| Smith+Nephew | zementierte Pfanne | Pfanne | Name / Größen / REF | **offen** | kein gelesenes Herstellerdokument |
+| Smith+Nephew | OXINIUM Kopf | Kopf | Existenz / Größen | Existenz genannt; Größen/Offset **offen** | IFU (Kombinationshinweis); keine Größentabelle gelesen |
+| Smith+Nephew | TANDEM Bipolar | Duokopf | Bau / Größen / Taper-Sleeve | **offen**; FDA-Recall-Hinweis im Entwurf = Behördenmeldung, keine Größenquelle | Produktseite; Recall ≠ IFU-Größen |
 
 **Korrektur Entwurf Stryker (verified:false):** Offset-Angaben Universal Taper und pauschales „−5 bis +7,5“ für alle V40-BIOLOX-Ø korrigieren; Trident-Größen und UHR+Accolade-II-EU als offen/nicht freigegeben führen – nicht aus ClinicalTrials/GUDID übernehmen.
 
