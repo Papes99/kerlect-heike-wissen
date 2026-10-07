@@ -341,3 +341,126 @@ Tabelle: Land × Rang × System (Hersteller + Schaft + Pfanne). Rang = nach Regi
 6) Zimmer M.E.M./MS-30 + Flachprofil/Allofit (zementiert/hybrid)  
 Optional: Medacta Quadra/Versafit (CH), Actis+Pinnacle (CH steigend), Alloclassic.
 
+
+---
+
+## Nachtrag Perplexity-Fundstellen 2026-10-07
+
+Gegenprüfung der Links aus `pruefung/001-implantate-dach-perplexity.md` am Original (curl/WebFetch/pdftotext). Nur neu belegte Werte für zuvor „nicht gefunden / nicht lesbar“ (Punkte 5–21 + Korrektur Hemi-Ranking). Systeme nicht gemischt. Keine PDFs ins Repo.
+
+### Stichproben-Status (Kurz)
+
+| Nr. | Befund |
+|---|---|
+| 1.1–1.5 EPRD PDF+Excel | **ok** (HTTP 200, PDF/XLSX) |
+| 2.1 ANQ-Direktlink | **415** von diesem Host; **ok** über `https://www.siris-implant.ch/images/content/download/20251204_SIRISReportHipandKnee2025_Final.pdf` (identischer Report) |
+| 3.1 AT Sozialministerium | **ok** (WebFetch); Abschn. 4.2 bestätigt wörtlich „fehlende Erfassung von Produktdaten“ |
+| 4.1 Pinnacle EMEA | **ok** (Redirect CDN → PDF) |
+| 4.2 Corail UK / 4.5 C-STEM / 4.6 Self-Centering | **tot** hier: Hosts `synthes.hs.llnwd.net` / `synthes.vo.llnwd.net` DNS nicht auflösbar → **keine** neuen Corail-/Self-Centering-Werte nachgetragen |
+| 4.3 Actis AU/NZ | **ok** |
+| 5.2–5.6, 5.11, 5.13, 5.15, 5.16 Zimmer | **ok** |
+| 6.2–6.4 Mathys | **Gate** (Redirect Fachkreis enovis-surgical.com/check) → weiterhin **nicht lesbar** |
+| 8.1, 8.4, 8.5, 8.7, 8.9 BfArM | **ok** per WebFetch (curl oft 400); Stichprobe Titel/Kennung stimmen |
+
+---
+
+### Korrektur zu Punkt 2 / „Nicht gefunden“ Hemi (SIRIS)
+
+**2 · Nachtrag ok · SIRIS Tab. 4.34 – Top 75 % Stem/Head Hemiarthroplasty · Dokument: SIRIS Report Hip & Knee 2025, Published December 2025, PDF `20251204_SIRISReportHipandKnee2025_Final.pdf` · gedr. Page 129 · Markt: CH · Vorschlag: als Marken-/Kombi-Ranking Hemi CH übernehmen (ersetzt frühere Aussage „keine Marken-Top-Liste“)**
+
+Wörtlich Table 4.34 „Fracture of the hip: top 75% stem/head combinations used in hemiarthroplasty (HA) 2019 – 2024“:
+
+| Stem | Head | 2024 | 2019–2024 |
+|---|---|---|---|
+| Amistem-C | Medacta bipolar head | 221 | 944 |
+| Amistem-C | Medacta endohead | 345 | 2.128 |
+| Avenir (cem.) | ZB bipolar head | 151 | 616 |
+| Avenir (cem.) | ZB unipolar head | 77 | 359 |
+| CCA | Hemihead SS | 166 | 1.827 |
+| Centris | Hemihead SS | 0 | 325 |
+| Corail (cem) | J&J modular head carthcart | 300 | 1.210 |
+| Twinsys (cem.) | Hemihead SS | 293 | 1.206 |
+| Twinsys (cem.) | Mathys bipolar steel head | 91 | 327 |
+| Weber | ZB unipolar head | 69 | 857 |
+| other combinations | – | 586 | 2.846 |
+| **Total** | | **2.299** | **12.645** |
+
+Text S. 129: „only nine stem/head combinations accounting for 75% of all implantations (Table 4.34).“ Seitenkorrektur: Tab. 4.16 uncemented Top-75 % steht auf gedr. **Page 95** (nicht 94).
+
+---
+
+### B. DePuy – Nachträge
+
+**6 · Nachtrag ok (teilweise; Markt AU/NZ, keine EMEA-Ausgabe gefunden) · Actis Größen/Offset · Dokument: ACTIS Total Hip System Surgical Technique, `190156-210922 September 2021 NZ` / `159207-201115 NOV 2020 AU`, © DePuy Synthes 2020 · Markt: AU/NZ · Vorschlag: Größen übernehmen mit Markt-Hinweis; EMEA-ST weiter suchen**
+
+Wörtlich Technical Specifications (PDF-S. ~11, Neck 130°):
+- Größen **0–12**, je **Standard** und **High Offset** (Ordering: ACTIS COLLARED STD/HIGH).
+- Lateralisierung: Size ≤3: +6 mm High vs Standard; Size ≥4: +8 mm.
+- Warning: „Do not use the ACTIS DUOFIX Size 0 Femoral Stem with a modular femoral head offset of greater than +13mm.“
+- Probeköpfe u. a. 28/32/36/40 mm mit Offsets (Ordering PDF-S. ~19).
+
+**7 · Nachtrag ok (aktuellere EMEA-ST) · Pinnacle Liner-Konfigurationen · Dokument: PINNACLE Hip Solutions Surgical Technique, Kennung `142532-220805 EMEA`, © DePuy Synthes 2022; „not intended for distribution outside the EMEA region“ · Markt: EMEA · Vorschlag: ersetzt ältere ortomedic-Spiegel-ST als Primärbeleg für Liner-Typen**
+
+Wörtlich (PDF-S. 9–11 Bereich):
+- Alternative Bearing Trial Liners: 28 / 32 / 36 / 40 / 44 mm (Farbcodes); „built in offset of +2 mm“.
+- Polyethylene Liner Configurations: **Neutral**; **+4 Neutral**; **+4 10° Face-Changing**; **Lipped**.
+
+**11 · Nachtrag ok · BfArM DePuy ergänzt · Markt: DE**
+
+| Kennung | Thema | Stand am Original |
+|---|---|---|
+| BfArM 02257/18; FSCA PIE-1104627 | CORAIL Cementless HA 12/14 AMT 135° Standard No Collar Size 12, Product Code 3L92512 Lot 5300693 – FSN Recall (Size-11 in Size-12-Pack) | Feb 2018, EN-Kundeninfo gelesen |
+| BfArM 22108/20; Ref. 1896433 | PINNACLE Pfannen bestimmte Chargen – aktualisierte Dringende Sicherheitsinformation (Rückruf); ersetzt FSN vom 17.12.2020 | 18.02.2021, DE-PDF gelesen |
+
+Actis: weiterhin **keine** BfArM-Kundeninfo in dieser Stichprobe. Self-Centering: Link tot → nicht belegt.
+
+---
+
+### C. Zimmer Biomet – Nachträge
+
+**12 · Nachtrag ok · Fitmore OP-Technik (war 404) · Dokument: Fitmore Hip Stem Surgical Technique, Kennung `1013.3-GLBL-en`, Issue Date **2025-04**, © 2019, 2021, 2025 Zimmer Biomet · Markt: Global (öffentlich zimmerbiomet.com) · Vorschlag: übernehmen**
+
+Wörtlich:
+- Uncemented; Protasul-64; **Taper 12/14**; Familien **A, B, B Extended Offset, C**.
+- Ordering CCD: Stem A **140°**; Stem B **137°**; B Ext. Neck Angle in Chart **129°**; Stem C **127°**.
+- Ordering Size-Spannen (Auszug): A Sizes 1–5 (u. a.); B Ext.Offs. **1–14**; C **1–14**.
+- Sizing Charts gedr. S. 12–15; Ordering S. 16–25.
+
+CLS / Alloclassic aktuelle EU-ST: weiterhin **nicht** am EU-Host gefunden (Perplexity nur JP/US-Ersatz).
+
+**14 · Nachtrag ok · MS-30 OP-Technik (war nicht gefunden) · Dokument: MS-30 Cemented Hip Stem Surgical Technique (Upgraded Instruments), Kennung `5087.1-GLBL-en`, Issue Date **2025-12**, © Zimmer Biomet · Markt: Global (ctfassets/EU-Seite) · Vorschlag: übernehmen**
+
+Wörtlich Ordering S. 29:
+- **Taper 12/14**; cemented; Standard und Lateral.
+- Standard Sizes **6, 8, 10, 12, 14, 16** (CCD 130–135; Offset 37,7–43,3 mm).
+- Lateral Sizes **6–16** gerade (CCD 124,3–128; Offset 42,2–48,4 mm).
+- Distal Centralizer / Proximal Positioner in Ordering S. 30.
+
+**15 · Nachtrag ok (Dokumentfundstelle; Matrix als Chart) · ZB Ceramic + CoCr Head/Stem Combinations · Markt: EU (Product Compatibility) · Vorschlag: als Kompatibilitätsquelle nutzen; Einzeleinträge nur nach Zeilenablesung**
+
+- **Ceramic Femoral Heads**, Titel „Head and Stem Combinations: Ceramic Femoral Heads“, **Revised 5/6/2019**, 3 S. – u. a. Spalten BIOLOX delta (00-8775-028/040-xx) 12/14; BIOLOX OPTION 12/14 und **8/10**; Stem-Zeilen u. a. Alloclassic, Avenir, CLS, Fitmore, Müller (Häkchen-Matrix).
+- **CoCr Femoral Heads**, **Revised 7/15/2020**, 3 S. – u. a. VerSys 12/14 Neck −3,5 bis +7,0 / +10,5; METASUL 12/14 (−3,5/0/+3,5/+7 bzw. −4/0/+4/+8); CoCr/DURASUL 12/14 und **8/10**.
+
+**16 · Nachtrag ok (Kompatibilitätstabelle, keine narrative IFU-Freigabe) · Unipolar and Bipolar Femoral Heads · Revised 5/6/2019**, 2 S. · Markt: EU · Vorschlag: als Stem↔Uni/Bipolar-Freigabechart; zementierte Schaft-Freigabezeilen im Chart prüfen (nicht als eigene OP-Technik)
+
+**17 · Nachtrag ok · BfArM Zimmer ergänzt**
+
+| Kennung | Thema |
+|---|---|
+| BfArM 01461/17; FA 2016-10 (ZFA 2016-150) | Sicherheitsinfo Metallköpfe (CoCr modular, Protasul S30, Metasul) – nicht nach Keramikbruch in MoP mit u. a. Allofit/Alloclassic/CLS/Fitmore/Müller Flachprofil | 13.02.2017, DE-PDF gelesen |
+| BfArM 13742/18; ZFA 2018-00572 (FA2018-06) | Avenir Müller Schaft Größe 1 Lot 2955599 – Etikett Gr. 1 vs. Inhalt Gr. 2 | 31.10.2018 bestätigt |
+
+---
+
+### D. Mathys / Enovis
+
+**18–19 · unverändert nicht lesbar ·** mathysmedical.com-PDF-URLs (6.2–6.4) leiten auf Fachkreis-Gate enovis-surgical.com um → **keine** neuen Größen-/Kompat-Werte nachgetragen. BfArM **07038/17** optimys Schaft lat. (20.07.2017) – Eintragsseite bestätigt (HTML).
+
+---
+
+### Hinweis Quellenqualität Perplexity
+
+- EPRD/Zimmer-Kompat/Fitmore/MS-30/Actis/Pinnacle-EMEA/BfArM-Stichprobe: **brauchbar**, Titel/Kennung/Stand weitgehend korrekt.
+- SIRIS: Inhalt korrekt; **ANQ-Direkt-URL** hier 415 – besser siris-implant.ch/images/… nutzen.
+- DePuy Limelight-CDN-Links (Corail/C-STEM/Self-Centering): hier **tot** (DNS).
+- Mathys: korrekt als Gate gekennzeichnet; Inhalt nicht verifizierbar.
