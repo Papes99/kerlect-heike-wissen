@@ -317,7 +317,7 @@ Offen: EU-Dokumente und Größen/Kompatibilität für Stryker Accolade II / Trid
 |---|---|---|
 | Stryker | Accolade (V40, vermutl. Accolade II) | **nur zementfreies Hüftsystem** (alle Komponenten) |
 | Aesculap (B. Braun) | Excia | zementfrei + zementiert + **Duokopf mit zementiertem Schaft** |
-| Smith+Nephew | R3 | zementfrei + zementiert + **Duokopf mit zementiertem Schaft** |
+| Smith+Nephew | R3-System: Schaft zementfrei **SL-PLUS MIA**, Schaft zementiert **SPECTRON (EF)**, Pfannen **R3** und **REFLECTION**, Liner **R3 XLPE**, Köpfe **OXINIUM / BIOLOX delta / CoCr** (Julian 07.10.) | zementfrei + zementiert + **Duokopf mit zementiertem Schaft (Name offen)** |
 | Enovis (Mathys) | twinSys | zementfrei + zementiert + **Duokopf mit zementiertem Schaft** |
 
 - **Systeme werden NICHT gemischt:** je System nur Komponenten, die der Hersteller ausdrücklich dafür vorsieht.
@@ -325,5 +325,6 @@ Offen: EU-Dokumente und Größen/Kompatibilität für Stryker Accolade II / Trid
 - Neue Implantat-Dateien nötig: Aesculap Excia, Enovis twinSys (Mathys), S+N R3-System – Werte nur aus Herstellerdokument mit Seite (Quellen: Perplexity).
 
 ### Teil E – Wartet auf Julian (nicht prüfen)
-- Smith+Nephew: Welche Schäfte nutzt ihr im R3-System? z. B. zementfrei *POLARSTEM* / *SL-PLUS* / *ANTHOLOGY*, zementiert *POLARSTEM zementiert* / *CPCS*?
+- Smith+Nephew Duokopf: Name offen (Vorschläge im Chat 07.10.).
+- POLARSTEM ist laut Julian NICHT im Haus → implantate/smith-nephew-polarstem prüfen/streichen.
 - Aesculap: Welche Excia-Pfannen? z. B. *Plasmafit* (zementfrei) und zementierte PE-Pfanne?

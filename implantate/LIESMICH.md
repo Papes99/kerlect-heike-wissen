@@ -9,7 +9,7 @@ Pro System eine Datei `implantate/<hersteller>-<system>.json` + `.md`. **Nur exa
 |---|---|---|
 | **Stryker** | Accolade (V40, vermutl. Accolade II) | nur zementfreies Hüftsystem (alle Komponenten) |
 | **Aesculap (B. Braun)** | Excia | zementfrei + zementiert + Duokopf (mit zementiertem Schaft) |
-| **Smith+Nephew** | R3 | zementfrei + zementiert + Duokopf (mit zementiertem Schaft) |
+| **Smith+Nephew** | R3-System: SL-PLUS MIA (zementfrei), SPECTRON EF (zementiert), Pfannen R3 + REFLECTION, Liner R3 XLPE, Köpfe OXINIUM / BIOLOX delta / CoCr | zementfrei + zementiert + Duokopf (mit zementiertem Schaft, Name offen) |
 | **Enovis (Mathys)** | twinSys | zementfrei + zementiert + Duokopf (mit zementiertem Schaft) |
 
 ## Schema je Datei
