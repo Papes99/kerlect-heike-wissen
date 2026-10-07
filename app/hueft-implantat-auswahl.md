@@ -105,6 +105,14 @@ Das Tablett soll sich anfühlen wie ein gutes Spiel – jedes Teil hat Gewicht, 
 3. **Eigene Systeme:** Nutzer können ein System selbst anlegen oder ergänzen (z. B. Lagerbestand, System, das Kerlect noch nicht kennt): Hersteller, System, Konus, Komponenten/Größen, REF, eigene Fotos (Rechte-Feld Pflicht). Immer sichtbar markiert **„eigene Angabe – nicht geprüft“**, privat oder für die eigene Gruppe teilbar (Rechte wie Standards, reader_ids nicht aufweichen). Geprüfte Kerlect-Daten bleiben schreibgeschützt; eigene Systeme werden nie mit geprüften gemischt (Filter-Logik gilt genauso: nur Teile derselben Quelle/Datei).
 4. Vorlage für beides (erfundene Daten): https://claude.ai/artifact/35gHvTH2bBA4mWasYUEwNA
 
+## Ergänzung Julian (07.10.2026, abends): Klinik wählt ihre Systeme, Tablett zeigt immer das nächste Implantat
+1. **„Unsere Systeme“ (einmalig je Klinik/Gruppe):** Liste aller Hersteller und Systeme aus `implantate/*.json` (aktuell 11 Dateien, Ranking `implantate/auswahl-dach.md`) zum **Anklicken** – Hersteller aufklappen, Systeme/Komponenten an- und abhaken (z. B. Zimmer Biomet → Avenir ✓, Fitmore ✓, Allofit ✓, G7 ✗). Gespeichert an Gruppe/Klinik wie Standards (keine Patientendaten).
+2. **Im Tablett nur diese Auswahl.** Was offiziell zusammenpasst, ergibt sich **ausschließlich** aus `passt_zu` (Status ja / bedingt / nein / offen, mit Bedingung, Quelle, Seite) und den `tabellen` der jeweiligen Herstellerdatei – nie über Hersteller- oder Dateigrenzen hinweg.
+3. **Immer das nächste Implantat:** Nach jedem Schritt in OP-Reihenfolge (`app/implantat-eingriffe.json` → `varianten`) zeigt das Tablett automatisch den nächsten Schritt mit **nur den passenden Komponenten** aus „Unsere Systeme“, gefiltert nach dem bisher Gewählten (z. B. Schale 52 → nur Liner/Köpfe bis zum erlaubten Ø; „bedingt“ mit Bedingung sichtbar, „offen – Operateur fragen“, „nein“ ausgegraut mit Grund).
+4. **Je Komponente sichtbar:** Name, **Größenreihe**, **REF je Größe** (aus `groessen`), Quelle + Seite, Badge „nicht verifiziert“, Rückruf-Hinweis falls `rueckrufe.betrifft`.
+5. **Packungsbild = Schema, kein Foto:** Astra erzeugt je Komponente ein eigenes **schematisches Packungs-/Etikettbild** (Verpackungsart, Grundfarbe als Hersteller-Erkennung, Etikettfelder REF · LOT · Größe/Ø · CE · UDI-Barcode-Platz mit den echten REF/Größen aus den Daten). **Keine Hersteller-Logos, keine nachgebaute Firmenoptik**, gut sichtbar beschriftet **„Schema – nicht Originaletikett“**. Vorlagen nur als Links (`bild`-Felder bzw. Fundstellen in den Implantat-Dateien); nichts vom Hersteller kopieren. Maßgeblich bleibt immer das echte Etikett.
+6. **Astra programmiert** (nur in Kerlect). Claude liefert nur Daten/Vorgaben.
+
 ## Abnahme (was fertig heißt)
 - [ ] Alle 7 Screens wie Mockups, Daten nur aus `implantate/*.json` + `haus_systeme`.
 - [ ] Kein Teil eines anderen Herstellers/Systems wählbar (Test: Isodur-CoCr-Kopf bei Stryker → Screen 6).
@@ -113,6 +121,8 @@ Das Tablett soll sich anfühlen wie ein gutes Spiel – jedes Teil hat Gewicht, 
 - [ ] Rückruf-Hinweis erscheint bei LFIT/BIOLOX delta V40 (Stryker), R3 (S+N), Vitelene (Aesculap) – nur als Hinweis.
 - [ ] Neue Werte aus Lauf 001-implantate erscheinen ohne Codeänderung, sobald die JSON-Dateien ergänzt sind.
 - [ ] Standard speichert nur das System (keine Größe); Größen nur im Tablett, nicht persistent am Standard.
+- [ ] „Unsere Systeme“ anklicken; Tablett zeigt nur diese und nach jedem Schritt automatisch das nächste passende Implantat (nur `passt_zu`/`tabellen` derselben Datei).
+- [ ] Je Komponente Größenreihe + REF je Größe; schematisches Packungsbild ohne Logo mit „Schema – nicht Originaletikett“.
 - [ ] Eigenes System anlegen/teilen funktioniert, Badge „eigene Angabe – nicht geprüft“, nie mit geprüften Daten gemischt.
 
 _Hinweis: Diese Datei gehört Claude. Astra legt Rückfragen/Vorschläge in `pruefung/app-astra.md` ab._
