@@ -1,0 +1,34 @@
+{
+  "schema": "kerlect-heike-wissen/runde-v2",
+  "stand": "2026-10-07",
+  "kette": [
+    "wartet",
+    "perplexity",
+    "cloud",
+    "grok",
+    "openai",
+    "cloud-final",
+    "julian",
+    "astra-bau",
+    "abgeschlossen"
+  ],
+  "openai_nur": "implantate",
+  "openai_nicht": "instrumente",
+  "uebergaenge": {
+    "wartet": { "naechste": "perplexity", "wer": "Nutzer/Cloud nach Paket-Eingabe" },
+    "perplexity": { "naechste": "cloud", "wer": "Perplexity", "datei": "pruefung/NNN-perplexity.md" },
+    "cloud": { "naechste": "grok", "wer": "Cloud" },
+    "grok": {
+      "naechste_implantate": "openai",
+      "naechste_sonst": "cloud-final",
+      "wer": "Grokbot",
+      "datei": "pruefung/NNN-grok.md"
+    },
+    "openai": { "naechste": "cloud-final", "wer": "OpenAI", "datei": "pruefung/NNN-openai.md" },
+    "cloud-final": { "naechste": "julian", "wer": "Cloud" },
+    "julian": { "naechste": "astra-bau", "wer": "Julian" },
+    "astra-bau": { "naechste": "abgeschlossen", "wer": "Astra" },
+    "abgeschlossen": { "naechste": null, "wer": "Grok+Astra löschen eigene Prüfdateien" }
+  },
+  "hinweis": "Alte STATUS-runde-Werte (z. B. astra) sind Legacy. Migration von STATUS.json/README erst nach Julian-Go."
+}

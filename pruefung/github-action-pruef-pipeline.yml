@@ -1,0 +1,100 @@
+# Prüf-Pipeline NEU — nur Push-Ereignis, kein Polling.
+# Ändert keine bestehenden Paket-/STATUS-Dateien; nur Summary + Issue (+ optionale Webhooks).
+name: pruef-pipeline
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "pruefung/**"
+      - "pakete/**"
+      - "implantate/**"
+      - "eingang/**"
+      - ".github/workflows/pruef-pipeline.yml"
+      - "scripts/pruef-next.py"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: pruef-pipeline-main
+  cancel-in-progress: true
+
+jobs:
+  next:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Python next-actor
+        id: next
+        env:
+          PRUEF_NEXT_OUT: ${{ runner.temp }}/pruef-next.json
+        run: |
+          python3 scripts/pruef-next.py
+          echo "json<<EOF" >> "$GITHUB_OUTPUT"
+          cat "$PRUEF_NEXT_OUT" >> "$GITHUB_OUTPUT"
+          echo "EOF" >> "$GITHUB_OUTPUT"
+
+      - name: Upsert tracking issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NEXT_JSON: ${{ runner.temp }}/pruef-next.json
+        run: |
+          set -euo pipefail
+          TITLE="Prüf-Pipeline: nächste Instanz"
+          BODY_FILE="${{ runner.temp }}/issue-body.md"
+          {
+            echo "Automatisch aus \`STATUS.json\` (PIPELINE-NEU). Kein Polling — nur Push."
+            echo
+            echo '```json'
+            cat "$NEXT_JSON"
+            echo '```'
+            echo
+            echo "Siehe \`pruefung/PIPELINE-NEU.md\`."
+          } > "$BODY_FILE"
+
+          EXISTING=$(gh issue list --search "in:title Prüf-Pipeline: nächste Instanz" --state open --json number,title --jq '.[0].number // empty')
+          if [ -n "${EXISTING}" ]; then
+            gh issue edit "$EXISTING" --body-file "$BODY_FILE"
+            echo "Issue #$EXISTING aktualisiert."
+          else
+            gh issue create --title "$TITLE" --body-file "$BODY_FILE"
+            echo "Issue neu angelegt."
+          fi
+
+      - name: Optional webhooks (anstossen)
+        env:
+          NEXT_JSON: ${{ runner.temp }}/pruef-next.json
+          WH_PERPLEXITY: ${{ secrets.PIPELINE_WEBHOOK_PERPLEXITY }}
+          WH_GROK: ${{ secrets.PIPELINE_WEBHOOK_GROK }}
+          WH_OPENAI: ${{ secrets.PIPELINE_WEBHOOK_OPENAI }}
+          WH_CLOUD: ${{ secrets.PIPELINE_WEBHOOK_CLOUD }}
+          WH_ASTRA: ${{ secrets.PIPELINE_WEBHOOK_ASTRA }}
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json, os, urllib.request
+          data = json.load(open(os.environ["NEXT_JSON"], encoding="utf-8"))
+          map_secret = {
+            "Perplexity": "WH_PERPLEXITY",
+            "Grokbot": "WH_GROK",
+            "OpenAI": "WH_OPENAI",
+            "Cloud": "WH_CLOUD",
+            "Astra": "WH_ASTRA",
+          }
+          for row in data.get("offen") or []:
+            wer = (row.get("aktuell") or {}).get("wer") or ""
+            env_name = map_secret.get(wer)
+            url = os.environ.get(env_name or "", "") if env_name else ""
+            if not url:
+              print(f"Kein Webhook für {wer!r} — nur Issue/Summary.")
+              continue
+            body = json.dumps({"paket": row.get("paket"), "runde": row.get("runde"), "wer": wer, "row": row}).encode()
+            req = urllib.request.Request(url, data=body, headers={"Content-Type": "application/json"}, method="POST")
+            with urllib.request.urlopen(req, timeout=30) as resp:
+              print(f"Webhook {wer}: HTTP {resp.status}")
+          PY
