@@ -30,7 +30,7 @@ Ablauf – **Prüf-Pipeline NEU** (Julian, 07.10.2026; Details `pruefung/PIPELIN
 2. **Claude** recherchiert die Quellen selbst und liest sie am Original (Hersteller, Behörden, Register, Leitlinien – mit Seite), legt `pakete/NNN-basis` (+ „Zur Prüfung in diesem Lauf“) und ggf. `implantate/*` an → `runde: grok`. *(Perplexity entfällt seit 07.10.2026.)*
 3. **Grok** prüft die ganze Paketversion gründlich → `pruefung/NNN-grok.md`.
 4. **Nur bei Implantaten: OpenAI** prüft ausschließlich Implantate (Herstellerangaben, Kompatibilitätstabellen, Indikationsgrenzen – keine Instrumente) → `pruefung/NNN-openai.md` → zurück an Claude.
-5. **Claude** macht den letzten Check, denkt kritisch mit und schickt Julian die Änderungsliste (✅/❌/✏️/❓ als Multiple Choice, 🔎 Perplexity-Prompt) → `runde: julian`.
+5. **Claude** macht den letzten Check, denkt kritisch mit und schickt Julian die Änderungsliste (✅/❌/✏️/❓ als Multiple Choice; Nicht-Gefundenes recherchiert Claude selbst nach) → `runde: julian`.
 6. **Julian** gibt das Okay → Claude baut die Daten ein (`pakete/NNN-abschluss.md` bzw. `implantate/*`) → `runde: astra-bau`.
 7. **Astra implementiert** in Kerlect (nur dort) → `runde: abgeschlossen`.
 8. **Grok, OpenAI und Astra** löschen danach nur ihre eigenen Prüfdateien.
