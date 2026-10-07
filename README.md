@@ -23,7 +23,7 @@ Nach Häufigkeit in DACH (Register EPRD, SIRIS, Österreich) – nicht nach eine
 
 - **000-grundwissen** (`pakete/000-abschluss.md`, abgeschlossen v1.5) — gilt für jeden Eingriff: Sicherheit, Zählung, Sterilität, Lagerung, HF, Implantate, Präparate, Übergabe; 13 Situations-IDs.
 - **001-hueft-tep** (`pakete/001-abschluss.md`, abgeschlossen v1.3, dazu `implantate/`: 11 Systemdateien häufiger DACH-Systeme, Ranking `implantate/auswahl-dach.md`) — Hüft-TEP primär, baut auf 000 auf; Chips mit Mengen, Naht, Varianten (Fixation/Zugang).
-- 002 ff. folgen (z. B. Knie-TEP).
+- **002-knie-tep** folgt (Start auf „002 los“); danach 003 ff.
 
 Ablauf – **Prüf-Pipeline NEU** (Julian, 07.10.2026; Details `pruefung/PIPELINE-NEU.md`, `pruefung/runde-schema-v2.json`). **Jede Datei bearbeitet nur ihr Ersteller – keiner verändert fremde Dateien.** Dateinamen ohne Versionsnummer. „Cloud“ = Claude.
 1. **Julian** nennt das Paket (z. B. „003 los“) → `runde: perplexity`.

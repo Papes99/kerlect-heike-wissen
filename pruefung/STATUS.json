@@ -109,8 +109,8 @@
    "julian": "Systeme: DePuy, Zimmer Biomet, optimys, Medacta; POLARSTEM wieder auf; einbauen (✅1–11, ✏️16–18, ❌12–15)"
   },
   "001-implantate-luecken": {
-   "name": "001-implantate-luecken (Extra-Lauf, Pipeline NEU)",
-   "runde": "wartet – wird mit Lauf 002 zusammengeführt (Julian 07.10.2026)",
+   "name": "001 vervollständigen – Implantat-Lücken (gehört zu 001, nicht zu 002)",
+   "runde": "wartet – Start auf Julians Wort („001 vervollständigen los“)",
    "perplexity_auftrag": "pakete/001-implantate-luecken-perplexity-auftrag.md",
    "ergebnis": "pruefung/001-implantate-luecken-perplexity.md",
    "weiter": "Funde fließen in den nächsten Implantat-Lauf (Grok/Astra lesen am Original)",
@@ -124,7 +124,13 @@
     "openai": "pruefung/001-implantate-luecken-openai.md"
    },
    "abschluss": "Werte direkt in implantate/*.json + .md (Version +0.1), basis + perplexity-auftrag danach entfernen",
-   "hinweis": "Grok/OpenAI noch nicht starten; die 23 Punkte aus pakete/001-implantate-luecken-basis.md kommen beim Start von 002 in dessen Basis (Abschnitt Implantate Hüfte)."
+   "hinweis": "Julian 07.10.2026: nicht mit 002 zusammenführen; ist die Vervollständigung von 001. 002 = Knie-TEP (eigener Lauf, nur Knie)."
+  },
+  "002": {
+   "name": "002-knie-tep",
+   "typ": "eingriff",
+   "basis": "000",
+   "runde": "wartet – Start auf „002 los“"
   }
  },
  "eingang_verarbeitet": [
