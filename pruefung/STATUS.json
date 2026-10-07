@@ -14,7 +14,7 @@
    "datei": "pakete/001-basis.json",
    "name": "001-hueft-tep",
    "version": "1.2",
-   "runde": "wartet – startet erst nach Abschluss von 000",
+   "runde": "wartet auf Julians Go",
    "typ": "eingriff",
    "basis": "000",
    "gehoert_dazu": [
