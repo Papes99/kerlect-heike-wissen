@@ -14,7 +14,7 @@
    "datei": "pakete/001-basis.json",
    "name": "001-hueft-tep",
    "version": "1.2",
-   "runde": "wartet auf Julians Go",
+   "runde": "wartet auf Julians „001 los“",
    "typ": "eingriff",
    "basis": "000",
    "gehoert_dazu": [
@@ -24,5 +24,6 @@
   }
  },
  "eingang_verarbeitet": [],
- "hinweis_start": "Neustart 07.10.2026: alte Prüf-/Arbeitsdateien gelöscht (Git-Verlauf). Kette beginnt mit 000."
+ "hinweis_start": "Neustart 07.10.2026: alte Prüf-/Arbeitsdateien gelöscht (Git-Verlauf). Kette beginnt mit 000.",
+ "start_befehl": "Ein Paket startet nur, wenn Julian „NNN los“ sagt (z. B. „001 los“)."
 }
