@@ -13,27 +13,28 @@
     "datum": "2026-10-07",
     "astra_ergebnis": "ÄNDERN",
     "julian": "ok (ohne A/B)"
-   }
+   },
+   "hinweis": "Wird im Lauf 001 mitgeändert (Teil B1: Allgemeines aus 001)."
   },
   "001": {
    "datei": "pakete/001-basis.json",
    "name": "001-hueft-tep",
    "version": "1.2",
-   "runde": "wartet auf Julians „001 los“",
+   "runde": "perplexity",
    "typ": "eingriff",
    "basis": "000",
    "gehoert_dazu": [
     "implantate/stryker-accolade-ii.json",
     "implantate/smith-nephew-polarstem.json"
-   ]
+   ],
+   "lauf_start": "2026-10-07T02:10Z",
+   "hinweis": "Alte pruefung/001-grok.md stammt von VOR dem Laufstart – Grok überschreibt sie mit diesem Lauf."
   }
  },
  "eingang_verarbeitet": [],
  "hinweis_start": "Neustart 07.10.2026: alte Prüf-/Arbeitsdateien gelöscht (Git-Verlauf). Kette beginnt mit 000.",
  "start_befehl": "Ein Paket startet nur, wenn Julian „NNN los“ sagt (z. B. „001 los“).",
  "zuordnung": "000 = allgemeines OP-Wissen (gilt für jeden Eingriff). Eingriffspakete (001 …) enthalten NUR Eingriffsspezifisches. Allgemeines aus Eingriffspaketen: ist es schon in 000 → im Eingriffspaket streichen; fehlt es in 000 → über die Kette (000-basis „Zur Prüfung“ → Grok → Astra → Julian) nach 000 verschieben, dann im Eingriffspaket streichen. Eingriffsspezifisches nie in 000.",
- "vorgemerkt": [
-  "In der 001-Runde (nach „001 los“): Allgemeines aus 001 nach 000 übernehmen, Doppelungen in 001 streichen."
- ],
- "perplexity": "Nur wenn Claude Implantat-Quellen braucht: Claude legt beim Laufstart pruefung/NNN-perplexity-auftrag.md an (welche Systeme/Dokumente). Perplexity sucht offizielle Herstellerdokumente und legt pruefung/NNN-perplexity.md an (nur Quellenliste: Titel, Nr./Revision, Stand, Markt, PDF-Link, Seite – keine Werte). Grok und Astra lesen die Quellenliste mit und prüfen die Werte am Original. Claude wertet in Arbeit 2 alles aus."
+ "perplexity": "Nur wenn Claude Implantat-Quellen braucht: Claude legt beim Laufstart pruefung/NNN-perplexity-auftrag.md an (welche Systeme/Dokumente). Perplexity sucht offizielle Herstellerdokumente und legt pruefung/NNN-perplexity.md an (nur Quellenliste: Titel, Nr./Revision, Stand, Markt, PDF-Link, Seite – keine Werte). Grok und Astra lesen die Quellenliste mit und prüfen die Werte am Original. Claude wertet in Arbeit 2 alles aus.",
+ "lauf_regel": "Liegt eine eigene Datei von VOR dem lauf_start des Pakets, überschreibt ihr Ersteller sie im neuen Lauf."
 }

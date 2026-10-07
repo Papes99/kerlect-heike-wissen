@@ -224,10 +224,11 @@ Grundlage: Astra-Prüfung 2026-10-07-001-hueft-tep-v1.1-astra.md (Git-Verlauf) (
 - KRINKO-Fundstelle bestätigt (S. 461, PDF-S. 14); neue Quelle Stryker ACCII-SP-1
 - Neu (Praxis, hausabhängig): Zementansage rückbestätigen; Stopper und Messhilfe unterscheiden
 
-## Zur Prüfung in dieser Runde (07.10.2026)
-Grok und Astra prüfen in dieser Runde nur diese Punkte, alles andere ist unverändert. Claude ersetzt diesen Abschnitt in jeder Runde.
+## Zur Prüfung in diesem Lauf (001, Start 07.10.2026)
 
-#### 001-hueft-tep (v1.1 → v1.2)
+Lauf 001: Perplexity (Quellen) → Grok → Astra → Claude-Änderungsliste → Julian. Nur Paket 001; Teil B ändert zusätzlich 000 (Regel: Allgemeines gehört nach 000, nichts doppelt).
+
+### Teil A – Inhaltliche Änderungen v1.1 → v1.2
 Grundlage: deine Prüfung 2026-10-07-001-hueft-tep-v1.1-astra.md (Git-Verlauf) (FEHLER) – K2, K5a/b, K8, K9, Q_STRYKER_ACCII, P1, P2 1:1 eingebaut. Bitte nur prüfen, ob richtig umgesetzt. Deine ok-Punkte 1, 3, 4, 6, 7 sind unverändert. Groks Nachprüfung von v1.1 (2026-10-07-001-hueft-tep-v1.1-grok.md (Git-Verlauf)) bestätigt K2/K5/K8/K9/P1/P2; Groks Abweichung „Alkoholansammlungen gilt_fuer alle“ nicht übernommen (deine K5a: hf_mono; allgemeine Regel steht in 000 „Keine Antiseptikum-Pfützen“).
 
 | Nr | Art | Abschnitt · Eintrag | ALT (nur geänderte Felder) | NEU | Quelle |
@@ -244,7 +245,7 @@ Grundlage: deine Prüfung 2026-10-07-001-hueft-tep-v1.1-astra.md (Git-Verlauf) (
 | 10 | geändert | quellen · **Q_KRINKO** | 2018, Bundesgesundheitsblatt 61:448–473, S. 461, Abschnitt 4.2.4 Abdeckung. Keine generelle Positivempfehlung für imprägnierte Folie. Zusätzlich Kat. II: keine Flüssigkeitsansammlung des Hautantiseptikums (laut Grok-Prüfung 07.10.2026 S. 460; Seite 460/461 am PDF bestätigen). | 2018, Bundesgesundheitsblatt 61:448–473, gedruckte S. 461 (PDF-S. 14), Abschnitt 4.1 Präoperativ und intraoperativ: Hautantiseptikum-Ansammlungen (Kat. II); flüssigkeitsundurchlässige Abdeckung bei nicht ausschließbarem Durchfeuchten (Kat. IB). | Q_KRINKO – Prävention postoperativer Wundinfektionen |
 | 11 | neu | quellen · **Q_STRYKER_ACCII** | – | Accolade II Femoral Hip System – Surgical protocol – ACCII-SP-1_Rev-4_34423, © 2022; S. 3: EU-Indikationen; S. 12: Ausschluss Hemiarthroplastik in EU; Dokumentcode S. 25. | Q_STRYKER_ACCII – Accolade II Femoral Hip System – Surgical protocol |
 
-#### Implantate zu 001: Umsetzung von Astras Implantat-Prüfung (stryker-accolade-ii, smith-nephew-polarstem)
+### Teil A2 – Implantate zu 001: Umsetzung von Astras Implantat-Prüfung (stryker-accolade-ii, smith-nephew-polarstem)
 Grundlage: 2026-10-07-implantate-vstand-2026-10-07-astra.md (Git-Verlauf) (FEHLER) – K5, K6, K7, P1, P2 1:1 umgesetzt. Bitte nur die Umsetzung prüfen; deine ok-Punkte 1–4, 8 sind unverändert (nur Seitenergänzung S. 5).
 
 | Nr | Art | Datei · Komponente | ALT | NEU | Quelle |
@@ -260,4 +261,57 @@ Grundlage: 2026-10-07-implantate-vstand-2026-10-07-astra.md (Git-Verlauf) (FEHLE
 | 9 | neu | polarstem · Regel (P2) | – | Gleicher Konus/gleiche Keramikmarke ist kein Kombinationsnachweis | US-IFU S. 2/5 |
 | 10 | neu | polarstem · offen | – | Aktuelle EU-IFU POLARSTEM nachfordern | – |
 
-**Wartet auf Julian (nicht prüfen):** Schaft des Duokopfs (z. B. Accolade II / Accolade TMZF / Exeter / twinSys) · S+N-Schaft (z. B. POLARSTEM / SL-PLUS / ANTHOLOGY) und EU-IFU.
+### Teil B1 – Allgemeines aus 001 → nach 000 übernehmen, danach in 001 streichen
+Bitte prüfen: wirklich allgemein (gilt für viele Eingriffe)? Formulierung ohne Hüft-Bezug? gilt_fuer passend (000-Situationen: alle, hf_mono, hf_bi, implantat, zement, bildwandler, praeparat, blutsperre, seitenlage, steinschnitt, bauchlage, laparoskopie, notfall)?
+
+| Nr | 000-Abschnitt | Label | gilt_fuer | sicherheit | quelle | Kern (spez/hinweis) |
+|---|---|---|---|---|---|---|
+| B1-1 | pitfalls | NE vor Flüssigkeit schützen | hf_mono | belegt | q_hebu (neu in 000 = 001 Q_HEBU) | Flüssigkeitskontakt und Eindringen unter die NE vermeiden; HEBU nur Produktbeispiel, Haus-NE-IFU maßgeblich. |
+| B1-2 | draping | Kabel und Schläuche sichern | alle | hausabhängig | null | Sterilfeld, Bewegungsraum und ggf. Bildgebung freihalten; keine Zugbelastung. |
+| B1-3 | workflow | Anschlüsse vor Nutzung prüfen | alle | hausabhängig | null | HF, Absaugung, Antriebe nach Bedarf funktionsgerecht anschließen. |
+| B1-4 | count | Scharfe Teile und Teilebruch prüfen | alle | hausabhängig | null | Nadeln, Klingen, Sägeblätter, ablösbare Geräte-/Applikatorteile erfassen; ungeöffnete Reserve nicht verwechseln. |
+| B1-5 | count | Probekomponenten zurückführen | implantat | hausabhängig | null | Trial-Teile nach Hausprotokoll vollständig; von Definitivimplantaten trennen. |
+| B1-6 | implants | Größenvorrat vorab prüfen | implantat | hausabhängig | null | Lager/Leihset vorher mit Planung abgleichen. |
+| B1-7 | implants | Zementansage rückbestätigen | zement | hausabhängig | null | Wer sagt an; z. B. „Zement wird jetzt eingebracht“ – Rückmeldung Anästhesie abwarten. |
+| B1-8 | implants | Zementmischen nur auf Ansage | zement | hausabhängig | null | Nur aktuelle Produkt-/Mischsystem-IFU; keine Mischzeit. |
+| B1-9 | count | Zementüberschuss gesondert prüfen | zement | hausabhängig | null | Kein Stückzählen; Kontrolle auf unerwünschten Überschuss. |
+| B1-10 | room | Doppelhandschuhe pro sterile Person | alle | hausabhängig | null | menge 2 Paare je sterile Person; Größen/Reserve nach Haus. |
+| B1-11 | room | Steriler OP-Kittel pro Person | alle | hausabhängig | null | menge 1 je steril tätiger Person. |
+| B1-12 | room | Antriebe und Ersatzakkus | alle (optional) | hausabhängig | null | Nur wenn Antriebe geplant; steriles Antriebskonzept laut IFU. |
+| B1-13 | position | Mechanische Prophylaxe laut Plan | alle (optional) | hausabhängig | null | Nur falls angeordnet; keine Medikamentenempfehlung. |
+| B1-14 | facts | Anästhesieverfahren laut Plan | alle | hausabhängig | null | Mit Anästhesie abstimmen; keine Empfehlung einer Narkoseart. |
+
+### Teil B2 – Doppelungen: steht schon in 000 → in 001 streichen
+Bitte prüfen: Deckt der 000-Eintrag den 001-Eintrag wirklich ab? Wo 001 Hüft-Spezifisches enthält, bleibt nur dieser Teil in 001.
+
+| Nr | 001-Abschnitt · Eintrag | Gegenstück in 000 |
+|---|---|---|
+| B2-1 | position · NE-Kontakt kontrollieren | Neutralelektrode / Neutralelektrode-Ort |
+| B2-2 | draping · Flüssigkeitsdichte Abdeckung | Abdeckung flüssigkeitsdicht |
+| B2-3 | pitfalls · Alkoholansammlungen vermeiden | Keine Antiseptikum-Pfützen |
+| B2-4 | position · Druckstellen und Arme schützen | Druckstellen gepolstert / Arme gesichert |
+| B2-5 | workflow · Anästhesie vor Zement informieren | Anästhesie vor Zement informieren |
+| B2-6 | count · Implantatetiketten dokumentieren | Implantat-Etiketten in Doku |
+| B2-7 | dressing · Steriler Wundverband | Steriler Wundverband laut Haus |
+| B2-8 | dressing · Übergabe an AWR/Anästhesie | Übergabe Aufwachraum |
+| B2-9 | room · Patientenwärmung | Wärmesystem |
+| B2-10 | supplies · Bipolare Pinzette mit Kabel | Bipolare Pinzette + Kabel |
+| B2-11 | supplies · Sterile Lichtgriffe | OP-Licht ausgerichtet + Lichtgriffe |
+| B2-12 | pitfalls · Konkrete Unverträglichkeiten klären | Allergien/Unverträglichkeiten erfragt |
+| B2-13 | draping · Inzisionsfolie nur nach Hausplan | Keine nicht imprägnierte Inzisionsfolie |
+| B2-14 | room · C-Bogen und Strahlenschutz | Bildwandler + Röntgenschürzen / Dosimeter |
+| B2-15 | dressing · Präparat korrekt übergeben | Präparat sofort beschriften |
+| B2-16 | supplies · Hautantiseptik-/Waschset | Hautdesinfektion laut Haus |
+| B2-17 | room · HF-Gerät: Betriebsart prüfen | HF-Gerät funktionsgeprüft |
+| B2-18 | room · Absaugsysteme | Sauger funktionsgeprüft |
+| B2-19 | workflow · Definitivimplantat bestätigt öffnen | Implantat erst auf Ansage öffnen |
+| B2-20 | workflow · Steriles Zubehör auf Ansage reichen | Instrumente/Material auf Ansage öffnen |
+| B2-21 | dressing · Drainageanschluss kontrollieren | Drainagen fixiert + beschriftet |
+| B2-22 | photos · Foto: Instrumentiertisch | Foto Tischaufbau ohne Patient |
+
+### Teil C – Implantat-Quellen (Perplexity-Auftrag: `pruefung/001-perplexity-auftrag.md`)
+Offen: EU-Dokumente und Größen/Kompatibilität für Stryker Accolade II / Trident II / UHR, Smith+Nephew POLARSTEM (EU-IFU) / R3 / TANDEM, Mathys twinSys / Pfannen / Bipolarkopf. Werte nur aus dem Original mit Seite; Perplexity liefert nur Fundstellen.
+
+### Teil D – Wartet auf Julian (nicht prüfen)
+- Duokopf: Welcher Schaft steht auf der Packung? z. B. *Accolade II*, *Accolade TMZF*, *Exeter*, *twinSys*.
+- Smith+Nephew-Schaft: *POLARSTEM*, *SL-PLUS* oder *ANTHOLOGY*? EU-IFU vorhanden?
