@@ -179,3 +179,22 @@ Grundlage: Grok-Prüfung `eingang/2026-10-07-000-grundwissen-v1.1-grok.md`. Alte
 ## Änderungen v1.3 (07.10.2026)
 Grundlage: KRINKO-Seitenklärung in `eingang/2026-10-07-001-hueft-tep-v1.1-grok.md`. Alte Version: `pakete/archiv/000-grundwissen-v1.2.*`.
 - Sterile Tische: Fundstelle S. 461 → **S. 462** (PDF-S. 15)
+
+## Zur Prüfung in dieser Runde (07.10.2026)
+Grok und Astra prüfen in dieser Runde nur diese Punkte, alles andere ist unverändert. Claude ersetzt diesen Abschnitt in jeder Runde.
+
+#### 000-grundwissen (v1.1 → v1.3)
+Grundlage: Grok-Prüfung 2026-10-07-000-grundwissen-v1.1-grok.md (im Repo unter eingang/) (Grok Nr. 1–7, 11; Nr. 8–10 bleiben offen) = v1.2; KRINKO-Seitenklärung aus 2026-10-07-001-hueft-tep-v1.1-grok.md (im Repo unter eingang/) (sterile Tische S. 462) = v1.3. Abdeckung/Antiseptikum nach deiner 001-Prüfung (S. 461, Abschnitt 4.1). Erstmals bei Astra – nur diese Änderungen prüfen.
+
+| Nr | Art | Abschnitt · Eintrag | ALT (nur geänderte Felder) | NEU | Quelle |
+|---|---|---|---|---|---|
+| 1 | geändert | facts · **Patientenidentität geprüft** | spez: Armband + Rückfrage; hinweis: None | spez: Patient bestätigt Identität (WHO); Armband + aktive Rückfrage zusätzlich (KVWL/APS); hinweis: Armband steht nicht in der WHO-Checkliste; Armband + Rückfrage laut q_kvwl. | q_who – Implementation Manual WHO Surgical Safety Checklist 2009 |
+| 2 | geändert | draping · **Sterile Tische erst kurz vor Beginn** | hinweis: None | hinweis: KRINKO gedruckte S. 462 (PDF-S. 15) Kat. II; Erläuterung S. 454. | q_krinko – Prävention postoperativer Wundinfektionen, Bundesgesundheitsbl 2018;61:448–473 |
+| 3 | geändert | draping · **Abdeckung flüssigkeitsdicht** | spez: passend zum Eingriff; sicherheit: hausabhängig; hausabhaengig: True; quelle: None; hinweis: None | spez: Flüssigkeitsundurchlässig, sobald Durchfeuchten nicht auszuschließen ist (KRINKO Kat. IB).; sicherheit: belegt; hausabhaengig: False; quelle: q_krinko; hinweis: Konkretes Abdeckprodukt nach Hausstandard; die Schutzanforderung bleibt bestehen. | q_krinko – Prävention postoperativer Wundinfektionen, Bundesgesundheitsbl 2018;61:448–473 |
+| 4 | geändert | draping · **Keine nicht imprägnierte Inzisionsfolie** | spez: None | spez: nicht antiseptisch imprägnierte Folien nicht verwenden (Kat. IB) | q_krinko – Prävention postoperativer Wundinfektionen, Bundesgesundheitsbl 2018;61:448–473 |
+| 5 | geändert | count · **Nadeln, Klingen, Clips, Drahtteile** | spez: None | spez: Nadeln, Clips, Drahtteile; Instrumente/Klingen laut Haus-Zählplan | q_aps – Flyer „Jeder Tupfer zählt! Zählkontrolle ist Teamarbeit“ |
+| 6 | geändert | implants · **Anästhesie vor Zement informieren** | spez: None; hinweis: None | spez: Anästhesie über jeden Schritt des Zementiervorgangs informieren; hinweis: AMBOSS: vor Einbringen; q_bcis: jeden Zementierschritt. | q_amboss – Endoprothetik des Hüftgelenks (Zementhinweis) |
+| 7 | neu | pitfalls · **Keine Antiseptikum-Pfützen** | – | spez: Patient darf nicht in angesammeltem Hautantiseptikum liegen.; gilt_fuer: ['alle']; optional: False; sicherheit: belegt; hausabhaengig: False; quelle: q_krinko; hinweis: Einwirkzeit/Abtrocknen laut Antiseptikum-IFU; besonders vor monopolarer HF. | q_krinko – Prävention postoperativer Wundinfektionen, Bundesgesundheitsbl 2018;61:448–473 |
+| 8 | geändert | heike_hinweise | Zement geplant? Sag der Anästhesie vor dem Einbringen Bescheid. | Zement geplant? Anästhesie über jeden Zementierschritt informieren. | keine (hausabhängig) |
+| 9 | geändert | quellen · **q_krinko** | – | Gedruckte S. 461 (PDF-S. 14), Abschnitt 4.1: Antiseptikum-Ansammlung Kat. II, flüssigkeitsundurchlässige Abdeckung bei nicht ausschließbarem Durchfeuchten Kat. IB; S. 460: nicht imprägnierte Inzisionsfolie Kat. IB, Türen/Fluktuation Kat. II; S. 462 (PDF-S. 15): sterile Tische bis OP-Beginn abdecken Kat. II; Erläuterung S. 454. | q_krinko – Prävention postoperativer Wundinfektionen, Bundesgesundheitsbl 2018;61:448–473 |
+| 10 | neu | quellen · **q_bcis** | – | Factsheet Implantationssyndrom / BCIS – PDF S. 1, Vorsichtsmaßnahmen Chirurgie Nr. 1: Anästhesie über jeden Schritt des Zementiervorgangs informieren. | q_bcis – Factsheet Implantationssyndrom / BCIS |

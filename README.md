@@ -6,18 +6,23 @@
 
 | Ordner | Zweck |
 | --- | --- |
-| `pakete/` | Wissenspakete als `NNN-name.json` + `.md` (Entwürfe) |
+| `pakete/` (`NNN-basis`) | Wissenspakete als `NNN-name.json` + `.md` (Entwürfe) |
 | `pruefung/` | Gegenprüfung: `STATUS.json`, ggf. Berichte |
 | `eingang/` | Neue Dateien (Grok-Prüfungen, Korrekturen) – werden nicht verändert |
 | `aenderungen/` | Änderungsvorschläge von Claude zu Eingangsdateien, `INDEX.md` |
 
 ## Aktuelle Reihe
 
-- **000-grundwissen** — gilt für jeden Eingriff: Sicherheit, Zählung, Sterilität, Lagerung, HF, Implantate, Präparate, Übergabe; 13 Situations-IDs.
-- **001-hueft-tep** — Hüft-TEP primär, baut auf 000 auf; Chips mit Mengen, Naht, Varianten (Fixation/Zugang).
+- **000-grundwissen** (`pakete/000-basis`) — gilt für jeden Eingriff: Sicherheit, Zählung, Sterilität, Lagerung, HF, Implantate, Präparate, Übergabe; 13 Situations-IDs.
+- **001-hueft-tep** (`pakete/001-basis`, dazu `implantate/`) — Hüft-TEP primär, baut auf 000 auf; Chips mit Mengen, Naht, Varianten (Fixation/Zugang).
 - 002 ff. folgen (z. B. Knie-TEP).
 
-Ablauf (ab 07.10.2026, je Paket eine Runde, Dateinamen ohne Versionsnummer): **Claude** schreibt `pruefung/NNN-claude.md` (was geändert wird) → **Grok** prüft → `pruefung/NNN-grok.md` → **Astra** prüft NNN-claude **und** NNN-grok (Grok-Datei unverändert) → `pruefung/NNN-astra.md` (FREIGEGEBEN/ÄNDERN, Astra entscheidet abschließend) → **Claude** baut 1:1 ein, schickt Julian die Auflistung und entfernt die drei Arbeitsdateien – übrig bleibt nur das Paket. Nächstes Paket nur auf Julians Wort.
+Ablauf (ab 07.10.2026). **Jede Datei bearbeitet nur ihr Ersteller – keiner verändert fremde Dateien.** Dateinamen ohne Versionsnummer.
+1. **Claude** schreibt `pakete/NNN-basis.json` + `.md` (das Paket; Abschnitt „Zur Prüfung in dieser Runde“) und setzt in `pruefung/STATUS.json` `runde: grok`.
+2. **Grok** schreibt `pruefung/NNN-grok.md` (Änderungsvorschläge).
+3. **Astra** liest alles, ändert nichts, schreibt `pruefung/NNN-astra.md` (Änderungsvorschläge wie Grok; Grok-Punkte, die Astra genauso übernehmen würde, bestätigt sie ausdrücklich, plus eigene).
+4. **Claude** baut `NNN-astra` 1:1 in `NNN-basis` ein, schickt Julian die Auflistung und setzt `runde: eingebaut`.
+5. **Grok** und **Astra** löschen danach jeweils ihre eigene Datei → übrig bleibt nur `NNN-basis`. Nächstes Paket nur auf Julians Wort.
 
 ## Gegenprüfung
 

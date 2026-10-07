@@ -1,19 +1,22 @@
 {
  "stand": "2026-10-07",
- "hinweis": "Je Paket eine Runde: NNN-claude → NNN-grok → NNN-astra (alle in pruefung/, ohne Versionsnummer im Namen). Nach Einbau werden die drei gelöscht; übrig bleibt nur das Paket. abschluss_commit = Vergleichsbasis für die nächste Runde.",
+ "regeln": "Jede Datei bearbeitet nur ihr Ersteller. Claude: pakete/NNN-basis.json + .md, implantate/*, pruefung/STATUS.json. Grok: pruefung/NNN-grok.md. Astra: pruefung/NNN-astra.md. Julian: eingang/*. Dateinamen ohne Versionsnummer.",
+ "ablauf": "1 Claude schreibt/ändert NNN-basis (Abschnitt „Zur Prüfung in dieser Runde“) und setzt runde=grok → 2 Grok schreibt NNN-grok (Änderungsvorschläge) → 3 Astra liest alles, ändert nichts, schreibt NNN-astra (übernimmt Grok-Punkte, die es genauso übernehmen würde, ausdrücklich + eigene) → 4 Claude baut NNN-astra 1:1 in NNN-basis ein, setzt runde=eingebaut → 5 Grok und Astra löschen jeweils ihre eigene Datei → übrig bleibt NNN-basis.",
  "pakete": {
-  "000-grundwissen": {
+  "000": {
+   "datei": "pakete/000-basis.json",
+   "name": "000-grundwissen",
    "version": "1.3",
-   "runde": "offen – wartet auf 000-grok",
-   "abschluss_commit": null,
+   "runde": "grok",
    "typ": "grundwissen"
   },
-  "001-hueft-tep": {
+  "001": {
+   "datei": "pakete/001-basis.json",
+   "name": "001-hueft-tep",
    "version": "1.2",
-   "runde": "offen – wartet auf 001-grok",
-   "abschluss_commit": null,
+   "runde": "grok",
    "typ": "eingriff",
-   "basis": "000-grundwissen",
+   "basis": "000",
    "gehoert_dazu": [
     "implantate/stryker-accolade-ii.json",
     "implantate/smith-nephew-polarstem.json"
