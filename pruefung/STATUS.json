@@ -68,6 +68,20 @@
     "enovis_ccb_profil": "beide (Low- und Full-profile)",
     "abnahme": "noch nicht einbauen – wartet auf Julian (ggf. Perplexity 001-perplexity-3)"
    }
+  },
+  "001-implantate-dach": {
+   "name": "001-implantate-dach (Extra-Lauf, geplant)",
+   "runde": "wartet auf Julian („Implantate DACH los“)",
+   "typ": "implantate",
+   "gehoert_zu": "001",
+   "auftrag": "Erst DACH-Ranking belegen (EPRD-Jahresbericht 2025 Tabellen Schäfte/Pfannen/Kombinationen, SIRIS Schweiz, Österreich-Register), dann die häufigsten Systeme je Hersteller als Implantat-Dateien anlegen.",
+   "hersteller_julian": [
+    "DePuy Synthes (Corail, Pinnacle, Actis, Self-Centering-Duokopf)",
+    "Zimmer Biomet (CLS Spotorno, Avenir Complete, Allofit, G7, Müller-Geradschaft, Bipolarkopf)",
+    "Mathys/Enovis zusätzlich (optimys, RM Pressfit vitamys, seleXys)",
+    "Weitere laut Register (z. B. Lima, implantcast, Corin)"
+   ],
+   "start": "nach Abschluss 001-implantate"
   }
  },
  "eingang_verarbeitet": [
