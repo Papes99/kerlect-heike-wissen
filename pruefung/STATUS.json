@@ -68,7 +68,8 @@
     "enovis_ccb_profil": "beide (Low- und Full-profile)",
     "abnahme": "noch nicht einbauen – wartet auf Julian (ggf. Perplexity 001-perplexity-3)"
    },
-   "perplexity_auftrag": "pakete/001-implantate-perplexity-auftrag.md"
+   "perplexity_auftrag": "pakete/001-implantate-perplexity-auftrag.md",
+   "perplexity_ergebnis": "eingang/001-perplexity-3.md"
   },
   "001-implantate-dach": {
    "name": "001-implantate-dach (Extra-Lauf, geplant)",
@@ -86,6 +87,8 @@
   }
  },
  "eingang_verarbeitet": [
+  "001-perplexity-2.md",
+  "001-perplexity-3.md",
   "001-perplexity.md"
  ],
  "hinweis_start": "Neustart 07.10.2026: alte Prüf-/Arbeitsdateien gelöscht (Git-Verlauf). Kette beginnt mit 000.",
@@ -133,13 +136,7 @@
    "Duokopf (mit zementiertem Schaft)": "Mathys Bipolarkopf"
   }
  },
- "eingang_offen": [
-  {
-   "datei": "eingang/001-perplexity-2.md",
-   "betrifft": "Lauf 001-implantate",
-   "hinweis": "in Prüfung"
-  }
- ],
+ "eingang_offen": [],
  "astra_pause": "Julian 07.10.2026: Bis Paket 020 prüft Astra in jedem Lauf NUR die Implantate (Implantat-Suche + Implantat-Einbau: implantate/*, quellen-auftrag, Implantat-Punkte der Basis) – den übrigen Paketinhalt nicht. Läufe ohne Implantat-Bezug: kein Astra-Schritt. Nach 020 prüft Astra in EINEM Gesamtlauf alles (000–020 + implantate/*) → pruefung/gesamt-astra.md.",
  "app_regel": "Julian 07.10.2026: Astra programmiert – und nur in Kerlect (Base44-App „Kerlect“, ID 6aa3f64b0b23cc244ce7686d). Claude schreibt keinen App-Code in Kerlect; Claude liefert Daten (implantate/*, pakete/*), Vorgaben (app/*.md, app/implantat-eingriffe.json) und Prototypen. App-Auftrag Implantat-Tablett: Start freigegeben 07.10.2026.",
  "app_auftrag": {
