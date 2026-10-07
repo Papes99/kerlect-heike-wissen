@@ -1,4 +1,4 @@
-# Lauf 001-implantate-luecken – Lücken der Hüft-Implantat-Dateien schließen
+# 001 vervollständigen – Lücken der Hüft-Implantat-Dateien schließen (Lauf 001-implantate-luecken)
 
 _Claude (Cloud), Start 07.10.2026 · Pipeline NEU · Perplexity-Quellen: `pruefung/001-implantate-luecken-perplexity.md` (Repo-Stand 9ad0cb1)_
 

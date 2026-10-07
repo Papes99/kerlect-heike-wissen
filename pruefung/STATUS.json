@@ -110,21 +110,20 @@
   },
   "001-implantate-luecken": {
    "name": "001 vervollständigen – Implantat-Lücken (gehört zu 001, nicht zu 002)",
-   "runde": "wartet – Start auf Julians Wort („001 vervollständigen los“)",
+   "runde": "grok",
    "perplexity_auftrag": "pakete/001-implantate-luecken-perplexity-auftrag.md",
    "ergebnis": "pruefung/001-implantate-luecken-perplexity.md",
    "weiter": "Funde fließen in den nächsten Implantat-Lauf (Grok/Astra lesen am Original)",
    "perplexity_fertig": "2026-10-07, pruefung/001-implantate-luecken-perplexity.md (Repo-Stand 9ad0cb1)",
    "typ": "implantate",
    "datei": "pakete/001-implantate-luecken-basis.md",
-   "lauf_start": "2026-10-07T18:30Z",
+   "lauf_start": "2026-10-07T18:45Z",
    "dateien": {
     "perplexity": "pruefung/001-implantate-luecken-perplexity.md",
     "grok": "pruefung/001-implantate-luecken-grok.md",
     "openai": "pruefung/001-implantate-luecken-openai.md"
    },
-   "abschluss": "Werte direkt in implantate/*.json + .md (Version +0.1), basis + perplexity-auftrag danach entfernen",
-   "hinweis": "Julian 07.10.2026: nicht mit 002 zusammenführen; ist die Vervollständigung von 001. 002 = Knie-TEP (eigener Lauf, nur Knie)."
+   "abschluss": "Werte direkt in implantate/*.json + .md (Version +0.1), basis + perplexity-auftrag danach entfernen"
   },
   "002": {
    "name": "002-knie-tep",
