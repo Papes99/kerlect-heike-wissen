@@ -1,7 +1,7 @@
 {
  "hersteller": "Zimmer Biomet",
  "system": "Avenir, Fitmore, CLS Spotorno, Alloclassic + Allofit / G7; zementiert M.E.M., MS-30 + Flachprofil",
- "version": "1.0",
+ "version": "1.1",
  "quellen": [
   {
    "id": "fitmore",
@@ -14,7 +14,7 @@
   },
   {
    "id": "avenir",
-   "dokument": "Avenir Complete Surgical Technique",
+   "dokument": "Avenir Complete Surgical Technique (Avenir Complete – nicht Avenir Müller)",
    "stand": "1624.4-GLBL-en, 2021-11-10",
    "seiten": "PDF 7, 9 (12 Seiten, keine Bestelltabelle)",
    "url": "https://assets.ctfassets.net/rc4arfpyhdpw/4PulT0mR4JdEX4f5n00BxC/88cc646adbb9dbc5309025ed0769cd3e/1624.4-GLBL-en_Avenir_SurgTech.pdf",
@@ -61,62 +61,538 @@
    "id": "bipolar",
    "dokument": "Head and Stem Combinations: Unipolar and Bipolar Femoral Heads",
    "stand": "Revised 5/6/2019",
-   "seiten": "PDF 1–2 (Zeile MS-30, Fußnote 1)",
+   "seiten": "S. 1–2 / PDF 1–2 (Schaft × Unipolar/Bipolar-Spalten, Fußnoten 1–5)",
    "url": "https://assets.ctfassets.net/rc4arfpyhdpw/32LNW4qj9EF9gZTbsgW3XK/aff2b857d83db63fa9441c1d96e1237d/Unipolar_and_Bipolar_Femoral_Heads_NEW.pdf",
-   "markt": "EU-Seite",
-   "gelesen_von": "Grok/Astra 07.10.2026"
+   "markt": "nicht angegeben; Fußzeile: functional compatibility ≠ regulatory approval",
+   "gelesen_von": "Grok/Astra 07.10.2026; Claude-Helfer 07.10.2026 (Original); OpenAI 07.10.2026"
   },
   {
    "id": "liners",
-   "dokument": "Modular Liners and Cups (Allofit u. a.)",
-   "stand": "Revised 05/03/2019",
-   "seiten": "gesamt",
+   "dokument": "C1 – Acetabular Combinations: Modular Inserts (Liners) and Cups (Shells)",
+   "stand": "Revised 05/03/2019 (Datum mehrdeutig; PDF erstellt 05.03.2019)",
+   "seiten": "S. 1 / PDF 1",
    "url": "https://assets.ctfassets.net/rc4arfpyhdpw/4cFuQfD9ptPL2LNaoqXCYj/f032b9a0ac0920a7c3e2b2b65949fa47/Liners_and_Cups_Final.pdf",
-   "markt": "EU",
-   "gelesen_von": "Perplexity-Fundstelle – noch nicht gelesen"
+   "markt": "Fußnote: „* BIOLOX Delta Taper Liners are not available in the United States“; Fußzeile: functional compatibility ≠ regulatory approval",
+   "gelesen_von": "Claude-Helfer 07.10.2026 (Original); OpenAI 07.10.2026"
+  },
+  {
+   "id": "zb_keramik_2020",
+   "dokument": "Head and Stem Combinations: Zimmer Biomet 12/14 Ceramic Femoral Heads (+ Articulating Combinations: Ceramic Femoral Heads)",
+   "stand": "Document # 87-6204-051-00, Revision 1, Revised Date 7/1/2020",
+   "seiten": "S. 1–5 / PDF 1–5 (Schaft × Kopf), S. 8 (Fußnoten), S. 16–18 (Kopf × Inlay)",
+   "url": "https://www.zimmerbiomet.com/content/dam/zb-corporate/en/support/product-compatibility/87-6204-051-00-Rev1_01-Jul.pdf",
+   "markt": "nicht angegeben; Fußzeile: „This represents functional compatibility and does not necessarily indicate regulatory approval status for marketing of product pairs.“",
+   "gelesen_von": "Claude-Helfer 07.10.2026 (Original); OpenAI 07.10.2026"
+  },
+  {
+   "id": "zb_cocr_2020",
+   "dokument": "Head and Stem Combinations: Zimmer Biomet 12/14 CoCr Femoral Heads and Freedom Heads (+ Articulating Combinations)",
+   "stand": "Document # 87-6204-951-00, Revision 1, Revised Date 7/1/2020",
+   "seiten": "S. 1–4 / PDF 1–4 (Schaft × Kopf), S. 7 (Fußnoten), S. 8–12 (Kopf × Inlay)",
+   "url": "https://www.zimmerbiomet.com/content/dam/zb-corporate/en/support/product-compatibility/87-6204-951-00_Rev1_01-Jul.pdf",
+   "markt": "nicht angegeben; Fußzeile: functional compatibility ≠ regulatory approval",
+   "gelesen_von": "Claude-Helfer 07.10.2026 (Original); OpenAI 07.10.2026"
+  },
+  {
+   "id": "zb_c2",
+   "dokument": "C2 – Acetabular Reconstruction: Polyethylene Liners/Cups and Metal Cages/Rings",
+   "stand": "Revised 2/15/2023",
+   "seiten": "S. 1 / PDF 1",
+   "url": "https://www.zimmerbiomet.com/content/dam/zb-corporate/en/support/product-compatibility/C2.pdf",
+   "markt": "nicht angegeben; Fußzeile: functional compatibility ≠ regulatory approval",
+   "gelesen_von": "Claude-Helfer 07.10.2026 (Original); OpenAI 07.10.2026"
+  },
+  {
+   "id": "zb_c3",
+   "dokument": "C3 – Acetabular Bone Screw Combinations",
+   "stand": "Revised 2/15/2023",
+   "seiten": "S. 1 / PDF 1",
+   "url": "https://www.zimmerbiomet.com/content/dam/zb-corporate/en/support/product-compatibility/C3.pdf",
+   "markt": "nicht angegeben; Fußnote „** Available on in Japan“ (so gedruckt, ohne sichtbare Marke in der Tabelle)",
+   "gelesen_von": "Claude-Helfer 07.10.2026 (Original); OpenAI 07.10.2026"
+  },
+  {
+   "id": "avenir_4034",
+   "dokument": "Avenir Hip System – Surgical Technique (Avenir Müller Cemented / Uncemented)",
+   "stand": "4034.2-GLBL-en, Lit. No. 06.02448.012, Issue Date 2024-04",
+   "seiten": "PDF 2 (zementiert), PDF 3 (zementfrei), S. 5 / PDF 5 (Röntgenschablone Size 1), S. 9–11, PDF 13",
+   "url": "https://assets.ctfassets.net/rc4arfpyhdpw/3RKxcUBZ4YdWkinfK2ydhd/8c0dac0ead51dbd13fb56ead2bc99146/4034.2-GLBL-en_Avenir_SurgTech_A4_DIGITAL.pdf",
+   "markt": "global (GLBL); CE 2797; „Check for country product clearances“; Bestellinfo im Leaflet 0885 (nicht gefunden)",
+   "gelesen_von": "Claude-Helfer 07.10.2026 (Original); OpenAI 07.10.2026"
+  },
+  {
+   "id": "gudid_avenir",
+   "dokument": "FDA AccessGUDID – Datensätze Avenir (Zimmer GmbH), Suche 01.06010*",
+   "stand": "Abfrage 07.10.2026 (Publikationsdatum der Datensätze ohne Katalognr. 2019-10-14)",
+   "seiten": "110 Treffer; Lookup je DI (api/v3/devices/lookup.json)",
+   "url": "https://accessgudid.nlm.nih.gov/devices/search?query=01.06010*",
+   "markt": "US",
+   "gelesen_von": "Claude-Helfer 07.10.2026 (Original)"
   }
  ],
  "komponenten": [
   {
    "id": "zb.avenir.zementfrei",
    "typ": "schaft",
-   "bezeichnung": "Avenir (zementfrei)",
+   "bezeichnung": "Avenir Müller Uncemented Hip Stem (zementfrei)",
    "auswahl_dach": true,
    "groesse": null,
    "ref": null,
    "gtin": null,
    "attribute": {
-    "fixation": "zementfrei",
-    "hinweis": "Avenir ≠ Avenir Complete (eigene EPRD-Zeile Avenir Complete Collarless n=4.820)",
-    "werte": "Größen/REF offen"
+    "fixation": "zementfrei („uncemented straight stem“, „cementless fixation“)",
+    "material": "titanium alloy (Protasul®-64WF), macrosurface structure, coated with Hydroxyapatite",
+    "konus": "12/14",
+    "varianten": "Standard / Lateral (Probehals „standard or lateral“, S. 9); Schablone: CCD-Angle 135°",
+    "indikation": "nur Totalarthroplastik (NIDJD/IJD, akute Schenkelhals-/Kopffraktur) – keine Hemi-/Revisionsindikation genannt; „may be combined with constrained or semi-constrained acetabular systems“ (PDF 3)",
+    "ifu": "IFU D011500294",
+    "groessen_hinweis": "4034.2 nennt keine Größenreihe; REF Größe 1 nur auf der Röntgenschablone (S. 5). Größen 1–9 + REF aus FDA AccessGUDID (US). EU-REF können abweichen; Bestellblatt 0885 nicht gefunden. „SHEET 1 OF 9“ der Schablone nicht als Größenanzahl gedeutet.",
+    "hinweis": "Avenir ≠ Avenir Complete (eigene EPRD-Zeile Avenir Complete Collarless n=4.820; eigene Chart-Zeilen 574xxxxxx)",
+    "konflikt": "OpenAI: „Größen/Einzel-REF bleiben aus dieser OP-Technik unbelegt“ vs. Claude-Helfer: REF Size 1 auf der Röntgenschablone S. 5 (300 dpi) gelesen – Größe 1 daher nur 1 Prüfer."
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Nicht belegt: 4034.2 enthält keine Packungs-/Etikettabbildung (alle Seiten gesichtet). Die Röntgenschablone S. 5 (REF, CE, Felder (01)/(10), Warndreieck „Stem size must match final rasp size“) ist kein Packungsetikett."
    },
-   "quelle": "avenir",
-   "sicherheit": "offen"
+   "quelle": "avenir_4034",
+   "sicherheit": "belegt (Original, 2 Prüfer) – Beschreibung/Indikation; Größen 2–9 US – kein EU-Nachweis",
+   "aliase": [
+    "Avenir Müller stem (Chart-Zeile 01.06010.00X / 10X)"
+   ],
+   "groessen": [
+    {
+     "groesse": "1",
+     "variante": "Standard",
+     "ref": "01.06010.001",
+     "konus": "12/14",
+     "gudid_beschreibung": "Avenir Müller stem 1 Standard",
+     "udi_di_gudid": "00889024288041",
+     "markt": "global (4034.2) + US (GUDID)",
+     "sicherheit": "belegt (Original, 1 Prüfer) (Röntgenschablone, EU-Dokument) + US – kein EU-Nachweis",
+     "quelle_zeile": "avenir_4034 S. 5 / PDF 5 (Schablone „Size 1“, Standard – Uncemented) + gudid_avenir"
+    },
+    {
+     "groesse": "2",
+     "variante": "Standard",
+     "ref": "01.06010.002",
+     "konus": "12/14",
+     "gudid_beschreibung": "Avenir Müller stem 2 Standard",
+     "udi_di_gudid": "00889024288058",
+     "markt": "US",
+     "sicherheit": "US – kein EU-Nachweis",
+     "quelle_zeile": "gudid_avenir"
+    },
+    {
+     "groesse": "3",
+     "variante": "Standard",
+     "ref": "01.06010.003",
+     "konus": "12/14",
+     "gudid_beschreibung": "Avenir Müller stem 3 Standard",
+     "udi_di_gudid": "00889024288065",
+     "markt": "US",
+     "sicherheit": "US – kein EU-Nachweis",
+     "quelle_zeile": "gudid_avenir"
+    },
+    {
+     "groesse": "4",
+     "variante": "Standard",
+     "ref": "01.06010.004",
+     "konus": "12/14",
+     "gudid_beschreibung": "Avenir Müller stem 4 Standard",
+     "udi_di_gudid": "00889024288072",
+     "markt": "US",
+     "sicherheit": "US – kein EU-Nachweis",
+     "quelle_zeile": "gudid_avenir"
+    },
+    {
+     "groesse": "5",
+     "variante": "Standard",
+     "ref": "01.06010.005",
+     "konus": "12/14",
+     "gudid_beschreibung": "Avenir Müller stem 5 Standard",
+     "udi_di_gudid": "00889024288089",
+     "markt": "US",
+     "sicherheit": "US – kein EU-Nachweis",
+     "quelle_zeile": "gudid_avenir"
+    },
+    {
+     "groesse": "6",
+     "variante": "Standard",
+     "ref": "01.06010.006",
+     "konus": "12/14",
+     "gudid_beschreibung": "Avenir Müller stem 6 Standard",
+     "udi_di_gudid": "00889024288096",
+     "markt": "US",
+     "sicherheit": "US – kein EU-Nachweis",
+     "quelle_zeile": "gudid_avenir"
+    },
+    {
+     "groesse": "7",
+     "variante": "Standard",
+     "ref": "01.06010.007",
+     "konus": "12/14",
+     "gudid_beschreibung": "Avenir Müller stem 7 Standard",
+     "udi_di_gudid": "00889024288102",
+     "markt": "US",
+     "sicherheit": "US – kein EU-Nachweis",
+     "quelle_zeile": "gudid_avenir"
+    },
+    {
+     "groesse": "8",
+     "variante": "Standard",
+     "ref": "01.06010.008",
+     "konus": "12/14",
+     "gudid_beschreibung": "Avenir Müller stem 8 Standard",
+     "udi_di_gudid": "00889024288119",
+     "markt": "US",
+     "sicherheit": "US – kein EU-Nachweis",
+     "quelle_zeile": "gudid_avenir"
+    },
+    {
+     "groesse": "9",
+     "variante": "Standard",
+     "ref": "01.06010.009",
+     "konus": "12/14",
+     "gudid_beschreibung": "Avenir Müller stem 9 Standard",
+     "udi_di_gudid": "00889024288126",
+     "markt": "US",
+     "sicherheit": "US – kein EU-Nachweis",
+     "quelle_zeile": "gudid_avenir"
+    },
+    {
+     "groesse": "1",
+     "variante": "Lateral",
+     "ref": "01.06010.101",
+     "konus": "12/14",
+     "gudid_beschreibung": "Avenir Müller stem 1 Lateral",
+     "udi_di_gudid": "00889024288133",
+     "markt": "global (4034.2) + US (GUDID)",
+     "sicherheit": "belegt (Original, 1 Prüfer) (Röntgenschablone, EU-Dokument) + US – kein EU-Nachweis",
+     "quelle_zeile": "avenir_4034 S. 5 / PDF 5 (Schablone „Size 1“, Lateral – Uncemented) + gudid_avenir"
+    },
+    {
+     "groesse": "2",
+     "variante": "Lateral",
+     "ref": "01.06010.102",
+     "konus": "12/14",
+     "gudid_beschreibung": "Avenir Müller stem 2 Lateral",
+     "udi_di_gudid": "00889024288140",
+     "markt": "US",
+     "sicherheit": "US – kein EU-Nachweis",
+     "quelle_zeile": "gudid_avenir"
+    },
+    {
+     "groesse": "3",
+     "variante": "Lateral",
+     "ref": "01.06010.103",
+     "konus": "12/14",
+     "gudid_beschreibung": "Avenir Müller stem 3 Lateral",
+     "udi_di_gudid": "00889024288157",
+     "markt": "US",
+     "sicherheit": "US – kein EU-Nachweis",
+     "quelle_zeile": "gudid_avenir"
+    },
+    {
+     "groesse": "4",
+     "variante": "Lateral",
+     "ref": "01.06010.104",
+     "konus": "12/14",
+     "gudid_beschreibung": "Avenir Müller stem 4 Lateral",
+     "udi_di_gudid": "00889024288164",
+     "markt": "US",
+     "sicherheit": "US – kein EU-Nachweis",
+     "quelle_zeile": "gudid_avenir"
+    },
+    {
+     "groesse": "5",
+     "variante": "Lateral",
+     "ref": "01.06010.105",
+     "konus": "12/14",
+     "gudid_beschreibung": "Avenir Müller stem 5 Lateral",
+     "udi_di_gudid": "00889024288171",
+     "markt": "US",
+     "sicherheit": "US – kein EU-Nachweis",
+     "quelle_zeile": "gudid_avenir"
+    },
+    {
+     "groesse": "6",
+     "variante": "Lateral",
+     "ref": "01.06010.106",
+     "konus": "12/14",
+     "gudid_beschreibung": "Avenir Müller stem 6 Lateral",
+     "udi_di_gudid": "00889024288188",
+     "markt": "US",
+     "sicherheit": "US – kein EU-Nachweis",
+     "quelle_zeile": "gudid_avenir"
+    },
+    {
+     "groesse": "7",
+     "variante": "Lateral",
+     "ref": "01.06010.107",
+     "konus": "12/14",
+     "gudid_beschreibung": "Avenir Müller stem 7 Lateral",
+     "udi_di_gudid": "00889024288195",
+     "markt": "US",
+     "sicherheit": "US – kein EU-Nachweis",
+     "quelle_zeile": "gudid_avenir"
+    },
+    {
+     "groesse": "8",
+     "variante": "Lateral",
+     "ref": "01.06010.108",
+     "konus": "12/14",
+     "gudid_beschreibung": "Avenir Müller stem 8 Lateral",
+     "udi_di_gudid": "00889024288201",
+     "markt": "US",
+     "sicherheit": "US – kein EU-Nachweis",
+     "quelle_zeile": "gudid_avenir"
+    },
+    {
+     "groesse": "9",
+     "variante": "Lateral",
+     "ref": "01.06010.109",
+     "konus": "12/14",
+     "gudid_beschreibung": "Avenir Müller stem 9 Lateral",
+     "udi_di_gudid": "00889024288218",
+     "markt": "US",
+     "sicherheit": "US – kein EU-Nachweis",
+     "quelle_zeile": "gudid_avenir"
+    }
+   ]
   },
   {
    "id": "zb.avenir.zementiert",
    "typ": "schaft",
-   "bezeichnung": "Avenir zementiert",
+   "bezeichnung": "Avenir Müller Cemented Hip Stem (zementiert)",
    "auswahl_dach": true,
    "groesse": null,
    "ref": null,
    "gtin": null,
    "attribute": {
-    "fixation": "zementiert",
-    "werte": "offen; Duokopf in CH: Avenir zementiert + ZB bipolar (SIRIS 2024 n=151)"
+    "fixation": "zementiert („for cemented use only“; „straight, double-tapered, highly-polished stem“; „laser etched osteotomy line“ S. 10)",
+    "material": "Protasul®-S30 stainless steel",
+    "konus": "12/14",
+    "varianten": "Standard / Lateral; Schablone: CCD-Angle 135°",
+    "indikation": "Total- oder Hemiarthroplastik zementiert (NIDJD/IJD, akute Fraktur Kopf/Hals, fehlgeschlagene Voroperation (nicht THA), optional Revision) (PDF 2)",
+    "kontraindikation_zusatz": "Allergie gegen Implantatmaterial, insbesondere Metall (z. B. stainless steel)",
+    "ifu": "IFU D011500297",
+    "groessen_hinweis": "Größen 1–9 + REF aus FDA AccessGUDID (US); Größe 1 zusätzlich Röntgenschablone 4034.2 S. 5. EU-REF können abweichen.",
+    "registerbeleg": "Duokopf in CH: Avenir zementiert + ZB bipolar (SIRIS 2024 n=151) – Bipolar (AP) 1946/1989 im Chart für Avenir Cemented grau, siehe Tabelle ZB_Uni_Bipolar",
+    "konflikt": "wie zementfrei: OpenAI wertet Einzel-REF aus 4034.2 als unbelegt; Größe 1 nur 1 Prüfer."
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Nicht belegt: 4034.2 enthält keine Packungs-/Etikettabbildung; Röntgenschablone S. 5 ist kein Packungsetikett."
    },
-   "quelle": null,
-   "sicherheit": "offen"
+   "quelle": "avenir_4034",
+   "sicherheit": "belegt (Original, 2 Prüfer) – Beschreibung/Indikation; Größen 2–9 US – kein EU-Nachweis",
+   "aliase": [
+    "Avenir Cemented Hip Stem (Chart-Zeile 01.06010.20X / 30X)"
+   ],
+   "groessen": [
+    {
+     "groesse": "1",
+     "variante": "Standard",
+     "ref": "01.06010.201",
+     "konus": "12/14",
+     "gudid_beschreibung": "Avenir® Standard stem cemented 1",
+     "udi_di_gudid": "00889024288225",
+     "markt": "global (4034.2) + US (GUDID)",
+     "sicherheit": "belegt (Original, 1 Prüfer) (Röntgenschablone, EU-Dokument) + US – kein EU-Nachweis",
+     "quelle_zeile": "avenir_4034 S. 5 / PDF 5 (Schablone „Size 1“, Standard – Cemented) + gudid_avenir"
+    },
+    {
+     "groesse": "2",
+     "variante": "Standard",
+     "ref": "01.06010.202",
+     "konus": "12/14",
+     "gudid_beschreibung": "Avenir® Standard stem cemented 2",
+     "udi_di_gudid": "00889024288232",
+     "markt": "US",
+     "sicherheit": "US – kein EU-Nachweis",
+     "quelle_zeile": "gudid_avenir"
+    },
+    {
+     "groesse": "3",
+     "variante": "Standard",
+     "ref": "01.06010.203",
+     "konus": "12/14",
+     "gudid_beschreibung": "Avenir® Standard stem cemented 3",
+     "udi_di_gudid": "00889024288249",
+     "markt": "US",
+     "sicherheit": "US – kein EU-Nachweis",
+     "quelle_zeile": "gudid_avenir"
+    },
+    {
+     "groesse": "4",
+     "variante": "Standard",
+     "ref": "01.06010.204",
+     "konus": "12/14",
+     "gudid_beschreibung": "Avenir® Standard stem cemented 4",
+     "udi_di_gudid": "00889024288256",
+     "markt": "US",
+     "sicherheit": "US – kein EU-Nachweis",
+     "quelle_zeile": "gudid_avenir"
+    },
+    {
+     "groesse": "5",
+     "variante": "Standard",
+     "ref": "01.06010.205",
+     "konus": "12/14",
+     "gudid_beschreibung": "Avenir® Standard stem cemented 5",
+     "udi_di_gudid": "00889024288263",
+     "markt": "US",
+     "sicherheit": "US – kein EU-Nachweis",
+     "quelle_zeile": "gudid_avenir"
+    },
+    {
+     "groesse": "6",
+     "variante": "Standard",
+     "ref": "01.06010.206",
+     "konus": "12/14",
+     "gudid_beschreibung": "Avenir® Standard stem cemented 6",
+     "udi_di_gudid": "00889024288270",
+     "markt": "US",
+     "sicherheit": "US – kein EU-Nachweis",
+     "quelle_zeile": "gudid_avenir"
+    },
+    {
+     "groesse": "7",
+     "variante": "Standard",
+     "ref": "01.06010.207",
+     "konus": "12/14",
+     "gudid_beschreibung": "Avenir® Standard stem cemented 7",
+     "udi_di_gudid": "00889024288287",
+     "markt": "US",
+     "sicherheit": "US – kein EU-Nachweis",
+     "quelle_zeile": "gudid_avenir"
+    },
+    {
+     "groesse": "8",
+     "variante": "Standard",
+     "ref": "01.06010.208",
+     "konus": "12/14",
+     "gudid_beschreibung": "Avenir® Standard stem cemented 8",
+     "udi_di_gudid": "00889024288294",
+     "markt": "US",
+     "sicherheit": "US – kein EU-Nachweis",
+     "quelle_zeile": "gudid_avenir"
+    },
+    {
+     "groesse": "9",
+     "variante": "Standard",
+     "ref": "01.06010.209",
+     "konus": "12/14",
+     "gudid_beschreibung": "Avenir® Standard stem cemented 9",
+     "udi_di_gudid": "00889024288300",
+     "markt": "US",
+     "sicherheit": "US – kein EU-Nachweis",
+     "quelle_zeile": "gudid_avenir"
+    },
+    {
+     "groesse": "1",
+     "variante": "Lateral",
+     "ref": "01.06010.301",
+     "konus": "12/14",
+     "gudid_beschreibung": "Avenir® Stem lateral cemented 1",
+     "udi_di_gudid": "00889024288317",
+     "markt": "global (4034.2) + US (GUDID)",
+     "sicherheit": "belegt (Original, 1 Prüfer) (Röntgenschablone, EU-Dokument) + US – kein EU-Nachweis",
+     "quelle_zeile": "avenir_4034 S. 5 / PDF 5 (Schablone „Size 1“, Lateral – Cemented) + gudid_avenir"
+    },
+    {
+     "groesse": "2",
+     "variante": "Lateral",
+     "ref": "01.06010.302",
+     "konus": "12/14",
+     "gudid_beschreibung": "Avenir® Stem lateral cemented 2",
+     "udi_di_gudid": "00889024288324",
+     "markt": "US",
+     "sicherheit": "US – kein EU-Nachweis",
+     "quelle_zeile": "gudid_avenir"
+    },
+    {
+     "groesse": "3",
+     "variante": "Lateral",
+     "ref": "01.06010.303",
+     "konus": "12/14",
+     "gudid_beschreibung": "Avenir® Stem lateral cemented 3",
+     "udi_di_gudid": "00889024288331",
+     "markt": "US",
+     "sicherheit": "US – kein EU-Nachweis",
+     "quelle_zeile": "gudid_avenir"
+    },
+    {
+     "groesse": "4",
+     "variante": "Lateral",
+     "ref": "01.06010.304",
+     "konus": "12/14",
+     "gudid_beschreibung": "Avenir® Stem lateral cemented 4",
+     "udi_di_gudid": "00889024288348",
+     "markt": "US",
+     "sicherheit": "US – kein EU-Nachweis",
+     "quelle_zeile": "gudid_avenir"
+    },
+    {
+     "groesse": "5",
+     "variante": "Lateral",
+     "ref": "01.06010.305",
+     "konus": "12/14",
+     "gudid_beschreibung": "Avenir® Stem lateral cemented 5",
+     "udi_di_gudid": "00889024288355",
+     "markt": "US",
+     "sicherheit": "US – kein EU-Nachweis",
+     "quelle_zeile": "gudid_avenir"
+    },
+    {
+     "groesse": "6",
+     "variante": "Lateral",
+     "ref": "01.06010.306",
+     "konus": "12/14",
+     "gudid_beschreibung": "Avenir® Stem lateral cemented 6",
+     "udi_di_gudid": "00889024288362",
+     "markt": "US",
+     "sicherheit": "US – kein EU-Nachweis",
+     "quelle_zeile": "gudid_avenir"
+    },
+    {
+     "groesse": "7",
+     "variante": "Lateral",
+     "ref": "01.06010.307",
+     "konus": "12/14",
+     "gudid_beschreibung": "Avenir® Stem lateral cemented 7",
+     "udi_di_gudid": "00889024288379",
+     "markt": "US",
+     "sicherheit": "US – kein EU-Nachweis",
+     "quelle_zeile": "gudid_avenir"
+    },
+    {
+     "groesse": "8",
+     "variante": "Lateral",
+     "ref": "01.06010.308",
+     "konus": "12/14",
+     "gudid_beschreibung": "Avenir® Stem lateral cemented 8",
+     "udi_di_gudid": "00889024288386",
+     "markt": "US",
+     "sicherheit": "US – kein EU-Nachweis",
+     "quelle_zeile": "gudid_avenir"
+    },
+    {
+     "groesse": "9",
+     "variante": "Lateral",
+     "ref": "01.06010.309",
+     "konus": "12/14",
+     "gudid_beschreibung": "Avenir® Stem lateral cemented 9",
+     "udi_di_gudid": "00889024288393",
+     "markt": "US",
+     "sicherheit": "US – kein EU-Nachweis",
+     "quelle_zeile": "gudid_avenir"
+    }
+   ]
   },
   {
    "id": "zb.fitmore",
@@ -133,12 +609,14 @@
     "familien": "A, B, B Extended Offset, C – je Größen 1–14",
     "ccd_grad": "140 / 137 / 129 / 127 (Zuordnung je Familie laut Original S. 12–15)",
     "hinweis": "A Größe 1 nicht USA; 13/14 auf Anfrage",
-    "konflikt": "B Extended Gr. 12 (REF 01.00551.312): Offset 50,0 mm (S. 14) vs. 50,75 mm (S. 16) – Wert offen"
+    "konflikt": "B Extended Gr. 12 (REF 01.00551.312): Offset 50,0 mm (S. 14) vs. 50,75 mm (S. 16) – Wert offen",
+    "chart_zeilen": "Fitmore Family A 01.00551.1XX · B 01.00551.2XX · B Extended Offset 01.00551.3XX · C 01.00551.4XX (87-6204-051-00 / -951-00, S. 3)"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Keine Packungs-/Etikettabbildung in den gelesenen ZB-Dokumenten (Kopf-Charts, Bipolar-Chart, C1–C3, Avenir 4034.2; pdfimages 0 bzw. alle Seiten gesichtet) – Etikettfelder/Farben nicht belegt."
    },
    "quelle": "fitmore",
    "sicherheit": "belegt",
@@ -171,15 +649,17 @@
    "gtin": null,
    "attribute": {
     "fixation": "zementfrei",
-    "werte": "EU-Größen offen (nur JP/US-Ausgaben gefunden)"
+    "werte": "EU-Größen offen (nur JP/US-Ausgaben gefunden)",
+    "chart_zeilen": "CLS Spotorno 125 01.00295.0XX · CLS Spotorno 145 29.00.09-XXX · CLS Spotorno 135 29.00.39-XXX · CLS Spotorno 145, HA 29.00.59-XXX (REF-Muster, keine Einzel-REF; S. 2)"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Keine Packungs-/Etikettabbildung in den gelesenen ZB-Dokumenten (Kopf-Charts, Bipolar-Chart, C1–C3, Avenir 4034.2; pdfimages 0 bzw. alle Seiten gesichtet) – Etikettfelder/Farben nicht belegt."
    },
-   "quelle": null,
-   "sicherheit": "offen"
+   "quelle": "zb_keramik_2020",
+   "sicherheit": "offen (Größen/REF); Chart-Zeilen belegt (Original, 2 Prüfer)"
   },
   {
    "id": "zb.alloclassic",
@@ -191,15 +671,19 @@
    "gtin": null,
    "attribute": {
     "fixation": "zementfrei",
-    "werte": "EU-Größen offen; Konus je Variante am Etikett (8/10 nicht pauschal)"
+    "werte": "EU-Größen offen; Konus je Variante am Etikett (8/10 nicht pauschal)",
+    "chart_zeilen": "Alloclassic SLL 28xx (2883-2891) · Alloclassic SL Offset 01.00121.XXX · Alloclassic SL 28xx (2839-2852) · Alloclassic SL, HA 28xx (2861-2872) · Alloclassic Variall SLV 01.00125.XXX (S. 1)",
+    "bipolar_chart_zeilen": "„ALLOCLASSIC SLA and SL-64 stem“, „ALLOCLASSIC SLL-Revision stem“, „ALLOCLASSIC stem“, „ALLOCLASSIC VARIALL SLV stem“ – welche Zeile für SL/SL Offset gilt, sagt das Dokument nicht",
+    "hinweis": "„Alloclassic SL Offset“ (01.00121.XXX) nicht mit „SLO“ gleichsetzen – Kürzel im Dokument nicht genannt"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Keine Packungs-/Etikettabbildung in den gelesenen ZB-Dokumenten (Kopf-Charts, Bipolar-Chart, C1–C3, Avenir 4034.2; pdfimages 0 bzw. alle Seiten gesichtet) – Etikettfelder/Farben nicht belegt."
    },
-   "quelle": null,
-   "sicherheit": "offen"
+   "quelle": "zb_keramik_2020",
+   "sicherheit": "offen (Größen/REF); Chart-Zeilen SL/SL Offset/SLL belegt (Original, 2 Prüfer), SL HA/Variall belegt (Original, 1 Prüfer)"
   },
   {
    "id": "zb.mem",
@@ -211,13 +695,14 @@
    "gtin": null,
    "attribute": {
     "fixation": "zementiert",
-    "hinweis": "M.E.M. ≠ MS-30",
+    "hinweis": "M.E.M. ≠ MS-30. Charts nennen nur „Original Müller Straight stem PROTASUL-10 / PROTASUL-S30“ – Identität mit M.E.M. nicht belegt, nicht gleichsetzen (eigene Komponente zb.original_mueller).",
     "werte": "offen – nur Registerbeleg (EPRD zementiert #1)"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Keine Packungs-/Etikettabbildung in den gelesenen ZB-Dokumenten (Kopf-Charts, Bipolar-Chart, C1–C3, Avenir 4034.2; pdfimages 0 bzw. alle Seiten gesichtet) – Etikettfelder/Farben nicht belegt."
    },
    "quelle": null,
    "sicherheit": "offen"
@@ -236,12 +721,14 @@
     "varianten": {
      "Standard": "CCD 130–135°, Offset 37,7–43,3 mm",
      "Lateral": "CCD 124,3–128°, Offset 42,2–48,4 mm"
-    }
+    },
+    "chart_zeilen": "MS-30 Stem Lateral 01.00351.XXX · MS-30 Stem Standard 30.00.49-XXX (S. 4)"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Keine Packungs-/Etikettabbildung in den gelesenen ZB-Dokumenten (Kopf-Charts, Bipolar-Chart, C1–C3, Avenir 4034.2; pdfimages 0 bzw. alle Seiten gesichtet) – Etikettfelder/Farben nicht belegt."
    },
    "quelle": "ms30",
    "sicherheit": "belegt",
@@ -317,22 +804,29 @@
   {
    "id": "zb.allofit",
    "typ": "pfanne",
-   "bezeichnung": "Allofit / Allofit-S",
+   "bezeichnung": "Allofit (Chart: „ALLOFIT Shell“)",
    "auswahl_dach": true,
    "groesse": null,
    "ref": null,
    "gtin": null,
    "attribute": {
     "fixation": "zementfrei",
-    "werte": "Größen/Liner/max. Kopf-Ø offen; Allofit, Allofit-S, Allofit IT getrennt führen"
+    "liner_c1": "ALPHA CERASUL, ALPHA DURASUL, ALPHA METASUL, ALPHA PE, STANDARD METASUL, STANDARD PE insert (C1)",
+    "schrauben_c3": "keine eigene Zeile „ALLOFIT“ (ohne -S) in C3 – offen",
+    "hinweis": "Allofit, Allofit IT, Allofit-S, Allofit-S IT getrennt führen; C1 belegt Liner × Schale, nicht Liner × Kopf. Schalengrößen in keinem Dokument.",
+    "werte": "Größen/REF offen"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Keine Packungs-/Etikettabbildung in den gelesenen ZB-Dokumenten (Kopf-Charts, Bipolar-Chart, C1–C3, Avenir 4034.2; pdfimages 0 bzw. alle Seiten gesichtet) – Etikettfelder/Farben nicht belegt."
    },
    "quelle": "liners",
-   "sicherheit": "offen"
+   "sicherheit": "Liner belegt (Original, 2 Prüfer); Größen offen",
+   "aliase": [
+    "ALLOFIT Shell"
+   ]
   },
   {
    "id": "zb.g7",
@@ -348,9 +842,10 @@
     "hinweis": "70/72 und J nur OsseoTi Multi Hole"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Keine Packungs-/Etikettangabe aus G7-OP-Technik übernommen (nicht in diesem Lauf geprüft)."
    },
    "quelle": "g7",
    "sicherheit": "belegt"
@@ -365,12 +860,14 @@
    "gtin": null,
    "attribute": {
     "fixation": "zementiert",
-    "werte": "offen – nur Registerbeleg (EPRD zementiert #1)"
+    "werte": "offen – nur Registerbeleg (EPRD zementiert #1)",
+    "hinweis": "„Flachprofil“ kommt in keinem ZB-Dokument vor. C2 nennt „Low Profile PE cup“, „Low Profile DURASUL cup“, „Low Profile METASUL cup“, „Full Profile PE cup“ (getrennte Produkte, zb.cup.*) – welche davon „Flachprofil“ ist, bleibt offen."
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Keine Packungs-/Etikettabbildung in den gelesenen ZB-Dokumenten (Kopf-Charts, Bipolar-Chart, C1–C3, Avenir 4034.2; pdfimages 0 bzw. alle Seiten gesichtet) – Etikettfelder/Farben nicht belegt."
    },
    "quelle": null,
    "sicherheit": "offen"
@@ -385,12 +882,14 @@
    "gtin": null,
    "attribute": {
     "konus": "12/14",
-    "hinweis": "Chart markiert Avenir/CLS/Fitmore/Alloclassic-Zeilen; Ø/Offset je Zeile offen; BIOLOX OPTION eigene Familie"
+    "hinweis": "Chart markiert Avenir/CLS/Fitmore/Alloclassic-Zeilen; Ø/Offset je Zeile offen; BIOLOX OPTION eigene Familie",
+    "hinweis_2020": "Neuere Charts 87-6204-051-00 Rev. 1 (7/1/2020) nennen kein BIOLOX delta, nur „Zimmer Biomet Ceramic“ (zb.kopf.keramik_80260) und „SELECT Ceramic“ – nicht gleichsetzen."
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Keine Packungs-/Etikettabbildung in den gelesenen ZB-Dokumenten (Kopf-Charts, Bipolar-Chart, C1–C3, Avenir 4034.2; pdfimages 0 bzw. alle Seiten gesichtet) – Etikettfelder/Farben nicht belegt."
    },
    "quelle": "ceramic",
    "sicherheit": "bedingt"
@@ -398,22 +897,27 @@
   {
    "id": "zb.kopf.cocr",
    "typ": "kopf",
-   "bezeichnung": "CoCr 12/14 (ZB)",
+   "bezeichnung": "Zimmer Biomet CoCr 12/14 Head (80220xxxx)",
    "auswahl_dach": true,
    "groesse": null,
    "ref": null,
    "gtin": null,
    "attribute": {
     "konus": "12/14",
-    "hinweis": "Protasul-S30 (Edelstahl) und Metasul getrennt führen"
+    "hinweis": "Protasul-S30 (Edelstahl) und Metasul getrennt führen",
+    "ref_familie": "80220xxxx (Platzhalter, keine Einzel-REF)",
+    "halslaengen": "Spalte 1: −3.5 bis +3.5; Spalte 2: +7; Spalte 3: +10.5",
+    "durchmesser_ref_familie": "22.2 mm 8022022xx · 28 mm 8022028xx · 32 mm 8022032xx · 36 mm 8022036xx · 40 mm 8022040xx · 44 mm 8022044xx (S. 8)",
+    "fussnote_s10": "„* Skirted femoral heads (10.5mm offset only) are not approved for use with the following constrained liners: CLS SPOTORNO DURASUL inserts, CLS SPOTORNO PE inserts, Trilogy Constrained Liners, Trilogy Longevity Constrained Liners, TM Revision Cemented Constrained Liners or Longevity IT Constrained Liners, ZCA Constrained“"
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Keine Packungs-/Etikettabbildung in den gelesenen ZB-Dokumenten (Kopf-Charts, Bipolar-Chart, C1–C3, Avenir 4034.2; pdfimages 0 bzw. alle Seiten gesichtet) – Etikettfelder/Farben nicht belegt."
    },
-   "quelle": "cocr",
-   "sicherheit": "offen"
+   "quelle": "zb_cocr_2020",
+   "sicherheit": "belegt (Original, 2 Prüfer)"
   },
   {
    "id": "zb.duokopf.bipolar",
@@ -425,15 +929,590 @@
    "gtin": null,
    "attribute": {
     "chart": "MS-30-Zeile: AP 1946/1989 markiert, Multipolar nicht markiert; Fußnote 1 verlangt zusätzlich Artikulations- und Kopf/Schaft-Tabellen",
-    "registerbeleg": "SIRIS: Avenir zementiert + ZB bipolar 2024 n=151"
+    "registerbeleg": "SIRIS: Avenir zementiert + ZB bipolar 2024 n=151",
+    "hinweis": "Generischer Registereintrag; Chart-Spalten siehe Tabelle ZB_Uni_Bipolar und Komponente zb.duokopf.bipolar_ap."
    },
    "bild": {
-    "typ": "keins",
+    "typ": "schema",
     "datei": null,
-    "rechte": "Rechte beim Hersteller – keine Bilder übernommen"
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Keine Packungs-/Etikettabbildung in den gelesenen ZB-Dokumenten (Kopf-Charts, Bipolar-Chart, C1–C3, Avenir 4034.2; pdfimages 0 bzw. alle Seiten gesichtet) – Etikettfelder/Farben nicht belegt."
    },
    "quelle": "bipolar",
    "sicherheit": "bedingt"
+  },
+  {
+   "id": "zb.allofit_it",
+   "typ": "pfanne",
+   "bezeichnung": "Allofit IT (Chart: „ALLOFIT IT Acetabular Cup (8755)“)",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementfrei",
+    "liner_c1": "BIOLOX Delta Taper Liner (8775)*, Longevity IT, Metasul Taper (8770), Vivacit-E",
+    "schrauben_c3": "keine eigene Zeile „ALLOFIT IT“ (ohne -S) in C3 – offen",
+    "hinweis": "Nicht mit Allofit-S IT gleichsetzen (beide tragen „(8755)“, Identität nicht belegt). *8775 laut Fußnote nicht in den USA erhältlich.",
+    "werte": "Größen/REF offen"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Keine Packungs-/Etikettabbildung in den gelesenen ZB-Dokumenten (Kopf-Charts, Bipolar-Chart, C1–C3, Avenir 4034.2; pdfimages 0 bzw. alle Seiten gesichtet) – Etikettfelder/Farben nicht belegt."
+   },
+   "quelle": "liners",
+   "sicherheit": "Liner belegt (Original, 2 Prüfer); Größen offen"
+  },
+  {
+   "id": "zb.allofit_s",
+   "typ": "pfanne",
+   "bezeichnung": "Allofit-S (Chart: „ALLOFIT-S Alloclassic Shell“)",
+   "auswahl_dach": true,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementfrei",
+    "schrauben_c3": "00-6250-065-xx; 02.06000.015/070; 4301-07-015/080; 6301-07-015/080",
+    "liner_c1": "keine Zeile „ALLOFIT-S“ in C1 – Liner offen; nicht aus „ALLOFIT Shell“ übertragen",
+    "werte": "Größen/REF offen"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Keine Packungs-/Etikettabbildung in den gelesenen ZB-Dokumenten (Kopf-Charts, Bipolar-Chart, C1–C3, Avenir 4034.2; pdfimages 0 bzw. alle Seiten gesichtet) – Etikettfelder/Farben nicht belegt."
+   },
+   "quelle": "zb_c3",
+   "sicherheit": "Schrauben belegt (Original, 2 Prüfer); Liner/Größen offen"
+  },
+  {
+   "id": "zb.allofit_s_it",
+   "typ": "pfanne",
+   "bezeichnung": "Allofit-S IT (Chart: „ALLOFIT-S IT Alloclassic Shell (8755)“)",
+   "auswahl_dach": false,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "fixation": "zementfrei",
+    "schrauben_c3": "00-6250-065-xx; 4301-07-015/080",
+    "liner_c1": "keine Zeile „ALLOFIT-S IT“ in C1 – Liner offen",
+    "hinweis": "Nicht mit „ALLOFIT IT Acetabular Cup (8755)“ gleichsetzen.",
+    "werte": "Größen/REF offen"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Keine Packungs-/Etikettabbildung in den gelesenen ZB-Dokumenten (Kopf-Charts, Bipolar-Chart, C1–C3, Avenir 4034.2; pdfimages 0 bzw. alle Seiten gesichtet) – Etikettfelder/Farben nicht belegt."
+   },
+   "quelle": "zb_c3",
+   "sicherheit": "Schrauben belegt (Original, 2 Prüfer); Liner/Größen offen"
+  },
+  {
+   "id": "zb.inlay.alpha_cerasul",
+   "typ": "inlay",
+   "bezeichnung": "ALPHA CERASUL insert",
+   "auswahl_dach": false,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "c1_bezeichnung": "ALPHA CERASUL insert",
+    "werte": "Größen/Kopf-Ø je Liner in C1 nicht angegeben; Kopf-Ø nur für Alpha-Inlays in Kopf×Inlay-Tabelle (ZB_Kopf_Inlay)"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Keine Packungs-/Etikettabbildung in den gelesenen ZB-Dokumenten (Kopf-Charts, Bipolar-Chart, C1–C3, Avenir 4034.2; pdfimages 0 bzw. alle Seiten gesichtet) – Etikettfelder/Farben nicht belegt."
+   },
+   "quelle": "liners",
+   "sicherheit": "belegt (Original, 2 Prüfer)"
+  },
+  {
+   "id": "zb.inlay.alpha_durasul",
+   "typ": "inlay",
+   "bezeichnung": "ALPHA DURASUL insert",
+   "auswahl_dach": false,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "c1_bezeichnung": "ALPHA DURASUL insert",
+    "werte": "Größen/Kopf-Ø je Liner in C1 nicht angegeben; Kopf-Ø nur für Alpha-Inlays in Kopf×Inlay-Tabelle (ZB_Kopf_Inlay)"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Keine Packungs-/Etikettabbildung in den gelesenen ZB-Dokumenten (Kopf-Charts, Bipolar-Chart, C1–C3, Avenir 4034.2; pdfimages 0 bzw. alle Seiten gesichtet) – Etikettfelder/Farben nicht belegt."
+   },
+   "quelle": "liners",
+   "sicherheit": "belegt (Original, 2 Prüfer)"
+  },
+  {
+   "id": "zb.inlay.alpha_metasul",
+   "typ": "inlay",
+   "bezeichnung": "ALPHA METASUL insert",
+   "auswahl_dach": false,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "c1_bezeichnung": "ALPHA METASUL insert",
+    "werte": "Größen/Kopf-Ø je Liner in C1 nicht angegeben; Kopf-Ø nur für Alpha-Inlays in Kopf×Inlay-Tabelle (ZB_Kopf_Inlay)"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Keine Packungs-/Etikettabbildung in den gelesenen ZB-Dokumenten (Kopf-Charts, Bipolar-Chart, C1–C3, Avenir 4034.2; pdfimages 0 bzw. alle Seiten gesichtet) – Etikettfelder/Farben nicht belegt."
+   },
+   "quelle": "liners",
+   "sicherheit": "belegt (Original, 2 Prüfer)"
+  },
+  {
+   "id": "zb.inlay.alpha_pe",
+   "typ": "inlay",
+   "bezeichnung": "ALPHA PE insert",
+   "auswahl_dach": false,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "c1_bezeichnung": "ALPHA PE insert",
+    "werte": "Größen/Kopf-Ø je Liner in C1 nicht angegeben; Kopf-Ø nur für Alpha-Inlays in Kopf×Inlay-Tabelle (ZB_Kopf_Inlay)"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Keine Packungs-/Etikettabbildung in den gelesenen ZB-Dokumenten (Kopf-Charts, Bipolar-Chart, C1–C3, Avenir 4034.2; pdfimages 0 bzw. alle Seiten gesichtet) – Etikettfelder/Farben nicht belegt."
+   },
+   "quelle": "liners",
+   "sicherheit": "belegt (Original, 2 Prüfer)"
+  },
+  {
+   "id": "zb.inlay.standard_metasul",
+   "typ": "inlay",
+   "bezeichnung": "STANDARD METASUL insert",
+   "auswahl_dach": false,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "c1_bezeichnung": "STANDARD METASUL insert",
+    "werte": "Größen/Kopf-Ø je Liner in C1 nicht angegeben; Kopf-Ø nur für Alpha-Inlays in Kopf×Inlay-Tabelle (ZB_Kopf_Inlay)"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Keine Packungs-/Etikettabbildung in den gelesenen ZB-Dokumenten (Kopf-Charts, Bipolar-Chart, C1–C3, Avenir 4034.2; pdfimages 0 bzw. alle Seiten gesichtet) – Etikettfelder/Farben nicht belegt."
+   },
+   "quelle": "liners",
+   "sicherheit": "belegt (Original, 2 Prüfer)"
+  },
+  {
+   "id": "zb.inlay.standard_pe",
+   "typ": "inlay",
+   "bezeichnung": "STANDARD PE insert",
+   "auswahl_dach": false,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "c1_bezeichnung": "STANDARD PE insert",
+    "werte": "Größen/Kopf-Ø je Liner in C1 nicht angegeben; Kopf-Ø nur für Alpha-Inlays in Kopf×Inlay-Tabelle (ZB_Kopf_Inlay)"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Keine Packungs-/Etikettabbildung in den gelesenen ZB-Dokumenten (Kopf-Charts, Bipolar-Chart, C1–C3, Avenir 4034.2; pdfimages 0 bzw. alle Seiten gesichtet) – Etikettfelder/Farben nicht belegt."
+   },
+   "quelle": "liners",
+   "sicherheit": "belegt (Original, 2 Prüfer)"
+  },
+  {
+   "id": "zb.inlay.biolox_delta_taper_8775",
+   "typ": "inlay",
+   "bezeichnung": "BIOLOX Delta Taper Liner (8775)",
+   "auswahl_dach": false,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "c1_bezeichnung": "BIOLOX Delta Taper Liner (8775)",
+    "werte": "Größen/Kopf-Ø je Liner in C1 nicht angegeben; Kopf-Ø nur für Alpha-Inlays in Kopf×Inlay-Tabelle (ZB_Kopf_Inlay)",
+    "markt": "„* BIOLOX Delta Taper Liners are not available in the United States“ (C1)"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Keine Packungs-/Etikettabbildung in den gelesenen ZB-Dokumenten (Kopf-Charts, Bipolar-Chart, C1–C3, Avenir 4034.2; pdfimages 0 bzw. alle Seiten gesichtet) – Etikettfelder/Farben nicht belegt."
+   },
+   "quelle": "liners",
+   "sicherheit": "belegt (Original, 2 Prüfer)"
+  },
+  {
+   "id": "zb.inlay.longevity_it",
+   "typ": "inlay",
+   "bezeichnung": "Longevity IT Liner",
+   "auswahl_dach": false,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "c1_bezeichnung": "Longevity IT Liner",
+    "werte": "Größen/Kopf-Ø je Liner in C1 nicht angegeben; Kopf-Ø nur für Alpha-Inlays in Kopf×Inlay-Tabelle (ZB_Kopf_Inlay)"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Keine Packungs-/Etikettabbildung in den gelesenen ZB-Dokumenten (Kopf-Charts, Bipolar-Chart, C1–C3, Avenir 4034.2; pdfimages 0 bzw. alle Seiten gesichtet) – Etikettfelder/Farben nicht belegt."
+   },
+   "quelle": "liners",
+   "sicherheit": "belegt (Original, 2 Prüfer)"
+  },
+  {
+   "id": "zb.inlay.metasul_taper_8770",
+   "typ": "inlay",
+   "bezeichnung": "Metasul Taper Liner (8770)",
+   "auswahl_dach": false,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "c1_bezeichnung": "Metasul Taper Liner (8770)",
+    "werte": "Größen/Kopf-Ø je Liner in C1 nicht angegeben; Kopf-Ø nur für Alpha-Inlays in Kopf×Inlay-Tabelle (ZB_Kopf_Inlay)"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Keine Packungs-/Etikettabbildung in den gelesenen ZB-Dokumenten (Kopf-Charts, Bipolar-Chart, C1–C3, Avenir 4034.2; pdfimages 0 bzw. alle Seiten gesichtet) – Etikettfelder/Farben nicht belegt."
+   },
+   "quelle": "liners",
+   "sicherheit": "belegt (Original, 2 Prüfer)"
+  },
+  {
+   "id": "zb.inlay.vivacit_e",
+   "typ": "inlay",
+   "bezeichnung": "Vivacit-E Liner",
+   "auswahl_dach": false,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "c1_bezeichnung": "Vivacit-E Liner",
+    "werte": "Größen/Kopf-Ø je Liner in C1 nicht angegeben; Kopf-Ø nur für Alpha-Inlays in Kopf×Inlay-Tabelle (ZB_Kopf_Inlay)"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Keine Packungs-/Etikettabbildung in den gelesenen ZB-Dokumenten (Kopf-Charts, Bipolar-Chart, C1–C3, Avenir 4034.2; pdfimages 0 bzw. alle Seiten gesichtet) – Etikettfelder/Farben nicht belegt."
+   },
+   "quelle": "liners",
+   "sicherheit": "belegt (Original, 2 Prüfer)"
+  },
+  {
+   "id": "zb.schraube.00_6250_065",
+   "typ": "schraube",
+   "bezeichnung": "Bone Screw, Self-Tapping, 6.5mm 00-6250-065-xx",
+   "auswahl_dach": false,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "ref_familie": "00-6250-065-xx",
+    "hinweis": "REF-Bereich so gedruckt; keine Längentabelle – keine Einzel-REF interpoliert"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Keine Packungs-/Etikettabbildung in den gelesenen ZB-Dokumenten (Kopf-Charts, Bipolar-Chart, C1–C3, Avenir 4034.2; pdfimages 0 bzw. alle Seiten gesichtet) – Etikettfelder/Farben nicht belegt."
+   },
+   "quelle": "zb_c3",
+   "sicherheit": "belegt (Original, 2 Prüfer)"
+  },
+  {
+   "id": "zb.schraube.4301_07",
+   "typ": "schraube",
+   "bezeichnung": "Countersunk Cancellous Bone Screw 4301-07-015/080",
+   "auswahl_dach": false,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "ref_familie": "4301-07-015/080",
+    "hinweis": "REF-Bereich so gedruckt; keine Längentabelle – keine Einzel-REF interpoliert"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Keine Packungs-/Etikettabbildung in den gelesenen ZB-Dokumenten (Kopf-Charts, Bipolar-Chart, C1–C3, Avenir 4034.2; pdfimages 0 bzw. alle Seiten gesichtet) – Etikettfelder/Farben nicht belegt."
+   },
+   "quelle": "zb_c3",
+   "sicherheit": "belegt (Original, 2 Prüfer)"
+  },
+  {
+   "id": "zb.schraube.02_06000",
+   "typ": "schraube",
+   "bezeichnung": "Cancellous Screw 02.06000.015/070",
+   "auswahl_dach": false,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "ref_familie": "02.06000.015/070",
+    "hinweis": "REF-Bereich so gedruckt; keine Längentabelle – keine Einzel-REF interpoliert"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Keine Packungs-/Etikettabbildung in den gelesenen ZB-Dokumenten (Kopf-Charts, Bipolar-Chart, C1–C3, Avenir 4034.2; pdfimages 0 bzw. alle Seiten gesichtet) – Etikettfelder/Farben nicht belegt."
+   },
+   "quelle": "zb_c3",
+   "sicherheit": "belegt (Original, 2 Prüfer)"
+  },
+  {
+   "id": "zb.schraube.6301_07",
+   "typ": "schraube",
+   "bezeichnung": "Self-Tapping Cancellous Bone Screw 6301-07-015/080",
+   "auswahl_dach": false,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "ref_familie": "6301-07-015/080",
+    "hinweis": "REF-Bereich so gedruckt; keine Längentabelle – keine Einzel-REF interpoliert"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Keine Packungs-/Etikettabbildung in den gelesenen ZB-Dokumenten (Kopf-Charts, Bipolar-Chart, C1–C3, Avenir 4034.2; pdfimages 0 bzw. alle Seiten gesichtet) – Etikettfelder/Farben nicht belegt."
+   },
+   "quelle": "zb_c3",
+   "sicherheit": "belegt (Original, 2 Prüfer)"
+  },
+  {
+   "id": "zb.cup.low_profile_pe",
+   "typ": "pfanne",
+   "bezeichnung": "Low Profile PE cup (C2)",
+   "auswahl_dach": false,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "c2_bezeichnung": "Low Profile PE cup",
+    "c2_abstuetzung": "✓ Burch-Schneider Cage, Zimmer Reinforcement Ring with Hook (ehem. Ganz Ring), Original M.E.Müller Roof Reinforcement Ring; grau: TM Revision Cage, Wagner Reinforcement Cage, ZCA Cage, ZCA Roof Ring",
+    "fixation": "in C2 nicht angegeben",
+    "hinweis": "Identität mit Hausbezeichnung „Flachprofil“ offen; Identität mit „Original M.E. Müller Low/Full Profile Cup“ (Kopf-Charts S. 17) nicht belegt. C2 nennt keine Größen/Kopf-Ø."
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Keine Packungs-/Etikettabbildung in den gelesenen ZB-Dokumenten (Kopf-Charts, Bipolar-Chart, C1–C3, Avenir 4034.2; pdfimages 0 bzw. alle Seiten gesichtet) – Etikettfelder/Farben nicht belegt."
+   },
+   "quelle": "zb_c2",
+   "sicherheit": "belegt (Original, 1 Prüfer)"
+  },
+  {
+   "id": "zb.cup.low_profile_durasul",
+   "typ": "pfanne",
+   "bezeichnung": "Low Profile DURASUL cup (C2)",
+   "auswahl_dach": false,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "c2_bezeichnung": "Low Profile DURASUL cup",
+    "c2_abstuetzung": "✓ Burch-Schneider Cage, Zimmer Reinforcement Ring with Hook (ehem. Ganz Ring), Original M.E.Müller Roof Reinforcement Ring; grau: TM Revision Cage, Wagner Reinforcement Cage, ZCA Cage, ZCA Roof Ring",
+    "fixation": "in C2 nicht angegeben",
+    "hinweis": "Identität mit Hausbezeichnung „Flachprofil“ offen; Identität mit „Original M.E. Müller Low/Full Profile Cup“ (Kopf-Charts S. 17) nicht belegt. C2 nennt keine Größen/Kopf-Ø."
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Keine Packungs-/Etikettabbildung in den gelesenen ZB-Dokumenten (Kopf-Charts, Bipolar-Chart, C1–C3, Avenir 4034.2; pdfimages 0 bzw. alle Seiten gesichtet) – Etikettfelder/Farben nicht belegt."
+   },
+   "quelle": "zb_c2",
+   "sicherheit": "belegt (Original, 1 Prüfer)"
+  },
+  {
+   "id": "zb.cup.low_profile_metasul",
+   "typ": "pfanne",
+   "bezeichnung": "Low Profile METASUL cup (C2)",
+   "auswahl_dach": false,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "c2_bezeichnung": "Low Profile METASUL cup",
+    "c2_abstuetzung": "✓ Burch-Schneider Cage, Zimmer Reinforcement Ring with Hook (ehem. Ganz Ring), Original M.E.Müller Roof Reinforcement Ring; grau: TM Revision Cage, Wagner Reinforcement Cage, ZCA Cage, ZCA Roof Ring",
+    "fixation": "in C2 nicht angegeben",
+    "hinweis": "Identität mit Hausbezeichnung „Flachprofil“ offen; Identität mit „Original M.E. Müller Low/Full Profile Cup“ (Kopf-Charts S. 17) nicht belegt. C2 nennt keine Größen/Kopf-Ø."
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Keine Packungs-/Etikettabbildung in den gelesenen ZB-Dokumenten (Kopf-Charts, Bipolar-Chart, C1–C3, Avenir 4034.2; pdfimages 0 bzw. alle Seiten gesichtet) – Etikettfelder/Farben nicht belegt."
+   },
+   "quelle": "zb_c2",
+   "sicherheit": "belegt (Original, 1 Prüfer)"
+  },
+  {
+   "id": "zb.cup.full_profile_pe",
+   "typ": "pfanne",
+   "bezeichnung": "Full Profile PE cup (C2)",
+   "auswahl_dach": false,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "c2_bezeichnung": "Full Profile PE cup",
+    "c2_abstuetzung": "✓ Burch-Schneider Cage, Zimmer Reinforcement Ring with Hook (ehem. Ganz Ring), Original M.E.Müller Roof Reinforcement Ring; grau: TM Revision Cage, Wagner Reinforcement Cage, ZCA Cage, ZCA Roof Ring",
+    "fixation": "in C2 nicht angegeben",
+    "hinweis": "Identität mit Hausbezeichnung „Flachprofil“ offen; Identität mit „Original M.E. Müller Low/Full Profile Cup“ (Kopf-Charts S. 17) nicht belegt. C2 nennt keine Größen/Kopf-Ø."
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Keine Packungs-/Etikettabbildung in den gelesenen ZB-Dokumenten (Kopf-Charts, Bipolar-Chart, C1–C3, Avenir 4034.2; pdfimages 0 bzw. alle Seiten gesichtet) – Etikettfelder/Farben nicht belegt."
+   },
+   "quelle": "zb_c2",
+   "sicherheit": "belegt (Original, 1 Prüfer)"
+  },
+  {
+   "id": "zb.original_mueller",
+   "typ": "schaft",
+   "bezeichnung": "Original Müller Straight stem PROTASUL-10 / PROTASUL-S30 (Chart-Bezeichnung)",
+   "auswahl_dach": false,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "chart_zeilen": "PROTASUL-10: Standard 12.00.29.XXX · Lateral 12.00.39.XXX · Additional 8.5 Size 05.95001.0XX; PROTASUL-S30: Standard 35.00.29.XXX · Lateral 35.00.39.XXX · Mueller Straight Stem Lateral 05.95001.066 / 05.95001.067 (S. 4–5)",
+    "fixation": "in den Charts nicht angegeben",
+    "hinweis": "Nicht mit M.E.M. (zb.mem) gleichsetzen – Identität nicht belegt."
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Keine Packungs-/Etikettabbildung in den gelesenen ZB-Dokumenten (Kopf-Charts, Bipolar-Chart, C1–C3, Avenir 4034.2; pdfimages 0 bzw. alle Seiten gesichtet) – Etikettfelder/Farben nicht belegt."
+   },
+   "quelle": "zb_keramik_2020",
+   "sicherheit": "belegt (Original, 1 Prüfer)"
+  },
+  {
+   "id": "zb.kopf.keramik_80260",
+   "typ": "kopf",
+   "bezeichnung": "Zimmer Biomet Ceramic 12/14 Head (80260xxxx)",
+   "auswahl_dach": false,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "konus": "12/14",
+    "ref_familie": "80260xxxx (Platzhalter, keine Einzel-REF)",
+    "halslaengen": "Spalte 1: −3.5 bis +3.5; Spalte 2: +7 (+10.5 nicht genannt)",
+    "durchmesser_ref_familie": "22.2 mm 8026022xx · 28 mm 8026028xx · 32 mm 8026032xx · 36 mm 8026036xx · 40 mm 8026040xx · 44 mm 8026044xx (Kopf×Inlay-Spalten S. 16)",
+    "hinweis": "Dokument nennt kein BIOLOX delta / BIOLOX OPTION – nicht gleichsetzen."
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Keine Packungs-/Etikettabbildung in den gelesenen ZB-Dokumenten (Kopf-Charts, Bipolar-Chart, C1–C3, Avenir 4034.2; pdfimages 0 bzw. alle Seiten gesichtet) – Etikettfelder/Farben nicht belegt."
+   },
+   "quelle": "zb_keramik_2020",
+   "sicherheit": "belegt (Original, 2 Prüfer)"
+  },
+  {
+   "id": "zb.kopf.select_keramik_80300",
+   "typ": "kopf",
+   "bezeichnung": "Zimmer Biomet SELECT Ceramic Head + 12/14 Taper Adaptor (80300xxxx, 8030000xx)",
+   "auswahl_dach": false,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "konus": "12/14 über Adapter",
+    "ref_familie": "Kopf 80300xxxx, Adapter 8030000xx (Platzhalter)",
+    "halslaengen": "Spalte 3: −6 bis +3.5; Spalte 4: +7",
+    "durchmesser_ref_familie": "28 mm 803002801 · 32 mm 803003201 · 36 mm 803003601 · 40 mm 803004001 · 44 mm 803004401 (Kopf×Inlay-Spalten S. 16, zusammen mit 12/14 & Type 1)",
+    "hinweis": "SELECT nicht mit BIOLOX OPTION gleichsetzen."
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Keine Packungs-/Etikettabbildung in den gelesenen ZB-Dokumenten (Kopf-Charts, Bipolar-Chart, C1–C3, Avenir 4034.2; pdfimages 0 bzw. alle Seiten gesichtet) – Etikettfelder/Farben nicht belegt."
+   },
+   "quelle": "zb_keramik_2020",
+   "sicherheit": "belegt (Original, 2 Prüfer)"
+  },
+  {
+   "id": "zb.kopf.freedom_80240",
+   "typ": "kopf",
+   "bezeichnung": "Zimmer Biomet Freedom Constrained CoCr 12/14 Head (80240xxxx)",
+   "auswahl_dach": false,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "konus": "12/14",
+    "ref_familie": "80240xxxx (Platzhalter)",
+    "halslaengen": "Spalte 4: −6 bis +3; Spalte 5: +6; Spalte 6: +9",
+    "artikulation": "nur FREEDOM ALL POLY CUP 50–62 MM, G7 Freedom Constrained E1 Liner, Ringloc FREEDOM-Liner (S. 11–12); Allofit, CLS, Fitmore dort nicht genannt"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Keine Packungs-/Etikettabbildung in den gelesenen ZB-Dokumenten (Kopf-Charts, Bipolar-Chart, C1–C3, Avenir 4034.2; pdfimages 0 bzw. alle Seiten gesichtet) – Etikettfelder/Farben nicht belegt."
+   },
+   "quelle": "zb_cocr_2020",
+   "sicherheit": "belegt (Original, 2 Prüfer)"
+  },
+  {
+   "id": "zb.duokopf.bipolar_ap",
+   "typ": "duokopf",
+   "bezeichnung": "Bipolar Head (AP) (1946/1989)",
+   "auswahl_dach": false,
+   "groesse": null,
+   "ref": null,
+   "gtin": null,
+   "attribute": {
+    "innenkopf": "nicht angegeben",
+    "hinweis": "Fußnote 1: „See “Articulating Combinations” and “Head and Stem Combinations”“ – Innenkopf muss zusätzlich Artikulations- und Kopf/Schaft-Tabelle erfüllen. In den Kopf-Charts nicht unter diesem Namen gelistet.",
+    "fussnote_2": "„ALLOCLASSIC SLA and SL-64 (all sizes) and ALLOCLASSIC stems (sizes 01-6) can only be used with Bipolar heads (4404-22/26-XXX, 4405-22/26-XXX) up to size 56.“ – betrifft laut Wortlaut 4404/4405, nicht pauschal AP (OpenAI)"
+   },
+   "bild": {
+    "typ": "schema",
+    "datei": null,
+    "rechte": "Rechte beim Hersteller – keine Bilder übernommen",
+    "schema_hinweis": "Keine Packungs-/Etikettabbildung in den gelesenen ZB-Dokumenten (Kopf-Charts, Bipolar-Chart, C1–C3, Avenir 4034.2; pdfimages 0 bzw. alle Seiten gesichtet) – Etikettfelder/Farben nicht belegt."
+   },
+   "quelle": "bipolar",
+   "sicherheit": "belegt (Original, 2 Prüfer)"
   }
  ],
  "tabellen": {
@@ -552,6 +1631,1765 @@
     }
    ],
    "legende": "keine Ableitung aus PE-Tabelle"
+  },
+  "ZB_Keramik_12_14": {
+   "titel": "Head and Stem Combinations: Zimmer Biomet 12/14 Ceramic Femoral Heads – Schaft × Kopffamilie/Halslänge",
+   "quelle": "zb_keramik_2020",
+   "seite": "1–5 / PDF 1–5; Fußnoten S. 8",
+   "zeilen": [
+    {
+     "gruppe": "ALLOCLASSIC SLL-Revision stem",
+     "ref_muster": "28xx (2883-2891)",
+     "bezeichnung": "Alloclassic SLL",
+     "komponente": "zb.alloclassic",
+     "keramik_80260_-3.5_bis_+3.5": "ja",
+     "keramik_80260_+7": "ja",
+     "select_80300_-6_bis_+3.5": "ja",
+     "select_80300_+7": "ja",
+     "seite": "S. 1 / PDF 1",
+     "sicherheit": "belegt (Original, 2 Prüfer)"
+    },
+    {
+     "gruppe": "ALLOCLASSIC SL stem",
+     "ref_muster": "01.00121.XXX",
+     "bezeichnung": "Alloclassic SL Offset",
+     "komponente": "zb.alloclassic",
+     "keramik_80260_-3.5_bis_+3.5": "ja",
+     "keramik_80260_+7": "ja",
+     "select_80300_-6_bis_+3.5": "ja",
+     "select_80300_+7": "ja",
+     "seite": "S. 1 / PDF 1",
+     "sicherheit": "belegt (Original, 2 Prüfer)"
+    },
+    {
+     "gruppe": "ALLOCLASSIC SL stem",
+     "ref_muster": "28xx (2839-2852)",
+     "bezeichnung": "Alloclassic SL",
+     "komponente": "zb.alloclassic",
+     "keramik_80260_-3.5_bis_+3.5": "ja",
+     "keramik_80260_+7": "ja",
+     "select_80300_-6_bis_+3.5": "ja",
+     "select_80300_+7": "ja",
+     "seite": "S. 1 / PDF 1",
+     "sicherheit": "belegt (Original, 2 Prüfer)"
+    },
+    {
+     "gruppe": "ALLOCLASSIC SL stem",
+     "ref_muster": "28xx (2861-2872)",
+     "bezeichnung": "Alloclassic SL, HA",
+     "komponente": "zb.alloclassic",
+     "keramik_80260_-3.5_bis_+3.5": "ja",
+     "keramik_80260_+7": "ja",
+     "select_80300_-6_bis_+3.5": "ja",
+     "select_80300_+7": "ja",
+     "seite": "S. 1 / PDF 1",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "gruppe": "ALLOCLASSIC VARIALL SLV stem",
+     "ref_muster": "01.00125.XXX",
+     "bezeichnung": "Alloclassic Variall SLV",
+     "komponente": "zb.alloclassic",
+     "keramik_80260_-3.5_bis_+3.5": "ja",
+     "keramik_80260_+7": "ja",
+     "select_80300_-6_bis_+3.5": "ja",
+     "select_80300_+7": "ja",
+     "seite": "S. 1 / PDF 1",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "gruppe": "Avenir Müller stem",
+     "ref_muster": "01.06010.00X",
+     "bezeichnung": "Avenir Muller Stem Standard",
+     "komponente": "zb.avenir.zementfrei",
+     "keramik_80260_-3.5_bis_+3.5": "ja",
+     "keramik_80260_+7": "ja",
+     "select_80300_-6_bis_+3.5": "ja",
+     "select_80300_+7": "ja",
+     "seite": "S. 2 / PDF 2",
+     "sicherheit": "belegt (Original, 2 Prüfer)"
+    },
+    {
+     "gruppe": "Avenir Müller stem",
+     "ref_muster": "01.06010.10X",
+     "bezeichnung": "Avenir Muller Stem Lateral",
+     "komponente": "zb.avenir.zementfrei",
+     "keramik_80260_-3.5_bis_+3.5": "ja",
+     "keramik_80260_+7": "ja",
+     "select_80300_-6_bis_+3.5": "ja",
+     "select_80300_+7": "ja",
+     "seite": "S. 2 / PDF 2",
+     "sicherheit": "belegt (Original, 2 Prüfer)"
+    },
+    {
+     "gruppe": "Avenir Cemented Stems",
+     "ref_muster": "01.06010.20X",
+     "bezeichnung": "Avenir Cemented Hip Stem Standard",
+     "komponente": "zb.avenir.zementiert",
+     "keramik_80260_-3.5_bis_+3.5": "ja",
+     "keramik_80260_+7": "ja",
+     "select_80300_-6_bis_+3.5": "ja",
+     "select_80300_+7": "ja",
+     "seite": "S. 2 / PDF 2",
+     "sicherheit": "belegt (Original, 2 Prüfer)"
+    },
+    {
+     "gruppe": "Avenir Cemented Stems",
+     "ref_muster": "01.06010.30X",
+     "bezeichnung": "Avenir Cemented Hip Stem Lateral",
+     "komponente": "zb.avenir.zementiert",
+     "keramik_80260_-3.5_bis_+3.5": "ja",
+     "keramik_80260_+7": "ja",
+     "select_80300_-6_bis_+3.5": "ja",
+     "select_80300_+7": "ja",
+     "seite": "S. 2 / PDF 2",
+     "sicherheit": "belegt (Original, 2 Prüfer)"
+    },
+    {
+     "gruppe": "Avenir Complete Stems",
+     "ref_muster": "574101xxx",
+     "bezeichnung": "Avenir Complete HA Standard Collarless",
+     "komponente": "– (Avenir Complete, eigenes System)",
+     "keramik_80260_-3.5_bis_+3.5": "ja",
+     "keramik_80260_+7": "ja",
+     "select_80300_-6_bis_+3.5": "ja",
+     "select_80300_+7": "ja",
+     "seite": "S. 2 / PDF 2",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "gruppe": "Avenir Complete Stems",
+     "ref_muster": "574102xxx",
+     "bezeichnung": "Avenir Complete HA High Offset Collarless",
+     "komponente": "– (Avenir Complete, eigenes System)",
+     "keramik_80260_-3.5_bis_+3.5": "ja",
+     "keramik_80260_+7": "ja",
+     "select_80300_-6_bis_+3.5": "ja",
+     "select_80300_+7": "ja",
+     "seite": "S. 2 / PDF 2",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "gruppe": "Avenir Complete Stems",
+     "ref_muster": "574103xxx",
+     "bezeichnung": "Avenir Complete HA Coxa Vara Collarless",
+     "komponente": "– (Avenir Complete, eigenes System)",
+     "keramik_80260_-3.5_bis_+3.5": "ja",
+     "keramik_80260_+7": "ja",
+     "select_80300_-6_bis_+3.5": "ja",
+     "select_80300_+7": "ja",
+     "seite": "S. 2 / PDF 2",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "gruppe": "Avenir Complete Stems",
+     "ref_muster": "574201xxx",
+     "bezeichnung": "Avenir Complete HA Standard Collared",
+     "komponente": "– (Avenir Complete, eigenes System)",
+     "keramik_80260_-3.5_bis_+3.5": "ja",
+     "keramik_80260_+7": "ja",
+     "select_80300_-6_bis_+3.5": "ja",
+     "select_80300_+7": "ja",
+     "seite": "S. 2 / PDF 2",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "gruppe": "Avenir Complete Stems",
+     "ref_muster": "574202xxx",
+     "bezeichnung": "Avenir Complete HA High Offset Collared",
+     "komponente": "– (Avenir Complete, eigenes System)",
+     "keramik_80260_-3.5_bis_+3.5": "ja",
+     "keramik_80260_+7": "ja",
+     "select_80300_-6_bis_+3.5": "ja",
+     "select_80300_+7": "ja",
+     "seite": "S. 2 / PDF 2",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "gruppe": "Avenir Complete Stems",
+     "ref_muster": "574203xxx",
+     "bezeichnung": "Avenir Complete HA Coxa Vara Collared",
+     "komponente": "– (Avenir Complete, eigenes System)",
+     "keramik_80260_-3.5_bis_+3.5": "ja",
+     "keramik_80260_+7": "ja",
+     "select_80300_-6_bis_+3.5": "ja",
+     "select_80300_+7": "ja",
+     "seite": "S. 2 / PDF 2",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "gruppe": "CLS SPOTORNO stem",
+     "ref_muster": "01.00295.0XX",
+     "bezeichnung": "CLS Spotorno 125",
+     "komponente": "zb.cls_spotorno",
+     "keramik_80260_-3.5_bis_+3.5": "ja",
+     "keramik_80260_+7": "ja",
+     "select_80300_-6_bis_+3.5": "ja",
+     "select_80300_+7": "ja",
+     "seite": "S. 2 / PDF 2",
+     "sicherheit": "belegt (Original, 2 Prüfer)"
+    },
+    {
+     "gruppe": "CLS SPOTORNO stem",
+     "ref_muster": "29.00.09-XXX",
+     "bezeichnung": "CLS Spotorno 145",
+     "komponente": "zb.cls_spotorno",
+     "keramik_80260_-3.5_bis_+3.5": "ja",
+     "keramik_80260_+7": "ja",
+     "select_80300_-6_bis_+3.5": "ja",
+     "select_80300_+7": "ja",
+     "seite": "S. 2 / PDF 2",
+     "sicherheit": "belegt (Original, 2 Prüfer)"
+    },
+    {
+     "gruppe": "CLS SPOTORNO stem",
+     "ref_muster": "29.00.39-XXX",
+     "bezeichnung": "CLS Spotorno 135",
+     "komponente": "zb.cls_spotorno",
+     "keramik_80260_-3.5_bis_+3.5": "ja",
+     "keramik_80260_+7": "ja",
+     "select_80300_-6_bis_+3.5": "ja",
+     "select_80300_+7": "ja",
+     "seite": "S. 2 / PDF 2",
+     "sicherheit": "belegt (Original, 2 Prüfer)"
+    },
+    {
+     "gruppe": "CLS SPOTORNO stem",
+     "ref_muster": "29.00.59-XXX",
+     "bezeichnung": "CLS Spotorno 145, HA",
+     "komponente": "zb.cls_spotorno",
+     "keramik_80260_-3.5_bis_+3.5": "ja",
+     "keramik_80260_+7": "ja",
+     "select_80300_-6_bis_+3.5": "ja",
+     "select_80300_+7": "ja",
+     "seite": "S. 2 / PDF 2",
+     "sicherheit": "belegt (Original, 2 Prüfer)"
+    },
+    {
+     "gruppe": "Fitmore Hip Stem",
+     "ref_muster": "01.00551.1XX",
+     "bezeichnung": "Fitmore Family A",
+     "komponente": "zb.fitmore",
+     "keramik_80260_-3.5_bis_+3.5": "ja",
+     "keramik_80260_+7": "ja",
+     "select_80300_-6_bis_+3.5": "ja",
+     "select_80300_+7": "ja",
+     "seite": "S. 3 / PDF 3",
+     "sicherheit": "belegt (Original, 2 Prüfer)"
+    },
+    {
+     "gruppe": "Fitmore Hip Stem",
+     "ref_muster": "01.00551.2XX",
+     "bezeichnung": "Fitmore Family B",
+     "komponente": "zb.fitmore",
+     "keramik_80260_-3.5_bis_+3.5": "ja",
+     "keramik_80260_+7": "ja",
+     "select_80300_-6_bis_+3.5": "ja",
+     "select_80300_+7": "ja",
+     "seite": "S. 3 / PDF 3",
+     "sicherheit": "belegt (Original, 2 Prüfer)"
+    },
+    {
+     "gruppe": "Fitmore Hip Stem",
+     "ref_muster": "01.00551.3XX",
+     "bezeichnung": "Fitmore Family B, Extended Offset",
+     "komponente": "zb.fitmore",
+     "keramik_80260_-3.5_bis_+3.5": "ja",
+     "keramik_80260_+7": "ja",
+     "select_80300_-6_bis_+3.5": "ja",
+     "select_80300_+7": "ja",
+     "seite": "S. 3 / PDF 3",
+     "sicherheit": "belegt (Original, 2 Prüfer)"
+    },
+    {
+     "gruppe": "Fitmore Hip Stem",
+     "ref_muster": "01.00551.4XX",
+     "bezeichnung": "Fitmore Family C",
+     "komponente": "zb.fitmore",
+     "keramik_80260_-3.5_bis_+3.5": "ja",
+     "keramik_80260_+7": "ja",
+     "select_80300_-6_bis_+3.5": "ja",
+     "select_80300_+7": "ja",
+     "seite": "S. 3 / PDF 3",
+     "sicherheit": "belegt (Original, 2 Prüfer)"
+    },
+    {
+     "gruppe": "MS-30 Stem",
+     "ref_muster": "01.00351.XXX",
+     "bezeichnung": "MS-30 Stem Lateral",
+     "komponente": "zb.ms30",
+     "keramik_80260_-3.5_bis_+3.5": "ja",
+     "keramik_80260_+7": "ja",
+     "select_80300_-6_bis_+3.5": "ja",
+     "select_80300_+7": "ja",
+     "seite": "S. 4 / PDF 4",
+     "sicherheit": "belegt (Original, 2 Prüfer)"
+    },
+    {
+     "gruppe": "MS-30 Stem",
+     "ref_muster": "30.00.49-XXX",
+     "bezeichnung": "MS-30 Stem Standard",
+     "komponente": "zb.ms30",
+     "keramik_80260_-3.5_bis_+3.5": "ja",
+     "keramik_80260_+7": "ja",
+     "select_80300_-6_bis_+3.5": "ja",
+     "select_80300_+7": "ja",
+     "seite": "S. 4 / PDF 4",
+     "sicherheit": "belegt (Original, 2 Prüfer)"
+    },
+    {
+     "gruppe": "Original Müller Straight stem PROTASUL-10",
+     "ref_muster": "12.00.29.XXX",
+     "bezeichnung": "Original Mueller Straight Stem Standard Protasul 10",
+     "komponente": "zb.original_mueller",
+     "keramik_80260_-3.5_bis_+3.5": "ja",
+     "keramik_80260_+7": "ja",
+     "select_80300_-6_bis_+3.5": "ja",
+     "select_80300_+7": "ja",
+     "seite": "S. 5 / PDF 5",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "gruppe": "Original Müller Straight stem PROTASUL-10",
+     "ref_muster": "12.00.39.XXX",
+     "bezeichnung": "Original Mueller Straight Stem Lateral Protasul 10",
+     "komponente": "zb.original_mueller",
+     "keramik_80260_-3.5_bis_+3.5": "ja",
+     "keramik_80260_+7": "ja",
+     "select_80300_-6_bis_+3.5": "ja",
+     "select_80300_+7": "ja",
+     "seite": "S. 5 / PDF 5",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "gruppe": "Original Müller Straight stem PROTASUL-10",
+     "ref_muster": "05.95001.0XX",
+     "bezeichnung": "Additional 8.5 Size in Protasul 10 Only",
+     "komponente": "zb.original_mueller",
+     "keramik_80260_-3.5_bis_+3.5": "ja",
+     "keramik_80260_+7": "ja",
+     "select_80300_-6_bis_+3.5": "ja",
+     "select_80300_+7": "ja",
+     "seite": "S. 5 / PDF 5",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "gruppe": "Original Müller Straight stem PROTASUL-S30",
+     "ref_muster": "35.00.29.XXX",
+     "bezeichnung": "Original Mueller Straight Stem Standard Protasul 30",
+     "komponente": "zb.original_mueller",
+     "keramik_80260_-3.5_bis_+3.5": "ja",
+     "keramik_80260_+7": "ja",
+     "select_80300_-6_bis_+3.5": "ja",
+     "select_80300_+7": "ja",
+     "seite": "S. 5 / PDF 5",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "gruppe": "Original Müller Straight stem PROTASUL-S30",
+     "ref_muster": "35.00.39.XXX",
+     "bezeichnung": "Original Mueller Straight Stem Lateral Protasul 30",
+     "komponente": "zb.original_mueller",
+     "keramik_80260_-3.5_bis_+3.5": "ja",
+     "keramik_80260_+7": "ja",
+     "select_80300_-6_bis_+3.5": "ja",
+     "select_80300_+7": "ja",
+     "seite": "S. 5 / PDF 5",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "gruppe": "Original Müller Straight stem PROTASUL-S30",
+     "ref_muster": "05.95001.066",
+     "bezeichnung": "Mueller Straight Stem Lateral",
+     "komponente": "zb.original_mueller",
+     "keramik_80260_-3.5_bis_+3.5": "ja",
+     "keramik_80260_+7": "ja",
+     "select_80300_-6_bis_+3.5": "ja",
+     "select_80300_+7": "ja",
+     "seite": "S. 5 / PDF 5",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "gruppe": "Original Müller Straight stem PROTASUL-S30",
+     "ref_muster": "05.95001.067",
+     "bezeichnung": "Mueller Straight Stem Lateral",
+     "komponente": "zb.original_mueller",
+     "keramik_80260_-3.5_bis_+3.5": "ja",
+     "keramik_80260_+7": "ja",
+     "select_80300_-6_bis_+3.5": "ja",
+     "select_80300_+7": "ja",
+     "seite": "S. 5 / PDF 5",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    }
+   ],
+   "legende": "ja = Häkchen „Combination has been assessed as functionally compatible by Zimmer Biomet“; nein (grau) = „Combination has either not been assessed or is not functionally compatible“. Keine Kopf-Ø-Spalten; REF sind Familien/Platzhalter. Kein BIOLOX delta/OPTION genannt; SELECT ≠ OPTION. An den gelisteten Schäften keine Fußnotenmarke. Zuordnung Avenir-Zeilen ↔ zementfrei/zementiert über REF-Muster 01.06010.00X/10X/20X/30X und Schablonen-REF Größe 1 (4034.2 S. 5). Fußnote S. 8: „Refer to the acetabular system and femoral stem package inserts for the list of contra-indications for the construct.“ Markt laut Fußzeile separat prüfen."
+  },
+  "ZB_CoCr_Freedom_12_14": {
+   "titel": "Head and Stem Combinations: Zimmer Biomet 12/14 CoCr Femoral Heads and Freedom Heads – Schaft × Kopffamilie/Halslänge",
+   "quelle": "zb_cocr_2020",
+   "seite": "1–4 / PDF 1–4; Fußnoten S. 7",
+   "zeilen": [
+    {
+     "gruppe": "ALLOCLASSIC SLL-Revision stem",
+     "ref_muster": "28xx (2883-2891)",
+     "bezeichnung": "Alloclassic SLL",
+     "komponente": "zb.alloclassic",
+     "cocr_80220_-3.5_bis_+3.5": "ja",
+     "cocr_80220_+7": "ja",
+     "cocr_80220_+10.5": "nein (grau)",
+     "freedom_80240_-6_bis_+3": "ja",
+     "freedom_80240_+6": "ja",
+     "freedom_80240_+9": "nein (grau)",
+     "seite": "S. 1 / PDF 1",
+     "sicherheit": "belegt (Original, 2 Prüfer)"
+    },
+    {
+     "gruppe": "ALLOCLASSIC SL stem",
+     "ref_muster": "01.00121.XXX",
+     "bezeichnung": "Alloclassic SL Offset",
+     "komponente": "zb.alloclassic",
+     "cocr_80220_-3.5_bis_+3.5": "ja",
+     "cocr_80220_+7": "ja",
+     "cocr_80220_+10.5": "nein (grau)",
+     "freedom_80240_-6_bis_+3": "ja",
+     "freedom_80240_+6": "ja",
+     "freedom_80240_+9": "nein (grau)",
+     "seite": "S. 1 / PDF 1",
+     "sicherheit": "belegt (Original, 2 Prüfer)"
+    },
+    {
+     "gruppe": "ALLOCLASSIC SL stem",
+     "ref_muster": "28xx (2839-2852)",
+     "bezeichnung": "Alloclassic SL",
+     "komponente": "zb.alloclassic",
+     "cocr_80220_-3.5_bis_+3.5": "ja",
+     "cocr_80220_+7": "ja",
+     "cocr_80220_+10.5": "nein (grau)",
+     "freedom_80240_-6_bis_+3": "ja",
+     "freedom_80240_+6": "ja",
+     "freedom_80240_+9": "nein (grau)",
+     "seite": "S. 1 / PDF 1",
+     "sicherheit": "belegt (Original, 2 Prüfer)"
+    },
+    {
+     "gruppe": "ALLOCLASSIC SL stem",
+     "ref_muster": "28xx (2861-2872)",
+     "bezeichnung": "Alloclassic SL, HA",
+     "komponente": "zb.alloclassic",
+     "cocr_80220_-3.5_bis_+3.5": "ja",
+     "cocr_80220_+7": "ja",
+     "cocr_80220_+10.5": "nein (grau)",
+     "freedom_80240_-6_bis_+3": "ja",
+     "freedom_80240_+6": "ja",
+     "freedom_80240_+9": "nein (grau)",
+     "seite": "S. 1 / PDF 1",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "gruppe": "ALLOCLASSIC VARIALL SLV stem",
+     "ref_muster": "01.00125.XXX",
+     "bezeichnung": "Alloclassic Variall SLV",
+     "komponente": "zb.alloclassic",
+     "cocr_80220_-3.5_bis_+3.5": "ja",
+     "cocr_80220_+7": "ja",
+     "cocr_80220_+10.5": "nein (grau)",
+     "freedom_80240_-6_bis_+3": "ja",
+     "freedom_80240_+6": "ja",
+     "freedom_80240_+9": "nein (grau)",
+     "seite": "S. 1 / PDF 1",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "gruppe": "Avenir Müller stem",
+     "ref_muster": "01.06010.00X",
+     "bezeichnung": "Avenir Muller Stem Standard",
+     "komponente": "zb.avenir.zementfrei",
+     "cocr_80220_-3.5_bis_+3.5": "ja",
+     "cocr_80220_+7": "ja",
+     "cocr_80220_+10.5": "ja",
+     "freedom_80240_-6_bis_+3": "ja",
+     "freedom_80240_+6": "ja",
+     "freedom_80240_+9": "ja",
+     "seite": "S. 2 / PDF 2",
+     "sicherheit": "belegt (Original, 2 Prüfer)"
+    },
+    {
+     "gruppe": "Avenir Müller stem",
+     "ref_muster": "01.06010.10X",
+     "bezeichnung": "Avenir Muller Stem Lateral",
+     "komponente": "zb.avenir.zementfrei",
+     "cocr_80220_-3.5_bis_+3.5": "ja",
+     "cocr_80220_+7": "ja",
+     "cocr_80220_+10.5": "ja",
+     "freedom_80240_-6_bis_+3": "ja",
+     "freedom_80240_+6": "ja",
+     "freedom_80240_+9": "ja",
+     "seite": "S. 2 / PDF 2",
+     "sicherheit": "belegt (Original, 2 Prüfer)"
+    },
+    {
+     "gruppe": "Avenir Cemented Stems",
+     "ref_muster": "01.06010.20X",
+     "bezeichnung": "Avenir Cemented Hip Stem Standard",
+     "komponente": "zb.avenir.zementiert",
+     "cocr_80220_-3.5_bis_+3.5": "ja",
+     "cocr_80220_+7": "ja",
+     "cocr_80220_+10.5": "ja",
+     "freedom_80240_-6_bis_+3": "ja",
+     "freedom_80240_+6": "ja",
+     "freedom_80240_+9": "ja",
+     "seite": "S. 2 / PDF 2",
+     "sicherheit": "belegt (Original, 2 Prüfer)"
+    },
+    {
+     "gruppe": "Avenir Cemented Stems",
+     "ref_muster": "01.06010.30X",
+     "bezeichnung": "Avenir Cemented Hip Stem Lateral",
+     "komponente": "zb.avenir.zementiert",
+     "cocr_80220_-3.5_bis_+3.5": "ja",
+     "cocr_80220_+7": "ja",
+     "cocr_80220_+10.5": "ja",
+     "freedom_80240_-6_bis_+3": "ja",
+     "freedom_80240_+6": "ja",
+     "freedom_80240_+9": "ja",
+     "seite": "S. 2 / PDF 2",
+     "sicherheit": "belegt (Original, 2 Prüfer)"
+    },
+    {
+     "gruppe": "CLS SPOTORNO stem",
+     "ref_muster": "01.00295.0XX",
+     "bezeichnung": "CLS Spotorno 125",
+     "komponente": "zb.cls_spotorno",
+     "cocr_80220_-3.5_bis_+3.5": "ja",
+     "cocr_80220_+7": "ja",
+     "cocr_80220_+10.5": "nein (grau)",
+     "freedom_80240_-6_bis_+3": "ja",
+     "freedom_80240_+6": "ja",
+     "freedom_80240_+9": "nein (grau)",
+     "seite": "S. 2 / PDF 2",
+     "sicherheit": "belegt (Original, 2 Prüfer)"
+    },
+    {
+     "gruppe": "CLS SPOTORNO stem",
+     "ref_muster": "29.00.09-XXX",
+     "bezeichnung": "CLS Spotorno 145",
+     "komponente": "zb.cls_spotorno",
+     "cocr_80220_-3.5_bis_+3.5": "ja",
+     "cocr_80220_+7": "ja",
+     "cocr_80220_+10.5": "nein (grau)",
+     "freedom_80240_-6_bis_+3": "ja",
+     "freedom_80240_+6": "ja",
+     "freedom_80240_+9": "nein (grau)",
+     "seite": "S. 2 / PDF 2",
+     "sicherheit": "belegt (Original, 2 Prüfer)"
+    },
+    {
+     "gruppe": "CLS SPOTORNO stem",
+     "ref_muster": "29.00.39-XXX",
+     "bezeichnung": "CLS Spotorno 135",
+     "komponente": "zb.cls_spotorno",
+     "cocr_80220_-3.5_bis_+3.5": "ja",
+     "cocr_80220_+7": "ja",
+     "cocr_80220_+10.5": "nein (grau)",
+     "freedom_80240_-6_bis_+3": "ja",
+     "freedom_80240_+6": "ja",
+     "freedom_80240_+9": "nein (grau)",
+     "seite": "S. 2 / PDF 2",
+     "sicherheit": "belegt (Original, 2 Prüfer)"
+    },
+    {
+     "gruppe": "CLS SPOTORNO stem",
+     "ref_muster": "29.00.59-XXX",
+     "bezeichnung": "CLS Spotorno 145, HA",
+     "komponente": "zb.cls_spotorno",
+     "cocr_80220_-3.5_bis_+3.5": "ja",
+     "cocr_80220_+7": "ja",
+     "cocr_80220_+10.5": "nein (grau)",
+     "freedom_80240_-6_bis_+3": "ja",
+     "freedom_80240_+6": "ja",
+     "freedom_80240_+9": "nein (grau)",
+     "seite": "S. 2 / PDF 2",
+     "sicherheit": "belegt (Original, 2 Prüfer)"
+    },
+    {
+     "gruppe": "Fitmore Hip Stem",
+     "ref_muster": "01.00551.1XX",
+     "bezeichnung": "Fitmore Family A",
+     "komponente": "zb.fitmore",
+     "cocr_80220_-3.5_bis_+3.5": "ja",
+     "cocr_80220_+7": "ja",
+     "cocr_80220_+10.5": "ja",
+     "freedom_80240_-6_bis_+3": "ja",
+     "freedom_80240_+6": "ja",
+     "freedom_80240_+9": "ja",
+     "seite": "S. 3 / PDF 3",
+     "sicherheit": "belegt (Original, 2 Prüfer)"
+    },
+    {
+     "gruppe": "Fitmore Hip Stem",
+     "ref_muster": "01.00551.2XX",
+     "bezeichnung": "Fitmore Family B",
+     "komponente": "zb.fitmore",
+     "cocr_80220_-3.5_bis_+3.5": "ja",
+     "cocr_80220_+7": "ja",
+     "cocr_80220_+10.5": "ja",
+     "freedom_80240_-6_bis_+3": "ja",
+     "freedom_80240_+6": "ja",
+     "freedom_80240_+9": "ja",
+     "seite": "S. 3 / PDF 3",
+     "sicherheit": "belegt (Original, 2 Prüfer)"
+    },
+    {
+     "gruppe": "Fitmore Hip Stem",
+     "ref_muster": "01.00551.3XX",
+     "bezeichnung": "Fitmore Family B, Extended Offset",
+     "komponente": "zb.fitmore",
+     "cocr_80220_-3.5_bis_+3.5": "ja",
+     "cocr_80220_+7": "ja",
+     "cocr_80220_+10.5": "ja",
+     "freedom_80240_-6_bis_+3": "ja",
+     "freedom_80240_+6": "ja",
+     "freedom_80240_+9": "ja",
+     "seite": "S. 3 / PDF 3",
+     "sicherheit": "belegt (Original, 2 Prüfer)"
+    },
+    {
+     "gruppe": "Fitmore Hip Stem",
+     "ref_muster": "01.00551.4XX",
+     "bezeichnung": "Fitmore Family C",
+     "komponente": "zb.fitmore",
+     "cocr_80220_-3.5_bis_+3.5": "ja",
+     "cocr_80220_+7": "ja",
+     "cocr_80220_+10.5": "ja",
+     "freedom_80240_-6_bis_+3": "ja",
+     "freedom_80240_+6": "ja",
+     "freedom_80240_+9": "ja",
+     "seite": "S. 3 / PDF 3",
+     "sicherheit": "belegt (Original, 2 Prüfer)"
+    },
+    {
+     "gruppe": "MS-30 Stem",
+     "ref_muster": "01.00351.XXX",
+     "bezeichnung": "MS-30 Stem Lateral",
+     "komponente": "zb.ms30",
+     "cocr_80220_-3.5_bis_+3.5": "ja",
+     "cocr_80220_+7": "ja",
+     "cocr_80220_+10.5": "nein (grau)",
+     "freedom_80240_-6_bis_+3": "ja",
+     "freedom_80240_+6": "ja",
+     "freedom_80240_+9": "nein (grau)",
+     "seite": "S. 4 / PDF 4",
+     "sicherheit": "belegt (Original, 2 Prüfer)"
+    },
+    {
+     "gruppe": "MS-30 Stem",
+     "ref_muster": "30.00.49-XXX",
+     "bezeichnung": "MS-30 Stem Standard",
+     "komponente": "zb.ms30",
+     "cocr_80220_-3.5_bis_+3.5": "ja",
+     "cocr_80220_+7": "ja",
+     "cocr_80220_+10.5": "nein (grau)",
+     "freedom_80240_-6_bis_+3": "ja",
+     "freedom_80240_+6": "ja",
+     "freedom_80240_+9": "nein (grau)",
+     "seite": "S. 4 / PDF 4",
+     "sicherheit": "belegt (Original, 2 Prüfer)"
+    },
+    {
+     "gruppe": "Original Müller Straight stem PROTASUL-10",
+     "ref_muster": "12.00.29.XXX",
+     "bezeichnung": "Original Mueller Straight Stem Standard Protasul 10",
+     "komponente": "zb.original_mueller",
+     "cocr_80220_-3.5_bis_+3.5": "ja",
+     "cocr_80220_+7": "ja",
+     "cocr_80220_+10.5": "nein (grau)",
+     "freedom_80240_-6_bis_+3": "ja",
+     "freedom_80240_+6": "ja",
+     "freedom_80240_+9": "nein (grau)",
+     "seite": "S. 4 / PDF 4",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "gruppe": "Original Müller Straight stem PROTASUL-10",
+     "ref_muster": "12.00.39.XXX",
+     "bezeichnung": "Original Mueller Straight Stem Lateral Protasul 10",
+     "komponente": "zb.original_mueller",
+     "cocr_80220_-3.5_bis_+3.5": "ja",
+     "cocr_80220_+7": "ja",
+     "cocr_80220_+10.5": "nein (grau)",
+     "freedom_80240_-6_bis_+3": "ja",
+     "freedom_80240_+6": "ja",
+     "freedom_80240_+9": "nein (grau)",
+     "seite": "S. 4 / PDF 4",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "gruppe": "Original Müller Straight stem PROTASUL-10",
+     "ref_muster": "05.95001.0XX",
+     "bezeichnung": "Additional 8.5 Size in Protasul 10 Only",
+     "komponente": "zb.original_mueller",
+     "cocr_80220_-3.5_bis_+3.5": "ja",
+     "cocr_80220_+7": "ja",
+     "cocr_80220_+10.5": "nein (grau)",
+     "freedom_80240_-6_bis_+3": "ja",
+     "freedom_80240_+6": "ja",
+     "freedom_80240_+9": "nein (grau)",
+     "seite": "S. 4 / PDF 4",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "gruppe": "Original Müller Straight stem PROTASUL-S30",
+     "ref_muster": "35.00.29.XXX",
+     "bezeichnung": "Original Mueller Straight Stem Standard Protasul 30",
+     "komponente": "zb.original_mueller",
+     "cocr_80220_-3.5_bis_+3.5": "ja",
+     "cocr_80220_+7": "ja",
+     "cocr_80220_+10.5": "nein (grau)",
+     "freedom_80240_-6_bis_+3": "ja",
+     "freedom_80240_+6": "ja",
+     "freedom_80240_+9": "nein (grau)",
+     "seite": "S. 4 / PDF 4",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "gruppe": "Original Müller Straight stem PROTASUL-S30",
+     "ref_muster": "35.00.39.XXX",
+     "bezeichnung": "Original Mueller Straight Stem Lateral Protasul 30",
+     "komponente": "zb.original_mueller",
+     "cocr_80220_-3.5_bis_+3.5": "ja",
+     "cocr_80220_+7": "ja",
+     "cocr_80220_+10.5": "nein (grau)",
+     "freedom_80240_-6_bis_+3": "ja",
+     "freedom_80240_+6": "ja",
+     "freedom_80240_+9": "nein (grau)",
+     "seite": "S. 4 / PDF 4",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "gruppe": "Original Müller Straight stem PROTASUL-S30",
+     "ref_muster": "05.95001.066",
+     "bezeichnung": "Mueller Straight Stem Lateral",
+     "komponente": "zb.original_mueller",
+     "cocr_80220_-3.5_bis_+3.5": "ja",
+     "cocr_80220_+7": "ja",
+     "cocr_80220_+10.5": "nein (grau)",
+     "freedom_80240_-6_bis_+3": "ja",
+     "freedom_80240_+6": "ja",
+     "freedom_80240_+9": "nein (grau)",
+     "seite": "S. 4 / PDF 4",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "gruppe": "Original Müller Straight stem PROTASUL-S30",
+     "ref_muster": "05.95001.067",
+     "bezeichnung": "Mueller Straight Stem Lateral",
+     "komponente": "zb.original_mueller",
+     "cocr_80220_-3.5_bis_+3.5": "ja",
+     "cocr_80220_+7": "ja",
+     "cocr_80220_+10.5": "nein (grau)",
+     "freedom_80240_-6_bis_+3": "ja",
+     "freedom_80240_+6": "ja",
+     "freedom_80240_+9": "nein (grau)",
+     "seite": "S. 4 / PDF 4",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "gruppe": "Avenir Complete Stems",
+     "ref_muster": "574xxxxxx",
+     "bezeichnung": "Avenir Complete (alle Varianten)",
+     "komponente": "– (Avenir Complete, eigenes System)",
+     "cocr_80220_-3.5_bis_+3.5": "keine Zeile im Dokument",
+     "cocr_80220_+7": "keine Zeile",
+     "cocr_80220_+10.5": "keine Zeile",
+     "freedom_80240_-6_bis_+3": "keine Zeile",
+     "freedom_80240_+6": "keine Zeile",
+     "freedom_80240_+9": "keine Zeile",
+     "seite": "S. 1–7",
+     "sicherheit": "belegt (Original, 1 Prüfer) (fehlende Zeile)"
+    }
+   ],
+   "legende": "ja = Häkchen (functionally compatible); nein (grau) = nicht bewertet oder nicht funktional kompatibel – keine positive Freigabe, aber auch kein Nachweis mechanischer Unverträglichkeit (OpenAI). CoCr +10.5 und Freedom +9 grau bei Alloclassic, CLS, MS-30, Original Müller. Avenir Complete hat in diesem Dokument keine Zeile. Keine Kopf-Ø-Spalten."
+  },
+  "ZB_Kopf_Inlay": {
+   "titel": "Articulating Combinations: Zimmer Biomet Ceramic Femoral Heads – Kopf-Ø × Inlay (nur relevante Pfannen)",
+   "quelle": "zb_keramik_2020",
+   "seite": "16–17 / PDF 16–17; Fußnote S. 18",
+   "zeilen": [
+    {
+     "pfanne": "Allofit Alloclassic Acetabular Cup / Fitmore Hip Cup",
+     "ref_muster": "01.00013.xxx",
+     "inlay": "Alpha Durasul Neutral",
+     "kopf_22.2": "ja",
+     "kopf_28": "ja",
+     "kopf_32": "ja",
+     "kopf_36": "ja",
+     "kopf_40": "nein (grau)",
+     "kopf_44": "nein (grau)",
+     "seite": "S. 16 / PDF 16",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "pfanne": "Allofit Alloclassic Acetabular Cup / Fitmore Hip Cup",
+     "ref_muster": "01.00013.xxx",
+     "inlay": "Alpha Durasul With Rim",
+     "kopf_22.2": "ja",
+     "kopf_28": "ja",
+     "kopf_32": "ja",
+     "kopf_36": "nein (grau)",
+     "kopf_40": "nein (grau)",
+     "kopf_44": "nein (grau)",
+     "seite": "S. 16 / PDF 16",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "pfanne": "Allofit Alloclassic Acetabular Cup / Fitmore Hip Cup",
+     "ref_muster": "01.00010.xxx",
+     "inlay": "Alpha Sulene 28 STD",
+     "kopf_22.2": "nein (grau)",
+     "kopf_28": "ja",
+     "kopf_32": "nein (grau)",
+     "kopf_36": "nein (grau)",
+     "kopf_40": "nein (grau)",
+     "kopf_44": "nein (grau)",
+     "seite": "S. 16 / PDF 16",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "pfanne": "Allofit Alloclassic Acetabular Cup / Fitmore Hip Cup",
+     "ref_muster": "01.00010.xxx",
+     "inlay": "Alpha PE Insert With Rim",
+     "kopf_22.2": "ja",
+     "kopf_28": "ja",
+     "kopf_32": "ja",
+     "kopf_36": "nein (grau)",
+     "kopf_40": "nein (grau)",
+     "kopf_44": "nein (grau)",
+     "seite": "S. 16 / PDF 16",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "pfanne": "Allofit IT Alloclassic Acetabular System / Continuum / Trilogy IT",
+     "ref_muster": "00-8751-xxx-xx",
+     "inlay": "Neutral Longevity Highly Crosslinked Liner",
+     "kopf_22.2": "nein (grau)",
+     "kopf_28": "ja",
+     "kopf_32": "ja",
+     "kopf_36": "ja",
+     "kopf_40": "ja",
+     "kopf_44": "nein (grau)",
+     "seite": "S. 16 / PDF 16",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "pfanne": "Allofit IT Alloclassic Acetabular System / Continuum / Trilogy IT",
+     "ref_muster": "00-8752-xxx-xx",
+     "inlay": "Elevated Longevity Highly Crosslinked Liner",
+     "kopf_22.2": "ja",
+     "kopf_28": "ja",
+     "kopf_32": "ja",
+     "kopf_36": "ja",
+     "kopf_40": "nein (grau)",
+     "kopf_44": "nein (grau)",
+     "seite": "S. 16 / PDF 16",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "pfanne": "Allofit IT Alloclassic Acetabular System / Continuum / Trilogy IT",
+     "ref_muster": "00-8754-xxx-xx",
+     "inlay": "7mm Offset Longevity Highly Crosslinked Liner",
+     "kopf_22.2": "nein (grau)",
+     "kopf_28": "ja",
+     "kopf_32": "ja",
+     "kopf_36": "ja",
+     "kopf_40": "nein (grau)",
+     "kopf_44": "nein (grau)",
+     "seite": "S. 16 / PDF 16",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "pfanne": "Allofit IT Alloclassic Acetabular System / Continuum / Trilogy IT",
+     "ref_muster": "00-8755-xxx-xx",
+     "inlay": "Oblique Longevity Highly Crosslinked Liner",
+     "kopf_22.2": "nein (grau)",
+     "kopf_28": "ja",
+     "kopf_32": "ja",
+     "kopf_36": "ja",
+     "kopf_40": "nein (grau)",
+     "kopf_44": "nein (grau)",
+     "seite": "S. 16 / PDF 16",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "pfanne": "Allofit IT Alloclassic Acetabular System / Continuum / Trilogy IT",
+     "ref_muster": "00-8758-xxx-xx",
+     "inlay": "Constrained Longevity Highly Crosslinked Liner",
+     "kopf_22.2": "nein (grau)",
+     "kopf_28": "ja",
+     "kopf_32": "ja",
+     "kopf_36": "ja",
+     "kopf_40": "nein (grau)",
+     "kopf_44": "nein (grau)",
+     "seite": "S. 16 / PDF 16",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "pfanne": "Allofit IT Alloclassic Acetabular System / Continuum / Trilogy IT",
+     "ref_muster": "00-8851-xxx-xx",
+     "inlay": "Neutral Vivacit-E HXPE Liner",
+     "kopf_22.2": "nein (grau)",
+     "kopf_28": "ja",
+     "kopf_32": "ja",
+     "kopf_36": "ja",
+     "kopf_40": "ja",
+     "kopf_44": "nein (grau)",
+     "seite": "S. 16 / PDF 16",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "pfanne": "Allofit IT Alloclassic Acetabular System / Continuum / Trilogy IT",
+     "ref_muster": "00-8852-xxx-xx",
+     "inlay": "Elevated Vivacit-E HXPE Liner",
+     "kopf_22.2": "nein (grau)",
+     "kopf_28": "ja",
+     "kopf_32": "ja",
+     "kopf_36": "ja",
+     "kopf_40": "nein (grau)",
+     "kopf_44": "nein (grau)",
+     "seite": "S. 16 / PDF 16",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "pfanne": "CLS Spotorno Expansion Cup",
+     "ref_muster": "01.00307.xxx",
+     "inlay": "DURASUL CLS Insert",
+     "kopf_22.2": "nein (grau)",
+     "kopf_28": "ja",
+     "kopf_32": "ja",
+     "kopf_36": "nein (grau)",
+     "kopf_40": "nein (grau)",
+     "kopf_44": "nein (grau)",
+     "seite": "S. 16 / PDF 16",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "pfanne": "CLS Spotorno Expansion Cup",
+     "ref_muster": "68.13.28-46_62 / 68.13.32-50_62",
+     "inlay": "CLS cup insert",
+     "kopf_22.2": "nein (grau)",
+     "kopf_28": "ja",
+     "kopf_32": "ja",
+     "kopf_36": "nein (grau)",
+     "kopf_40": "nein (grau)",
+     "kopf_44": "nein (grau)",
+     "seite": "S. 16 / PDF 16",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "pfanne": "Original M.E. Müller Full Profile Cup",
+     "ref_muster": "62.xx.xx",
+     "inlay": "Mueller Full Profile cup",
+     "kopf_22.2": "nein (grau)",
+     "kopf_28": "ja",
+     "kopf_32": "ja",
+     "kopf_36": "nein (grau)",
+     "kopf_40": "nein (grau)",
+     "kopf_44": "nein (grau)",
+     "seite": "S. 17 / PDF 17",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "pfanne": "Original M.E. Müller Low Profile Cup",
+     "ref_muster": "63.xx.xx",
+     "inlay": "Low Profile Cup",
+     "kopf_22.2": "ja",
+     "kopf_28": "ja",
+     "kopf_32": "ja",
+     "kopf_36": "nein (grau)",
+     "kopf_40": "nein (grau)",
+     "kopf_44": "nein (grau)",
+     "seite": "S. 17 / PDF 17",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "pfanne": "Original M.E. Müller Low Profile Cup",
+     "ref_muster": "01.00284.042_064 / 01.00324.044_064 / 05.95001.050_058",
+     "inlay": "Durasul Low Profile Cup",
+     "kopf_22.2": "nein (grau)",
+     "kopf_28": "ja",
+     "kopf_32": "ja",
+     "kopf_36": "ja",
+     "kopf_40": "nein (grau)",
+     "kopf_44": "nein (grau)",
+     "seite": "S. 17 / PDF 17",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "pfanne": "Modular Bipolar",
+     "ref_muster": "61.27.xx",
+     "inlay": "Modular Bipolar",
+     "kopf_22.2": "ja",
+     "kopf_28": "ja",
+     "kopf_32": "ja",
+     "kopf_36": "nein (grau)",
+     "kopf_40": "nein (grau)",
+     "kopf_44": "nein (grau)",
+     "seite": "S. 17 / PDF 17",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    }
+   ],
+   "legende": "Spalten: Ceramic Heads 12/14 & Type 1 (8026xxxxx, 8028xxxxx) bzw. SELECT 8030xxx01 je Ø; 22.2 nur 12/14 & Type 1; 40/44 nur 12/14 & Type 1 laut Spaltenkopf (SELECT 40/44: 803004001/803004401 gelistet). CoCr 12/14 (8022xxxxx) × Inlay, 87-6204-951-00 S. 8–9: laut Claude-Helfer zeilenweise identisches Muster (1 Prüfer). Fußnote S. 18/S. 10: Skirted heads (10.5 mm offset only) nicht mit CLS SPOTORNO DURASUL/PE inserts, Trilogy (Longevity) Constrained, TM Revision Cemented Constrained, Longevity IT Constrained, ZCA Constrained. Pfannennamen „Original M.E. Müller Low/Full Profile Cup“ nicht mit C2-Zeilen oder „Flachprofil“ gleichsetzen."
+  },
+  "ZB_Uni_Bipolar": {
+   "titel": "Head and Stem Combinations: Unipolar and Bipolar Femoral Heads – Schaft × Kopf",
+   "quelle": "bipolar",
+   "seite": "1–2 / PDF 1–2",
+   "zeilen": [
+    {
+     "schaft": "ALLOCLASSIC SLA and SL-64 stem ²",
+     "komponente": "zb.alloclassic",
+     "U1 Unipolar Head (4510-XX-XXX) (12/14 taper)": "ja",
+     "U2 Adapter for Unipolar Head (4510-XX-XXX) (12/14 taper)": "ja",
+     "U3 Endo Femoral Head (6 degree)": "nein (grau)",
+     "U4 Endo Femoral Head Adapter (6 degree)": "nein (grau)",
+     "U5 Unipolar Head (non-modular) (30.38/60.09) (12/14 taper)": "ja",
+     "U6 VerSys Endo Femoral Head (12/14 taper)": "nein (grau)",
+     "U7 VerSys Endo Femoral Head Adapter (12/14 taper)": "nein (grau)",
+     "B1 Bipolar Head (AP) (1946/1989)": "ja",
+     "B2 Bi-polar head (4404-22/26-XXX)": "ja",
+     "B3 Continuum Bipolar Head": "nein (grau)",
+     "B4 Cupola Mobile": "ja",
+     "B5 Cupule Mobile Retentive": "ja",
+     "B6 Durasul Bi-polar head": "ja",
+     "B7 Modular-bipolar head": "ja",
+     "B8 Multipolar Bipolar Cup": "nein (grau)",
+     "seite": "S. 1 / PDF 1",
+     "sicherheit": "B1-Spalte belegt (Original, 2 Prüfer); übrige Spalten belegt (Original, 1 Prüfer)"
+    },
+    {
+     "schaft": "ALLOCLASSIC SLL-Revision stem",
+     "komponente": "zb.alloclassic",
+     "U1 Unipolar Head (4510-XX-XXX) (12/14 taper)": "ja",
+     "U2 Adapter for Unipolar Head (4510-XX-XXX) (12/14 taper)": "ja",
+     "U3 Endo Femoral Head (6 degree)": "nein (grau)",
+     "U4 Endo Femoral Head Adapter (6 degree)": "nein (grau)",
+     "U5 Unipolar Head (non-modular) (30.38/60.09) (12/14 taper)": "ja",
+     "U6 VerSys Endo Femoral Head (12/14 taper)": "nein (grau)",
+     "U7 VerSys Endo Femoral Head Adapter (12/14 taper)": "nein (grau)",
+     "B1 Bipolar Head (AP) (1946/1989)": "ja",
+     "B2 Bi-polar head (4404-22/26-XXX)": "ja",
+     "B3 Continuum Bipolar Head": "nein (grau)",
+     "B4 Cupola Mobile": "ja",
+     "B5 Cupule Mobile Retentive": "ja",
+     "B6 Durasul Bi-polar head": "ja",
+     "B7 Modular-bipolar head": "ja",
+     "B8 Multipolar Bipolar Cup": "nein (grau)",
+     "seite": "S. 1 / PDF 1",
+     "sicherheit": "B1-Spalte belegt (Original, 2 Prüfer); übrige Spalten belegt (Original, 1 Prüfer)"
+    },
+    {
+     "schaft": "ALLOCLASSIC stem ²",
+     "komponente": "zb.alloclassic",
+     "U1 Unipolar Head (4510-XX-XXX) (12/14 taper)": "ja",
+     "U2 Adapter for Unipolar Head (4510-XX-XXX) (12/14 taper)": "ja",
+     "U3 Endo Femoral Head (6 degree)": "nein (grau)",
+     "U4 Endo Femoral Head Adapter (6 degree)": "nein (grau)",
+     "U5 Unipolar Head (non-modular) (30.38/60.09) (12/14 taper)": "ja",
+     "U6 VerSys Endo Femoral Head (12/14 taper)": "nein (grau)",
+     "U7 VerSys Endo Femoral Head Adapter (12/14 taper)": "nein (grau)",
+     "B1 Bipolar Head (AP) (1946/1989)": "ja",
+     "B2 Bi-polar head (4404-22/26-XXX)": "ja",
+     "B3 Continuum Bipolar Head": "nein (grau)",
+     "B4 Cupola Mobile": "ja",
+     "B5 Cupule Mobile Retentive": "ja",
+     "B6 Durasul Bi-polar head": "ja",
+     "B7 Modular-bipolar head": "ja",
+     "B8 Multipolar Bipolar Cup": "nein (grau)",
+     "seite": "S. 1 / PDF 1",
+     "sicherheit": "B1-Spalte belegt (Original, 2 Prüfer); übrige Spalten belegt (Original, 1 Prüfer)"
+    },
+    {
+     "schaft": "ALLOCLASSIC VARIALL SLV stem",
+     "komponente": "zb.alloclassic",
+     "U1 Unipolar Head (4510-XX-XXX) (12/14 taper)": "nein (grau)",
+     "U2 Adapter for Unipolar Head (4510-XX-XXX) (12/14 taper)": "nein (grau)",
+     "U3 Endo Femoral Head (6 degree)": "nein (grau)",
+     "U4 Endo Femoral Head Adapter (6 degree)": "nein (grau)",
+     "U5 Unipolar Head (non-modular) (30.38/60.09) (12/14 taper)": "ja",
+     "U6 VerSys Endo Femoral Head (12/14 taper)": "nein (grau)",
+     "U7 VerSys Endo Femoral Head Adapter (12/14 taper)": "nein (grau)",
+     "B1 Bipolar Head (AP) (1946/1989)": "ja",
+     "B2 Bi-polar head (4404-22/26-XXX)": "nein (grau)",
+     "B3 Continuum Bipolar Head": "nein (grau)",
+     "B4 Cupola Mobile": "ja",
+     "B5 Cupule Mobile Retentive": "ja",
+     "B6 Durasul Bi-polar head": "nein (grau)",
+     "B7 Modular-bipolar head": "ja",
+     "B8 Multipolar Bipolar Cup": "nein (grau)",
+     "seite": "S. 1 / PDF 1",
+     "sicherheit": "B1-Spalte belegt (Original, 2 Prüfer); übrige Spalten belegt (Original, 1 Prüfer)"
+    },
+    {
+     "schaft": "Avenir Müller stem",
+     "komponente": "zb.avenir.zementfrei",
+     "U1 Unipolar Head (4510-XX-XXX) (12/14 taper)": "ja",
+     "U2 Adapter for Unipolar Head (4510-XX-XXX) (12/14 taper)": "ja",
+     "U3 Endo Femoral Head (6 degree)": "nein (grau)",
+     "U4 Endo Femoral Head Adapter (6 degree)": "nein (grau)",
+     "U5 Unipolar Head (non-modular) (30.38/60.09) (12/14 taper)": "ja",
+     "U6 VerSys Endo Femoral Head (12/14 taper)": "ja",
+     "U7 VerSys Endo Femoral Head Adapter (12/14 taper)": "ja",
+     "B1 Bipolar Head (AP) (1946/1989)": "ja",
+     "B2 Bi-polar head (4404-22/26-XXX)": "ja",
+     "B3 Continuum Bipolar Head": "nein (grau)",
+     "B4 Cupola Mobile": "ja",
+     "B5 Cupule Mobile Retentive": "ja",
+     "B6 Durasul Bi-polar head": "ja",
+     "B7 Modular-bipolar head": "ja",
+     "B8 Multipolar Bipolar Cup": "nein (grau)",
+     "seite": "S. 1 / PDF 1",
+     "sicherheit": "B1-Spalte belegt (Original, 2 Prüfer); übrige Spalten belegt (Original, 1 Prüfer)"
+    },
+    {
+     "schaft": "Avenir Cemented stem",
+     "komponente": "zb.avenir.zementiert",
+     "U1 Unipolar Head (4510-XX-XXX) (12/14 taper)": "ja",
+     "U2 Adapter for Unipolar Head (4510-XX-XXX) (12/14 taper)": "ja",
+     "U3 Endo Femoral Head (6 degree)": "nein (grau)",
+     "U4 Endo Femoral Head Adapter (6 degree)": "nein (grau)",
+     "U5 Unipolar Head (non-modular) (30.38/60.09) (12/14 taper)": "ja",
+     "U6 VerSys Endo Femoral Head (12/14 taper)": "ja",
+     "U7 VerSys Endo Femoral Head Adapter (12/14 taper)": "ja",
+     "B1 Bipolar Head (AP) (1946/1989)": "nein (grau)",
+     "B2 Bi-polar head (4404-22/26-XXX)": "ja",
+     "B3 Continuum Bipolar Head": "nein (grau)",
+     "B4 Cupola Mobile": "nein (grau)",
+     "B5 Cupule Mobile Retentive": "ja",
+     "B6 Durasul Bi-polar head": "ja",
+     "B7 Modular-bipolar head": "ja",
+     "B8 Multipolar Bipolar Cup": "ja",
+     "seite": "S. 1 / PDF 1",
+     "sicherheit": "B1-Spalte belegt (Original, 2 Prüfer); übrige Spalten belegt (Original, 1 Prüfer)"
+    },
+    {
+     "schaft": "Avenir Complete stem",
+     "komponente": "– (Avenir Complete, eigenes System)",
+     "U1 Unipolar Head (4510-XX-XXX) (12/14 taper)": "ja",
+     "U2 Adapter for Unipolar Head (4510-XX-XXX) (12/14 taper)": "ja",
+     "U3 Endo Femoral Head (6 degree)": "nein (grau)",
+     "U4 Endo Femoral Head Adapter (6 degree)": "nein (grau)",
+     "U5 Unipolar Head (non-modular) (30.38/60.09) (12/14 taper)": "ja",
+     "U6 VerSys Endo Femoral Head (12/14 taper)": "ja",
+     "U7 VerSys Endo Femoral Head Adapter (12/14 taper)": "ja",
+     "B1 Bipolar Head (AP) (1946/1989)": "nein (grau)",
+     "B2 Bi-polar head (4404-22/26-XXX)": "ja",
+     "B3 Continuum Bipolar Head": "nein (grau)",
+     "B4 Cupola Mobile": "nein (grau)",
+     "B5 Cupule Mobile Retentive": "nein (grau)",
+     "B6 Durasul Bi-polar head": "ja",
+     "B7 Modular-bipolar head": "ja",
+     "B8 Multipolar Bipolar Cup": "ja",
+     "seite": "S. 1 / PDF 1",
+     "sicherheit": "B1-Spalte belegt (Original, 2 Prüfer); übrige Spalten belegt (Original, 1 Prüfer)"
+    },
+    {
+     "schaft": "CLS SPOTORNO stem",
+     "komponente": "zb.cls_spotorno",
+     "U1 Unipolar Head (4510-XX-XXX) (12/14 taper)": "ja",
+     "U2 Adapter for Unipolar Head (4510-XX-XXX) (12/14 taper)": "ja",
+     "U3 Endo Femoral Head (6 degree)": "nein (grau)",
+     "U4 Endo Femoral Head Adapter (6 degree)": "nein (grau)",
+     "U5 Unipolar Head (non-modular) (30.38/60.09) (12/14 taper)": "ja",
+     "U6 VerSys Endo Femoral Head (12/14 taper)": "nein (grau)",
+     "U7 VerSys Endo Femoral Head Adapter (12/14 taper)": "nein (grau)",
+     "B1 Bipolar Head (AP) (1946/1989)": "ja",
+     "B2 Bi-polar head (4404-22/26-XXX)": "ja",
+     "B3 Continuum Bipolar Head": "nein (grau)",
+     "B4 Cupola Mobile": "ja",
+     "B5 Cupule Mobile Retentive": "ja",
+     "B6 Durasul Bi-polar head": "ja",
+     "B7 Modular-bipolar head": "ja",
+     "B8 Multipolar Bipolar Cup": "nein (grau)",
+     "seite": "S. 1 / PDF 1",
+     "sicherheit": "B1-Spalte belegt (Original, 2 Prüfer); übrige Spalten belegt (Original, 1 Prüfer)"
+    },
+    {
+     "schaft": "Fitmore Hip Stem",
+     "komponente": "zb.fitmore",
+     "U1 Unipolar Head (4510-XX-XXX) (12/14 taper)": "ja",
+     "U2 Adapter for Unipolar Head (4510-XX-XXX) (12/14 taper)": "ja",
+     "U3 Endo Femoral Head (6 degree)": "nein (grau)",
+     "U4 Endo Femoral Head Adapter (6 degree)": "nein (grau)",
+     "U5 Unipolar Head (non-modular) (30.38/60.09) (12/14 taper)": "ja",
+     "U6 VerSys Endo Femoral Head (12/14 taper)": "nein (grau)",
+     "U7 VerSys Endo Femoral Head Adapter (12/14 taper)": "nein (grau)",
+     "B1 Bipolar Head (AP) (1946/1989)": "ja",
+     "B2 Bi-polar head (4404-22/26-XXX)": "ja",
+     "B3 Continuum Bipolar Head": "nein (grau)",
+     "B4 Cupola Mobile": "ja",
+     "B5 Cupule Mobile Retentive": "ja",
+     "B6 Durasul Bi-polar head": "ja",
+     "B7 Modular-bipolar head": "ja",
+     "B8 Multipolar Bipolar Cup": "nein (grau)",
+     "seite": "S. 1 / PDF 1",
+     "sicherheit": "B1-Spalte belegt (Original, 2 Prüfer); übrige Spalten belegt (Original, 1 Prüfer)"
+    },
+    {
+     "schaft": "MS-30 stem",
+     "komponente": "zb.ms30",
+     "U1 Unipolar Head (4510-XX-XXX) (12/14 taper)": "ja",
+     "U2 Adapter for Unipolar Head (4510-XX-XXX) (12/14 taper)": "ja",
+     "U3 Endo Femoral Head (6 degree)": "nein (grau)",
+     "U4 Endo Femoral Head Adapter (6 degree)": "nein (grau)",
+     "U5 Unipolar Head (non-modular) (30.38/60.09) (12/14 taper)": "ja",
+     "U6 VerSys Endo Femoral Head (12/14 taper)": "nein (grau)",
+     "U7 VerSys Endo Femoral Head Adapter (12/14 taper)": "nein (grau)",
+     "B1 Bipolar Head (AP) (1946/1989)": "ja",
+     "B2 Bi-polar head (4404-22/26-XXX)": "ja",
+     "B3 Continuum Bipolar Head": "nein (grau)",
+     "B4 Cupola Mobile": "ja",
+     "B5 Cupule Mobile Retentive": "ja",
+     "B6 Durasul Bi-polar head": "ja",
+     "B7 Modular-bipolar head": "ja",
+     "B8 Multipolar Bipolar Cup": "nein (grau)",
+     "seite": "S. 2 / PDF 2",
+     "sicherheit": "B1-Spalte belegt (Original, 2 Prüfer); übrige Spalten belegt (Original, 1 Prüfer)"
+    },
+    {
+     "schaft": "Müller Straight stem PROTASUL-10",
+     "komponente": "zb.original_mueller",
+     "U1 Unipolar Head (4510-XX-XXX) (12/14 taper)": "nein (grau)",
+     "U2 Adapter for Unipolar Head (4510-XX-XXX) (12/14 taper)": "nein (grau)",
+     "U3 Endo Femoral Head (6 degree)": "nein (grau)",
+     "U4 Endo Femoral Head Adapter (6 degree)": "nein (grau)",
+     "U5 Unipolar Head (non-modular) (30.38/60.09) (12/14 taper)": "ja",
+     "U6 VerSys Endo Femoral Head (12/14 taper)": "nein (grau)",
+     "U7 VerSys Endo Femoral Head Adapter (12/14 taper)": "nein (grau)",
+     "B1 Bipolar Head (AP) (1946/1989)": "ja",
+     "B2 Bi-polar head (4404-22/26-XXX)": "nein (grau)",
+     "B3 Continuum Bipolar Head": "nein (grau)",
+     "B4 Cupola Mobile": "ja",
+     "B5 Cupule Mobile Retentive": "ja",
+     "B6 Durasul Bi-polar head": "nein (grau)",
+     "B7 Modular-bipolar head": "ja",
+     "B8 Multipolar Bipolar Cup": "nein (grau)",
+     "seite": "S. 2 / PDF 2",
+     "sicherheit": "B1-Spalte belegt (Original, 2 Prüfer); übrige Spalten belegt (Original, 1 Prüfer)"
+    },
+    {
+     "schaft": "Müller Straight stem PROTASUL-S30",
+     "komponente": "zb.original_mueller",
+     "U1 Unipolar Head (4510-XX-XXX) (12/14 taper)": "nein (grau)",
+     "U2 Adapter for Unipolar Head (4510-XX-XXX) (12/14 taper)": "nein (grau)",
+     "U3 Endo Femoral Head (6 degree)": "nein (grau)",
+     "U4 Endo Femoral Head Adapter (6 degree)": "nein (grau)",
+     "U5 Unipolar Head (non-modular) (30.38/60.09) (12/14 taper)": "ja",
+     "U6 VerSys Endo Femoral Head (12/14 taper)": "nein (grau)",
+     "U7 VerSys Endo Femoral Head Adapter (12/14 taper)": "nein (grau)",
+     "B1 Bipolar Head (AP) (1946/1989)": "ja",
+     "B2 Bi-polar head (4404-22/26-XXX)": "nein (grau)",
+     "B3 Continuum Bipolar Head": "nein (grau)",
+     "B4 Cupola Mobile": "ja",
+     "B5 Cupule Mobile Retentive": "ja",
+     "B6 Durasul Bi-polar head": "nein (grau)",
+     "B7 Modular-bipolar head": "ja",
+     "B8 Multipolar Bipolar Cup": "nein (grau)",
+     "seite": "S. 2 / PDF 2",
+     "sicherheit": "B1-Spalte belegt (Original, 2 Prüfer); übrige Spalten belegt (Original, 1 Prüfer)"
+    },
+    {
+     "schaft": "Müller Straight stem PROTASUL-S30 (monoblock)",
+     "komponente": "zb.original_mueller",
+     "U1 Unipolar Head (4510-XX-XXX) (12/14 taper)": "nein (grau)",
+     "U2 Adapter for Unipolar Head (4510-XX-XXX) (12/14 taper)": "nein (grau)",
+     "U3 Endo Femoral Head (6 degree)": "nein (grau)",
+     "U4 Endo Femoral Head Adapter (6 degree)": "nein (grau)",
+     "U5 Unipolar Head (non-modular) (30.38/60.09) (12/14 taper)": "nein (grau)",
+     "U6 VerSys Endo Femoral Head (12/14 taper)": "nein (grau)",
+     "U7 VerSys Endo Femoral Head Adapter (12/14 taper)": "nein (grau)",
+     "B1 Bipolar Head (AP) (1946/1989)": "ja",
+     "B2 Bi-polar head (4404-22/26-XXX)": "nein (grau)",
+     "B3 Continuum Bipolar Head": "nein (grau)",
+     "B4 Cupola Mobile": "ja",
+     "B5 Cupule Mobile Retentive": "ja",
+     "B6 Durasul Bi-polar head": "nein (grau)",
+     "B7 Modular-bipolar head": "ja",
+     "B8 Multipolar Bipolar Cup": "nein (grau)",
+     "seite": "S. 2 / PDF 2",
+     "sicherheit": "B1-Spalte belegt (Original, 2 Prüfer); übrige Spalten belegt (Original, 1 Prüfer)"
+    },
+    {
+     "schaft": "Muller stem (XX-8050-051/056-XX)",
+     "komponente": "–",
+     "U1 Unipolar Head (4510-XX-XXX) (12/14 taper)": "nein (grau)",
+     "U2 Adapter for Unipolar Head (4510-XX-XXX) (12/14 taper)": "nein (grau)",
+     "U3 Endo Femoral Head (6 degree)": "nein (grau)",
+     "U4 Endo Femoral Head Adapter (6 degree)": "nein (grau)",
+     "U5 Unipolar Head (non-modular) (30.38/60.09) (12/14 taper)": "nein (grau)",
+     "U6 VerSys Endo Femoral Head (12/14 taper)": "nein (grau)",
+     "U7 VerSys Endo Femoral Head Adapter (12/14 taper)": "nein (grau)",
+     "B1 Bipolar Head (AP) (1946/1989)": "nein (grau)",
+     "B2 Bi-polar head (4404-22/26-XXX)": "ja",
+     "B3 Continuum Bipolar Head": "nein (grau)",
+     "B4 Cupola Mobile": "nein (grau)",
+     "B5 Cupule Mobile Retentive": "nein (grau)",
+     "B6 Durasul Bi-polar head": "nein (grau)",
+     "B7 Modular-bipolar head": "nein (grau)",
+     "B8 Multipolar Bipolar Cup": "ja",
+     "seite": "S. 2 / PDF 2",
+     "sicherheit": "B1-Spalte belegt (Original, 2 Prüfer); übrige Spalten belegt (Original, 1 Prüfer)"
+    }
+   ],
+   "legende": "ja = „Combination is approved by Zimmer, Inc.“; nein (grau) = „Combination is not approved by Zimmer, Inc.“. Bipolar (AP) 1946/1989: ja bei Alloclassic (alle 4 Zeilen), Avenir Müller, CLS, Fitmore, MS-30, Müller P10/S30; nein bei Avenir Cemented und Avenir Complete. Fußnote 1 (B-Spalten): „See “Articulating Combinations” and “Head and Stem Combinations”“. Fußnote 2 (² an ALLOCLASSIC SLA/SL-64 und ALLOCLASSIC stem): „… can only be used with Bipolar heads (4404-22/26-XXX, 4405-22/26-XXX) up to size 56.“ Fußnoten 3–5 (Revitan 14 mm, VerSys RM, Wagner SL 14/15 mm) betreffen andere Schäfte. Innenkopf-Ø des AP-Kopfs nicht angegeben. Ein ✓ ist kein Nachweis einer Hemi-Indikation (Avenir zementfrei laut 4034.2 nur TEP)."
+  },
+  "ZB_C1_Liner_Schale": {
+   "titel": "C1 Acetabular Combinations: Modular Inserts (Liners) × Cups (Shells) – relevante Schalen",
+   "quelle": "liners",
+   "seite": "1 / PDF 1",
+   "zeilen": [
+    {
+     "inlay": "ALPHA CERASUL insert",
+     "komponente": "zb.inlay.alpha_cerasul",
+     "ALLOFIT IT Acetabular Cup (8755)": "nein (grau)",
+     "ALLOFIT Shell": "ja",
+     "FITMORE Shell": "ja",
+     "CLS SPOTORNO Cup": "nein (grau)",
+     "sicherheit": "ALLOFIT/ALLOFIT IT-Spalten belegt (Original, 2 Prüfer); FITMORE/CLS belegt (Original, 1 Prüfer)"
+    },
+    {
+     "inlay": "ALPHA DURASUL insert",
+     "komponente": "zb.inlay.alpha_durasul",
+     "ALLOFIT IT Acetabular Cup (8755)": "nein (grau)",
+     "ALLOFIT Shell": "ja",
+     "FITMORE Shell": "ja",
+     "CLS SPOTORNO Cup": "nein (grau)",
+     "sicherheit": "ALLOFIT/ALLOFIT IT-Spalten belegt (Original, 2 Prüfer); FITMORE/CLS belegt (Original, 1 Prüfer)"
+    },
+    {
+     "inlay": "ALPHA METASUL insert",
+     "komponente": "zb.inlay.alpha_metasul",
+     "ALLOFIT IT Acetabular Cup (8755)": "nein (grau)",
+     "ALLOFIT Shell": "ja",
+     "FITMORE Shell": "ja",
+     "CLS SPOTORNO Cup": "nein (grau)",
+     "sicherheit": "ALLOFIT/ALLOFIT IT-Spalten belegt (Original, 2 Prüfer); FITMORE/CLS belegt (Original, 1 Prüfer)"
+    },
+    {
+     "inlay": "ALPHA PE insert",
+     "komponente": "zb.inlay.alpha_pe",
+     "ALLOFIT IT Acetabular Cup (8755)": "nein (grau)",
+     "ALLOFIT Shell": "ja",
+     "FITMORE Shell": "ja",
+     "CLS SPOTORNO Cup": "nein (grau)",
+     "sicherheit": "ALLOFIT/ALLOFIT IT-Spalten belegt (Original, 2 Prüfer); FITMORE/CLS belegt (Original, 1 Prüfer)"
+    },
+    {
+     "inlay": "STANDARD METASUL insert",
+     "komponente": "zb.inlay.standard_metasul",
+     "ALLOFIT IT Acetabular Cup (8755)": "nein (grau)",
+     "ALLOFIT Shell": "ja",
+     "FITMORE Shell": "ja",
+     "CLS SPOTORNO Cup": "nein (grau)",
+     "sicherheit": "ALLOFIT/ALLOFIT IT-Spalten belegt (Original, 2 Prüfer); FITMORE/CLS belegt (Original, 1 Prüfer)"
+    },
+    {
+     "inlay": "STANDARD PE insert",
+     "komponente": "zb.inlay.standard_pe",
+     "ALLOFIT IT Acetabular Cup (8755)": "nein (grau)",
+     "ALLOFIT Shell": "ja",
+     "FITMORE Shell": "ja",
+     "CLS SPOTORNO Cup": "nein (grau)",
+     "sicherheit": "ALLOFIT/ALLOFIT IT-Spalten belegt (Original, 2 Prüfer); FITMORE/CLS belegt (Original, 1 Prüfer)"
+    },
+    {
+     "inlay": "FITEK/FITMORE PE insert",
+     "komponente": "–",
+     "ALLOFIT IT Acetabular Cup (8755)": "nein (grau)",
+     "ALLOFIT Shell": "nein (grau)",
+     "FITMORE Shell": "ja",
+     "CLS SPOTORNO Cup": "nein (grau)",
+     "sicherheit": "ALLOFIT/ALLOFIT IT-Spalten belegt (Original, 2 Prüfer); FITMORE/CLS belegt (Original, 1 Prüfer)"
+    },
+    {
+     "inlay": "BIOLOX Delta Taper Liner (8775) *",
+     "komponente": "zb.inlay.biolox_delta_taper_8775",
+     "ALLOFIT IT Acetabular Cup (8755)": "ja",
+     "ALLOFIT Shell": "nein (grau)",
+     "FITMORE Shell": "nein (grau)",
+     "CLS SPOTORNO Cup": "nein (grau)",
+     "sicherheit": "ALLOFIT/ALLOFIT IT-Spalten belegt (Original, 2 Prüfer); FITMORE/CLS belegt (Original, 1 Prüfer)"
+    },
+    {
+     "inlay": "Longevity IT Liner",
+     "komponente": "zb.inlay.longevity_it",
+     "ALLOFIT IT Acetabular Cup (8755)": "ja",
+     "ALLOFIT Shell": "nein (grau)",
+     "FITMORE Shell": "nein (grau)",
+     "CLS SPOTORNO Cup": "nein (grau)",
+     "sicherheit": "ALLOFIT/ALLOFIT IT-Spalten belegt (Original, 2 Prüfer); FITMORE/CLS belegt (Original, 1 Prüfer)"
+    },
+    {
+     "inlay": "Metasul Taper Liner (8770)",
+     "komponente": "zb.inlay.metasul_taper_8770",
+     "ALLOFIT IT Acetabular Cup (8755)": "ja",
+     "ALLOFIT Shell": "nein (grau)",
+     "FITMORE Shell": "nein (grau)",
+     "CLS SPOTORNO Cup": "nein (grau)",
+     "sicherheit": "ALLOFIT/ALLOFIT IT-Spalten belegt (Original, 2 Prüfer); FITMORE/CLS belegt (Original, 1 Prüfer)"
+    },
+    {
+     "inlay": "Vivacit-E Liner",
+     "komponente": "zb.inlay.vivacit_e",
+     "ALLOFIT IT Acetabular Cup (8755)": "ja",
+     "ALLOFIT Shell": "nein (grau)",
+     "FITMORE Shell": "nein (grau)",
+     "CLS SPOTORNO Cup": "nein (grau)",
+     "sicherheit": "ALLOFIT/ALLOFIT IT-Spalten belegt (Original, 2 Prüfer); FITMORE/CLS belegt (Original, 1 Prüfer)"
+    },
+    {
+     "inlay": "CLS SPOTORNO DURASUL insert",
+     "komponente": "–",
+     "ALLOFIT IT Acetabular Cup (8755)": "nein (grau)",
+     "ALLOFIT Shell": "nein (grau)",
+     "FITMORE Shell": "nein (grau)",
+     "CLS SPOTORNO Cup": "ja",
+     "sicherheit": "ALLOFIT/ALLOFIT IT-Spalten belegt (Original, 2 Prüfer); FITMORE/CLS belegt (Original, 1 Prüfer)"
+    },
+    {
+     "inlay": "CLS SPOTORNO METASUL insert",
+     "komponente": "–",
+     "ALLOFIT IT Acetabular Cup (8755)": "nein (grau)",
+     "ALLOFIT Shell": "nein (grau)",
+     "FITMORE Shell": "nein (grau)",
+     "CLS SPOTORNO Cup": "ja",
+     "sicherheit": "ALLOFIT/ALLOFIT IT-Spalten belegt (Original, 2 Prüfer); FITMORE/CLS belegt (Original, 1 Prüfer)"
+    },
+    {
+     "inlay": "CLS SPOTORNO PE insert",
+     "komponente": "–",
+     "ALLOFIT IT Acetabular Cup (8755)": "nein (grau)",
+     "ALLOFIT Shell": "nein (grau)",
+     "FITMORE Shell": "nein (grau)",
+     "CLS SPOTORNO Cup": "ja",
+     "sicherheit": "ALLOFIT/ALLOFIT IT-Spalten belegt (Original, 2 Prüfer); FITMORE/CLS belegt (Original, 1 Prüfer)"
+    },
+    {
+     "inlay": "alle übrigen Inlays der Liste",
+     "komponente": "–",
+     "ALLOFIT IT Acetabular Cup (8755)": "nein (grau)",
+     "ALLOFIT Shell": "nein (grau)",
+     "FITMORE Shell": "nein (grau)",
+     "CLS SPOTORNO Cup": "nein (grau)",
+     "sicherheit": "ALLOFIT/ALLOFIT IT-Spalten belegt (Original, 2 Prüfer); FITMORE/CLS belegt (Original, 1 Prüfer)"
+    }
+   ],
+   "legende": "ja = „Combination is approved by Zimmer, Inc.“; nein (grau) = „not approved“. Belegt Schalenverriegelung, nicht Kopf. Keine Kopf-Ø-/Schalengrößen-Spalten. * „BIOLOX Delta Taper Liners are not available in the United States“. 8775/Longevity IT/8770/Vivacit-E zusätzlich bei Continuum (8757) und Trilogy IT (8753) markiert; „ALLOCLASSIC Variall BIOLOX Delta Insert“ nur bei VARIALL Shell. ALLOFIT-S kommt in C1 nicht vor."
+  },
+  "ZB_C2_Cup_Cage": {
+   "titel": "C2 Acetabular Reconstruction: Polyethylene Liners/Cups × Metal Cages/Rings",
+   "quelle": "zb_c2",
+   "seite": "1 / PDF 1",
+   "zeilen": [
+    {
+     "pfanne_inlay": "Acora cup (cemented)",
+     "TM Revision Cage": "nein (grau)",
+     "Burch-Schneider Cage": "ja",
+     "Zimmer Reinforcement Ring with Hook*": "ja",
+     "Original M.E.Müller Roof Reinforcement Ring": "ja",
+     "Wagner Reinforcement Cage": "nein (grau)",
+     "ZCA Cage": "nein (grau)",
+     "ZCA Roof Ring": "nein (grau)",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "pfanne_inlay": "Apollo All-poly (PE) Cemented cup",
+     "TM Revision Cage": "nein (grau)",
+     "Burch-Schneider Cage": "ja",
+     "Zimmer Reinforcement Ring with Hook*": "ja",
+     "Original M.E.Müller Roof Reinforcement Ring": "ja",
+     "Wagner Reinforcement Cage": "nein (grau)",
+     "ZCA Cage": "nein (grau)",
+     "ZCA Roof Ring": "nein (grau)",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "pfanne_inlay": "BETA DURASUL insert",
+     "TM Revision Cage": "nein (grau)",
+     "Burch-Schneider Cage": "nein (grau)",
+     "Zimmer Reinforcement Ring with Hook*": "nein (grau)",
+     "Original M.E.Müller Roof Reinforcement Ring": "nein (grau)",
+     "Wagner Reinforcement Cage": "ja",
+     "ZCA Cage": "nein (grau)",
+     "ZCA Roof Ring": "nein (grau)",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "pfanne_inlay": "BETA METASUL insert",
+     "TM Revision Cage": "nein (grau)",
+     "Burch-Schneider Cage": "nein (grau)",
+     "Zimmer Reinforcement Ring with Hook*": "nein (grau)",
+     "Original M.E.Müller Roof Reinforcement Ring": "nein (grau)",
+     "Wagner Reinforcement Cage": "ja",
+     "ZCA Cage": "nein (grau)",
+     "ZCA Roof Ring": "nein (grau)",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "pfanne_inlay": "BETA PE insert",
+     "TM Revision Cage": "nein (grau)",
+     "Burch-Schneider Cage": "nein (grau)",
+     "Zimmer Reinforcement Ring with Hook*": "nein (grau)",
+     "Original M.E.Müller Roof Reinforcement Ring": "nein (grau)",
+     "Wagner Reinforcement Cage": "ja",
+     "ZCA Cage": "nein (grau)",
+     "ZCA Roof Ring": "nein (grau)",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "pfanne_inlay": "Brunswick PE cup",
+     "TM Revision Cage": "nein (grau)",
+     "Burch-Schneider Cage": "ja",
+     "Zimmer Reinforcement Ring with Hook*": "ja",
+     "Original M.E.Müller Roof Reinforcement Ring": "ja",
+     "Wagner Reinforcement Cage": "nein (grau)",
+     "ZCA Cage": "nein (grau)",
+     "ZCA Roof Ring": "nein (grau)",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "pfanne_inlay": "Continuum Hedrocel Acetabular Revision Shell Liner",
+     "TM Revision Cage": "nein (grau)",
+     "Burch-Schneider Cage": "nein (grau)",
+     "Zimmer Reinforcement Ring with Hook*": "nein (grau)",
+     "Original M.E.Müller Roof Reinforcement Ring": "nein (grau)",
+     "Wagner Reinforcement Cage": "nein (grau)",
+     "ZCA Cage": "nein (grau)",
+     "ZCA Roof Ring": "nein (grau)",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "pfanne_inlay": "Full Profile PE cup",
+     "TM Revision Cage": "nein (grau)",
+     "Burch-Schneider Cage": "ja",
+     "Zimmer Reinforcement Ring with Hook*": "ja",
+     "Original M.E.Müller Roof Reinforcement Ring": "ja",
+     "Wagner Reinforcement Cage": "nein (grau)",
+     "ZCA Cage": "nein (grau)",
+     "ZCA Roof Ring": "nein (grau)",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "pfanne_inlay": "HG II PE Liner",
+     "TM Revision Cage": "nein (grau)",
+     "Burch-Schneider Cage": "nein (grau)",
+     "Zimmer Reinforcement Ring with Hook*": "nein (grau)",
+     "Original M.E.Müller Roof Reinforcement Ring": "nein (grau)",
+     "Wagner Reinforcement Cage": "nein (grau)",
+     "ZCA Cage": "nein (grau)",
+     "ZCA Roof Ring": "nein (grau)",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "pfanne_inlay": "HG II XLPE Liner",
+     "TM Revision Cage": "nein (grau)",
+     "Burch-Schneider Cage": "nein (grau)",
+     "Zimmer Reinforcement Ring with Hook*": "nein (grau)",
+     "Original M.E.Müller Roof Reinforcement Ring": "nein (grau)",
+     "Wagner Reinforcement Cage": "nein (grau)",
+     "ZCA Cage": "nein (grau)",
+     "ZCA Roof Ring": "nein (grau)",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "pfanne_inlay": "Longevity IT Liner",
+     "TM Revision Cage": "nein (grau)",
+     "Burch-Schneider Cage": "nein (grau)",
+     "Zimmer Reinforcement Ring with Hook*": "nein (grau)",
+     "Original M.E.Müller Roof Reinforcement Ring": "nein (grau)",
+     "Wagner Reinforcement Cage": "nein (grau)",
+     "ZCA Cage": "nein (grau)",
+     "ZCA Roof Ring": "nein (grau)",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "pfanne_inlay": "Low Profile DURASUL cup",
+     "TM Revision Cage": "nein (grau)",
+     "Burch-Schneider Cage": "ja",
+     "Zimmer Reinforcement Ring with Hook*": "ja",
+     "Original M.E.Müller Roof Reinforcement Ring": "ja",
+     "Wagner Reinforcement Cage": "nein (grau)",
+     "ZCA Cage": "nein (grau)",
+     "ZCA Roof Ring": "nein (grau)",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "pfanne_inlay": "Low Profile METASUL cup",
+     "TM Revision Cage": "nein (grau)",
+     "Burch-Schneider Cage": "ja",
+     "Zimmer Reinforcement Ring with Hook*": "ja",
+     "Original M.E.Müller Roof Reinforcement Ring": "ja",
+     "Wagner Reinforcement Cage": "nein (grau)",
+     "ZCA Cage": "nein (grau)",
+     "ZCA Roof Ring": "nein (grau)",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "pfanne_inlay": "Low Profile PE cup",
+     "TM Revision Cage": "nein (grau)",
+     "Burch-Schneider Cage": "ja",
+     "Zimmer Reinforcement Ring with Hook*": "ja",
+     "Original M.E.Müller Roof Reinforcement Ring": "ja",
+     "Wagner Reinforcement Cage": "nein (grau)",
+     "ZCA Cage": "nein (grau)",
+     "ZCA Roof Ring": "nein (grau)",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "pfanne_inlay": "TM Revision Cemented Constrained Liner",
+     "TM Revision Cage": "ja",
+     "Burch-Schneider Cage": "nein (grau)",
+     "Zimmer Reinforcement Ring with Hook*": "nein (grau)",
+     "Original M.E.Müller Roof Reinforcement Ring": "nein (grau)",
+     "Wagner Reinforcement Cage": "nein (grau)",
+     "ZCA Cage": "nein (grau)",
+     "ZCA Roof Ring": "nein (grau)",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "pfanne_inlay": "TM Revision Liner",
+     "TM Revision Cage": "ja",
+     "Burch-Schneider Cage": "nein (grau)",
+     "Zimmer Reinforcement Ring with Hook*": "nein (grau)",
+     "Original M.E.Müller Roof Reinforcement Ring": "nein (grau)",
+     "Wagner Reinforcement Cage": "nein (grau)",
+     "ZCA Cage": "nein (grau)",
+     "ZCA Roof Ring": "nein (grau)",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "pfanne_inlay": "TM Revision Shell (Liner/Cup/Cage Construct)",
+     "TM Revision Cage": "ja",
+     "Burch-Schneider Cage": "nein (grau)",
+     "Zimmer Reinforcement Ring with Hook*": "nein (grau)",
+     "Original M.E.Müller Roof Reinforcement Ring": "nein (grau)",
+     "Wagner Reinforcement Cage": "nein (grau)",
+     "ZCA Cage": "nein (grau)",
+     "ZCA Roof Ring": "nein (grau)",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "pfanne_inlay": "Trilogy AB Alumina Insert",
+     "TM Revision Cage": "nein (grau)",
+     "Burch-Schneider Cage": "nein (grau)",
+     "Zimmer Reinforcement Ring with Hook*": "nein (grau)",
+     "Original M.E.Müller Roof Reinforcement Ring": "nein (grau)",
+     "Wagner Reinforcement Cage": "nein (grau)",
+     "ZCA Cage": "nein (grau)",
+     "ZCA Roof Ring": "nein (grau)",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "pfanne_inlay": "Trilogy Longevity Liner",
+     "TM Revision Cage": "nein (grau)",
+     "Burch-Schneider Cage": "nein (grau)",
+     "Zimmer Reinforcement Ring with Hook*": "nein (grau)",
+     "Original M.E.Müller Roof Reinforcement Ring": "nein (grau)",
+     "Wagner Reinforcement Cage": "nein (grau)",
+     "ZCA Cage": "nein (grau)",
+     "ZCA Roof Ring": "nein (grau)",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "pfanne_inlay": "Trilogy PE Liner",
+     "TM Revision Cage": "nein (grau)",
+     "Burch-Schneider Cage": "nein (grau)",
+     "Zimmer Reinforcement Ring with Hook*": "nein (grau)",
+     "Original M.E.Müller Roof Reinforcement Ring": "nein (grau)",
+     "Wagner Reinforcement Cage": "nein (grau)",
+     "ZCA Cage": "nein (grau)",
+     "ZCA Roof Ring": "nein (grau)",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    },
+    {
+     "pfanne_inlay": "ZCA Cup",
+     "TM Revision Cage": "nein (grau)",
+     "Burch-Schneider Cage": "nein (grau)",
+     "Zimmer Reinforcement Ring with Hook*": "nein (grau)",
+     "Original M.E.Müller Roof Reinforcement Ring": "nein (grau)",
+     "Wagner Reinforcement Cage": "nein (grau)",
+     "ZCA Cage": "ja",
+     "ZCA Roof Ring": "ja",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    }
+   ],
+   "legende": "ja = Häkchen; nein (grau) = graues Feld. * „Formerly commercialized under the name Ganz Ring“. Keine Größen, kein Kopf-Ø. „Low Profile PE / DURASUL / METASUL cup“ und „Full Profile PE cup“ exakt so gedruckt, getrennte Produkte; „Flachprofil“ kommt nicht vor – Identität offen."
+  },
+  "ZB_C3_Schrauben": {
+   "titel": "C3 Acetabular Bone Screw Combinations – relevante Schalen",
+   "quelle": "zb_c3",
+   "seite": "1 / PDF 1",
+   "zeilen": [
+    {
+     "schale": "ALLOFIT-S IT Alloclassic Shell (8755)",
+     "komponente": "zb.allofit_s_it",
+     "a Bone Screw, Self-tapping, 4.5mm 00-6250-045-xx": "nein (grau)",
+     "b Bone Screw, Self-Tapping, 6.5mm 00-6250-065-xx": "ja",
+     "c Cancellous Bone Screw 02.03147.020/110 P-100": "nein (grau)",
+     "d Cancellous Screw 02.06000.015/070": "nein (grau)",
+     "e Cancellous Screw Universal 14.00.015/060": "nein (grau)",
+     "f Countersunk Cancellous Bone Screw 01.00118.015/070 P-64": "nein (grau)",
+     "g Countersunk Cancellous Bone Screw 42.19.15/70 P-100": "nein (grau)",
+     "h Countersunk Cancellous Bone Screw 4301-07-015/080": "ja",
+     "i HGP II, 4.5mm Bone Screws 00-6624-045-xx": "nein (grau)",
+     "j HGP II, 6.5mm Bone Screws 00-6624-065-xx": "nein (grau)",
+     "k Novafit Cancellous Screw 41.14.27/40": "nein (grau)",
+     "l Peripheral Bone Screw 5.0 00-7250-050-20/65": "nein (grau)",
+     "m Self-Tapping Cancellous Bone Screw 6301-07-015/080": "nein (grau)",
+     "n Stabilizing Nails 1194/1197": "nein (grau)",
+     "o Biomet Low Profile Self-Tapping Bone Screws 1035-30/39-00": "nein (grau)",
+     "sicherheit": "belegt (Original, 2 Prüfer)"
+    },
+    {
+     "schale": "ALLOFIT-S Alloclassic Shell",
+     "komponente": "zb.allofit_s",
+     "a Bone Screw, Self-tapping, 4.5mm 00-6250-045-xx": "nein (grau)",
+     "b Bone Screw, Self-Tapping, 6.5mm 00-6250-065-xx": "ja",
+     "c Cancellous Bone Screw 02.03147.020/110 P-100": "nein (grau)",
+     "d Cancellous Screw 02.06000.015/070": "ja",
+     "e Cancellous Screw Universal 14.00.015/060": "nein (grau)",
+     "f Countersunk Cancellous Bone Screw 01.00118.015/070 P-64": "nein (grau)",
+     "g Countersunk Cancellous Bone Screw 42.19.15/70 P-100": "nein (grau)",
+     "h Countersunk Cancellous Bone Screw 4301-07-015/080": "ja",
+     "i HGP II, 4.5mm Bone Screws 00-6624-045-xx": "nein (grau)",
+     "j HGP II, 6.5mm Bone Screws 00-6624-065-xx": "nein (grau)",
+     "k Novafit Cancellous Screw 41.14.27/40": "nein (grau)",
+     "l Peripheral Bone Screw 5.0 00-7250-050-20/65": "nein (grau)",
+     "m Self-Tapping Cancellous Bone Screw 6301-07-015/080": "ja",
+     "n Stabilizing Nails 1194/1197": "nein (grau)",
+     "o Biomet Low Profile Self-Tapping Bone Screws 1035-30/39-00": "nein (grau)",
+     "sicherheit": "belegt (Original, 2 Prüfer)"
+    },
+    {
+     "schale": "FITMORE shell",
+     "komponente": "–",
+     "a Bone Screw, Self-tapping, 4.5mm 00-6250-045-xx": "nein (grau)",
+     "b Bone Screw, Self-Tapping, 6.5mm 00-6250-065-xx": "nein (grau)",
+     "c Cancellous Bone Screw 02.03147.020/110 P-100": "nein (grau)",
+     "d Cancellous Screw 02.06000.015/070": "ja",
+     "e Cancellous Screw Universal 14.00.015/060": "nein (grau)",
+     "f Countersunk Cancellous Bone Screw 01.00118.015/070 P-64": "ja",
+     "g Countersunk Cancellous Bone Screw 42.19.15/70 P-100": "ja",
+     "h Countersunk Cancellous Bone Screw 4301-07-015/080": "nein (grau)",
+     "i HGP II, 4.5mm Bone Screws 00-6624-045-xx": "nein (grau)",
+     "j HGP II, 6.5mm Bone Screws 00-6624-065-xx": "nein (grau)",
+     "k Novafit Cancellous Screw 41.14.27/40": "nein (grau)",
+     "l Peripheral Bone Screw 5.0 00-7250-050-20/65": "nein (grau)",
+     "m Self-Tapping Cancellous Bone Screw 6301-07-015/080": "nein (grau)",
+     "n Stabilizing Nails 1194/1197": "nein (grau)",
+     "o Biomet Low Profile Self-Tapping Bone Screws 1035-30/39-00": "nein (grau)",
+     "sicherheit": "belegt (Original, 1 Prüfer)"
+    }
+   ],
+   "legende": "ja = Häkchen; nein (grau). ALLOFIT und ALLOFIT IT (ohne „-S“) haben keine eigene Zeile. REF-Bereiche (015/070 usw.) so gedruckt, keine Längentabelle. Fußnoten: „* Formerly commercialized under the name “Ganz Ring”“, „** Available on in Japan“ (ohne sichtbare Marke)."
   }
  },
  "passt_zu": [
@@ -597,12 +3435,571 @@
    "tabelle": "G7_PE"
   },
   {
+   "von": "zb.alloclassic",
+   "zu": "zb.kopf.keramik_80260",
+   "status": "ja",
+   "bedingung": "Häkchen in beiden Spalten (−3.5…+3.5, +7) für alle Zeilen dieses Schafts (Zeilen SL HA/Variall nur 1 Prüfer); Kopf-Ø/Einzel-REF nicht im Chart; Markt separat prüfen",
+   "quelle": "zb_keramik_2020",
+   "seite": "S. 1",
+   "tabelle": "ZB_Keramik_12_14"
+  },
+  {
+   "von": "zb.alloclassic",
+   "zu": "zb.kopf.select_keramik_80300",
+   "status": "ja",
+   "bedingung": "Häkchen in beiden SELECT-Spalten (−6…+3.5, +7) mit 12/14 Taper Adaptor (Zeilen SL HA/Variall nur 1 Prüfer); Markt separat prüfen",
+   "quelle": "zb_keramik_2020",
+   "seite": "S. 1",
+   "tabelle": "ZB_Keramik_12_14"
+  },
+  {
+   "von": "zb.avenir.zementfrei",
+   "zu": "zb.kopf.keramik_80260",
+   "status": "ja",
+   "bedingung": "Häkchen in beiden Spalten (−3.5…+3.5, +7) für alle Zeilen dieses Schafts; Kopf-Ø/Einzel-REF nicht im Chart; Markt separat prüfen",
+   "quelle": "zb_keramik_2020",
+   "seite": "S. 2",
+   "tabelle": "ZB_Keramik_12_14"
+  },
+  {
+   "von": "zb.avenir.zementfrei",
+   "zu": "zb.kopf.select_keramik_80300",
+   "status": "ja",
+   "bedingung": "Häkchen in beiden SELECT-Spalten (−6…+3.5, +7) mit 12/14 Taper Adaptor; Markt separat prüfen",
+   "quelle": "zb_keramik_2020",
+   "seite": "S. 2",
+   "tabelle": "ZB_Keramik_12_14"
+  },
+  {
+   "von": "zb.avenir.zementiert",
+   "zu": "zb.kopf.keramik_80260",
+   "status": "ja",
+   "bedingung": "Häkchen in beiden Spalten (−3.5…+3.5, +7) für alle Zeilen dieses Schafts; Kopf-Ø/Einzel-REF nicht im Chart; Markt separat prüfen",
+   "quelle": "zb_keramik_2020",
+   "seite": "S. 2",
+   "tabelle": "ZB_Keramik_12_14"
+  },
+  {
+   "von": "zb.avenir.zementiert",
+   "zu": "zb.kopf.select_keramik_80300",
+   "status": "ja",
+   "bedingung": "Häkchen in beiden SELECT-Spalten (−6…+3.5, +7) mit 12/14 Taper Adaptor; Markt separat prüfen",
+   "quelle": "zb_keramik_2020",
+   "seite": "S. 2",
+   "tabelle": "ZB_Keramik_12_14"
+  },
+  {
+   "von": "zb.cls_spotorno",
+   "zu": "zb.kopf.keramik_80260",
+   "status": "ja",
+   "bedingung": "Häkchen in beiden Spalten (−3.5…+3.5, +7) für alle Zeilen dieses Schafts; Kopf-Ø/Einzel-REF nicht im Chart; Markt separat prüfen",
+   "quelle": "zb_keramik_2020",
+   "seite": "S. 2",
+   "tabelle": "ZB_Keramik_12_14"
+  },
+  {
+   "von": "zb.cls_spotorno",
+   "zu": "zb.kopf.select_keramik_80300",
+   "status": "ja",
+   "bedingung": "Häkchen in beiden SELECT-Spalten (−6…+3.5, +7) mit 12/14 Taper Adaptor; Markt separat prüfen",
+   "quelle": "zb_keramik_2020",
+   "seite": "S. 2",
+   "tabelle": "ZB_Keramik_12_14"
+  },
+  {
+   "von": "zb.fitmore",
+   "zu": "zb.kopf.keramik_80260",
+   "status": "ja",
+   "bedingung": "Häkchen in beiden Spalten (−3.5…+3.5, +7) für alle Zeilen dieses Schafts; Kopf-Ø/Einzel-REF nicht im Chart; Markt separat prüfen",
+   "quelle": "zb_keramik_2020",
+   "seite": "S. 3",
+   "tabelle": "ZB_Keramik_12_14"
+  },
+  {
+   "von": "zb.fitmore",
+   "zu": "zb.kopf.select_keramik_80300",
+   "status": "ja",
+   "bedingung": "Häkchen in beiden SELECT-Spalten (−6…+3.5, +7) mit 12/14 Taper Adaptor; Markt separat prüfen",
+   "quelle": "zb_keramik_2020",
+   "seite": "S. 3",
+   "tabelle": "ZB_Keramik_12_14"
+  },
+  {
    "von": "zb.ms30",
-   "zu": "zb.duokopf.bipolar",
+   "zu": "zb.kopf.keramik_80260",
+   "status": "ja",
+   "bedingung": "Häkchen in beiden Spalten (−3.5…+3.5, +7) für alle Zeilen dieses Schafts; Kopf-Ø/Einzel-REF nicht im Chart; Markt separat prüfen",
+   "quelle": "zb_keramik_2020",
+   "seite": "S. 4",
+   "tabelle": "ZB_Keramik_12_14"
+  },
+  {
+   "von": "zb.ms30",
+   "zu": "zb.kopf.select_keramik_80300",
+   "status": "ja",
+   "bedingung": "Häkchen in beiden SELECT-Spalten (−6…+3.5, +7) mit 12/14 Taper Adaptor; Markt separat prüfen",
+   "quelle": "zb_keramik_2020",
+   "seite": "S. 4",
+   "tabelle": "ZB_Keramik_12_14"
+  },
+  {
+   "von": "zb.original_mueller",
+   "zu": "zb.kopf.keramik_80260",
+   "status": "ja",
+   "bedingung": "Häkchen in beiden Spalten (−3.5…+3.5, +7) für alle Zeilen dieses Schafts; Kopf-Ø/Einzel-REF nicht im Chart; Markt separat prüfen",
+   "quelle": "zb_keramik_2020",
+   "seite": "S. 5",
+   "tabelle": "ZB_Keramik_12_14"
+  },
+  {
+   "von": "zb.original_mueller",
+   "zu": "zb.kopf.select_keramik_80300",
+   "status": "ja",
+   "bedingung": "Häkchen in beiden SELECT-Spalten (−6…+3.5, +7) mit 12/14 Taper Adaptor; Markt separat prüfen",
+   "quelle": "zb_keramik_2020",
+   "seite": "S. 5",
+   "tabelle": "ZB_Keramik_12_14"
+  },
+  {
+   "von": "zb.alloclassic",
+   "zu": "zb.kopf.cocr",
    "status": "bedingt",
-   "bedingung": "AP 1946/1989 markiert; innere Kopfgröße, Kopf-Schaft-Paar und EU-IFU noch prüfen",
+   "bedingung": "nur Halslängen −3.5…+3.5 und +7; +10.5 grau = nicht bewertet oder nicht kompatibel",
+   "quelle": "zb_cocr_2020",
+   "seite": "S. 1",
+   "tabelle": "ZB_CoCr_Freedom_12_14"
+  },
+  {
+   "von": "zb.alloclassic",
+   "zu": "zb.kopf.freedom_80240",
+   "status": "bedingt",
+   "bedingung": "nur −6…+3 und +6; +9 grau; Artikulation nur mit Freedom-Pfannen/-Linern laut S. 11–12",
+   "quelle": "zb_cocr_2020",
+   "seite": "S. 1",
+   "tabelle": "ZB_CoCr_Freedom_12_14"
+  },
+  {
+   "von": "zb.avenir.zementfrei",
+   "zu": "zb.kopf.cocr",
+   "status": "ja",
+   "bedingung": "Häkchen −3.5…+3.5, +7 und +10.5",
+   "quelle": "zb_cocr_2020",
+   "seite": "S. 2",
+   "tabelle": "ZB_CoCr_Freedom_12_14"
+  },
+  {
+   "von": "zb.avenir.zementfrei",
+   "zu": "zb.kopf.freedom_80240",
+   "status": "ja",
+   "bedingung": "Häkchen −6…+3, +6 und +9; Artikulation nur mit Freedom-Pfannen/-Linern laut S. 11–12",
+   "quelle": "zb_cocr_2020",
+   "seite": "S. 2",
+   "tabelle": "ZB_CoCr_Freedom_12_14"
+  },
+  {
+   "von": "zb.avenir.zementiert",
+   "zu": "zb.kopf.cocr",
+   "status": "ja",
+   "bedingung": "Häkchen −3.5…+3.5, +7 und +10.5",
+   "quelle": "zb_cocr_2020",
+   "seite": "S. 2",
+   "tabelle": "ZB_CoCr_Freedom_12_14"
+  },
+  {
+   "von": "zb.avenir.zementiert",
+   "zu": "zb.kopf.freedom_80240",
+   "status": "ja",
+   "bedingung": "Häkchen −6…+3, +6 und +9; Artikulation nur mit Freedom-Pfannen/-Linern laut S. 11–12",
+   "quelle": "zb_cocr_2020",
+   "seite": "S. 2",
+   "tabelle": "ZB_CoCr_Freedom_12_14"
+  },
+  {
+   "von": "zb.cls_spotorno",
+   "zu": "zb.kopf.cocr",
+   "status": "bedingt",
+   "bedingung": "nur Halslängen −3.5…+3.5 und +7; +10.5 grau = nicht bewertet oder nicht kompatibel",
+   "quelle": "zb_cocr_2020",
+   "seite": "S. 2",
+   "tabelle": "ZB_CoCr_Freedom_12_14"
+  },
+  {
+   "von": "zb.cls_spotorno",
+   "zu": "zb.kopf.freedom_80240",
+   "status": "bedingt",
+   "bedingung": "nur −6…+3 und +6; +9 grau; Artikulation nur mit Freedom-Pfannen/-Linern laut S. 11–12",
+   "quelle": "zb_cocr_2020",
+   "seite": "S. 2",
+   "tabelle": "ZB_CoCr_Freedom_12_14"
+  },
+  {
+   "von": "zb.fitmore",
+   "zu": "zb.kopf.cocr",
+   "status": "ja",
+   "bedingung": "Häkchen −3.5…+3.5, +7 und +10.5",
+   "quelle": "zb_cocr_2020",
+   "seite": "S. 3",
+   "tabelle": "ZB_CoCr_Freedom_12_14"
+  },
+  {
+   "von": "zb.fitmore",
+   "zu": "zb.kopf.freedom_80240",
+   "status": "ja",
+   "bedingung": "Häkchen −6…+3, +6 und +9; Artikulation nur mit Freedom-Pfannen/-Linern laut S. 11–12",
+   "quelle": "zb_cocr_2020",
+   "seite": "S. 3",
+   "tabelle": "ZB_CoCr_Freedom_12_14"
+  },
+  {
+   "von": "zb.ms30",
+   "zu": "zb.kopf.cocr",
+   "status": "bedingt",
+   "bedingung": "nur Halslängen −3.5…+3.5 und +7; +10.5 grau = nicht bewertet oder nicht kompatibel",
+   "quelle": "zb_cocr_2020",
+   "seite": "S. 4",
+   "tabelle": "ZB_CoCr_Freedom_12_14"
+  },
+  {
+   "von": "zb.ms30",
+   "zu": "zb.kopf.freedom_80240",
+   "status": "bedingt",
+   "bedingung": "nur −6…+3 und +6; +9 grau; Artikulation nur mit Freedom-Pfannen/-Linern laut S. 11–12",
+   "quelle": "zb_cocr_2020",
+   "seite": "S. 4",
+   "tabelle": "ZB_CoCr_Freedom_12_14"
+  },
+  {
+   "von": "zb.original_mueller",
+   "zu": "zb.kopf.cocr",
+   "status": "bedingt",
+   "bedingung": "nur Halslängen −3.5…+3.5 und +7; +10.5 grau = nicht bewertet oder nicht kompatibel",
+   "quelle": "zb_cocr_2020",
+   "seite": "S. 4",
+   "tabelle": "ZB_CoCr_Freedom_12_14"
+  },
+  {
+   "von": "zb.original_mueller",
+   "zu": "zb.kopf.freedom_80240",
+   "status": "bedingt",
+   "bedingung": "nur −6…+3 und +6; +9 grau; Artikulation nur mit Freedom-Pfannen/-Linern laut S. 11–12",
+   "quelle": "zb_cocr_2020",
+   "seite": "S. 4",
+   "tabelle": "ZB_CoCr_Freedom_12_14"
+  },
+  {
+   "von": "zb.alloclassic",
+   "zu": "zb.duokopf.bipolar_ap",
+   "status": "bedingt",
+   "bedingung": "B1 ✓ für Zeilen ALLOCLASSIC SLA/SL-64, SLL-Revision, ALLOCLASSIC stem, VARIALL SLV – welche Zeile für SL/SL Offset gilt, nicht gesagt. Fußnote 2 (bis Größe 56) gilt laut Wortlaut für Bipolar heads 4404-/4405-22/26-XXX bei SLA/SL-64 und ALLOCLASSIC stem (Gr. 01–6). Fußnote 1: Artikulations- und Kopf/Schaft-Tabelle zusätzlich",
    "quelle": "bipolar",
-   "seite": "PDF 2"
+   "seite": "S. 1",
+   "tabelle": "ZB_Uni_Bipolar"
+  },
+  {
+   "von": "zb.avenir.zementfrei",
+   "zu": "zb.duokopf.bipolar_ap",
+   "status": "bedingt",
+   "bedingung": "B1 ✓; aber Avenir zementfrei laut 4034.2 nur Totalarthroplastik – kein Hemi-Nachweis; Fußnote 1 zusätzlich",
+   "quelle": "bipolar",
+   "seite": "S. 1",
+   "tabelle": "ZB_Uni_Bipolar"
+  },
+  {
+   "von": "zb.avenir.zementiert",
+   "zu": "zb.duokopf.bipolar_ap",
+   "status": "nein",
+   "bedingung": "B1 grau = „Combination is not approved by Zimmer, Inc.“ (andere Bipolarspalten B2, B5–B8 siehe Tabelle)",
+   "quelle": "bipolar",
+   "seite": "S. 1",
+   "tabelle": "ZB_Uni_Bipolar"
+  },
+  {
+   "von": "zb.cls_spotorno",
+   "zu": "zb.duokopf.bipolar_ap",
+   "status": "bedingt",
+   "bedingung": "B1 ✓; Fußnote 1: Artikulations- und Kopf/Schaft-Tabelle zusätzlich; Innenkopf nicht angegeben",
+   "quelle": "bipolar",
+   "seite": "S. 1",
+   "tabelle": "ZB_Uni_Bipolar"
+  },
+  {
+   "von": "zb.fitmore",
+   "zu": "zb.duokopf.bipolar_ap",
+   "status": "bedingt",
+   "bedingung": "B1 ✓; Fußnote 1 zusätzlich; Innenkopf nicht angegeben",
+   "quelle": "bipolar",
+   "seite": "S. 1",
+   "tabelle": "ZB_Uni_Bipolar"
+  },
+  {
+   "von": "zb.ms30",
+   "zu": "zb.duokopf.bipolar_ap",
+   "status": "bedingt",
+   "bedingung": "B1 ✓ (Multipolar B8 grau); Fußnote 1 zusätzlich; Innenkopf, Kopf-Schaft-Paar und EU-IFU prüfen",
+   "quelle": "bipolar",
+   "seite": "S. 2",
+   "tabelle": "ZB_Uni_Bipolar"
+  },
+  {
+   "von": "zb.original_mueller",
+   "zu": "zb.duokopf.bipolar_ap",
+   "status": "bedingt",
+   "bedingung": "B1 ✓ für PROTASUL-10, -S30 und -S30 (monoblock); Fußnote 1 zusätzlich",
+   "quelle": "bipolar",
+   "seite": "S. 2",
+   "tabelle": "ZB_Uni_Bipolar"
+  },
+  {
+   "von": "zb.allofit",
+   "zu": "zb.inlay.alpha_cerasul",
+   "status": "ja",
+   "bedingung": "Schalenverriegelung laut C1 (ALLOFIT Shell); Kopf-Ø separat über Kopf×Inlay-Tabelle",
+   "quelle": "liners",
+   "seite": "S. 1",
+   "tabelle": "ZB_C1_Liner_Schale"
+  },
+  {
+   "von": "zb.allofit_it",
+   "zu": "zb.inlay.alpha_cerasul",
+   "status": "nein",
+   "bedingung": "C1: grau für ALLOFIT IT Acetabular Cup (8755)",
+   "quelle": "liners",
+   "seite": "S. 1",
+   "tabelle": "ZB_C1_Liner_Schale"
+  },
+  {
+   "von": "zb.allofit",
+   "zu": "zb.inlay.alpha_durasul",
+   "status": "ja",
+   "bedingung": "Schalenverriegelung laut C1 (ALLOFIT Shell); Kopf-Ø separat über Kopf×Inlay-Tabelle",
+   "quelle": "liners",
+   "seite": "S. 1",
+   "tabelle": "ZB_C1_Liner_Schale"
+  },
+  {
+   "von": "zb.allofit_it",
+   "zu": "zb.inlay.alpha_durasul",
+   "status": "nein",
+   "bedingung": "C1: grau für ALLOFIT IT Acetabular Cup (8755)",
+   "quelle": "liners",
+   "seite": "S. 1",
+   "tabelle": "ZB_C1_Liner_Schale"
+  },
+  {
+   "von": "zb.allofit",
+   "zu": "zb.inlay.alpha_metasul",
+   "status": "ja",
+   "bedingung": "Schalenverriegelung laut C1 (ALLOFIT Shell); Kopf-Ø separat über Kopf×Inlay-Tabelle",
+   "quelle": "liners",
+   "seite": "S. 1",
+   "tabelle": "ZB_C1_Liner_Schale"
+  },
+  {
+   "von": "zb.allofit_it",
+   "zu": "zb.inlay.alpha_metasul",
+   "status": "nein",
+   "bedingung": "C1: grau für ALLOFIT IT Acetabular Cup (8755)",
+   "quelle": "liners",
+   "seite": "S. 1",
+   "tabelle": "ZB_C1_Liner_Schale"
+  },
+  {
+   "von": "zb.allofit",
+   "zu": "zb.inlay.alpha_pe",
+   "status": "ja",
+   "bedingung": "Schalenverriegelung laut C1 (ALLOFIT Shell); Kopf-Ø separat über Kopf×Inlay-Tabelle",
+   "quelle": "liners",
+   "seite": "S. 1",
+   "tabelle": "ZB_C1_Liner_Schale"
+  },
+  {
+   "von": "zb.allofit_it",
+   "zu": "zb.inlay.alpha_pe",
+   "status": "nein",
+   "bedingung": "C1: grau für ALLOFIT IT Acetabular Cup (8755)",
+   "quelle": "liners",
+   "seite": "S. 1",
+   "tabelle": "ZB_C1_Liner_Schale"
+  },
+  {
+   "von": "zb.allofit",
+   "zu": "zb.inlay.standard_metasul",
+   "status": "ja",
+   "bedingung": "Schalenverriegelung laut C1 (ALLOFIT Shell); Kopf-Ø separat über Kopf×Inlay-Tabelle",
+   "quelle": "liners",
+   "seite": "S. 1",
+   "tabelle": "ZB_C1_Liner_Schale"
+  },
+  {
+   "von": "zb.allofit_it",
+   "zu": "zb.inlay.standard_metasul",
+   "status": "nein",
+   "bedingung": "C1: grau für ALLOFIT IT Acetabular Cup (8755)",
+   "quelle": "liners",
+   "seite": "S. 1",
+   "tabelle": "ZB_C1_Liner_Schale"
+  },
+  {
+   "von": "zb.allofit",
+   "zu": "zb.inlay.standard_pe",
+   "status": "ja",
+   "bedingung": "Schalenverriegelung laut C1 (ALLOFIT Shell); Kopf-Ø separat über Kopf×Inlay-Tabelle",
+   "quelle": "liners",
+   "seite": "S. 1",
+   "tabelle": "ZB_C1_Liner_Schale"
+  },
+  {
+   "von": "zb.allofit_it",
+   "zu": "zb.inlay.standard_pe",
+   "status": "nein",
+   "bedingung": "C1: grau für ALLOFIT IT Acetabular Cup (8755)",
+   "quelle": "liners",
+   "seite": "S. 1",
+   "tabelle": "ZB_C1_Liner_Schale"
+  },
+  {
+   "von": "zb.allofit_it",
+   "zu": "zb.inlay.biolox_delta_taper_8775",
+   "status": "ja",
+   "bedingung": "Schalenverriegelung laut C1 (ALLOFIT IT Acetabular Cup (8755)); 8775 laut Fußnote nicht in den USA erhältlich; Kopf-Ø separat",
+   "quelle": "liners",
+   "seite": "S. 1",
+   "tabelle": "ZB_C1_Liner_Schale"
+  },
+  {
+   "von": "zb.allofit",
+   "zu": "zb.inlay.biolox_delta_taper_8775",
+   "status": "nein",
+   "bedingung": "C1: grau für ALLOFIT Shell",
+   "quelle": "liners",
+   "seite": "S. 1",
+   "tabelle": "ZB_C1_Liner_Schale"
+  },
+  {
+   "von": "zb.allofit_it",
+   "zu": "zb.inlay.longevity_it",
+   "status": "ja",
+   "bedingung": "Schalenverriegelung laut C1 (ALLOFIT IT Acetabular Cup (8755)); Kopf-Ø separat",
+   "quelle": "liners",
+   "seite": "S. 1",
+   "tabelle": "ZB_C1_Liner_Schale"
+  },
+  {
+   "von": "zb.allofit",
+   "zu": "zb.inlay.longevity_it",
+   "status": "nein",
+   "bedingung": "C1: grau für ALLOFIT Shell",
+   "quelle": "liners",
+   "seite": "S. 1",
+   "tabelle": "ZB_C1_Liner_Schale"
+  },
+  {
+   "von": "zb.allofit_it",
+   "zu": "zb.inlay.metasul_taper_8770",
+   "status": "ja",
+   "bedingung": "Schalenverriegelung laut C1 (ALLOFIT IT Acetabular Cup (8755)); Kopf-Ø separat",
+   "quelle": "liners",
+   "seite": "S. 1",
+   "tabelle": "ZB_C1_Liner_Schale"
+  },
+  {
+   "von": "zb.allofit",
+   "zu": "zb.inlay.metasul_taper_8770",
+   "status": "nein",
+   "bedingung": "C1: grau für ALLOFIT Shell",
+   "quelle": "liners",
+   "seite": "S. 1",
+   "tabelle": "ZB_C1_Liner_Schale"
+  },
+  {
+   "von": "zb.allofit_it",
+   "zu": "zb.inlay.vivacit_e",
+   "status": "ja",
+   "bedingung": "Schalenverriegelung laut C1 (ALLOFIT IT Acetabular Cup (8755)); Kopf-Ø separat",
+   "quelle": "liners",
+   "seite": "S. 1",
+   "tabelle": "ZB_C1_Liner_Schale"
+  },
+  {
+   "von": "zb.allofit",
+   "zu": "zb.inlay.vivacit_e",
+   "status": "nein",
+   "bedingung": "C1: grau für ALLOFIT Shell",
+   "quelle": "liners",
+   "seite": "S. 1",
+   "tabelle": "ZB_C1_Liner_Schale"
+  },
+  {
+   "von": "zb.allofit_s",
+   "zu": "zb.schraube.00_6250_065",
+   "status": "ja",
+   "bedingung": "C3: Häkchen bei ALLOFIT-S Alloclassic Shell",
+   "quelle": "zb_c3",
+   "seite": "S. 1",
+   "tabelle": "ZB_C3_Schrauben"
+  },
+  {
+   "von": "zb.allofit_s_it",
+   "zu": "zb.schraube.00_6250_065",
+   "status": "ja",
+   "bedingung": "C3: Häkchen bei ALLOFIT-S IT Alloclassic Shell (8755)",
+   "quelle": "zb_c3",
+   "seite": "S. 1",
+   "tabelle": "ZB_C3_Schrauben"
+  },
+  {
+   "von": "zb.allofit_s",
+   "zu": "zb.schraube.4301_07",
+   "status": "ja",
+   "bedingung": "C3: Häkchen bei ALLOFIT-S Alloclassic Shell",
+   "quelle": "zb_c3",
+   "seite": "S. 1",
+   "tabelle": "ZB_C3_Schrauben"
+  },
+  {
+   "von": "zb.allofit_s_it",
+   "zu": "zb.schraube.4301_07",
+   "status": "ja",
+   "bedingung": "C3: Häkchen bei ALLOFIT-S IT Alloclassic Shell (8755)",
+   "quelle": "zb_c3",
+   "seite": "S. 1",
+   "tabelle": "ZB_C3_Schrauben"
+  },
+  {
+   "von": "zb.allofit_s",
+   "zu": "zb.schraube.02_06000",
+   "status": "ja",
+   "bedingung": "C3: Häkchen bei ALLOFIT-S Alloclassic Shell",
+   "quelle": "zb_c3",
+   "seite": "S. 1",
+   "tabelle": "ZB_C3_Schrauben"
+  },
+  {
+   "von": "zb.allofit_s_it",
+   "zu": "zb.schraube.02_06000",
+   "status": "nein",
+   "bedingung": "C3: grau bei ALLOFIT-S IT Alloclassic Shell (8755)",
+   "quelle": "zb_c3",
+   "seite": "S. 1",
+   "tabelle": "ZB_C3_Schrauben"
+  },
+  {
+   "von": "zb.allofit_s",
+   "zu": "zb.schraube.6301_07",
+   "status": "ja",
+   "bedingung": "C3: Häkchen bei ALLOFIT-S Alloclassic Shell",
+   "quelle": "zb_c3",
+   "seite": "S. 1",
+   "tabelle": "ZB_C3_Schrauben"
+  },
+  {
+   "von": "zb.allofit_s_it",
+   "zu": "zb.schraube.6301_07",
+   "status": "nein",
+   "bedingung": "C3: grau bei ALLOFIT-S IT Alloclassic Shell (8755)",
+   "quelle": "zb_c3",
+   "seite": "S. 1",
+   "tabelle": "ZB_C3_Schrauben"
   }
  ],
  "regeln": [
@@ -623,6 +4020,24 @@
    "pruefe": "nach Keramikbruch",
    "text": "Nach Keramikbruch keine Metallkopf-Gleitpaarung der betroffenen Liste verwenden (Hersteller nennt Keramik/Keramik oder Keramik/PE).",
    "quelle": "FA2016-10"
+  },
+  {
+   "wenn": "kopf",
+   "pruefe": "Halslänge je Chart-Spalte",
+   "text": "Kopf-Freigabe gilt je Halslängen-Spalte: CoCr +10.5 und Freedom +9 sind bei Alloclassic, CLS, MS-30 und Original Müller grau (nicht bewertet/nicht kompatibel) – nur −3.5…+7 bzw. −6…+6 verwenden.",
+   "quelle": "zb_cocr_2020 S. 1–4"
+  },
+  {
+   "wenn": "duokopf",
+   "pruefe": "Schaftzeile + Indikation",
+   "text": "Bipolar (AP) 1946/1989 nur bei ✓-Schaftzeile; Avenir Cemented und Avenir Complete grau. ✓ ersetzt nicht die Hemi-Indikation des Schafts (Avenir zementfrei nur TEP) und nicht Fußnote 1 (Artikulations- + Kopf/Schaft-Tabelle).",
+   "quelle": "bipolar S. 1–2; avenir_4034 PDF 2–3"
+  },
+  {
+   "wenn": "pfanne+inlay",
+   "pruefe": "exakte Schalenzeile",
+   "text": "Allofit, Allofit IT, Allofit-S und Allofit-S IT getrennt: Liner nur laut C1-Zeile, Schrauben nur laut C3-Zeile; keine Übertragung IT↔Nicht-IT oder S↔ohne S.",
+   "quelle": "liners S. 1; zb_c3 S. 1"
   }
  ],
  "rueckrufe": [
@@ -633,7 +4048,7 @@
    "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/EN/11/2019/10144-19_kundeninfo_en.pdf?__blob=publicationFile",
    "hinweis": "nur diese Chargen; keine pauschale Allofit-Sperre",
    "betrifft": [
-    "zb.allofit"
+    "zb.allofit_s"
    ],
    "markt": "EU/DE"
   },
@@ -642,8 +4057,10 @@
    "behoerde": "BfArM",
    "kennung": "ZFA2018-00572 / FA2018-06 (13742-18), 31.10.2018",
    "url": "https://www.bfarm.de/SharedDocs/Kundeninfos/DE/11/2018/13742-18_kundeninfo_de.pdf?__blob=publicationFile",
-   "hinweis": "nicht Avenir Complete oder alle Avenir",
-   "betrifft": [],
+   "hinweis": "nicht Avenir Complete oder alle Avenir; REF 01.06010.001 = Avenir Müller Standard Größe 1 (zementfrei laut Schablone 4034.2 S. 5)",
+   "betrifft": [
+    "zb.avenir.zementfrei"
+   ],
    "markt": "EU/DE"
   },
   {
@@ -668,14 +4085,17 @@
   }
  ],
  "offen": [
-  "Avenir (nicht Complete), CLS, Alloclassic, Allofit/Allofit-S: aktuelle EU-Größen/REF/Liner-Tabellen (Modular Liners and Cups 05/2019 lesen)",
-  "M.E.M. Geradschaft und Flachprofil: Dokumente",
-  "Kopf-REF/Ø/Offset je Schaft aus Charts",
-  "Bipolarkopf: Innenkopf und EU-IFU",
-  "Fitmore B Extended Gr. 12 Offset",
-  "Implantat-REF (außer MS-30)"
+  "Avenir: EU-Bestellblatt 0885 (OUS) – EU-REF Größen 2–9 bestätigen (bisher nur US-GUDID); Maße (Offset, Länge, CCD je Größe)",
+  "CLS Spotorno, Alloclassic (SL/SL Offset/SLL/Variall), Allofit/Allofit IT/Allofit-S/Allofit-S IT: EU-Größen/Einzel-REF (Charts nennen nur REF-Muster)",
+  "M.E.M. Geradschaft: Dokument; Identität mit „Original Müller Straight stem“ ungeklärt",
+  "„Flachprofil“: welche C2-Pfanne (Low Profile PE/DURASUL/METASUL oder Full Profile PE) – Dokument/Etikett der Klinik",
+  "Kopf-Einzel-REF und Ø je Schaft (Charts liefern nur Familien 80260/80300/80220/80240 und Halslängengruppen); BIOLOX delta/OPTION-Zuordnung",
+  "Bipolar (AP) 1946/1989: Innenkopf-Ø, Außen-Ø/REF und EU-IFU",
+  "Liner für Allofit-S / Allofit-S IT (keine C1-Zeile); Schrauben für Allofit / Allofit IT ohne „-S“ (keine C3-Zeile)",
+  "Avenir Complete × CoCr/Freedom (keine Zeile in 87-6204-951-00)",
+  "Fitmore B Extended Gr. 12 Offset"
  ],
- "verified_hinweis": "Lauf 001-implantate-dach: Werte von Grok und Astra am Original gelesen (07.10.2026), Änderungsliste von Julian abgenommen. Aufnahme wegen Häufigkeit in DACH (EPRD/SIRIS) – Häufigkeit ist keine Kompatibilitätsfreigabe. Keine EU-IFU gelesen; keine klinische Freigabe.",
+ "verified_hinweis": "Lauf 001-implantate-dach: Werte von Grok und Astra am Original gelesen (07.10.2026), Änderungsliste von Julian abgenommen. Aufnahme wegen Häufigkeit in DACH (EPRD/SIRIS) – Häufigkeit ist keine Kompatibilitätsfreigabe. Keine EU-IFU gelesen; keine klinische Freigabe. Lauf 001-implantate-luecken (07.10.2026): Kopf-Charts 2020, Bipolar-Chart, C1–C3 und Avenir 4034.2 vom Claude-Helfer am Original gelesen und von OpenAI gegengeprüft; Avenir-Größen 2–9 nur aus US-GUDID (kein EU-Nachweis).",
  "region": "hüfte",
  "verified": false,
  "stand_extrakt": "2026-10-07",
@@ -691,6 +4111,12 @@
    "datum": "2026-10-07",
    "lauf": "001-implantate-dach",
    "text": "Neuanlage nach DACH-Ranking (EPRD 2025, SIRIS 2025); Werte nur soweit von Astra am Original bestätigt, Rest offen."
+  },
+  {
+   "version": "1.1",
+   "datum": "2026-10-07",
+   "lauf": "001-implantate-luecken",
+   "text": "Kopf-Charts 87-6204-051-00/-951-00 Rev. 1 als Tabellen je Schaftzeile (graue Zellen als nein), Kopf×Inlay, Uni-/Bipolar-Chart, C1 Liner×Schale, C2 Cup×Cage, C3 Schrauben; Avenir zementfrei/zementiert nach 4034.2 (Material, Indikation, IFU) mit Größen 1–9 + REF (GUDID US, Gr. 1 Schablone); Allofit/Allofit IT/Allofit-S/Allofit-S IT getrennt; neue Komponenten Kopffamilien, Liner, Schrauben, C2-Pfannen, Original Müller, Bipolar AP; bild-Schema je Komponente."
   }
  ]
 }
