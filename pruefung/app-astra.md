@@ -1,3 +1,104 @@
+# 07.10.2026 – Aktuelle Abnahme: Unsere Systeme und physikalisches Implantat-Tablett
+
+**In Kerlect implementiert und als Checkpoint gesichert. Lint und Build grün; 37 gezielte automatisierte Tests bestanden. Vollständiger OP-Lauf mit den produktiven UI-Komponenten im isolierten Browser bestanden. Ein angemeldeter Live-Test gegen echte Gruppen und eigene Systeme steht noch aus. Kein Publish durchgeführt.**
+
+Dieser Abschnitt dokumentiert die aktuelle Fortsetzung und ergänzt/ersetzt die unten archivierten Aussagen zu ihren damaligen offenen Punkten. Frühere Prüfungen bleiben als Historie erhalten.
+
+## Ziel, Quellen und Sicherung
+
+- Ausschließlich Base44-App **Kerlect**, ID **6aa3f64b0b23cc244ce7686d**, bearbeitet. Keine Kopie oder andere App verändert.
+- Vor Änderungen Checkpoint **6ac6933c0ae177727e17fe34**, Commit `8e1623fddc0412b6a1caadd4d4ed1aeda3780e3c`.
+- Finaler Checkpoint **6ac6a208ccb5c52ee65008ea**, „Finale Abnahme: sofortiges Tablett, fehlerfreie Kopfanimation, Lint und Build grün“, Commit `650397cf67b1cbfa0c2f80c0f0088cb0f3a6270b`.
+- Vollständig gelesen: `app/hueft-implantat-auswahl.md`, einschließlich Einbauort, Filter-Logik, spielerischer Bedienung, Klinik-Auswahl, System im Standard/eigene Systeme und Abnahme. Prototyp-HTML, Screens 1–9 und Ablaufvideo als Referenz geprüft.
+- Daten geladen aus `implantate/*.json`, `implantate/LIESMICH.md`, `implantate/auswahl-dach.md`, `app/implantat-eingriffe.json`, `pruefung/STATUS.json` und dem JSON-Block in `pakete/001-abschluss.md`.
+- Eingebauter Snapshot: Repo-Commit **3b42a27542b2e05774efe918c720246fe7def523**, **11 Herstellerdateien, 97 Komponenten, 239 rohe Größen-/Tabellenzeilen**. 239 bedeutet nicht 239 vollständige, verifizierte REF-Zuordnungen.
+- Keine Patientendaten verwendet, gelesen oder gespeichert. Testgruppen und Testeingaben im Browser waren flüchtige Fixtures.
+
+## Ergebnis
+
+### Klinik-Auswahl und OP-Reihenfolge
+
+„Unsere Systeme“ erlaubt die Auswahl ganzer Herstellerdateien oder einzelner Komponenten. Gespeichert werden ausschließlich bekannte Komponenten-IDs je Datei sowie Datenstand/Commit in `Group.implant_selection`. Neue IDs erscheinen nicht automatisch als Klinikbestand. Ein leerer Bestand bedeutet eine leere Auswahl.
+
+Die Backend-Aktionen `stock-list` und `stock-save` prüfen aktuelle Gruppenmitgliedschaft bzw. Bearbeitungsrecht. Schreiben ist auf Eigentümer/Editoren begrenzt, gegen parallele veraltete Änderungen abgesichert und serverseitig am geladenen Katalog validiert. Die Feldregel verhindert direkte Client-Schreibzugriffe. Bestehende Mitglieder-/Leserechte werden nicht erweitert. Das Group-Schema mit diesem Feld wurde über die Schema-Schnittstelle kontrolliert; eine echte Gruppenänderung wurde für die Abnahme nicht ausgelöst.
+
+Das Tablett zeigt den gewählten Gruppenbestand und berechtigte eigene Systeme dieser Gruppe bzw. private eigene Systeme. Die OP-Schritte und Varianten bleiben datengesteuert. Nach dem vollständigen Ansage-Check und 1,1 Sekunden Halten folgt der nächste Schritt. Datenaktualisierung läuft im Hintergrund; das Öffnen wartet nicht auf einen erneuten Katalogabruf. Ein laufender Durchgang behält seinen Datenstand.
+
+### Datengebundene Filter und Packungsschema
+
+Hersteller-/Dateigrenzen bleiben strikt. Positive Paarungsangaben werden ausschließlich aus `passt_zu` und gebundenen `tabellen` derselben Datei ausgewertet; gleicher Konus oder ein ähnlicher Produktname erzeugen keine Freigabe. Ein belegtes Paar ist keine Freigabe der gesamten Kombination. Nicht dokumentierte Beziehungen bleiben sichtbar als offen/Operateur fragen.
+
+Zusätzlich berücksichtigt werden die konkret vorhandenen Tabellen für Trident/X3, R3, Plasmafit, S+N-Schaft/Kopf und G7-PE. Beispiele der konservativen Auswertung: Trident-† gilt nur für die dokumentierte 0°-Variante; nicht gelistete Ø bleiben offen; G7-PE-Spalten werden nicht auf Keramik/Dual Mobility übertragen; SL-PLUS MIA „01“ wird nicht aus Familienähnlichkeit erweitert. Nicht zuordenbare Tabellen bleiben Quellenhinweise und erzeugen keine neue Zulassung.
+
+Pro Komponente sind Größen-/Variantenzeilen, REF und Quellen-/Seitenangaben aufklappbar. Fehlende Angaben bleiben „noch nicht hinterlegt“. Vorhandene REF werden aus der zugehörigen Datenzeile gelesen, weder berechnet noch aus verkürzten Bestellnummern ergänzt.
+
+Das eigene neutrale Packungsschema zeigt die verfügbaren Angaben und trägt **„Schema – nicht Originaletikett“**. Es enthält kein Herstellerlogo, kein nachgezeichnetes Originaletikett und keinen scannbaren erfundenen UDI. LOT/CE und fehlende Angaben verweisen auf die Originalpackung.
+
+### Physikalische Bedienung
+
+Ziehen verwendet Federbewegung mit Masse, verzögerter Nachführung, Kippen und Auspendeln. Die Bühne zieht passende Teile magnetisch an und markiert das Ziel; beim Einrasten erscheint eine Ring-Welle. Fremde Teile werden rot zurückgewiesen und federn zum Ausgangspunkt zurück. Neues Greifen bzw. Abbrechen unterbricht die Bewegung.
+
+Pfanne dreht ein, Inlay fällt hinein, Schaft und Kopf federn an ihren Platz. Kopfgröße verändert sich federnd; Titan/Poren, rosa Keramik, silbernes CoCr und cremefarbenes PE sind eigene schematische Materialdarstellungen. Kopf-Klick und übrige Rückmeldungen laufen über `src/lib/feel.js`, Federn über die vorhandenen Motion-Vorgaben. Das Größenrad besitzt Trägheit und Ticks. Der Abschluss dreht die fertige Darstellung auslaufend.
+
+Kein Animationsende sperrt den nächsten Eingabeschritt. Ausgehende Seiten werden sofort entfernt, damit schnelle Eingaben nicht alte Bedienelemente treffen. Der 1,1-Sekunden-Halt bleibt die bewusste Bestätigung; vorzeitiges Loslassen bricht ab. `prefers-reduced-motion` setzt Bewegungen unmittelbar ans Ziel. Profiloptionen bestimmen Ton/Vibration; im Test wurde ein isoliertes Tonprofil aktiviert, kein Nutzerprofil geändert.
+
+### Standard, eigene Systeme und Offline
+
+Die vorhandenen Einbauorte im Standard, Abschnitt „Implantate & Medikamente am Tisch“ und OP-Modus bleiben erhalten; kein neuer Menüpunkt. Die Vorschlagslogik berücksichtigt Quell-Systemnamen und bisherige Kurzbezeichnungen. Ein Standard speichert weiterhin nur seine Systemdefinition, keine während der OP gewählte Größe.
+
+Eigene Systeme behalten ihre getrennte, ungeprüfte Kennzeichnung, Rechteprüfung und Freigabewege. Diese bestehenden Wege wurden durch die gezielten Backend-/Interaktionstests abgesichert; Live-Anlage, Foto-Upload und Teilen wurden in dieser Fortsetzung nicht im angemeldeten Browser durchgespielt.
+
+Der bestehende benutzergebundene Offline-Cache bewahrt nur den autorisierten Gruppenbestand zum bereits gespeicherten Standard; Gruppenentzug, Kontowechsel und Abmeldung entfernen diesen Kontext. Laufende OP-Größen werden dadurch nicht dauerhaft gespeichert.
+
+## Abnahme-Liste
+
+| Anforderung | Ergebnis / Nachweis |
+|---|---|
+| Alle 7 Screens mit Quelldaten und Hausauswahl | Implementiert; System/Variante, Übersicht, Komponentenschritte, Ansage-Check, Fehlerkarte und Abschluss im UI-Lauf geprüft. Gestaltung anhand des aktuellen Prototyps. Keine Behauptung pixelgenauer Gleichheit. |
+| Isodur-CoCr bei Stryker nicht wählbar | Browser-Test: gesucht, zur Bühne gezogen, rote Fehlerkarte/Rückprall, keine Übernahme. Im Video. |
+| Fehlende Größen/REF nie erfinden | Modelltests und UI geprüft; fehlende Werte offen, manuelle Etiketteingaben ausdrücklich getrennt. |
+| Steril anreichen nur nach vollständigem Check | Browser: vor vollständigen sechs Haken gesperrt; 250-ms-Halt bricht ab; 1,1-s-Halt führt weiter. |
+| Rückruf-Hinweise LFIT/BIOLOX V40, R3, Vitelene | Datengetriebene Hinweise bleiben erhalten; Zuordnung nach Komponentenbezug, keine pauschale Chargensperre. Modelltests grün. |
+| Ergänzte JSON-Werte ohne Codeänderung | Versionierter Backend-Loader und atomarer Cache; Größen, REF und bekannte Schemafelder werden geladen. Unbekannte zukünftige Regelschemata bleiben offen statt interpretiert zu werden. Loader-/Fallbacktests grün. |
+| Standard speichert nur System | Bestehender Speicherdienst und Tests geprüft; laufende Maße werden nicht angehängt. Live-Speichern nicht neu durchgeführt. |
+| Unsere Systeme an Gruppe/Klinik, nur deren Bestand | Implementiert; UI-Auswahl in isoliertem Browser, Backend-Rechte/Validierung und Cache getestet. Echte Gruppenpersistenz im angemeldeten Live-Test noch offen. |
+| Automatisch nächster Schritt, nur quellgebundene Kombinationen | Vollständige Stryker-OP im Browser; Tabellen-/Dateigrenztests. Unbelegte Kombinationen bleiben ausdrücklich offen. |
+| Größenreihe, REF je Größe, Quelle/Seite | Komponententabelle und Packungsschema aus Daten; fehlende Quellenwerte als fehlend kenntlich. |
+| Schema ohne Logo, eindeutige Beschriftung | Sichtprüfung bestanden; „Schema – nicht Originaletikett“. |
+| Eigenes System anlegen/teilen, ungeprüft getrennt | Implementierung vorhanden und gezielte Rechte-/Interaktionstests bestanden; angemeldeter Live-Test einschließlich Fotos/Teilen bleibt offen. |
+| Ziehen/Magnet, falsches Teil, Kopf-Klick, Abschluss | Browser bestanden; alle vier Szenen im 17,87-s-Clip. |
+| Unterbrechbar, reduced motion, Profil-Ton/Haptik | Abbruch-/Haltetests und Reduced-Motion-Drag bestanden. Physische Vibration auf einem echten Mobilgerät nicht geprüft. |
+| Lint + Build | Beide Exit 0 nach der letzten Änderung. Ein bestehender Browserslist-Hinweis auf ältere Kompatibilitätsdaten bleibt, kein Buildfehler. |
+
+## Prüfungen und Bildschirmvideo
+
+Automatisiert: **34 Tests + 3 Katalogtests, 37 bestanden, 0 fehlgeschlagen**. Dies ist die gezielt ausgeführte Suite dieser Fortsetzung, keine erneute Ausführung aller früher genannten Tests.
+
+```bash
+node --test tools/tests/offline-standards.test.mjs tools/tests/motion.test.mjs tools/implant-tray.test.mjs tools/tests/implant-systems.test.mjs tools/tests/implant-interactions.test.mjs
+npx esbuild tools/implant-catalog.test.mjs --bundle --platform=node --format=esm --alias:@=./src --outfile=/tmp/implant-final-catalog-test.mjs
+node --test /tmp/implant-final-catalog-test.mjs
+npm run lint
+npm run build
+```
+
+Der Browserlauf verwendet das mit `tools/implant-preview.mjs` gebaute Bundle der tatsächlichen Komponenten, den echten Katalog-Snapshot und einen isolierten, flüchtigen Gruppen-/Eigene-Systeme-Adapter. Geprüft wurden 430 × 932 sowie Reduced Motion bei 390 × 844. Vollständiger Ablauf einschließlich Rücksetzen bestanden; der abschließende Lauf meldete keine Konsolen- oder Seitenfehler. Eine zuvor beobachtete SVG-Radiuswarnung beim Kopf wurde vor diesem Lauf behoben.
+
+**Video:** `kerlect-implantate-abnahme.mp4`, **17,87 Sekunden**, H.264/AAC, 430 × 1000 einschließlich Beschriftung. Vier aus dem tatsächlichen Browserlauf geschnittene Szenen, ohne Beschleunigung: Ziehen/Magnet, falsches Teil/Rückprall, Kopf/Klick, Abschlussdrehung. Audio enthält die echten App-Rückmeldungen des isolierten aktivierten Testprofils. Das Video ist im zugehörigen Chat bereitgestellt und ausdrücklich als isolierte UI-Abnahme beschriftet.
+
+SHA-256: `894a823d7bef35d668188b2c2cf24e203a1cfe4f68dcc965a0bb4eed78043647`.
+
+### Verbleibende Abnahmegrenzen
+
+- Angemeldeten Live-Lauf in Kerlect noch prüfen: reale Gruppe auswählen/speichern/neuladen, Standard-System speichern, eigenes System mit Foto anlegen und teilen, Entzug der Freigabe kontrollieren.
+- Physische Finger-/Haptikprüfung auf Zielgerät noch ausstehend.
+- Fehlende oder nicht verifizierte Herstellerdaten bleiben als solche erkennbar. Der Code ersetzt keine ausstehende Ergänzung/Prüfung der JSON-Quellen.
+- Kein Publish und keine produktive Patientendokumentation durchgeführt.
+
+---
+
+# Historie vor dieser Fortsetzung
+
 # 07.10.2026 – Fortsetzung: System im Standard und eigene Implantatsysteme
 
 **Implementierung gesichert, 101 Tests sowie Lint/Build grün. Vollständige visuelle/live Abnahme noch offen. Kein Publish.**
