@@ -1,6 +1,6 @@
-# 001 – Perplexity-Auftrag (von Claude)
+# 001 – Quellen-Auftrag (von Claude) – für Grok
 
-_Lauf 001, Start 07.10.2026 · Haus-Systeme laut Julian (07.10.2026, korrigiert). Ergebnis bitte als eigene Datei `pruefung/001-perplexity.md`. Nur Fundstellen, keine Werte._
+_Lauf 001, Start 07.10.2026 · Haus-Systeme laut Julian (07.10.2026, korrigiert). Grok sucht diese Quellen im Rahmen seiner Prüfung selbst (Ergebnis in `pruefung/001-grok.md`, Abschnitt „Quellen“). Was nicht gefunden wird: „nicht gefunden“ – daraus macht Claude am Laufende einen Perplexity-Prompt für Julian._
 
 ## Haus-Systeme (Julian, Auswahlliste 07.10.2026) – genau diese Komponenten
 **Regel: Systeme nicht mischen.** Je System nur, was der Hersteller dafür vorsieht. Duokopf wird mit dem zementierten Schaft desselben Systems verwendet.
@@ -16,6 +16,6 @@ Je Komponente gesucht: EU-OP-Technik, EU-IFU, Größen-/Katalogübersicht, Kompa
 
 Zusätzlich: Rückrufe/Sicherheitsmeldungen (BfArM, FDA) zu diesen Systemen.
 
-## Ausgabeformat (`pruefung/001-perplexity.md`)
+## Ausgabeformat (Abschnitt „Quellen“ in `pruefung/001-grok.md`)
 | Hersteller | System | Komponente | Dokumenttyp | Titel | Dokumentnr./Revision | Stand | Markt (EU/US/JP) | Direkter PDF-Link | Seite mit Größen/Kompatibilität | Login nötig? |
 Nicht Gefundenes: „nicht gefunden“. Keine Händler/Foren/Studienseiten als Ersatz. Keine Werte zusammenfassen. Keine Kombinationen ableiten.

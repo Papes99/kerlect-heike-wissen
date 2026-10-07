@@ -19,10 +19,10 @@
 
 Ablauf (ab 07.10.2026). **Jede Datei bearbeitet nur ihr Ersteller – keiner verändert fremde Dateien.** Dateinamen ohne Versionsnummer.
 1. **Claude** schreibt `pakete/NNN-basis.json` + `.md` (das Paket; Abschnitt „Zur Prüfung in dieser Runde“) und setzt in `pruefung/STATUS.json` `runde: grok`.
-1b. Braucht Claude Implantat-Quellen, legt Claude zusätzlich `pakete/NNN-perplexity-auftrag.md` an → **Perplexity** schreibt `pruefung/NNN-perplexity.md` (nur Quellenliste offizieller Herstellerdokumente mit Link/Seite, keine Werte).
-2. **Grok** schreibt `pruefung/NNN-grok.md` (Änderungsvorschläge; liest die Perplexity-Quellen mit).
+1b. Braucht es Implantat-Quellen, legt Claude zusätzlich `pakete/NNN-quellen-auftrag.md` an.
+2. **Grok** schreibt `pruefung/NNN-grok.md` (Änderungsvorschläge; sucht die Quellen aus dem Quellen-Auftrag selbst, Nicht Gefundenes als „nicht gefunden“).
 3. **Astra** liest alles, ändert nichts, schreibt `pruefung/NNN-astra.md` (Änderungsvorschläge wie Grok; Grok-Punkte, die Astra genauso übernehmen würde, bestätigt sie ausdrücklich, plus eigene).
-4. **Claude** liest alle drei (Basis, Grok, Astra), prüft kritisch mit und schickt Julian im Chat die **Änderungsliste: was Claude übernehmen würde, was nicht und warum** (`runde: julian`).
+4. **Claude** liest alle drei (Basis, Grok, Astra), prüft kritisch mit und schickt Julian im Chat die **Änderungsliste: was Claude übernehmen würde, was nicht und warum** (`runde: julian`). Am Ende der Liste: **fertiger Perplexity-Prompt** für alles, was nicht gefunden wurde – Julian kopiert ihn zu Perplexity und das Ergebnis zurück in den Chat (`eingang/`).
 5. **Julian** sagt ok bzw. korrigiert → Claude baut ein und macht daraus **eine Abschlussdatei** `pakete/NNN-abschluss.md` (oben lesbar, unten JSON für die App); die basis-Dateien verschwinden.
 6. **Grok** und **Astra** löschen danach jeweils ihre eigene Datei → übrig bleibt nur `NNN-basis`. Nächstes Paket nur auf Julians Wort.
 
