@@ -35,6 +35,10 @@ _Anweisung für Astra (Umsetzung in der Heike-App) · Claude, 07.10.2026_
 3. Gibt es für eine Kombination **keine** Angabe: zeigen mit Badge „offen – Operateur fragen“. Nie selbst ableiten.
 4. Gesuchtes/gescanntes Teil aus anderer Datei → Screen 6.
 
+## Umgesetzt aus `pruefung/app-astra.md` (A6)
+- Nichts vorbelegt: Pfanne, Schaft, Kopf-Ø und Offset sind leer, bis die Pflegekraft am Rad dreht bzw. antippt; „Übernehmen“ bis dahin gesperrt.
+- Für Stryker gibt es nur „gehört zum System“, kein pauschales „passt“; fehlende Paarungsangaben bleiben „offen – Operateur fragen“.
+
 ## Bedienung und Animation (physikalisch, „satisfying“)
 Alle Bewegungen laufen über **Federn** (Masse-Feder-Dämpfer, x'' = −k·(x−Ziel) − c·v), nicht über feste Zeitkurven. Werte aus dem Prototyp:
 

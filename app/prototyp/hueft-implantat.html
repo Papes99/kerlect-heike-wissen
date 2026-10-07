@@ -187,7 +187,7 @@ header .sp{flex:1}
           <div class="lbl">Größe vom Etikett einstellen</div>
           <div class="wheelwrap" style="margin-top:10px">
             <div class="wheel" id="wCup" tabindex="0" aria-label="Pfannengröße in mm"><div class="col"></div><div class="fade"></div></div>
-            <div class="wheelinfo"><b id="cupVal">52 mm</b>Drehen wie am Rad.<br>Größenreihe noch nicht hinterlegt – Zahl vom Etikett.</div>
+            <div class="wheelinfo"><b id="cupVal">– mm</b>Drehen wie am Rad.<br>Größenreihe noch nicht hinterlegt – Zahl vom Etikett.</div>
           </div>
         </div>
         <div class="heike"><div class="av">H</div><div>Erst die <b>Probe</b>. Die definitive Pfanne öffnest du erst, wenn der Operateur die Größe ansagt. Größe laut wiederholen.</div></div>
@@ -217,7 +217,7 @@ header .sp{flex:1}
           <div class="lbl" style="margin-top:14px">Größe vom Etikett</div>
           <div class="wheelwrap" style="margin-top:10px">
             <div class="wheel" id="wStem" tabindex="0" aria-label="Schaftgröße"><div class="col"></div><div class="fade"></div></div>
-            <div class="wheelinfo"><b id="stemVal">Gr. 4</b>Größenreihe noch nicht hinterlegt.</div>
+            <div class="wheelinfo"><b id="stemVal">Gr. –</b>Größenreihe noch nicht hinterlegt.</div>
           </div>
         </div>
       </section>
@@ -229,7 +229,7 @@ header .sp{flex:1}
           <div class="lbl">Material</div>
           <div class="segm" id="segMat" style="margin-top:10px"><div class="knob"></div><button class="on" data-v="cer">BIOLOX delta</button><button data-v="cocr" disabled>CoCr (LFIT) · offen</button></div>
           <div class="lbl" style="margin-top:14px">Durchmesser</div>
-          <div class="segm" id="segD" style="margin-top:10px"><div class="knob"></div><button data-v="28">28 mm</button><button data-v="32">32 mm</button><button class="on" data-v="36">36 mm</button></div>
+          <div class="segm" id="segD" style="margin-top:10px"><div class="knob"></div><button data-v="28">28 mm</button><button data-v="32">32 mm</button><button data-v="36">36 mm</button></div>
           <div class="lbl" style="margin-top:14px">Offset (Halslänge)</div>
           <div class="chips" id="offs" style="margin-top:10px"></div>
           <div class="ref" style="margin-top:10px">Quelle ACCII-SP-1 S. 12 · REF vom Etikett</div>
@@ -293,11 +293,11 @@ function pressable(el){ const s=new Spring(1,{k:420,c:20,onUpdate:v=>el.style.tr
   el.addEventListener('pointerdown',()=>s.to(0.95)); ['pointerup','pointerleave','pointercancel'].forEach(e=>el.addEventListener(e,()=>s.to(1,2.2))); return s; }
 
 /* --- Zustand --- */
-const st = { sys:null, cup:52, liner:false, ccd:'132° Standard', stem:4, d:36, off:0, checks:[false,false,false,false,false] };
+const st = { sys:null, cup:null, liner:false, ccd:'132° Standard', stem:null, d:null, off:null, checks:[false,false,false,false,false] };
 const OFFS = {28:[-4,-2.7,0,4], 32:[-4,0,4], 36:[-5,-2.5,0,2.5,5,7.5]}; // ACCII-SP-1 S. 12
 let ready=false;
 const T=['Implantat-Tablett','Pfanne','Inlay','Schaft','Kopf','Ansage-Check','Fertig'];
-const fmt = n => (n>0?'+':n<0?'−':'')+String(Math.abs(n)).replace('.',',');
+const fmt = n => n==null?'–': (n>0?'+':n<0?'−':'')+String(Math.abs(n)).replace('.',',');
 
 /* --- Pager --- */
 const vp=document.getElementById('vp'), track=document.getElementById('track'), N=track.children.length;
@@ -340,10 +340,9 @@ function wheel(el, values, start, onPick){
   el.addEventListener('pointerdown',e=>{ el.setPointerCapture(e.pointerId); d={y:e.clientY,s:sp.x,t:performance.now(),ly:e.clientY,v:0}; el.style.cursor='grabbing'; });
   el.addEventListener('pointermove',e=>{ if(!d) return; const now=performance.now(); d.v=(e.clientY-d.ly)/Math.max(1,now-d.t)*1000; d.ly=e.clientY; d.t=now;
     let y=d.s+(e.clientY-d.y); const min=-(values.length-1)*H; if(y>0) y*=0.4; if(y<min) y=min+(y-min)*0.4; sp.set(y); });
-  const end=()=>{ if(!d) return; const proj=sp.x+d.v*0.22; const n=Math.max(0,Math.min(values.length-1,Math.round(-proj/H))); sp.to(-n*H, d.v); d=null; el.style.cursor='grab'; };
+  const end=()=>{ if(!d) return; const proj=sp.x+d.v*0.22; const n=Math.max(0,Math.min(values.length-1,Math.round(-proj/H))); sp.to(-n*H, d.v); onPick(values[n]); d=null; el.style.cursor='grab'; };
   el.addEventListener('pointerup',end); el.addEventListener('pointercancel',end);
-  el.addEventListener('keydown',e=>{ if(e.key==='ArrowDown'||e.key==='ArrowUp'){ e.preventDefault(); const n=Math.max(0,Math.min(values.length-1,idx+(e.key==='ArrowDown'?1:-1))); sp.to(-n*H); } });
-  onPick(start);
+  el.addEventListener('keydown',e=>{ if(e.key==='ArrowDown'||e.key==='ArrowUp'){ e.preventDefault(); const n=Math.max(0,Math.min(values.length-1,idx+(e.key==='ArrowDown'?1:-1))); sp.to(-n*H); onPick(values[n]); } });
 }
 const mm=[]; for(let i=40;i<=72;i++) mm.push(i);
 wheel(document.getElementById('wCup'), mm, 52, v=>{ st.cup=v; cupVal.textContent=v+' mm'; ui(); });
@@ -352,16 +351,16 @@ wheel(document.getElementById('wStem'), gr, 4, v=>{ st.stem=v; stemVal.textConte
 
 /* --- Segment-Schalter mit federndem Knopf --- */
 function segm(el,onPick){ const knob=el.querySelector('.knob'), bs=[...el.querySelectorAll('button')];
-  const pos=b=>[b.offsetLeft,b.offsetWidth]; let [x0,w0]=pos(el.querySelector('button.on'));
+  const pos=b=>[b.offsetLeft,b.offsetWidth]; const cur=()=>el.querySelector('button.on'); knob.style.opacity=cur()?1:0; let [x0,w0]=pos(cur()||bs[0]);
   const sx=new Spring(x0,{k:300,c:24,onUpdate:x=>knob.style.transform=`translateX(${x}px)`}), sw=new Spring(w0,{k:300,c:24,onUpdate:w=>knob.style.width=w+'px'});
-  bs.forEach(b=>{ pressable(b); b.addEventListener('click',()=>{ if(b.disabled) return; bs.forEach(x=>x.classList.toggle('on',x===b)); const [x,w]=pos(b); sx.to(x); sw.to(w); buzz(8); onPick(b.dataset.v); }); });
-  new ResizeObserver(()=>{ const [x,w]=pos(el.querySelector('button.on')); sx.set(x); sw.set(w); }).observe(el);
+  bs.forEach(b=>{ pressable(b); b.addEventListener('click',()=>{ if(b.disabled) return; bs.forEach(x=>x.classList.toggle('on',x===b)); const [x,w]=pos(b); sx.to(x); sw.to(w); buzz(8); knob.style.opacity=1; onPick(b.dataset.v); }); });
+  new ResizeObserver(()=>{ const [x,w]=pos(cur()||bs[0]); sx.set(x); sw.set(w); }).observe(el);
 }
 segm(segCcd,v=>{ st.ccd=v; ui(); });
 segm(segMat,()=>{});
-segm(segD,v=>{ st.d=+v; if(!OFFS[st.d].includes(st.off)) st.off=0; headR.to({28:19,32:21.5,36:24}[st.d]); renderOffs(); ui(); });
+segm(segD,v=>{ st.d=+v; if(!OFFS[st.d].includes(st.off)) st.off=null; headR.to({28:19,32:21.5,36:24}[st.d]); renderOffs(); ui(); });
 
-function renderOffs(){ offs.innerHTML=OFFS[st.d].map(o=>`<button class="chip${o===st.off?' on':''}" data-o="${o}">${fmt(o)}${o===st.off?'<small>gewählt</small>':''}</button>`).join('');
+function renderOffs(){ if(!st.d){ offs.innerHTML='<span class="mini">Erst den Durchmesser wählen, den der Operateur ansagt.</span>'; return; } offs.innerHTML=OFFS[st.d].map(o=>`<button class="chip${o===st.off?' on':''}" data-o="${o}">${fmt(o)}${o===st.off?'<small>gewählt</small>':''}</button>`).join('');
   offs.querySelectorAll('.chip').forEach(c=>{ const s=pressable(c); c.addEventListener('click',()=>{ st.off=+c.dataset.o; buzz(10); renderOffs(); const n=offs.querySelector('.on'); const s2=new Spring(0.85,{k:500,c:14,onUpdate:v=>n.style.transform=`scale(${v})`}); s2.to(1); ui(); }); }); }
 renderOffs();
 
@@ -388,15 +387,15 @@ document.querySelectorAll('.chk').forEach((c,i)=>{ const box=c.querySelector('.b
 const fill=next.querySelector('.fill'); let holdT=null, held=0;
 const holdS=new Spring(0,{k:200,c:22,onUpdate:v=>fill.style.transform=`scaleX(${v})`});
 pressable(next); pressable(back);
-function canNext(){ return [()=>!!st.sys,()=>true,()=>st.liner,()=>true,()=>true,()=>st.checks.every(Boolean),()=>true][page](); }
+function canNext(){ return [()=>!!st.sys,()=>st.cup!=null,()=>st.liner,()=>st.stem!=null,()=>st.d!=null&&st.off!=null,()=>st.checks.every(Boolean),()=>true][page](); }
 let justHeld=false;
 next.addEventListener('pointerdown',()=>{ if(page!==5||!canNext()) return; const t0=performance.now(); const tick=now=>{ held=Math.min(1,(now-t0)/1100); fill.style.transform=`scaleX(${held})`; holdS.x=held; if(held>=1){ holdT=null; justHeld=true; buzz([15,30,40]); holdS.set(0); go(6); return;} holdT=requestAnimationFrame(tick); }; holdT=requestAnimationFrame(tick); });
 ['pointerup','pointerleave','pointercancel'].forEach(ev=>next.addEventListener(ev,()=>{ if(holdT){ cancelAnimationFrame(holdT); holdT=null; holdS.to(0,-2);} }));
 next.addEventListener('click',()=>{ if(justHeld){ justHeld=false; return;} if(page===5) return; if(page===6){ reset(); return;} if(!canNext()){ shake(next); return;} go(page+1); });
 back.addEventListener('click',()=>go(page-1));
 
-function reset(){ Object.assign(st,{sys:null,liner:false,checks:[false,false,false,false,false]}); linerCard.style.borderColor=''; linerCard.style.background='';
-  document.querySelectorAll('.chk').forEach(c=>{ c.classList.remove('on'); c.querySelector('path').style.strokeDashoffset=20; }); badbox.hidden=true; go(0); }
+function reset(){ Object.assign(st,{sys:null,cup:null,stem:null,d:null,off:null,liner:false,checks:[false,false,false,false,false]}); linerCard.style.borderColor=''; linerCard.style.background='';
+  document.querySelectorAll('.chk').forEach(c=>{ c.classList.remove('on'); c.querySelector('path').style.strokeDashoffset=20; }); badbox.hidden=true; cupVal.textContent='– mm'; stemVal.textContent='Gr. –'; segD.querySelectorAll('button').forEach(b=>b.classList.remove('on')); segD.querySelector('.knob').style.opacity=0; renderOffs(); go(0); }
 
 /* --- Toast --- */
 const toastEl=document.getElementById('toast');
@@ -407,16 +406,16 @@ function toast(msg){ toastEl.textContent=msg; tS.to(0); clearTimeout(tT); tT=set
 function ui(){ if(!ready) return;
   eyebrow.textContent = st.sys ? `Hüft-TEP · ${st.sys}` : 'Heike · Hüft-TEP';
   title.textContent = T[page];
-  place('cup', st.sys && page>=1); place('liner', st.liner && page>=2); place('stem', page>=3); place('head', page>=4);
+  place('cup', st.sys && page>=1); place('liner', st.liner && page>=2); place('stem', page>=3); place('head', page>=4 && st.d!=null);
   const done=[page>1,page>2,page>3,page>4,page>5];
   segSpr.forEach((s,i)=>s.to(done[i]?1:(page===i+1?0.5:0)));
   labs.forEach((l,i)=>l.classList.toggle('on',page===i+1||done[i]));
-  const tags=['Noch nichts gewählt',`<b>Pfanne ${st.cup} mm</b> wird eingesetzt`,st.liner?`<b>X3-Inlay</b> sitzt`:'Inlay antippen, wenn angereicht',`<b>Accolade II Gr. ${st.stem}</b> · ${st.ccd}`,`<b>Kopf ${st.d} mm ${fmt(st.off)}</b> auf V40-Konus`,'Alle Haken setzen, dann halten','<b>Fertig</b> – Etiketten kleben'];
+  const tags=['Noch nichts gewählt',st.cup==null?'Pfannengröße am Rad einstellen':`<b>Pfanne ${st.cup} mm</b> wird eingesetzt`,st.liner?`<b>X3-Inlay</b> sitzt`:'Inlay antippen, wenn angereicht',st.stem==null?'Schaftgröße am Rad einstellen':`<b>Accolade II Gr. ${st.stem}</b> · ${st.ccd}`,st.d==null?'Durchmesser wählen':`<b>Kopf ${st.d} mm ${fmt(st.off)}</b> auf V40-Konus`,'Alle Haken setzen, dann halten','<b>Fertig</b> – Etiketten kleben'];
   stageTag.innerHTML=tags[page];
   checkLead.textContent=`Kopf V40 BIOLOX delta · Ø ${st.d} mm · Offset ${fmt(st.off)}`;
   back.disabled = page===0;
   next.disabled = !canNext();
-  nextLbl.textContent = page===0?'System wählen':page===2&&!st.liner?'Inlay antippen':page===4?'Zum Ansage-Check':page===5?(canNext()?'Halten: steril anreichen':`Noch ${st.checks.filter(x=>!x).length} Haken`):page===6?'Neue OP':'Übernehmen →';
+  nextLbl.textContent = page===0?'System wählen':page===1&&st.cup==null?'Größe einstellen':page===2&&!st.liner?'Inlay antippen':page===3&&st.stem==null?'Größe einstellen':page===4&&!canNext()?'Ø und Offset wählen':page===4?'Zum Ansage-Check':page===5?(canNext()?'Halten: steril anreichen':`Noch ${st.checks.filter(x=>!x).length} Haken`):page===6?'Neue OP':'Übernehmen →';
   summary.innerHTML=[[`Trident II Tritanium`,`${st.cup} mm`],[`X3 Inlay`,`Variante vom Etikett`],[`Accolade II`,`Gr. ${st.stem} · ${st.ccd}`],[`V40 BIOLOX delta`,`Ø ${st.d} · ${fmt(st.off)}`]].map((r,i)=>`<div class="sum"><div class="n">${i+1}</div><div><div class="t">${r[0]} · ${r[1]}</div><div class="ref">REF ________ · Etikett geklebt ☐</div></div></div>`).join('');
 }
 addEventListener('resize',()=>pager.set(page));
