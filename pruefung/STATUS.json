@@ -84,5 +84,12 @@
    "Kopf": "ceramys, symarec, CoCr",
    "Duokopf (mit zementiertem Schaft)": "Mathys Bipolarkopf"
   }
- }
+ },
+ "eingang_offen": [
+  {
+   "datei": "eingang/001-perplexity-2.md",
+   "betrifft": "implantate/* (001)",
+   "hinweis": "Nachtrag nach Abschluss 001 v1.3 – im nächsten Lauf mit Implantatbezug von Grok/Astra am Original prüfen, erst dann einbauen"
+  }
+ ]
 }
