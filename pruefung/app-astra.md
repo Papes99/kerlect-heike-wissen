@@ -1,3 +1,18 @@
+# Spielzimmer, geschützte Wissensverwaltung und Implantat-Tabletts
+Stand 08.10.2026 · Kerlect Consumer · App 6aa3f64b0b23cc244ce7686d. Umsetzung gespeichert und geprüft; noch nicht live veröffentlicht. Die automatische Freigabeprüfung hat den konkreten Publish-Klick blockiert, weil sie eine ausdrückliche Nutzerfreigabe für diesen Live-Publish verlangt. Keine Umgehung; Freigabe von Julian ausstehend.
+
+Heikes Spielzimmer ist ein eigener Vollbildbereich innerhalb der bestehenden App. Die bisherige „Kleine Spielpause“ entfällt auf Start und bei Heike. Drei tatsächlich spielbare Angebote: Kugel-Kosmos mit 5/10/16 Kugeln, Ziehen/Werfen, Wirbel und Schwerkraft; Heike-Paare mit drei Leveln; Farb-Echo mit drei Leveln. Federanimationen, Feedback und Abschlusseffekte berücksichtigen reduzierte Bewegung. Bestwerte und Freischaltungen werden lokal je Nutzer gespeichert. Keine separate Store-App angelegt.
+
+Übergreifende abgerundete Mini-Tabletts und Komponentenansichten in eigenen, Gruppen- und Standard-Systemen sowie im Implantat-Tablett und in der Admin-Vorschau. Größe und Einzel-REF stehen je Variante zusammen; eine symbolische Einzelpackung lässt sich öffnen. Herstellerzuordnung, Quellen und Hinweise bleiben erhalten. Handyansicht mit einer Komponente pro Zeile, ohne innere Scrollfläche in der Größenreihe; REF und Größenangaben auf Packungen besser lesbar.
+
+Qualität vor Quantität: Alle elf vorhandenen Systemdateien sind derzeit ungeprüft und enthalten offene Datenfragen bzw. fehlende freigegebene Produktbilder. Daher null freigegebene Katalogsysteme. Neue Auswahl und Lageranlage unvollständiger Systeme sind gesperrt; bereits gespeicherte Zuordnungen bleiben erhalten. Implantat-Level (Komponente, REF, Größe) sind vorbereitet, aber bis zur vollständigen Freigabe gesperrt. Die gegenwärtigen Symbole sind ausdrücklich als Symbole gekennzeichnet; keine erfundenen Herstellerfotos und keine medizinischen Angaben ergänzt.
+
+Vollständige Pakete 000/001/002 liegen in „Profil → Heikes Wissensverwaltung“ nur für Admins. Backend prüft Anmeldung und Adminrolle. Öffentliche Runtime- und Offline-Bundles enthalten nur freigegebene Projektionen; der frühere offene Paketleser ist durch einen Admin-Hinweis ersetzt. Alter Rohdaten-Cache wird entfernt. Dies ändert nicht die Sichtbarkeit des weiterhin öffentlichen Wissens-Repositories und kann frühere Downloads nicht zurückholen. Live-Schutz ist erst nach Veröffentlichung dieses Standes aktiv.
+
+Prüfung: Lint und Build erfolgreich, 59 relevante Tests bestanden; nach UI-Politur 21 gezielte Regressionstests bestanden. Nach der letzten mobilen Packungsanpassung erneut Lint und Build erfolgreich. Mobile Browserprüfung: Kugelphysik mit 16 Kugeln und Wirbel, Paare-Level 1 mit Fehlversuch und vollständigem Abschluss, Farb-Echo-Level 1 vollständig, Freischaltung/Fortschritt, geschützter Admin-Abruf und exakte Einzelpackung geprüft. Keine neuen Google-Registrierungen und keine Gerätehaptik geprüft.
+
+Code-Checkpoint: 6ac6eb9d2449a84bf29ba500; Commit 7de491a9c6a9d741e7677db5b144b78213d6a169. Kerlect Kliniken und andere App-Kopien unverändert. Wissens-Repo ausschließlich pruefung/app-astra.md dokumentiert.
+
 # Heike im Vollbild und neues App-Icon
 Nach Julians Screenshot nachgebessert: Heike liegt als Portal direkt im Dokumentkörper und füllt die gesamte App-Fläche. Die Navigation und deren Reservierungsabstände entfallen während Heike geöffnet ist. Schlanker transparenter Kopf, Fortschritt und Fertig erst bei laufendem Standard, randlose Flächen, flache abgerundete Chips und eine schwebende gemeinsame Eingabe. Der sichtbare äußere Base44-Vorschaurahmen ist Editor-Oberfläche, kein App-Rand.
 
