@@ -1,3 +1,17 @@
+# Heike im Vollbild und neues App-Icon
+Nach Julians Screenshot nachgebessert: Heike liegt als Portal direkt im Dokumentkörper und füllt die gesamte App-Fläche. Die Navigation und deren Reservierungsabstände entfallen während Heike geöffnet ist. Schlanker transparenter Kopf, Fortschritt und Fertig erst bei laufendem Standard, randlose Flächen, flache abgerundete Chips und eine schwebende gemeinsame Eingabe. Der sichtbare äußere Base44-Vorschaurahmen ist Editor-Oberfläche, kein App-Rand.
+
+Heike trägt jetzt überall einen blauen OP-Mundschutz. Größere Augen mit Lichtpunkten, rosa Wangen, Blinzeln, sanftes Atmen, Blickbewegung und federnde Reaktionen auf Antippen/Denken. Reduzierte Bewegung wird berücksichtigt.
+
+Neues App-Icon mit derselben Figur und Mundschutz generiert; als Browser-Icon, Apple-Touch-Icon und PWA-Icons eingebunden (180, 192 und 512 Pixel; eigener sicherer Dateiname). Die verlustfreie Original-PNG mit 1254 × 1254 Pixeln wurde Julian als Datei bereitgestellt. Vorhandene Firmen- und Social-Grafiken erhalten.
+
+Prüfung: Lint und vollständiger Build grün. Mobile Vorschau 373 × 665 Pixel: Heike exakt bei x=0/y=0, volle Breite/Höhe, Rand 0, kein App-Navigationsmenü; Eingabe aktiviert Senden, Testtext wieder entfernt und nicht gesendet. Zurück bringt die Hauptnavigation zurück. Avatar mit Maske sichtbar, Antipp-Reaktion geprüft. Keine neuen Standards angelegt; keine echte Erstanmeldung oder Geräte-Installation getestet.
+
+Code-Checkpoint: 6ac6dd43dc72cd3e09d40ca9; Commit 762b9a57aed02598b639065ebe666e639878bc91. Veröffentlicht: Dashboard bestätigt „Ihre App ist live“. Neue Icon-Referenz /brand/heike-icon-192.png auf der Live-Anmeldeseite verifiziert. Vorheriger Fluid-Stand siehe unten.
+
+
+---
+
 # Fluid-Spielgefühl – aktueller Stand
 Veröffentlicht in Kerlect (App 6aa3f64b0b23cc244ce7686d). Das Dashboard bestätigt „Ihre App ist live“.
 
