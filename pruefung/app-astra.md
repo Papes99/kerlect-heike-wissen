@@ -1,3 +1,23 @@
+# Heikes Tablet ersetzt das Spielzimmer – live
+Stand 08.10.2026 · Kerlect Consumer · App 6aa3f64b0b23cc244ce7686d. Auf Julians Freigabe „Oke mach das erstmal so“ umgesetzt und über das Dashboard veröffentlicht; Bestätigung „Ihre App ist live“.
+
+Vier funktionierende Arbeitsbereiche: Weitermachen mit zugänglichen, aktiven Standards; Heike fragen über den vorhandenen Standards-Assistenten im Vollbild; private Merkkarten; Einstieg in den bestehenden Tischaufbau. Helle Mint-/Creme-/Lavendelflächen, große Rundungen, federnde Karten und schwebende Schnellnavigation. Reihenfolge per Ziehgriff oder Pfeilen anpassbar, lokal je Konto gespeichert. Der bisherige Spielzimmer-Einstieg wurde ersetzt; alte /Spielzimmer-Links leiten auf /HeikeTablet weiter. Spiele und Level erscheinen nicht mehr. Historische Spielstände wurden nicht gelöscht.
+
+Merkkarten werden im Konto gespeichert: Titel, Text, Farbe und optionaler Standardbezug; Suche, Bearbeitung und wiederherstellbare Ablage. Die neue Entity TabletNote erlaubt nur Eigentümer-Lesezugriff und keine direkten Client-Schreibzugriffe. Backend prüft Anmeldung und Eigentümer, setzt Eigentümer serverseitig, validiert Eingaben und Standardzugriff, verhindert doppelte Anlage per client_key. Explizite Revisionen und bestehende Nutzer-Schreibsperre schützen gegen veraltete Änderungen; eine Plattform-Zeitstempelabweichung beim direkten Weiterbearbeiten wurde im Browser gefunden und durch explizite Revisionen behoben. Fremde Nutzer erhalten auch mit Adminrolle keinen Zugriff über diese Funktion. Ungespeicherte Entwürfe verwenden den bestehenden Verlassen-Schutz.
+
+Prüfung: Lint und Build grün; 18 gezielte Tests einschließlich bestehender Implantat-Zugriffsregeln. Nach Revisionskorrektur erneut Lint, Build und acht Tablet-Tests grün. Angemeldete mobile Vorschau: Testkarte angelegt, nach Neuladen vorhanden, bearbeitet, Standard zugeordnet, archiviert, wiederhergestellt und abschließend in der Ablage belassen. Reihenfolge über Pfeile geändert und nach Verlassen/Wiederöffnen erhalten, anschließend Ausgangsreihenfolge hergestellt. Vollbild-Heike bei 373 × 665 Pixeln mit x=0/y=0 und ohne horizontalen Überlauf geprüft. Alter Spielzimmer-Link öffnet Tablet. Tisch-Navigation funktioniert; die vorhandene 3D-WebGL-Ansicht kann in diesem Cloud-Browser nicht gerendert werden. Touch-Ziehen, echte Gerätehaptik, ein zweites reales Nutzerkonto und Offline-Notizen nicht getestet; keine Offline-Funktion für Merkkarten zugesagt.
+
+Veröffentlichter Code-Checkpoint: 6ac6f9af30d2d6fa8548ae70; Commit ae10d4e11c7539a70f77eb486b028ef80edc47e6.
+
+Zusätzlich drei visuelle Implantat-Entwürfe erstellt und im Chat gezeigt: 01 Implantat-Tablett, 02 Packungs-Galerie mit REF und Größe, 03 geführte Auswahl mit Heike. Nur Designskizzen mit ausdrücklich benannten Beispieldaten; keine Übernahme in Produktdaten und keine weitere Implantat-Umgestaltung. Entscheidung zur Richtung ausstehend. Bestehende Katalog-Freigaben und Wissenszugriffe unverändert. Kerlect Kliniken und andere Apps unverändert.
+
+Google-Doc-Abgleich weiterhin nicht ausgeführt: vorherige automatische Freigabeprüfung verlangte gesonderte Dokumentfreigabe; keine neue Freigabe erhalten und kein erneuter Schreibversuch.
+
+
+---
+
+# Historie – frühere Prüfstände
+
 # Spielzimmer, geschützte Wissensverwaltung und Implantat-Tabletts
 Stand 08.10.2026 · Kerlect Consumer · App 6aa3f64b0b23cc244ce7686d. Nach Julians ausdrücklicher Freigabe „Ja mach live“ veröffentlicht; Base44 bestätigt „Ihre App ist live“. Der frühere offene Paketleser wurde auch auf der Live-Domain geprüft und zeigt nur noch den Admin-Hinweis. Der Google-Doc-Abgleich bleibt durch die automatische Freigabeprüfung blockiert: „Ja mach live“ wurde nur als Publish-Freigabe gewertet; gesonderte Dokumentfreigabe ausstehend.
 
